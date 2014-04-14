@@ -1,0 +1,38 @@
+SWFoteCustom FEATURELOG
+
+This log covers what the long term goals are I'm shooting for. It does not cover changes made to reach those goals. For those see the Changelog. As features are made, they are removed from this list and added to the CUSTOMLOG which logs all changes I have made that separate this from stock FOTE.
+
+1. Finish Ability Levels 2.0
+	Goal Statement: Make abilities much more versatile when having a character of a certain class.
+	Individual Tasks:
+		A) Planning
+			Status: Done
+		B) Ability Bonuses Per Ability Per Race 
+			Status: Working
+		C) Ability Levels may go above 150
+			Status: Haven't Started
+		D) Define Secondary and Deficiency skills per Ability
+			Status: Working
+		
+2. Espionage Ability
+	Goal Statement: Make a class for espionage pursuits such as monitoring people with cameras and bugs.
+	Individual Tasks:
+		A) Planning
+			Status: Haven't Started
+			
+3. Merge Engineering and Technician
+	Goal Statement: These two classes being separate doesn't make a whole lot of sense. The goal is to merge them later on.
+	Individual Tasks:
+		A) Planning
+			Status: Haven't Started
+			
+4. Rework Slicer
+	Goal Statement: This comes after Espionage because some Slicer skills may be better as Espionage skills. Additionally, some slicer skills are traditionally overpowered in a play environment as they have no counter and some just don't make sense. The idea is to look at existing slicer skills, decide if they should be changed, moved or removed and then add new skills to further beef up the slicer class.
+	Individual Tasks:
+		A) Planning
+			Status: Haven't Started
+			
+5. Individual Humanoid Races
+	Goal Statement: Individualize each humanoid race. Echani, Hapan, Mandalorian, etc.
+	Individual Tasks:
+		A) None Started Yet
