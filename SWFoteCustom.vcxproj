@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD30DFCC-725B-4F15-91A3-004F5CD193DE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SWFoteCustom</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="CHANGELOG" />
+    <None Include="first.README" />
+    <None Include="force.README" />
+    <None Include="fote.README" />
+    <None Include="html\profiles\Admin.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="html\profiles\User.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="space.README" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="player\sitecount.cc" />
+    <ClCompile Include="src\11.c" />
+    <ClCompile Include="src\act_comm.c" />
+    <ClCompile Include="src\act_info.c" />
+    <ClCompile Include="src\act_move.c" />
+    <ClCompile Include="src\act_obj.c" />
+    <ClCompile Include="src\act_wiz.c" />
+    <ClCompile Include="src\boards.c" />
+    <ClCompile Include="src\bounty.c" />
+    <ClCompile Include="src\build.c" />
+    <ClCompile Include="src\clans.c" />
+    <ClCompile Include="src\color.c" />
+    <ClCompile Include="src\comm.c" />
+    <ClCompile Include="src\comments.c" />
+    <ClCompile Include="src\const.c" />
+    <ClCompile Include="src\db.c" />
+    <ClCompile Include="src\editor.c" />
+    <ClCompile Include="src\fight.c" />
+    <ClCompile Include="src\finfo.c" />
+    <ClCompile Include="src\force.c" />
+    <ClCompile Include="src\fskills.c" />
+    <ClCompile Include="src\functions.c" />
+    <ClCompile Include="src\handler.c" />
+    <ClCompile Include="src\hashstr.c" />
+    <ClCompile Include="src\hunter.c" />
+    <ClCompile Include="src\imc.c" />
+    <ClCompile Include="src\interp.c" />
+    <ClCompile Include="src\magic.c" />
+    <ClCompile Include="src\makeobjs.c" />
+    <ClCompile Include="src\marriage.c" />
+    <ClCompile Include="src\md5.c" />
+    <ClCompile Include="src\misc.c" />
+    <ClCompile Include="src\mud_comm.c" />
+    <ClCompile Include="src\mud_prog.c" />
+    <ClCompile Include="src\newarena.c" />
+    <ClCompile Include="src\pfiles.c" />
+    <ClCompile Include="src\planets.c" />
+    <ClCompile Include="src\player.c" />
+    <ClCompile Include="src\reset.c" />
+    <ClCompile Include="src\save.c" />
+    <ClCompile Include="src\ships.c" />
+    <ClCompile Include="src\shops.c" />
+    <ClCompile Include="src\skills.c" />
+    <ClCompile Include="src\slicers.c" />
+    <ClCompile Include="src\space.c" />
+    <ClCompile Include="src\special.c" />
+    <ClCompile Include="src\swskills.c" />
+    <ClCompile Include="src\tables.c" />
+    <ClCompile Include="src\tech.c" />
+    <ClCompile Include="src\track.c" />
+    <ClCompile Include="src\update.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bet.h" />
+    <ClInclude Include="src\color.h" />
+    <ClInclude Include="src\imc.h" />
+    <ClInclude Include="src\imccfg.h" />
+    <ClInclude Include="src\md5.h" />
+    <ClInclude Include="src\mud.h" />
+    <ClInclude Include="src\pfiles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Bugfixes.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
