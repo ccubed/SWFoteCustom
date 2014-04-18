@@ -2,13 +2,39 @@ SWFoteCustom CHANGELOG
 
 This changelog documents changes done per commit to the code base. It will note whether or not a compilation was attempted and whether or not it was successful.
 
-Commit from 4//2014
+Commit from 4/15/2014
+Compile Successful. Ran Successfully. Logged in successfully.
+
+-	Fixed up some tax rate code in shops.c.
+
+-	Finished Placevendor code. VNUMs 32667 - 32767 are reserved for player vendors. Please don't use them.
+
+-	Added a new field to SHOP_DATA to track whether or not a vendor is a player vendor. Fixed all pre-existing area files to conform to this change and changed Load/save shops to load/save this variable.
+
+-	Added an array of ints to CHAR_DATA to track owned vendor vnums.
+
+- 	A room flag dubbed Airless existed in the defined room flags in build.c but was not defined in mud.h. It was listed as flag 11. I added it to mud.h as flag 11.
+
+-	Increased the chances of rolling a forcer. Before the range was -1000, 20 easily making it a very low percentage chance of being a forcer. Now the range is -40, 20.
+
+-	If a forcer rolls 10+, they also start with the meditate skill trained to 1%. 10+ being considered a forcer able to manifest effects without training. Though they still can't learn force skills without a master. Maybe later.
+
+-	Newbies get 30,000 credits now.
+
+-	Max level per ability is now stored on the player object and calculated at creation. The max level function was changed to return this.
+
+-	The Max Level for any skill is calculated using the function calc_max_level in comm.c during character creation. It's based on stats and race.
+
+-	Literally fixed every warning and error that came up when trying to compile clean. (Except IMC. IMC is still throwing errors, don't care enough to fix it. Makefile has IMC disabled.)
+
+-	Fixed a bug where it would read the entire entry for a shop for trading flags when there were only 5. Set MAX_TRADE to 5 which is what is in the files.
+
+Commit from 4/14/2014
 Compile not attempted
+
 -	Added Industry Droid Race for an Engineering Droid Race (Idea in part from LOTJ's industry Droids)
 
 -	Added an ability_bonus struct to mud.h for holding ability bonuses per race. These are added to the base ability as bonus levels. (Loosely based on LOTJ)
-	| Humans are an exception. They receive no bonuses per ability, but instead they cannot start with less than 150 in their main class and 130 in their secondary. The rest are calculated as being 10 points less than the 40 others start at. In other words, if a human's primary skill is less than 150 after bonuses it will be set to 150. Secondary will be set to 130 if not higher or equal. All others start at 30 and receive stat bonuses as usual.
-	| Hapans are considered Humans but different enough to justify their own Race. All other humanoid races for now are rolled into Human.
 	
 - 	Secondary Skills are no longer chosen. The system assigns them.
 	| To facilitate this, see the Companion_Class struct in mud.h

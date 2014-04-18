@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -395,6 +397,8 @@ DO_FUN *skill_function( char *name )
             return do_buyhome;
          if( !str_cmp( name, "do_buyship" ) )
             return do_buyship;
+		 if( !str_cmp( name, "do_buyvendor" ) )
+			return do_buyvendor;
          if( !str_cmp( name, "do_barrel_roll" ) )
             return do_barrel_roll;
          break;
@@ -1900,6 +1904,8 @@ char *skill_name( DO_FUN * skill )
       return "do_buytroops";
    if( skill == do_buyhome )
       return "do_buyhome";
+   if (skill == do_buyvendor)
+	   return "do_buyvendor";
    if( skill == do_clanbuyship )
       return "do_clanbuyship";
    if( skill == do_clangiveship )
@@ -3642,7 +3648,7 @@ void load_commands(  )
 
          if( letter != '#' )
          {
-            bug( "Load_commands: # not found.", 0 );
+            bug( "Load_commands: # not found. Letter was " + letter, 0 );
             break;
          }
 

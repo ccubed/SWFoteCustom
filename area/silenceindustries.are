@@ -684,10 +684,10 @@ S
 
 
 #SHOPS
- 10502    0  0  0  0  0   120  90         0 23    ; SI Droid Shopkeeper
- 10503    0  0  0  0  0   120  90         0 23    ; Moko, the Ewok Bartender
- 10505    0  0  0  0  0   120  90         0 23    ; Droid SI-1132A
- 10506    0  0  0  0  0   120  90         0 23    ; Droid SI-1132B
+ 10502    0  0  0  0  0   120  90         0 23 0  ; SI Droid Shopkeeper
+ 10503    0  0  0  0  0   120  90         0 23 0  ; Moko, the Ewok Bartender
+ 10505    0  0  0  0  0   120  90         0 23 0  ; Droid SI-1132A
+ 10506    0  0  0  0  0   120  90         0 23 0  ; Droid SI-1132B
 0
 
 

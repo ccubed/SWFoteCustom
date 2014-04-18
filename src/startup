@@ -1,6 +1,7 @@
 #! /bin/csh -f
 
 set port = 1111
+echo Starting Sagas
 if ( "$1" != "" ) set port="$1"
 
 cd ../area

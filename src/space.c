@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -16,7 +18,7 @@ and players.
 
 Original SMAUG 1.4a written by Thoric (Derek Snider) with Altrag,
 Blodkai, Haus, Narn, Scryn, Swordbearer, Tricops, Gorog, Rennard,
-Grishnakh, Fireblade, and Nivek.
+Grishnakh, Fireblade, and Nivek
 
 Original MERC 2.1 code by Hatchet, Furey, and Kahn.
 
@@ -2762,7 +2764,6 @@ void fread_ship( SHIP_DATA * ship, FILE * fp )
    char buf[MAX_STRING_LENGTH];
    char *word;
    bool fMatch;
-   int dummy_number;
    int x1, x2;
    char *line;
 
@@ -2926,7 +2927,6 @@ void fread_ship( SHIP_DATA * ship, FILE * fp )
 
          case 'O':
             KEY( "Owner", ship->owner, fread_string( fp ) );
-            KEY( "Objectnum", dummy_number, fread_number( fp ) );
             break;
 
          case 'P':
@@ -5126,19 +5126,11 @@ void damage_ship_ch( SHIP_DATA * ship, int min, int max, CHAR_DATA * ch )
 
 void damage_ship_ch_ion( SHIP_DATA * ship, int min, int max, CHAR_DATA * ch )
 {
-   int sdamage, numloop, shields, range, schance;
+   int sdamage, shields, range, schance;
    long xp;
    //Used to store all systems damaged to then be displayed when done.
 
    sdamage = number_range( min, max );
-
-   /*
-    * Random # used for a loop. The loop will run through accordingly disabling a random system each time.
-    * Could disable as many as all 11 systems in one hit though highly unlikely.
-    *
-    */
-   numloop = number_range( 1, 7 );
-
 
    xp = ( exp_level( ch->skill_level[PILOTING_ABILITY] + 1 ) - exp_level( ch->skill_level[PILOTING_ABILITY] ) ) / 25;
    xp = UMIN( get_ship_value( ship ) / 100, xp );
@@ -5546,6 +5538,7 @@ void destroy_ship( SHIP_DATA * ship, CHAR_DATA * ch, char *reason )
       sprintf( buf, "%s%s", SHIP_DIR, ship->filename );
       remove( buf );
 
+	  extract_ship( ship );
       UNLINK( ship, first_ship, last_ship, next, prev );
       DISPOSE( ship );
 
@@ -5569,7 +5562,6 @@ bool ship_to_room( SHIP_DATA * ship, int vnum )
 
 void do_board( CHAR_DATA * ch, char *argument )
 {
-   ROOM_INDEX_DATA *fromroom;
    ROOM_INDEX_DATA *toroom;
    SHIP_DATA *ship;
 
@@ -5585,13 +5577,11 @@ void do_board( CHAR_DATA * ch, char *argument )
       return;
    }
 
-   if( IS_SET( ch->act, ACT_MOUNTED ) )
+   if (IS_SET(ch->act, ACT_MOUNTED))
    {
-      act( AT_PLAIN, "You can't go in there riding THAT.", ch, NULL, argument, TO_CHAR );
-      return;
+	   act(AT_PLAIN, "You can't go in there riding THAT.", ch, NULL, argument, TO_CHAR);
+	   return;
    }
-
-   fromroom = ch->in_room;
 
    if( ( toroom = get_room_index( ship->entrance ) ) != NULL )
    {
@@ -7134,7 +7124,7 @@ void do_openhatch( CHAR_DATA * ch, char *argument )
 
    argument = one_argument( argument, arg1 );
    argument = one_argument( argument, arg2 );
-   if( !arg1 || arg1[0] == '\0' || !str_cmp( argument, "hatch" ) )
+   if( arg1 == NULL || arg1[0] == '\0' || !str_cmp( argument, "hatch" ) )
    {
       ship = ship_from_entrance( ch->in_room->vnum );
       if( ship == NULL )
@@ -9989,13 +9979,12 @@ ch_ret drive_ship( CHAR_DATA * ch, SHIP_DATA * ship, EXIT_DATA * pexit, int fall
 {
    ROOM_INDEX_DATA *in_room;
    ROOM_INDEX_DATA *to_room;
-   ROOM_INDEX_DATA *from_room;
    ROOM_INDEX_DATA *original;
    char buf[MAX_STRING_LENGTH];
    char *txt;
    char *dtxt;
    ch_ret retcode;
-   short door, distance;
+   short door;
    bool drunk = FALSE;
    CHAR_DATA *rch;
    CHAR_DATA *next_rch;
@@ -10022,7 +10011,6 @@ ch_ret drive_ship( CHAR_DATA * ch, SHIP_DATA * ship, EXIT_DATA * pexit, int fall
    txt = NULL;
 
    in_room = get_room_index( ship->location );
-   from_room = in_room;
    if( !pexit || ( to_room = pexit->to_room ) == NULL )
    {
       if( drunk )
@@ -10033,7 +10021,6 @@ ch_ret drive_ship( CHAR_DATA * ch, SHIP_DATA * ship, EXIT_DATA * pexit, int fall
    }
 
    door = pexit->vdir;
-   distance = pexit->distance;
 
    if( IS_SET( pexit->exit_info, EX_WINDOW ) && !IS_SET( pexit->exit_info, EX_ISDOOR ) )
    {
@@ -10254,26 +10241,6 @@ ch_ret drive_ship( CHAR_DATA * ch, SHIP_DATA * ship, EXIT_DATA * pexit, int fall
       char_to_room( rch, original );
    }
 
-/*
-    if (  CHECK FOR FALLING HERE
-    &&   fall > 0 )
-    {
-	if (!IS_AFFECTED( ch, AFF_FLOATING )
-	|| ( ch->mount && !IS_AFFECTED( ch->mount, AFF_FLOATING ) ) )
-	{
-	  set_char_color( AT_HURT, ch );
-	  send_to_char( "OUCH! You hit the ground!\n\r", ch );
-	  WAIT_STATE( ch, 20 );
-	  retcode = damage( ch, ch, 50 * fall, TYPE_UNDEFINED );
-	}
-	else
-	{
-	  set_char_color( AT_MAGIC, ch );
-	  send_to_char( "You lightly float down to the ground.\n\r", ch );
-	}
-    }
-
-*/
    return retcode;
 
 }

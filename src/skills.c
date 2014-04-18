@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -1300,7 +1302,7 @@ void learn_from_failure( CHAR_DATA * ch, int sn )
       if( !ch->fighting && sn != gsn_hide && sn != gsn_sneak )
       {
          set_char_color( AT_WHITE, ch );
-         ch_printf( ch, "You learn a little from your mistakes.\n\r" );
+         ch_printf( ch, "You gain %d from your failure.\n\r",gain );
       }
    }
 }
@@ -1661,7 +1663,7 @@ void do_search( CHAR_DATA * ch, char *argument )
    OBJ_DATA *container;
    OBJ_DATA *startobj;
    int percent, door;
-   bool found, room;
+   bool found;
 
    door = -1;
    switch ( ch->substate )
@@ -1721,7 +1723,6 @@ void do_search( CHAR_DATA * ch, char *argument )
    ch->substate = SUB_NONE;
    if( arg[0] == '\0' )
    {
-      room = TRUE;
       startobj = ch->in_room->first_content;
    }
    else

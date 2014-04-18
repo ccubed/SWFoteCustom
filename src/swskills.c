@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -2974,7 +2976,7 @@ void do_torture( CHAR_DATA * ch, char *argument )
       return;
    }
 
-   ch->alignment = ch->alignment -= 100;
+   ch->alignment -= 100;
    ch->alignment = URANGE( -1000, ch->alignment, 1000 );
 
    WAIT_STATE( ch, skill_table[gsn_torture]->beats );
@@ -4666,7 +4668,7 @@ void do_bribe( CHAR_DATA * ch, char *argument )
    CHAR_DATA *victim;
    PLANET_DATA *planet;
    CLAN_DATA *clan;
-   int percent, amount;
+   int amount;
 
    if( IS_NPC( ch ) || !ch->pcdata || !ch->pcdata->clan || !ch->in_room->area || !ch->in_room->area->planet )
    {
@@ -4769,7 +4771,7 @@ void do_bribe( CHAR_DATA * ch, char *argument )
 
    WAIT_STATE( ch, skill_table[gsn_bribe]->beats );
 
-   if( percent - amount + victim->top_level > ch->pcdata->learned[gsn_bribe] )
+   if( ch->pcdata->learned[gsn_bribe] - amount + victim->top_level > ch->pcdata->learned[gsn_bribe] )
       return;
 
    if( ( clan = ch->pcdata->clan->mainclan ) == NULL )

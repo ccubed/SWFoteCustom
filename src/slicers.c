@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -591,7 +593,6 @@ void do_inquire( CHAR_DATA * ch, char *argument )
    DESCRIPTOR_DATA *d;
    bool checkdata;
    OBJ_DATA *obj;
-   int x;
    long xpgain;
    char arg[MAX_INPUT_LENGTH];
    char buf[MAX_INPUT_LENGTH];
@@ -645,8 +646,6 @@ void do_inquire( CHAR_DATA * ch, char *argument )
    ch->substate = SUB_NONE;
 
    schance = IS_NPC( ch ) ? ch->top_level : ( int )( ch->pcdata->learned[gsn_inquire] );
-
-   x = number_percent(  );
 
    if( number_percent(  ) > schance * 2 )
    {
@@ -1299,7 +1298,7 @@ void do_disableship( CHAR_DATA * ch, char *argument )
    SHIP_DATA *ship1;
    SHIP_DATA *ship2;
    SHIP_DATA *ship;
-   int schance, x;
+   int schance;
    bool checkcomm, checkdata;
    char arg1[MAX_INPUT_LENGTH];
    char arg2[MAX_INPUT_LENGTH];
@@ -1328,9 +1327,7 @@ void do_disableship( CHAR_DATA * ch, char *argument )
          if( str_cmp( arg2, "primary" ) && str_cmp( arg2, "shields" ) && str_cmp( arg2, "launcher" )
              && str_cmp( arg2, "hyper" ) )
          {
-            send_to_char
-               ( "You need to pick a system to disable. Please choose either:\n\rprimary, shields, launcher, hyper.\n\r",
-                 ch );
+            send_to_char( "You need to pick a system to disable. Please choose either:\n\rprimary, shields, launcher, hyper.\n\r", ch );
             return;
          }
 
@@ -1464,7 +1461,6 @@ void do_disableship( CHAR_DATA * ch, char *argument )
    schance = IS_NPC( ch ) ? ch->top_level : ( int )( ch->pcdata->learned[gsn_disable] );
 
    ship = get_ship( arg1 );
-   x = number_percent(  );
 
    if( number_percent(  ) > schance * 2 || ( !checkdata ) || ( !checkcomm ) || ( !ship ) )
    {
@@ -1918,7 +1914,6 @@ void do_checkprints( CHAR_DATA * ch, char *argument )
    bool checkdata;
    bool checkcomm;
    OBJ_DATA *obj;
-   int x;
    long xpgain;
    char arg[MAX_INPUT_LENGTH];
    char buf[MAX_INPUT_LENGTH];
@@ -2040,7 +2035,6 @@ void do_checkprints( CHAR_DATA * ch, char *argument )
       send_to_char( "Error: No Killer. Contact Immortals.\n\r", ch );
       return;
    }
-   x = number_percent(  );
 
    if( number_percent(  ) > schance * 2 )
    {

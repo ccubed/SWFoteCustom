@@ -10284,14 +10284,14 @@ S
 
 
 #SHOPS
- 19001    0  0  0  0  0   120   0         0 23    ; Farrell the Bantha Cook
- 19002    0  0  0  0  0   120   0         0 23    ; Gillian
- 19003    0  0  0  0  0   120   0         0 23    ; A teenage clerk
- 19004    0  0  0  0  0   120   0         0 23    ; Gordon
- 19026    0  0  0  0  0   150   0         0 23    ; shopping droid
- 19029    0  0  0  0  0   120  90         0 23    ; a Duros store manager
- 19501    0  0  0  0  0   140  90         0 23    ; A verpine jewelry attendant
- 19502    0  0  0  0  0   120  90         0 23    ; TI-2033
+ 19001    0  0  0  0  0   120   0         0 23 0  ; Farrell the Bantha Cook
+ 19002    0  0  0  0  0   120   0         0 23 0  ; Gillian
+ 19003    0  0  0  0  0   120   0         0 23 0  ; A teenage clerk
+ 19004    0  0  0  0  0   120   0         0 23 0  ; Gordon
+ 19026    0  0  0  0  0   150   0         0 23 0  ; shopping droid
+ 19029    0  0  0  0  0   120  90         0 23 0  ; a Duros store manager
+ 19501    0  0  0  0  0   140  90         0 23 0  ; A verpine jewelry attendant
+ 19502    0  0  0  0  0   120  90         0 23 0  ; TI-2033
 0
 
 

@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -4409,7 +4411,6 @@ ch_ret spell_area_attack( int sn, int level, CHAR_DATA * ch, void *vo )
    bool saved;
    bool affects;
    int dam;
-   bool ch_died = FALSE;
    ch_ret retcode;
 
    send_to_char( "You feel the hatred grow within you!\n\r", ch );
@@ -4456,7 +4457,6 @@ ch_ret spell_area_attack( int sn, int level, CHAR_DATA * ch, void *vo )
          retcode = spell_affectchar( sn, level, ch, vch );
       if( retcode == rCHAR_DIED || char_died( ch ) )
       {
-         ch_died = TRUE;
          break;
       }
    }

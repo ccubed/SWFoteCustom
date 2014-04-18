@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -116,14 +118,14 @@ void do_buymobship( CHAR_DATA * ch, char *argument )
    bool found_proto = FALSE;
    AREA_DATA *tarea;
    CLAN_DATA *clan;
-   CLAN_DATA *mainclan;
+   //CLAN_DATA *mainclan; - currently not used. For subclans?
    SPACE_DATA *ssystem;
    PLANET_DATA *planet;
    bool fsys, fplan, fcap;
 
    argument = one_argument( argument, arg );
 
-   if( !arg || !argument )
+   if( arg == NULL || !argument )
    {
       send_to_char( "Usage: buymobship <ship type> <starsystem to be sent to>\n\r", ch );
       return;
@@ -139,7 +141,7 @@ void do_buymobship( CHAR_DATA * ch, char *argument )
       return;
    }
    clan = ch->pcdata->clan;
-   mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
+   //mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
 
    if( ( ch->pcdata->bestowments
          && is_name( "clanbuyship", ch->pcdata->bestowments ) ) || !str_cmp( ch->name, clan->leader ) )
@@ -150,7 +152,7 @@ void do_buymobship( CHAR_DATA * ch, char *argument )
       return;
    }
 
-   if( arg == NULL || !arg || arg[0] == '\0' )
+   if( arg == NULL || arg[0] == '\0' )
    {
       send_to_char( "\n\r&z+&W-----------------------------------------------------------------------------&z+\r\n", ch );
       send_to_char( "&W|&w                               Available ships                               &W|\r\n", ch );
@@ -294,7 +296,7 @@ void do_buymobship( CHAR_DATA * ch, char *argument )
       return;
    }
    clan = ch->pcdata->clan;
-   mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
+   //mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
 
    if( ( ch->pcdata->bestowments
          && is_name( "clanbuyship", ch->pcdata->bestowments ) ) || !str_cmp( ch->name, clan->leader ) )
@@ -396,7 +398,7 @@ void do_orderclanship( CHAR_DATA * ch, char *argument )
    bool found_proto = FALSE;
    AREA_DATA *tarea;
    CLAN_DATA *clan;
-   CLAN_DATA *mainclan;
+   //CLAN_DATA *mainclan; - currently not used. For sub clans?
 
    if( IS_NPC( ch ) || !ch->pcdata )
    {
@@ -410,7 +412,7 @@ void do_orderclanship( CHAR_DATA * ch, char *argument )
    }
 
    clan = ch->pcdata->clan;
-   mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
+   //mainclan = ch->pcdata->clan->mainclan ? ch->pcdata->clan->mainclan : clan;
 
    if( ( ch->pcdata->bestowments
          && is_name( "clanbuyship", ch->pcdata->bestowments ) ) || !str_cmp( ch->name, clan->leader ) )
@@ -867,7 +869,6 @@ SHIP_DATA *make_prototype_ship( int ship_type, int vnum, CHAR_DATA * ch, char *s
 {
    SHIP_DATA *ship;
    PROTO_ROOM *proom;
-   ROOM_INDEX_DATA *room;
    char sp_filename[MAX_STRING_LENGTH];
    CREATE( ship, SHIP_DATA, 1 );
    LINK( ship, first_ship, last_ship, next, prev );
@@ -926,7 +927,7 @@ SHIP_DATA *make_prototype_ship( int ship_type, int vnum, CHAR_DATA * ch, char *s
    {
       if( proom->what_prototype == ship_type )
       {
-         room = get_room_index( proom->room_num + vnum - 1 );
+         
          switch ( proom->room_type )
          {
             case SP_COCKPIT:
@@ -1552,7 +1553,6 @@ int load_prototype( char *prototypefile, int prototype )
 {
    char filename[256];
    FILE *fp;
-   bool found = FALSE;
    int stage = -1;
    bool ok = TRUE;
    char letter;
@@ -1562,7 +1562,6 @@ int load_prototype( char *prototypefile, int prototype )
 
    if( ( fp = fopen( filename, "r" ) ) != NULL )
    {
-      found = TRUE;
       prototype++;
       while( ok )
       {
@@ -1653,7 +1652,7 @@ void do_makeprototypeship( CHAR_DATA * ch, char *argument )
    SHIP_DATA *ship;
    int prototype;
    int cost;
-   int count;
+   int count = 0;
    char ship_name[MAX_STRING_LENGTH];
    char name[MAX_STRING_LENGTH];
    char sname[MAX_STRING_LENGTH];
@@ -1670,7 +1669,7 @@ void do_makeprototypeship( CHAR_DATA * ch, char *argument )
    argument = one_argument( argument, scost );
    argument = one_argument( argument, sname );
    strcpy( name, argument );
-   if( !ship_name || ship_name[0] == '\0' )
+   if( ship_name == NULL || ship_name[0] == '\0' )
    {
       send_to_char( "You must specify a valid ship name.\r\n", ch );
       send_to_char( "USAGE: makeprototypeship <ship name> <cost> <short name> <long name>\r\n", ch );
@@ -1683,7 +1682,7 @@ void do_makeprototypeship( CHAR_DATA * ch, char *argument )
       send_to_char( "USAGE: makeprototypeship <ship name> <cost> <short name> <long name>\r\n", ch );
       return;
    }
-   if( !sname || sname[0] == '\0' )
+   if( sname == NULL || sname[0] == '\0' )
    {
       send_to_char( "You must specify a short name for the ship.\r\n", ch );
       send_to_char( "USAGE: makeprototypeship <ship name> <cost> <short name> <long name>\r\n", ch );
@@ -1692,13 +1691,13 @@ void do_makeprototypeship( CHAR_DATA * ch, char *argument )
    len = strlen( sname );
    for( x = 0; x < len; x++ )
       sname[x] = UPPER( sname[x] );
-   if( !name || name[0] == '\0' )
+   if( name == NULL || name[0] == '\0' )
    {
       send_to_char( "You must specify a long name for the ship.\r\n", ch );
       send_to_char( "USAGE: makeprototypeship <ship name> <cost> <short name> <long name>\r\n", ch );
       return;
    }
-   if( !scost || scost[0] == '\0' )
+   if( scost == NULL || scost[0] == '\0' )
    {
       send_to_char( "You must specify a cost for the ship.\r\n", ch );
       send_to_char( "USAGE: makeprototypeship <ship name> <cost> <short name> <long name>\r\n", ch );
@@ -2124,7 +2123,6 @@ void save_market_list(  )
 void add_market_ship( SHIP_DATA * ship )
 {
    BMARKET_DATA *marketship;
-   bool found;
 
    if( !ship )
       return;
@@ -2133,8 +2131,7 @@ void add_market_ship( SHIP_DATA * ship )
    {
       if( !str_cmp( marketship->filename, ship->protoname ) )
       {
-         //Debugging  bug("Found, adding quantity", 0);
-         found = TRUE;
+   
          marketship->quantity++;
          return;
       }

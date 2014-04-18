@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -3202,8 +3204,7 @@ void do_retreat( CHAR_DATA * ch, char *argument )
    char buf[MAX_STRING_LENGTH];
    int edir, schance;
    EXIT_DATA *pexit;
-   EXIT_DATA *xit;
-
+   
    if( !who_fighting( ch ) )
    {
       if( ch->position == POS_FIGHTING )
@@ -3259,7 +3260,6 @@ void do_retreat( CHAR_DATA * ch, char *argument )
       return;
    }
 
-   xit = get_exit( ch->in_room, edir );
    was_in = ch->in_room;
 
    if( ( pexit = get_exit( ch->in_room, edir ) ) == NULL || !pexit->to_room )

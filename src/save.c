@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -9,7 +11,7 @@ Richard 'Bambua' Berrill (email unknown),
 Stuart 'Ackbar' Unknown (email unknown)
 
 SWR 1.0 copyright (c) 1997, 1998 was created by Sean Cooper
-based on a concept and ideas from the original SWR immortals: 
+based on a concept and ideas from the original SWR immortals 
 Himself (Durga), Mark Matt (Merth), Jp Coldarone (Exar), Greg Baily (Thrawn), 
 Ackbar, Satin, Streen and Bib as well as much input from our other builders 
 and players.
@@ -381,8 +383,8 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
    {
       int ability;
       for( ability = 0; ability < MAX_ABILITY; ability++ )
-         fprintf( fp, "Ability        %d %d %ld %d\n",
-                  ability, ch->skill_level[ability], ch->experience[ability], ch->bonus[ability] );
+         fprintf( fp, "Ability        %d %d %d %ld %d\n",
+                  ability, ch->skill_level[ability], ch->max_level[ability], ch->experience[ability], ch->bonus[ability] );
    }
    if( ch->act )
       fprintf( fp, "Act          %d\n", ch->act );
@@ -567,17 +569,15 @@ void fwrite_char( CHAR_DATA * ch, FILE * fp )
 
 
    //Save whether or not player has a vendor deed
-   if (ch->hasDeed)
-   {
+   fprintf(fp, "hasDeed       %d\n", ch->hasDeed);
 
-	   fprintf(fp, "hasDeed       %d\n", 1);
+   //Save Vendor Numbers
+   int i;
+   for (i = 0; i < 10; i++)
+	   fprintf(fp, "vendor       %d\n", ch->vendors[i]);
 
-   }
-   else{
-
-	   fprintf(fp, "hasDeed       %d\n", 0);
-
-   }
+   //Save total vendors
+   fprintf(fp, "vendorNum       %d\n", ch->vendorNum);
 
    /*
     * Save color values - Samson 9-29-98 
@@ -808,6 +808,9 @@ bool load_char_obj( DESCRIPTOR_DATA * d, char *name, bool preload )
    ch->pheight = 0;
    ch->build = 0;
    ch->hasDeed = 0; //add hasDeed flag to 0 for new player
+   for (i = 0; i < 10; i++) //zero vendors
+	   ch->vendors[i] = 0;
+   ch->vendorNum = 0; //no vendors for new players
 #ifdef IMC
    imc_initchar( ch );
 #endif
@@ -974,7 +977,8 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload )
    bool fMatch;
    int max_colors = 0;  /* Color code */
    time_t lastplayed;
-   int sn, extra;
+   int sn;
+   int vtrack = 0; //track vendor index
 
    file_ver = 0;
    killcnt = 0;
@@ -1025,11 +1029,12 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload )
             if( !str_cmp( word, "Ability" ) )
             {
                line = fread_line( fp );
-               x0 = x1 = x2 = x3 = 0;
-               sscanf( line, "%d %d %d %d", &x0, &x1, &x2, &x3 );
+               x0 = x1 = x2 = x3 = x4 = 0;
+               sscanf( line, "%d %d %d %d %d", &x0, &x1, &x4, &x2, &x3 );
                if( x0 >= 0 && x0 < MAX_ABILITY )
                {
                   ch->skill_level[x0] = x1;
+				  ch->max_level[x0] = x4;
                   ch->experience[x0] = x2;
                   ch->bonus[x0] = x3;
                }
@@ -1440,7 +1445,6 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload )
             KEY( "PKills", ch->pcdata->pkills, fread_number( fp ) );
             KEY( "Played", ch->played, fread_number( fp ) );
             KEY( "Position", ch->position, fread_number( fp ) );
-            KEY( "Practice", extra, fread_number( fp ) );
             KEY( "Prompt", ch->pcdata->prompt, fread_string( fp ) );
             if( !str_cmp( word, "PTimer" ) )
             {
@@ -1727,6 +1731,8 @@ void fread_char( CHAR_DATA * ch, FILE * fp, bool preload )
                break;
             }
             KEY( "Version", file_ver, fread_number( fp ) );
+			KEY( "vendorNum", ch->vendorNum, fread_number(fp));
+			KEY( "vendor", ch->vendors[vtrack++], fread_number(fp));
             break;
 
          case 'W':

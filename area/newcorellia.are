@@ -1727,11 +1727,11 @@ S
 
 
 #SHOPS
- 4904    0  0  0  0  0   120  90         0 23    ; A Selonian Shopkeeper
- 4905    0  0  0  0  0   120  90         0 23    ; Jerek Miv
- 4906    0  0  0  0  0   120  90         0 23    ; The Shopkeeper
- 4907    0  0  0  0  0   120  90         0 23    ; A Ryn Shopkeeper
- 4908    0  0  0  0  0   120  90         0 23    ; Drek
+ 4904    0  0  0  0  0   120  90         0 23 0  ; A Selonian Shopkeeper
+ 4905    0  0  0  0  0   120  90         0 23 0  ; Jerek Miv
+ 4906    0  0  0  0  0   120  90         0 23 0  ; The Shopkeeper
+ 4907    0  0  0  0  0   120  90         0 23 0  ; A Ryn Shopkeeper
+ 4908    0  0  0  0  0   120  90         0 23 0  ; Drek
 0
 
 

@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -119,8 +121,10 @@ void set_pager_input args( ( DESCRIPTOR_DATA * d, char *argument ) );
 bool pager_output args( ( DESCRIPTOR_DATA * d ) );
 
 
-
 void mail_count args( ( CHAR_DATA * ch ) );
+
+//custom function
+int calc_max_level args((CHAR_DATA * ch, int ability, int primary, int secondary));
 
 
 
@@ -281,15 +285,9 @@ void init_descriptor( DESCRIPTOR_DATA * dnew, int desc )
 
 int init_socket( int mudport )
 {
-   char hostname[64];
    struct sockaddr_in sa;
-   struct hostent *hp;
-   struct servent *sp;
    int x = 1;
    int fd;
-
-   gethostname( hostname, sizeof( hostname ) );
-
 
    if( ( fd = socket( AF_INET, SOCK_STREAM, 0 ) ) < 0 )
    {
@@ -320,8 +318,6 @@ int init_socket( int mudport )
    }
 #endif
 
-   hp = gethostbyname( hostname );
-   sp = getservbyname( "service", "mud" );
    memset( &sa, '\0', sizeof( sa ) );
    sa.sin_family = AF_INET;   /* hp->h_addrtype; */
    sa.sin_port = htons( mudport );
@@ -664,17 +660,18 @@ void new_descriptor( int new_desc )
    struct hostent *from;
    char *hostname;
    struct sockaddr_in sock;
-   size_t desc, size;
+   size_t desc;
+   socklen_t * size = malloc(sizeof(socklen_t));
 
    set_alarm( 20 );
-   size = sizeof( sock );
+   *size = sizeof( sock );
    if( check_bad_desc( new_desc ) )
    {
       set_alarm( 0 );
       return;
    }
    set_alarm( 20 );
-   if( ( desc = accept( new_desc, ( struct sockaddr * )&sock, &size ) ) < 0 )
+   if( ( desc = accept( new_desc, ( struct sockaddr * )&sock, size ) ) < 0 )
    {
       perror( "New_descriptor: accept" );
 /*	sprintf(bugbuf, "[*****] BUG: New_descriptor: accept");
@@ -1866,6 +1863,7 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
                 && !str_prefix( arg, ability_name[iClass] ) && str_prefix( arg, "force" ) )
             {
                ch->main_ability = iClass;
+			   ch->secondary_ability = Companion_Class_Table[iClass].secondary_class;
                break;
             }
          }
@@ -1875,59 +1873,11 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
             send_to_desc_color( "&zThat's not a skill class.\n\rWhat is it going to be? &w", d );
             return;
          }
-         send_to_desc_color( "\n\r&zPlease choose a secondary ability from the following classes:&w\n\r", d );
-         buf[0] = '\0';
-         col = 0;
-         for( iClass = 0; iClass < MAX_ABILITY; iClass++ )
-         {
-            if( ability_name[iClass] && ability_name[iClass][0] != '\0' && str_cmp( ability_name[iClass], "force" )
-                && ch->main_ability != iClass )
-            {
-
-               sprintf( buf2, "&R[&z%-15.15s&R]&w  ", ability_name[iClass] );
-               strcat( buf, buf2 );
-               if( ++col % 4 == 0 )
-               {
-                  strcat( buf, "\n\r" );
-                  send_to_desc_color( buf, d );
-                  buf[0] = '\0';
-               }
-
-            }
-         }
-         if( col % 4 != 0 )
-            strcat( buf, "\n\r" );
-         strcat( buf, "&z:&w " );
-
-         send_to_desc_color( buf, d );
-         d->connected = CON_GET_NEW_SECOND;
-         break;
-      case CON_GET_NEW_SECOND:
-         argument = one_argument( argument, arg );
-         if( !str_cmp( arg, "help" ) )
-         {
-            do_help( ch, argument );
-            send_to_desc_color( "&zPlease choose an ability class:&w ", d );
-            return;
-         }
-
-         for( iClass = 0; iClass < MAX_ABILITY; iClass++ )
-         {
-            if( toupper( arg[0] ) == toupper( ability_name[iClass][0] )
-                && !str_prefix( arg, ability_name[iClass] ) && str_prefix( arg, "force" ) && ch->main_ability != iClass )
-            {
-               ch->secondary_ability = iClass;
-               break;
-            }
-         }
-
-         if( iClass == MAX_ABILITY || !ability_name[iClass] || ability_name[iClass][0] == '\0' )
-         {
-            send_to_desc_color( "&zThat's not a skill class.\n\rWhat is it going to be?&w ", d );
-            return;
-         }
-
-         send_to_desc_color( "\n\r&zRolling stats...\n\r", d );
+    
+		 d->connected = CON_ROLL_STATS;
+		 send_to_desc_color("\n\r&zRolling stats...\n\r", d);
+		 break;
+         
       case CON_ROLL_STATS:
 
          ch->perm_str = number_range( 1, 6 ) + number_range( 1, 6 ) + number_range( 1, 6 );
@@ -2124,53 +2074,14 @@ void nanny( DESCRIPTOR_DATA * d, char *argument )
                return;
             }
          }
-/*  Changing this up a bit...automatically sets PLR_ANSI, skips want ansi/msp.
 
-	write_to_buffer( d, "\n\rWould you like ANSI or no graphic/color support, (R/A/N)? ", 0 ); */
          SET_BIT( ch->act, PLR_ANSI );
-/*	d->connected = CON_GET_WANT_RIPANSI;
-        break;
-        
-    case CON_GET_WANT_RIPANSI:
-	switch ( argument[0] )
-	{
-	case 'a': case 'A': SET_BIT(ch->act,PLR_ANSI);  break;
-	case 'n': case 'N': break;
-	default:
-	    write_to_buffer( d, "Invalid selection.\n\rANSI or NONE? ", 0 );
-	    return;
-	}
-        write_to_buffer( d, "Does your mud client have the Mud Sound Protocol? ", 0 );
-	d->connected = CON_GET_MSP; 
-	 break;
-          
 
-case CON_GET_MSP:
-	switch ( argument[0] )
-	{
-	case 'y': case 'Y': SET_BIT(ch->act,PLR_SOUND);  break;
-	case 'n': case 'N': break;
-	default:
-	    write_to_buffer( d, "Invalid selection.\n\rYES or NO? ", 0 );
-	    return;
-	}
-
-	if ( !sysdata.WAIT_FOR_AUTH )
-	{
-*/ sprintf( log_buf, "%s@%s new %s.", ch->name, d->host,
+		 sprintf( log_buf, "%s@%s new %s.", ch->name, d->host,
                race_table[ch->race].race_name );
          log_string_plus( log_buf, LOG_COMM, sysdata.log_level );
          to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
          send_to_desc_color( "\n\r&R&zWelcome to &RFall of the Empire&z. Press enter to continue.&w\n\r\n\r", d );
-         {
-            int ability;
-
-            for( ability = 0; ability < MAX_ABILITY; ability++ )
-            {
-               ch->skill_level[ability] = 0;
-               ch->bonus[ability] = 0;
-            }
-         }
          ch->top_level = 0;
          ch->position = POS_STANDING;
          // Threw in commfreq here, hope it doesn't fuck with anything
@@ -2182,82 +2093,13 @@ case CON_GET_MSP:
          d->connected = CON_PRESS_ENTER;
          return;
          break;
-/*	}
 
-	write_to_buffer( d, "\n\rYou now have to wait for a god to authorize you... please be patient...\n\r", 0 );
-	sprintf( log_buf, "(1) %s@%s new %s applying for authorization...",
-				ch->name, d->host,
-				race_table[ch->race].race_name);
-	log_string( log_buf );
-	to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
-	d->connected = CON_WAIT_1;
-	break;
-
-     case CON_WAIT_1:
-	write_to_buffer( d, "\n\rTwo more tries... please be patient...\n\r", 0 );
-	sprintf( log_buf, "(2) %s@%s new %s applying for authorization...",
-				ch->name, d->host,
-				race_table[ch->race].race_name);
-	log_string( log_buf );
-	to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
-	d->connected = CON_WAIT_2;
-	break;
-
-     case CON_WAIT_2:
-	write_to_buffer( d, "\n\rThis is your last try...\n\r", 0 );
-	sprintf( log_buf, "(3) %s@%s new %s applying for authorization...",
-				ch->name, d->host,
-				race_table[ch->race].race_name);
-	log_string( log_buf );
-	to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
-	d->connected = CON_WAIT_3;
-	break;
-
-    case CON_WAIT_3:
-	write_to_buffer( d, "Sorry... try again later.\n\r", 0 );
-	close_socket( d, FALSE );
-	return;
-	break;
-
-    case CON_ACCEPTED:
-
-	sprintf( log_buf, "%s@%s new %s.", ch->name, d->host,
-				race_table[ch->race].race_name);
-	log_string_plus( log_buf, LOG_COMM, sysdata.log_level );
-	to_channel( log_buf, CHANNEL_MONITOR, "Monitor", LEVEL_IMMORTAL );
-	write_to_buffer( d, "\n\r", 2 );
-	show_title(d);
-	    {
-	       int ability;
-	       
-	       for ( ability =0 ; ability < MAX_ABILITY ; ability++ )
-		{
-	          ch->skill_level[ability] = 0;
-		  ch->bonus[ability] = 0;
-		}
-	    }
-	ch->top_level = 0;
-	ch->position = POS_STANDING;
-	d->connected = CON_PRESS_ENTER;
-	break;
-*/
       case CON_PRESS_ENTER:
-/*	if ( IS_SET(ch->act, PLR_ANSI) )
-	  send_to_pager( "\033[2J", ch );
-	else
-	  send_to_pager( "\014", ch );*/
          if( ch->top_level >= 0 )
          {
             send_to_pager( "\n\r&WMessage of the Day&w\n\r", ch );
             do_help( ch, "motd" );
          }
-/* Uh, do we use this?
-	if ( IS_IMMORTAL(ch) )
-	{
-	  send_to_pager( "&WImmortal Message of the Day&w\n\r", ch );
-	  do_help( ch, "imotd" );
-	}
-*/
          send_to_pager( "\n\r&WPress [ENTER] &w", ch );
          d->connected = CON_READ_MOTD;
          break;
@@ -2265,14 +2107,6 @@ case CON_GET_MSP:
       case CON_READ_MOTD:
          write_to_buffer( d, "\n\r\n\r", 0 );
          add_char( ch );
-         /*
-          * if(ch->comfreq == NULL)
-          * {
-          * generate_com_freq(ch);
-          * sprintf(buf, "%s has no comfreq. Generating.", ch->name);
-          * log_string(buf);
-          * }
-          */
          sprintf( buf, " %s has entered the game.", ch->name );
          log_string_plus( buf, LOG_NORMAL, get_trust( ch ) );
          d->connected = CON_PLAYING;
@@ -2290,26 +2124,16 @@ case CON_GET_MSP:
             ch->pcdata->learned[gsn_scan] = 25;
 
             ch->perm_lck = number_range( 6, 18 );
-            ch->perm_frc = number_range( -1000, 20 );
+            ch->perm_frc = number_range( -100, 150 );
             ch->affected_by = race_table[ch->race].affected;
             ch->perm_lck += race_table[ch->race].lck_plus;
             ch->perm_frc += race_table[ch->race].frc_plus;
 
-            if( ch->main_ability == FORCE_ABILITY )
-               ch->perm_frc = URANGE( 0, ch->perm_frc, 20 );
-            else
-               ch->perm_frc = URANGE( 0, ch->perm_frc, 20 );
-
             if( ch->main_ability == HUNTING_ABILITY || ch->main_ability == ASSASSIN_ABILITY || IS_DROID( ch ) )
                ch->perm_frc = 0;
 
-            /*
-             * took out automaticly knowing basic
-             * if ( (iLang = skill_lookup( "basic" )) < 0 )
-             * bug( "Nanny: cannot find basic language." );
-             * else
-             * ch->pcdata->learned[iLang] = 100;
-             */
+			if (ch->perm_frc >= 10)
+				ch->pcdata->learned[skill_lookup("meditate")] = 1;
 
             for( iLang = 0; lang_array[iLang] != LANG_UNKNOWN; iLang++ )
                if( lang_array[iLang] == race_table[ch->race].language )
@@ -2344,24 +2168,76 @@ case CON_GET_MSP:
                }
             }
 
-            /*
-             * ch->resist           += race_table[ch->race].resist;    drats 
-             */
-            /*
-             * ch->susceptible     += race_table[ch->race].suscept;    drats 
-             */
-
             reset_colors( ch );
             name_stamp_stats( ch );
+
+			send_to_desc_color("&RDEBUG: Calculating Levels.&w", d);
 
             {
                int ability;
 
                for( ability = 0; ability < MAX_ABILITY; ability++ )
                {
-                  ch->skill_level[ability] = 1;
-                  ch->experience[ability] = 0;
-                  ch->bonus[ability] = 0;
+				   
+				   if (ability == ch->main_ability){
+
+					   ch->skill_level[ability] = 1;
+					   
+					   if (IS_DROID(ch)){
+
+						   ch->max_level[ability] = 200;
+
+					   }
+					   else{
+
+						   ch->max_level[ability] = calc_max_level(ch, ability, 1, 0);
+
+					   }
+					   
+				   }
+				   else if (ability == ch->secondary_ability){
+
+					   ch->skill_level[ability] = 1;
+
+					   if (IS_DROID(ch)){
+
+						   ch->max_level[ability] = 150;
+
+					   }
+					   else{
+
+						   ch->max_level[ability] = calc_max_level(ch, ability, 0, 1);
+
+					   }
+
+				   }
+				   else{
+
+					   if (IS_DROID(ch)){
+
+						   if (ability == PILOTING_ABILITY){
+
+							   ch->skill_level[ability] = 1;
+							   ch->max_level[ability] = 25;
+
+						   }
+						   else{
+
+							   ch->skill_level[ability] = 0;
+							   ch->max_level[ability] = 0;
+
+						   }
+
+					   }
+					   else{
+
+						   ch->skill_level[ability] = 1;
+						   ch->max_level[ability] = calc_max_level(ch, ability, 0, 0);
+
+					   }
+
+				   }
+
                }
             }
             ch->top_level = 1;
@@ -2379,7 +2255,7 @@ case CON_GET_MSP:
             /*
              * Newbies get some cash! - Tawnos 
              */
-            ch->gold = 10000;
+            ch->gold = 300000;
 
             /*
              * Added by Narn.  Start new characters with autoexit and autgold
@@ -2387,6 +2263,18 @@ case CON_GET_MSP:
              */
             SET_BIT( ch->act, PLR_AUTOGOLD );
             SET_BIT( ch->act, PLR_AUTOEXIT );
+
+			/*
+			 * Zero Vendors, Zero VendorNum, Zero HasDeed
+			 */
+			ch->vendorNum = 0;
+			ch->hasDeed = 0;
+			int i;
+			for (i = 0; i < 10; i++){
+
+				ch->vendors[i] = 0;
+
+			}
 
             /*
              * New players don't have to earn some eq 
@@ -2457,13 +2345,6 @@ case CON_GET_MSP:
          else if( ch->in_room && !IS_IMMORTAL( ch )
                   && IS_SET( ch->in_room->room_flags, ROOM_SPACECRAFT ) && ch->in_room != get_room_index( 6 ) )
          {
-            /*
-             * SHIP_DATA *ship;
-             * 
-             * for ( ship = first_ship; ship; ship = ship->next )
-             * if ( ch->in_room->vnum >= ship->firstroom && ch->in_room->vnum <= ship->lastroom )
-             * if ( ship->class != SHIP_PLATFORM || ship->starsystem ) 
-             */
             char_to_room( ch, ch->in_room );
          }
          else
@@ -2494,14 +2375,13 @@ case CON_GET_MSP:
             if( ( fph = fopen( filename, "r" ) ) != NULL )
             {
                int iNest;
-               bool found;
                OBJ_DATA *tobj, *tobj_next;
 
                rset_supermob( storeroom );
                for( iNest = 0; iNest < MAX_NEST; iNest++ )
                   rgObjNest[iNest] = NULL;
 
-               found = TRUE;
+               
                for( ;; )
                {
                   char letter;
@@ -2548,38 +2428,11 @@ case CON_GET_MSP:
             }
          }
 
-         {
-            int ability;
-
-            for( ability = 0; ability < MAX_ABILITY; ability++ )
-               if( ch->skill_level[ability] > max_level( ch, ability ) )
-                  ch->skill_level[ability] = max_level( ch, ability );
-         }
-
-//    act( AT_ACTION, "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
+         act( AT_ACTION, "$n has entered the game.", ch, NULL, NULL, TO_ROOM );
          do_look( ch, "auto" );
          mail_count( ch );
          break;
 
-         /*
-          * Far too many possible screwups if we do it this way. -- Altrag 
-          */
-/*        case CON_NEW_LANGUAGE:
-        for ( iLang = 0; lang_array[iLang] != LANG_UNKNOWN; iLang++ )
-		if ( !str_prefix( argument, lang_names[iLang] ) )
-			if ( can_learn_lang( ch, lang_array[iLang] ) )
-			{
-				add_char( ch );
-				SET_BIT( ch->speaks, lang_array[iLang] );
-				set_char_color( AT_SAY, ch );
-				ch_printf( ch, "You can now speak %s.\n\r", lang_names[iLang] );
-				d->connected = CON_PLAYING;
-				return;
-			}
-	set_char_color( AT_SAY, ch );
-	write_to_buffer( d, "You may not learn that language.  Please choose another.\n\r"
-				  "New language: ", 0 );
-	break;*/
    }
 
    return;
@@ -3795,4 +3648,99 @@ char *PERS( CHAR_DATA * ch, CHAR_DATA * looker )
       else
          return "someone";
    }
+}
+
+int calc_max_level(CHAR_DATA *ch, int ability, int primary, int secondary){
+
+	int templvl = 40;
+
+	if (primary)
+		templvl = 150;
+
+	if (secondary)
+		templvl = 130;
+
+
+	switch (ability){
+
+	case COMBAT_ABILITY:
+		templvl += (int)(ch->perm_str*.6);
+		templvl += (int)(ch->perm_con*.3);
+		templvl += race_ability_bonus[ch->race].Combat;
+		break;
+
+	case PILOTING_ABILITY:
+		templvl += (int)(ch->perm_dex*.6);
+		templvl += (int)(ch->perm_int*.3);
+		templvl += race_ability_bonus[ch->race].Piloting;
+		break;
+
+	case ENGINEERING_ABILITY:
+		templvl += (int)(ch->perm_int*.6);
+		templvl += (int)(ch->perm_dex*.3);
+		templvl += race_ability_bonus[ch->race].Engineering;
+		break;
+
+	case HUNTING_ABILITY:
+		templvl += (int)(ch->perm_str*.6);
+		templvl += (int)(ch->perm_con*.3);
+		templvl += race_ability_bonus[ch->race].Bounty_Hunting;
+		break;
+
+	case SMUGGLING_ABILITY:
+		templvl += (int)(ch->perm_lck*.6);
+		templvl += (int)(ch->perm_dex*.3);
+		templvl += race_ability_bonus[ch->race].Smuggling;
+		break;
+
+	case POLITICIAN_ABILITY:
+		templvl += (int)(ch->perm_cha*.6);
+		templvl += (int)(ch->perm_int*.3);
+		templvl += race_ability_bonus[ch->race].Politician;
+		break;
+
+	case FORCE_ABILITY:
+		if (ch->perm_frc > 0){
+
+			templvl += (int)(ch->perm_frc*.6);
+			templvl += (int)(ch->perm_wis*.3);
+			templvl += race_ability_bonus[ch->race].Force;
+			if (ch->perm_frc < templvl)
+				templvl = ch->perm_frc;
+
+		}
+		else{
+
+			templvl = 0;
+
+		}
+		break;
+
+	case SLICER_ABILITY:
+		templvl += (int)(ch->perm_wis*.6);
+		templvl += (int)(ch->perm_int*.3);
+		templvl += race_ability_bonus[ch->race].Slicer;
+		break;
+
+	case ASSASSIN_ABILITY:
+		templvl += (int)(ch->perm_dex*.6);
+		templvl += (int)(ch->perm_wis*.3);
+		templvl += race_ability_bonus[ch->race].Assassin;
+		break;
+
+	case TECHNICIAN_ABILITY:
+		templvl += (int)(ch->perm_int*.6);
+		templvl += (int)(ch->perm_wis*.3);
+		templvl += race_ability_bonus[ch->race].Technician;
+		break;
+
+	}
+
+	if (templvl > 200) //max level is 200
+		return 200;
+
+	if (templvl < 0) //protect us from force being negative
+		return 0;
+
+	return templvl;
 }

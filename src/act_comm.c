@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -2710,7 +2712,7 @@ void do_group( CHAR_DATA * ch, char *argument )
          send_to_char( "You have no eligible group members.\n\r", ch );
       else
       {
-         act( AT_ACTION, "$n groups $s followers.", ch, NULL, victim, TO_ROOM );
+         act( AT_ACTION, "$n groups $s followers.", ch, NULL, NULL, TO_ROOM );
          send_to_char( "You group your followers.\n\r", ch );
       }
       return;

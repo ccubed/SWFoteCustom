@@ -2756,13 +2756,13 @@ S
 
 
 #SHOPS
- 18004    0  0  0  0  0   120  90         0 23    ; William, the Cantina Bartender
- 18005    0  0  0  0  0   120  90         0 23    ; Gibson, Bakuran Short Order Cook
- 18010    0  0  0  0  0   120  90         0 23    ; Kraven the Armorer
- 18011    0  0  0  0  0   120  90         0 23    ; Johnny the Weaponsmith
- 18012    0  0  0  0  0   120  90         0 23    ; Biggs the Clerk
- 18013    0  0  0  0  0   120  90         0 23    ; Glynna Jenson
- 18018   75 75 75 75 75   120  75         0 23    ; Aaron Dyer
+ 18004    0  0  0  0  0   120  90         0 23 0  ; William, the Cantina Bartender
+ 18005    0  0  0  0  0   120  90         0 23 0  ; Gibson, Bakuran Short Order Cook
+ 18010    0  0  0  0  0   120  90         0 23 0  ; Kraven the Armorer
+ 18011    0  0  0  0  0   120  90         0 23 0  ; Johnny the Weaponsmith
+ 18012    0  0  0  0  0   120  90         0 23 0  ; Biggs the Clerk
+ 18013    0  0  0  0  0   120  90         0 23 0  ; Glynna Jenson
+ 18018   75 75 75 75 75   120  75         0 23 0  ; Aaron Dyer
 0
 
 

@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -1778,7 +1780,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
          return;
       }
 
-      if( !arg3 || arg3[0] == '\0' )
+      if( arg3 == NULL || arg3[0] == '\0' )
       {
          send_to_char( "Names can not be set to an empty string.\n\r", ch );
          return;
@@ -1828,7 +1830,7 @@ void do_mset( CHAR_DATA * ch, char *argument )
          return;
       }
 
-      if( !arg3 || arg3[0] == '\0' )
+      if( arg3 == NULL || arg3[0] == '\0' )
       {
          if( victim->pcdata->clan == NULL )
             return;
@@ -3032,7 +3034,7 @@ void do_oset( CHAR_DATA * ch, char *argument )
    {
       if( !can_omodify( ch, obj ) )
          return;
-      if( !argument || argument[0] == '\0' )
+      if( argument != NULL || argument[0] == '\0' )
       {
          send_to_char( "Usage: oset <object> type <type>\n\r", ch );
          send_to_char( "Possible Types:\n\r", ch );
@@ -3273,7 +3275,7 @@ void do_oset( CHAR_DATA * ch, char *argument )
       int bitv;
 
       argument = one_argument( argument, arg2 );
-      if( !arg2 || arg2[0] == '\0' || !argument || argument[0] == 0 )
+      if( arg2 == NULL || arg2[0] == '\0' || !argument || argument[0] == 0 )
       {
          send_to_char( "Usage: oset <object> affect <field> <value>\n\r", ch );
          send_to_char( "Affect Fields:\n\r", ch );
@@ -3392,7 +3394,7 @@ void do_oset( CHAR_DATA * ch, char *argument )
 
    if( !str_cmp( arg2, "ed" ) )
    {
-      if( !arg3 || arg3[0] == '\0' )
+      if( arg3 == NULL || arg3[0] == '\0' )
       {
          send_to_char( "Syntax: oset <object> ed <keywords>\n\r", ch );
          return;
@@ -3464,7 +3466,7 @@ void do_oset( CHAR_DATA * ch, char *argument )
 
    if( !str_cmp( arg2, "rmed" ) )
    {
-      if( !arg3 || arg3[0] == '\0' )
+      if( arg3 == NULL || arg3[0] == '\0' )
       {
          send_to_char( "Syntax: oset <object> rmed <keywords>\n\r", ch );
          return;
@@ -3910,10 +3912,11 @@ void do_redit( CHAR_DATA * ch, char *argument )
    char buf[MAX_STRING_LENGTH];
    ROOM_INDEX_DATA *location, *tmp;
    EXTRA_DESCR_DATA *ed;
-   char dir;
+   char dir = '\0';
    EXIT_DATA *xit, *texit;
    int value;
-   int edir, ekey, evnum;
+   int edir = 0;
+   int ekey, evnum;
    char *origarg = argument;
 
    if( !ch->desc )
@@ -4412,7 +4415,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
 
       argument = one_argument( argument, arg2 );
       argument = one_argument( argument, arg3 );
-      if( !arg2 || arg2[0] == '\0' )
+      if( arg2 == NULL || arg2[0] == '\0' )
       {
          send_to_char( "Create, change or remove an exit.\n\r", ch );
          send_to_char( "Usage: redit exit <dir> [room] [flags] [key] [keywords]\n\r", ch );
@@ -4433,7 +4436,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
             numnotdir = TRUE;
             break;
       }
-      if( !arg3 || arg3[0] == '\0' )
+      if( arg3 == NULL || arg3[0] == '\0' )
          evnum = 0;
       else
          evnum = atoi( arg3 );
@@ -4503,7 +4506,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
          }
       }
       argument = one_argument( argument, arg3 );
-      if( arg3 && arg3[0] != '\0' )
+      if( arg3 != NULL && arg3[0] != '\0' )
          xit->exit_info = atoi( arg3 );
       if( argument && argument[0] != '\0' )
       {
@@ -4539,7 +4542,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
 
       argument = one_argument( argument, arg2 );
       argument = one_argument( argument, arg3 );
-      if( !arg2 || arg2[0] == '\0' )
+      if( arg2 == NULL || arg2[0] == '\0' )
       {
          send_to_char( "Create, change or remove a two-way exit.\n\r", ch );
          send_to_char( "Usage: redit bexit <dir> [room] [flags] [key] [keywords]\n\r", ch );
@@ -4608,7 +4611,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
    if( !str_cmp( arg, "exdistance" ) )
    {
       argument = one_argument( argument, arg2 );
-      if( !arg2 || arg2[0] == '\0' )
+      if( arg2==NULL || arg2[0] == '\0' )
       {
          send_to_char( "Set the distance (in rooms) between this room, and the destination room.\n\r", ch );
          send_to_char( "Usage: redit exdistance <dir> [distance]\n\r", ch );
@@ -4637,7 +4640,7 @@ void do_redit( CHAR_DATA * ch, char *argument )
    if( !str_cmp( arg, "exdesc" ) )
    {
       argument = one_argument( argument, arg2 );
-      if( !arg2 || arg2[0] == '\0' )
+      if( arg2 == NULL || arg2[0] == '\0' )
       {
          send_to_char( "Create or clear a description for an exit.\n\r", ch );
          send_to_char( "Usage: redit exdesc <dir> [description]\n\r", ch );
@@ -5489,7 +5492,7 @@ void fold_area( AREA_DATA * tarea, char *filename, bool install )
                pShop->buy_type[0],
                pShop->buy_type[1],
                pShop->buy_type[2], pShop->buy_type[3], pShop->buy_type[4], pShop->profit_buy, pShop->profit_sell );
-      fprintf( fpout, "        %2d %2d    ; %s\n", pShop->open_hour, pShop->close_hour, pMobIndex->short_descr );
+      fprintf( fpout, "        %2d %2d %2d   ; %s\n", pShop->open_hour, pShop->close_hour, pShop->player_shop, pMobIndex->short_descr );
    }
    fprintf( fpout, "0\n\n\n" );
 
@@ -5889,7 +5892,7 @@ void do_aset( CHAR_DATA * ch, char *argument )
    char arg1[MAX_INPUT_LENGTH];
    char arg2[MAX_INPUT_LENGTH];
    char arg3[MAX_INPUT_LENGTH];
-   bool proto, found;
+   bool found;
    int vnum, value;
 
    argument = one_argument( argument, arg1 );
@@ -5907,7 +5910,6 @@ void do_aset( CHAR_DATA * ch, char *argument )
    }
 
    found = FALSE;
-   proto = FALSE;
    for( tarea = first_area; tarea; tarea = tarea->next )
       if( !str_cmp( tarea->filename, arg1 ) )
       {
@@ -5920,7 +5922,6 @@ void do_aset( CHAR_DATA * ch, char *argument )
          if( !str_cmp( tarea->filename, arg1 ) )
          {
             found = TRUE;
-            proto = TRUE;
             break;
          }
 

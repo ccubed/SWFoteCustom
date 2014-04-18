@@ -1179,8 +1179,8 @@ S
 
 
 #SHOPS
- 28600    0  0  0  0  0   120  90         0 23    ; a wookiee shop owner
- 28608   19  0  0  0  0   120  90         0 23    ; a female wookiee
+ 28600    0  0  0  0  0   120  90         0 23 0  ; a wookiee shop owner
+ 28608   19  0  0  0  0   120  90         0 23 0  ; a female wookiee
 0
 
 

@@ -5780,14 +5780,14 @@ S
 
 
 #SHOPS
- 10156    0  0  0  0  0   120  90         0 23    ; A Store Clerk
- 10157    0  0  0  0  0   120  90         0 23    ; Bartender
- 10158    0  0  0  0  0   120  90         0 23    ; Diner Waitress
- 10159    0  0  0  0  0   120  90         0 23    ; BlasTech Dealer
- 10162    0  0  0  0  0   120  90         0 23    ; Fritz
- 10163    0  0  0  0  0   120  90         0 23    ; A Tall Biker
- 10171    0  0  0  0  0   120  90         0 23    ; Kentarr
- 10182    0  0  0  0  0   120  90         0 23    ; A shop droid
+ 10156    0  0  0  0  0   120  90         0 23 0  ; A Store Clerk
+ 10157    0  0  0  0  0   120  90         0 23 0  ; Bartender
+ 10158    0  0  0  0  0   120  90         0 23 0  ; Diner Waitress
+ 10159    0  0  0  0  0   120  90         0 23 0  ; BlasTech Dealer
+ 10162    0  0  0  0  0   120  90         0 23 0  ; Fritz
+ 10163    0  0  0  0  0   120  90         0 23 0  ; A Tall Biker
+ 10171    0  0  0  0  0   120  90         0 23 0  ; Kentarr
+ 10182    0  0  0  0  0   120  90         0 23 0  ; A shop droid
 0
 
 

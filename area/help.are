@@ -9268,6 +9268,12 @@ Lists the name of the file, and room/mob/object vnum range for each
 non-prototype zone in the mud.
 ~
 
+0 BUYVENDOR~
+Syntax: buyvendor
+
+Buyvendor will let you purchase a deed for a vendor from any pre-existing vendor for 200,000 credits.
+~
+
 -1 _DIEMSG_~
 ...Everything begins to fade to black
 

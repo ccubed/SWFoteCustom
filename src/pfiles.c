@@ -197,8 +197,7 @@ void fread_pfile( FILE * fp, time_t tdiff, char *fname, bool count )
    char *name = NULL;
    char *clan = NULL;
    short level = 0;
-   short file_ver = 0;
-   int hasDeed = 0;
+   //short file_ver = 0; - currently unused
    int pact;
    bool fMatch;
 
@@ -236,7 +235,7 @@ void fread_pfile( FILE * fp, time_t tdiff, char *fname, bool count )
             break;
 
          case 'V':
-            KEY( "Version", file_ver, fread_number( fp ) );
+            //KEY( "Version", file_ver, fread_number( fp ) ); - currently unused
             break;
       }	
 

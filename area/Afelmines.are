@@ -1588,8 +1588,8 @@ S
 
 
 #SHOPS
- 9503    0  0  0  0  0   120  90         0 23    ; A shopkeeper droid
- 9507    0  0  0  0  0   120  90         0 23    ; Trandor
+ 9503    0  0  0  0  0   120  90         0 23 0  ; A shopkeeper droid
+ 9507    0  0  0  0  0   120  90         0 23 0  ; Trandor
 0
 
 

@@ -3445,12 +3445,12 @@ S
 
 
 #SHOPS
- 9707    0  0  0  0  0   120  90         8 20    ; the retail shopkeeper
- 9713    0  0  0  0  0   120  90         0 23    ; Jurson the Wookiee
- 9714    0  0  0  0  0   120  90         0 23    ; A Quarren Chef
- 9732    0  0  0  0  0   120  90         1 23    ; the convenient shopkeeper
- 9751    0  0  0  0  0   120  90         0 23    ; an ewok shopkeeper
- 9835    0  0  0  0  0   120  90         0 23    ; a quarren shopkeeper
+ 9707    0  0  0  0  0   120  90         8 20 0  ; the retail shopkeeper
+ 9713    0  0  0  0  0   120  90         0 23 0  ; Jurson the Wookiee
+ 9714    0  0  0  0  0   120  90         0 23 0  ; A Quarren Chef
+ 9732    0  0  0  0  0   120  90         1 23 0  ; the convenient shopkeeper
+ 9751    0  0  0  0  0   120  90         0 23 0  ; an ewok shopkeeper
+ 9835    0  0  0  0  0   120  90         0 23 0  ; a quarren shopkeeper
 0
 
 

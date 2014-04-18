@@ -970,7 +970,7 @@ void do_takedrug( CHAR_DATA * ch, char *argument )
             af.bitvector = AFF_NONE;
             affect_to_char( ch, &af );
 
-            af.type = sn;
+            af.type = -1;
             af.location = APPLY_CON;
             af.modifier = 1;
             af.duration = URANGE( 1, 2 * ( ch->pcdata->drug_level[drug] - ch->pcdata->addiction[drug] ), 2 * obj->value[1] );
@@ -2075,7 +2075,7 @@ void pullorpush( CHAR_DATA * ch, OBJ_DATA * obj, bool pull )
          if( ( pexit_rev = pexit->rexit ) != NULL && pexit_rev->to_room == ch->in_room )
          {
             REMOVE_BIT( pexit_rev->exit_info, EX_CLOSED );
-            for( rch = to_room->first_person; rch; rch = rch->next_in_room )
+            for( rch = pexit_rev->to_room->first_person; rch; rch = rch->next_in_room )
                act( AT_ACTION, "The $d opens.", rch, NULL, pexit_rev->keyword, TO_CHAR );
          }
          check_room_for_traps( ch, trap_door[edir] );
@@ -2089,7 +2089,7 @@ void pullorpush( CHAR_DATA * ch, OBJ_DATA * obj, bool pull )
          if( ( pexit_rev = pexit->rexit ) != NULL && pexit_rev->to_room == ch->in_room )
          {
             SET_BIT( pexit_rev->exit_info, EX_CLOSED );
-            for( rch = to_room->first_person; rch; rch = rch->next_in_room )
+            for( rch = pexit_rev->to_room->first_person; rch; rch = rch->next_in_room )
                act( AT_ACTION, "The $d closes.", rch, NULL, pexit_rev->keyword, TO_CHAR );
          }
          check_room_for_traps( ch, trap_door[edir] );

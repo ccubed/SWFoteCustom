@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -141,7 +143,7 @@ typedef struct wizent WIZENT;
 typedef struct member_data MEMBER_DATA;   /* Individual member data */
 typedef struct member_list MEMBER_LIST;   /* List of members in clan */
 typedef struct membersort_data MS_DATA;   /* List for sorted roster list */
-typedef struct ability_bonus; /* Stores Race Ability Bonus Data */
+typedef struct ability_bonus ABILITY_BONUS; /* Stores Race Ability Bonus Data */
 
 /*
  * Function types.
@@ -737,7 +739,7 @@ struct help_data
 /*
  * Shop types.
  */
-#define MAX_TRADE	 10
+#define MAX_TRADE	 5
 
 struct shop_data
 {
@@ -749,6 +751,7 @@ struct shop_data
    short profit_sell;   /* Cost multiplier for selling   */
    short open_hour;  /* First opening hour      */
    short close_hour; /* First closing hour      */
+   int player_shop; /* boolean indicating if this is a player vendor */
 };
 
 #define MAX_FIX		3
@@ -2179,6 +2182,7 @@ typedef enum
 #define ROOM_CLANJAIL		BV08
 #define ROOM_BLACKMARKET	BV09
 #define ROOM_HIDDENPAD		BV10
+#define ROOM_AIRLESS		BV11
 
 /*
  * Directions.
@@ -2567,6 +2571,7 @@ struct char_data
    short top_level;
    short skill_level[MAX_ABILITY];
    short bonus[MAX_ABILITY];
+   short max_level[MAX_ABILITY]; //hold max level per ability
    short trust;
    int played;
    time_t logon;
@@ -2665,6 +2670,8 @@ struct char_data
    CHAR_DATA *aiming_at;
    short colors[MAX_COLORS];
    int hasDeed; /* Has player purchased a vendor deed? */
+   int vendors[10]; /* Track vnums of player's vendors (10 is max per player) */
+   int vendorNum; /* Number of vendors currently owned */
 };
 
 struct killed_data
@@ -3602,7 +3609,7 @@ do								\
  */
 #define IS_NPC(ch)		(IS_SET((ch)->act, ACT_IS_NPC))
 #define IS_IMMORTAL(ch)		(get_trust((ch)) >= LEVEL_IMMORTAL)
-#define IS_DROID(ch)		(ch->race == RACE_DROID || ch->race == RACE_PROTOCAL_DROID || ch->race == RACE_ASSASSIN_DROID  || ch->race == RACE_GLADIATOR_DROID || ch->race == RACE_ASTROMECH_DROID || ch->race == RACE_INTERROGATION_DROID)
+#define IS_DROID(ch)		(ch->race == RACE_PROTOCAL_DROID || ch->race == RACE_ASSASSIN_DROID  || ch->race == RACE_GLADIATOR_DROID || ch->race == RACE_ASTROMECH_DROID || ch->race == RACE_INTERROGATION_DROID || ch->race == RACE_INDUSTRY_DROID || ch->race == RACE_HUNTER_DROID || ch->race == RACE_INTERFACE_DROID)
 #define IS_HERO(ch)		(get_trust((ch)) >= LEVEL_HERO)
 #define IS_AFFECTED(ch, sn)	(IS_SET((ch)->affected_by, (sn)))
 #define HAS_BODYPART(ch, part)	((ch)->xflags == 0 || IS_SET((ch)->xflags, (part)))
@@ -3804,6 +3811,8 @@ extern const struct cha_app_type cha_app[26];
 extern const struct lck_app_type lck_app[26];
 extern const struct frc_app_type frc_app[26];
 extern struct race_type race_table[MAX_RACE];
+extern struct companion_classes Companion_Class_Table[MAX_ABILITY];
+extern struct ability_bonus race_ability_bonus[MAX_RACE];
 extern const struct liq_type liq_table[LIQ_MAX];
 extern char *const attack_table[13];
 extern char *const ability_name[MAX_ABILITY];
@@ -5360,7 +5369,6 @@ void re_equip_char args( ( CHAR_DATA * ch ) );
 void save_home args( ( CHAR_DATA * ch ) );
 
 /* shops.c */
-void do_buyvendor args((CHAR_DATA *ch, char *argument));
 
 /* special.c */
 SF *spec_lookup args( ( const char *name ) );

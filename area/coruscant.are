@@ -3381,11 +3381,11 @@ S
 
 
 #SHOPS
- 1051    0  0  0  0  0   120  90         0 23    ; Kwen Twi
- 1070    0  0  0  0  0   120  90         0 23    ; Qurik the bartender
- 1072    0  0  0  0  0   120  90         0 23    ; Huznik
- 1074    9  0  0  0  0   120  33         0 23    ; a weapon salesman
- 1095    0  0  0  0  0   120  90         0 23    ; a hardware droid
+ 1051    0  0  0  0  0   120  90         0 23 0  ; Kwen Twi
+ 1070    0  0  0  0  0   120  90         0 23 0  ; Qurik the bartender
+ 1072    0  0  0  0  0   120  90         0 23 0  ; Huznik
+ 1074    9  0  0  0  0   120  33         0 23 0  ; a weapon salesman
+ 1095    0  0  0  0  0   120  90         0 23 0  ; a hardware droid
 0
 
 

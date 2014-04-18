@@ -1681,7 +1681,7 @@ int mprog_do_command( char *cmnd, CHAR_DATA * mob, CHAR_DATA * actor,
    char buf[MAX_INPUT_LENGTH];
    char tmp[MAX_INPUT_LENGTH];
    char *point, *str, *i;
-   int validif, vnum;
+   int validif;
 
    /*
     * Isolate the first word of the line, it gives us a clue what
@@ -1760,7 +1760,6 @@ int mprog_do_command( char *cmnd, CHAR_DATA * mob, CHAR_DATA * actor,
    if( !str_cmp( firstword, "break" ) )
       return BERR;
 
-   vnum = mob->pIndexData->vnum;
    point = buf;
    str = cmnd;
 
@@ -2357,13 +2356,10 @@ void set_supermob( OBJ_DATA * obj )
 {
    ROOM_INDEX_DATA *room;
    OBJ_DATA *in_obj;
-   CHAR_DATA *mob;
    char buf[200];
 
    if( !supermob )
       supermob = create_mobile( get_mob_index( 3 ) );
-
-   mob = supermob;   /* debugging */
 
    if( !obj )
       return;
@@ -2457,7 +2453,7 @@ int oprog_custom_trigger( char *command, char *argument, CHAR_DATA * ch )
                temp = one_argument( temp, parg );
                if( !strcmp( pcom, command ) )
                {
-                  if( !parg || parg[0] == '\0' )
+                  if( parg == NULL || parg[0] == '\0' )
                   {
                      found = TRUE;
                      break;
@@ -2489,7 +2485,7 @@ int oprog_custom_trigger( char *command, char *argument, CHAR_DATA * ch )
                   temp = one_argument( temp, parg );
                   if( !strcmp( pcom, command ) )
                   {
-                     if( !parg || parg[0] == '\0' )
+                     if( parg == NULL || parg[0] == '\0' )
                      {
                         found = TRUE;
                         break;
@@ -2538,7 +2534,7 @@ int mprog_custom_trigger( char *command, char *argument, CHAR_DATA * ch )
                temp = one_argument( temp, parg );
                if( !strcmp( pcom, command ) )
                {
-                  if( !parg || parg[0] == '\0' )
+                  if( parg == NULL || parg[0] == '\0' )
                   {
                      found = TRUE;
                      break;
@@ -2579,7 +2575,7 @@ int rprog_custom_trigger( char *command, char *argument, CHAR_DATA * ch )
          temp = one_argument( temp, parg );
          if( !strcmp( pcom, command ) )
          {
-            if( !parg || parg[0] == '\0' )
+            if( parg == NULL || parg[0] == '\0' )
             {
                found = TRUE;
                break;

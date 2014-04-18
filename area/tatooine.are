@@ -3048,24 +3048,24 @@ S
 
 
 #SHOPS
- 253    0  0  0  0  0   120  90         0 23    ; a bloated Askajian
- 254    0  0  0  0  0   120  90         0 23    ; a sallow, porsine Hutt
- 255    0  0  0  0  0   120  90         0 23    ; a foul smelling Whiphid female
- 256    0  0  0  0  0   120  90         0 23    ; a tiny, Jawa trader
- 260    0  0  0  0  0   120  90         0 23    ; a miniscule Jawa merchant
- 261    0  0  0  0  0   120  90         0 23    ; an Ortolan Ommnibox player
- 264    0  0  0  0  0   120  90         0 23    ; an ASP droid
- 265    0  0  0  0  0   120  90         0 23    ; a pasty, thick skinned Hutt bouncer
- 266    0  0  0  0  0   120  90         0 23    ; a male citizen of Tatooine
- 268    0  0  0  0  0   120  90         0 23    ; a female citizen of Tatooine
- 269    0  0  0  0  0   120  90         0 23    ; an Imperial sandtrooper acting as a customs watch
- 270    0  0  0  0  0   120  90         0 23    ; a slight, pale man
- 271    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
- 272    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
- 273    0  0  0  0  0   120  90         0 23    ; a newly created shop keeper
- 278    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
- 291    9 78 57  5 78    90  15         6 21    ; a Toydarian pawn shop owner
- 294    0  0  0  0  0   120  90         0 23    ; a tiny grease spot of an engineer
+ 253    0  0  0  0  0   120  90         0 23  0  ; a bloated Askajian
+ 254    0  0  0  0  0   120  90         0 23  0  ; a sallow, porsine Hutt
+ 255    0  0  0  0  0   120  90         0 23  0  ; a foul smelling Whiphid female
+ 256    0  0  0  0  0   120  90         0 23  0  ; a tiny, Jawa trader
+ 260    0  0  0  0  0   120  90         0 23  0  ; a miniscule Jawa merchant
+ 261    0  0  0  0  0   120  90         0 23  0  ; an Ortolan Ommnibox player
+ 264    0  0  0  0  0   120  90         0 23  0  ; an ASP droid
+ 265    0  0  0  0  0   120  90         0 23  0  ; a pasty, thick skinned Hutt bouncer
+ 266    0  0  0  0  0   120  90         0 23  0  ; a male citizen of Tatooine
+ 268    0  0  0  0  0   120  90         0 23  0  ; a female citizen of Tatooine
+ 269    0  0  0  0  0   120  90         0 23  0  ; an Imperial sandtrooper acting as a customs watch
+ 270    0  0  0  0  0   120  90         0 23  0  ; a slight, pale man
+ 271    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
+ 272    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
+ 273    0  0  0  0  0   120  90         0 23  0  ; a newly created shop keeper
+ 278    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
+ 291    9 78 57  5 78    90  15         6 21  0  ; a Toydarian pawn shop owner
+ 294    0  0  0  0  0   120  90         0 23  0  ; a tiny grease spot of an engineer
 0
 
 

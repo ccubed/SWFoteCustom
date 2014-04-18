@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -547,13 +549,10 @@ void edit_buffer( CHAR_DATA * ch, char *argument )
 void editor_format_lines( CHAR_DATA * ch, EDITOR_DATA * edd )
 {
    EDITOR_LINE *eline;
-   short from, to;
    int srclen, x, inp;
    char src[MAX_STRING_LENGTH];
    char newsrc[MAX_STRING_LENGTH];
    char newsrc2[MAX_STRING_LENGTH];
-   from = 1;
-   to = edd->line_count;
    eline = edd->first_line;
    inp = 0;
    while( eline )

@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -3690,7 +3692,7 @@ void do_invis( CHAR_DATA * ch, char *argument )
     */
 
    argument = one_argument( argument, arg );
-   if( arg && arg[0] != '\0' )
+   if( arg != NULL && arg[0] != '\0' )
    {
       if( !is_number( arg ) )
       {
@@ -4017,7 +4019,6 @@ void do_loadup( CHAR_DATA * ch, char *argument )
    char fname[1024];
    char name[256];
    struct stat fst;
-   bool loaded;
    DESCRIPTOR_DATA *d;
    int old_room_vnum;
    char buf[MAX_STRING_LENGTH];
@@ -4053,7 +4054,7 @@ void do_loadup( CHAR_DATA * ch, char *argument )
       d->outsize = 2000;
       CREATE( d->outbuf, char, d->outsize );
 
-      loaded = load_char_obj( d, name, FALSE );
+      load_char_obj( d, name, FALSE );
       add_char( d->character );
       old_room_vnum = d->character->in_room->vnum;
       char_to_room( d->character, ch->in_room );
@@ -4364,7 +4365,7 @@ void do_bestow( CHAR_DATA * ch, char *argument )
 
    argument = one_argument( argument, arg );
 
-   while( arg && arg[0] != '\0' )
+   while( arg != NULL && arg[0] != '\0' )
    {
       char *cmd_buf, cmd_tmp[MAX_INPUT_LENGTH];
       bool cFound = FALSE;
@@ -4384,7 +4385,7 @@ void do_bestow( CHAR_DATA * ch, char *argument )
 
       cmd_buf = victim->pcdata->bestowments;
       cmd_buf = one_argument( cmd_buf, cmd_tmp );
-      while( cmd_tmp && cmd_tmp[0] != '\0' )
+      while( cmd_tmp != NULL && cmd_tmp[0] != '\0' )
       {
          if( !str_cmp( cmd_tmp, arg ) )
          {

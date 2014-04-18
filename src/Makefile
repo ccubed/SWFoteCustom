@@ -6,7 +6,7 @@ L_FLAGS = $(PROF)
 #CYGWIN = -DCYGWIN
 
 #IMC2 - Comment out to disable IMC2 support
-IMC = 1
+#IMC = 1
 
 W_FLAGS = -Wall -Werror -Wshadow -Wformat-security -Winline -Wpointer-arith -Wcast-align -Wredundant-decls -Wstrict-prototypes
 

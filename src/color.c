@@ -1,3 +1,7 @@
+//Sagas copyright (c) 2014 was created by
+//Cooper 'Gizmo' Click(ccubed.techno@gmail.com)
+//Some changes made
+
 /****************************************************************************
  *                   ^     +----- |  / ^     ^ |     | +-\                  *
  *                  / \    |      | /  |\   /| |     | |  \                 *

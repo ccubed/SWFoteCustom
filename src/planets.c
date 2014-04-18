@@ -642,7 +642,6 @@ void do_makeplanet( CHAR_DATA * ch, char *argument )
 {
    char filename[256];
    PLANET_DATA *planet;
-   bool found;
 
    if( !argument || argument[0] == '\0' )
    {
@@ -650,7 +649,6 @@ void do_makeplanet( CHAR_DATA * ch, char *argument )
       return;
    }
 
-   found = FALSE;
    sprintf( filename, "%s%s", PLANET_DIR, strlower( argument ) );
 
    CREATE( planet, PLANET_DATA, 1 );

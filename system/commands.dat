@@ -4278,4 +4278,12 @@ Level       32
 Log         0
 End
 
+#COMMAND
+Name        buyvendor~
+Code        do_buyvendor
+Position    0
+Level       0
+Log         0
+End
+
 #END

@@ -1,4 +1,6 @@
 /* 
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -42,6 +44,11 @@ CD *find_fixer args( ( CHAR_DATA * ch ) );
 int get_cost args( ( CHAR_DATA * ch, CHAR_DATA * keeper, OBJ_DATA * obj, bool fBuy ) );
 int get_repaircost args( ( CHAR_DATA * keeper, OBJ_DATA * obj ) );
 #undef CD
+
+/*
+ * Local Variables
+ */
+int pvendor_vnum = 0;
 
 /*
  * Shopping commands.
@@ -137,7 +144,7 @@ CHAR_DATA *find_fixer( CHAR_DATA * ch )
 int get_cost( CHAR_DATA * ch, CHAR_DATA * keeper, OBJ_DATA * obj, bool fBuy )
 {
    SHOP_DATA *pShop;
-   int cost;
+   int cost = 0;
    bool richcustomer;
    int profitmod;
 
@@ -151,7 +158,7 @@ int get_cost( CHAR_DATA * ch, CHAR_DATA * keeper, OBJ_DATA * obj, bool fBuy )
 
    if( fBuy )
    {
-      cost = ( int )( cost * ( 80 + UMIN( ch->top_level, LEVEL_AVATAR ) ) ) / 100;
+      //cost = ( int )( cost * ( 80 + UMIN( ch->top_level, LEVEL_AVATAR ) ) ) / 100; - took out. 
 
       profitmod = 13 - get_curr_cha( ch ) + ( richcustomer ? 15 : 0 )
          + ( ( URANGE( 5, ch->top_level, LEVEL_AVATAR ) - 20 ) / 2 );
@@ -306,13 +313,12 @@ void do_buy( CHAR_DATA * ch, char *argument )
 	  if (taxrate > 0 && taxrate < 1){
 
 		  taxamt = maxgold * taxrate;
-		  maxgold -= taxamt;
 		  ch->in_room->area->planet->governed_by->funds += taxamt;
 
 	  }
 
       boost_economy( ch->in_room->area, maxgold );
-      pet = create_mobile( pet->pIndexData );
+	  pet = create_mobile(pet->pIndexData);
       SET_BIT( pet->act, ACT_PET );
       SET_BIT( pet->affected_by, AFF_CHARM );
 
@@ -455,6 +461,16 @@ void do_buy( CHAR_DATA * ch, char *argument )
 
       ch->gold -= cost;
       keeper->gold += cost;
+
+	  int taxrate = ch->in_room->area->planet->tax;
+	  int taxamt = 0;
+
+	  if (taxrate > 0 && taxrate < 1){
+
+		  taxamt = cost * taxrate;
+		  ch->in_room->area->planet->governed_by->funds += taxamt;
+
+	  }
 
       if( keeper->gold > maxgold )
       {
@@ -642,10 +658,10 @@ void do_sell( CHAR_DATA * ch, char *argument )
 
    //check for tax rate
    int taxrate = 0;
-   if (ch->in_room->area->planet->tax > 0 && ch->in_room->area->planet->tax <= 1){
+   if (ch->in_room->area->planet->tax > 0 && ch->in_room->area->planet->tax < 1){
 
 	   taxrate = cost * ch->in_room->area->planet->tax;
-	   cost = cost - taxrate;
+	   cost -= taxrate;
 
    }
 
@@ -738,7 +754,7 @@ void do_value( CHAR_DATA * ch, char *argument )
 
    //check tax
    int taxrate = 0;
-   if (ch->in_room->area->planet->tax > 0 && ch->in_room->area->planet->tax <= 1)
+   if (ch->in_room->area->planet->tax > 0 && ch->in_room->area->planet->tax < 1)
    {
 
 	   taxrate = cost * ch->in_room->area->planet->tax;
@@ -1031,6 +1047,7 @@ void do_makeshop( CHAR_DATA * ch, char *argument )
    shop->profit_sell = 90;
    shop->open_hour = 0;
    shop->close_hour = 23;
+   shop->player_shop = 0;
    mob->pShop = shop;
    send_to_char( "Done.\n\r", ch );
    return;
@@ -1524,6 +1541,13 @@ void do_repairshops( CHAR_DATA * ch, char *argument )
    return;
 }
 
+/* 
+
+	Start new player vendor code here.
+	Added by gizmo for Sagas
+
+*/
+
 /*
  * buy a vendor deed
  */
@@ -1533,9 +1557,12 @@ void do_buyvendor(CHAR_DATA * ch, char *argument){
 	CHAR_DATA * Keeper;
 	Keeper = find_keeper(ch);
 
-	if (Keeper = NULL)
+	if (Keeper == NULL){
+
 		act(AT_TELL, "&RYou can only buy a deed from another vendor.&w", ch, NULL, NULL, TO_CHAR);
 		return;
+
+	}
 
 	if (ch->gold < 200000){
 
@@ -1543,14 +1570,81 @@ void do_buyvendor(CHAR_DATA * ch, char *argument){
 		return;
 
 	}
-	else{
 
-		act(AT_TELL, "&GYou purchase a vendor deed for 200000 credits.&w", ch, NULL, Keeper, TO_CHAR);
-		ch->gold -= 200000;
-		ch->hasDeed = 1;
+	if (ch->vendorNum == 10){
+
+		act(AT_TELL, "&RYou can't have any more vendors. Sell one first.&w", ch, NULL, Keeper, TO_CHAR);
 		return;
 
 	}
 
+	act(AT_TELL, "&GYou purchase a vendor deed for 200000 credits.&w", ch, NULL, Keeper, TO_CHAR);
+	ch->gold -= 200000;
+	ch->hasDeed = 1;
+	return;
+
 }
 
+/*
+ * Placevendor
+ */
+
+void do_placevendor(CHAR_DATA *ch, char *argument){
+
+	SHOP_DATA *shop;
+	MOB_INDEX_DATA *mob;
+
+	if ( !argument || argument[0] == '\0'){
+		send_to_char("Usage: placevendor <shopname>",ch);
+		return;
+	}
+
+	if (!IS_SET(ch->in_room->room_flags2,ROOM_PLR_SHOP)){
+		send_to_char_color("&RYou can't put a vendor there!&w", ch);
+		return;
+	}
+	
+	int i;
+	if (pvendor_vnum == 0){
+
+		for (i = 32667; i <= 32767; i++){
+
+			if (get_mob_index(i) == NULL){
+
+				pvendor_vnum = i;
+				break;
+
+			}
+
+		}
+
+		if (pvendor_vnum == 0){
+
+			log_string("ERROR: Couldn't create player vendor. Too many player vendors.");
+			send_to_char_color("&RCouldn't create the vendor. Tell an immortal.&w", ch);
+			return;
+
+		}
+
+	}
+
+	CREATE(shop, SHOP_DATA, 1);
+	LINK(shop, first_shop, last_shop, next, prev);
+	shop->keeper = pvendor_vnum;
+	shop->profit_buy = 120;
+	shop->profit_sell = 90;
+	shop->open_hour = 0;
+	shop->close_hour = 23;
+	shop->player_shop = 1;
+	
+	mob = make_mobile(pvendor_vnum, 0, "Player Vendor");
+	CHAR_DATA *keeper = create_mobile(mob);
+	ch->vendors[ch->vendorNum] = pvendor_vnum;
+	ch->vendorNum++;
+	mob->pShop = shop;
+	char_to_room(keeper, ch->in_room);
+
+	send_to_char_color("&GYou placed your vendor. Now give it some items to sell.&w", ch);
+	ch->hasDeed = 0;
+
+}

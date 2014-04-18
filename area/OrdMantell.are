@@ -2535,11 +2535,11 @@ S
 
 
 #SHOPS
- 9001    0  0  0  0  0   100  90         3 22    ; An older model droid
- 9002    0  0  0  0  0   140   0         1 23    ; A Bartender Droid
- 9003    0  0  0  0  0   120  90         0 23    ; A Small Food Droid
- 9011   18  8  9  5  0   120  15         1 23    ; Kashieem
- 9499    9  5  0  0  0   120  90         0 23    ; a newly created testmob
+ 9001    0  0  0  0  0   100  90         3 22 0  ; An older model droid
+ 9002    0  0  0  0  0   140   0         1 23 0  ; A Bartender Droid
+ 9003    0  0  0  0  0   120  90         0 23 0  ; A Small Food Droid
+ 9011   18  8  9  5  0   120  15         1 23 0  ; Kashieem
+ 9499    9  5  0  0  0   120  90         0 23 0  ; a newly created testmob
 0
 
 

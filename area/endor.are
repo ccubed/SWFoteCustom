@@ -2898,8 +2898,8 @@ S
 
 
 #SHOPS
- 4557    9  0  0  0  0   120 110         0 23    ; A Weapons Droid
- 4569    0  0  0  0  0   100  90         0 23    ; A Food Service Droid
+ 4557    9  0  0  0  0   120 110         0 23 0  ; A Weapons Droid
+ 4569    0  0  0  0  0   100  90         0 23 0  ; A Food Service Droid
 0
 
 

@@ -9223,13 +9223,13 @@ S
 
 
 #SHOPS
- 32002    0  0  0  0  0   120  90         0 23    ; Brennik
- 32015   57  0  0  0  0   120  90         0 23    ; a retail droid
- 32023    5  0  0  0  0   150  50         0 23    ; a dealer
- 32025    0  0  0  0  0   120  90         0 23    ; a shopkeeper droid
- 32043    0  0  0  0  0   120  90         0 23    ; a shopkeeper droid
- 32051    0  0  0  0  0   120  90         0 23    ; a retail droid
- 32052    0  0  0  0  0   120  90         0 23    ; the waitress
+ 32002    0  0  0  0  0   120  90         0 23  0 ; Brennik
+ 32015   57  0  0  0  0   120  90         0 23  0 ; a retail droid
+ 32023    5  0  0  0  0   150  50         0 23  0 ; a dealer
+ 32025    0  0  0  0  0   120  90         0 23  0 ; a shopkeeper droid
+ 32043    0  0  0  0  0   120  90         0 23  0 ; a shopkeeper droid
+ 32051    0  0  0  0  0   120  90         0 23  0 ; a retail droid
+ 32052    0  0  0  0  0   120  90         0 23  0 ; the waitress
 0
 
 

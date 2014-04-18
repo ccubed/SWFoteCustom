@@ -1,4 +1,6 @@
-/* 
+/*
+Sagas copyright (c) 2014 was created by
+Cooper 'Gizmo' Click (ccubed.techno@gmail.com)
 
 SWFotE copyright (c) 2002 was created by
 Chris 'Tawnos' Dary (cadary@uwm.edu),
@@ -2211,9 +2213,7 @@ void teleport( CHAR_DATA * ch, int room, int flags )
 void do_climb( CHAR_DATA * ch, char *argument )
 {
    EXIT_DATA *pexit;
-   bool found;
 
-   found = FALSE;
    if( argument[0] == '\0' )
    {
       for( pexit = ch->in_room->first_exit; pexit; pexit = pexit->next )
@@ -2241,9 +2241,7 @@ void do_climb( CHAR_DATA * ch, char *argument )
 void do_enter( CHAR_DATA * ch, char *argument )
 {
    EXIT_DATA *pexit;
-   bool found;
 
-   found = FALSE;
    if( argument[0] == '\0' )
    {
       for( pexit = ch->in_room->first_exit; pexit; pexit = pexit->next )
@@ -2271,9 +2269,7 @@ void do_enter( CHAR_DATA * ch, char *argument )
 void do_leave( CHAR_DATA * ch, char *argument )
 {
    EXIT_DATA *pexit;
-   bool found;
 
-   found = FALSE;
    if( argument[0] == '\0' )
    {
       for( pexit = ch->in_room->first_exit; pexit; pexit = pexit->next )

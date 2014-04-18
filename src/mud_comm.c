@@ -739,7 +739,7 @@ void do_mpinvis( CHAR_DATA * ch, char *argument )
    }
 
    argument = one_argument( argument, arg );
-   if( arg && arg[0] != '\0' )
+   if( arg != NULL && arg[0] != '\0' )
    {
       if( !is_number( arg ) )
       {
@@ -1731,10 +1731,6 @@ ch_ret simple_damage( CHAR_DATA * ch, CHAR_DATA * victim, int dam, int dt )
    short dameq;
    bool npcvict;
    OBJ_DATA *damobj;
-   ch_ret retcode;
-
-
-   retcode = rNONE;
 
    if( !ch )
    {
