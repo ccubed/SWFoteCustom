@@ -145,7 +145,8 @@ You feel your ship is safe here.
 D0
 ~
 ~
-0 -1 8001
+0 -1 8001 0
+R M 0 8000 1 8000
 S
 #8001
 Spaceport Entrance~
@@ -155,11 +156,11 @@ There are many busy civilians going about their day. Traders are bustling around
 D0
 ~
 ~
-0 -1 8002
+0 -1 8002 0
 D2
 ~
 ~
-0 -1 8000
+0 -1 8000 0
 S
 #8002
 Honoghr Market Center~
@@ -169,11 +170,11 @@ There are stands and booths lining the street, with people selling fresh fruit a
 D0
 ~
 ~
-0 -1 8003
+0 -1 8003 0
 D2
 ~
 ~
-0 -1 8001
+0 -1 8001 0
 S
 #8003
 Main Street~
@@ -184,15 +185,15 @@ I suggest avoiding there if you can avoid it. To the west is a rural road with h
 D1
 ~
 ~
-0 -1 8004
+0 -1 8004 0
 D2
 ~
 ~
-0 -1 8002
+0 -1 8002 0
 D3
 ~
 ~
-0 -1 8007
+0 -1 8007 0
 S
 #8004
 Courthouse Lobby~
@@ -202,11 +203,12 @@ There is a creamy brown complexion in the color of this building. It is made of 
 D1
 ~
 ~
-0 -1 8005
+0 -1 8005 0
 D3
 ~
 ~
-0 -1 8003
+0 -1 8003 0
+R M 0 8004 1 8004
 S
 #8005
 Courthouse~
@@ -216,7 +218,8 @@ The room has many seats, looking quite like a church. The Judge sits high above 
 D3
 ~
 ~
-0 -1 8004
+0 -1 8004 0
+R M 0 8005 1 8005
 S
 #8006
 Jail Cell~
@@ -242,19 +245,19 @@ They have nice, shimmering blue, red, green, or aqua paint jobs, and are quite s
 D0
 ~
 ~
-0 -1 8009
+0 -1 8009 0
 D1
 ~
 ~
-0 -1 8003
+0 -1 8003 0
 D2
 ~
 ~
-0 -1 8008
+0 -1 8008 0
 D3
 ~
 ~
-0 -1 8011
+0 -1 8011 0
 S
 #8008
 Noghri House~
@@ -264,7 +267,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D0
 ~
 ~
-0 -1 8007
+0 -1 8007 0
 S
 #8009
 Noghri House~
@@ -274,7 +277,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D2
 ~
 ~
-0 -1 8007
+0 -1 8007 0
 S
 #8010
 Noghri House~
@@ -284,7 +287,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D2
 ~
 ~
-0 -1 8011
+0 -1 8011 0
 S
 #8011
 Noghri Lane~
@@ -295,19 +298,19 @@ They have nice, shimmering blue, red, green, or aqua paint jobs, and are quite s
 D0
 ~
 ~
-0 -1 8010
+0 -1 8010 0
 D1
 ~
 ~
-0 -1 8007
+0 -1 8007 0
 D2
 ~
 ~
-0 -1 8012
+0 -1 8012 0
 D3
 ~
 ~
-0 -1 8013
+0 -1 8013 0
 S
 #8012
 Noghri House~
@@ -317,7 +320,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D0
 ~
 ~
-0 -1 8011
+0 -1 8011 0
 S
 #8013
 Noghri Lane~
@@ -328,19 +331,19 @@ They have nice, shimmering blue, red, green, or aqua paint jobs, and are quite s
 D0
 ~
 ~
-0 -1 8014
+0 -1 8014 0
 D1
 ~
 ~
-0 -1 8011
+0 -1 8011 0
 D2
 ~
 ~
-0 -1 8015
+0 -1 8015 0
 D3
 ~
 ~
-0 -1 8017
+0 -1 8017 0
 S
 #8014
 Noghri House~
@@ -350,7 +353,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D2
 ~
 ~
-0 -1 8013
+0 -1 8013 0
 S
 #8015
 Noghri House~
@@ -360,7 +363,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D0
 ~
 ~
-0 -1 8013
+0 -1 8013 0
 S
 #8016
 Noghri House~
@@ -370,7 +373,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D2
 ~
 ~
-0 -1 8017
+0 -1 8017 0
 S
 #8017
 Noghri Lane~
@@ -383,19 +386,19 @@ This is a dead end.
 D0
 ~
 ~
-0 -1 8016
+0 -1 8016 0
 D1
 ~
 ~
-0 -1 8013
+0 -1 8013 0
 D2
 ~
 ~
-0 -1 8018
+0 -1 8018 0
 D3
 ~
 ~
-0 -1 8019
+0 -1 8019 0
 S
 #8018
 Noghri House~
@@ -405,7 +408,7 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D0
 ~
 ~
-0 -1 8017
+0 -1 8017 0
 S
 #8019
 Noghri House~
@@ -415,23 +418,16 @@ This Noghri home is everything you hoped for. And a bargain at just 25,000 Credi
 D1
 ~
 ~
-0 -1 8017
+0 -1 8017 0
 S
 #8199
 Floating in a void~
 ~
 0 4 1 0 0 0 6624
+R M 0 8199 1 8199
+R O 0 8199 1 8199
 S
 #0
-
-
-#RESETS
-M 1 8000 1 8000
-M 1 8004 1 8004
-M 1 8005 1 8005
-M 1 8199 1 8199
-O 1 8199 1 8199
-S
 
 
 #SHOPS

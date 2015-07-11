@@ -384,8 +384,8 @@ End
 
 #SOCIAL
 Name        claugh~
-CharNoArg   &CYou &sl&sa&su&sg&sh til &Cyou cry&n!!~
-OthersNoArg &C$n &sl&sa&su&sg&sh&ss til &C$e cries&n!!~
+CharNoArg   &CYou &sl&sa&su&sg&sh&7 til &Cyou &7cry&n!!~
+OthersNoArg &C$n &sl&sa&su&sg&sh&ss&7 til &C$e &7cries&n!!~
 End
 
 #SOCIAL
@@ -508,11 +508,11 @@ End
 
 #SOCIAL
 Name        die~
-CharNoArg   &LYou.......&GD....&PI....&CE........&sDIE&s!&s!&s!~
-OthersNoArg Oh no&P! Hurry&P!!!&L $n's fallen and &L$e can't get up&P!&L $e's &GDEAD&P!!!&n.~
-CharFound   &LYou twirl &Lyour finger around the little &Rred button on the remote in &LYour hand, and ask &G$N, "Do &Gyou feel &yLUCKY?!"&n~
-OthersFound &L$n twirls &L$s finger around the little &Rred button on the remote in &L$s hand, and asks &G$N, "Do &Gyou feel &yLUCKY?!"&n~
-VictFound   &L$n twirls &L$s finger around the little &Rred button on the remote in &L$s hand, and asks &GYou, "Do &GYou feel &yLUCKY?!"&n~
+CharNoArg   &LYou&7.......&GD&7....&PI&7....&CE&7........&sDIE&s!&s!&s!~
+OthersNoArg &7Oh no&P!&7 Hurry&P!!!&L $n's &7fallen and &L$e&7 can't get up&P!&L $e's &GDEAD&P!!!&n.~
+CharFound   &LYou&7 twirl &Lyour&7 finger around the little &Rred&7 button on the remote in &LYour&7 hand, and ask &G$N&7, "Do &Gyou&7 feel &yLUCKY&7?!"&n~
+OthersFound &L$n&7 twirls &L$s&7 finger around the little &Rred&7 button on the remote in &L$s&7 hand, and asks &G$N&7, "Do &Gyou&7 feel &yLUCKY&7?!"&n~
+VictFound   &L$n&7 twirls &L$s&7 finger around the little &Rred&7 button on the remote in &L$s&7 hand, and asks &GYou&7, "Do &GYou&7 feel &yLUCKY&7?!"&n~
 End
 
 #SOCIAL
@@ -726,9 +726,9 @@ End
 #SOCIAL
 Name        french~
 CharNoArg   Kiss whom?~
-CharFound   You give $N a &sl&so&sn&sg and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
-OthersFound $n gives $N a &sl&so&sn&sg and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
-VictFound   $n gives you a &sl&so&sn&sg and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
+CharFound   &7You give $N a &sl&so&sn&sg&7 and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
+OthersFound &7$n gives $N a &sl&so&sn&sg&7 and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
+VictFound   &7$n gives you a &sl&so&sn&sg&7 and &sp&sa&ss&ss&si&so&sn&sa&st&se&s k&si&ss&ss&n.~
 CharAuto    You gather yourself in your arms and try to kiss yourself.~
 OthersAuto  $n makes an attempt at kissing $mself.~
 End
@@ -790,10 +790,10 @@ End
 
 #SOCIAL
 Name        giggle~
-CharNoArg   You &sg&si&sg&sg&sl&se.~
-OthersNoArg $n &sg&si&sg&sg&sl&se&ss.~
-CharFound   You &sg&si&sg&sg&sl&se at $M.~
-OthersFound $n &sg&si&sg&sg&sl&se&ss at $N and &sb&sl&su&ss&sh&se&ss.~
+CharNoArg   &7You &sg&si&sg&sg&sl&se&7.~
+OthersNoArg &7$n &sg&si&sg&sg&sl&se&ss&7.~
+CharFound   &7You &sg&si&sg&sg&sl&se&7 at $M.~
+OthersFound &7$n &sg&si&sg&sg&sl&se&ss&7 at $N and &sb&sl&su&ss&sh&se&ss&7.~
 VictFound   $n giggles at you.  Hope it's not contagious!~
 CharAuto    You giggle at yourself.  You must be nervous or something.~
 OthersAuto  $n giggles at $mself.  $e must be nervous or something.~
@@ -1446,9 +1446,9 @@ End
 Name        pillow~
 CharNoArg   Who would you like to hwap with a pillow?~
 OthersNoArg ~
-CharFound   &GYou whap &G$N over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P* take that!!&n~
-OthersFound &G$n whaps &G$N over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P* take that!!&n~
-VictFound   &G$n whaps &Gyou over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P* take that!!...how rude..&n~
+CharFound   &GYou &7whap &G$N&7 over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P*&7 take that!!&n~
+OthersFound &G$n &7whaps &G$N&7 over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P*&7 take that!!&n~
+VictFound   &G$n &7whaps &Gyou&7 over the head with a pillow &P*&sw&sh&sa&sp&s w&sh&sa&sp&P*&7 take that!!...how rude..&n~
 End
 
 #SOCIAL
@@ -1569,13 +1569,13 @@ End
 
 #SOCIAL
 Name        rofl~
-CharNoArg   &RYou roll on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically.~
-OthersNoArg &R$n rolls on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically.~
-CharFound   &RYou roll on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically at &L$N's remark.~
-OthersFound &R$n rolls on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically at &L$N's remark.~
-VictFound   &R$n rolls on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically at &LYour remark.~
-CharAuto    &RYou roll on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically at &LYourself!~
-OthersAuto  &R$n rolls on the floor &sl&sa&su&sg&sh&si&sn&sg hysterically at &L$mself!~
+CharNoArg   &RYou&7 roll on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically.~
+OthersNoArg &R$n&7 rolls on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically.~
+CharFound   &RYou&7 roll on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically at &L$N's&7 remark.~
+OthersFound &R$n&7 rolls on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically at &L$N's&7 remark.~
+VictFound   &R$n&7 rolls on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically at &LYour&7 remark.~
+CharAuto    &RYou&7 roll on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically at &LYourself&7!~
+OthersAuto  &R$n&7 rolls on the floor &sl&sa&su&sg&sh&si&sn&sg&7 hysterically at &L$mself&7!~
 End
 
 #SOCIAL
@@ -2010,11 +2010,11 @@ End
 
 #SOCIAL
 Name        stab~
-CharNoArg   &GYou slowly slide &GYour dagger from it's casing and mumble, "&ySo many people, so little time&n."~
-OthersNoArg &G$n slowly slides &G$s dagger from it's casing and mumbles, "&ySo many people, so little time&n."~
-CharFound   &GYou &RSTAB&y $N and with an &0evil grin on &Gyour face &Gyou simply say, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy' and run away&n.~
-OthersFound &G$n &RSTABS&y $N and with an &0evil grin on &G$s face &G$e simply says, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy' and runs away!&n.~
-VictFound   &G$n &RSTABS&y You and with an &0evil grin on &G$s face &G$e simply says, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy' and runs away!&n.~
+CharNoArg   &GYou&7 slowly slide &GYour&7 dagger from it's casing and mumble, "&ySo many people, so little time&n."~
+OthersNoArg &G$n&7 slowly slides &G$s&7 dagger from it's casing and mumbles, "&ySo many people, so little time&n."~
+CharFound   &GYou &RSTAB&y $N&7 and with an &0evil grin&7 on &Gyour&7 face &Gyou&7 simply say, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy&7' and run away&n.~
+OthersFound &G$n &RSTABS&y $N&7 and with an &0evil grin&7 on &G$s&7 face &G$e&7 simply says, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy&7' and runs away!&n.~
+VictFound   &G$n &RSTABS&y You&7 and with an &0evil grin&7 on &G$s&7 face &G$e&7 simply says, '&ss&st&sa&sb&sb&sy &ss&st&sa&sb&sb&sy&7' and runs away!&n.~
 CharAuto    You lunge at yourself screaming out, '&LSTABBY STABBY!!!!&n' but end up all bundled up in a corner.~
 OthersAuto  $n lunges at $mself screaming out, '&LSTABBY STABBY!!!!&n' but ends up all bundled up in a corner.~
 End
@@ -2134,9 +2134,9 @@ End
 #SOCIAL
 Name        tender~
 CharNoArg   You will enjoy it more if you choose someone to kiss.~
-CharFound   &CYou give &C$N a &ss&so&sf&st, &st&se&sn&sd&se&sr&s k&si&ss&ss&n.~
-OthersFound &C$n gives &C$N a &ss&so&sf&st, &st&se&sn&sd&se&sr&s k&si&ss&ss&n.~
-VictFound   &C$n gives &Cyou a &ss&so&sf&st, &st&se&sn&sd&se&sr&s k&si&ss&ss awe how sweet..&n~
+CharFound   &CYou &7give &C$N&7 a &ss&so&sf&st&7, &st&se&sn&sd&se&sr&s k&si&ss&ss&n.~
+OthersFound &C$n &7gives &C$N&7 a &ss&so&sf&st&7, &st&se&sn&sd&se&sr&s k&si&ss&ss&n.~
+VictFound   &C$n &7gives &Cyou&7 a &ss&so&sf&st&7, &st&se&sn&sd&se&sr&s k&si&ss&ss&7 awe how sweet..&n~
 CharAuto    You'd better not, people may start to talk!~
 End
 
@@ -2183,7 +2183,7 @@ Name        tickle~
 CharNoArg   Whom do you want to tickle?~
 CharFound   &LYou &st&si&sc&sk&sl&se &P$N&n~
 OthersFound &w&P$n tickles $N.~
-VictFound   &L$n &st&si&sc&sk&sl&se&ss&P you - hee hee hee&n.~
+VictFound   &L$n &st&si&sc&sk&sl&se&ss&P you&7 - hee hee hee&n.~
 CharAuto    You tickle yourself, how funny!~
 OthersAuto  $n tickles $mself.~
 End

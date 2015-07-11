@@ -316,7 +316,8 @@ When the pluogus lands type BOARD PLUOGUS to enter.
 D1
 ~
 ~
-0 -1 204
+0 -1 204 0
+R M 0 209 1 201
 S
 #202
 Shuttle Platform~
@@ -335,7 +336,8 @@ Wait here for the shipyard ferry. When it lands BOARD FERRY.
 D3
 ~
 ~
-0 -1 204
+0 -1 204 0
+R M 0 208 2 202
 S
 #203
 Main Platform~
@@ -350,7 +352,11 @@ Range.
 D0
 ~
 ~
-0 -1 204
+0 -1 204 0
+R M 0 206 4 203
+R M 0 206 4 203
+R M 0 206 4 203
+R M 0 206 4 203
 S
 #204
 Platform Area~
@@ -366,19 +372,21 @@ south of here. A walkway leads north into the spaceport.
 D0
 ~
 ~
-0 -1 205
+0 -1 205 0
 D1
 ~
 ~
-0 -1 202
+0 -1 202 0
 D2
 ~
 ~
-0 -1 203
+0 -1 203 0
 D3
 ~
 ~
-0 -1 201
+0 -1 201 0
+R M 0 204 2 204
+R M 0 204 2 204
 S
 #205
 Walkway~
@@ -391,11 +399,16 @@ out in all other directions.
 D0
 ~
 ~
-0 -1 206
+0 -1 206 0
 D2
 ~
 ~
-0 -1 204
+0 -1 204 0
+R M 0 210 2 205
+  R E 1 202 1 8
+R M 0 210 2 205
+  R G 1 3 1
+  R E 1 202 1 8
 S
 #206
 Waiting Room~
@@ -409,19 +422,21 @@ an old movie in one corner of the room.
 D0
 ~
 ~
-0 -1 209
+0 -1 209 0
 D1
 ~
 ~
-0 -1 208
+0 -1 208 0
 D2
 ~
 ~
-0 -1 205
+0 -1 205 0
 D3
 ~
 ~
-0 -1 207
+0 -1 207 0
+R M 0 207 2 206
+R M 0 207 2 206
 S
 #207
 Spaceport Cafe~
@@ -435,7 +450,9 @@ a several in the center of the room.
 D1
 ~
 ~
-0 -1 206
+0 -1 206 0
+R M 0 202 1 207
+  R G 1 201 1
 S
 #208
 Lost and Found~
@@ -448,7 +465,8 @@ collecting dust for quite some time.
 D3
 ~
 ~
-0 -1 206
+0 -1 206 0
+R O 0 210 1 208
 S
 #209
 Spaceport Lobby~
@@ -461,23 +479,23 @@ the opposite corner leads down.
 D0
 ~
 ~
-0 -1 210
+0 -1 210 0
 D1
 ~
 ~
-0 -1 212
+0 -1 212 0
 D2
 ~
 ~
-0 -1 206
+0 -1 206 0
 D3
 ~
 ~
-0 -1 211
+0 -1 211 0
 D5
 ~
 ~
-0 -1 213
+0 -1 213 0
 S
 #210
 Spaceport Entrance~
@@ -490,7 +508,8 @@ people approach.
 D2
 ~
 ~
-0 -1 209
+0 -1 209 0
+R M 0 203 1 210
 S
 #211
 Spaceport Hotel~
@@ -506,7 +525,8 @@ You may safely leave and reenter the game from here.
 D1
 ~
 ~
-0 -1 209
+0 -1 209 0
+R O 0 38 1 211
 S
 #212
 Spaceport Store~
@@ -518,7 +538,8 @@ things on display could come in handy if the prices weren't so high.
 D3
 ~
 ~
-0 -1 209
+0 -1 209 0
+R M 0 201 1 212
 S
 #213
 Transit Station~
@@ -531,11 +552,11 @@ thus is a favoured means  of transportation.
 D1
 ~
 ~
-0 -1 214
+0 -1 214 0
 D4
 ~
 ~
-0 -1 209
+0 -1 209 0
 S
 #214
 Toll Booth~
@@ -548,7 +569,8 @@ credits.
 D3
 ~
 ~
-0 -1 213
+0 -1 213 0
+R M 0 200 1 214
 S
 #215
 Menari Spaceport Station~
@@ -562,7 +584,7 @@ it and look for a seat.
 D3
 ~
 ~
-0 -1 213
+0 -1 213 0
 S
 #216
 Turbocar Platform - Skydome Station~
@@ -675,35 +697,9 @@ S
 #0
 
 
-#RESETS
-M 1 209 1 201
-M 1 208 2 202
-M 1 206 4 203
-M 1 206 4 203
-M 1 206 4 203
-M 1 206 4 203
-M 1 204 2 204
-M 1 204 2 204
-M 1 210 2 205
-E 1 202 1 8
-M 1 210 2 205
-G 1 3 1
-E 1 202 1 8
-M 1 207 2 206
-M 1 207 2 206
-M 1 202 1 207
-G 1 201 1
-O 1 210 1 208
-M 1 203 1 210
-O 1 38 1 211
-M 1 201 1 212
-M 1 200 1 214
-S
-
-
 #SHOPS
- 201    0  0  0  0  0   120  90         0 23 0  ; a shopkeeper droid
- 202    0  0  0  0  0   120  90         0 23 0  ; a retail droid
+ 201    0  0  0  0  0   120  90         0 23    ; a shopkeeper droid
+ 202    0  0  0  0  0   120  90         0 23    ; a retail droid
 0
 
 

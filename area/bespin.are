@@ -152,7 +152,7 @@ blows here, forcing visitors to use caution to avoid a fall.
 D0
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 S
 #29001
 Cloud City Turbolift~
@@ -221,11 +221,11 @@ white chrome and durasteel.
 D0
 ~
 ~
-0 -1 29005
+0 -1 29005 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 S
 #29003
 The Office of Public Safety~
@@ -238,7 +238,8 @@ on the east reveals the beautiful clouds that gave Cloud City its name.
 D3
 ~
 door~
-1 -1 29005
+1 -1 29005 0
+R D 0 29003 3 0
 S
 #29004
 The Office of Industrial Expansion~
@@ -251,7 +252,7 @@ constant light.
 D1
 ~
 ~
-0 -1 29005
+0 -1 29005 0
 S
 #29005
 A Large Lobby~
@@ -264,19 +265,20 @@ people.  A small durasteel plaque hangs on the wall beside the desk.
 D0
 ~
 ~
-6 29001 29006
+6 29001 29006 0
 D1
 ~
 ~
-6 29001 29003
+6 29001 29003 0
 D2
 ~
 ~
-0 -1 29002
+0 -1 29002 0
 D3
 ~
 ~
-6 29001 29004
+6 29001 29004 0
+R M 0 29002 1 29005
 E
 plaque~
 Administration --- Lando Calrissian
@@ -298,7 +300,7 @@ eye can see.
 D2
 ~
 ~
-0 -1 29005
+0 -1 29005 0
 S
 #29007
 The Commercial District~
@@ -311,15 +313,16 @@ a cleaning droid maintains the elegance of the room.
 D0
 ~
 ~
-0 -1 29008
+0 -1 29008 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 D3
 ~
 passage~
-2059 -1 29012
+2059 -1 29012 0
+R D 0 29007 3 1
 S
 #29008
 Cloud City Mall~
@@ -332,19 +335,19 @@ different races as they go about their daily lives.
 D0
 ~
 ~
-0 -1 29010
+0 -1 29010 0
 D1
 ~
 ~
-0 -1 29015
+0 -1 29015 0
 D2
 ~
 ~
-0 -1 29007
+0 -1 29007 0
 D3
 ~
 ~
-0 -1 29014
+0 -1 29014 0
 S
 #29009
 The Residential Section~
@@ -358,11 +361,11 @@ of here is a hallway which leads to living quarters.
 D0
 ~
 ~
-0 -1 29017
+0 -1 29017 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 S
 #29010
 The Central Marketplace~
@@ -374,19 +377,19 @@ and plexiglass doors leading in several directions.
 D0
 ~
 ~
-0 -1 29043
+0 -1 29043 0
 D1
 ~
 ~
-0 -1 29042
+0 -1 29042 0
 D2
 ~
 ~
-0 -1 29008
+0 -1 29008 0
 D7
 ~
 ~
-0 -1 29016
+0 -1 29016 0
 S
 #29011
 A Small Pawn Shop~
@@ -404,11 +407,12 @@ area of Cloud City.
 D1
 ~
 passage~
-11 -1 29007
+11 -1 29007 0
 D3
 ~
 ~
-0 -1 29013
+0 -1 29013 0
+R D 0 29012 1 1
 S
 #29013
 A Dim Shop~
@@ -423,7 +427,7 @@ out. You might be wise to be careful in here.
 D1
 ~
 ~
-0 -1 29012
+0 -1 29012 0
 S
 #29014
 The General Store~
@@ -435,7 +439,7 @@ all as pleasant as normal, for their species.
 D1
 ~
 ~
-0 -1 29008
+0 -1 29008 0
 S
 #29015
 The Weapons Store~
@@ -448,7 +452,7 @@ stray blaster fire.
 D3
 ~
 ~
-0 -1 29008
+0 -1 29008 0
 S
 #29016
 An Exotic Petshop~
@@ -461,7 +465,7 @@ possible.
 D8
 ~
 ~
-0 -1 29010
+0 -1 29010 0
 S
 #29017
 A Long Hallway~
@@ -475,19 +479,19 @@ the exit is to the south.
 D0
 ~
 ~
-0 -1 29021
+0 -1 29021 0
 D1
 ~
 ~
-0 -1 29023
+0 -1 29023 0
 D2
 ~
 ~
-0 -1 29009
+0 -1 29009 0
 D3
 ~
 ~
-0 -1 29018
+0 -1 29018 0
 S
 #29018
 A Long Hallway~
@@ -500,15 +504,15 @@ window that allows you to see outside of the city.
 D0
 ~
 ~
-0 -1 29019
+0 -1 29019 0
 D1
 ~
 ~
-0 -1 29017
+0 -1 29017 0
 D2
 ~
 ~
-0 -1 29020
+0 -1 29020 0
 S
 #29019
 A Small Apartment~
@@ -517,7 +521,7 @@ A Small Apartment~
 D2
 ~
 ~
-0 -1 29018
+0 -1 29018 0
 S
 #29020
 A Small Apartment~
@@ -526,7 +530,7 @@ A Small Apartment~
 D0
 ~
 ~
-0 -1 29018
+0 -1 29018 0
 S
 #29021
 A Small Apartment~
@@ -535,7 +539,7 @@ A Small Apartment~
 D2
 ~
 ~
-0 -1 29017
+0 -1 29017 0
 S
 #29022
 Entrance to the Factory~
@@ -544,11 +548,11 @@ Entrance to the Factory~
 D0
 ~
 ~
-0 -1 29027
+0 -1 29027 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 S
 #29023
 A Long Hallway~
@@ -561,11 +565,11 @@ you can see many lavish decorations that must be very expensive.
 D0
 ~
 ~
-0 -1 29024
+0 -1 29024 0
 D3
 ~
 ~
-0 -1 29017
+0 -1 29017 0
 S
 #29024
 The Baron-Administrator's House~
@@ -574,15 +578,15 @@ The Baron-Administrator's House~
 D1
 ~
 ~
-0 -1 29026
+0 -1 29026 0
 D2
 ~
 ~
-0 -1 29023
+0 -1 29023 0
 D7
 ~
 ~
-0 -1 29025
+0 -1 29025 0
 S
 #29025
 A Large Bedroom~
@@ -591,7 +595,7 @@ A Large Bedroom~
 D8
 ~
 ~
-0 -1 29024
+0 -1 29024 0
 S
 #29026
 A Comfortable Study~
@@ -600,7 +604,7 @@ A Comfortable Study~
 D3
 ~
 ~
-0 -1 29024
+0 -1 29024 0
 S
 #29027
 The Industrial Factory~
@@ -609,11 +613,11 @@ The Industrial Factory~
 D0
 ~
 ~
-0 -1 29028
+0 -1 29028 0
 D2
 ~
 ~
-0 -1 29022
+0 -1 29022 0
 S
 #29028
 A Long Assembly Line~
@@ -626,23 +630,23 @@ equipment to be exported to various worlds and organizations.
 D0
 ~
 ~
-0 -1 29031
+0 -1 29031 0
 D2
 ~
 ~
-0 -1 29027
+0 -1 29027 0
 D3
 ~
 ~
-0 -1 29033
+0 -1 29033 0
 D6
 ~
 ~
-0 -1 29029
+0 -1 29029 0
 D7
 ~
 ~
-0 -1 29030
+0 -1 29030 0
 S
 #29029
 A Gas Processing Chamber~
@@ -651,11 +655,11 @@ A Gas Processing Chamber~
 D0
 ~
 ~
-0 -1 29032
+0 -1 29032 0
 D9
 ~
 ~
-0 -1 29028
+0 -1 29028 0
 S
 #29030
 A Large Smelting Room~
@@ -664,7 +668,7 @@ A Large Smelting Room~
 D8
 ~
 ~
-0 -1 29028
+0 -1 29028 0
 S
 #29031
 The Workshop~
@@ -673,7 +677,7 @@ The Workshop~
 D2
 ~
 ~
-0 -1 29028
+0 -1 29028 0
 S
 #29032
 A Carbon Freezing Facility~
@@ -682,7 +686,7 @@ A Carbon Freezing Facility~
 D2
 ~
 ~
-0 -1 29029
+0 -1 29029 0
 S
 #29033
 The Supervisor's Office~
@@ -691,7 +695,7 @@ The Supervisor's Office~
 D1
 ~
 ~
-0 -1 29028
+0 -1 29028 0
 S
 #29034
 Engineering~
@@ -700,23 +704,23 @@ Engineering~
 D0
 ~
 ~
-0 -1 29036
+0 -1 29036 0
 D1
 ~
 ~
-0 -1 29038
+0 -1 29038 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 D3
 ~
 ~
-0 -1 29037
+0 -1 29037 0
 D6
 ~
 ~
-0 -1 29035
+0 -1 29035 0
 S
 #29035
 The Monitoring Station~
@@ -729,7 +733,7 @@ is maintained.
 D9
 ~
 ~
-0 -1 29034
+0 -1 29034 0
 S
 #29036
 The Department of Repairs and Upgrades~
@@ -742,7 +746,7 @@ annoyed if you disturb him.
 D2
 ~
 ~
-0 -1 29034
+0 -1 29034 0
 S
 #29037
 Research and Development~
@@ -756,7 +760,7 @@ implementation.
 D1
 ~
 ~
-0 -1 29034
+0 -1 29034 0
 S
 #29038
 The Head Engineer's Office~
@@ -769,7 +773,7 @@ few pictures, one being of him and his family.
 D3
 ~
 ~
-0 -1 29034
+0 -1 29034 0
 S
 #29039
 A Narrow Corridor~
@@ -781,15 +785,15 @@ the machinery.
 D1
 ~
 ~
-0 -1 29040
+0 -1 29040 0
 D2
 ~
 ~
-0 -1 29001
+0 -1 29001 0
 D3
 ~
 ~
-0 -1 29041
+0 -1 29041 0
 S
 #29040
 Above the Main Repulsor~
@@ -803,7 +807,7 @@ allow technicians to service it.
 D3
 ~
 ~
-0 -1 29039
+0 -1 29039 0
 S
 #29041
 Tibanna Gas Mining~
@@ -816,7 +820,7 @@ storage.
 D1
 ~
 ~
-0 -1 29039
+0 -1 29039 0
 S
 #29042
 Cloud City Bank and Trust~
@@ -831,7 +835,7 @@ to use the machine.
 D3
 ~
 ~
-0 -1 29010
+0 -1 29010 0
 S
 #29043
 Cloud City Hotel~
@@ -844,7 +848,7 @@ ready to escort you to your room.
 D2
 ~
 ~
-0 -1 29010
+0 -1 29010 0
 S
 #29044
 Floating in a void~
@@ -1077,14 +1081,6 @@ Floating in a void~
 0 4 1 0 0 0 288
 S
 #0
-
-
-#RESETS
-D 0 29003 3 0
-M 1 29002 1 29005
-D 0 29007 3 1
-D 0 29012 1 1
-S
 
 
 #SHOPS

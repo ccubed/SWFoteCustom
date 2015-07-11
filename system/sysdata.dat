@@ -1,4 +1,6 @@
 #SYSTEM
+MudName        FotE v2.1.5~
+Acronym        FotE~
 Highplayers    32
 Highplayertime Fri Apr  5 22:40:57 2002~
 Nameresolving  0
@@ -28,6 +30,8 @@ Savefreq       0
 Newbie_purge	5
 Regular_purge	30
 Autopurge		1
+Wizlock           0
+PrivOverride	0
 End
 
 #END

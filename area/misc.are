@@ -273,7 +273,7 @@ Outside A Normal Convienence Store Called "Pammies"
 D0
 ~
 ~
-0 -1 701
+0 -1 701 0
 > speech_prog level~
 mpechoat $n Levels:
 mpechoat $n Platform/Landing Platform - 1
@@ -296,19 +296,19 @@ Entering the Convienience Store.
 D0
 ~
 ~
-0 -1 704
+0 -1 704 0
 D1
 ~
 ~
-0 -1 702
+0 -1 702 0
 D2
 ~
 ~
-0 -1 700
+0 -1 700 0
 D3
 ~
 ~
-0 -1 703
+0 -1 703 0
 > speech_prog level~
 mpechoat $n Levels:
 mpechoat $n Platform/Landing Platform - 1
@@ -361,7 +361,7 @@ Banking machines are placed here
 D3
 ~
 ~
-0 -1 701
+0 -1 701 0
 > speech_prog level~
 mpechoat $n Levels:
 mpechoat $n Platform/Landing Platform - 1
@@ -413,7 +413,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 701
+0 -1 701 0
 S
 #704
 Floating in a void~
@@ -422,7 +422,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 701
+0 -1 701 0
 S
 #705
 Floating in a void~
@@ -1442,16 +1442,12 @@ S
 Floating in a void~
 ~
 0 4 1 0 0 0 32040
+R M 0 700 1 899
+R M 0 899 1 899
+R O 0 700 1 899
+R O 0 799 1 899
 S
 #0
-
-
-#RESETS
-M 1 700 1 899
-M 1 899 1 899
-O 1 700 1 899
-O 1 799 1 899
-S
 
 
 #SHOPS

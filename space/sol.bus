@@ -47,7 +47,7 @@ Rockets     0
 Maxrockets  0
 Torpedos     0
 Maxtorpedos  0
-Lastdoc      1850
+Lastdoc      45
 Firstroom    900
 Lastroom     907
 Hanger1      0
@@ -80,6 +80,7 @@ Missilestate 0
 Energy       10000
 Manuever     11
 Password     3276
+MaxCargo     0
 Home         ~
 Simulator    0 0
 End

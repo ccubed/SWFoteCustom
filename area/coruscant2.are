@@ -505,15 +505,15 @@ If you are hurt, go into it, perhaps they will operate on you.
 D0
 ~
 ~
-0 -1 1151
+0 -1 1151 0
 D1
 ~
 ~
-0 -1 1187
+0 -1 1187 0
 D2
 ~
 ~
-0 -1 1188
+0 -1 1188 0
 S
 #1151
 A Brightly Lit Hallway~
@@ -522,15 +522,17 @@ A Brightly Lit Hallway~
 D0
 ~
 ~
-0 -1 1190
+0 -1 1190 0
 D2
 ~
 ~
-0 -1 1150
+0 -1 1150 0
 D3
 ~
 ~
-0 -1 1152
+0 -1 1152 0
+R M 0 1154 22 1151
+R M 0 1154 22 1151
 S
 #1152
 A Brightly Lit Hallway~
@@ -543,11 +545,12 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1151
+0 -1 1151 0
 D3
 ~
 ~
-0 -1 1154
+0 -1 1154 0
+R M 0 1113 8 1152
 S
 #1153
 Droid Repair Station~
@@ -560,7 +563,7 @@ get fixed, however unlikely it is .
 D2
 ~
 ~
-0 -1 1154
+0 -1 1154 0
 S
 #1154
 Outside the Droid Repair Station~
@@ -569,15 +572,15 @@ Outside the Droid Repair Station~
 D0
 ~
 ~
-0 -1 1153
+0 -1 1153 0
 D1
 ~
 ~
-0 -1 1152
+0 -1 1152 0
 D3
 ~
 ~
-0 -1 1155
+0 -1 1155 0
 S
 #1155
 A Brightly Lit Hallway~
@@ -590,11 +593,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1154
+0 -1 1154 0
 D3
 ~
 ~
-0 -1 1156
+0 -1 1156 0
 S
 #1156
 North of the Cafeteria~
@@ -606,15 +609,17 @@ fleet
 D1
 ~
 ~
-0 -1 1155
+0 -1 1155 0
 D2
 ~
 ~
-0 -1 1185
+0 -1 1185 0
 D3
 ~
 ~
-0 -1 1157
+0 -1 1157 0
+R M 0 1154 67 1156
+R M 0 1154 67 1156
 S
 #1157
 South of the Naval Wing~
@@ -626,15 +631,17 @@ fleet
 D0
 ~
 ~
-0 -1 1168
+0 -1 1168 0
 D1
 ~
 ~
-0 -1 1156
+0 -1 1156 0
 D2
 ~
 ~
-0 -1 1158
+0 -1 1158 0
+R M 0 1154 22 1157
+R M 0 1154 22 1157
 S
 #1158
 West of the Cafeteria~
@@ -646,15 +653,17 @@ from the east to see its great warships
 D0
 ~
 ~
-0 -1 1157
+0 -1 1157 0
 D1
 ~
 ~
-0 -1 1185
+0 -1 1185 0
 D2
 ~
 ~
-0 -1 1159
+0 -1 1159 0
+R M 0 1113 8 1158
+R M 0 1154 65 1158
 S
 #1159
 A Brightly Lit Hallway~
@@ -667,11 +676,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1158
+0 -1 1158 0
 D2
 ~
 ~
-0 -1 1160
+0 -1 1160 0
 S
 #1160
 A Brightly Lit Hallway~
@@ -684,11 +693,13 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1159
+0 -1 1159 0
 D2
 ~
 ~
-0 -1 1161
+0 -1 1161 0
+R M 0 1154 64 1160
+R M 0 1154 64 1160
 S
 #1161
 A Brightly Lit Hallway~
@@ -701,11 +712,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1160
+0 -1 1160 0
 D2
 ~
 ~
-0 -1 1162
+0 -1 1162 0
 S
 #1162
 A Brightly Lit Hallway~
@@ -718,11 +729,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1161
+0 -1 1161 0
 D2
 ~
 ~
-0 -1 1163
+0 -1 1163 0
 S
 #1163
 Before the Rec Area~
@@ -736,15 +747,17 @@ intersection of halls.
 D0
 ~
 ~
-0 -1 1162
+0 -1 1162 0
 D1
 ~
 ~
-0 -1 1164
+0 -1 1164 0
 D3
 ~
 ~
-0 -1 1178
+0 -1 1178 0
+R M 0 1154 62 1163
+R M 0 1154 62 1163
 S
 #1164
 A Brightly Lit Hallway~
@@ -757,11 +770,12 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1165
+0 -1 1165 0
 D3
 ~
 ~
-0 -1 1163
+0 -1 1163 0
+R M 0 1113 8 1164
 S
 #1165
 A Brightly Lit Hallway~
@@ -774,11 +788,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1166
+0 -1 1166 0
 D3
 ~
 ~
-0 -1 1164
+0 -1 1164 0
 S
 #1166
 A Brightly Lit Hallway~
@@ -791,11 +805,21 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1167
+0 -1 1167 0
 D3
 ~
 ~
-0 -1 1165
+0 -1 1165 0
+R M 0 1154 58 1166
+R M 0 1154 58 1166
+  R E 1 50 1 16
+  R G 1 141 1
+  R G 1 50 1
+  R G 1 50 1
+  R G 1 50 1
+  R G 1 50 1
+  R G 1 50 1
+  R G 1 50 1
 S
 #1167
 A Brightly Lit Hallway~
@@ -808,11 +832,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1100
+0 -1 1100 0
 D3
 ~
 ~
-0 -1 1166
+0 -1 1166 0
 S
 #1168
 Entering the Naval Wing~
@@ -826,11 +850,11 @@ rats, directing the pilots to their fighters.
 D0
 ~
 ~
-0 -1 1169
+0 -1 1169 0
 D2
 ~
 ~
-0 -1 1157
+0 -1 1157 0
 S
 #1169
 A Brightly Lit Hallway~
@@ -843,11 +867,11 @@ few grunts of appology here and the re
 D0
 ~
 ~
-0 -1 1170
+0 -1 1170 0
 D2
 ~
 ~
-0 -1 1168
+0 -1 1168 0
 S
 #1170
 A Brightly Lit Hallway~
@@ -860,15 +884,17 @@ few grunts of appology here and the re.
 D0
 ~
 ~
-0 -1 1143
+0 -1 1143 0
 D2
 ~
 ~
-0 -1 1169
+0 -1 1169 0
 D3
 ~
 ~
-0 -1 1171
+0 -1 1171 0
+R M 0 1154 75 1170
+R M 0 1154 75 1170
 S
 #1171
 North of the Simulators~
@@ -881,15 +907,15 @@ instructor yet again.
 D1
 ~
 ~
-0 -1 1170
+0 -1 1170 0
 D2
 ~
 ~
-0 -1 1176
+0 -1 1176 0
 D3
 ~
 ~
-0 -1 1172
+0 -1 1172 0
 S
 #1172
 North of the Piloting Instructor~
@@ -903,15 +929,15 @@ sacrificial lamb they call a pilot.
 D1
 ~
 ~
-0 -1 1171
+0 -1 1171 0
 D2
 ~
 ~
-0 -1 1177
+0 -1 1177 0
 D3
 ~
 ~
-0 -1 1173
+0 -1 1173 0
 S
 #1173
 Outside of the Living Quarters~
@@ -923,15 +949,15 @@ the west is the route to the Admiral on Duty's office.
 D0
 ~
 ~
-0 -1 1193
+0 -1 1193 0
 D1
 ~
 ~
-0 -1 1172
+0 -1 1172 0
 D3
 ~
 ~
-0 -1 1174
+0 -1 1174 0
 S
 #1174
 Standing In Front of the Admiral's Office~
@@ -943,11 +969,13 @@ his actuall office.
 D1
 ~
 ~
-0 -1 1173
+0 -1 1173 0
 D3
 ~
 ~
-0 -1 1175
+0 -1 1175 0
+R M 0 1154 22 1174
+R M 0 1154 22 1174
 S
 #1175
 Grand Admiral Park's office~
@@ -960,7 +988,7 @@ stands to leave.
 D1
 ~
 ~
-0 -1 1174
+0 -1 1174 0
 S
 #1176
 Imperial Naval Simulators~
@@ -972,7 +1000,7 @@ try to make them, to shake pursuit of their fellow trainees.
 D0
 ~
 ~
-0 -1 1171
+0 -1 1171 0
 S
 #1177
 Imperial Flight Instructor~
@@ -987,7 +1015,8 @@ papers on his latest lecture.
 D0
 ~
 ~
-0 -1 1172
+0 -1 1172 0
+R M 0 1153 1 1177
 S
 #1178
 Entrance to the Recreation Area~
@@ -1000,11 +1029,11 @@ are lights along the top of the ceiling, showing you the way.
 D1
 ~
 ~
-0 -1 1163
+0 -1 1163 0
 D2
 ~
 ~
-0 -1 1179
+0 -1 1179 0
 S
 #1179
 Walking in the Rec Area~
@@ -1017,11 +1046,11 @@ captions explaining who they are and what they did.
 D0
 ~
 ~
-0 -1 1178
+0 -1 1178 0
 D3
 ~
 ~
-0 -1 1180
+0 -1 1180 0
 S
 #1180
 Walking in the Rec Area~
@@ -1034,15 +1063,15 @@ multipurpose room.
 D1
 ~
 ~
-0 -1 1179
+0 -1 1179 0
 D2
 ~
 ~
-0 -1 1184
+0 -1 1184 0
 D3
 ~
 ~
-0 -1 1181
+0 -1 1181 0
 S
 #1181
 Walking in the Rec Area~
@@ -1055,11 +1084,11 @@ captions explaining who they are and what they did.
 D1
 ~
 ~
-0 -1 1180
+0 -1 1180 0
 D3
 ~
 ~
-0 -1 1182
+0 -1 1182 0
 S
 #1182
 Vending Machines~
@@ -1072,11 +1101,11 @@ recreation area.
 D0
 ~
 ~
-0 -1 1186
+0 -1 1186 0
 D1
 ~
 ~
-0 -1 1181
+0 -1 1181 0
 S
 #1183
 Pool Hall~
@@ -1091,7 +1120,7 @@ cues
 D2
 ~
 ~
-0 -1 1181
+0 -1 1181 0
 S
 #1184
 Sabaac Tables~
@@ -1105,7 +1134,7 @@ it, just waiting to be occupied
 D0
 ~
 ~
-0 -1 1180
+0 -1 1180 0
 S
 #1185
 Cafeteria~
@@ -1120,11 +1149,12 @@ eat this mush.
 D0
 ~
 ~
-0 -1 1156
+0 -1 1156 0
 D3
 ~
 ~
-0 -1 1158
+0 -1 1158 0
+R M 0 1156 1 1185
 S
 #1186
 Multipurpose Room~
@@ -1137,7 +1167,7 @@ lower half of the walls to prevent injury
 D2
 ~
 ~
-0 -1 1182
+0 -1 1182 0
 S
 #1187
 Medical Area~
@@ -1150,7 +1180,10 @@ commands, so if you need to be healed, just say so! (I need to be healed)
 D3
 ~
 ~
-0 -1 1150
+0 -1 1150 0
+R M 0 1154 84 1187
+R M 0 1154 84 1187
+R M 0 1154 84 1187
 > speech_prog "I need to be healed"~
 mprestore $n 500
 mea $n &w&cThe bacta is applied by the medbots and your wounds quickly heal.
@@ -1168,11 +1201,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1150
+0 -1 1150 0
 D2
 ~
 ~
-0 -1 1189
+0 -1 1189 0
 S
 #1189
 A Brightly Lit Hallway~
@@ -1185,11 +1218,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1188
+0 -1 1188 0
 D2
 ~
 ~
-0 -1 1137
+0 -1 1137 0
 S
 #1190
 Near the Turbolift~
@@ -1198,11 +1231,11 @@ Near the Turbolift~
 D0
 ~
 ~
-0 -1 1191
+0 -1 1191 0
 D2
 ~
 ~
-0 -1 1151
+0 -1 1151 0
 S
 #1191
 Imperial Turbolift~
@@ -1215,6 +1248,7 @@ A list of the floors is here:
 2nd Floor (just say 2)
 ~
 0 12 1 0 0 0 88
+R M 0 1154 2 1191
 > speech_prog 1~
 mpecho The turbolift hums to life.
 mpecho The turbolift slows as it reaches the ground floor.
@@ -1241,15 +1275,18 @@ gray color and the carpet is navy blue.
 D0
 ~
 ~
-39 1206 1199
+39 1206 1199 0
 D2
 ~
 ~
-0 -1 1191
+0 -1 1191 0
 D3
 ~
 ~
-0 -1 1232
+0 -1 1232 0
+R M 0 1154 26 1192
+R M 0 1154 26 1192
+R D 0 1192 0 2
 S
 #1193
 Imperial Troop Barracks~
@@ -1262,19 +1299,19 @@ You hear snoring and the occas occasional fart.
 D0
 ~
 ~
-0 -1 1194
+0 -1 1194 0
 D1
 ~
 ~
-0 -1 1195
+0 -1 1195 0
 D2
 ~
 ~
-0 -1 1173
+0 -1 1173 0
 D3
 ~
 ~
-0 -1 1196
+0 -1 1196 0
 S
 #1194
 Imperial Troop Barracks~
@@ -1287,15 +1324,15 @@ You hear snoring and the occas occasional fart.
 D1
 ~
 ~
-0 -1 1198
+0 -1 1198 0
 D2
 ~
 ~
-0 -1 1193
+0 -1 1193 0
 D3
 ~
 ~
-0 -1 1197
+0 -1 1197 0
 S
 #1195
 Sleeping Chamber~
@@ -1309,7 +1346,7 @@ Thereis a cadet sleeping on the bottom bunk, but the top one is all yours.
 D3
 ~
 ~
-0 -1 1193
+0 -1 1193 0
 S
 #1196
 Sleeping Chamber~
@@ -1323,7 +1360,7 @@ Thereis a cadet sleeping on the bottom bunk, but the top one is all yours.
 D1
 ~
 ~
-0 -1 1193
+0 -1 1193 0
 S
 #1197
 Sleeping Chamber~
@@ -1337,7 +1374,7 @@ Thereis a cadet sleeping on the bottom bunk, but the top one is all yours.
 D1
 ~
 ~
-0 -1 1194
+0 -1 1194 0
 S
 #1198
 Sleeping Chamber~
@@ -1351,7 +1388,7 @@ Thereis a cadet sleeping on the bottom bunk, but the top one is all yours.
 D3
 ~
 ~
-0 -1 1194
+0 -1 1194 0
 S
 #1199
 Second Floor: Imperial Palace~
@@ -1365,11 +1402,11 @@ power of the Dark Side slightly.
 D0
 ~
 ~
-8388609 1206 1200
+8388609 1206 1200 0
 D2
 ~
 ~
-33 1206 1192
+33 1206 1192 0
 S
 #1200
 Security Checkpoint~
@@ -1385,19 +1422,19 @@ you.
 D0
 ~
 ~
-0 -1 1203
+0 -1 1203 0
 D1
 ~
 ~
-0 -1 1201
+0 -1 1201 0
 D2
 ~
 ~
-8388609 1206 1199
+8388609 1206 1199 0
 D3
 ~
 ~
-0 -1 1202
+0 -1 1202 0
 S
 #1201
 Guard Station~
@@ -1410,7 +1447,9 @@ protect the Emperor from foreign invaders.
 D3
 ~
 ~
-0 -1 1200
+0 -1 1200 0
+R M 0 1053 4 1201
+R M 0 1053 4 1201
 S
 #1202
 Guard Station~
@@ -1423,7 +1462,9 @@ the Emperor from foreign invaders.
 D1
 ~
 ~
-0 -1 1200
+0 -1 1200 0
+R M 0 1053 4 1202
+R M 0 1053 4 1202
 S
 #1203
 Before the Throne Room~
@@ -1437,11 +1478,11 @@ intruders. A strong tug from the Dark Side beckons you to enter.
 D0
 ~
 ~
-0 -1 1204
+0 -1 1204 0
 D2
 ~
 ~
-0 -1 1200
+0 -1 1200 0
 S
 #1204
 Throne Room~
@@ -1459,15 +1500,18 @@ the Dark Side is very strong here.
 D2
 ~
 ~
-0 -1 1203
+0 -1 1203 0
 D5
 ~
 ~
-8391713 1249 7510
+8391713 1249 7510 0
 D6
 ~
 ~
-0 -1 1205
+0 -1 1205 0
+R M 0 1154 28 1204
+R M 0 1154 28 1204
+R O 0 1248 1 1204
 E
 scratch~
 &r The Al'Therin Symbol is scratched in the ground here.&w&W
@@ -1485,7 +1529,8 @@ next moves of the Empire.
 D9
 ~
 ~
-0 -1 1204
+0 -1 1204 0
+R M 0 1138 1 1205
 S
 #1206
 The Jail ~
@@ -1494,7 +1539,8 @@ The Jail ~
 D0
 ~
 ~
-7 1140 1126
+7 1140 1126 0
+R D 0 1206 0 2
 > time_prog 10~
 if otyperoom(food) < 1
 mpecho A small gate on the bottom of the jail door slides open.
@@ -1514,11 +1560,11 @@ Floating in a void~
 D6
 ~
 ~
-0 -1 1208
+0 -1 1208 0
 D9
 ~
 ~
-0 -1 1151
+0 -1 1151 0
 S
 #1208
 Floating in a void~
@@ -1527,11 +1573,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 1209
+0 -1 1209 0
 D9
 ~
 ~
-0 -1 1207
+0 -1 1207 0
 S
 #1209
 Floating in a void~
@@ -1540,7 +1586,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 1208
+0 -1 1208 0
 S
 #1210
 Floating in a void~
@@ -1604,7 +1650,8 @@ The back room~
 D8
 ~
 ~
-0 -1 1242
+0 -1 1242 0
+R M 0 231 2 1221
 S
 #1222
 Floating in a void~
@@ -1623,7 +1670,7 @@ Head of Espionage's Office~
 D0
 ~
 ~
-0 -1 1230
+0 -1 1230 0
 S
 #1225
 Head of Domestic Affair's Office~
@@ -1632,7 +1679,8 @@ Head of Domestic Affair's Office~
 D2
 ~
 ~
-0 -1 1230
+0 -1 1230 0
+R O 0 1245 1 1225
 S
 #1226
 Grand Admiral's Office~
@@ -1645,7 +1693,7 @@ a single steel chair in front of the desk for visitors.
 D2
 ~
 ~
-0 -1 1232
+0 -1 1232 0
 S
 #1227
 Supreme General's Office~
@@ -1659,7 +1707,7 @@ for vis itors.
 D0
 ~
 ~
-0 -1 1232
+0 -1 1232 0
 S
 #1228
 Head of Recruitment's Office~
@@ -1668,7 +1716,7 @@ Head of Recruitment's Office~
 D0
 ~
 ~
-0 -1 1231
+0 -1 1231 0
 S
 #1229
 Head of Counter Espionage's Office~
@@ -1677,7 +1725,7 @@ Head of Counter Espionage's Office~
 D2
 ~
 ~
-0 -1 1231
+0 -1 1231 0
 S
 #1230
 Steel Corridor~
@@ -1686,15 +1734,15 @@ Steel Corridor~
 D0
 ~
 ~
-0 -1 1225
+0 -1 1225 0
 D1
 ~
 ~
-0 -1 1231
+0 -1 1231 0
 D2
 ~
 ~
-0 -1 1224
+0 -1 1224 0
 S
 #1231
 Steel Corridor~
@@ -1703,19 +1751,19 @@ Steel Corridor~
 D0
 ~
 ~
-0 -1 1229
+0 -1 1229 0
 D1
 ~
 ~
-0 -1 1232
+0 -1 1232 0
 D2
 ~
 ~
-0 -1 1228
+0 -1 1228 0
 D3
 ~
 ~
-0 -1 1230
+0 -1 1230 0
 S
 #1232
 Steel Corridor~
@@ -1724,19 +1772,19 @@ Steel Corridor~
 D0
 ~
 ~
-0 -1 1226
+0 -1 1226 0
 D1
 ~
 ~
-0 -1 1192
+0 -1 1192 0
 D2
 ~
 ~
-0 -1 1227
+0 -1 1227 0
 D3
 ~
 ~
-0 -1 1231
+0 -1 1231 0
 S
 #1233
 Dr. Payne's Chop-Shop~
@@ -1753,11 +1801,12 @@ white meat freezer.
 D0
 ~
 ~
-0 -1 1234
+0 -1 1234 0
 D3
 ~
 ~
-0 -1 7508
+0 -1 7508 0
+R M 0 1157 1 1233
 S
 #1234
 Dr. Payne's Chop-Shop, Storage~
@@ -1771,7 +1820,8 @@ smelling particularly foul.
 D2
 ~
 ~
-0 -1 1233
+0 -1 1233 0
+R O 0 1156 1 1234
 S
 #1235
 Recruitment Office~
@@ -1783,7 +1833,7 @@ for the empire.
 D9
 ~
 ~
-0 -1 1065
+0 -1 1065 0
 S
 #1236
 Fitness Area~
@@ -1797,7 +1847,7 @@ train <attribute>.
 D2
 ~
 ~
-0 -1 1237
+0 -1 1237 0
 S
 #1237
 Fitness Area~
@@ -1811,11 +1861,12 @@ type train <attribute>.
 D0
 ~
 ~
-0 -1 1236
+0 -1 1236 0
 D1
 ~
 ~
-0 -1 1239
+0 -1 1239 0
+R M 0 1100 1 1237
 S
 #1238
 Classroom~
@@ -1829,7 +1880,8 @@ people are still managing to fit in.
 D2
 ~
 ~
-0 -1 1239
+0 -1 1239 0
+R M 0 1105 1 1238
 S
 #1239
 Garaak's Training Facility~
@@ -1843,19 +1895,19 @@ the west is the area to train.
 D0
 ~
 ~
-0 -1 1238
+0 -1 1238 0
 D3
 ~
 ~
-0 -1 1237
+0 -1 1237 0
 D6
 ~
 ~
-0 -1 7504
+0 -1 7504 0
 D8
 ~
 ~
-0 -1 1062
+0 -1 1062 0
 S
 #1240
 Smirkal's Assignments~
@@ -1871,7 +1923,10 @@ are interested in.
 D1
 ~
 ~
-0 -1 1244
+0 -1 1244 0
+R M 0 1240 1 1240
+R O 0 1240 1 1240
+R O 0 1241 1 1240
 S
 #1241
 Jobs, Jobs, JOBS!~
@@ -1886,7 +1941,7 @@ can be found here.
 D3
 ~
 ~
-0 -1 1244
+0 -1 1244 0
 S
 #1242
 Bounty Hunter Central~
@@ -1901,11 +1956,12 @@ Pretty gruesome environment.
 D1
 ~
 ~
-0 -1 1245
+0 -1 1245 0
 D7
 ~
 ~
-0 -1 1221
+0 -1 1221 0
+R M 0 1242 1 1242
 S
 #1243
 UPS Delivery~
@@ -1919,7 +1975,10 @@ come help deliver the packages.
 D3
 ~
 ~
-0 -1 1245
+0 -1 1245 0
+R O 0 1926 1 1243
+R O 0 1243 1 1243
+R O 0 1926 1 1243
 S
 #1244
 Hallway~
@@ -1934,15 +1993,15 @@ these jobs.
 D1
 ~
 ~
-0 -1 1241
+0 -1 1241 0
 D2
 ~
 ~
-0 -1 1245
+0 -1 1245 0
 D3
 ~
 ~
-0 -1 1240
+0 -1 1240 0
 S
 #1245
 Hallway~
@@ -1956,19 +2015,19 @@ like one of these jobs.
 D0
 ~
 ~
-0 -1 1244
+0 -1 1244 0
 D1
 ~
 ~
-0 -1 1243
+0 -1 1243 0
 D2
 ~
 ~
-0 -1 1246
+0 -1 1246 0
 D3
 ~
 ~
-0 -1 1242
+0 -1 1242 0
 S
 #1246
 Employment Opportunities Center~
@@ -1983,11 +2042,11 @@ them are social security workers. Perhaps you can find a nice stable job!
 D0
 ~
 ~
-0 -1 1245
+0 -1 1245 0
 D2
 ~
 ~
-0 -1 1067
+0 -1 1067 0
 S
 #1247
 Ace's Hardware Store~
@@ -2001,11 +2060,26 @@ heaven!
 D1
 ~
 ~
-0 -1 1096
+0 -1 1096 0
 D2
 ~
 ~
-0 -1 1069
+0 -1 1069 0
+R M 0 1095 1 1247
+  R G 1 136 1
+  R G 1 137 1
+  R G 1 138 1
+  R G 1 139 1
+  R G 1 140 1
+  R G 1 141 1
+  R G 1 142 1
+  R G 1 143 1
+  R G 1 144 1
+  R G 1 145 1
+  R G 1 146 1
+  R G 1 147 1
+  R G 1 148 1
+  R G 1 1142 1
 S
 #1248
 Heaven, in all its glory...~
@@ -2018,142 +2092,24 @@ to hold them up. Blasting through the speakers comes the large beat of
 some rap music.
 ~
 0 92807180 1 0 0 0 88
+R M 0 1247 1 1248
+R M 0 1247 1 1248
+R M 0 119 1 1248
 S
 #1249
 DONT USE THIS ROOM~
 ~
 0 4 1 0 0 0 88
+R M 0 1150 1 1249
+R M 0 1249 1 1249
+R O 0 1150 1 1249
+R O 0 1249 1 1249
 S
 #0
 
 
-#RESETS
-M 1 1152 1 1097
-G 1 766 1
-G 1 765 1
-G 1 764 1
-G 1 763 1
-G 1 762 1
-G 1 761 1
-M 1 1137 1 1101
-G 1 1138 1
-M 1 1103 1 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 22 1055
-M 1 1060 23 1073
-M 1 1073 1 1073
-M 1 1060 23 1073
-D 0 1100 2 0
-M 1 1154 22 1100
-E 1 50 1 16
-M 1 1154 22 1100
-E 1 50 1 16
-M 1 1154 22 1100
-E 1 50 1 16
-M 1 1154 22 1100
-E 1 50 1 16
-M 1 1154 22 1100
-E 1 50 1 16
-D 0 1100 2 0
-M 1 1154 22 1151
-M 1 1154 22 1151
-M 1 1113 8 1152
-M 1 1154 22 1157
-M 1 1154 22 1157
-M 1 1113 8 1164
-M 1 1154 22 1174
-M 1 1154 22 1174
-M 1 1153 1 1177
-M 1 1156 1 1185
-M 1 1053 4 1201
-M 1 1053 4 1201
-M 1 1053 4 1202
-M 1 1053 4 1202
-M 1 1138 1 1205
-M 1 1157 1 1233
-O 1 1156 1 1234
-M 1 1100 1 1237
-M 1 1105 1 1238
-M 1 1095 1 1247
-G 1 136 1
-G 1 137 1
-G 1 138 1
-G 1 139 1
-G 1 140 1
-G 1 141 1
-G 1 142 1
-G 1 143 1
-G 1 144 1
-G 1 145 1
-G 1 146 1
-G 1 147 1
-G 1 148 1
-G 1 1142 1
-M 1 1150 1 1249
-M 1 1249 1 1249
-O 1 1150 1 1249
-O 1 1249 1 1249
-D 0 1206 0 2
-O 1 1926 1 1243
-O 1 1243 1 1243
-M 1 1154 26 1192
-M 1 1154 26 1192
-D 0 1192 0 2
-M 1 1154 28 1204
-M 1 1154 28 1204
-O 1 1248 1 1204
-O 1 1245 1 1225
-M 1 1154 30 1106
-M 1 1154 30 1106
-E 1 50 1 16
-E 1 50 1 16
-G 1 62 1
-E 1 50 1 16
-E 1 50 1 16
-E 1 50 1 16
-G 1 62 1
-E 1 50 1 16
-E 1 50 1 16
-G 1 134 1
-E 1 50 1 16
-M 1 1154 58 1166
-M 1 1154 58 1166
-E 1 50 1 16
-G 1 141 1
-G 1 50 1
-G 1 50 1
-G 1 50 1
-G 1 50 1
-G 1 50 1
-G 1 50 1
-M 1 1154 62 1163
-M 1 1154 62 1163
-M 1 1154 64 1160
-M 1 1154 64 1160
-M 1 1113 8 1158
-M 1 1154 65 1158
-M 1 1154 67 1156
-M 1 1154 67 1156
-M 1 1154 75 1170
-M 1 1154 75 1170
-M 1 1154 84 1187
-M 1 1154 84 1187
-M 1 1154 84 1187
-M 0 1154 2 1191
-M 1 1240 1 1240
-O 1 1240 1 1240
-O 1 1241 1 1240
-M 1 1242 1 1242
-M 1 1247 1 1248
-M 1 231 2 1221
-S
-
-
 #SHOPS
- 1152    0  0  0  0  0   120  90         0 23 0  ; Tailor Droid
+ 1152    0  0  0  0  0   120  90         0 23    ; Tailor Droid
 0
 
 

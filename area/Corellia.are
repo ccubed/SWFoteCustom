@@ -811,11 +811,13 @@ ships coming and going from the landing areas.
 D0
 ~
 ~
-0 -1 10154
+0 -1 10154 0
 D3
 ~
 ~
-0 -1 10153
+0 -1 10153 0
+R M 0 10151 76 10152
+R O 0 10160 1 10152
 S
 #10153
 Cora Spaceport~
@@ -829,19 +831,20 @@ the sounds of the ships coming and going from the landing areas.
 D0
 ~
 ~
-0 -1 10316
+0 -1 10316 0
 D1
 ~
 ~
-0 -1 10152
+0 -1 10152 0
 D2
 ~
 ~
-0 -1 10315
+0 -1 10315 0
 D3
 ~
 ~
-0 -1 10155
+0 -1 10155 0
+R M 0 10151 76 10153
 S
 #10154
 Corsec Landing Pad~
@@ -856,7 +859,7 @@ just as you stand here for a momment.
 D2
 ~
 ~
-0 -1 10152
+0 -1 10152 0
 S
 #10155
 Corner of Diktat Blvd. and Helm Street~
@@ -869,15 +872,15 @@ the spaceport coming in and going.
 D1
 ~
 ~
-0 -1 10153
+0 -1 10153 0
 D2
 ~
 ~
-0 -1 10156
+0 -1 10156 0
 D3
 ~
 ~
-0 -1 10284
+0 -1 10284 0
 S
 #10156
 Diktat Blvd.~
@@ -890,19 +893,20 @@ you can see is apartments and shops for rent or sold.
 D0
 ~
 ~
-0 -1 10155
+0 -1 10155 0
 D1
 ~
 ~
-0 -1 10331
+0 -1 10331 0
 D2
 ~
 ~
-0 -1 10157
+0 -1 10157 0
 D3
 ~
 ~
-0 -1 10332
+0 -1 10332 0
+R M 0 10151 76 10156
 S
 #10157
 Diktat Blvd.~
@@ -916,19 +920,19 @@ into the main part of the city.
 D0
 ~
 ~
-0 -1 10156
+0 -1 10156 0
 D1
 ~
 ~
-0 -1 10335
+0 -1 10335 0
 D2
 ~
 ~
-0 -1 10158
+0 -1 10158 0
 D3
 ~
 ~
-0 -1 10334
+0 -1 10334 0
 S
 #10158
 Diktat Blvd.~
@@ -942,19 +946,19 @@ into the main part of the city.
 D0
 ~
 ~
-0 -1 10157
+0 -1 10157 0
 D1
 ~
 ~
-0 -1 10337
+0 -1 10337 0
 D2
 ~
 ~
-0 -1 10159
+0 -1 10159 0
 D3
 ~
 ~
-0 -1 10336
+0 -1 10336 0
 S
 #10159
 Intersection of Diktat Blvd. and Cora Street~
@@ -968,19 +972,22 @@ people like danger and trouble.
 D0
 ~
 ~
-0 -1 10158
+0 -1 10158 0
 D1
 ~
 ~
-0 -1 10160
+0 -1 10160 0
 D2
 ~
 ~
-0 -1 10171
+0 -1 10171 0
 D3
 ~
 ~
-0 -1 10272
+0 -1 10272 0
+R M 0 10151 76 10159
+R M 0 10151 76 10159
+R M 0 10151 76 10159
 S
 #10160
 Cora Street~
@@ -993,11 +1000,13 @@ quickly.
 D1
 ~
 ~
-0 -1 10161
+0 -1 10161 0
 D3
 ~
 ~
-0 -1 10159
+0 -1 10159 0
+R M 0 10151 76 10160
+R M 0 10151 76 10160
 S
 #10161
 Cora Street~
@@ -1010,11 +1019,11 @@ makes you feel a bit uneasy.
 D1
 ~
 ~
-0 -1 10162
+0 -1 10162 0
 D3
 ~
 ~
-0 -1 10160
+0 -1 10160 0
 S
 #10162
 Cora Street~
@@ -1027,11 +1036,11 @@ makes you feel a bit uneasy.
 D1
 ~
 ~
-0 -1 10163
+0 -1 10163 0
 D3
 ~
 ~
-0 -1 10161
+0 -1 10161 0
 S
 #10163
 Corner of Hilt Avenue and Cora Street~
@@ -1045,19 +1054,19 @@ to the lower levels of Corellia.
 D0
 ~
 ~
-0 -1 10186
+0 -1 10186 0
 D1
 ~
 ~
-0 -1 10297
+0 -1 10297 0
 D2
 ~
 ~
-0 -1 10164
+0 -1 10164 0
 D3
 ~
 ~
-0 -1 10162
+0 -1 10162 0
 S
 #10164
 Hilt Avenue~
@@ -1071,11 +1080,11 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10163
+0 -1 10163 0
 D2
 ~
 ~
-0 -1 10165
+0 -1 10165 0
 S
 #10165
 Hilt Avenue~
@@ -1089,11 +1098,11 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10164
+0 -1 10164 0
 D2
 ~
 ~
-0 -1 10166
+0 -1 10166 0
 S
 #10166
 Hilt Avenue~
@@ -1107,11 +1116,12 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10165
+0 -1 10165 0
 D2
 ~
 ~
-0 -1 10167
+0 -1 10167 0
+R M 0 10160 31 10166
 S
 #10167
 Intersection of Hilt Avenue and Vine Street~
@@ -1124,19 +1134,20 @@ is then used by those species who need it to survive.
 D0
 ~
 ~
-0 -1 10166
+0 -1 10166 0
 D1
 ~
 ~
-0 -1 10307
+0 -1 10307 0
 D2
 ~
 ~
-0 -1 10185
+0 -1 10185 0
 D3
 ~
 ~
-0 -1 10168
+0 -1 10168 0
+R M 0 10151 76 10167
 S
 #10168
 Vine Street~
@@ -1150,11 +1161,11 @@ it.
 D1
 ~
 ~
-0 -1 10167
+0 -1 10167 0
 D3
 ~
 ~
-0 -1 10169
+0 -1 10169 0
 S
 #10169
 Vine Street~
@@ -1168,11 +1179,12 @@ it.
 D1
 ~
 ~
-0 -1 10168
+0 -1 10168 0
 D3
 ~
 ~
-0 -1 10170
+0 -1 10170 0
+R M 0 10160 31 10169
 S
 #10170
 Vine Street~
@@ -1186,11 +1198,11 @@ it.
 D1
 ~
 ~
-0 -1 10169
+0 -1 10169 0
 D3
 ~
 ~
-0 -1 10174
+0 -1 10174 0
 S
 #10171
 Diktat Blvd.~
@@ -1204,19 +1216,20 @@ into the main part of the city.
 D0
 ~
 ~
-0 -1 10159
+0 -1 10159 0
 D1
 ~
 ~
-0 -1 10372
+0 -1 10372 0
 D2
 ~
 ~
-0 -1 10172
+0 -1 10172 0
 D3
 ~
 ~
-0 -1 10371
+0 -1 10371 0
+R M 0 10151 76 10171
 S
 #10172
 Diktat Blvd.~
@@ -1230,19 +1243,19 @@ into the main part of the city.
 D0
 ~
 ~
-0 -1 10171
+0 -1 10171 0
 D1
 ~
 ~
-0 -1 10373
+0 -1 10373 0
 D2
 ~
 ~
-0 -1 10173
+0 -1 10173 0
 D3
 ~
 ~
-0 -1 10374
+0 -1 10374 0
 S
 #10173
 Diktat Blvd.~
@@ -1256,19 +1269,19 @@ into the main part of the city.
 D0
 ~
 ~
-0 -1 10172
+0 -1 10172 0
 D1
 ~
 ~
-0 -1 10376
+0 -1 10376 0
 D2
 ~
 ~
-0 -1 10174
+0 -1 10174 0
 D3
 ~
 ~
-0 -1 10375
+0 -1 10375 0
 S
 #10174
 Intersection of Diktat Blvd. and Vine Street~
@@ -1282,19 +1295,21 @@ to live, an apartment around this area would be prime.
 D0
 ~
 ~
-0 -1 10173
+0 -1 10173 0
 D1
 ~
 ~
-0 -1 10170
+0 -1 10170 0
 D2
 ~
 ~
-0 -1 10175
+0 -1 10175 0
 D3
 ~
 ~
-0 -1 10280
+0 -1 10280 0
+R M 0 10160 31 10174
+  R E 1 59 1 16
 S
 #10175
 Diktat Blvd.~
@@ -1309,11 +1324,13 @@ city.
 D0
 ~
 ~
-0 -1 10174
+0 -1 10174 0
 D2
 ~
 ~
-0 -1 10176
+0 -1 10176 0
+R M 0 10151 76 10175
+R M 0 10151 76 10175
 S
 #10176
 Diktat Blvd.~
@@ -1328,11 +1345,12 @@ city.
 D0
 ~
 ~
-0 -1 10175
+0 -1 10175 0
 D2
 ~
 ~
-0 -1 10177
+0 -1 10177 0
+R M 0 10151 76 10176
 S
 #10177
 Diktat Blvd.~
@@ -1347,11 +1365,12 @@ city.
 D0
 ~
 ~
-0 -1 10176
+0 -1 10176 0
 D2
 ~
 ~
-0 -1 10178
+0 -1 10178 0
+R M 0 10151 76 10177
 S
 #10178
 Intersection of Diktat Blvd. and Smugglers Bend~
@@ -1366,15 +1385,15 @@ city. You see palace steps to the South of you.
 D0
 ~
 ~
-0 -1 10177
+0 -1 10177 0
 D2
 ~
 ~
-0 -1 10385
+0 -1 10385 0
 D3
 ~
 ~
-0 -1 10296
+0 -1 10296 0
 S
 #10179
 Smugglers Bend~
@@ -1387,7 +1406,8 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10180
+0 -1 10180 0
+R M 0 10151 76 10179
 S
 #10180
 Smugglers Bend~
@@ -1400,11 +1420,11 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10181
+0 -1 10181 0
 D3
 ~
 ~
-0 -1 10179
+0 -1 10179 0
 S
 #10181
 Smugglers Bend~
@@ -1417,11 +1437,12 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10182
+0 -1 10182 0
 D3
 ~
 ~
-0 -1 10180
+0 -1 10180 0
+R M 0 10151 76 10181
 S
 #10182
 Intersection of Hilt Avenue and Smugglers Bend~
@@ -1434,15 +1455,16 @@ Smugglers Bend which can reach many places.
 D0
 ~
 ~
-0 -1 10183
+0 -1 10183 0
 D1
 ~
 ~
-0 -1 10314
+0 -1 10314 0
 D3
 ~
 ~
-0 -1 10181
+0 -1 10181 0
+R M 0 10160 31 10182
 S
 #10183
 Hilt Avenue~
@@ -1456,11 +1478,12 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10184
+0 -1 10184 0
 D2
 ~
 ~
-0 -1 10182
+0 -1 10182 0
+R M 0 10151 76 10183
 S
 #10184
 Hilt Avenue~
@@ -1474,11 +1497,11 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10185
+0 -1 10185 0
 D2
 ~
 ~
-0 -1 10183
+0 -1 10183 0
 S
 #10185
 Hilt Avenue~
@@ -1492,11 +1515,12 @@ and animals which live there.
 D0
 ~
 ~
-0 -1 10167
+0 -1 10167 0
 D2
 ~
 ~
-0 -1 10184
+0 -1 10184 0
+R M 0 10151 76 10185
 S
 #10186
 A Small Turbolift~
@@ -1555,7 +1579,7 @@ a strange ora about the whole place.
 D3
 ~
 ~
-0 -1 10253
+0 -1 10253 0
 > speech_prog 1~
 mpechoat $n The turbolift rises suddenly and the doors open.
 mptrans $n 10186
@@ -1580,11 +1604,11 @@ be on the lookout for someone.
 D2
 ~
 ~
-0 -1 10189
+0 -1 10189 0
 D3
 ~
 ~
-0 -1 10203
+0 -1 10203 0
 S
 #10189
 Scavanger Avenue~
@@ -1598,11 +1622,12 @@ else.
 D0
 ~
 ~
-0 -1 10188
+0 -1 10188 0
 D2
 ~
 ~
-0 -1 10190
+0 -1 10190 0
+R M 0 10151 76 10189
 S
 #10190
 Scavenger Avenue~
@@ -1616,15 +1641,15 @@ else.
 D0
 ~
 ~
-0 -1 10189
+0 -1 10189 0
 D2
 ~
 ~
-0 -1 10191
+0 -1 10191 0
 D8
 ~
 ~
-0 -1 10397
+0 -1 10397 0
 S
 #10191
 Scavanger Avenue~
@@ -1638,11 +1663,11 @@ else.
 D0
 ~
 ~
-0 -1 10190
+0 -1 10190 0
 D2
 ~
 ~
-0 -1 10192
+0 -1 10192 0
 S
 #10192
 Corner of Scavanger Avenue and Meteor Way~
@@ -1655,11 +1680,12 @@ to be looking for someone.
 D0
 ~
 ~
-0 -1 10191
+0 -1 10191 0
 D3
 ~
 ~
-0 -1 10193
+0 -1 10193 0
+R M 0 10160 31 10192
 S
 #10193
 Meteor Way~
@@ -1672,11 +1698,12 @@ of the streets.
 D1
 ~
 ~
-0 -1 10192
+0 -1 10192 0
 D3
 ~
 ~
-0 -1 10194
+0 -1 10194 0
+R M 0 10151 76 10193
 S
 #10194
 Meteor Way~
@@ -1689,11 +1716,12 @@ of the streets.
 D1
 ~
 ~
-0 -1 10193
+0 -1 10193 0
 D3
 ~
 ~
-0 -1 10195
+0 -1 10195 0
+R M 0 10151 76 10194
 S
 #10195
 Meteor Way~
@@ -1706,11 +1734,13 @@ of the streets.
 D1
 ~
 ~
-0 -1 10194
+0 -1 10194 0
 D3
 ~
 ~
-0 -1 10196
+0 -1 10196 0
+R M 0 10151 76 10195
+R M 0 10151 76 10195
 S
 #10196
 Corner of Treasure Ship Row and Meteor Way~
@@ -1723,15 +1753,15 @@ can see nice friendly buildings and shops on Treasure Ship Row.
 D0
 ~
 ~
-0 -1 10197
+0 -1 10197 0
 D1
 ~
 ~
-0 -1 10195
+0 -1 10195 0
 D3
 ~
 ~
-0 -1 10204
+0 -1 10204 0
 S
 #10197
 Treasure Ship Row~
@@ -1745,11 +1775,11 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10198
+0 -1 10198 0
 D2
 ~
 ~
-0 -1 10196
+0 -1 10196 0
 S
 #10198
 Treasure Ship Row~
@@ -1763,11 +1793,12 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10199
+0 -1 10199 0
 D2
 ~
 ~
-0 -1 10197
+0 -1 10197 0
+R M 0 10160 31 10198
 S
 #10199
 Treasure Ship Row~
@@ -1781,11 +1812,12 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10200
+0 -1 10200 0
 D2
 ~
 ~
-0 -1 10198
+0 -1 10198 0
+R M 0 10160 31 10199
 S
 #10200
 Intersection of Treasure Ship Row and Freighter Street~
@@ -1797,19 +1829,22 @@ Street and shops located close by on Treasure Ship Row.
 D0
 ~
 ~
-0 -1 10215
+0 -1 10215 0
 D1
 ~
 ~
-0 -1 10201
+0 -1 10201 0
 D2
 ~
 ~
-0 -1 10199
+0 -1 10199 0
 D3
 ~
 ~
-0 -1 10214
+0 -1 10214 0
+R M 0 10160 31 10200
+R M 0 10151 76 10200
+R M 0 10151 76 10200
 S
 #10201
 Freighter Street~
@@ -1822,15 +1857,16 @@ are either owned or up for rent.
 D1
 ~
 ~
-0 -1 10202
+0 -1 10202 0
 D2
 ~
 ~
-3 -1 10344
+3 -1 10344 0
 D3
 ~
 ~
-0 -1 10200
+0 -1 10200 0
+R D 0 10201 2 1
 S
 #10202
 Freighter Street~
@@ -1843,19 +1879,21 @@ are either owned or up for rent.
 D0
 ~
 ~
-0 -1 10342
+0 -1 10342 0
 D1
 ~
 ~
-0 -1 10203
+0 -1 10203 0
 D2
 ~
 ~
-0 -1 10343
+0 -1 10343 0
 D3
 ~
 ~
-0 -1 10201
+0 -1 10201 0
+R M 0 10151 76 10202
+R M 0 10160 31 10202
 S
 #10203
 Freighter Street~
@@ -1868,19 +1906,21 @@ are either owned or up for rent.
 D0
 ~
 ~
-0 -1 10340
+0 -1 10340 0
 D1
 ~
 ~
-0 -1 10188
+0 -1 10188 0
 D2
 ~
 ~
-0 -1 10341
+0 -1 10341 0
 D3
 ~
 ~
-0 -1 10202
+0 -1 10202 0
+R M 0 10151 76 10203
+R M 0 10151 76 10203
 S
 #10204
 Meteor Way~
@@ -1893,15 +1933,17 @@ of the streets.
 D0
 ~
 ~
-0 -1 10330
+0 -1 10330 0
 D1
 ~
 ~
-0 -1 10196
+0 -1 10196 0
 D3
 ~
 ~
-0 -1 10205
+0 -1 10205 0
+R M 0 10151 76 10204
+R M 0 10151 76 10204
 S
 #10205
 Meteor Way~
@@ -1914,11 +1956,11 @@ of the streets.
 D1
 ~
 ~
-0 -1 10204
+0 -1 10204 0
 D3
 ~
 ~
-0 -1 10206
+0 -1 10206 0
 S
 #10206
 Meteor Way~
@@ -1931,11 +1973,13 @@ of the streets.
 D1
 ~
 ~
-0 -1 10205
+0 -1 10205 0
 D3
 ~
 ~
-0 -1 10207
+0 -1 10207 0
+R M 0 10151 76 10206
+R M 0 10160 31 10206
 S
 #10207
 Corner of Gunship Avenue and Meteor Way~
@@ -1947,11 +1991,13 @@ stick around because the local 'hoods' here also like trouble.
 D0
 ~
 ~
-0 -1 10208
+0 -1 10208 0
 D1
 ~
 ~
-0 -1 10206
+0 -1 10206 0
+R M 0 10160 31 10207
+R M 0 10151 76 10207
 S
 #10208
 Gunship Avenue~
@@ -1965,11 +2011,11 @@ violence.
 D0
 ~
 ~
-0 -1 10209
+0 -1 10209 0
 D2
 ~
 ~
-0 -1 10207
+0 -1 10207 0
 S
 #10209
 Gunship Avenue~
@@ -1983,11 +2029,13 @@ violence.
 D0
 ~
 ~
-0 -1 10210
+0 -1 10210 0
 D2
 ~
 ~
-0 -1 10208
+0 -1 10208 0
+R M 0 10151 76 10209
+R M 0 10164 6 10209
 S
 #10210
 Gunship Avenue~
@@ -2001,11 +2049,13 @@ violence.
 D0
 ~
 ~
-0 -1 10211
+0 -1 10211 0
 D2
 ~
 ~
-0 -1 10209
+0 -1 10209 0
+R M 0 10160 31 10210
+R M 0 10151 76 10210
 S
 #10211
 Corner of Gunship Avenue and Freighter Street~
@@ -2018,15 +2068,17 @@ also like trouble. Most people would hurry along.
 D0
 ~
 ~
-0 -1 10219
+0 -1 10219 0
 D1
 ~
 ~
-0 -1 10212
+0 -1 10212 0
 D2
 ~
 ~
-0 -1 10210
+0 -1 10210 0
+R M 0 10160 31 10211
+R M 0 10151 76 10211
 S
 #10212
 Freighter Street~
@@ -2039,11 +2091,12 @@ are either owned or up for rent.
 D1
 ~
 ~
-0 -1 10213
+0 -1 10213 0
 D3
 ~
 ~
-0 -1 10211
+0 -1 10211 0
+R M 0 10151 76 10212
 S
 #10213
 Freighter Street~
@@ -2056,11 +2109,11 @@ are either owned or up for rent.
 D1
 ~
 ~
-0 -1 10214
+0 -1 10214 0
 D3
 ~
 ~
-0 -1 10212
+0 -1 10212 0
 S
 #10214
 Freighter Street~
@@ -2073,11 +2126,11 @@ are either owned or up for rent.
 D1
 ~
 ~
-0 -1 10200
+0 -1 10200 0
 D3
 ~
 ~
-0 -1 10213
+0 -1 10213 0
 S
 #10215
 Treasure Ship Row~
@@ -2091,11 +2144,11 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10216
+0 -1 10216 0
 D2
 ~
 ~
-0 -1 10200
+0 -1 10200 0
 S
 #10216
 Treasure Ship Row~
@@ -2109,15 +2162,16 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10217
+0 -1 10217 0
 D1
 ~
 ~
-0 -1 10338
+0 -1 10338 0
 D2
 ~
 ~
-0 -1 10215
+0 -1 10215 0
+R M 0 10151 76 10216
 S
 #10217
 Treasure Ship Row~
@@ -2131,11 +2185,12 @@ streets of this sector.
 D0
 ~
 ~
-0 -1 10218
+0 -1 10218 0
 D2
 ~
 ~
-0 -1 10216
+0 -1 10216 0
+R M 0 10167 1 10217
 S
 #10218
 Corner of Treasure Ship Row and Clay Street~
@@ -2149,15 +2204,15 @@ just happens to be to the north from here.
 D0
 ~
 ~
-0 -1 10186
+0 -1 10186 0
 D2
 ~
 ~
-0 -1 10217
+0 -1 10217 0
 D3
 ~
 ~
-0 -1 10225
+0 -1 10225 0
 S
 #10219
 Gunship Avenue~
@@ -2171,11 +2226,11 @@ violence.
 D0
 ~
 ~
-0 -1 10220
+0 -1 10220 0
 D2
 ~
 ~
-0 -1 10211
+0 -1 10211 0
 S
 #10220
 Gunship Avenue~
@@ -2189,15 +2244,16 @@ violence.
 D0
 ~
 ~
-0 -1 10221
+0 -1 10221 0
 D2
 ~
 ~
-0 -1 10219
+0 -1 10219 0
 D8
 ~
 ~
-0 -1 10380
+0 -1 10380 0
+R M 0 10155 1 10220
 S
 #10221
 Gunship Avenue~
@@ -2211,11 +2267,12 @@ violence.
 D0
 ~
 ~
-0 -1 10222
+0 -1 10222 0
 D2
 ~
 ~
-0 -1 10220
+0 -1 10220 0
+R M 0 10151 76 10221
 S
 #10222
 Corner of Gunship Avenue and Clay Street~
@@ -2228,11 +2285,12 @@ you are always seen.
 D1
 ~
 ~
-0 -1 10223
+0 -1 10223 0
 D2
 ~
 ~
-0 -1 10221
+0 -1 10221 0
+R M 0 10160 31 10222
 S
 #10223
 Clay Street~
@@ -2245,11 +2303,11 @@ enough to still see in.
 D1
 ~
 ~
-0 -1 10224
+0 -1 10224 0
 D3
 ~
 ~
-0 -1 10222
+0 -1 10222 0
 S
 #10224
 Clay Street~
@@ -2262,11 +2320,13 @@ enough to still see in.
 D1
 ~
 ~
-0 -1 10225
+0 -1 10225 0
 D3
 ~
 ~
-0 -1 10223
+0 -1 10223 0
+R M 0 10151 76 10224
+R M 0 10151 76 10224
 S
 #10225
 Clay Street~
@@ -2279,11 +2339,12 @@ enough to still see in.
 D1
 ~
 ~
-0 -1 10218
+0 -1 10218 0
 D3
 ~
 ~
-0 -1 10224
+0 -1 10224 0
+R M 0 10151 76 10225
 S
 #10226
 &B Corsec Jail&w&W~
@@ -2297,11 +2358,12 @@ e.
 D1
 ~
 ~
-0 -1 10230
+0 -1 10230 0
 D3
 ~
 ~
-1057 10158 10390
+1057 10158 10390 0
+R D 0 10226 3 0
 > speech_prog 1~
 mpechoat $n The turbolift rises and the door opens.
 mptrans $n 10186
@@ -2325,11 +2387,12 @@ isn't much else to see here.
 D1
 ~
 ~
-0 -1 10233
+0 -1 10233 0
 D3
 ~
 ~
-0 -1 10228
+0 -1 10228 0
+R M 0 10151 76 10227
 S
 #10228
 Corner of Crate Avenue and Spice Street~
@@ -2339,15 +2402,19 @@ You stand at the corner of Crate Avenue and Spice Street. Though Spice Street is
 D0
 ~
 ~
-0 -1 10229
+0 -1 10229 0
 D1
 ~
 ~
-0 -1 10227
+0 -1 10227 0
 D3
 ~
 ~
-0 -1 10398
+0 -1 10398 0
+R M 0 10151 76 10228
+R M 0 10160 31 10228
+R M 0 10160 31 10228
+R M 0 10151 76 10228
 S
 #10229
 Crate Avenue~
@@ -2361,11 +2428,11 @@ though.
 D0
 ~
 ~
-0 -1 10230
+0 -1 10230 0
 D2
 ~
 ~
-0 -1 10228
+0 -1 10228 0
 S
 #10230
 Crate Avenue~
@@ -2379,15 +2446,16 @@ though.
 D0
 ~
 ~
-0 -1 10231
+0 -1 10231 0
 D2
 ~
 ~
-0 -1 10229
+0 -1 10229 0
 D3
 ~
 ~
-0 -1 10226
+0 -1 10226 0
+R M 0 10160 31 10230
 S
 #10231
 Crate Avenue~
@@ -2401,11 +2469,11 @@ though.
 D0
 ~
 ~
-0 -1 10232
+0 -1 10232 0
 D2
 ~
 ~
-0 -1 10230
+0 -1 10230 0
 S
 #10232
 Corner of Crate Avenue and Grey Street~
@@ -2415,15 +2483,16 @@ You stand on what has to be the emptiess street corner you have ever seen at you
 D0
 ~
 ~
-0 -1 10243
+0 -1 10243 0
 D1
 ~
 ~
-0 -1 10242
+0 -1 10242 0
 D2
 ~
 ~
-0 -1 10231
+0 -1 10231 0
+R M 0 10151 76 10232
 S
 #10233
 Spice Street~
@@ -2436,11 +2505,12 @@ isn't much else to see here.
 D1
 ~
 ~
-0 -1 10234
+0 -1 10234 0
 D3
 ~
 ~
-0 -1 10227
+0 -1 10227 0
+R M 0 10160 31 10233
 S
 #10234
 Spice Street~
@@ -2453,11 +2523,12 @@ isn't much else to see here.
 D1
 ~
 ~
-0 -1 10235
+0 -1 10235 0
 D3
 ~
 ~
-0 -1 10233
+0 -1 10233 0
+R M 0 10153 1 10234
 S
 #10235
 Corner of Black Avenue and Spice Street~
@@ -2471,15 +2542,16 @@ and littered streets.
 D0
 ~
 ~
-0 -1 10236
+0 -1 10236 0
 D1
 ~
 ~
-0 -1 10254
+0 -1 10254 0
 D3
 ~
 ~
-0 -1 10234
+0 -1 10234 0
+R M 0 10151 76 10235
 S
 #10236
 Black Avenue~
@@ -2493,15 +2565,15 @@ together, but they seem to make no sense to you
 D0
 ~
 ~
-0 -1 10237
+0 -1 10237 0
 D2
 ~
 ~
-0 -1 10235
+0 -1 10235 0
 D3
 ~
 ~
-0 -1 10395
+0 -1 10395 0
 S
 #10237
 Black Avenue~
@@ -2515,11 +2587,11 @@ together, but they seem to make no sense to you
 D0
 ~
 ~
-0 -1 10238
+0 -1 10238 0
 D2
 ~
 ~
-0 -1 10236
+0 -1 10236 0
 S
 #10238
 Black Avenue~
@@ -2533,11 +2605,13 @@ together, but they seem to make no sense to you
 D0
 ~
 ~
-0 -1 10239
+0 -1 10239 0
 D2
 ~
 ~
-0 -1 10237
+0 -1 10237 0
+R M 0 10151 76 10238
+R M 0 10151 76 10238
 S
 #10239
 The Intersection of Black Avenue and Grey Street~
@@ -2551,19 +2625,19 @@ conflict.
 D0
 ~
 ~
-0 -1 10253
+0 -1 10253 0
 D1
 ~
 ~
-0 -1 10258
+0 -1 10258 0
 D2
 ~
 ~
-0 -1 10238
+0 -1 10238 0
 D3
 ~
 ~
-0 -1 10240
+0 -1 10240 0
 S
 #10240
 Grey Street~
@@ -2576,11 +2650,11 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10239
+0 -1 10239 0
 D3
 ~
 ~
-0 -1 10241
+0 -1 10241 0
 S
 #10241
 Grey Street~
@@ -2593,11 +2667,11 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10240
+0 -1 10240 0
 D3
 ~
 ~
-0 -1 10242
+0 -1 10242 0
 S
 #10242
 Grey Street~
@@ -2610,11 +2684,12 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10241
+0 -1 10241 0
 D3
 ~
 ~
-0 -1 10232
+0 -1 10232 0
+R M 0 10151 76 10242
 S
 #10243
 Crate Avenue~
@@ -2628,11 +2703,11 @@ though.
 D0
 ~
 ~
-0 -1 10244
+0 -1 10244 0
 D2
 ~
 ~
-0 -1 10232
+0 -1 10232 0
 S
 #10244
 Crate Avenue~
@@ -2646,11 +2721,11 @@ though.
 D0
 ~
 ~
-0 -1 10245
+0 -1 10245 0
 D2
 ~
 ~
-0 -1 10243
+0 -1 10243 0
 S
 #10245
 Crate Avenue~
@@ -2664,11 +2739,12 @@ though.
 D0
 ~
 ~
-0 -1 10246
+0 -1 10246 0
 D2
 ~
 ~
-0 -1 10244
+0 -1 10244 0
+R M 0 10160 31 10245
 S
 #10246
 Corner of Crate Avenue and Moonlight Row~
@@ -2681,11 +2757,11 @@ smell in the air here.
 D1
 ~
 ~
-0 -1 10247
+0 -1 10247 0
 D2
 ~
 ~
-0 -1 10245
+0 -1 10245 0
 S
 #10247
 Moonlight Row~
@@ -2698,11 +2774,11 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10248
+0 -1 10248 0
 D3
 ~
 ~
-0 -1 10246
+0 -1 10246 0
 S
 #10248
 Moonlight Row~
@@ -2715,11 +2791,13 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10249
+0 -1 10249 0
 D3
 ~
 ~
-0 -1 10247
+0 -1 10247 0
+R M 0 10151 76 10248
+R M 0 10151 76 10248
 S
 #10249
 Moonlight Row~
@@ -2732,11 +2810,12 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10250
+0 -1 10250 0
 D3
 ~
 ~
-0 -1 10248
+0 -1 10248 0
+R M 0 10171 1 10249
 S
 #10250
 Corner of Black Avenue and Moonlight Row~
@@ -2750,19 +2829,20 @@ just happens to be to the north from here.
 D0
 ~
 ~
-0 -1 10186
+0 -1 10186 0
 D1
 ~
 ~
-0 -1 10265
+0 -1 10265 0
 D2
 ~
 ~
-0 -1 10251
+0 -1 10251 0
 D3
 ~
 ~
-0 -1 10249
+0 -1 10249 0
+R M 0 10151 76 10250
 S
 #10251
 Black Avenue~
@@ -2776,11 +2856,12 @@ together, but they seem to make no sense to you.
 D0
 ~
 ~
-0 -1 10250
+0 -1 10250 0
 D2
 ~
 ~
-0 -1 10252
+0 -1 10252 0
+R M 0 10151 76 10251
 S
 #10252
 Black Avenue~
@@ -2794,11 +2875,12 @@ together, but they seem to make no sense to you
 D0
 ~
 ~
-0 -1 10251
+0 -1 10251 0
 D2
 ~
 ~
-0 -1 10253
+0 -1 10253 0
+R M 0 10160 31 10252
 S
 #10253
 Black Avenue~
@@ -2812,15 +2894,16 @@ together, but they seem to make no sense to you
 D0
 ~
 ~
-0 -1 10252
+0 -1 10252 0
 D1
 ~
 ~
-0 -1 10187
+0 -1 10187 0
 D2
 ~
 ~
-0 -1 10239
+0 -1 10239 0
+R M 0 10151 76 10253
 S
 #10254
 Spice Street~
@@ -2833,11 +2916,12 @@ isn't much else to see here.
 D1
 ~
 ~
-0 -1 10255
+0 -1 10255 0
 D3
 ~
 ~
-0 -1 10235
+0 -1 10235 0
+R M 0 10151 76 10254
 S
 #10255
 Spice Street~
@@ -2850,15 +2934,15 @@ isn't much else to see here.
 D0
 ~
 ~
-0 -1 10396
+0 -1 10396 0
 D1
 ~
 ~
-0 -1 10256
+0 -1 10256 0
 D3
 ~
 ~
-0 -1 10254
+0 -1 10254 0
 S
 #10256
 Spice Street~
@@ -2871,11 +2955,11 @@ isn't much else to see here.
 D1
 ~
 ~
-0 -1 10257
+0 -1 10257 0
 D3
 ~
 ~
-0 -1 10255
+0 -1 10255 0
 S
 #10257
 Corner of Starline Avenue and Spice Street~
@@ -2889,11 +2973,12 @@ reverberating in your ears.
 D0
 ~
 ~
-0 -1 10264
+0 -1 10264 0
 D3
 ~
 ~
-0 -1 10256
+0 -1 10256 0
+R M 0 10151 76 10257
 S
 #10258
 Grey Street~
@@ -2906,11 +2991,12 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10259
+0 -1 10259 0
 D3
 ~
 ~
-0 -1 10239
+0 -1 10239 0
+R M 0 10151 76 10258
 S
 #10259
 Grey Street~
@@ -2923,11 +3009,12 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10260
+0 -1 10260 0
 D3
 ~
 ~
-0 -1 10258
+0 -1 10258 0
+R M 0 10160 31 10259
 S
 #10260
 Grey Street~
@@ -2940,11 +3027,12 @@ reads, "No land vehicles allowed!"
 D1
 ~
 ~
-0 -1 10261
+0 -1 10261 0
 D3
 ~
 ~
-0 -1 10259
+0 -1 10259 0
+R M 0 10151 76 10260
 S
 #10261
 A Dead End~
@@ -2958,7 +3046,7 @@ you.
 D3
 ~
 ~
-0 -1 10260
+0 -1 10260 0
 S
 #10262
 &B A Blue DropTube&w&W~
@@ -2971,7 +3059,8 @@ is say the word "GO"!
 D1
 ~
 ~
-0 -1 10275
+0 -1 10275 0
+R M 0 10160 31 10262
 > speech_prog p Go~
 mpechoat $n Your body streches as your are sucked into the droptube. You are transported to the orbiting shipyard.
 mpechoaround $n You watch as $n is sucked into the drop tube.
@@ -2991,7 +3080,8 @@ Imperial logo on the wall here.
 D2
 ~
 ~
-1057 10158 10390
+1057 10158 10390 0
+R D 0 10263 2 0
 S
 #10264
 Starline Avenue~
@@ -3005,11 +3095,11 @@ and the air here smells refreshing.
 D0
 ~
 ~
-0 -1 10271
+0 -1 10271 0
 D2
 ~
 ~
-0 -1 10257
+0 -1 10257 0
 S
 #10265
 Moonlight Row~
@@ -3022,11 +3112,12 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10266
+0 -1 10266 0
 D3
 ~
 ~
-0 -1 10250
+0 -1 10250 0
+R M 0 10151 76 10265
 S
 #10266
 Moonlight Row~
@@ -3039,11 +3130,12 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10267
+0 -1 10267 0
 D3
 ~
 ~
-0 -1 10265
+0 -1 10265 0
+R M 0 10160 31 10266
 S
 #10267
 Moonlight Row~
@@ -3056,11 +3148,12 @@ who wish to cut across town very quickly.
 D1
 ~
 ~
-0 -1 10268
+0 -1 10268 0
 D3
 ~
 ~
-0 -1 10266
+0 -1 10266 0
+R M 0 10151 76 10267
 S
 #10268
 Corner of Starline Avenue and Moonlight Row~
@@ -3074,15 +3167,15 @@ hurry a long to prevent being caught up in the hords of people.
 D0
 ~
 ~
-0 -1 10364
+0 -1 10364 0
 D2
 ~
 ~
-0 -1 10269
+0 -1 10269 0
 D3
 ~
 ~
-0 -1 10267
+0 -1 10267 0
 S
 #10269
 Starline Avenue~
@@ -3096,11 +3189,11 @@ and the air here smells refreshing.
 D0
 ~
 ~
-0 -1 10268
+0 -1 10268 0
 D2
 ~
 ~
-0 -1 10270
+0 -1 10270 0
 S
 #10270
 Starline Avenue~
@@ -3114,11 +3207,11 @@ and the air here smells refreshing.
 D0
 ~
 ~
-0 -1 10269
+0 -1 10269 0
 D2
 ~
 ~
-0 -1 10271
+0 -1 10271 0
 S
 #10271
 Starline Avenue~
@@ -3132,11 +3225,11 @@ and the air here smells refreshing.
 D0
 ~
 ~
-0 -1 10270
+0 -1 10270 0
 D2
 ~
 ~
-0 -1 10264
+0 -1 10264 0
 S
 #10272
 Cora Street~
@@ -3149,15 +3242,16 @@ quickly.
 D1
 ~
 ~
-0 -1 10159
+0 -1 10159 0
 D2
 ~
 ~
-0 -1 10361
+0 -1 10361 0
 D3
 ~
 ~
-0 -1 10273
+0 -1 10273 0
+R M 0 10151 76 10272
 S
 #10273
 Cora Street~
@@ -3170,19 +3264,19 @@ makes you feel a bit uneasy.
 D0
 ~
 ~
-0 -1 10359
+0 -1 10359 0
 D1
 ~
 ~
-0 -1 10272
+0 -1 10272 0
 D2
 ~
 ~
-0 -1 10360
+0 -1 10360 0
 D3
 ~
 ~
-0 -1 10274
+0 -1 10274 0
 S
 #10274
 Cora Street~
@@ -3195,19 +3289,20 @@ quickly.
 D0
 ~
 ~
-0 -1 10363
+0 -1 10363 0
 D1
 ~
 ~
-0 -1 10273
+0 -1 10273 0
 D2
 ~
 ~
-0 -1 10362
+0 -1 10362 0
 D3
 ~
 ~
-0 -1 10275
+0 -1 10275 0
+R M 0 10151 76 10274
 S
 #10275
 Corner of Starlight Way and Cora Street~
@@ -3220,19 +3315,20 @@ and you can still hear sounds from the cafe to the North.
 D0
 ~
 ~
-0 -1 10290
+0 -1 10290 0
 D1
 ~
 ~
-0 -1 10274
+0 -1 10274 0
 D2
 ~
 ~
-0 -1 10276
+0 -1 10276 0
 D3
 ~
 ~
-0 -1 10262
+0 -1 10262 0
+R M 0 10160 31 10275
 S
 #10276
 Starlight Way~
@@ -3245,19 +3341,19 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10275
+0 -1 10275 0
 D1
 ~
 ~
-0 -1 10353
+0 -1 10353 0
 D2
 ~
 ~
-0 -1 10277
+0 -1 10277 0
 D3
 ~
 ~
-0 -1 10352
+0 -1 10352 0
 S
 #10277
 Starlight Way~
@@ -3270,19 +3366,20 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10276
+0 -1 10276 0
 D1
 ~
 ~
-0 -1 10355
+0 -1 10355 0
 D2
 ~
 ~
-0 -1 10278
+0 -1 10278 0
 D3
 ~
 ~
-0 -1 10354
+0 -1 10354 0
+R M 0 10151 76 10277
 S
 #10278
 Starlight Way~
@@ -3295,19 +3392,19 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10277
+0 -1 10277 0
 D1
 ~
 ~
-0 -1 10356
+0 -1 10356 0
 D2
 ~
 ~
-0 -1 10283
+0 -1 10283 0
 D3
 ~
 ~
-0 -1 10357
+0 -1 10357 0
 S
 #10279
 Starlight Way~
@@ -3320,15 +3417,15 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10283
+0 -1 10283 0
 D2
 ~
 ~
-0 -1 10291
+0 -1 10291 0
 D3
 ~
 ~
-0 -1 10377
+0 -1 10377 0
 S
 #10280
 Vine Street~
@@ -3342,19 +3439,20 @@ it.
 D0
 ~
 ~
-0 -1 10369
+0 -1 10369 0
 D1
 ~
 ~
-0 -1 10174
+0 -1 10174 0
 D2
 ~
 ~
-0 -1 10370
+0 -1 10370 0
 D3
 ~
 ~
-0 -1 10281
+0 -1 10281 0
+R M 0 10151 76 10280
 S
 #10281
 Vine Street~
@@ -3368,19 +3466,19 @@ it.
 D0
 ~
 ~
-0 -1 10368
+0 -1 10368 0
 D1
 ~
 ~
-0 -1 10280
+0 -1 10280 0
 D2
 ~
 ~
-0 -1 10367
+0 -1 10367 0
 D3
 ~
 ~
-0 -1 10282
+0 -1 10282 0
 S
 #10282
 Vine Street~
@@ -3394,15 +3492,15 @@ it.
 D0
 ~
 ~
-0 -1 10366
+0 -1 10366 0
 D1
 ~
 ~
-0 -1 10281
+0 -1 10281 0
 D3
 ~
 ~
-0 -1 10283
+0 -1 10283 0
 S
 #10283
 Corner of Starlight Way and Vine Street~
@@ -3415,19 +3513,20 @@ hear the waves of the ocean from the distance.
 D0
 ~
 ~
-0 -1 10278
+0 -1 10278 0
 D1
 ~
 ~
-0 -1 10282
+0 -1 10282 0
 D2
 ~
 ~
-0 -1 10279
+0 -1 10279 0
 D3
 ~
 ~
-0 -1 10358
+0 -1 10358 0
+R M 0 10151 76 10283
 S
 #10284
 Helm Street~
@@ -3440,15 +3539,15 @@ the entire area of this planet seems to be.
 D1
 ~
 ~
-0 -1 10155
+0 -1 10155 0
 D2
 ~
 ~
-0 -1 10317
+0 -1 10317 0
 D3
 ~
 ~
-0 -1 10285
+0 -1 10285 0
 S
 #10285
 Helm Street~
@@ -3461,15 +3560,15 @@ pavement has no cracks in it and is virtually perfect.
 D1
 ~
 ~
-0 -1 10284
+0 -1 10284 0
 D2
 ~
 ~
-0 -1 10319
+0 -1 10319 0
 D3
 ~
 ~
-0 -1 10286
+0 -1 10286 0
 S
 #10286
 Helm Street~
@@ -3482,19 +3581,19 @@ pavement has no cracks in it and is virtually perfect.
 D0
 ~
 ~
-0 -1 10320
+0 -1 10320 0
 D1
 ~
 ~
-0 -1 10285
+0 -1 10285 0
 D2
 ~
 ~
-0 -1 10321
+0 -1 10321 0
 D3
 ~
 ~
-0 -1 10287
+0 -1 10287 0
 S
 #10287
 Corner of Starlight Way and Helm Street~
@@ -3508,19 +3607,20 @@ area except how nice it looks.
 D0
 ~
 ~
-0 -1 10324
+0 -1 10324 0
 D1
 ~
 ~
-0 -1 10286
+0 -1 10286 0
 D2
 ~
 ~
-0 -1 10288
+0 -1 10288 0
 D3
 ~
 ~
-0 -1 10322
+0 -1 10322 0
+R M 0 10160 31 10287
 S
 #10288
 Starlight Way~
@@ -3533,15 +3633,16 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10287
+0 -1 10287 0
 D2
 ~
 ~
-0 -1 10289
+0 -1 10289 0
 D3
 ~
 ~
-0 -1 10326
+0 -1 10326 0
+R M 0 10151 76 10288
 S
 #10289
 Starlight Way~
@@ -3554,15 +3655,16 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10288
+0 -1 10288 0
 D2
 ~
 ~
-0 -1 10290
+0 -1 10290 0
 D3
 ~
 ~
-0 -1 10327
+0 -1 10327 0
+R M 0 10151 76 10289
 S
 #10290
 Starlight Way~
@@ -3575,19 +3677,20 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10289
+0 -1 10289 0
 D1
 ~
 ~
-0 -1 10328
+0 -1 10328 0
 D2
 ~
 ~
-0 -1 10275
+0 -1 10275 0
 D3
 ~
 ~
-0 -1 10329
+0 -1 10329 0
+R M 0 10151 76 10290
 S
 #10291
 Starlight Way~
@@ -3600,15 +3703,16 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10279
+0 -1 10279 0
 D2
 ~
 ~
-0 -1 10292
+0 -1 10292 0
 D3
 ~
 ~
-0 -1 10378
+0 -1 10378 0
+R M 0 10160 31 10291
 S
 #10292
 Starlight Way~
@@ -3621,15 +3725,15 @@ ocean from afar.
 D0
 ~
 ~
-0 -1 10291
+0 -1 10291 0
 D2
 ~
 ~
-0 -1 10293
+0 -1 10293 0
 D3
 ~
 ~
-0 -1 10379
+0 -1 10379 0
 S
 #10293
 Corner of Starlight Way and Smugglers Bend~
@@ -3642,15 +3746,15 @@ hear the waves of the ocean from the distance.
 D0
 ~
 ~
-0 -1 10292
+0 -1 10292 0
 D1
 ~
 ~
-0 -1 10294
+0 -1 10294 0
 D2
 ~
 ~
-0 -1 10388
+0 -1 10388 0
 S
 #10294
 Smugglers Bend~
@@ -3663,15 +3767,15 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10295
+0 -1 10295 0
 D2
 ~
 ~
-0 -1 10381
+0 -1 10381 0
 D3
 ~
 ~
-0 -1 10293
+0 -1 10293 0
 S
 #10295
 Smugglers Bend~
@@ -3684,11 +3788,11 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10296
+0 -1 10296 0
 D3
 ~
 ~
-0 -1 10294
+0 -1 10294 0
 S
 #10296
 Smugglers Bend~
@@ -3701,11 +3805,11 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10178
+0 -1 10178 0
 D3
 ~
 ~
-0 -1 10295
+0 -1 10295 0
 S
 #10297
 Cora Street~
@@ -3718,11 +3822,11 @@ which makes you feel a bit uneasy.
 D1
 ~
 ~
-0 -1 10298
+0 -1 10298 0
 D3
 ~
 ~
-0 -1 10163
+0 -1 10163 0
 S
 #10298
 Cora Street~
@@ -3735,11 +3839,12 @@ which makes you feel a bit uneasy.
 D1
 ~
 ~
-0 -1 10299
+0 -1 10299 0
 D3
 ~
 ~
-0 -1 10297
+0 -1 10297 0
+R M 0 10151 76 10298
 S
 #10299
 Cora Street~
@@ -3751,11 +3856,11 @@ This area is dimly lit and may be a bad area to be at night.
 D1
 ~
 ~
-0 -1 10300
+0 -1 10300 0
 D3
 ~
 ~
-0 -1 10298
+0 -1 10298 0
 S
 #10300
 Corner of Dagger Avenue and Cora Street~
@@ -3768,11 +3873,12 @@ to the infamous Cora Street.
 D2
 ~
 ~
-0 -1 10301
+0 -1 10301 0
 D3
 ~
 ~
-0 -1 10299
+0 -1 10299 0
+R M 0 10160 31 10300
 S
 #10301
 Dagger Avenue~
@@ -3785,11 +3891,12 @@ all.
 D0
 ~
 ~
-0 -1 10300
+0 -1 10300 0
 D2
 ~
 ~
-0 -1 10302
+0 -1 10302 0
+R M 0 10151 76 10301
 S
 #10302
 Dagger Avenue~
@@ -3802,11 +3909,11 @@ all.
 D0
 ~
 ~
-0 -1 10301
+0 -1 10301 0
 D2
 ~
 ~
-0 -1 10303
+0 -1 10303 0
 S
 #10303
 Dagger Avenue~
@@ -3819,11 +3926,12 @@ all.
 D0
 ~
 ~
-0 -1 10302
+0 -1 10302 0
 D2
 ~
 ~
-0 -1 10304
+0 -1 10304 0
+R M 0 10160 31 10303
 S
 #10304
 Corner of Dagger Avenue and Vine Street~
@@ -3837,15 +3945,15 @@ Street to see all of its vegetation.
 D0
 ~
 ~
-0 -1 10303
+0 -1 10303 0
 D2
 ~
 ~
-0 -1 10308
+0 -1 10308 0
 D3
 ~
 ~
-0 -1 10305
+0 -1 10305 0
 S
 #10305
 Vine Street~
@@ -3859,11 +3967,12 @@ it.
 D1
 ~
 ~
-0 -1 10304
+0 -1 10304 0
 D3
 ~
 ~
-0 -1 10306
+0 -1 10306 0
+R M 0 10151 76 10305
 S
 #10306
 Vine Street~
@@ -3877,11 +3986,11 @@ it.
 D1
 ~
 ~
-0 -1 10305
+0 -1 10305 0
 D3
 ~
 ~
-0 -1 10307
+0 -1 10307 0
 S
 #10307
 Vine Street~
@@ -3895,11 +4004,12 @@ it.
 D1
 ~
 ~
-0 -1 10306
+0 -1 10306 0
 D3
 ~
 ~
-0 -1 10167
+0 -1 10167 0
+R M 0 10151 76 10307
 S
 #10308
 Dagger Avenue~
@@ -3912,11 +4022,12 @@ all.
 D0
 ~
 ~
-0 -1 10304
+0 -1 10304 0
 D2
 ~
 ~
-0 -1 10309
+0 -1 10309 0
+R M 0 10154 1 10308
 S
 #10309
 Dagger Avenue~
@@ -3929,11 +4040,11 @@ all.
 D0
 ~
 ~
-0 -1 10308
+0 -1 10308 0
 D2
 ~
 ~
-0 -1 10310
+0 -1 10310 0
 S
 #10310
 Dagger Avenue~
@@ -3946,11 +4057,12 @@ all.
 D0
 ~
 ~
-0 -1 10309
+0 -1 10309 0
 D2
 ~
 ~
-0 -1 10311
+0 -1 10311 0
+R M 0 10151 76 10310
 S
 #10311
 Corner of Dagger Avenue and Smugglers Bend~
@@ -3963,11 +4075,11 @@ the ocean because the gentle wind is blowing towards you.
 D0
 ~
 ~
-0 -1 10310
+0 -1 10310 0
 D3
 ~
 ~
-0 -1 10312
+0 -1 10312 0
 S
 #10312
 Smugglers Bend~
@@ -3980,11 +4092,14 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10311
+0 -1 10311 0
 D3
 ~
 ~
-0 -1 10313
+0 -1 10313 0
+R M 0 10151 76 10312
+R M 0 10151 76 10312
+R M 0 10160 31 10312
 S
 #10313
 Smugglers Bend~
@@ -3997,11 +4112,11 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10312
+0 -1 10312 0
 D3
 ~
 ~
-0 -1 10314
+0 -1 10314 0
 S
 #10314
 Smugglers Bend~
@@ -4014,11 +4129,11 @@ the beautiful sound from the ocean here.
 D1
 ~
 ~
-0 -1 10313
+0 -1 10313 0
 D3
 ~
 ~
-0 -1 10182
+0 -1 10182 0
 S
 #10315
 &Y Spaceport Hotel&w&W~
@@ -4031,11 +4146,12 @@ and friendly.
 D0
 ~
 ~
-0 -1 10153
+0 -1 10153 0
 D4
 ~
 ~
-0 -1 10461
+0 -1 10461 0
+R O 0 1141 1 10315
 S
 #10316
 &G Cora Quick Stop &w&W~
@@ -4048,7 +4164,14 @@ Clerk has quite a variety of items compared to most.
 D2
 ~
 ~
-0 -1 10153
+0 -1 10153 0
+R M 0 10156 1 10316
+  R G 1 133 1
+  R G 1 59 1
+  R G 1 134 1
+  R G 1 1057 1
+  R G 1 64 1
+  R G 1 1068 1
 S
 #10317
 &R Bounty Office&w&W~
@@ -4061,7 +4184,9 @@ her paperwork and you see a list of bounties posted on the wall.
 D0
 ~
 ~
-0 -1 10284
+0 -1 10284 0
+R M 0 10152 1 10317
+R O 0 10318 1 10317
 E
 list~
 ----------------------------
@@ -4091,7 +4216,7 @@ up if you have apprentices.
 D2
 ~
 ~
-0 -1 10285
+0 -1 10285 0
 S
 #10319
 Empy Shop~
@@ -4105,7 +4230,7 @@ up if you have apprentices.
 D0
 ~
 ~
-0 -1 10285
+0 -1 10285 0
 S
 #10320
 Empty Shop~
@@ -4119,7 +4244,7 @@ up if you have apprentices.
 D2
 ~
 ~
-0 -1 10286
+0 -1 10286 0
 S
 #10321
 Empty Shop~
@@ -4133,7 +4258,7 @@ up if you have apprentices.
 D0
 ~
 ~
-0 -1 10286
+0 -1 10286 0
 S
 #10322
 Corellia Bar and Grill~
@@ -4146,11 +4271,12 @@ with be by shortly to take your order."
 D0
 ~
 ~
-1 -1 10323
+1 -1 10323 0
 D1
 ~
 ~
-0 -1 10287
+0 -1 10287 0
+R D 0 10322 0 0
 S
 #10323
 Diner~
@@ -4163,15 +4289,17 @@ with be by shortly to take your order."
 D1
 ~
 ~
-0 -1 10324
+0 -1 10324 0
 D2
 ~
 ~
-0 -1 10322
+0 -1 10322 0
 D4
 ~
 ~
-0 -1 10325
+0 -1 10325 0
+R M 0 10158 1 10323
+  R G 1 1072 1
 S
 #10324
 Corellia Bar and Grill~
@@ -4184,11 +4312,12 @@ with be by shortly to take your order."
 D2
 ~
 ~
-0 -1 10287
+0 -1 10287 0
 D3
 ~
 ~
-1 -1 10323
+1 -1 10323 0
+R D 0 10324 3 0
 S
 #10325
 Cantina~
@@ -4201,7 +4330,14 @@ with be by shortly to take your order."
 D5
 ~
 ~
-0 -1 10323
+0 -1 10323 0
+R M 0 10157 1 10325
+  R G 1 201 1
+  R G 1 1056 1
+  R G 1 276 1
+  R G 1 260 1
+  R G 1 259 1
+  R G 1 10159 1
 S
 #10326
 Empty Shop~
@@ -4215,7 +4351,7 @@ up if you have apprentices.
 D1
 ~
 ~
-0 -1 10288
+0 -1 10288 0
 S
 #10327
 Empty Shop~
@@ -4229,7 +4365,7 @@ up if you have apprentices.
 D1
 ~
 ~
-0 -1 10289
+0 -1 10289 0
 S
 #10328
 Empty Shop~
@@ -4243,7 +4379,7 @@ up if you have apprentices.
 D3
 ~
 ~
-0 -1 10290
+0 -1 10290 0
 S
 #10329
 Empty Shop~
@@ -4257,7 +4393,7 @@ up if you have apprentices.
 D1
 ~
 ~
-0 -1 10290
+0 -1 10290 0
 S
 #10330
 &R BlasTech Blasters&w&W~
@@ -4271,7 +4407,14 @@ to the left of you.
 D2
 ~
 ~
-0 -1 10204
+0 -1 10204 0
+R M 0 10159 1 10330
+  R G 1 58 1
+  R G 1 54 1
+  R G 1 53 1
+  R G 1 52 1
+  R G 1 51 1
+  R G 1 50 1
 S
 #10331
 Empty Home~
@@ -4284,7 +4427,7 @@ The place looks very tidy and comfy.
 D3
 ~
 ~
-0 -1 10156
+0 -1 10156 0
 S
 #10332
 Empty Home~
@@ -4297,7 +4440,7 @@ looks very tidy and comfy.
 D1
 ~
 ~
-0 -1 10156
+0 -1 10156 0
 S
 #10333
 Empty Home~
@@ -4310,7 +4453,7 @@ looks very tidy and comfy.
 D3
 ~
 ~
-0 -1 10157
+0 -1 10157 0
 S
 #10334
 Empty Home~
@@ -4323,7 +4466,7 @@ looks very tidy and comfy.
 D1
 ~
 ~
-0 -1 10157
+0 -1 10157 0
 S
 #10335
 Empty Home~
@@ -4336,7 +4479,7 @@ looks very tidy and comfy.
 D3
 ~
 ~
-0 -1 10157
+0 -1 10157 0
 S
 #10336
 Empty Home~
@@ -4349,7 +4492,7 @@ looks very tidy and comfy.
 D1
 ~
 ~
-0 -1 10158
+0 -1 10158 0
 S
 #10337
 Empty Home~
@@ -4362,7 +4505,7 @@ looks very tidy and comfy.
 D3
 ~
 ~
-0 -1 10158
+0 -1 10158 0
 S
 #10338
 &c Fritz's Droids&w&W~
@@ -4376,7 +4519,8 @@ in the center of the room.
 D3
 ~
 ~
-0 -1 10216
+0 -1 10216 0
+R M 0 10162 1 10338
 S
 #10339
 Clan Storage Room #1~
@@ -4399,7 +4543,7 @@ looks very tidy and comfy.
 D2
 ~
 ~
-0 -1 10203
+0 -1 10203 0
 S
 #10341
 Empty Home~
@@ -4412,7 +4556,7 @@ looks very tidy and comfy.
 D0
 ~
 ~
-0 -1 10203
+0 -1 10203 0
 S
 #10342
 Empty Home~
@@ -4425,7 +4569,7 @@ headboard that sits in the corner of the room.
 D2
 ~
 ~
-0 -1 10202
+0 -1 10202 0
 S
 #10343
 An Empty Apartment~
@@ -4438,7 +4582,7 @@ headboard that sits in the corner of the room.
 D0
 ~
 ~
-0 -1 10202
+0 -1 10202 0
 S
 #10344
 Old Warehouse~
@@ -4451,11 +4595,15 @@ The entire area is a bit grungy and trash is littered about.
 D0
 ~
 ~
-3 -1 10201
+3 -1 10201 0
 D4
 ~
 ~
-0 -1 10345
+0 -1 10345 0
+R M 0 10165 1 10344
+R M 0 10164 6 10344
+R M 0 10164 6 10344
+R D 0 10344 0 1
 S
 #10345
 Trashed Steps~
@@ -4468,11 +4616,13 @@ turf. You should be extra weary of what you do around here.
 D2
 ~
 ~
-0 -1 10346
+0 -1 10346 0
 D5
 ~
 ~
-0 -1 10344
+0 -1 10344 0
+R M 0 10163 1 10345
+  R G 1 274 1
 S
 #10346
 &B The Auditorium&w&W~
@@ -4485,19 +4635,21 @@ listen if you want.
 D0
 ~
 ~
-0 -1 10345
+0 -1 10345 0
 D1
 ~
 ~
-0 -1 10347
+0 -1 10347 0
 D2
 ~
 ~
-0 -1 10349
+0 -1 10349 0
 D6
 ~
 ~
-1 -1 10348
+1 -1 10348 0
+R M 0 10151 76 10346
+R D 0 10346 6 0
 S
 #10347
 &b -At The Stage-&w&W~
@@ -4509,7 +4661,9 @@ Join in and start singing with the old biker.
 D3
 ~
 ~
-0 -1 10346
+0 -1 10346 0
+R M 0 10166 1 10347
+R O 0 10157 1 10347
 S
 #10348
 Parlor~
@@ -4522,11 +4676,14 @@ to the southwest.
 D2
 ~
 ~
-0 -1 10351
+0 -1 10351 0
 D9
 ~
 ~
-1 -1 10346
+1 -1 10346 0
+R M 0 10164 6 10348
+R M 0 10164 6 10348
+R D 0 10348 9 0
 S
 #10349
 Hallway~
@@ -4538,11 +4695,12 @@ you can go into the bathroom area here.
 D0
 ~
 ~
-0 -1 10346
+0 -1 10346 0
 D3
 ~
 ~
-0 -1 10350
+0 -1 10350 0
+R M 0 10160 31 10349
 S
 #10350
 The bathroom~
@@ -4554,7 +4712,9 @@ to to provoke a fight in here.
 D1
 ~
 ~
-0 -1 10349
+0 -1 10349 0
+R M 0 10160 31 10350
+R M 0 10164 6 10350
 S
 #10351
 At The Bar~
@@ -4567,7 +4727,12 @@ the very young ages of five or six.
 D0
 ~
 ~
-0 -1 10348
+0 -1 10348 0
+R M 0 202 2 10351
+  R G 1 65 1
+  R G 1 258 1
+  R G 1 259 1
+  R G 1 260 1
 S
 #10352
 Empty Home~
@@ -4580,7 +4745,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10276
+0 -1 10276 0
 S
 #10353
 Empty Home~
@@ -4593,7 +4758,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10276
+0 -1 10276 0
 S
 #10354
 Empty Home~
@@ -4606,7 +4771,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10277
+0 -1 10277 0
 S
 #10355
 Empty Home~
@@ -4619,7 +4784,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10277
+0 -1 10277 0
 S
 #10356
 Empty Home~
@@ -4632,7 +4797,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10278
+0 -1 10278 0
 S
 #10357
 Empty Home~
@@ -4645,7 +4810,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10278
+0 -1 10278 0
 S
 #10358
 Empty Home~
@@ -4658,7 +4823,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10283
+0 -1 10283 0
 S
 #10359
 Empty Shop~
@@ -4672,7 +4837,7 @@ things.
 D2
 ~
 ~
-0 -1 10273
+0 -1 10273 0
 S
 #10360
 Empty Shop~
@@ -4686,7 +4851,7 @@ things.
 D0
 ~
 ~
-0 -1 10273
+0 -1 10273 0
 S
 #10361
 Empty Shop~
@@ -4700,7 +4865,7 @@ things.
 D0
 ~
 ~
-0 -1 10272
+0 -1 10272 0
 S
 #10362
 Empty Shop~
@@ -4714,7 +4879,7 @@ things.
 D0
 ~
 ~
-0 -1 10274
+0 -1 10274 0
 S
 #10363
 Empty Shop~
@@ -4728,7 +4893,7 @@ things.
 D2
 ~
 ~
-0 -1 10274
+0 -1 10274 0
 S
 #10364
 &r -A Small Junk Area-&w&W~
@@ -4741,7 +4906,8 @@ seeing if they can find anything of any use to themselves.
 D2
 ~
 ~
-0 -1 10268
+0 -1 10268 0
+R M 0 10169 1 10364
 S
 #10365
 Clan Storage Room #2~
@@ -4765,7 +4931,7 @@ things.
 D2
 ~
 ~
-0 -1 10282
+0 -1 10282 0
 S
 #10367
 Empty Shop~
@@ -4779,7 +4945,7 @@ things.
 D0
 ~
 ~
-0 -1 10281
+0 -1 10281 0
 S
 #10368
 Empty Shop~
@@ -4793,7 +4959,7 @@ things.
 D2
 ~
 ~
-0 -1 10281
+0 -1 10281 0
 S
 #10369
 Empty Shop~
@@ -4807,7 +4973,7 @@ things.
 D2
 ~
 ~
-0 -1 10280
+0 -1 10280 0
 S
 #10370
 Empty Shop~
@@ -4821,7 +4987,7 @@ things.
 D0
 ~
 ~
-0 -1 10280
+0 -1 10280 0
 S
 #10371
 Empty Home~
@@ -4834,7 +5000,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10171
+0 -1 10171 0
 S
 #10372
 Empty Home~
@@ -4847,7 +5013,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10171
+0 -1 10171 0
 S
 #10373
 An Empty Apartment~
@@ -4860,7 +5026,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10172
+0 -1 10172 0
 S
 #10374
 Empty Home~
@@ -4873,7 +5039,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10172
+0 -1 10172 0
 S
 #10375
 Empty Home~
@@ -4886,7 +5052,7 @@ which sits in the middle of the room.
 D1
 ~
 ~
-0 -1 10173
+0 -1 10173 0
 S
 #10376
 Empty Home~
@@ -4899,7 +5065,7 @@ which sits in the middle of the room.
 D3
 ~
 ~
-0 -1 10173
+0 -1 10173 0
 S
 #10377
 Empty Shop~
@@ -4913,7 +5079,7 @@ things.
 D1
 ~
 ~
-0 -1 10279
+0 -1 10279 0
 S
 #10378
 Empty Shop~
@@ -4927,7 +5093,7 @@ things.
 D1
 ~
 ~
-0 -1 10291
+0 -1 10291 0
 S
 #10379
 Empty Shop~
@@ -4941,7 +5107,7 @@ things.
 D1
 ~
 ~
-0 -1 10292
+0 -1 10292 0
 S
 #10380
 &z United Parcel Service&w&W~
@@ -4954,7 +5120,9 @@ them where they belong.
 D7
 ~
 ~
-0 -1 10220
+0 -1 10220 0
+R O 0 1926 1 10380
+R O 0 1243 1 10380
 S
 #10381
 First Bank of Corellia~
@@ -4968,11 +5136,13 @@ here that allows you to look out at the beach.
 D0
 ~
 ~
-0 -1 10294
+0 -1 10294 0
 D1
 ~
 ~
-33554432 -1 10388
+33554432 -1 10388 0
+R M 0 1144 2 10381
+R M 0 1144 2 10381
 S
 #10382
 Entrance to the Palace~
@@ -4984,11 +5154,11 @@ bare. It seems awful quiet as there are no guards posted here.
 D0
 ~
 ~
-0 -1 10385
+0 -1 10385 0
 D2
 ~
 ~
-0 -1 10386
+0 -1 10386 0
 S
 #10383
 Palace Throne Room~
@@ -5001,7 +5171,10 @@ looking around for people who should't be in the palace.
 D7
 ~
 ~
-0 -1 10386
+0 -1 10386 0
+R M 0 10177 5 10383
+  R E 1 50 1 16
+R O 0 10152 1 10383
 S
 #10384
 Diktat's Office~
@@ -5015,7 +5188,14 @@ every move.
 D6
 ~
 ~
-0 -1 10387
+0 -1 10387 0
+R M 0 10174 1 10384
+R M 0 10177 5 10384
+  R E 1 50 1 16
+R M 0 10177 5 10384
+R M 0 10177 5 10384
+R M 0 10177 5 10384
+R O 0 10161 1 10384
 S
 #10385
 Palace Steps~
@@ -5027,11 +5207,11 @@ Empire after the Diktat pledged his loyalty to them.
 D0
 ~
 ~
-0 -1 10178
+0 -1 10178 0
 D2
 ~
 ~
-0 -1 10382
+0 -1 10382 0
 S
 #10386
 Palace Foyer~
@@ -5044,15 +5224,16 @@ You hear the scream of a man as he dies.
 D0
 ~
 ~
-0 -1 10382
+0 -1 10382 0
 D8
 ~
 ~
-0 -1 10383
+0 -1 10383 0
 D9
 ~
 ~
-0 -1 10387
+0 -1 10387 0
+R O 0 10160 1 10386
 S
 #10387
 Reception Area~
@@ -5065,7 +5246,8 @@ diktat maybe you should ASK the Receptionist.
 D6
 ~
 ~
-0 -1 10386
+0 -1 10386 0
+R M 0 10173 1 10387
 S
 #10388
 &O A Sandy Beach&w&W~
@@ -5077,11 +5259,13 @@ about in the water and on the beach. This looks like a fun time!
 D0
 ~
 ~
-0 -1 10293
+0 -1 10293 0
 D3
 ~
 ~
-0 -1 10389
+0 -1 10389 0
+R M 0 10175 2 10388
+R M 0 10176 2 10388
 S
 #10389
 &O A Sandy Beach&w&W~
@@ -5093,7 +5277,9 @@ about in the water and on the beach. This looks like a fun time!
 D1
 ~
 ~
-0 -1 10388
+0 -1 10388 0
+R M 0 10175 2 10389
+R M 0 10176 2 10389
 S
 #10390
 Jail Corridor~
@@ -5105,19 +5291,22 @@ them. You just cover your ears and keep walking.
 D0
 ~
 ~
-1057 10158 10263
+1057 10158 10263 0
 D1
 ~
 ~
-1057 10158 10226
+1057 10158 10226 0
 D2
 ~
 ~
-1057 10158 10391
+1057 10158 10391 0
 D3
 ~
 ~
-0 -1 10392
+0 -1 10392 0
+R D 0 10390 0 0
+R D 0 10390 1 0
+R D 0 10390 2 0
 S
 #10391
 Jail Cell-Corellia~
@@ -5131,7 +5320,8 @@ Imperial logo on the wall here.
 D0
 ~
 ~
-1057 10158 10390
+1057 10158 10390 0
+R D 0 10391 0 0
 S
 #10392
 Jail Corridor~
@@ -5143,15 +5333,17 @@ them. You just cover your ears and keep walking.
 D0
 ~
 ~
-1059 10158 10393
+1059 10158 10393 0
 D1
 ~
 ~
-0 -1 10390
+0 -1 10390 0
 D2
 ~
 ~
-1057 10158 10394
+1057 10158 10394 0
+R D 0 10392 0 1
+R D 0 10392 2 0
 S
 #10393
 Jail Cell-Corellia~
@@ -5165,7 +5357,8 @@ Imperial logo on the wall here.
 D2
 ~
 ~
-1059 10158 10392
+1059 10158 10392 0
+R D 0 10393 2 1
 S
 #10394
 Jail Cell-Corellia~
@@ -5179,7 +5372,8 @@ Imperial logo on the wall here.
 D0
 ~
 ~
-1057 10158 10392
+1057 10158 10392 0
+R D 0 10394 0 0
 S
 #10395
 &p A Small Hotel&w&W~
@@ -5193,7 +5387,7 @@ but the place isn't that bad.
 D1
 ~
 ~
-0 -1 10236
+0 -1 10236 0
 S
 #10396
 &C The Auction House&w&W~
@@ -5207,7 +5401,7 @@ the right place.
 D2
 ~
 ~
-0 -1 10255
+0 -1 10255 0
 S
 #10397
 &w A Run-Down Motel&w&W~
@@ -5221,7 +5415,7 @@ you like, just pick up the keys here."
 D7
 ~
 ~
-0 -1 10190
+0 -1 10190 0
 S
 #10398
 &B Corsec Headquarters &w&W~
@@ -5235,11 +5429,11 @@ plan etary government.
 D1
 ~
 ~
-0 -1 10228
+0 -1 10228 0
 D3
 ~
 ~
-0 -1 10400
+0 -1 10400 0
 S
 #10399
 &B Corsec Commander's Office &w&W~
@@ -5249,7 +5443,10 @@ You stand in the office of the commanding officer of Corellian Security. The fur
 D9
 ~
 ~
-0 -1 10403
+0 -1 10403 0
+R M 0 10179 1 10399
+  R E 1 51 1 16
+R O 0 116 1 10399
 S
 #10400
 &B Corsec Reception Area&w&W~
@@ -5262,11 +5459,13 @@ of having the standard stormtrooper control.
 D1
 ~
 ~
-0 -1 10398
+0 -1 10398 0
 D3
 ~
 ~
-0 -1 10401
+0 -1 10401 0
+R M 0 10178 1 10400
+R O 0 116 1 10400
 S
 #10401
 &B A Corridor&w&W~
@@ -5276,11 +5475,11 @@ You are walking down a small corridor. The walls here are a dark blue color. The
 D1
 ~
 ~
-0 -1 10400
+0 -1 10400 0
 D3
 ~
 ~
-0 -1 10402
+0 -1 10402 0
 S
 #10402
 &B A Small Turbolift&w&W~
@@ -5314,7 +5513,9 @@ You stand in the second floor reception area. This is the only floor of the buil
 D3
 ~
 ~
-0 -1 10402
+0 -1 10402 0
+R M 0 10180 1 10403
+R M 0 10181 1 10403
 S
 #10404
 &B Armor Repair&w&W~
@@ -5328,7 +5529,7 @@ funds i t never happened.
 D3
 ~
 ~
-0 -1 10403
+0 -1 10403 0
 S
 #10405
 &B Agent Sleeping Quarters&w&W~
@@ -5338,7 +5539,7 @@ This single room was put in for the on-duty agents of Corsec to get a short catn
 D7
 ~
 ~
-0 -1 10403
+0 -1 10403 0
 S
 #10409
 Floating in a void~
@@ -5357,19 +5558,20 @@ and durable against the forces of the ships upon takeoff.
 D0
 ~
 ~
-0 -1 10451
+0 -1 10451 0
 D1
 ~
 ~
-0 -1 10452
+0 -1 10452 0
 D2
 ~
 ~
-0 -1 10453
+0 -1 10453 0
 D3
 ~
 ~
-0 -1 10454
+0 -1 10454 0
+R M 0 10172 3 10450
 S
 #10451
 Shipyard Landing Pad A~
@@ -5384,7 +5586,7 @@ upon takeoff.
 D2
 ~
 ~
-0 -1 10450
+0 -1 10450 0
 S
 #10452
 Shipyard Landing Pad B~
@@ -5399,7 +5601,8 @@ upon takeoff.
 D3
 ~
 ~
-0 -1 10450
+0 -1 10450 0
+R M 0 10172 3 10452
 S
 #10453
 Shipyard Landing Pad C~
@@ -5414,7 +5617,8 @@ upon takeoff.
 D0
 ~
 ~
-0 -1 10450
+0 -1 10450 0
+R M 0 10172 3 10453
 S
 #10454
 Shipyard Landing Pad D~
@@ -5429,11 +5633,11 @@ upon takeoff.
 D1
 ~
 ~
-0 -1 10450
+0 -1 10450 0
 D9
 ~
 ~
-0 -1 10455
+0 -1 10455 0
 S
 #10455
 A Small Hallway~
@@ -5447,11 +5651,11 @@ creative here.
 D6
 ~
 ~
-0 -1 10454
+0 -1 10454 0
 D9
 ~
 ~
-0 -1 10456
+0 -1 10456 0
 S
 #10456
 Shipyard Spaceport~
@@ -5465,23 +5669,23 @@ of here.
 D0
 ~
 ~
-0 -1 10457
+0 -1 10457 0
 D1
 ~
 ~
-0 -1 10460
+0 -1 10460 0
 D2
 ~
 ~
-0 -1 10458
+0 -1 10458 0
 D3
 ~
 ~
-0 -1 10459
+0 -1 10459 0
 D6
 ~
 ~
-0 -1 10455
+0 -1 10455 0
 S
 #10457
 &YA Small Hotel&w&W~
@@ -5494,7 +5698,8 @@ and thier numbers.
 D2
 ~
 ~
-0 -1 10456
+0 -1 10456 0
+R M 0 9722 1 10457
 S
 #10458
 &G A Small Store&w&W~
@@ -5507,7 +5712,13 @@ to be repaired or if you just stopped in here out of hunger.
 D0
 ~
 ~
-0 -1 10456
+0 -1 10456 0
+R M 0 10182 1 10458
+  R G 1 151 1
+  R G 1 139 1
+  R G 1 65 1
+  R G 1 134 1
+  R G 1 133 1
 S
 #10459
 &O A Small Alcove&w&W~
@@ -5520,7 +5731,7 @@ type help bank.
 D1
 ~
 ~
-0 -1 10456
+0 -1 10456 0
 S
 #10460
 &B A Blue DropTube&w&W~
@@ -5533,7 +5744,7 @@ is say the word "GO"!
 D3
 ~
 ~
-0 -1 10456
+0 -1 10456 0
 > speech_prog p Go~
 mpechoat $n The floor falls out beneath you as your sucked into the tube. You are transported to the planet. 
 mpechoaround $n You watch as $n is sucked into the droptube. 
@@ -5548,7 +5759,8 @@ The Galactic Mail Center~
 D5
 ~
 ~
-0 -1 10315
+0 -1 10315 0
+R O 0 38 1 10461
 S
 #10488
 Floating in a void~
@@ -5563,231 +5775,15 @@ S
 #0
 
 
-#RESETS
-M 1 10151 76 10152
-O 1 10160 1 10152
-M 1 10151 76 10153
-M 1 10151 76 10156
-M 1 10151 76 10159
-M 1 10151 76 10159
-M 1 10151 76 10159
-M 1 10151 76 10160
-M 1 10151 76 10160
-M 1 10160 31 10166
-M 1 10151 76 10167
-M 1 10160 31 10169
-M 1 10151 76 10171
-M 1 10160 31 10174
-E 1 59 1 16
-M 1 10151 76 10175
-M 1 10151 76 10175
-M 1 10151 76 10176
-M 1 10151 76 10177
-M 1 10151 76 10179
-M 1 10151 76 10181
-M 1 10160 31 10182
-M 1 10151 76 10183
-M 1 10151 76 10185
-M 1 10151 76 10189
-M 1 10160 31 10192
-M 1 10151 76 10193
-M 1 10151 76 10194
-M 1 10151 76 10195
-M 1 10151 76 10195
-M 1 10160 31 10198
-M 1 10160 31 10199
-M 1 10160 31 10200
-M 1 10151 76 10200
-M 1 10151 76 10200
-D 0 10201 2 1
-M 1 10151 76 10202
-M 1 10160 31 10202
-M 1 10151 76 10203
-M 1 10151 76 10203
-M 1 10151 76 10204
-M 1 10151 76 10204
-M 1 10151 76 10206
-M 1 10160 31 10206
-M 1 10160 31 10207
-M 1 10151 76 10207
-M 1 10151 76 10209
-M 1 10164 6 10209
-M 1 10160 31 10210
-M 1 10151 76 10210
-M 1 10160 31 10211
-M 1 10151 76 10211
-M 1 10151 76 10212
-M 1 10151 76 10216
-M 1 10167 1 10217
-M 1 10155 1 10220
-M 1 10151 76 10221
-M 1 10160 31 10222
-M 1 10151 76 10224
-M 1 10151 76 10224
-M 1 10151 76 10225
-D 0 10226 3 0
-M 1 10151 76 10227
-M 1 10151 76 10228
-M 1 10160 31 10228
-M 1 10160 31 10228
-M 1 10151 76 10228
-M 1 10160 31 10230
-M 1 10151 76 10232
-M 1 10160 31 10233
-M 1 10153 1 10234
-M 1 10151 76 10235
-M 1 10151 76 10238
-M 1 10151 76 10238
-M 1 10151 76 10242
-M 1 10160 31 10245
-M 1 10151 76 10248
-M 1 10151 76 10248
-M 1 10171 1 10249
-M 1 10151 76 10250
-M 1 10151 76 10251
-M 1 10160 31 10252
-M 1 10151 76 10253
-M 1 10151 76 10254
-M 1 10151 76 10257
-M 1 10151 76 10258
-M 1 10160 31 10259
-M 1 10151 76 10260
-M 1 10160 31 10262
-D 0 10263 2 0
-M 1 10151 76 10265
-M 1 10160 31 10266
-M 1 10151 76 10267
-M 1 10151 76 10272
-M 1 10151 76 10274
-M 1 10160 31 10275
-M 1 10151 76 10277
-M 1 10151 76 10280
-M 1 10151 76 10283
-M 1 10160 31 10287
-M 1 10151 76 10288
-M 1 10151 76 10289
-M 1 10151 76 10290
-M 1 10160 31 10291
-M 1 10151 76 10298
-M 1 10160 31 10300
-M 1 10151 76 10301
-M 1 10160 31 10303
-M 1 10151 76 10305
-M 1 10151 76 10307
-M 1 10154 1 10308
-M 1 10151 76 10310
-M 1 10151 76 10312
-M 1 10151 76 10312
-M 1 10160 31 10312
-O 1 1141 1 10315
-M 1 10156 1 10316
-G 1 133 1
-G 1 59 1
-G 1 134 1
-G 1 1057 1
-G 1 64 1
-G 1 1068 1
-M 1 10152 1 10317
-O 1 10318 1 10317
-D 0 10322 0 0
-M 1 10158 1 10323
-G 1 1072 1
-D 0 10324 3 0
-M 1 10157 1 10325
-G 1 201 1
-G 1 1056 1
-G 1 276 1
-G 1 260 1
-G 1 259 1
-G 1 10159 1
-M 1 10159 1 10330
-G 1 58 1
-G 1 54 1
-G 1 53 1
-G 1 52 1
-G 1 51 1
-G 1 50 1
-M 1 10162 1 10338
-M 1 10165 1 10344
-M 1 10164 6 10344
-M 1 10164 6 10344
-D 0 10344 0 1
-M 1 10163 1 10345
-G 1 274 1
-M 1 10151 76 10346
-D 0 10346 6 0
-M 1 10166 1 10347
-O 1 10157 1 10347
-M 1 10164 6 10348
-M 1 10164 6 10348
-D 0 10348 9 0
-M 1 10160 31 10349
-M 1 10160 31 10350
-M 1 10164 6 10350
-M 1 202 2 10351
-G 1 65 1
-G 1 258 1
-G 1 259 1
-G 1 260 1
-M 1 10169 1 10364
-O 1 1926 1 10380
-O 1 1243 1 10380
-M 1 1144 2 10381
-M 1 1144 2 10381
-M 1 10177 5 10383
-E 1 50 1 16
-O 1 10152 1 10383
-M 1 10174 1 10384
-M 1 10177 5 10384
-E 1 50 1 16
-M 1 10177 5 10384
-M 1 10177 5 10384
-M 1 10177 5 10384
-O 1 10161 1 10384
-O 1 10160 1 10386
-M 1 10173 1 10387
-M 1 10175 2 10388
-M 1 10176 2 10388
-M 1 10175 2 10389
-M 1 10176 2 10389
-D 0 10390 0 0
-D 0 10390 1 0
-D 0 10390 2 0
-D 0 10391 0 0
-D 0 10392 0 1
-D 0 10392 2 0
-D 0 10393 2 1
-D 0 10394 0 0
-M 1 10179 1 10399
-E 1 51 1 16
-O 1 116 1 10399
-M 1 10178 1 10400
-O 1 116 1 10400
-M 1 10180 1 10403
-M 1 10181 1 10403
-M 1 10172 3 10450
-M 1 10172 3 10452
-M 1 10172 3 10453
-M 1 9722 1 10457
-M 1 10182 1 10458
-G 1 151 1
-G 1 139 1
-G 1 65 1
-G 1 134 1
-G 1 133 1
-O 1 38 1 10461
-S
-
-
 #SHOPS
- 10156    0  0  0  0  0   120  90         0 23 0  ; A Store Clerk
- 10157    0  0  0  0  0   120  90         0 23 0  ; Bartender
- 10158    0  0  0  0  0   120  90         0 23 0  ; Diner Waitress
- 10159    0  0  0  0  0   120  90         0 23 0  ; BlasTech Dealer
- 10162    0  0  0  0  0   120  90         0 23 0  ; Fritz
- 10163    0  0  0  0  0   120  90         0 23 0  ; A Tall Biker
- 10171    0  0  0  0  0   120  90         0 23 0  ; Kentarr
- 10182    0  0  0  0  0   120  90         0 23 0  ; A shop droid
+ 10156    0  0  0  0  0   120  90         0 23    ; A Store Clerk
+ 10157    0  0  0  0  0   120  90         0 23    ; Bartender
+ 10158    0  0  0  0  0   120  90         0 23    ; Diner Waitress
+ 10159    0  0  0  0  0   120  90         0 23    ; BlasTech Dealer
+ 10162    0  0  0  0  0   120  90         0 23    ; Fritz
+ 10163    0  0  0  0  0   120  90         0 23    ; A Tall Biker
+ 10171    0  0  0  0  0   120  90         0 23    ; Kentarr
+ 10182    0  0  0  0  0   120  90         0 23    ; A shop droid
 0
 
 

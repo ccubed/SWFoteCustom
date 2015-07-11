@@ -91,21 +91,17 @@ A hi_obj is here.~
 Floating in a void~
 ~
 0 4 1 0 0 0 10576
+R M 0 5201 1 5201
+R O 0 5201 1 5201
 S
 #5300
 Floating in a void~
 ~
 0 4 1 0 0 0 10576
+R M 0 5300 1 5300
+R O 0 5300 1 5300
 S
 #0
-
-
-#RESETS
-M 1 5201 1 5201
-O 1 5201 1 5201
-M 1 5300 1 5300
-O 1 5300 1 5300
-S
 
 
 #SHOPS

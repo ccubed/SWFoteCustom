@@ -1290,15 +1290,18 @@ hum and whine of an engine booster shakes this dust bowl.
 D0
 ~
 ~
-0 -1 251
+0 -1 251 0
 D1
 ~
 ~
-0 -1 338
+0 -1 338 0
 D3
 ~
 ~
-0 -1 392
+0 -1 392 0
+R M 0 251 1 250
+R M 0 266 8 250
+R O 0 251 1 250
 S
 #251
 On the Outskirts of Mos Eisley~
@@ -1316,11 +1319,13 @@ the sides of merchandise stands covered in blinking lights northward.
 D0
 ~
 ~
-0 -1 253
+0 -1 253 0
 D2
 ~
 ~
-0 -1 250
+0 -1 250 0
+R M 0 266 8 251
+R M 0 269 1 251
 S
 #252
 A Shallow Rut of a Path - At the edge of a Bazaar~
@@ -1336,11 +1341,11 @@ red silt ground by ages of pedestrian traffic.
 D1
 ~
 ~
-0 -1 254
+0 -1 254 0
 D3
 ~
 ~
-0 -1 253
+0 -1 253 0
 S
 #253
 The Beginnings of a Long, Bustling Road~
@@ -1360,15 +1365,17 @@ all walks of life make their way into a small, out of the way bazaar.
 D0
 ~
 ~
-0 -1 268
+0 -1 268 0
 D1
 ~
 ~
-0 -1 252
+0 -1 252 0
 D2
 ~
 ~
-0 -1 251
+0 -1 251 0
+R M 0 252 1 253
+R M 0 266 8 253
 S
 #254
 An Overpopulated Traders' Bazaar~
@@ -1384,15 +1391,17 @@ with the main road near the hover lot southward.
 D0
 ~
 ~
-0 -1 261
+0 -1 261 0
 D1
 ~
 ~
-0 -1 255
+0 -1 255 0
 D3
 ~
 ~
-0 -1 252
+0 -1 252 0
+R M 0 268 6 254
+  R G 1 279 1
 S
 #255
 An Overpopulated Traders' Bazaar~
@@ -1408,15 +1417,15 @@ show between them.
 D0
 ~
 ~
-0 -1 260
+0 -1 260 0
 D1
 ~
 ~
-0 -1 256
+0 -1 256 0
 D3
 ~
 ~
-0 -1 254
+0 -1 254 0
 S
 #256
 An Overpopulated Traders' Bazaar~
@@ -1432,15 +1441,15 @@ between them.
 D0
 ~
 ~
-0 -1 259
+0 -1 259 0
 D1
 ~
 ~
-0 -1 257
+0 -1 257 0
 D3
 ~
 ~
-0 -1 255
+0 -1 255 0
 S
 #257
 An Overpopulated Traders' Bazaar~
@@ -1456,19 +1465,20 @@ show between them.
 D0
 ~
 ~
-0 -1 258
+0 -1 258 0
 D1
 ~
 ~
-0 -1 326
+0 -1 326 0
 D2
 ~
 ~
-0 -1 364
+0 -1 364 0
 D3
 ~
 ~
-0 -1 256
+0 -1 256 0
+R M 0 268 6 257
 S
 #258
 An Overpopulated Traders' Bazaar~
@@ -1484,15 +1494,15 @@ respites show between them.
 D0
 ~
 ~
-0 -1 265
+0 -1 265 0
 D2
 ~
 ~
-0 -1 257
+0 -1 257 0
 D3
 ~
 ~
-0 -1 259
+0 -1 259 0
 S
 #259
 An Overpopulated Traders' Bazaar~
@@ -1508,19 +1518,19 @@ respites show between them.
 D0
 ~
 ~
-0 -1 264
+0 -1 264 0
 D1
 ~
 ~
-0 -1 258
+0 -1 258 0
 D2
 ~
 ~
-0 -1 256
+0 -1 256 0
 D3
 ~
 ~
-0 -1 260
+0 -1 260 0
 S
 #260
 An Overpopulated Traders' Bazaar~
@@ -1536,19 +1546,19 @@ respites show between them.
 D0
 ~
 ~
-0 -1 263
+0 -1 263 0
 D1
 ~
 ~
-0 -1 259
+0 -1 259 0
 D2
 ~
 ~
-0 -1 255
+0 -1 255 0
 D3
 ~
 ~
-0 -1 261
+0 -1 261 0
 S
 #261
 An Overpopulated Traders' Bazaar~
@@ -1564,15 +1574,17 @@ between them.
 D0
 ~
 ~
-0 -1 262
+0 -1 262 0
 D1
 ~
 ~
-0 -1 260
+0 -1 260 0
 D2
 ~
 ~
-0 -1 254
+0 -1 254 0
+R M 0 256 1 261
+  R G 1 254 1
 S
 #262
 An Overpopulated Traders' Bazaar~
@@ -1588,11 +1600,12 @@ between them.
 D1
 ~
 ~
-0 -1 263
+0 -1 263 0
 D2
 ~
 ~
-0 -1 261
+0 -1 261 0
+R M 0 266 8 262
 S
 #263
 An Overpopulated Traders' Bazaar~
@@ -1608,15 +1621,15 @@ brief respites show between them.
 D1
 ~
 ~
-0 -1 264
+0 -1 264 0
 D2
 ~
 ~
-0 -1 260
+0 -1 260 0
 D3
 ~
 ~
-0 -1 262
+0 -1 262 0
 S
 #264
 An Overpopulated Traders' Bazaar~
@@ -1633,19 +1646,19 @@ dislike, to say the least.
 D0
 ~
 ~
-0 -1 266
+0 -1 266 0
 D1
 ~
 ~
-0 -1 265
+0 -1 265 0
 D2
 ~
 ~
-0 -1 259
+0 -1 259 0
 D3
 ~
 ~
-0 -1 263
+0 -1 263 0
 S
 #265
 An Overpopulated Traders' Bazaar~
@@ -1661,11 +1674,12 @@ respites show between them.
 D2
 ~
 ~
-0 -1 258
+0 -1 258 0
 D3
 ~
 ~
-0 -1 264
+0 -1 264 0
+R M 0 260 1 265
 S
 #266
 Before the Imperial Garrison~
@@ -1681,11 +1695,11 @@ market opens up to the south looking more like a scrap heap than not.
 D0
 ~
 ~
-0 -1 267
+0 -1 267 0
 D2
 ~
 ~
-0 -1 264
+0 -1 264 0
 S
 #267
 A Cluttered, Imperial Garrison Office~
@@ -1701,7 +1715,10 @@ back room.
 D2
 ~
 ~
-0 -1 266
+0 -1 266 0
+R M 0 257 1 267
+  R G 1 255 1
+R M 0 266 8 267
 S
 #268
 Slavers' Way~
@@ -1721,15 +1738,16 @@ mechanical market influence trails off as far as the eye can see.
 D0
 ~
 ~
-0 -1 269
+0 -1 269 0
 D2
 ~
 ~
-0 -1 253
+0 -1 253 0
 D3
 ~
 ~
-0 -1 275
+0 -1 275 0
+R M 0 268 6 268
 S
 #269
 An Intersection on Slavers'~
@@ -1751,23 +1769,23 @@ front of a place of business which proclaims itself, "The Cantina"
 D0
 ~
 ~
-0 -1 270
+0 -1 270 0
 D2
 ~
 ~
-0 -1 268
+0 -1 268 0
 D3
 ~
 ~
-0 -1 281
+0 -1 281 0
 D6
 ~
 ~
-0 -1 276
+0 -1 276 0
 D7
 ~
 ~
-0 -1 280
+0 -1 280 0
 S
 #270
 Slavers' Way~
@@ -1786,15 +1804,16 @@ tags reading Slavers' and B'omarr.
 D0
 ~
 ~
-0 -1 271
+0 -1 271 0
 D2
 ~
 ~
-0 -1 269
+0 -1 269 0
 D3
 ~
 ~
-0 -1 317
+0 -1 317 0
+R M 0 268 6 270
 S
 #271
 Slavers' Way~
@@ -1812,15 +1831,15 @@ sands.
 D0
 ~
 ~
-0 -1 272
+0 -1 272 0
 D1
 ~
 ~
-0 -1 310
+0 -1 310 0
 D2
 ~
 ~
-0 -1 270
+0 -1 270 0
 S
 #272
 Slavers' Way~
@@ -1838,11 +1857,17 @@ sands.
 D0
 ~
 ~
-0 -1 273
+0 -1 273 0
 D2
 ~
 ~
-0 -1 271
+0 -1 271 0
+R M 0 264 1 272
+  R G 1 269 1
+  R G 1 271 1
+  R G 1 270 1
+  R G 1 277 1
+R M 0 266 8 272
 S
 #273
 Slavers' Way~
@@ -1860,11 +1885,11 @@ sands.
 D0
 ~
 ~
-0 -1 274
+0 -1 274 0
 D2
 ~
 ~
-0 -1 272
+0 -1 272 0
 S
 #274
 Slavers' Way~
@@ -1882,11 +1907,11 @@ sands.
 D2
 ~
 ~
-0 -1 273
+0 -1 273 0
 D6
 ~
 ~
-2048 -1 650
+2048 -1 650 0
 S
 #275
 In Line at the Water Vendor~
@@ -1901,7 +1926,9 @@ before the water vendor.
 D1
 ~
 ~
-0 -1 268
+0 -1 268 0
+R M 0 253 1 275
+  R G 1 253 1
 S
 #276
 The Dimly Lit Cantina Entrance~
@@ -1918,11 +1945,14 @@ roll their ways through the crowd are quickly and silently expelled.
 D0
 ~
 ~
-0 -1 277
+0 -1 277 0
 D9
 ~
 ~
-0 -1 269
+0 -1 269 0
+R M 0 265 1 276
+  R E 1 50 1 16
+R M 0 268 6 276
 S
 #277
 At a Sprawling Bar, Before the Stage~
@@ -1938,15 +1968,20 @@ restroom of in a corner to the southwest.
 D1
 ~
 ~
-0 -1 278
+0 -1 278 0
 D2
 ~
 ~
-0 -1 276
+0 -1 276 0
 D9
 ~
 door~
-1 0 279
+1 0 279 0
+R M 0 255 1 277
+  R G 1 276 1
+  R G 1 275 1
+  R G 1 257 1
+R D 0 277 9 0
 S
 #278
 A Stage, Set Above the Noisy Crowd~
@@ -1961,7 +1996,10 @@ were doing something else" look.
 D3
 ~
 ~
-0 -1 277
+0 -1 277 0
+R M 0 263 1 278
+R M 0 262 1 278
+R M 0 261 1 278
 S
 #279
 A Filthy Restroom~
@@ -1980,7 +2018,10 @@ stim junkie tying off.
 D6
 ~
 door~
-1 -1 277
+1 -1 277 0
+R M 0 266 8 279
+R O 0 268 1 279
+R D 0 279 6 0
 S
 #280
 Chalmut's Spirits~
@@ -1995,7 +2036,11 @@ insurgent from the intersection on the Slavers' to the southeast.
 D8
 ~
 ~
-0 -1 269
+0 -1 269 0
+R M 0 254 1 280
+  R G 1 260 1
+  R G 1 259 1
+  R G 1 258 1
 S
 #281
 B'Omarr Lane~
@@ -2012,11 +2057,11 @@ this urban forest.
 D1
 ~
 ~
-0 -1 269
+0 -1 269 0
 D3
 ~
 ~
-0 -1 282
+0 -1 282 0
 S
 #282
 B'Omarr Lane~
@@ -2033,11 +2078,11 @@ this urban forest.
 D1
 ~
 ~
-0 -1 281
+0 -1 281 0
 D3
 ~
 ~
-0 -1 283
+0 -1 283 0
 S
 #283
 B'Omarr Lane - At the Foot of a Drydocked Freighter~
@@ -2057,11 +2102,11 @@ machines inside.
 D1
 ~
 ~
-0 -1 282
+0 -1 282 0
 D2
 ~
 ~
-0 -1 284
+0 -1 284 0
 S
 #284
 The Lucky Despot's Entryway~
@@ -2078,19 +2123,19 @@ multisplined, armored back insectoid.
 D0
 ~
 ~
-0 -1 283
+0 -1 283 0
 D1
 ~
 ~
-0 -1 286
+0 -1 286 0
 D2
 ~
 ~
-0 -1 288
+0 -1 288 0
 D3
 ~
 ~
-0 -1 285
+0 -1 285 0
 S
 #285
 The Lucky Despot - Casino~
@@ -2099,11 +2144,11 @@ The Lucky Despot - Casino~
 D1
 ~
 ~
-0 -1 284
+0 -1 284 0
 D2
 ~
 ~
-0 -1 287
+0 -1 287 0
 S
 #286
 The Lucky Despot - Casino~
@@ -2119,11 +2164,11 @@ is apparent while the bulkhead lies northwest. This massive, gilt and
 D2
 ~
 ~
-0 -1 289
+0 -1 289 0
 D3
 ~
 ~
-0 -1 284
+0 -1 284 0
 S
 #287
 The Lucky Despot - Casino~
@@ -2139,15 +2184,16 @@ apparent while the bulkhead lies northeast.
 D0
 ~
 ~
-0 -1 284
+0 -1 284 0
 D1
 ~
 ~
-0 -1 288
+0 -1 288 0
 D2
 ~
 ~
-0 -1 290
+0 -1 290 0
+R M 0 266 8 287
 S
 #288
 The Lucky Despot - Casino~
@@ -2163,15 +2209,15 @@ is apparent while the bulkhead lies north.
 D0
 ~
 ~
-0 -1 284
+0 -1 284 0
 D1
 ~
 ~
-0 -1 289
+0 -1 289 0
 D3
 ~
 ~
-0 -1 287
+0 -1 287 0
 S
 #289
 The Lucky Despot - Casino~
@@ -2187,11 +2233,11 @@ is apparent while the bulkhead lies northwest.
 D0
 ~
 ~
-0 -1 286
+0 -1 286 0
 D3
 ~
 ~
-0 -1 288
+0 -1 288 0
 S
 #290
 By the Concierge and Lifts~
@@ -2200,15 +2246,17 @@ By the Concierge and Lifts~
 D0
 ~
 ~
-0 -1 287
+0 -1 287 0
 D2
 ~
 ~
-0 -1 291
+0 -1 291 0
 D3
 ~
 ~
-0 -1 303
+0 -1 303 0
+R M 0 267 1 290
+R O 0 265 1 290
 S
 #291
 Inside an Antiquated Lift~
@@ -2274,7 +2322,8 @@ The Arid, Unfinished Innards of the Freighter~
 D2
 ~
 ~
-0 -1 291
+0 -1 291 0
+R M 0 259 1 292
 S
 #293
 A Long, Carpeted Hall~
@@ -2283,11 +2332,11 @@ A Long, Carpeted Hall~
 D1
 ~
 ~
-0 -1 294
+0 -1 294 0
 D2
 ~
 ~
-0 -1 291
+0 -1 291 0
 S
 #294
 A long, Carpeted Hall~
@@ -2296,19 +2345,19 @@ A long, Carpeted Hall~
 D0
 ~
 ~
-0 -1 299
+0 -1 299 0
 D1
 ~
 ~
-0 -1 295
+0 -1 295 0
 D2
 ~
 ~
-0 -1 300
+0 -1 300 0
 D3
 ~
 ~
-0 -1 293
+0 -1 293 0
 S
 #295
 A long, Carpeted Hall~
@@ -2317,11 +2366,11 @@ A long, Carpeted Hall~
 D1
 ~
 ~
-0 -1 296
+0 -1 296 0
 D3
 ~
 ~
-0 -1 294
+0 -1 294 0
 S
 #296
 A long, Carpeted Hall~
@@ -2330,15 +2379,15 @@ A long, Carpeted Hall~
 D0
 ~
 ~
-0 -1 297
+0 -1 297 0
 D2
 ~
 ~
-0 -1 298
+0 -1 298 0
 D3
 ~
 ~
-0 -1 295
+0 -1 295 0
 S
 #297
 A Cramped, Hot, Economy Suite~
@@ -2347,7 +2396,7 @@ A Cramped, Hot, Economy Suite~
 D2
 ~
 ~
-0 -1 296
+0 -1 296 0
 S
 #298
 A Cramped, Hot, Economy Suite~
@@ -2356,7 +2405,7 @@ A Cramped, Hot, Economy Suite~
 D0
 ~
 ~
-0 -1 296
+0 -1 296 0
 S
 #299
 A Cramped, Hot, Economy Suite~
@@ -2365,7 +2414,7 @@ A Cramped, Hot, Economy Suite~
 D2
 ~
 ~
-0 -1 294
+0 -1 294 0
 S
 #300
 A Cramped, Hot, Economy Suite~
@@ -2374,7 +2423,7 @@ A Cramped, Hot, Economy Suite~
 D0
 ~
 ~
-0 -1 294
+0 -1 294 0
 S
 #301
 Lucky Despot - Penthouse~
@@ -2383,11 +2432,11 @@ Lucky Despot - Penthouse~
 D0
 ~
 ~
-0 -1 302
+0 -1 302 0
 D2
 ~
 ~
-0 -1 291
+0 -1 291 0
 S
 #302
 Lucky Despot - Penthouse~
@@ -2396,7 +2445,8 @@ Lucky Despot - Penthouse~
 D2
 ~
 ~
-0 -1 301
+0 -1 301 0
+R M 0 258 1 302
 S
 #303
 A Cramped, Hole in the Wall Arcade~
@@ -2405,7 +2455,7 @@ A Cramped, Hole in the Wall Arcade~
 D1
 ~
 ~
-0 -1 290
+0 -1 290 0
 S
 #304
 Floating in a void~
@@ -2453,15 +2503,15 @@ turbolifts at the ends of each fork in the hall.
 D3
 ~
 ~
-0 -1 271
+0 -1 271 0
 D6
 ~
 ~
-0 -1 311
+0 -1 311 0
 D8
 ~
 ~
-0 -1 312
+0 -1 312 0
 S
 #311
 Twin Towers Apartments - Before the Lifts~
@@ -2475,11 +2525,11 @@ quietly as they go about their business of transportation.
 D1
 ~
 ~
-0 -1 314
+0 -1 314 0
 D9
 ~
 ~
-0 -1 310
+0 -1 310 0
 S
 #312
 Twin Towers Apartments - Before the Lifts~
@@ -2493,11 +2543,11 @@ quietly as they go about their business of transportation.
 D1
 ~
 ~
-0 -1 313
+0 -1 313 0
 D7
 ~
 ~
-0 -1 310
+0 -1 310 0
 S
 #313
 A Gut Wrenching Turbolift~
@@ -2510,6 +2560,7 @@ turbolift. In english? Say the name of the floor you wish to visit and
 give thanks to the system which created such a simple piece of equipment.
 ~
 0 4 1 0 0 0 32040
+R O 0 267 1 313
 > speech_prog -1~
 mpecho The turbolift shakes slightly as it begins moving. 
 mpecho The turbolift slowly comes to a halt and the doors slide open.
@@ -2553,6 +2604,7 @@ turbolift. In english? Say the name of the floor you wish to visit and
 give thanks to the system which created such a simple piece of equipment.
 ~
 0 4 1 0 0 0 32040
+R O 0 267 1 314
 > speech_prog 1~
 mpecho The turbolift shakes slightly as it begins moving. 
 mpecho The turbolift slowly comes to a halt and the doors slide open.
@@ -2592,11 +2644,11 @@ A Sterile Hall~
 D1
 ~
 ~
-0 -1 316
+0 -1 316 0
 D3
 ~
 ~
-0 -1 314
+0 -1 314 0
 S
 #316
 A Sterile Hall~
@@ -2605,19 +2657,19 @@ A Sterile Hall~
 D0
 ~
 ~
-0 -1 325
+0 -1 325 0
 D1
 ~
 ~
-0 -1 318
+0 -1 318 0
 D2
 ~
 ~
-0 -1 327
+0 -1 327 0
 D3
 ~
 ~
-0 -1 315
+0 -1 315 0
 S
 #317
 Mos Eisley's Bank and Trust~
@@ -2626,7 +2678,7 @@ Mos Eisley's Bank and Trust~
 D1
 ~
 ~
-0 -1 270
+0 -1 270 0
 S
 #318
 A Sterile Hall~
@@ -2635,11 +2687,11 @@ A Sterile Hall~
 D1
 ~
 ~
-0 -1 319
+0 -1 319 0
 D3
 ~
 ~
-0 -1 316
+0 -1 316 0
 S
 #319
 A Sterile Hall~
@@ -2648,11 +2700,13 @@ A Sterile Hall~
 D2
 ~
 ~
-0 -1 320
+0 -1 320 0
 D3
 ~
 ~
-0 -1 318
+0 -1 318 0
+R M 0 293 1 319
+  R E 1 287 1 16
 S
 #320
 A Sterile Hall~
@@ -2661,19 +2715,19 @@ A Sterile Hall~
 D0
 ~
 ~
-0 -1 319
+0 -1 319 0
 D1
 ~
 ~
-0 -1 328
+0 -1 328 0
 D2
 ~
 ~
-0 -1 321
+0 -1 321 0
 D3
 ~
 ~
-0 -1 329
+0 -1 329 0
 S
 #321
 A Sterile Hall~
@@ -2682,11 +2736,11 @@ A Sterile Hall~
 D0
 ~
 ~
-0 -1 320
+0 -1 320 0
 D3
 ~
 ~
-0 -1 322
+0 -1 322 0
 S
 #322
 A Sterile Hall~
@@ -2695,19 +2749,19 @@ A Sterile Hall~
 D0
 ~
 ~
-0 -1 330
+0 -1 330 0
 D1
 ~
 ~
-0 -1 321
+0 -1 321 0
 D2
 ~
 ~
-0 -1 331
+0 -1 331 0
 D3
 ~
 ~
-0 -1 323
+0 -1 323 0
 S
 #323
 A Sterile Hall~
@@ -2716,11 +2770,11 @@ A Sterile Hall~
 D1
 ~
 ~
-0 -1 322
+0 -1 322 0
 D3
 ~
 ~
-0 -1 324
+0 -1 324 0
 S
 #324
 A Sterile Hall~
@@ -2729,11 +2783,11 @@ A Sterile Hall~
 D1
 ~
 ~
-0 -1 323
+0 -1 323 0
 D3
 ~
 ~
-0 -1 313
+0 -1 313 0
 S
 #325
 A Vacant Apartment~
@@ -2742,7 +2796,7 @@ A Vacant Apartment~
 D2
 ~
 ~
-0 -1 316
+0 -1 316 0
 S
 #326
 The Black Pawn~
@@ -2758,11 +2812,16 @@ Jawa market opens up with all it's wonders.
 D2
 ~
 ~
-0 -1 365
+0 -1 365 0
 D3
 ~
 ~
-0 -1 257
+0 -1 257 0
+R M 0 291 1 326
+  R G 1 284 1
+  R G 1 299 1
+  R G 1 298 1
+  R G 1 4508 1
 S
 #327
 A Vacant Apartment~
@@ -2771,7 +2830,7 @@ A Vacant Apartment~
 D0
 ~
 ~
-0 -1 316
+0 -1 316 0
 S
 #328
 A Vacant Apartment~
@@ -2780,7 +2839,7 @@ A Vacant Apartment~
 D3
 ~
 ~
-0 -1 320
+0 -1 320 0
 S
 #329
 A Vacant Apartment~
@@ -2789,7 +2848,7 @@ A Vacant Apartment~
 D1
 ~
 ~
-0 -1 320
+0 -1 320 0
 S
 #330
 A Vacant Apartment~
@@ -2798,7 +2857,7 @@ A Vacant Apartment~
 D2
 ~
 ~
-0 -1 322
+0 -1 322 0
 S
 #331
 A Vacant Apartment~
@@ -2807,7 +2866,7 @@ A Vacant Apartment~
 D0
 ~
 ~
-0 -1 322
+0 -1 322 0
 S
 #332
 Floating in a void~
@@ -2854,7 +2913,7 @@ a giant clearing, bustling with activity of all sorts.
 D3
 ~
 ~
-0 -1 250
+0 -1 250 0
 S
 #339
 Floating in a void~
@@ -2868,7 +2927,8 @@ A Cramped R2 Compartment~
 D1
 ~
 ~
-0 -1 279
+0 -1 279 0
+R O 0 274 1 340
 S
 #342
 A Sterile Hall~
@@ -2877,11 +2937,11 @@ A Sterile Hall~
 D1
 ~
 ~
-0 -1 343
+0 -1 343 0
 D3
 ~
 ~
-0 -1 313
+0 -1 313 0
 S
 #343
 Floating in a void~
@@ -2890,11 +2950,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 344
+0 -1 344 0
 D3
 ~
 ~
-0 -1 342
+0 -1 342 0
 S
 #344
 Floating in a void~
@@ -2903,7 +2963,8 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 343
+0 -1 343 0
+R O 0 280 1 344
 S
 #364
 A Hole in the Wall Workshop~
@@ -2912,7 +2973,7 @@ A Hole in the Wall Workshop~
 D0
 ~
 ~
-0 -1 257
+0 -1 257 0
 S
 #365
 The Back Lot~
@@ -2921,7 +2982,18 @@ The Back Lot~
 D0
 ~
 ~
-0 -1 326
+0 -1 326 0
+R M 0 294 1 365
+  R G 1 290 1
+  R G 1 289 1
+  R G 1 288 1
+  R G 1 291 1
+  R G 1 292 1
+  R G 1 293 1
+  R G 1 294 1
+  R G 1 295 1
+  R G 1 296 1
+  R G 1 297 1
 S
 #392
 The Galactic Mail Center~
@@ -2930,7 +3002,8 @@ The Galactic Mail Center~
 D1
 ~
 ~
-0 -1 250
+0 -1 250 0
+R O 0 38 1 392
 S
 #400
 Floating in a void~
@@ -2970,102 +3043,25 @@ S
 #0
 
 
-#RESETS
-M 1 251 1 250
-M 1 266 8 250
-O 1 251 1 250
-M 1 252 1 253
-M 1 266 8 253
-M 1 268 6 254
-G 1 279 1
-M 1 268 6 257
-M 1 256 1 261
-G 1 254 1
-M 1 266 8 262
-M 1 257 1 267
-G 1 255 1
-M 1 266 8 267
-M 1 268 6 268
-M 1 268 6 270
-M 1 264 1 272
-G 1 269 1
-G 1 271 1
-G 1 270 1
-G 1 277 1
-M 1 266 8 272
-M 1 253 1 275
-G 1 253 1
-M 1 265 1 276
-E 1 50 1 16
-M 1 268 6 276
-M 1 255 1 277
-G 1 276 1
-G 1 275 1
-G 1 257 1
-D 0 277 9 0
-M 1 263 1 278
-M 1 262 1 278
-M 1 261 1 278
-M 1 266 8 279
-O 1 268 1 279
-D 0 279 6 0
-M 1 254 1 280
-G 1 260 1
-G 1 259 1
-G 1 258 1
-M 1 266 8 287
-M 1 267 1 290
-O 1 265 1 290
-M 1 259 1 292
-M 1 258 1 302
-O 1 267 1 313
-O 1 267 1 314
-M 1 293 1 319
-E 1 287 1 16
-O 1 274 1 340
-O 1 280 1 344
-M 1 294 1 365
-G 1 290 1
-G 1 289 1
-G 1 288 1
-G 1 291 1
-G 1 292 1
-G 1 293 1
-G 1 294 1
-G 1 295 1
-G 1 296 1
-G 1 297 1
-M 1 266 8 251
-M 1 269 1 251
-M 1 291 1 326
-G 1 284 1
-G 1 299 1
-G 1 298 1
-G 1 4508 1
-O 1 38 1 392
-M 1 260 1 265
-S
-
-
 #SHOPS
- 253    0  0  0  0  0   120  90         0 23  0  ; a bloated Askajian
- 254    0  0  0  0  0   120  90         0 23  0  ; a sallow, porsine Hutt
- 255    0  0  0  0  0   120  90         0 23  0  ; a foul smelling Whiphid female
- 256    0  0  0  0  0   120  90         0 23  0  ; a tiny, Jawa trader
- 260    0  0  0  0  0   120  90         0 23  0  ; a miniscule Jawa merchant
- 261    0  0  0  0  0   120  90         0 23  0  ; an Ortolan Ommnibox player
- 264    0  0  0  0  0   120  90         0 23  0  ; an ASP droid
- 265    0  0  0  0  0   120  90         0 23  0  ; a pasty, thick skinned Hutt bouncer
- 266    0  0  0  0  0   120  90         0 23  0  ; a male citizen of Tatooine
- 268    0  0  0  0  0   120  90         0 23  0  ; a female citizen of Tatooine
- 269    0  0  0  0  0   120  90         0 23  0  ; an Imperial sandtrooper acting as a customs watch
- 270    0  0  0  0  0   120  90         0 23  0  ; a slight, pale man
- 271    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
- 272    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
- 273    0  0  0  0  0   120  90         0 23  0  ; a newly created shop keeper
- 278    0  0  0  0  0   120  90         0 23  0  ; a newly created shopkeeper
- 291    9 78 57  5 78    90  15         6 21  0  ; a Toydarian pawn shop owner
- 294    0  0  0  0  0   120  90         0 23  0  ; a tiny grease spot of an engineer
+ 253    0  0  0  0  0   120  90         0 23    ; a bloated Askajian
+ 254    0  0  0  0  0   120  90         0 23    ; a sallow, porsine Hutt
+ 255    0  0  0  0  0   120  90         0 23    ; a foul smelling Whiphid female
+ 256    0  0  0  0  0   120  90         0 23    ; a tiny, Jawa trader
+ 260    0  0  0  0  0   120  90         0 23    ; a miniscule Jawa merchant
+ 261    0  0  0  0  0   120  90         0 23    ; an Ortolan Ommnibox player
+ 264    0  0  0  0  0   120  90         0 23    ; an ASP droid
+ 265    0  0  0  0  0   120  90         0 23    ; a pasty, thick skinned Hutt bouncer
+ 266    0  0  0  0  0   120  90         0 23    ; a male citizen of Tatooine
+ 268    0  0  0  0  0   120  90         0 23    ; a female citizen of Tatooine
+ 269    0  0  0  0  0   120  90         0 23    ; an Imperial sandtrooper acting as a customs watch
+ 270    0  0  0  0  0   120  90         0 23    ; a slight, pale man
+ 271    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
+ 272    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
+ 273    0  0  0  0  0   120  90         0 23    ; a newly created shop keeper
+ 278    0  0  0  0  0   120  90         0 23    ; a newly created shopkeeper
+ 291    9 78 57  5 78    90  15         6 21    ; a Toydarian pawn shop owner
+ 294    0  0  0  0  0   120  90         0 23    ; a tiny grease spot of an engineer
 0
 
 

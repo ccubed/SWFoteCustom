@@ -29,18 +29,6 @@ Puff the Fractal Dragon is here, contemplating a higher reality.
 31 0 0 0 3420515 3420515 0
 7 7 0 0 3156992 0 2 3
 0 0 0 0 0 0 0 0
-> speech_prog test2~
-say firstname of obj:	 	$i
-say short_desc/title of obj: 	$I
-say he/she/it of obj:	 	$j
-say him/her/it of obj:	 	$k
-say his/hers/its of obj:	$l
-say firstname of victim: 	$t
-say short_desc/title of victim:	$T
-say he/she/it of victim: 	$E
-say him/her/it of victim: 	$M
-say his/hers/its of victim:	$S
-~
 > speech_prog test~
 say triggered by (name):	$n
 say triggered by (name&title): 	$N
@@ -52,6 +40,18 @@ say random char (name&title or short): 	$R
 say random char  (he,she,it):	$J
 say random char (him,her,it):	$L
 say random char (his,hers,its):	$K
+~
+> speech_prog test2~
+say firstname of obj:	 	$i
+say short_desc/title of obj: 	$I
+say he/she/it of obj:	 	$j
+say him/her/it of obj:	 	$k
+say his/hers/its of obj:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
 ~
 |
 #2
@@ -71,24 +71,9 @@ It appears to be very agile, and very strong.
 0 0 0 0 1 1 0
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
-> act_prog p is DEAD!!~
-mptrans $n 6
-~
-> act_prog p wields~
+> act_prog p is dying~
+mpforce $n drink
 c heal $n
-c heal $n
-~
-> act_prog p wears~
-c heal $n
-c heal $n
-~
-> act_prog p shivers and~
-cast 'cure poison' $n
-cast heal $n
-~
-> act_prog p bashes against~
-cast heal $n
-cast heal $n
 ~
 > act_prog p is starved~
 mpoload 20
@@ -96,9 +81,24 @@ give mushroom $n
 mpforce $n eat mushroom
 cast heal $n
 ~
-> act_prog p is dying~
-mpforce $n drink
+> act_prog p bashes against~
+cast heal $n
+cast heal $n
+~
+> act_prog p shivers and~
+cast 'cure poison' $n
+cast heal $n
+~
+> act_prog p wears~
 c heal $n
+c heal $n
+~
+> act_prog p wields~
+c heal $n
+c heal $n
+~
+> act_prog p is DEAD!!~
+mptrans $n 6
 ~
 |
 #3
@@ -540,24 +540,6 @@ An old jedi master feels at peace in the jungles here.
 0 0 0 0 1 1 0
 21 21 0 1048589 0 0 0 534791
 0 0 0 0 0 0 0 0
-> speech_prog shop~
-grin $n
-' yes the jedi shop in the space mall , he is the owner of it now.
-' if you seek the corusca crystal he may still have it 
-' i don't believe he had crafted his lightsaber before he left.
-~
-> speech_prog give~
-chuckle 
-' yes i did give a Corusca Crystal to a young apprentice of mine
-' he would have grown strong in the force, if his father would
-' not have died , and him have to return to his fathers shop.
-~
-> speech_prog corusca~
-non $n 
-' The corusca is on of the best crytals used to make a lightsaber
-' and for that reason they are very rare
-' I have seen but a few in my day.
-~
 > act_prog package.~
 if ovnuminv(10208) >= 1
 say Thank you.
@@ -570,6 +552,24 @@ drop all
 endif
 mpat 10299 drop all
 mpat 10299 mppurge
+~
+> speech_prog corusca~
+non $n 
+' The corusca is on of the best crytals used to make a lightsaber
+' and for that reason they are very rare
+' I have seen but a few in my day.
+~
+> speech_prog give~
+chuckle 
+' yes i did give a Corusca Crystal to a young apprentice of mine
+' he would have grown strong in the force, if his father would
+' not have died , and him have to return to his fathers shop.
+~
+> speech_prog shop~
+grin $n
+' yes the jedi shop in the space mall , he is the owner of it now.
+' if you seek the corusca crystal he may still have it 
+' i don't believe he had crafted his lightsaber before he left.
 ~
 |
 #60
@@ -1235,12 +1235,12 @@ a incendiary fire~
 34 0 0
 0 0 0 0
 1 0 0
-> greet_prog 100~
-mea $n &w
+> rand_prog 100~
 mea $n &RYou are scorched by the blaze!
 mpdamage $n 50
 ~
-> rand_prog 100~
+> greet_prog 100~
+mea $n &w
 mea $n &RYou are scorched by the blaze!
 mpdamage $n 50
 ~
@@ -1277,6 +1277,22 @@ A cookiee was dropped here. Better get it before someone else does.~
 19 0 1
 100 0 0 0
 1 0 0
+#87
+debit card~
+A Debit Card~
+Someone carelessly misplaced their debit card here.~
+~
+54 0 16385
+0 0 0 0
+1 0 0
+#88
+A Jetpack~
+A Jetpack~
+A Jetpack has been left behind here.~
+~
+13 0 0
+0 0 0 0
+1 0 0
 #99
 final object~
 a newly created final object~
@@ -1294,18 +1310,6 @@ The Void~
 You are floating in nothing.
 ~
 0 3145740 1 0 0 0 5152
-> speech_prog test2~
-say firstname of room:	 	$i
-say short_desc/title of room: 	$I
-say he/she/it of room:	 	$j
-say him/her/it of room:	 	$k
-say his/hers/its of room:	$l
-say firstname of victim: 	$t
-say short_desc/title of victim:	$T
-say he/she/it of victim: 	$E
-say him/her/it of victim: 	$M
-say his/hers/its of victim:	$S
-~
 > speech_prog test~
 say triggered by (name):	$n
 say triggered by (name&title): 	$N
@@ -1318,6 +1322,18 @@ say random char  (he,she,it):	$J
 say random char (him,her,it):	$K
 say random char (his,hers,its):	$L
 ~
+> speech_prog test2~
+say firstname of room:	 	$i
+say short_desc/title of room: 	$I
+say he/she/it of room:	 	$j
+say him/her/it of room:	 	$k
+say his/hers/its of room:	$l
+say firstname of victim: 	$t
+say short_desc/title of victim:	$T
+say he/she/it of victim: 	$E
+say him/her/it of victim: 	$M
+say his/hers/its of victim:	$S
+~
 |
 S
 #2
@@ -1328,13 +1344,13 @@ Limbo~
 0 3146764 1 0 0 0 5152
 R M 0 1 1 2
 R M 0 1 1 2
-> speech_prog calamari~
-mea $n You are mysteriosly transferred.
-mptransfer $n 9701
-~
 > speech_prog Coruscant~
 mea $n You are mysteriosly transferred.
 mptransfer $n 1050
+~
+> speech_prog calamari~
+mea $n You are mysteriosly transferred.
+mptransfer $n 9701
 ~
 |
 S
@@ -1389,7 +1405,7 @@ Limbo. But better.~
 D4
 ~
 ~
-2056 -1 100
+2056 -1 100 0
 R O 0 75 1 11
 R O 0 76 1 11
 S
@@ -1417,22 +1433,22 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D0
 ~
 ~
-0 -1 30
+0 -1 30 0
 D1
 ~
 ~
-0 -1 37
+0 -1 37 0
 D2
 ~
 ~
-0 -1 36
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 36 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1445,26 +1461,26 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D1
 ~
 ~
-0 -1 31
+0 -1 31 0
 D2
 ~
 ~
-0 -1 29
+0 -1 29 0
 D5
 ~
 ~
-128 -1 34
+128 -1 34 0
 D8
 ~
 ~
-0 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1477,22 +1493,22 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D1
 ~
 ~
-0 -1 32
+0 -1 32 0
 D2
 ~
 ~
-0 -1 37
+0 -1 37 0
 D3
 ~
 ~
-0 -1 30
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 30 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1505,26 +1521,26 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D2
 ~
 ~
-0 -1 33
+0 -1 33 0
 D3
 ~
 ~
-0 -1 31
+0 -1 31 0
 D5
 ~
 ~
-128 -1 36
+128 -1 36 0
 D9
 ~
 ~
-0 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1537,22 +1553,22 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D0
 ~
 ~
-0 -1 32
+0 -1 32 0
 D2
 ~
 ~
-0 -1 34
+0 -1 34 0
 D3
 ~
 ~
-0 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1565,26 +1581,26 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D0
 ~
 ~
-0 -1 33
+0 -1 33 0
 D3
 ~
 ~
-0 -1 35
+0 -1 35 0
 D4
 ~
 ~
-128 -1 30
+128 -1 30 0
 D7
 ~
 ~
-0 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1597,22 +1613,22 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D0
 ~
 ~
-0 -1 37
+0 -1 37 0
 D1
 ~
 ~
-0 -1 34
+0 -1 34 0
 D3
 ~
 ~
-0 -1 36
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 36 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1625,26 +1641,26 @@ is overwhelming, while around you ... your opponent awaits your coming.
 D0
 ~
 ~
-0 -1 29
+0 -1 29 0
 D1
 ~
 ~
-0 -1 35
+0 -1 35 0
 D4
 ~
 ~
-128 -1 32
+128 -1 32 0
 D6
 ~
 ~
-0 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1660,50 +1676,50 @@ slowly about, you realize the poor tactical position you hold.
 D0
 ~
 ~
-0 -1 31
+0 -1 31 0
 D1
 ~
 ~
-0 -1 33
+0 -1 33 0
 D2
 ~
 ~
-0 -1 35
+0 -1 35 0
 D3
 ~
 ~
-0 -1 29
+0 -1 29 0
 D4
 ~
 ~
-128 -1 39
+128 -1 39 0
 D5
 ~
 ~
-128 -1 38
+128 -1 38 0
 D6
 ~
 ~
-0 -1 32
+0 -1 32 0
 D7
 ~
 ~
-0 -1 30
+0 -1 30 0
 D8
 ~
 ~
-0 -1 34
+0 -1 34 0
 D9
 ~
 ~
-0 -1 36
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 36 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1716,18 +1732,18 @@ above is overwhelming, while somewhere ahead ... your opponent awaits.
 D0
 ~
 ~
-0 -1 40
+0 -1 40 0
 D4
 ~
 ~
-128 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+128 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1740,18 +1756,18 @@ is overwhelming, while somewhere ahead of you ... your opponent awaits.
 D2
 ~
 ~
-0 -1 40
+0 -1 40 0
 D5
 ~
 ~
-128 -1 37
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+128 -1 37 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1764,18 +1780,18 @@ around you is overwhelming, while somewhere ... your opponent awaits.
 D0
 ~
 ~
-0 -1 39
+0 -1 39 0
 D2
 ~
 ~
-0 -1 38
-> rand_prog 15~
-mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
-~
+0 -1 38 0
 > death_prog 100~
 mpecho A deafening clamor of gleeful shouts rain down from above!
 mpechoaround $n Trinkets, spittle and half-eaten food pelt down on your head.
 mpechoaround $n Tokens of favor from an appreciative crowd.
+~
+> rand_prog 15~
+mpecho A slow chant floats down to you:  "Two man enter ... one man leave."
 ~
 |
 S
@@ -1793,7 +1809,7 @@ this room, there is no turning back.....
 D5
 ~
 ~
-0 -1 37
+0 -1 37 0
 > rand_prog 20~
 mpecho A slow chant floats in to you:  "Two man enter ... one man leave."
 ~
@@ -1841,10 +1857,6 @@ S
 ThE sEx RoOm~
 ~
 0 1073741828 1 0 0 0 5152
-R O 0 132 1 69
-  R P 0 4561 1 132
-  R P 1 132 1 4561
-  R P 2 25 1 132
 S
 #99
 Floating in a void~
@@ -1855,7 +1867,7 @@ S
 
 
 #SHOPS
- 83    0  0  0  0  0   120  90         0 23 0  ; A Vendor
+ 83    0  0  0  0  0   120  90         0 23    ; A Vendor
 0
 
 

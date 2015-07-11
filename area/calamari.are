@@ -1139,7 +1139,10 @@ that if you step out of line, he will be the first to kill you.
 D1
 ~
 ~
-0 -1 9702
+0 -1 9702 0
+R M 0 9703 2 9701
+R M 0 9703 2 9701
+R M 0 9710 1 9701
 S
 #9702
 The Mon Calamari Interplanetary Spaceport~
@@ -1151,23 +1154,24 @@ coming and going.
 D0
 ~
 ~
-1 -1 9703
+1 -1 9703 0
 D1
 ~
 ~
-0 -1 9706
+0 -1 9706 0
 D2
 ~
 ~
-0 -1 9704
+0 -1 9704 0
 D3
 ~
 ~
-0 -1 9701
+0 -1 9701 0
 D4
 ~
 ~
-0 -1 9705
+0 -1 9705 0
+R D 0 9702 0 0
 S
 #9703
 an Empty Hanger~
@@ -1178,7 +1182,8 @@ used.
 D2
 ~
 ~
-1 -1 9702
+1 -1 9702 0
+R D 0 9703 2 0
 S
 #9704
 a Rebel Fighter Hanger~
@@ -1190,7 +1195,7 @@ operations such as this can be performed out in the open.
 D0
 ~
 ~
-0 -1 9702
+0 -1 9702 0
 S
 #9705
 a Ship Drydock~
@@ -1202,7 +1207,8 @@ Calamari Cruiser being built in this particular bay.
 D5
 ~
 ~
-0 -1 9702
+0 -1 9702 0
+R M 0 9709 1 9705
 S
 #9706
 a Long Hallway~
@@ -1213,15 +1219,15 @@ Hanger.
 D0
 ~
 ~
-0 -1 9707
+0 -1 9707 0
 D1
 ~
 ~
-0 -1 9708
+0 -1 9708 0
 D3
 ~
 ~
-0 -1 9702
+0 -1 9702 0
 S
 #9707
 A Small Eating Area~
@@ -1232,7 +1238,8 @@ food.
 D2
 ~
 ~
-0 -1 9706
+0 -1 9706 0
+R M 0 9711 1 9707
 S
 #9708
 a Large Turbolift~
@@ -1287,15 +1294,16 @@ crash)
 D0
 ~
 ~
-1 -1 9710
+1 -1 9710 0
 D1
 ~
 ~
-0 -1 9708
+0 -1 9708 0
 D2
 ~
 ~
-0 -1 9711
+0 -1 9711 0
+R D 0 9709 0 0
 S
 #9710
 a Locker Room (210 - 215)~
@@ -1305,7 +1313,13 @@ This is a cold, blue steel room, lined with lockers.
 D2
 ~
 ~
-0 -1 9709
+0 -1 9709 0
+R O 0 9710 1 9710
+R O 0 9712 1 9710
+R O 0 9714 1 9710
+R O 0 9716 1 9710
+R O 0 9718 1 9710
+R O 0 9720 1 9710
 S
 #9711
 a Locker Room (216 - 221)~
@@ -1315,7 +1329,13 @@ This is a cold, blue steel room lined with lockers.
 D0
 ~
 ~
-0 -1 9709
+0 -1 9709 0
+R O 0 9722 1 9711
+R O 0 9724 1 9711
+R O 0 9726 1 9711
+R O 0 9728 1 9711
+R O 0 9730 1 9711
+R O 0 9732 1 9711
 S
 #9712
 The Cafeteria Level~
@@ -1328,15 +1348,15 @@ more stores to the east.
 D0
 ~
 ~
-0 -1 9713
+0 -1 9713 0
 D1
 ~
 ~
-0 -1 9715
+0 -1 9715 0
 D3
 ~
 ~
-0 -1 9708
+0 -1 9708 0
 S
 #9713
 Jurson's Wook Nook~
@@ -1345,7 +1365,9 @@ Jurson's Wook Nook~
 D2
 ~
 ~
-0 -1 9712
+0 -1 9712 0
+R M 0 9713 1 9713
+  R G 1 9818 1
 S
 #9714
 Floating in a void~
@@ -1362,15 +1384,15 @@ the south for Humans and to the east is a place to buy alchohol.
 D0
 ~
 ~
-0 -1 9716
+0 -1 9716 0
 D1
 ~
 ~
-0 -1 9718
+0 -1 9718 0
 D3
 ~
 ~
-0 -1 9712
+0 -1 9712 0
 S
 #9716
 The Fish Pool~
@@ -1379,7 +1401,9 @@ The Fish Pool~
 D2
 ~
 ~
-0 -1 9715
+0 -1 9715 0
+R M 0 9714 1 9716
+  R G 1 9817 1
 S
 #9717
 Floating in a void~
@@ -1396,7 +1420,7 @@ meals. Have a seat.
 D3
 ~
 ~
-0 -1 9715
+0 -1 9715 0
 S
 #9719
 The Lobby~
@@ -1409,11 +1433,11 @@ crowded.
 D1
 ~
 ~
-0 -1 9708
+0 -1 9708 0
 D3
 ~
 ~
-0 -1 9720
+0 -1 9720 0
 S
 #9720
 a Ticket Counter~
@@ -1425,11 +1449,11 @@ private.
 D0
 ~
 ~
-0 -1 9721
+0 -1 9721 0
 D1
 ~
 ~
-0 -1 9719
+0 -1 9719 0
 S
 #9721
 Security Checkpoint~
@@ -1441,11 +1465,14 @@ your bags checked, a guard still asks for your identification.
 D0
 ~
 ~
-1 -1 9722
+1 -1 9722 0
 D2
 ~
 ~
-0 -1 9720
+0 -1 9720 0
+R M 0 9721 1 9721
+R M 0 9720 1 9721
+R D 0 9721 0 0
 S
 #9722
 &BNautilus Street&W~
@@ -1457,15 +1484,16 @@ the south lies the spaceport.
 D1
 ~
 ~
-0 -1 9723
+0 -1 9723 0
 D2
 ~
 ~
-3 -1 9721
+3 -1 9721 0
 D3
 ~
 ~
-0 -1 9729
+0 -1 9729 0
+R D 0 9722 2 1
 S
 #9723
 &BNautilus Street&W~
@@ -1476,11 +1504,11 @@ a bit more polluted and congested than most of this peaceful planet.
 D1
 ~
 ~
-0 -1 9724
+0 -1 9724 0
 D3
 ~
 ~
-0 -1 9722
+0 -1 9722 0
 S
 #9724
 &BNautilus Street&W~
@@ -1492,15 +1520,17 @@ the north lies the Mon Calamari Memorial Hospital.
 D0
 ~
 ~
-3 -1 9755
+3 -1 9755 0
 D1
 ~
 ~
-0 -1 9725
+0 -1 9725 0
 D3
 ~
 ~
-0 -1 9723
+0 -1 9723 0
+R M 0 9711 2 9724
+R D 0 9724 0 1
 S
 #9725
 &BNautilus Street&W~
@@ -1511,11 +1541,11 @@ a bit more polluted and congested than most of this peaceful planet.
 D1
 ~
 ~
-0 -1 9726
+0 -1 9726 0
 D3
 ~
 ~
-0 -1 9724
+0 -1 9724 0
 S
 #9726
 &BIntersection of Nautilus and &CSea Street&W~
@@ -1527,19 +1557,20 @@ planet.
 D0
 ~
 ~
-0 -1 9730
+0 -1 9730 0
 D1
 ~
 ~
-0 -1 9727
+0 -1 9727 0
 D2
 ~
 ~
-0 -1 9743
+0 -1 9743 0
 D3
 ~
 ~
-0 -1 9725
+0 -1 9725 0
+R M 0 9711 5 9726
 S
 #9727
 &BNautilus Street&W~
@@ -1550,11 +1581,12 @@ a bit more polluted and congested than most of this peaceful planet.
 D1
 ~
 ~
-0 -1 9728
+0 -1 9728 0
 D3
 ~
 ~
-0 -1 9726
+0 -1 9726 0
+R O 0 9810 1 9727
 S
 #9728
 &bA Dead End&w~
@@ -1565,7 +1597,8 @@ streets of Mon Calamari.
 D3
 ~
 ~
-0 -1 9727
+0 -1 9727 0
+R M 0 9711 6 9728
 S
 #9729
 &bA Dead End&W~
@@ -1578,11 +1611,11 @@ would not be friendly.
 D0
 ~
 ~
-2048 -1 9816
+2048 -1 9816 0
 D1
 ~
 ~
-0 -1 9722
+0 -1 9722 0
 S
 #9730
 &CSea Street&W~
@@ -1594,15 +1627,15 @@ Calamari oceans.
 D0
 ~
 ~
-0 -1 9731
+0 -1 9731 0
 D1
 ~
 ~
-0 -1 9738
+0 -1 9738 0
 D2
 ~
 ~
-0 -1 9726
+0 -1 9726 0
 S
 #9731
 &CSea Street&W~
@@ -1614,19 +1647,21 @@ Calamari oceans. To the west, you see a armory.
 D0
 ~
 ~
-0 -1 9732
+0 -1 9732 0
 D1
 ~
 ~
-0 -1 9737
+0 -1 9737 0
 D2
 ~
 ~
-0 -1 9730
+0 -1 9730 0
 D3
 ~
 ~
-0 -1 9753
+0 -1 9753 0
+R M 0 9711 8 9731
+R M 0 9711 8 9731
 S
 #9732
 &CSea Street&W~
@@ -1638,15 +1673,15 @@ Calamari oceans. To the west, you see a resturant.
 D0
 ~
 ~
-0 -1 9733
+0 -1 9733 0
 D1
 ~
 ~
-0 -1 9736
+0 -1 9736 0
 D2
 ~
 ~
-0 -1 9731
+0 -1 9731 0
 S
 #9733
 &CSea Street&W~
@@ -1658,15 +1693,16 @@ Calamari oceans.
 D0
 ~
 ~
-0 -1 9734
+0 -1 9734 0
 D1
 ~
 ~
-0 -1 9735
+0 -1 9735 0
 D2
 ~
 ~
-0 -1 9732
+0 -1 9732 0
+R M 0 9711 9 9733
 S
 #9734
 &bA Dead End&w~
@@ -1680,11 +1716,11 @@ east, but, it's probably just some rocks...
 D1
 ~
 ~
-2048 -1 9817
+2048 -1 9817 0
 D2
 ~
 ~
-0 -1 9733
+0 -1 9733 0
 S
 #9735
 The Beachside~
@@ -1695,15 +1731,15 @@ looking out over the blue on blue on blue ocean...
 D1
 ~
 ~
-0 -1 9742
+0 -1 9742 0
 D2
 ~
 ~
-0 -1 9736
+0 -1 9736 0
 D3
 ~
 ~
-0 -1 9733
+0 -1 9733 0
 S
 #9736
 The Beachside~
@@ -1714,19 +1750,19 @@ looking out over the blue on blue on blue ocean...
 D0
 ~
 ~
-0 -1 9735
+0 -1 9735 0
 D1
 ~
 ~
-0 -1 9741
+0 -1 9741 0
 D2
 ~
 ~
-0 -1 9737
+0 -1 9737 0
 D3
 ~
 ~
-0 -1 9732
+0 -1 9732 0
 S
 #9737
 The Beachside~
@@ -1737,19 +1773,19 @@ looking out over the blue on blue on blue ocean...
 D0
 ~
 ~
-0 -1 9736
+0 -1 9736 0
 D1
 ~
 ~
-0 -1 9740
+0 -1 9740 0
 D2
 ~
 ~
-0 -1 9738
+0 -1 9738 0
 D3
 ~
 ~
-0 -1 9731
+0 -1 9731 0
 S
 #9738
 The Beachside~
@@ -1760,15 +1796,16 @@ looking out over the blue on blue on blue ocean...
 D0
 ~
 ~
-0 -1 9737
+0 -1 9737 0
 D1
 ~
 ~
-0 -1 9739
+0 -1 9739 0
 D3
 ~
 ~
-0 -1 9730
+0 -1 9730 0
+R M 0 9738 1 9738
 S
 #9739
 In Shallow Water~
@@ -1779,15 +1816,15 @@ you don't think you could get into the open ocean through here.
 D0
 ~
 ~
-0 -1 9740
+0 -1 9740 0
 D1
 ~
 ~
-0 -1 9761
+0 -1 9761 0
 D3
 ~
 ~
-0 -1 9738
+0 -1 9738 0
 S
 #9740
 In Shallow Water~
@@ -1798,19 +1835,19 @@ you don't think you could get into the open ocean through here.
 D0
 ~
 ~
-0 -1 9741
+0 -1 9741 0
 D1
 ~
 ~
-0 -1 9760
+0 -1 9760 0
 D2
 ~
 ~
-0 -1 9739
+0 -1 9739 0
 D3
 ~
 ~
-0 -1 9737
+0 -1 9737 0
 S
 #9741
 In Shallow Water~
@@ -1821,19 +1858,19 @@ you don't think you could get into the open ocean through here.
 D0
 ~
 ~
-0 -1 9742
+0 -1 9742 0
 D1
 ~
 ~
-0 -1 9759
+0 -1 9759 0
 D2
 ~
 ~
-0 -1 9740
+0 -1 9740 0
 D3
 ~
 ~
-0 -1 9736
+0 -1 9736 0
 S
 #9742
 In Shallow Water~
@@ -1844,15 +1881,15 @@ you don't think you could get into the open ocean through here.
 D1
 ~
 ~
-0 -1 9758
+0 -1 9758 0
 D2
 ~
 ~
-0 -1 9741
+0 -1 9741 0
 D3
 ~
 ~
-0 -1 9735
+0 -1 9735 0
 S
 #9743
 &CSea Street&W~
@@ -1864,11 +1901,11 @@ Calamari oceans.
 D0
 ~
 ~
-0 -1 9726
+0 -1 9726 0
 D2
 ~
 ~
-0 -1 9744
+0 -1 9744 0
 S
 #9744
 &CIntersection of Sea Street and &YShell Street&W~
@@ -1880,19 +1917,19 @@ has very little traffic any more...
 D0
 ~
 ~
-0 -1 9743
+0 -1 9743 0
 D1
 ~
 ~
-0 -1 9781
+0 -1 9781 0
 D2
 ~
 ~
-0 -1 9745
+0 -1 9745 0
 D3
 ~
 ~
-0 -1 9835
+0 -1 9835 0
 S
 #9745
 &bA Dead End&w~
@@ -1903,7 +1940,7 @@ streets of Mon Calamari.
 D0
 ~
 ~
-0 -1 9744
+0 -1 9744 0
 S
 #9746
 Storage Level~
@@ -1915,15 +1952,16 @@ supplies.
 D0
 ~
 ~
-0 -1 9749
+0 -1 9749 0
 D1
 ~
 ~
-0 -1 9747
+0 -1 9747 0
 D3
 ~
 ~
-0 -1 9748
+0 -1 9748 0
+R M 0 9746 1 9746
 S
 #9747
 Storage Room~
@@ -1932,7 +1970,9 @@ Storage Room~
 D3
 ~
 ~
-0 -1 9746
+0 -1 9746 0
+R O 0 9746 1 9747
+  R P 0 150 1 9746
 S
 #9748
 Storage Room~
@@ -1941,7 +1981,9 @@ Storage Room~
 D1
 ~
 ~
-0 -1 9746
+0 -1 9746 0
+R O 0 9746 1 9748
+  R P 0 150 1 9746
 S
 #9749
 Turbolift~
@@ -1985,15 +2027,17 @@ suppose it would be ok to just jump in... For a little while...
 D1
 ~
 ~
-0 -1 9752
+0 -1 9752 0
 D2
 ~
 ~
-0 -1 9749
+0 -1 9749 0
 D3
 ~
 ~
-0 -1 9751
+0 -1 9751 0
+R M 0 9750 1 9750
+  R G 1 1241 1
 S
 #9751
 Floating in a Bacta Tank~
@@ -2005,7 +2049,7 @@ D1
 leave
 ~
 leave~
-262144 -1 9750
+262144 -1 9750 0
 > rand_prog 100~
 mpecho You feel a tingling as the bacta heas your wounds.
 mprestore $n 500
@@ -2021,7 +2065,7 @@ for a while.
 D3
 ~
 ~
-262144 -1 9750
+262144 -1 9750 0
 > rand_prog 100~
 mpecho You feel a tingling as the bacta heals your wounds
 mprestore $n 500
@@ -2039,11 +2083,11 @@ planning on the architects part.
 D1
 ~
 ~
-0 -1 9731
+0 -1 9731 0
 D4
 ~
 ~
-0 -1 9884
+0 -1 9884 0
 S
 #9754
 Floating in a void~
@@ -2062,11 +2106,12 @@ is very on top of things.
 D0
 ~
 ~
-0 -1 9756
+0 -1 9756 0
 D2
 ~
 ~
-3 -1 9724
+3 -1 9724 0
+R D 0 9755 2 1
 S
 #9756
 A hallway~
@@ -2078,15 +2123,16 @@ and there's a small closet to the east.
 D1
 ~
 ~
-3 -1 9768
+3 -1 9768 0
 D2
 ~
 ~
-0 -1 9755
+0 -1 9755 0
 D3
 ~
 ~
-0 -1 9757
+0 -1 9757 0
+R D 0 9756 1 1
 S
 #9757
 At a Turbolift~
@@ -2095,11 +2141,11 @@ At a Turbolift~
 D0
 ~
 ~
-0 -1 9749
+0 -1 9749 0
 D1
 ~
 ~
-0 -1 9756
+0 -1 9756 0
 S
 #9758
 In Deep Water~
@@ -2110,15 +2156,15 @@ reef. Possibly man made...
 D1
 ~
 ~
-0 -1 9765
+0 -1 9765 0
 D2
 ~
 ~
-0 -1 9759
+0 -1 9759 0
 D3
 ~
 ~
-0 -1 9742
+0 -1 9742 0
 S
 #9759
 In Deeper Water~
@@ -2129,19 +2175,19 @@ reef. Possibly man made...
 D0
 ~
 ~
-0 -1 9758
+0 -1 9758 0
 D1
 ~
 ~
-0 -1 9764
+0 -1 9764 0
 D2
 ~
 ~
-0 -1 9760
+0 -1 9760 0
 D3
 ~
 ~
-0 -1 9741
+0 -1 9741 0
 S
 #9760
 In Deeper Water~
@@ -2152,19 +2198,19 @@ reef. Possibly man made...
 D0
 ~
 ~
-0 -1 9759
+0 -1 9759 0
 D1
 ~
 ~
-0 -1 9763
+0 -1 9763 0
 D2
 ~
 ~
-0 -1 9761
+0 -1 9761 0
 D3
 ~
 ~
-0 -1 9740
+0 -1 9740 0
 S
 #9761
 In Deep Water~
@@ -2175,19 +2221,19 @@ reef. Possibly man made...
 D0
 ~
 ~
-0 -1 9760
+0 -1 9760 0
 D1
 ~
 ~
-0 -1 9762
+0 -1 9762 0
 D3
 ~
 ~
-0 -1 9739
+0 -1 9739 0
 D5
 ~
 ~
-0 -1 9766
+0 -1 9766 0
 S
 #9762
 In Deep Water~
@@ -2200,15 +2246,15 @@ here.
 D0
 ~
 ~
-0 -1 9763
+0 -1 9763 0
 D3
 ~
 ~
-0 -1 9761
+0 -1 9761 0
 D5
 ~
 ~
-0 -1 9767
+0 -1 9767 0
 S
 #9763
 In Deep Water~
@@ -2221,19 +2267,19 @@ here.
 D0
 ~
 ~
-0 -1 9764
+0 -1 9764 0
 D2
 ~
 ~
-0 -1 9762
+0 -1 9762 0
 D3
 ~
 ~
-0 -1 9760
+0 -1 9760 0
 D5
 ~
 ~
-0 -1 9769
+0 -1 9769 0
 S
 #9764
 In Deep Water~
@@ -2246,19 +2292,19 @@ here.
 D0
 ~
 ~
-0 -1 9765
+0 -1 9765 0
 D2
 ~
 ~
-0 -1 9763
+0 -1 9763 0
 D3
 ~
 ~
-0 -1 9759
+0 -1 9759 0
 D5
 ~
 ~
-0 -1 9770
+0 -1 9770 0
 S
 #9765
 In Deep Water~
@@ -2271,15 +2317,15 @@ here.
 D2
 ~
 ~
-0 -1 9764
+0 -1 9764 0
 D3
 ~
 ~
-0 -1 9758
+0 -1 9758 0
 D5
 ~
 ~
-0 -1 9771
+0 -1 9771 0
 S
 #9766
 At the &BOcean &WFloor~
@@ -2288,11 +2334,11 @@ At the &BOcean &WFloor~
 D0
 ~
 ~
-0 -1 9767
+0 -1 9767 0
 D4
 ~
 ~
-0 -1 9761
+0 -1 9761 0
 S
 #9767
 At the &BOcean &WFloor~
@@ -2305,15 +2351,16 @@ it.
 D0
 ~
 ~
-0 -1 9769
+0 -1 9769 0
 D2
 ~
 ~
-0 -1 9766
+0 -1 9766 0
 D4
 ~
 ~
-0 -1 9762
+0 -1 9762 0
+R O 0 9771 1 9767
 S
 #9768
 Storage Closet~
@@ -2327,7 +2374,9 @@ as brooms and cleaning agents on the shelves as well.
 D3
 ~
 ~
-3 -1 9756
+3 -1 9756 0
+R O 0 9746 1 9768
+R D 0 9768 3 1
 S
 #9769
 At the &BOcean&W Floor~
@@ -2340,15 +2389,15 @@ it.
 D0
 ~
 ~
-0 -1 9770
+0 -1 9770 0
 D2
 ~
 ~
-0 -1 9767
+0 -1 9767 0
 D4
 ~
 ~
-0 -1 9763
+0 -1 9763 0
 S
 #9770
 At the &BOcean &WFloor~
@@ -2362,19 +2411,19 @@ can't find anything...
 D0
 ~
 ~
-0 -1 9771
+0 -1 9771 0
 D2
 ~
 ~
-0 -1 9769
+0 -1 9769 0
 D4
 ~
 ~
-0 -1 9764
+0 -1 9764 0
 D6
 ~
 ~
-2048 -1 9772
+2048 -1 9772 0
 S
 #9771
 At the &BOcean&W Floor~
@@ -2388,11 +2437,11 @@ can't find anything...
 D2
 ~
 ~
-0 -1 9770
+0 -1 9770 0
 D4
 ~
 ~
-0 -1 9765
+0 -1 9765 0
 S
 #9772
 A damp airlock~
@@ -2401,11 +2450,11 @@ A damp airlock~
 D1
 ~
 ~
-0 -1 9773
+0 -1 9773 0
 D9
 ~
 ~
-0 -1 9770
+0 -1 9770 0
 S
 #9773
 Entrance to a Rebel Base~
@@ -2414,11 +2463,11 @@ Entrance to a Rebel Base~
 D1
 ~
 ~
-0 -1 9776
+0 -1 9776 0
 D3
 ~
 ~
-0 -1 9772
+0 -1 9772 0
 S
 #9774
 A disused corridor~
@@ -2427,11 +2476,11 @@ A disused corridor~
 D0
 ~
 ~
-0 -1 9775
+0 -1 9775 0
 D2
 ~
 ~
-0 -1 9776
+0 -1 9776 0
 S
 #9775
 a rusty stairwell~
@@ -2440,11 +2489,11 @@ a rusty stairwell~
 D2
 ~
 ~
-0 -1 9774
+0 -1 9774 0
 D4
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 S
 #9776
 A Guard Post~
@@ -2453,11 +2502,14 @@ A Guard Post~
 D0
 ~
 ~
-0 -1 9774
+0 -1 9774 0
 D3
 ~
 ~
-0 -1 9773
+0 -1 9773 0
+R M 0 9817 1 9776
+R M 0 9818 2 9776
+R M 0 9818 2 9776
 S
 #9777
 a large intersection~
@@ -2466,27 +2518,27 @@ a large intersection~
 D0
 ~
 ~
-0 -1 9778
+0 -1 9778 0
 D1
 ~
 ~
-0 -1 9779
+0 -1 9779 0
 D2
 ~
 ~
-0 -1 9780
+0 -1 9780 0
 D3
 ~
 ~
-0 -1 9795
+0 -1 9795 0
 D4
 ~
 ~
-0 -1 9818
+0 -1 9818 0
 D5
 ~
 ~
-0 -1 9775
+0 -1 9775 0
 S
 #9778
 A Communication Room~
@@ -2495,7 +2547,7 @@ A Communication Room~
 D2
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 S
 #9779
 An Armory~
@@ -2504,7 +2556,7 @@ An Armory~
 D3
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 S
 #9780
 A Briefing Room~
@@ -2513,7 +2565,7 @@ A Briefing Room~
 D0
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 S
 #9781
 &YShell Street&W~
@@ -2530,11 +2582,11 @@ happy to lose this scar on the jewel of a planet that is Mon Calamari.
 D1
 ~
 ~
-0 -1 9782
+0 -1 9782 0
 D3
 ~
 ~
-0 -1 9744
+0 -1 9744 0
 S
 #9782
 &YIntersection of Shell and &PCoral Street&W~
@@ -2545,19 +2597,20 @@ Disgusting.
 D0
 ~
 ~
-0 -1 9787
+0 -1 9787 0
 D1
 ~
 ~
-0 -1 9783
+0 -1 9783 0
 D2
 ~
 ~
-0 -1 9788
+0 -1 9788 0
 D3
 ~
 ~
-0 -1 9781
+0 -1 9781 0
+R M 0 9711 3 9782
 S
 #9783
 &YShell Street&W~
@@ -2575,19 +2628,21 @@ the north you notice a disused Imperial landing pad.
 D0
 ~
 ~
-0 -1 9794
+0 -1 9794 0
 D1
 ~
 ~
-0 -1 9784
+0 -1 9784 0
 D3
 ~
 ~
-0 -1 9782
+0 -1 9782 0
 D5
 ~
 manhole~
-2051 -1 9795
+2051 -1 9795 0
+R M 0 9711 3 9783
+R D 0 9783 5 1
 S
 #9784
 &YShell Street&W~
@@ -2604,15 +2659,16 @@ happy to lose this scar on the jewel of a planet that is Mon Calamari.
 D1
 ~
 ~
-0 -1 9785
+0 -1 9785 0
 D2
 ~
 ~
-0 -1 9796
+0 -1 9796 0
 D3
 ~
 ~
-0 -1 9783
+0 -1 9783 0
+R M 0 9711 1 9784
 S
 #9785
 &YShell Street&W~
@@ -2629,11 +2685,12 @@ happy to lose this scar on the jewel of a planet that is Mon Calamari.
 D1
 ~
 ~
-0 -1 9786
+0 -1 9786 0
 D3
 ~
 ~
-0 -1 9784
+0 -1 9784 0
+R M 0 9711 4 9785
 S
 #9786
 The End of Shell Street~
@@ -2645,7 +2702,8 @@ Calamari cruiser.
 D3
 ~
 ~
-0 -1 9785
+0 -1 9785 0
+R M 0 9711 2 9786
 S
 #9787
 &bA Dark Alley&w~
@@ -2656,7 +2714,7 @@ scattered throughout... You don't like this place.
 D2
 ~
 ~
-0 -1 9782
+0 -1 9782 0
 S
 #9788
 &PCoral Street&W~
@@ -2666,11 +2724,11 @@ War-torn Coral Street...
 D0
 ~
 ~
-0 -1 9782
+0 -1 9782 0
 D2
 ~
 ~
-0 -1 9789
+0 -1 9789 0
 S
 #9789
 &PCoral Street&W~
@@ -2680,15 +2738,15 @@ War-torn Coral Street...
 D0
 ~
 ~
-0 -1 9788
+0 -1 9788 0
 D2
 ~
 ~
-0 -1 9790
+0 -1 9790 0
 D3
 ~
 ~
-0 -1 9809
+0 -1 9809 0
 S
 #9790
 &PCoral Street&W~
@@ -2698,11 +2756,11 @@ War-torn Coral Street...
 D0
 ~
 ~
-0 -1 9789
+0 -1 9789 0
 D2
 ~
 ~
-0 -1 9791
+0 -1 9791 0
 S
 #9791
 &PCoral Street&W~
@@ -2712,15 +2770,15 @@ War-torn Coral Street...
 D0
 ~
 ~
-0 -1 9790
+0 -1 9790 0
 D2
 ~
 ~
-0 -1 9792
+0 -1 9792 0
 D3
 ~
 ~
-0 -1 9814
+0 -1 9814 0
 S
 #9792
 &PCoral Street&W~
@@ -2730,15 +2788,15 @@ War-torn Coral Street...
 D0
 ~
 ~
-0 -1 9791
+0 -1 9791 0
 D1
 ~
 ~
-0 -1 9815
+0 -1 9815 0
 D2
 ~
 ~
-0 -1 9793
+0 -1 9793 0
 S
 #9793
 &bA Dead End&W~
@@ -2748,7 +2806,7 @@ Jinkies!
 D0
 ~
 ~
-0 -1 9792
+0 -1 9792 0
 S
 #9794
 A Deserted Landing Pad~
@@ -2760,11 +2818,12 @@ you notice an odd looking rock...
 D0
 ~
 ~
-33556480 -1 9818
+33556480 -1 9818 0
 D2
 ~
 ~
-0 -1 9783
+0 -1 9783 0
+R M 0 9711 4 9794
 S
 #9795
 A Dark Stairway~
@@ -2773,11 +2832,12 @@ A Dark Stairway~
 D1
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 D4
 ~
 ~
-3 -1 9783
+3 -1 9783 0
+R D 0 9795 4 1
 S
 #9796
 Golden Urchin Apartment Complex~
@@ -2789,11 +2849,11 @@ building is haunted. Still, it's a place to keep your stuff...
 D0
 ~
 ~
-0 -1 9784
+0 -1 9784 0
 D2
 ~
 ~
-0 -1 9797
+0 -1 9797 0
 S
 #9797
 A Brightly Lit Hallway~
@@ -2802,19 +2862,19 @@ A Brightly Lit Hallway~
 D0
 ~
 ~
-0 -1 9796
+0 -1 9796 0
 D1
 ~
 ~
-0 -1 9798
+0 -1 9798 0
 D2
 ~
 ~
-0 -1 9800
+0 -1 9800 0
 D3
 ~
 ~
-0 -1 9799
+0 -1 9799 0
 S
 #9798
 An Empty Apartment~
@@ -2823,7 +2883,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 9797
+0 -1 9797 0
 S
 #9799
 An Empty Apartment~
@@ -2832,7 +2892,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 9797
+0 -1 9797 0
 S
 #9800
 A Brightly Lit Hallway~
@@ -2841,19 +2901,19 @@ A Brightly Lit Hallway~
 D0
 ~
 ~
-0 -1 9797
+0 -1 9797 0
 D1
 ~
 ~
-0 -1 9801
+0 -1 9801 0
 D2
 ~
 ~
-0 -1 9803
+0 -1 9803 0
 D3
 ~
 ~
-0 -1 9802
+0 -1 9802 0
 S
 #9801
 An Empty Apartment~
@@ -2862,7 +2922,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 9800
+0 -1 9800 0
 S
 #9802
 An Empty Apartment~
@@ -2871,7 +2931,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 9800
+0 -1 9800 0
 S
 #9803
 A Brightly Lit Hallway~
@@ -2880,19 +2940,19 @@ A Brightly Lit Hallway~
 D0
 ~
 ~
-0 -1 9800
+0 -1 9800 0
 D1
 ~
 ~
-0 -1 9804
+0 -1 9804 0
 D2
 ~
 ~
-0 -1 9806
+0 -1 9806 0
 D3
 ~
 ~
-0 -1 9805
+0 -1 9805 0
 S
 #9804
 An Empty Apartment~
@@ -2901,7 +2961,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 9803
+0 -1 9803 0
 S
 #9805
 An Empty Apartment~
@@ -2910,7 +2970,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 9803
+0 -1 9803 0
 S
 #9806
 A Brightly Lit Hallway~
@@ -2919,15 +2979,15 @@ A Brightly Lit Hallway~
 D0
 ~
 ~
-0 -1 9803
+0 -1 9803 0
 D1
 ~
 ~
-0 -1 9807
+0 -1 9807 0
 D3
 ~
 ~
-0 -1 9808
+0 -1 9808 0
 E
 note~
 If all of these apartments are filled, please contact Trancer or another
@@ -2943,7 +3003,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 9806
+0 -1 9806 0
 S
 #9808
 An Empty Apartment~
@@ -2952,7 +3012,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 9806
+0 -1 9806 0
 S
 #9809
 A Large Office Complex~
@@ -2963,11 +3023,11 @@ turbolift to the north.
 D0
 ~
 ~
-0 -1 9810
+0 -1 9810 0
 D1
 ~
 ~
-0 -1 9789
+0 -1 9789 0
 S
 #9810
 Hallway~
@@ -2976,11 +3036,11 @@ Hallway~
 D0
 ~
 ~
-0 -1 9811
+0 -1 9811 0
 D2
 ~
 ~
-0 -1 9809
+0 -1 9809 0
 S
 #9811
 At A Turbolift~
@@ -2991,15 +3051,16 @@ turbolift.
 D0
 ~
 ~
-0 -1 9813
+0 -1 9813 0
 D1
 ~
 ~
-7 9812 9812
+7 9812 9812 0
 D2
 ~
 ~
-0 -1 9810
+0 -1 9810 0
+R D 0 9811 1 2
 S
 #9812
 Admiral Ackbar's Office~
@@ -3008,7 +3069,10 @@ Admiral Ackbar's Office~
 D3
 ~
 ~
-7 9812 9811
+7 9812 9811 0
+R M 0 9812 1 9812
+R O 0 9811 1 9812
+R D 0 9812 3 2
 S
 #9813
 A Turbolift~
@@ -3047,7 +3111,7 @@ This was previously an Imperial bunker.
 D1
 ~
 ~
-0 -1 9791
+0 -1 9791 0
 S
 #9815
 Herculaneum Fitness Center And Gym~
@@ -3058,7 +3122,7 @@ tootpick, and trainers who seem very helpful and strong themselvse.
 D3
 ~
 ~
-0 -1 9792
+0 -1 9792 0
 S
 #9816
 A Dark, Brooding Alley~
@@ -3067,7 +3131,10 @@ A Dark, Brooding Alley~
 D2
 ~
 ~
-0 -1 9729
+0 -1 9729 0
+R M 0 9816 1 9816
+  R G 1 9812 1
+  R G 1 9816 1
 S
 #9817
 An Old, Disused Bunker~
@@ -3080,7 +3147,8 @@ much from the paleness and frailty of his body.
 D3
 ~
 ~
-0 -1 9734
+0 -1 9734 0
+R M 0 9715 1 9817
 S
 #9818
 A Sniping Tower~
@@ -3093,11 +3161,11 @@ you can see in, they can see out...
 D2
 ~
 ~
-33554432 -1 9794
+33554432 -1 9794 0
 D5
 ~
 ~
-0 -1 9777
+0 -1 9777 0
 S
 #9819
 Ship Maintenance Room~
@@ -3106,7 +3174,7 @@ Ship Maintenance Room~
 D2
 ~
 ~
-0 -1 9818
+0 -1 9818 0
 S
 #9820
 Storage Room~
@@ -3115,19 +3183,19 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9818
+0 -1 9818 0
 D1
 ~
 ~
-0 -1 9822
+0 -1 9822 0
 D2
 ~
 ~
-0 -1 9824
+0 -1 9824 0
 D3
 ~
 ~
-0 -1 9821
+0 -1 9821 0
 S
 #9821
 Storage Room~
@@ -3136,11 +3204,11 @@ Storage Room~
 D1
 ~
 ~
-0 -1 9820
+0 -1 9820 0
 D2
 ~
 ~
-0 -1 9823
+0 -1 9823 0
 S
 #9822
 Storage Room~
@@ -3149,11 +3217,11 @@ Storage Room~
 D2
 ~
 ~
-0 -1 9825
+0 -1 9825 0
 D3
 ~
 ~
-0 -1 9820
+0 -1 9820 0
 S
 #9823
 Storage Room~
@@ -3162,15 +3230,15 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9821
+0 -1 9821 0
 D1
 ~
 ~
-0 -1 9824
+0 -1 9824 0
 D2
 ~
 ~
-0 -1 9826
+0 -1 9826 0
 S
 #9824
 Storage Room~
@@ -3179,19 +3247,19 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9820
+0 -1 9820 0
 D1
 ~
 ~
-0 -1 9825
+0 -1 9825 0
 D2
 ~
 ~
-0 -1 9827
+0 -1 9827 0
 D3
 ~
 ~
-0 -1 9823
+0 -1 9823 0
 S
 #9825
 Storage Room~
@@ -3200,15 +3268,15 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9822
+0 -1 9822 0
 D2
 ~
 ~
-0 -1 9828
+0 -1 9828 0
 D3
 ~
 ~
-0 -1 9824
+0 -1 9824 0
 S
 #9826
 Storage Room~
@@ -3217,15 +3285,15 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9823
+0 -1 9823 0
 D1
 ~
 ~
-0 -1 9827
+0 -1 9827 0
 D2
 ~
 ~
-0 -1 9831
+0 -1 9831 0
 S
 #9827
 Storage Room~
@@ -3234,19 +3302,19 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9824
+0 -1 9824 0
 D1
 ~
 ~
-0 -1 9828
+0 -1 9828 0
 D2
 ~
 ~
-0 -1 9830
+0 -1 9830 0
 D3
 ~
 ~
-0 -1 9826
+0 -1 9826 0
 S
 #9828
 Storage Room~
@@ -3255,15 +3323,15 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9825
+0 -1 9825 0
 D2
 ~
 ~
-0 -1 9829
+0 -1 9829 0
 D3
 ~
 ~
-0 -1 9827
+0 -1 9827 0
 S
 #9829
 Storage Room~
@@ -3272,11 +3340,11 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9828
+0 -1 9828 0
 D3
 ~
 ~
-0 -1 9830
+0 -1 9830 0
 S
 #9830
 Storage Room~
@@ -3285,15 +3353,15 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9827
+0 -1 9827 0
 D1
 ~
 ~
-0 -1 9829
+0 -1 9829 0
 D3
 ~
 ~
-0 -1 9831
+0 -1 9831 0
 S
 #9831
 Storage Room~
@@ -3302,11 +3370,11 @@ Storage Room~
 D0
 ~
 ~
-0 -1 9826
+0 -1 9826 0
 D1
 ~
 ~
-0 -1 9830
+0 -1 9830 0
 S
 #9832
 Detention Level~
@@ -3315,7 +3383,7 @@ Detention Level~
 D2
 ~
 ~
-0 -1 9833
+0 -1 9833 0
 S
 #9833
 Hallway~
@@ -3324,7 +3392,7 @@ Hallway~
 D0
 ~
 ~
-0 -1 9832
+0 -1 9832 0
 S
 #9834
 Prison Cell~
@@ -3338,7 +3406,10 @@ S
 D1
 ~
 ~
-0 -1 9744
+0 -1 9744 0
+R M 0 9835 1 9835
+  R G 1 9835 1
+  R G 1 9821 1
 S
 #9868
 Floating in a void~
@@ -3357,7 +3428,8 @@ The Galactic Mail Center~
 D5
 ~
 ~
-0 -1 9753
+0 -1 9753 0
+R O 0 38 1 9884
 S
 #10000
 Floating in a void~
@@ -3367,90 +3439,13 @@ S
 #0
 
 
-#RESETS
-D 0 9702 0 0
-D 0 9703 2 0
-D 0 9709 0 0
-O 1 9722 1 9711
-O 1 9724 1 9711
-O 1 9726 1 9711
-O 1 9728 1 9711
-O 1 9730 1 9711
-O 1 9732 1 9711
-O 1 9810 1 9727
-M 1 9746 1 9746
-D 0 9755 2 1
-D 0 9756 1 1
-D 0 9795 4 1
-D 0 9811 1 2
-M 1 9812 1 9812
-O 1 9811 1 9812
-D 0 9812 3 2
-M 1 9711 1 9707
-O 1 9710 1 9710
-O 1 9712 1 9710
-O 1 9714 1 9710
-O 1 9716 1 9710
-O 1 9718 1 9710
-O 1 9720 1 9710
-M 1 9714 1 9716
-G 1 9817 1
-D 0 9722 2 1
-M 1 9711 2 9724
-D 0 9724 0 1
-O 1 9746 1 9768
-D 0 9768 3 1
-M 1 9711 3 9782
-M 1 9711 4 9785
-M 1 9709 1 9705
-M 1 9816 1 9816
-G 1 9812 1
-G 1 9816 1
-M 1 9713 1 9713
-G 1 9818 1
-M 1 9817 1 9776
-M 1 9818 2 9776
-M 1 9818 2 9776
-O 1 1926 1 1243
-O 1 9746 1 9748
-P 0 150 1 0
-O 1 9746 1 9747
-P 0 150 1 0
-M 1 9750 1 9750
-G 1 1241 1
-M 1 9721 1 9721
-M 1 9720 1 9721
-D 0 9721 0 0
-M 1 9703 2 9701
-M 1 9703 2 9701
-M 1 9710 1 9701
-M 1 9715 1 9817
-M 1 9738 1 9738
-M 1 9711 1 9784
-M 1 9711 2 9786
-M 1 9711 3 9783
-D 0 9783 5 1
-M 1 9711 4 9794
-M 1 9711 5 9726
-M 1 9711 6 9728
-M 1 9711 8 9731
-M 1 9711 8 9731
-M 1 9711 9 9733
-O 1 9771 1 9767
-M 1 9835 1 9835
-G 1 9835 1
-G 1 9821 1
-O 1 38 1 9884
-S
-
-
 #SHOPS
- 9707    0  0  0  0  0   120  90         8 20 0  ; the retail shopkeeper
- 9713    0  0  0  0  0   120  90         0 23 0  ; Jurson the Wookiee
- 9714    0  0  0  0  0   120  90         0 23 0  ; A Quarren Chef
- 9732    0  0  0  0  0   120  90         1 23 0  ; the convenient shopkeeper
- 9751    0  0  0  0  0   120  90         0 23 0  ; an ewok shopkeeper
- 9835    0  0  0  0  0   120  90         0 23 0  ; a quarren shopkeeper
+ 9707    0  0  0  0  0   120  90         8 20    ; the retail shopkeeper
+ 9713    0  0  0  0  0   120  90         0 23    ; Jurson the Wookiee
+ 9714    0  0  0  0  0   120  90         0 23    ; A Quarren Chef
+ 9732    0  0  0  0  0   120  90         1 23    ; the convenient shopkeeper
+ 9751    0  0  0  0  0   120  90         0 23    ; an ewok shopkeeper
+ 9835    0  0  0  0  0   120  90         0 23    ; a quarren shopkeeper
 0
 
 

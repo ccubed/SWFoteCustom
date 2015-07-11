@@ -79,11 +79,11 @@ and Bilbringi authorities wander around doing one duty or another.
 D1
 ~
 ~
-0 -1 10902
+0 -1 10902 0
 D2
 ~
 ~
-0 -1 10903
+0 -1 10903 0
 S
 #10902
 Bilbringi Bus Stop~
@@ -97,7 +97,7 @@ Star Destroyer.
 D3
 ~
 ~
-0 -1 10901
+0 -1 10901 0
 S
 #10903
 Main Street~
@@ -109,46 +109,42 @@ that runs the length from the Headquarters to the Spaceport.
 D0
 ~
 ~
-0 -1 10901
+0 -1 10901 0
 D2
 ~
 ~
-0 -1 10904
+0 -1 10904 0
 S
 #10904
 Main Street~
 ~
-0 1073741824 1 0
+0 1073741824 1 0 0 0 10064
 D0
 ~
 ~
-0 -1 10903
+0 -1 10903 0
 D2
 ~
 ~
-0 -1 10905
+0 -1 10905 0
 S
 #10905
 Floating in a void~
 ~
-0 1073741824 1 0
+0 1073741824 1 0 0 0 10064
 D0
 ~
 ~
-0 -1 10904
+0 -1 10904 0
 S
 #11000
 Floating in a void~
 ~
 0 4 1 0 0 0 10064
+R O 0 10901 1 11000
+R O 0 11000 1 11000
 S
 #0
-
-
-#RESETS
-O 1 10901 1 11000
-O 1 11000 1 11000
-S
 
 
 #SHOPS

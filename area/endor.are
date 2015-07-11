@@ -803,11 +803,11 @@ down to the side of the compound. Landing Pad A is west from here.
 D3
 ~
 ~
-0 -1 4563
+0 -1 4563 0
 D5
 ~
 ~
-0 -1 4551
+0 -1 4551 0
 S
 #4551
 Next to a Small Compound~
@@ -821,11 +821,11 @@ entrance to the compound is around the corner to the south.
 D2
 ~
 ~
-0 -1 4552
+0 -1 4552 0
 D4
 ~
 ~
-0 -1 4550
+0 -1 4550 0
 S
 #4552
 Dirt Path Near a Small Compound~
@@ -839,11 +839,11 @@ the corner is the entrance to the building.
 D0
 ~
 ~
-0 -1 4551
+0 -1 4551 0
 D3
 ~
 ~
-0 -1 4553
+0 -1 4553 0
 S
 #4553
 Path to a Small Compound~
@@ -858,19 +858,19 @@ the compound door is to the north.
 D0
 ~
 ~
-0 -1 4557
+0 -1 4557 0
 D1
 ~
 ~
-0 -1 4552
+0 -1 4552 0
 D2
 ~
 ~
-0 -1 4567
+0 -1 4567 0
 D3
 ~
 ~
-0 -1 4554
+0 -1 4554 0
 > entry_prog 100~
 if mobinroom(4573)
 if ispc($n)
@@ -897,11 +897,11 @@ the corner is the entrance to the building.
 D0
 ~
 ~
-0 -1 4555
+0 -1 4555 0
 D1
 ~
 ~
-0 -1 4553
+0 -1 4553 0
 S
 #4555
 Next to a Small Compound~
@@ -915,11 +915,11 @@ entrance to the compound is around the corner to the south.
 D2
 ~
 ~
-0 -1 4554
+0 -1 4554 0
 D4
 ~
 ~
-0 -1 4556
+0 -1 4556 0
 S
 #4556
 Landing Pad A~
@@ -937,15 +937,15 @@ down to the side of the compoud. Landing Pad B is east from here.
 D1
 ~
 ~
-0 -1 4563
+0 -1 4563 0
 D3
 ~
 ~
-0 -1 4655
+0 -1 4655 0
 D5
 ~
 ~
-0 -1 4555
+0 -1 4555 0
 S
 #4557
 Entrance to A Small Compound~
@@ -957,11 +957,15 @@ rest of the compound.
 D0
 ~
 ~
-0 -1 4558
+0 -1 4558 0
 D2
 ~
 ~
-0 -1 4553
+0 -1 4553 0
+R M 0 4554 1 4557
+  R E 1 50 1 16
+R M 0 4555 1 4557
+  R E 1 50 1 16
 S
 #4558
 Security Checkpoint~
@@ -973,11 +977,15 @@ be best to get a spot quickly.
 D0
 ~
 ~
-7 4556 4559
+7 4556 4559 0
 D2
 ~
 ~
-0 -1 4557
+0 -1 4557 0
+R M 0 4552 1 4558
+  R G 1 4556 1
+  R E 1 50 1 16
+R D 0 4558 0 2
 S
 #4559
 Hallway Intersecion~
@@ -989,15 +997,20 @@ guard, if you need to leave just give him a simple nod.
 D0
 ~
 ~
-0 -1 4596
+0 -1 4596 0
 D1
 ~
 ~
-7 4556 4560
+7 4556 4560 0
 D2
 ~
 ~
-7 4556 4558
+7 4556 4558 0
+R M 0 4553 1 4559
+  R G 1 4556 1
+  R E 1 50 1 16
+R D 0 4559 1 2
+R D 0 4559 2 2
 S
 #4560
 Hallway to Control Room~
@@ -1010,11 +1023,15 @@ nod.
 D1
 ~
 ~
-0 -1 4561
+0 -1 4561 0
 D3
 ~
 ~
-7 4556 4559
+7 4556 4559 0
+R M 0 4556 1 4560
+  R G 1 4556 1
+  R E 1 50 1 16
+R D 0 4560 3 2
 S
 #4561
 Hallway to Control Room~
@@ -1025,11 +1042,11 @@ are a dark grey color. There is a single light mounted every 30 feet.
 D1
 ~
 ~
-0 -1 4562
+0 -1 4562 0
 D3
 ~
 ~
-0 -1 4560
+0 -1 4560 0
 S
 #4562
 Control Room~
@@ -1041,7 +1058,9 @@ compound.
 D3
 ~
 ~
-0 -1 4561
+0 -1 4561 0
+R M 0 4560 1 4562
+  R E 1 50 1 16
 S
 #4563
 A Small Walkway~
@@ -1054,11 +1073,11 @@ step.
 D1
 ~
 ~
-0 -1 4550
+0 -1 4550 0
 D3
 ~
 ~
-0 -1 4556
+0 -1 4556 0
 S
 #4564
 Secret Forest Path~
@@ -1070,11 +1089,11 @@ powering up in the distance.
 D1
 ~
 ~
-0 -1 4565
+0 -1 4565 0
 D3
 ~
 ~
-0 -1 4572
+0 -1 4572 0
 S
 #4565
 A Small Path~
@@ -1086,11 +1105,12 @@ heard powering up in the distance.
 D1
 ~
 ~
-7 4562 4619
+7 4562 4619 0
 D3
 ~
 ~
-0 -1 4564
+0 -1 4564 0
+R D 0 4565 1 2
 S
 #4566
 Compound Cafeteria~
@@ -1103,7 +1123,10 @@ of the many food fights that have taken place here.
 D7
 ~
 ~
-0 -1 4600
+0 -1 4600 0
+R M 0 4569 1 4566
+  R G 1 134 1
+  R G 1 133 1
 S
 #4567
 Dirt Path~
@@ -1115,11 +1138,11 @@ should move onwards.
 D0
 ~
 ~
-0 -1 4553
+0 -1 4553 0
 D2
 ~
 ~
-0 -1 4568
+0 -1 4568 0
 S
 #4568
 Dirt Path~
@@ -1131,11 +1154,11 @@ move onwards.
 D0
 ~
 ~
-0 -1 4567
+0 -1 4567 0
 D2
 ~
 ~
-0 -1 4569
+0 -1 4569 0
 S
 #4569
 Path in the Forest~
@@ -1147,11 +1170,11 @@ want to stop for very long.
 D0
 ~
 ~
-0 -1 4568
+0 -1 4568 0
 D8
 ~
 ~
-0 -1 4570
+0 -1 4570 0
 S
 #4570
 Path in the Forest~
@@ -1163,11 +1186,11 @@ long. You continue your journey along the poorly made path.
 D7
 ~
 ~
-0 -1 4569
+0 -1 4569 0
 D8
 ~
 ~
-0 -1 4571
+0 -1 4571 0
 S
 #4571
 Path in the Forest~
@@ -1180,11 +1203,12 @@ your journey along the poorly made path.
 D1
 ~
 ~
-0 -1 4572
+0 -1 4572 0
 D7
 ~
 ~
-0 -1 4570
+0 -1 4570 0
+R M 0 4575 1 4571
 S
 #4572
 Path in the Forest~
@@ -1196,11 +1220,11 @@ It would be wise to continue along the poorly made path.
 D3
 ~
 ~
-0 -1 4571
+0 -1 4571 0
 D8
 ~
 ~
-0 -1 4573
+0 -1 4573 0
 E
 branches~
 The &w&Wbranches&w are broken in a strange way that possibly animals or
@@ -1225,11 +1249,12 @@ long. You continue your journey along the poorly made path.
 D2
 ~
 ~
-0 -1 4641
+0 -1 4641 0
 D7
 ~
 ~
-0 -1 4572
+0 -1 4572 0
+R M 0 9006 1 4573
 S
 #4574
 Path in the Forest~
@@ -1241,11 +1266,11 @@ long. You continue your journey along the poorly made path.
 D1
 ~
 ~
-0 -1 4641
+0 -1 4641 0
 D2
 ~
 ~
-0 -1 4575
+0 -1 4575 0
 S
 #4575
 Path in the Forest~
@@ -1257,11 +1282,11 @@ long. You continue your journey along the poorly made path.
 D0
 ~
 ~
-0 -1 4574
+0 -1 4574 0
 D1
 ~
 ~
-0 -1 4576
+0 -1 4576 0
 S
 #4576
 Path in the Forest~
@@ -1274,11 +1299,12 @@ poorly made path to pursue the light.
 D1
 ~
 ~
-0 -1 4577
+0 -1 4577 0
 D3
 ~
 ~
-0 -1 4575
+0 -1 4575 0
+R M 0 4576 1 4576
 S
 #4577
 Approaching A Large Village~
@@ -1292,11 +1318,11 @@ doing quite an expert job at  that. The path continues east and southwest.
 D3
 ~
 ~
-0 -1 4576
+0 -1 4576 0
 D8
 ~
 ~
-0 -1 4578
+0 -1 4578 0
 S
 #4578
 Under a Large Tree~
@@ -1309,15 +1335,15 @@ tree on the rope ladder.
 D1
 ~
 ~
-0 -1 4579
+0 -1 4579 0
 D4
 ~
 ~
-0 -1 4581
+0 -1 4581 0
 D7
 ~
 ~
-0 -1 4577
+0 -1 4577 0
 S
 #4579
 Path Under the Ewok Village~
@@ -1331,11 +1357,14 @@ continues west and northeast.
 D3
 ~
 ~
-0 -1 4578
+0 -1 4578 0
 D6
 ~
 ~
-0 -1 4580
+0 -1 4580 0
+R O 0 4552 1 4579
+  R P 0 4553 1 4552
+  R P 1 4562 1 4553
 S
 #4580
 Under the Trees~
@@ -1348,11 +1377,11 @@ upwards.
 D4
 ~
 ~
-128 -1 4595
+128 -1 4595 0
 D9
 ~
 ~
-0 -1 4579
+0 -1 4579 0
 S
 #4581
 Climbing up a Large Tree~
@@ -1363,11 +1392,11 @@ how the rope ladder dangles from the tree so freely.
 D4
 ~
 ~
-0 -1 4582
+0 -1 4582 0
 D5
 ~
 ~
-0 -1 4578
+0 -1 4578 0
 S
 #4582
 Reaching the Ewok Village~
@@ -1379,11 +1408,11 @@ is all about.
 D4
 ~
 ~
-0 -1 4583
+0 -1 4583 0
 D5
 ~
 ~
-0 -1 4581
+0 -1 4581 0
 S
 #4583
 The Ewok Endpoint~
@@ -1397,23 +1426,23 @@ out tree to the north.
 D0
 ~
 ~
-0 -1 4584
+0 -1 4584 0
 D5
 ~
 ~
-0 -1 4582
+0 -1 4582 0
 D6
 ~
 ~
-0 -1 4585
+0 -1 4585 0
 D7
 ~
 ~
-0 -1 4587
+0 -1 4587 0
 D8
 ~
 ~
-0 -1 4612
+0 -1 4612 0
 S
 #4584
 A Small Ewok Guardpost~
@@ -1427,7 +1456,7 @@ corner.
 D2
 ~
 ~
-0 -1 4583
+0 -1 4583 0
 S
 #4585
 Planks~
@@ -1438,15 +1467,15 @@ are curious to see exactly where these huge boards lead to.
 D1
 ~
 ~
-0 -1 4588
+0 -1 4588 0
 D7
 ~
 ~
-0 -1 4586
+0 -1 4586 0
 D9
 ~
 ~
-0 -1 4583
+0 -1 4583 0
 S
 #4586
 Planks~
@@ -1457,15 +1486,15 @@ are curious to see exactly where these huge boards lead to.
 D0
 ~
 ~
-0 -1 4629
+0 -1 4629 0
 D8
 ~
 ~
-0 -1 4585
+0 -1 4585 0
 D9
 ~
 ~
-0 -1 4587
+0 -1 4587 0
 S
 #4587
 Planks~
@@ -1476,11 +1505,11 @@ are curious to see exactly where these huge boards lead to.
 D6
 ~
 ~
-0 -1 4586
+0 -1 4586 0
 D8
 ~
 ~
-0 -1 4583
+0 -1 4583 0
 S
 #4588
 A Sturdy Rope Bridge~
@@ -1492,11 +1521,11 @@ bridge wobbles.
 D1
 ~
 ~
-0 -1 4589
+0 -1 4589 0
 D3
 ~
 ~
-0 -1 4585
+0 -1 4585 0
 S
 #4589
 Planks~
@@ -1510,15 +1539,15 @@ small Ewok home.
 D3
 ~
 ~
-0 -1 4588
+0 -1 4588 0
 D6
 ~
 ~
-0 -1 4593
+0 -1 4593 0
 D8
 ~
 ~
-0 -1 4590
+0 -1 4590 0
 S
 #4590
 A Small Ewok House~
@@ -1530,19 +1559,19 @@ the room, perhaps you should take a peek inside.
 D0
 ~
 ~
-0 -1 4591
+0 -1 4591 0
 D5
 ~
 ~
-0 -1 4594
+0 -1 4594 0
 D6
 ~
 ~
-0 -1 4592
+0 -1 4592 0
 D7
 ~
 ~
-0 -1 4589
+0 -1 4589 0
 S
 #4591
 Inside The Ewok Home~
@@ -1556,7 +1585,9 @@ strapped to the far side of the wall.
 D2
 ~
 ~
-0 -1 4590
+0 -1 4590 0
+R M 0 4551 1 4591
+R O 0 4551 1 4591
 S
 #4592
 Planks~
@@ -1567,11 +1598,11 @@ are curious to see exactly where these huge boards lead to.
 D7
 ~
 ~
-0 -1 4593
+0 -1 4593 0
 D9
 ~
 ~
-0 -1 4590
+0 -1 4590 0
 S
 #4593
 Planks~
@@ -1582,11 +1613,11 @@ are curious to see exactly where these huge boards lead to.
 D8
 ~
 ~
-0 -1 4592
+0 -1 4592 0
 D9
 ~
 ~
-0 -1 4589
+0 -1 4589 0
 S
 #4594
 Rope Ladder~
@@ -1598,11 +1629,11 @@ continue. The Ewoks from above are getting louder.
 D4
 ~
 ~
-0 -1 4590
+0 -1 4590 0
 D5
 ~
 ~
-0 -1 4595
+0 -1 4595 0
 S
 #4595
 Tattered Rope Ladder~
@@ -1614,11 +1645,11 @@ tongue of the Ewoks from above.
 D4
 ~
 ~
-128 -1 4594
+128 -1 4594 0
 D5
 ~
 ~
-0 -1 4580
+0 -1 4580 0
 S
 #4596
 A Turbolift~
@@ -1715,11 +1746,13 @@ appointment.
 D1
 ~
 ~
-0 -1 4600
+0 -1 4600 0
 D3
 ~
 ~
-0 -1 4601
+0 -1 4601 0
+R M 0 4558 1 4597
+  R E 1 50 1 16
 S
 #4598
 Compound Weapons Depot~
@@ -1731,7 +1764,8 @@ weapons confiscated from the general public are sold.
 D3
 ~
 ~
-0 -1 4600
+0 -1 4600 0
+R M 0 4557 1 4598
 S
 #4599
 ATM Terminal~
@@ -1744,7 +1778,7 @@ If you are unsure how to use this terminal type help bank.
 D0
 ~
 ~
-0 -1 4600
+0 -1 4600 0
 S
 #4600
 Services and Administration Foyer~
@@ -1758,23 +1792,23 @@ Compound Commander's Office .
 D0
 ~
 ~
-0 -1 4596
+0 -1 4596 0
 D1
 ~
 ~
-0 -1 4598
+0 -1 4598 0
 D2
 ~
 ~
-0 -1 4599
+0 -1 4599 0
 D3
 ~
 ~
-0 -1 4597
+0 -1 4597 0
 D8
 ~
 ~
-0 -1 4566
+0 -1 4566 0
 S
 #4601
 Commander's Office~
@@ -1787,7 +1821,11 @@ piles of papers.
 D1
 ~
 ~
-0 -1 4597
+0 -1 4597 0
+R M 0 4559 1 4601
+  R G 1 4559 1
+  R G 1 4564 1
+  R E 1 50 1 16
 S
 #4602
 Residential Level Foyer~
@@ -1799,11 +1837,11 @@ are empty apartments to the west of here.
 D0
 ~
 ~
-0 -1 4596
+0 -1 4596 0
 D3
 ~
 ~
-0 -1 4603
+0 -1 4603 0
 S
 #4603
 A Hallway~
@@ -1815,19 +1853,19 @@ Off to the north and south are apartments that available for rent.
 D0
 ~
 ~
-0 -1 4606
+0 -1 4606 0
 D1
 ~
 ~
-0 -1 4602
+0 -1 4602 0
 D2
 ~
 ~
-0 -1 4607
+0 -1 4607 0
 D3
 ~
 ~
-0 -1 4604
+0 -1 4604 0
 S
 #4604
 A Hallway~
@@ -1839,19 +1877,19 @@ Off to the  north and south are apartments that available for rent.
 D0
 ~
 ~
-0 -1 4608
+0 -1 4608 0
 D1
 ~
 ~
-0 -1 4603
+0 -1 4603 0
 D2
 ~
 ~
-0 -1 4609
+0 -1 4609 0
 D3
 ~
 ~
-0 -1 4605
+0 -1 4605 0
 S
 #4605
 A Hallway~
@@ -1863,15 +1901,16 @@ Off to the  north and south are apartments that available for rent.
 D0
 ~
 ~
-0 -1 4610
+0 -1 4610 0
 D1
 ~
 ~
-0 -1 4604
+0 -1 4604 0
 D2
 ~
 ~
-3 -1 4611
+3 -1 4611 0
+R D 0 4605 2 1
 S
 #4606
 An Empty Apartment~
@@ -1883,7 +1922,7 @@ furniture. The apartment appears to be kept well maintained.
 D2
 ~
 ~
-0 -1 4603
+0 -1 4603 0
 S
 #4607
 An Empty Apartment~
@@ -1895,7 +1934,7 @@ furniture. The apartment appears to be kept well maintained.
 D0
 ~
 ~
-0 -1 4603
+0 -1 4603 0
 S
 #4608
 An Empty Apartment~
@@ -1907,7 +1946,7 @@ furniture. The apartment appears to be kept well maintained.
 D2
 ~
 ~
-0 -1 4604
+0 -1 4604 0
 S
 #4609
 An Empty Apartment~
@@ -1919,7 +1958,7 @@ furniture. The apartment appears to be kept well maintained.
 D0
 ~
 ~
-0 -1 4604
+0 -1 4604 0
 S
 #4610
 An Empty Apartment~
@@ -1931,7 +1970,7 @@ furniture. The apartment appears to be kept well maintained.
 D2
 ~
 ~
-0 -1 4605
+0 -1 4605 0
 S
 #4611
 An Empty Apartment~
@@ -1944,7 +1983,8 @@ opposite there is a rack of neatly pressed uniforms hanging.
 D0
 ~
 ~
-4 -1 4605
+4 -1 4605 0
+R O 0 4565 1 4611
 S
 #4612
 Entrance To An Ewok Combat Training Facility~
@@ -1957,11 +1997,11 @@ out of this place.
 D0
 ~
 ~
-0 -1 4613
+0 -1 4613 0
 D7
 ~
 ~
-0 -1 4583
+0 -1 4583 0
 E
 bloody handprints~
 Looking at a small handprint of blood you realize that it must have been
@@ -1988,11 +2028,14 @@ than a training facility.
 D2
 ~
 ~
-0 -1 4612
+0 -1 4612 0
 D3
 ~
 ~
-0 -1 4614
+0 -1 4614 0
+R M 0 4564 3 4613
+R M 0 4564 3 4613
+R M 0 4564 3 4613
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2010,11 +2053,14 @@ than a training facility.
 D1
 ~
 ~
-0 -1 4613
+0 -1 4613 0
 D3
 ~
 ~
-0 -1 4615
+0 -1 4615 0
+R M 0 4565 3 4614
+R M 0 4565 3 4614
+R M 0 4565 3 4614
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2032,11 +2078,14 @@ than a training facility.
 D1
 ~
 ~
-0 -1 4614
+0 -1 4614 0
 D3
 ~
 ~
-0 -1 4616
+0 -1 4616 0
+R M 0 4567 3 4615
+R M 0 4567 3 4615
+R M 0 4567 3 4615
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2054,11 +2103,14 @@ than a training facility.
 D1
 ~
 ~
-0 -1 4615
+0 -1 4615 0
 D3
 ~
 ~
-0 -1 4617
+0 -1 4617 0
+R M 0 4568 3 4616
+R M 0 4568 3 4616
+R M 0 4568 3 4616
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2076,11 +2128,14 @@ than a training facility.
 D1
 ~
 ~
-0 -1 4616
+0 -1 4616 0
 D3
 ~
 ~
-0 -1 4618
+0 -1 4618 0
+R M 0 4570 3 4617
+R M 0 4570 3 4617
+R M 0 4570 3 4617
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2098,7 +2153,8 @@ than a training facility.
 D1
 ~
 ~
-0 -1 4617
+0 -1 4617 0
+R M 0 4571 1 4618
 E
 bloodstains~
 Looking at the bloodstains you see how they are permanent and will never be
@@ -2115,11 +2171,11 @@ of a clearing.
 D3
 ~
 ~
-1 4562 4565
+1 4562 4565 0
 D7
 ~
 ~
-0 -1 4620
+0 -1 4620 0
 S
 #4620
 Secret Landing Pad~
@@ -2132,7 +2188,7 @@ sky.
 D8
 ~
 ~
-0 -1 4619
+0 -1 4619 0
 S
 #4621
 Detention Control Center~
@@ -2146,7 +2202,8 @@ person.
 D2
 ~
 ~
-0 -1 4628
+0 -1 4628 0
+R M 0 4572 1 4621
 S
 #4622
 A Jail Cell~
@@ -2158,7 +2215,9 @@ a small water fountain. In the left corner you see a porcelain toilet.
 D1
 ~
 ~
-7 4564 4626
+7 4564 4626 0
+R M 0 4573 1 4622
+R D 0 4622 1 2
 > entry_prog 100~
 if clan($n) == The New Republic
 mpforce captured say Ohh...its you!!
@@ -2242,7 +2301,8 @@ a small water fountain. In the left corner you see a porcelain toilet.
 D3
 ~
 ~
-39 4564 4626
+39 4564 4626 0
+R D 0 4623 3 2
 S
 #4624
 A Jail Cell~
@@ -2254,7 +2314,7 @@ a small water fountain. In the left corner you see a porcelain toilet.
 D1
 ~
 ~
-33 4564 4627
+33 4564 4627 0
 S
 #4625
 A Jail Cell~
@@ -2266,7 +2326,7 @@ a small water fountain. In the left corner you see a porcelain toilet.
 D3
 ~
 ~
-33 4564 4627
+33 4564 4627 0
 S
 #4626
 Detention Level Corridor~
@@ -2278,19 +2338,21 @@ down here.
 D0
 ~
 ~
-0 -1 4627
+0 -1 4627 0
 D1
 ~
 ~
-7 4564 4623
+7 4564 4623 0
 D2
 ~
 ~
-0 -1 4621
+0 -1 4621 0
 D3
 ~
 ~
-7 4564 4622
+7 4564 4622 0
+R D 0 4626 1 2
+R D 0 4626 3 2
 S
 #4627
 Detention Level Corridor~
@@ -2302,15 +2364,15 @@ down here.
 D1
 ~
 ~
-8388641 4564 4625
+8388641 4564 4625 0
 D2
 ~
 ~
-0 -1 4626
+0 -1 4626 0
 D3
 ~
 ~
-8388641 4564 4624
+8388641 4564 4624 0
 S
 #4628
 Detention Level Foyer~
@@ -2324,11 +2386,11 @@ to get one.
 D0
 ~
 ~
-0 -1 4621
+0 -1 4621 0
 D2
 ~
 ~
-0 -1 4596
+0 -1 4596 0
 S
 #4629
 A Rope Bridge~
@@ -2341,11 +2403,11 @@ distance up from the ground.
 D0
 ~
 ~
-0 -1 4630
+0 -1 4630 0
 D2
 ~
 ~
-0 -1 4586
+0 -1 4586 0
 S
 #4630
 A Small Ewok House~
@@ -2358,7 +2420,8 @@ with dust showing no signs that the little Ewok has moved for a long time.
 D2
 ~
 ~
-0 -1 4629
+0 -1 4629 0
+R M 0 4574 1 4630
 S
 #4631
 Path in the Forest~
@@ -2371,35 +2434,35 @@ along the poorly made path.
 D0
 ~
 ~
-0 -1 4573
+0 -1 4573 0
 D1
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D2
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D3
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D6
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D7
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D8
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D9
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 S
 #4632
 Path in the Forest~
@@ -2411,35 +2474,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D1
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D2
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D3
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D6
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D7
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D8
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D9
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 S
 #4633
 Path in the Forest~
@@ -2451,35 +2514,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D1
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D2
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D3
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D6
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D7
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D8
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 D9
 ~
 ~
-0 -1 4633
+0 -1 4633 0
 S
 #4634
 Path in the Forest~
@@ -2491,35 +2554,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D1
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D2
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D3
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D6
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D7
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D8
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 D9
 ~
 ~
-0 -1 4634
+0 -1 4634 0
 S
 #4635
 Path in the Forest~
@@ -2531,35 +2594,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D1
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D2
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D3
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D6
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D7
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D8
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D9
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 S
 #4636
 Path in the Forest~
@@ -2571,35 +2634,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D1
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D2
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D3
 ~
 ~
-0 -1 4635
+0 -1 4635 0
 D6
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D7
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D8
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D9
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 S
 #4637
 Path in the Forest~
@@ -2611,35 +2674,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D1
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D2
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D3
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D6
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D7
 ~
 ~
-0 -1 4636
+0 -1 4636 0
 D8
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D9
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 S
 #4638
 Path in the Forest~
@@ -2651,35 +2714,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D1
 ~
 ~
-0 -1 4637
+0 -1 4637 0
 D2
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D3
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D6
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D7
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D8
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D9
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 S
 #4639
 Path in the Forest~
@@ -2691,35 +2754,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4640
+0 -1 4640 0
 D1
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D2
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D3
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D6
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D7
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D8
 ~
 ~
-0 -1 4638
+0 -1 4638 0
 D9
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 S
 #4640
 Path in the Forest~
@@ -2731,35 +2794,35 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4631
+0 -1 4631 0
 D1
 ~
 ~
-0 -1 4632
+0 -1 4632 0
 D2
 ~
 ~
-0 -1 4639
+0 -1 4639 0
 D3
 ~
 ~
-0 -1 4641
+0 -1 4641 0
 D6
 ~
 ~
-0 -1 4640
+0 -1 4640 0
 D7
 ~
 ~
-0 -1 4640
+0 -1 4640 0
 D8
 ~
 ~
-0 -1 4640
+0 -1 4640 0
 D9
 ~
 ~
-0 -1 4640
+0 -1 4640 0
 S
 #4641
 Path in the Forest~
@@ -2771,11 +2834,11 @@ are mixed sounds coming from different areas and behind trees.
 D0
 ~
 ~
-0 -1 4573
+0 -1 4573 0
 D3
 ~
 ~
-0 -1 4574
+0 -1 4574 0
 S
 #4655
 The Galactic Mail Center~
@@ -2784,7 +2847,8 @@ The Galactic Mail Center~
 D1
 ~
 ~
-0 -1 4556
+0 -1 4556 0
+R O 0 38 1 4655
 S
 #4656
 Floating in a void~
@@ -2829,77 +2893,9 @@ S
 #0
 
 
-#RESETS
-M 1 4569 1 4566
-G 1 134 1
-G 1 133 1
-M 1 4551 1 4591
-O 1 4551 1 4591
-M 1 4557 1 4598
-M 1 4564 3 4613
-M 1 4564 3 4613
-M 1 4564 3 4613
-M 1 4565 3 4614
-M 1 4565 3 4614
-M 1 4565 3 4614
-M 1 4567 3 4615
-M 1 4567 3 4615
-M 1 4567 3 4615
-M 1 4568 3 4616
-M 1 4568 3 4616
-M 1 4568 3 4616
-M 1 4570 3 4617
-M 1 4570 3 4617
-M 1 4570 3 4617
-D 0 4565 1 2
-M 1 4572 1 4621
-D 0 4626 1 2
-D 0 4626 3 2
-D 0 4623 3 2
-M 1 4573 1 4622
-D 0 4622 1 2
-M 1 4574 1 4630
-M 1 4571 1 4618
-O 1 4565 1 4611
-M 1 4575 1 4571
-M 1 4576 1 4576
-M 1 9006 1 4573
-M 1 4554 1 4557
-E 1 50 1 16
-M 1 4555 1 4557
-E 1 50 1 16
-M 1 4552 1 4558
-G 1 4556 1
-E 1 50 1 16
-D 0 4558 0 2
-M 1 4553 1 4559
-G 1 4556 1
-E 1 50 1 16
-D 0 4559 1 2
-D 0 4559 2 2
-M 1 4556 1 4560
-G 1 4556 1
-E 1 50 1 16
-D 0 4560 3 2
-M 1 4560 1 4562
-E 1 50 1 16
-M 1 4558 1 4597
-E 1 50 1 16
-M 1 4559 1 4601
-G 1 4559 1
-G 1 4564 1
-E 1 50 1 16
-D 0 4605 2 1
-O 1 4552 1 4579
-P 0 4553 1 0
-P 1 4562 1 0
-O 1 38 1 4655
-S
-
-
 #SHOPS
- 4557    9  0  0  0  0   120 110         0 23 0  ; A Weapons Droid
- 4569    0  0  0  0  0   100  90         0 23 0  ; A Food Service Droid
+ 4557    9  0  0  0  0   120 110         0 23    ; A Weapons Droid
+ 4569    0  0  0  0  0   100  90         0 23    ; A Food Service Droid
 0
 
 

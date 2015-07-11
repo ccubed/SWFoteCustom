@@ -404,6 +404,7 @@ the south of here.To the north you see the hatch that has evidently
 been blown off for some reason or the other.
 ~
 0 1073741828 1 0 0 0 22984
+R O 0 7655 1 7651
 S
 #7660
 Coruscant Underground~
@@ -419,7 +420,7 @@ meters.
 D0
 ~
 ~
-0 -1 7661
+0 -1 7661 0
 S
 #7661
 Along the Underground~
@@ -435,11 +436,11 @@ head almost dangerously close. Who new they flew this low?
 D0
 ~
 ~
-0 -1 7662
+0 -1 7662 0
 D2
 ~
 ~
-0 -1 7660
+0 -1 7660 0
 S
 #7662
 Source of Light~
@@ -453,11 +454,13 @@ that Manhole cover. It does seem to be ajar abit.
 D2
 ~
 ~
-0 -1 7661
+0 -1 7661 0
 D10
 ~
 manhole~
-657408 -1 7663
+657408 -1 7663 0
+R O 0 7662 1 7662
+  R P 0 7661 1 7662
 S
 #7663
 Sewers~
@@ -473,11 +476,11 @@ way.
 D4
 ~
 ~
-0 -1 7662
+0 -1 7662 0
 D9
 ~
 ~
-0 -1 7664
+0 -1 7664 0
 S
 #7664
 Dank Pit~
@@ -488,7 +491,10 @@ The moisture turns into a smell of almost wet dog.
 D6
 ~
 ~
-0 -1 7663
+0 -1 7663 0
+R M 0 7664 1 7664
+R O 0 7663 1 7664
+  R P 0 7664 1 7663
 S
 #7665
 A Roughly-Hewn Wroshyr Platform~
@@ -505,15 +511,21 @@ the vicinity to preset areas.
 D1
 ~
 ~
-3 -1 7667
+3 -1 7667 0
 D5
 ~
 ~
-128 -1 7666
+128 -1 7666 0
 D8
 ~
 ~
-0 -1 7668
+0 -1 7668 0
+R M 0 7665 4 7665
+R M 0 7665 4 7665
+R M 0 7665 4 7665
+R M 0 7665 4 7665
+R M 0 7666 1 7665
+R D 0 7665 1 1
 S
 #7666
 Underneath the Platform~
@@ -528,7 +540,9 @@ objects than creatures of real nutritional value.
 D4
 ~
 ~
-128 -1 7665
+128 -1 7665 0
+R M 0 7667 1 7666
+R O 0 7665 1 7666
 S
 #7667
 Confinement Center~
@@ -543,7 +557,9 @@ sabotage and malignancy from invading their home.
 D3
 ~
 ~
-3 -1 7665
+3 -1 7665 0
+R M 0 7668 1 7667
+R D 0 7667 3 1
 S
 #7668
 Traversing the Wroshyr Branch~
@@ -557,11 +573,12 @@ the edges of the branch, making for difficult peripheral vision.
 D1
 ~
 ~
-0 -1 7669
+0 -1 7669 0
 D7
 ~
 ~
-0 -1 7665
+0 -1 7665 0
+R M 0 7669 1 7668
 S
 #7669
 Outskirts of Lyynark~
@@ -576,7 +593,7 @@ for non-arboreal beings and supplies.
 D3
 ~
 ~
-0 -1 7668
+0 -1 7668 0
 S
 #7670
 Entranceway of the Incom X-29 Space Barge $SN$~
@@ -588,11 +605,12 @@ leads north while to the south is the cargo bay.
 D0
 ~
 ~
-1 -1 7671
+1 -1 7671 0
 D2
 ~
 ~
-0 -1 7672
+0 -1 7672 0
+R D 0 7670 0 0
 S
 #7671
 Cockpit of the $SN$~
@@ -606,7 +624,8 @@ a tractor beam.
 D2
 ~
 ~
-67108865 -1 7670
+67108865 -1 7670 0
+R D 0 7671 2 0
 S
 #7672
 A Large Cargo Bay~
@@ -619,7 +638,7 @@ is the entrance.
 D0
 ~
 ~
-0 -1 7670
+0 -1 7670 0
 S
 #7700
 Center of a Bunker~
@@ -632,11 +651,15 @@ to protect those inside.
 D0
 ~
 ~
-0 -1 7701
+0 -1 7701 0
 D2
 ~
 ~
-0 -1 7702
+0 -1 7702 0
+R M 0 7700 1 7700
+R M 0 7701 1 7700
+R O 0 7701 1 7700
+R O 0 7702 1 7700
 > rand_prog 25~
 The room quakes form the bombardment.
 &RDuracrete rains down on your from overhead&W
@@ -654,7 +677,9 @@ it seems old and disrepaired.
 D2
 ~
 ~
-0 -1 7700
+0 -1 7700 0
+R M 0 7702 1 7701
+R O 0 7700 1 7701
 S
 #7702
 Rear of a Bunker~
@@ -667,11 +692,13 @@ moon.
 D0
 ~
 ~
-0 -1 7700
+0 -1 7700 0
 D2
 ~
 ~
-0 -1 7703
+0 -1 7703 0
+R M 0 7703 1 7702
+R O 0 7703 7702 7702
 > rand_prog 25~
 recho &RBOOOM! &WA you are showered with concrete from the ceiling.
 ~
@@ -716,7 +743,9 @@ the planet with their turolaser batteries.
 D2
 ~
 Turbolift to Upper Level~
-0 -1 7703
+0 -1 7703 0
+R M 0 7704 1 7704
+R O 0 7704 1 7704
 > rand_prog 25~
 recho The room suddenly quakes from the bombardment.
 recho &CA group of people screams out load.&W
@@ -740,42 +769,9 @@ Hostel~
 D1
 ~
 ~
-0 -1 7870
+0 -1 7870 0
 S
 #0
-
-
-#RESETS
-O 1 7655 1 7651
-O 1 7662 1 7662
-P 0 7661 1 0
-M 1 7664 1 7664
-O 1 7663 1 7664
-P 0 7664 1 0
-M 1 7665 4 7665
-M 1 7665 4 7665
-M 1 7665 4 7665
-M 1 7665 4 7665
-M 1 7666 1 7665
-D 0 7665 1 1
-M 1 7667 1 7666
-O 1 7665 1 7666
-M 1 7668 1 7667
-D 0 7667 3 1
-M 1 7669 1 7668
-D 0 7670 0 0
-D 0 7671 2 0
-M 1 7700 1 7700
-M 1 7701 1 7700
-O 1 7701 1 7700
-O 1 7702 1 7700
-M 0 7702 1 7701
-M 0 7704 1 7704
-O 0 7704 1 7704
-O 0 7700 1 7701
-M 0 7703 1 7702
-O 0 7703 7702 7702
-S
 
 
 #SHOPS

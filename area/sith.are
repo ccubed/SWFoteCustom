@@ -339,11 +339,14 @@ like a rutting Gran.
 D0
 ~
 ~
-0 -1 651
+0 -1 651 0
 D9
 ~
 ~
-0 -1 274
+0 -1 274 0
+R M 0 651 1 650
+  R E 1 651 1 18
+  R E 1 651 1 16
 S
 #651
 A Stolid, Black Repulsorlift~
@@ -359,7 +362,8 @@ utilitarian rubber slip guard.
 D2
 ~
 ~
-0 -1 650
+0 -1 650 0
+R O 0 652 1 651
 S
 #652
 A Stolid, Black Repulsorlift~
@@ -375,7 +379,8 @@ utilitarian rubber slip guard.
 D2
 ~
 ~
-0 -1 653
+0 -1 653 0
+R O 0 653 1 652
 S
 #653
 A Dismal, Stuffy Reception Hall~
@@ -393,7 +398,8 @@ her desk.
 D0
 ~
 ~
-0 -1 652
+0 -1 652 0
+R M 0 652 1 653
 S
 #654
 A Short, Ebony Buttressed Hall~
@@ -411,16 +417,18 @@ technologized existance.. Yeah, right.
 D0
 ~
 ~
-0 -1 653
+0 -1 653 0
 D2
 ~
 ~
-0 -1 665
+0 -1 665 0
 S
 #655
 Floating in a void~
 ~
 0 1073741828 1 0 0 0 17416
+R M 0 650 1 655
+R O 0 650 1 655
 S
 #656
 A Dusky, Insular Chamber~
@@ -440,11 +448,11 @@ water.
 D1
 ~
 ~
-0 -1 665
+0 -1 665 0
 D2
 ~
 ~
-0 -1 657
+0 -1 657 0
 S
 #657
 A Dusky, Insular Chamber~
@@ -464,15 +472,15 @@ water.
 D0
 ~
 ~
-0 -1 656
+0 -1 656 0
 D1
 ~
 ~
-0 -1 663
+0 -1 663 0
 D2
 ~
 ~
-0 -1 658
+0 -1 658 0
 S
 #658
 A Dusky, Insular Chamber~
@@ -492,11 +500,11 @@ water.
 D0
 ~
 ~
-0 -1 657
+0 -1 657 0
 D1
 ~
 ~
-0 -1 659
+0 -1 659 0
 S
 #659
 A Dusky, Insular Chamber~
@@ -516,19 +524,19 @@ water.
 D0
 ~
 ~
-0 -1 663
+0 -1 663 0
 D1
 ~
 ~
-0 -1 660
+0 -1 660 0
 D2
 ~
 ~
-0 -1 676
+0 -1 676 0
 D3
 ~
 ~
-0 -1 658
+0 -1 658 0
 S
 #660
 A Dusky, Insular Chamber~
@@ -548,11 +556,11 @@ water.
 D0
 ~
 ~
-0 -1 661
+0 -1 661 0
 D3
 ~
 ~
-0 -1 659
+0 -1 659 0
 S
 #661
 A Dusky, Insular Chamber~
@@ -572,19 +580,19 @@ water.
 D0
 ~
 ~
-0 -1 662
+0 -1 662 0
 D1
 ~
 ~
-0 -1 673
+0 -1 673 0
 D2
 ~
 ~
-0 -1 660
+0 -1 660 0
 D3
 ~
 ~
-0 -1 663
+0 -1 663 0
 S
 #662
 A Dusky, Insular Chamber~
@@ -604,11 +612,11 @@ water.
 D2
 ~
 ~
-0 -1 661
+0 -1 661 0
 D3
 ~
 ~
-0 -1 665
+0 -1 665 0
 S
 #663
 A Stone Slab in the Center of the Vaulted Chamber~
@@ -627,19 +635,20 @@ as big around as a man.
 D0
 ~
 ~
-0 -1 665
+0 -1 665 0
 D1
 ~
 ~
-0 -1 661
+0 -1 661 0
 D2
 ~
 ~
-0 -1 659
+0 -1 659 0
 D3
 ~
 ~
-0 -1 657
+0 -1 657 0
+R M 0 655 1 663
 > act_prog p begins to float in mid-air...~
 mpechoat $n _dch The chaotic energies swirl about you
 mpechoat $n _dch leaving you displaced.
@@ -670,19 +679,19 @@ water.
 D0
 ~
 ~
-0 -1 654
+0 -1 654 0
 D1
 ~
 ~
-0 -1 662
+0 -1 662 0
 D2
 ~
 ~
-0 -1 663
+0 -1 663 0
 D3
 ~
 ~
-0 -1 656
+0 -1 656 0
 S
 #666
 Nny's Humble Abode~
@@ -707,7 +716,7 @@ of its surface, clawing for escape.
 D2
 ~
 ~
-0 -1 107
+0 -1 107 0
 S
 #667
 In the Dusky Steeple~
@@ -723,6 +732,7 @@ your nostrils, obvious is the soil yet something fainter, dry and dusty as
 well makes its presence known.
 ~
 0 1090519053 1 0 0 0 17416
+R M 0 654 1 667
 > act_prog p feel 'injure' serpent~
 mpechoat $n _dch The chaotic energies pass over
 mpechoat $n _dch you, leaving you displaced.
@@ -752,12 +762,13 @@ Ya Tit!~
 D5
 ~
 ~
-0 -1 1050
+0 -1 1050 0
 S
 #670
 survivalofthefittest~
 ~
 0 1073741836 1 0 0 0 17416
+R M 0 653 1 670
 S
 #671
 completion 1~
@@ -766,7 +777,7 @@ completion 1~
 D0
 ~
 ~
-0 -1 672
+0 -1 672 0
 S
 #672
 Masters' Chambers~
@@ -775,7 +786,7 @@ Masters' Chambers~
 D2
 ~
 ~
-0 -1 671
+0 -1 671 0
 S
 #673
 A Compact Bunk Hall~
@@ -784,15 +795,15 @@ A Compact Bunk Hall~
 D0
 ~
 ~
-0 -1 674
+0 -1 674 0
 D2
 ~
 ~
-0 -1 675
+0 -1 675 0
 D3
 ~
 ~
-0 -1 661
+0 -1 661 0
 S
 #674
 A Utilitiarian Bunk House~
@@ -801,7 +812,7 @@ A Utilitiarian Bunk House~
 D2
 ~
 ~
-0 -1 673
+0 -1 673 0
 S
 #675
 A Utilitiarian Bunk House~
@@ -810,7 +821,7 @@ A Utilitiarian Bunk House~
 D0
 ~
 ~
-0 -1 673
+0 -1 673 0
 S
 #676
 A Sleek Silver Elevator~
@@ -822,7 +833,8 @@ there is only a small space in which you can stand comfortably.
 D0
 ~
 ~
-0 -1 659
+0 -1 659 0
+R O 0 656 1 676
 S
 #677
 Floating in a void~
@@ -831,7 +843,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 676
+0 -1 676 0
 S
 #678
 Floating in a void~
@@ -942,26 +954,10 @@ S
 Floating in a void~
 ~
 0 1073741828 1 0 0 0 17416
+R M 0 699 1 699
+R O 0 699 1 699
 S
 #0
-
-
-#RESETS
-M 1 699 1 699
-O 1 699 1 699
-O 1 652 1 651
-O 1 653 1 652
-M 1 652 1 653
-M 1 653 1 670
-M 1 654 1 667
-M 1 651 1 650
-E 1 651 1 18
-E 1 651 1 16
-M 1 650 1 655
-O 1 650 1 655
-M 1 655 1 663
-O 1 656 1 676
-S
 
 
 #SHOPS

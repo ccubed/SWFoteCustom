@@ -1036,7 +1036,8 @@ Note to new players. If you want to be authed, stay with grotans for a few secon
 D5
 ~
 ~
-0 -1 116
+0 -1 116 0
+R O 0 153 1 115
 > speech_prog build~
 mea $n &W&c-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 mea $n &g&WBuilding is an important part of this mud and, if you
@@ -1064,11 +1065,12 @@ rest of the ship.
 D0
 ~
 ~
-0 -1 117
+0 -1 117 0
 D4
 ~
 ~
-0 -1 115
+0 -1 115 0
+R M 0 131 1 116
 S
 #117
 A Brightly Lit Corridor~
@@ -1082,19 +1084,20 @@ west.
 D0
 ~
 ~
-0 -1 121
+0 -1 121 0
 D1
 ~
 ~
-0 -1 120
+0 -1 120 0
 D2
 ~
 ~
-0 -1 116
+0 -1 116 0
 D3
 ~
 ~
-0 -1 118
+0 -1 118 0
+R O 0 1080 1 117
 S
 #118
 A Brightly Lit Corridor~
@@ -1109,11 +1112,11 @@ at a dead end.
 D1
 ~
 ~
-0 -1 117
+0 -1 117 0
 D3
 ~
 ~
-0 -1 119
+0 -1 119 0
 S
 #119
 Dead End~
@@ -1126,7 +1129,7 @@ semicircular shape which almost urges you to turn back around.
 D1
 ~
 ~
-0 -1 118
+0 -1 118 0
 S
 #120
 A Brightly Lit Corridor~
@@ -1141,11 +1144,11 @@ west.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D3
 ~
 ~
-0 -1 117
+0 -1 117 0
 S
 #121
 Small Cabin~
@@ -1161,11 +1164,11 @@ ship.
 D2
 ~
 ~
-0 -1 117
+0 -1 117 0
 D4
 ~
 ~
-0 -1 122
+0 -1 122 0
 S
 #122
 In a Bunk~
@@ -1186,7 +1189,7 @@ somebody know.)
 D5
 ~
 ~
-0 -1 121
+0 -1 121 0
 S
 #123
 Turbolift~
@@ -1198,6 +1201,8 @@ the level you want and it takes you there. Next to the hatch there is a
 small "list" of available levels and built into it is a small microphone.
 ~
 0 12 1 0 0 0 3720
+R M 0 126 2 123
+R O 0 115 1 123
 E
 list lists level levels~
 &G&G[&W 1&G] &WBunk Level&w
@@ -1309,11 +1314,11 @@ Fleeing will cost you loss of experience.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D3
 ~
 ~
-0 -1 126
+0 -1 126 0
 S
 #126
 A Brightly Lit Corridor~
@@ -1328,11 +1333,11 @@ seeing all these great people will inspire new generations.
 D1
 ~
 ~
-0 -1 125
+0 -1 125 0
 D3
 ~
 ~
-0 -1 127
+0 -1 127 0
 S
 #127
 A Brightly Lit Corridor~
@@ -1347,19 +1352,19 @@ will inspire new generations.
 D0
 ~
 ~
-0 -1 128
+0 -1 128 0
 D1
 ~
 ~
-0 -1 126
+0 -1 126 0
 D2
 ~
 ~
-0 -1 129
+0 -1 129 0
 D3
 ~
 ~
-0 -1 130
+0 -1 130 0
 S
 #128
 General Rock's Office~
@@ -1374,7 +1379,9 @@ bone but thats just his appearance.
 D2
 ~
 ~
-0 -1 127
+0 -1 127 0
+R M 0 116 1 128
+R O 0 116 1 128
 S
 #129
 Weight Training Room~
@@ -1389,7 +1396,9 @@ sweat, but not as many as there are during peek hours.
 D0
 ~
 ~
-0 -1 127
+0 -1 127 0
+R M 0 117 1 129
+R O 0 117 1 129
 > speech_prog healme~
 mprestore $n 1000
 ~
@@ -1407,11 +1416,11 @@ to simply look at the passing stars.
 D0
 ~
 ~
-0 -1 131
+0 -1 131 0
 D1
 ~
 ~
-0 -1 127
+0 -1 127 0
 S
 #131
 Gymnasium~
@@ -1425,7 +1434,9 @@ there is plenty of space for everyone to share.
 D2
 ~
 ~
-0 -1 130
+0 -1 130 0
+R M 0 118 1 131
+  R E 1 135 1 12
 S
 #132
 Turret1~
@@ -1440,7 +1451,7 @@ sector.
 D0
 ~
 ~
-0 -1 130
+0 -1 130 0
 S
 #133
 Engineering Level~
@@ -1457,15 +1468,15 @@ controlled chaos, but it works.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 134
+0 -1 134 0
 D3
 ~
 ~
-0 -1 141
+0 -1 141 0
 S
 #134
 A Brightly Lit Corridor~
@@ -1478,19 +1489,19 @@ make sure everything runs accordingly.
 D0
 ~
 ~
-0 -1 135
+0 -1 135 0
 D1
 ~
 ~
-0 -1 137
+0 -1 137 0
 D2
 ~
 ~
-0 -1 136
+0 -1 136 0
 D3
 ~
 ~
-0 -1 133
+0 -1 133 0
 S
 #135
 Factory~
@@ -1505,7 +1516,7 @@ share their ideas and creations with others.
 D2
 ~
 ~
-0 -1 134
+0 -1 134 0
 S
 #136
 Factory~
@@ -1520,7 +1531,7 @@ tables left.
 D0
 ~
 ~
-0 -1 134
+0 -1 134 0
 S
 #137
 A Brightly Lit Corridor~
@@ -1536,19 +1547,19 @@ time.
 D0
 ~
 ~
-0 -1 138
+0 -1 138 0
 D1
 ~
 ~
-0 -1 140
+0 -1 140 0
 D2
 ~
 ~
-0 -1 139
+0 -1 139 0
 D3
 ~
 ~
-0 -1 134
+0 -1 134 0
 S
 #138
 Factory~
@@ -1559,7 +1570,7 @@ people are required to bring their own tools and equipment.
 D2
 ~
 ~
-0 -1 137
+0 -1 137 0
 S
 #139
 Factory~
@@ -1570,7 +1581,7 @@ people are required to bring their own tools and equipment.
 D0
 ~
 ~
-0 -1 137
+0 -1 137 0
 S
 #140
 Engineering Training~
@@ -1584,7 +1595,8 @@ ears that seems to come from every direction.
 D3
 ~
 ~
-0 -1 137
+0 -1 137 0
+R M 0 127 1 140
 S
 #141
 A Brightly Lit Corridor~
@@ -1598,19 +1610,19 @@ everything is running smoothly and occasionally repair something.
 D0
 ~
 ~
-0 -1 142
+0 -1 142 0
 D1
 ~
 ~
-0 -1 133
+0 -1 133 0
 D2
 ~
 ~
-0 -1 143
+0 -1 143 0
 D3
 ~
 ~
-0 -1 144
+0 -1 144 0
 S
 #142
 Factory~
@@ -1628,7 +1640,7 @@ instructions on how to build one yourself.
 D2
 ~
 ~
-0 -1 141
+0 -1 141 0
 S
 #143
 Factory~
@@ -1646,7 +1658,7 @@ built and instructions on how to build one yourself.
 D0
 ~
 ~
-0 -1 141
+0 -1 141 0
 S
 #144
 A Brightly Lit Corridor~
@@ -1659,19 +1671,19 @@ from the north and south where a few factory rooms are located.
 D0
 ~
 ~
-0 -1 146
+0 -1 146 0
 D1
 ~
 ~
-0 -1 141
+0 -1 141 0
 D2
 ~
 ~
-0 -1 145
+0 -1 145 0
 D3
 ~
 ~
-0 -1 147
+0 -1 147 0
 S
 #145
 Factory~
@@ -1686,7 +1698,7 @@ where people share their creations with others.
 D0
 ~
 ~
-0 -1 144
+0 -1 144 0
 S
 #146
 Factory~
@@ -1704,7 +1716,7 @@ on how to build one yourself.
 D2
 ~
 ~
-0 -1 144
+0 -1 144 0
 S
 #147
 Engineering Training~
@@ -1718,7 +1730,8 @@ ships flying.
 D1
 ~
 ~
-0 -1 144
+0 -1 144 0
+R M 0 128 1 147
 S
 #148
 Engine Room~
@@ -1732,11 +1745,11 @@ very loud here.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 149
+0 -1 149 0
 S
 #149
 Dimly Lit Corridor~
@@ -1750,19 +1763,19 @@ running.
 D0
 ~
 ~
-0 -1 150
+0 -1 150 0
 D1
 ~
 ~
-0 -1 152
+0 -1 152 0
 D2
 ~
 ~
-0 -1 151
+0 -1 151 0
 D3
 ~
 ~
-0 -1 148
+0 -1 148 0
 S
 #150
 Behind Some Pipes~
@@ -1776,7 +1789,7 @@ the pipes.
 D2
 ~
 ~
-0 -1 149
+0 -1 149 0
 S
 #151
 Behind Some Pipes~
@@ -1790,7 +1803,7 @@ pipes.
 D0
 ~
 ~
-0 -1 149
+0 -1 149 0
 S
 #152
 Dimly Lit Corridor~
@@ -1804,15 +1817,16 @@ technicians office.
 D1
 ~
 ~
-0 -1 154
+0 -1 154 0
 D2
 ~
 ~
-0 -1 153
+0 -1 153 0
 D3
 ~
 ~
-0 -1 149
+0 -1 149 0
+R M 0 120 1 152
 S
 #153
 Small Technicians Office~
@@ -1826,7 +1840,9 @@ Chief Engineer.
 D0
 ~
 ~
-0 -1 152
+0 -1 152 0
+R M 0 119 2 153
+R O 0 116 1 153
 > entry_prog 100~
 if level($n) >= 10
 mea $n You are whisked away to the newbie hanger.
@@ -1850,11 +1866,11 @@ modifications to the turret guns.
 D0
 ~
 ~
-0 -1 155
+0 -1 155 0
 D3
 ~
 ~
-0 -1 152
+0 -1 152 0
 S
 #155
 Behind Some Pipes~
@@ -1868,11 +1884,11 @@ northeast there is one of the many generators located on this level.
 D2
 ~
 ~
-0 -1 154
+0 -1 154 0
 D6
 ~
 ~
-0 -1 156
+0 -1 156 0
 S
 #156
 Behind a Generator~
@@ -1886,11 +1902,11 @@ large amount of dust found everywhere.
 D6
 ~
 ~
-0 -1 157
+0 -1 157 0
 D9
 ~
 ~
-0 -1 155
+0 -1 155 0
 S
 #157
 Behind an Engine~
@@ -1904,11 +1920,11 @@ starting up and it is becoming thick in the air.
 D0
 ~
 ~
-0 -1 158
+0 -1 158 0
 D9
 ~
 ~
-0 -1 156
+0 -1 156 0
 > rand_prog 100~
 mpdamage $n 20
 mpechoat $n You are choking on the dust in the air
@@ -1928,7 +1944,7 @@ belonging to some dangerous creature.
 D2
 ~
 ~
-0 -1 157
+0 -1 157 0
 S
 #159
 A Brightly Lit Corridor~
@@ -1942,15 +1958,15 @@ finds them.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 162
+0 -1 162 0
 D3
 ~
 ~
-0 -1 160
+0 -1 160 0
 S
 #160
 Commander Targ's Office~
@@ -1964,11 +1980,12 @@ strategies of 'Targs Reckoners'.
 D0
 ~
 ~
-0 -1 161
+0 -1 161 0
 D1
 ~
 ~
-0 -1 159
+0 -1 159 0
+R M 0 121 1 160
 > entry_prog 100~
 if level($n) >= 10
 mea $n You are whisked away to the newbie hanger.
@@ -1992,7 +2009,8 @@ effort. There's only one way to find out.
 D2
 ~
 ~
-0 -1 160
+0 -1 160 0
+R M 0 122 1 161
 > entry_prog 100~
 if level($n) >= 10
 mea $n You are whisked away to the newbie hanger.
@@ -2016,7 +2034,9 @@ effort.
 D3
 ~
 ~
-0 -1 159
+0 -1 159 0
+R M 0 123 1 162
+  R G 1 152 1
 S
 #163
 Computer Hub~
@@ -2030,15 +2050,15 @@ the different control panels easier.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D2
 ~
 ~
-0 -1 165
+0 -1 165 0
 D3
 ~
 ~
-0 -1 164
+0 -1 164 0
 S
 #164
 Computer Room~
@@ -2053,7 +2073,9 @@ the room where the Chief tech works on the mainframe.
 D1
 ~
 ~
-0 -1 163
+0 -1 163 0
+R M 0 124 1 164
+R O 0 120 1 164
 S
 #165
 A Brightly Lit Corridor~
@@ -2066,19 +2088,19 @@ workshops and to the south there are a few more.
 D0
 ~
 ~
-0 -1 163
+0 -1 163 0
 D1
 ~
 ~
-0 -1 167
+0 -1 167 0
 D2
 ~
 ~
-0 -1 166
+0 -1 166 0
 D3
 ~
 ~
-0 -1 168
+0 -1 168 0
 S
 #166
 A Brightly Lit Corridor~
@@ -2092,15 +2114,15 @@ some writing on it.
 D0
 ~
 ~
-0 -1 165
+0 -1 165 0
 D1
 ~
 ~
-0 -1 169
+0 -1 169 0
 D3
 ~
 ~
-0 -1 170
+0 -1 170 0
 E
 plaque~
 This painting "Storm" was created by Winslau Da'k. Its use of color is
@@ -2118,7 +2140,7 @@ your own.
 D3
 ~
 ~
-0 -1 165
+0 -1 165 0
 S
 #168
 Factory~
@@ -2131,7 +2153,7 @@ use your own.
 D1
 ~
 ~
-0 -1 165
+0 -1 165 0
 S
 #169
 Factory~
@@ -2145,7 +2167,7 @@ almost anything.
 D3
 ~
 ~
-0 -1 166
+0 -1 166 0
 S
 #170
 Factory~
@@ -2160,7 +2182,7 @@ on the farside of the room and you can see the entire system.
 D1
 ~
 ~
-0 -1 166
+0 -1 166 0
 S
 #171
 A Brightly Lit Corridor~
@@ -2175,19 +2197,19 @@ for the hanger to explore the galaxy.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 176
+0 -1 176 0
 D2
 ~
 ~
-0 -1 178
+0 -1 178 0
 D3
 ~
 ~
-0 -1 177
+0 -1 177 0
 S
 #172
 Study Level~
@@ -2201,11 +2223,11 @@ studying abilities.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D2
 ~
 ~
-0 -1 173
+0 -1 173 0
 S
 #173
 A Brightly Lit Corridor~
@@ -2219,11 +2241,11 @@ students can study other languages.
 D0
 ~
 ~
-0 -1 172
+0 -1 172 0
 D3
 ~
 ~
-0 -1 174
+0 -1 174 0
 S
 #174
 Language Lessons~
@@ -2243,7 +2265,8 @@ become adept at a language.
 D1
 ~
 ~
-0 -1 173
+0 -1 173 0
+R M 0 129 1 174
 S
 #175
 The Classroom~
@@ -2268,7 +2291,7 @@ you level.
 D3
 ~
 ~
-0 -1 173
+0 -1 173 0
 S
 #176
 Newbie 1 Shop~
@@ -2282,7 +2305,13 @@ of their customs as well.
 D3
 ~
 ~
-0 -1 171
+0 -1 171 0
+R M 0 132 1 176
+  R G 1 133 1
+  R G 1 134 1
+  R G 1 149 1
+  R G 1 150 1
+  R G 1 151 1
 S
 #177
 ATM Station~
@@ -2297,7 +2326,7 @@ one can see inside.
 D1
 ~
 ~
-0 -1 171
+0 -1 171 0
 S
 #178
 Newbie-1 Hanger~
@@ -2314,7 +2343,8 @@ and see what lies ahead of you in the galaxy.
 D0
 ~
 ~
-0 -1 171
+0 -1 171 0
+R M 0 150 1 178
 > speech_prog p I am ready~
 mpechoat $n Colonel Jentric salutes you, and escorts you onto a shuttle.
 mpechoat $n You sit down, and the shuttle lifts off.
@@ -2340,7 +2370,7 @@ a spot in a simulator.
 D3
 ~
 ~
-0 -1 180
+0 -1 180 0
 S
 #180
 Simulators~
@@ -2354,15 +2384,15 @@ the hum of many voices melded into one by volume.
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 179
+0 -1 179 0
 D3
 ~
 ~
-0 -1 181
+0 -1 181 0
 S
 #181
 Pilot Training~
@@ -2376,7 +2406,9 @@ perhaps he can help you.
 D1
 ~
 ~
-0 -1 180
+0 -1 180 0
+R M 0 125 1 181
+R O 0 116 1 181
 > greet_prog 100~
 if level($n) >= 10
 mea $n You are whisked away to the newbie hanger.
@@ -2449,11 +2481,11 @@ A Dimly Lit Corridor~
 D3
 ~
 ~
-0 -1 189
+0 -1 189 0
 D6
 ~
 ~
-0 -1 190
+0 -1 190 0
 S
 #189
 A Dimly Lit Corridor~
@@ -2462,11 +2494,11 @@ A Dimly Lit Corridor~
 D0
 ~
 ~
-0 -1 123
+0 -1 123 0
 D1
 ~
 ~
-0 -1 188
+0 -1 188 0
 S
 #190
 A Small Room~
@@ -2475,55 +2507,14 @@ A Small Room~
 D9
 ~
 ~
-0 -1 188
+0 -1 188 0
 S
 #0
 
 
-#RESETS
-M 1 1 1 2
-M 1 3 1 3
-M 1 2 1 6
-M 1 1247 1 1248
-M 1 119 1 1248
-M 1 131 1 116
-M 1 116 1 128
-O 1 116 1 128
-M 1 117 1 129
-O 1 117 1 129
-M 1 118 1 131
-E 1 135 1 12
-M 1 127 1 140
-M 1 128 1 147
-M 1 120 1 152
-M 1 121 1 160
-M 1 122 1 161
-M 1 123 1 162
-G 1 152 1
-M 1 124 1 164
-O 1 120 1 164
-M 1 129 1 174
-M 1 132 1 176
-G 1 133 1
-G 1 134 1
-G 1 149 1
-G 1 150 1
-G 1 151 1
-M 1 126 2 123
-O 1 115 1 123
-O 1 153 1 115
-M 1 150 1 178
-M 1 125 1 181
-O 1 116 1 181
-O 1 1080 1 117
-M 1 119 2 153
-O 1 116 1 153
-S
-
-
 #SHOPS
- 122    9  5  0  0  0   120  15         0 23 0  ; a Contraband Weapons Dealer
- 132    0  0  0  0  0   120  90         0 23 0  ; The Store Manager
+ 122    9  5  0  0  0   120  15         0 23    ; a Contraband Weapons Dealer
+ 132    0  0  0  0  0   120  90         0 23    ; The Store Manager
 0
 
 

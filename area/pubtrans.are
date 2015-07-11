@@ -87,6 +87,8 @@ A hiobj is here.~
 Floating in a void~
 ~
 0 4 1 0 0 0 25816
+R M 0 900 1 900
+R O 0 900 1 900
 S
 #901
 Entrance Ramp to the Serin Sol~
@@ -98,7 +100,7 @@ doesn't cost anything it does require a bit of patience.
 D4
 ~
 ~
-0 -1 902
+0 -1 902 0
 S
 #902
 A Bright Corridor~
@@ -110,15 +112,15 @@ bare and are painted dark grey.
 D0
 ~
 ~
-0 -1 903
+0 -1 903 0
 D2
 ~
 ~
-0 -1 905
+0 -1 905 0
 D5
 ~
 ~
-0 -1 901
+0 -1 901 0
 S
 #903
 A Bright Corridor~
@@ -130,15 +132,15 @@ bare and grey, very nondescript.
 D0
 ~
 ~
-0 -1 904
+0 -1 904 0
 D2
 ~
 ~
-0 -1 902
+0 -1 902 0
 D4
 ~
 ~
-0 -1 906
+0 -1 906 0
 S
 #904
 Before the Pilot's Station~
@@ -151,11 +153,11 @@ making stops at each planet.
 D0
 ~
 ~
-8388647 -1 907
+8388647 -1 907 0
 D2
 ~
 ~
-0 -1 903
+0 -1 903 0
 S
 #905
 A Small Sleeping Area~
@@ -168,7 +170,7 @@ them.
 D0
 ~
 ~
-0 -1 902
+0 -1 902 0
 S
 #906
 The Viewport Dining Area~
@@ -181,7 +183,11 @@ customers are mainly expected to stand.
 D5
 ~
 ~
-0 -1 903
+0 -1 903 0
+R M 0 901 1 906
+  R G 1 134 1
+  R G 1 133 1
+  R G 1 151 1
 S
 #907
 DO NOT USE THIS VNUM - SERIN SOL PILOT~
@@ -190,7 +196,7 @@ DO NOT USE THIS VNUM - SERIN SOL PILOT~
 D2
 ~
 ~
-0 -1 904
+0 -1 904 0
 S
 #908
 Entrance Ramp to the Serin Monir~
@@ -202,7 +208,7 @@ shuttle doesn't cost anything it does require some patience.
 D4
 ~
 ~
-0 -1 909
+0 -1 909 0
 S
 #909
 A Bright Corridor~
@@ -214,15 +220,15 @@ bare and painted dark grey.
 D0
 ~
 ~
-0 -1 910
+0 -1 910 0
 D2
 ~
 ~
-0 -1 912
+0 -1 912 0
 D5
 ~
 ~
-0 -1 908
+0 -1 908 0
 S
 #910
 A Bright Corridor~
@@ -234,15 +240,15 @@ a meal and a great view of space around you.
 D0
 ~
 ~
-0 -1 911
+0 -1 911 0
 D2
 ~
 ~
-0 -1 909
+0 -1 909 0
 D4
 ~
 ~
-0 -1 913
+0 -1 913 0
 S
 #911
 Before the Pilot's station~
@@ -255,11 +261,11 @@ stops at each planet.
 D0
 ~
 ~
-8388647 -1 914
+8388647 -1 914 0
 D2
 ~
 ~
-0 -1 910
+0 -1 910 0
 S
 #912
 A Small Sleeping Area~
@@ -272,7 +278,7 @@ them.
 D0
 ~
 ~
-0 -1 909
+0 -1 909 0
 S
 #913
 The Viewport Dining Area~
@@ -285,7 +291,11 @@ customers are mainly expected to stand.
 D5
 ~
 ~
-0 -1 910
+0 -1 910 0
+R M 0 901 2 913
+  R G 1 133 1
+  R G 1 134 1
+  R G 1 151 1
 S
 #914
 DO NOT USE THIS VNUM - SERIN MONIR PILOT~
@@ -294,7 +304,7 @@ DO NOT USE THIS VNUM - SERIN MONIR PILOT~
 D2
 ~
 ~
-0 -1 911
+0 -1 911 0
 S
 #915
 Entrance Ramp to the Serin Faun~
@@ -306,7 +316,7 @@ doesn't cost anything it does require a bit of patience.
 D4
 ~
 ~
-0 -1 916
+0 -1 916 0
 S
 #916
 A Bright Corridor~
@@ -318,15 +328,15 @@ bare and are painted dark grey.
 D0
 ~
 ~
-0 -1 917
+0 -1 917 0
 D2
 ~
 ~
-0 -1 918
+0 -1 918 0
 D5
 ~
 ~
-0 -1 915
+0 -1 915 0
 S
 #917
 A Bright Corridor~
@@ -338,15 +348,15 @@ bare and grey, very nondescript.
 D0
 ~
 ~
-0 -1 920
+0 -1 920 0
 D2
 ~
 ~
-0 -1 916
+0 -1 916 0
 D4
 ~
 ~
-0 -1 919
+0 -1 919 0
 S
 #918
 A Small Sleeping Area~
@@ -359,7 +369,7 @@ them.
 D0
 ~
 ~
-0 -1 916
+0 -1 916 0
 S
 #919
 The Viewport Dining Area~
@@ -376,7 +386,11 @@ customers are mainly expected to stand.
 D5
 ~
 ~
-0 -1 917
+0 -1 917 0
+R M 0 901 3 919
+  R G 1 151 1
+  R G 1 134 1
+  R G 1 133 1
 S
 #920
 Before the Pilot's Station~
@@ -389,11 +403,11 @@ throughout the galaxy making stops at each planet.
 D0
 ~
 ~
-8388647 -1 921
+8388647 -1 921 0
 D2
 ~
 ~
-0 -1 917
+0 -1 917 0
 S
 #921
 DO NOT USE THIS VNUM - SERIN FAU PILOT~
@@ -402,7 +416,7 @@ DO NOT USE THIS VNUM - SERIN FAU PILOT~
 D2
 ~
 ~
-0 -1 920
+0 -1 920 0
 S
 #922
 Entrance Ramp to the Serin Taw~
@@ -414,7 +428,7 @@ doesn't cost anything it does require a bit of patience.
 D4
 ~
 ~
-0 -1 923
+0 -1 923 0
 S
 #923
 A Bright Corridor~
@@ -426,15 +440,15 @@ bare and are painted dark grey.
 D0
 ~
 ~
-0 -1 924
+0 -1 924 0
 D2
 ~
 ~
-0 -1 925
+0 -1 925 0
 D5
 ~
 ~
-0 -1 922
+0 -1 922 0
 S
 #924
 A Bright Corridor~
@@ -446,15 +460,15 @@ bare and grey, very nondescript.
 D0
 ~
 ~
-0 -1 927
+0 -1 927 0
 D2
 ~
 ~
-0 -1 923
+0 -1 923 0
 D4
 ~
 ~
-0 -1 926
+0 -1 926 0
 S
 #925
 A Small Sleeping Area~
@@ -467,7 +481,7 @@ them.
 D0
 ~
 ~
-0 -1 923
+0 -1 923 0
 S
 #926
 The Viewport Dining Area~
@@ -480,7 +494,11 @@ are mainly expected to stand.
 D5
 ~
 ~
-0 -1 924
+0 -1 924 0
+R M 0 901 4 926
+  R G 1 151 1
+  R G 1 134 1
+  R G 1 133 1
 S
 #927
 Before the Pilot's Station~
@@ -493,11 +511,11 @@ making stops at each planet.
 D0
 ~
 ~
-8388647 -1 928
+8388647 -1 928 0
 D2
 ~
 ~
-0 -1 924
+0 -1 924 0
 S
 #928
 DO NOT USE THIS VNUM - SERIN TAW PILOT~
@@ -506,42 +524,20 @@ DO NOT USE THIS VNUM - SERIN TAW PILOT~
 D2
 ~
 ~
-0 -1 927
+0 -1 927 0
 S
 #999
 Floating in a void~
 ~
 0 4 1 0 0 0 25816
+R M 0 999 1 999
+R O 0 999 1 999
 S
 #0
 
 
-#RESETS
-M 1 900 1 900
-O 1 900 1 900
-M 1 999 1 999
-O 1 999 1 999
-M 1 901 1 906
-G 1 134 1
-G 1 133 1
-G 1 151 1
-M 1 901 2 913
-G 1 133 1
-G 1 134 1
-G 1 151 1
-M 1 901 3 919
-G 1 151 1
-G 1 134 1
-G 1 133 1
-M 1 901 4 926
-G 1 151 1
-G 1 134 1
-G 1 133 1
-S
-
-
 #SHOPS
- 901    0  0  0  0  0   125  10         1 23 0 ; A Service Droid
+ 901    0  0  0  0  0   125  10         1 23    ; A Service Droid
 0
 
 

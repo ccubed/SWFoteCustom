@@ -1,0 +1,54 @@
+# Sagas New Combat Documentation
+1: Vibro-blades, Scan
+5: Kick, throw, punch
+10: Blasters, Rescue
+15: Mount
+20: Force Pikes, Dodge, Unarmed
+25: Disarm, Second attack
+30: Bowcasters, Launchers
+35: Enhanced Damage, Dual Wield, grip
+50: snipe, bash, gouge
+65: Advanced Unarmed, Mine
+80: Third Attack
+100: Fourth Attack, Hitall
+150: Fifth Attack
+
+Prestige Classes
+Commando
+Martial Arts Master
+Vanguard
+
+Elite Classes
+Officer
+Ground Pounder
+Trainer
+
+Commando - Purpose: Combat Specialists Soldiers
+Just Hit - When using a weapon in close combat, your accuracy is increased by 15%
+vibro-blade Mastery - You are a master of vibro-blades and your damage and accuracy is increased by 10%. (Stacks)
+blaster mastery - you are a master of all kinds of blasters and your damage and accuracy is increased by 10%. (Stacks)
+
+Martial Arts Master - Purpose: Unarmed Commando
+Unarmed Mastery - You are a master of unarmed strikes and your accuracy and damage is increased by 10% when unarmed
+Always Armored - You are most safe without any armor at all. When not wearing any armor your AC is increased by 500.
+Specialized Training - You have been trained in a specialized form of martial arts. Your damage is increased by an additional 10%.
+
+Vanguard - Purpose: Tank
+Armored Shell - When wearing armor damage is reduced by 10%
+Bolster - Your AC is increased by 10%. This applies further damage reduction.
+Armor Mastery - All armor you wear increases your health by 500 and receives an additional 5% AC. This stacks with Bolster.
+
+Officer - Purpose: Provide planet wide bonuses (Meant for clans)
+Infonet - You provide information to your allies on the planet. All clanmates on the planet get +10% accuracy. Once an hour.
+Rally - All clanmates on the planet recover 10% health and move. This can only be used once an hour.
+Dropships - Dropships engage and allies land on the planet. All clanmates on the planet instantly receive a clan guard ally. This can only be used once an hour.
+
+Ground Pounder - Purpose: The ultimate combatant
+Toughness - Health permanelty increased by 1000
+Breakfast Nails - So tough you eat nails for breakfast. Damage of any kind from you increased by 10%.
+Dodge Mastery - Increase your chance to dodge by 15%
+
+Trainer - Purpose: Increased training of others
+Enhanced Teach - when you teach someone a combat skill, they will learn it to 99%
+Drill Sergeant - If you're in a group with others, their exp gain in combat is doubled
+Apprentice - You can pick someone to specifically study under you. This person receives an additional 10% to all combat xp gains and learns skills much faster

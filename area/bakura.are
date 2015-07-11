@@ -574,35 +574,35 @@ stairs leading up its side and into the tower itself.
 D0
 ~
 ~
-0 -1 18017
+0 -1 18017 0
 D1
 ~
 ~
-0 -1 18015
+0 -1 18015 0
 D2
 ~
 ~
-0 -1 18007
+0 -1 18007 0
 D4
 ~
 ~
-0 -1 18006
+0 -1 18006 0
 D6
 ~
 ~
-0 -1 18004
+0 -1 18004 0
 D7
 ~
 ~
-0 -1 18002
+0 -1 18002 0
 D8
 ~
 ~
-0 -1 18005
+0 -1 18005 0
 D9
 ~
 ~
-0 -1 18003
+0 -1 18003 0
 S
 #18002
 Landing Pad 2~
@@ -616,7 +616,7 @@ give you a slight wave.
 D8
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 S
 #18003
 Landing Pad 4~
@@ -631,7 +631,7 @@ A bus stop is also here.
 D6
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 S
 #18004
 Landing Pad 1~
@@ -645,7 +645,7 @@ give you a slight wave.
 D9
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 S
 #18005
 Landing Pad 3~
@@ -659,7 +659,9 @@ various states of repair.
 D7
 ~
 ~
-0 -1 18001
+0 -1 18001 0
+R M 0 18002 1 18005
+R O 0 18002 1 18005
 S
 #18006
 Salis D'aar Spaceport Tower~
@@ -673,7 +675,11 @@ the planet itself.
 D5
 ~
 ~
-0 -1 18001
+0 -1 18001 0
+R M 0 18003 4 18006
+R M 0 18003 4 18006
+R M 0 18003 4 18006
+R M 0 18003 4 18006
 > rand_prog 70~
 mpecho One of the controllers looks up, and speaks into his mike to a
 mpecho incoming ship. "Independent Vessel Garrets Gold, you are cleared
@@ -695,11 +701,11 @@ D'aar Spaceport, where the technicians and engineers hang out after hours
 D0
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 D2
 ~
 ~
-0 -1 18008
+0 -1 18008 0
 S
 #18008
 Salis D'aar Spaceport Cantina Entrance~
@@ -714,11 +720,11 @@ several R2 droids scurry about, serving drinks and delivering trays.
 D0
 ~
 ~
-0 -1 18007
+0 -1 18007 0
 D2
 ~
 ~
-0 -1 18009
+0 -1 18009 0
 S
 #18009
 Salis D'aar Spaceport Cantina Bar~
@@ -733,19 +739,26 @@ grill to the south.
 D0
 ~
 ~
-0 -1 18008
+0 -1 18008 0
 D1
 ~
 ~
-0 -1 18010
+0 -1 18010 0
 D2
 ~
 ~
-0 -1 18012
+0 -1 18012 0
 D3
 ~
 ~
-0 -1 18011
+0 -1 18011 0
+R M 0 18004 1 18009
+  R G 1 9006 1
+  R G 1 7510 1
+  R G 1 1146 1
+  R G 1 18005 1
+R O 0 18003 1 18009
+R O 0 18004 1 18009
 S
 #18010
 Private Booth~
@@ -757,7 +770,8 @@ for private viewings.
 D3
 ~
 ~
-0 -1 18009
+0 -1 18009 0
+R O 0 1856 1 18010
 S
 #18011
 Private Booth~
@@ -769,7 +783,8 @@ for private viewings.
 D1
 ~
 ~
-0 -1 18009
+0 -1 18009 0
+R O 0 1856 1 18011
 S
 #18012
 Salis D'aar Spaceport Cantina Grill~
@@ -782,15 +797,20 @@ for the few patrons that wish to sit this close and risk grease-splatters.
 D0
 ~
 ~
-0 -1 18009
+0 -1 18009 0
 D1
 ~
 ~
-0 -1 18014
+0 -1 18014 0
 D3
 ~
 ~
-0 -1 18013
+0 -1 18013 0
+R M 0 18005 1 18012
+  R G 1 18008 1
+  R G 1 18008 1
+R O 0 18006 1 18012
+R O 0 18007 1 18012
 S
 #18013
 Private Booth~
@@ -802,7 +822,8 @@ for private viewings.
 D1
 ~
 ~
-0 -1 18012
+0 -1 18012 0
+R O 0 1856 1 18013
 S
 #18014
 Private Booth~
@@ -814,7 +835,8 @@ for private viewings.
 D3
 ~
 ~
-0 -1 18012
+0 -1 18012 0
+R O 0 1856 1 18014
 S
 #18015
 Shipyard Junkyard~
@@ -827,11 +849,11 @@ of a pile of parts and across your shoe.
 D1
 ~
 ~
-2056 -1 18016
+2056 -1 18016 0
 D3
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 S
 #18016
 Black Market Shipyard~
@@ -845,7 +867,8 @@ To see a listing of Black Market ships, type 'buyship'.
 D3
 ~
 ~
-0 -1 18015
+0 -1 18015 0
+R M 0 18006 1 18016
 S
 #18017
 Salis D'aar Spaceport Road~
@@ -857,11 +880,11 @@ golden in the light. Small beacons mark the roadway to each side.
 D0
 ~
 ~
-0 -1 18018
+0 -1 18018 0
 D2
 ~
 ~
-0 -1 18001
+0 -1 18001 0
 S
 #18018
 Salis D'aar Spaceport Road~
@@ -874,11 +897,11 @@ view indeed. Small beacons mark the roadway to each side.
 D0
 ~
 ~
-0 -1 18019
+0 -1 18019 0
 D2
 ~
 ~
-0 -1 18017
+0 -1 18017 0
 S
 #18019
 Salis D'aar Spaceport Road~
@@ -891,11 +914,11 @@ the city and the factory are blocked by the valley sides now.
 D0
 ~
 ~
-0 -1 18020
+0 -1 18020 0
 D2
 ~
 ~
-0 -1 18018
+0 -1 18018 0
 S
 #18020
 Fork in the Road~
@@ -909,15 +932,15 @@ by trees.
 D1
 ~
 ~
-0 -1 18022
+0 -1 18022 0
 D2
 ~
 ~
-0 -1 18019
+0 -1 18019 0
 D3
 ~
 ~
-0 -1 18021
+0 -1 18021 0
 S
 #18021
 Taslorian West Road~
@@ -931,11 +954,11 @@ seat of the Imperial presence in this system.
 D1
 ~
 ~
-0 -1 18020
+0 -1 18020 0
 D3
 ~
 ~
-0 -1 18027
+0 -1 18027 0
 S
 #18022
 Tyers East Road~
@@ -947,11 +970,11 @@ namana trees with silverish leaves.
 D3
 ~
 ~
-0 -1 18020
+0 -1 18020 0
 D6
 ~
 ~
-0 -1 18023
+0 -1 18023 0
 S
 #18023
 Tyers East Road~
@@ -963,11 +986,11 @@ the road, the road wide enough for two repulsorcars to pass side by side
 D0
 ~
 ~
-0 -1 18024
+0 -1 18024 0
 D9
 ~
 ~
-0 -1 18022
+0 -1 18022 0
 S
 #18024
 Before the Tyers Repulsorlift Factory~
@@ -980,11 +1003,11 @@ thirty feet away from the building.
 D0
 ~
 ~
-0 -1 18025
+0 -1 18025 0
 D2
 ~
 ~
-0 -1 18023
+0 -1 18023 0
 S
 #18025
 Factory Showroom~
@@ -1000,11 +1023,13 @@ Several models sit on the floor, for the admiration of the masses.
 D1
 ~
 ~
-0 -1 18026
+0 -1 18026 0
 D2
 ~
 ~
-0 -1 18024
+0 -1 18024 0
+R O 0 18009 1 18025
+R O 0 18010 1 18025
 S
 #18026
 Factory Floor~
@@ -1017,7 +1042,7 @@ to use it.
 D3
 ~
 ~
-0 -1 18025
+0 -1 18025 0
 S
 #18027
 Taslorian West Road~
@@ -1030,11 +1055,11 @@ capital city.
 D1
 ~
 ~
-0 -1 18021
+0 -1 18021 0
 D3
 ~
 ~
-0 -1 18028
+0 -1 18028 0
 S
 #18028
 Taslorian West Road~
@@ -1051,15 +1076,15 @@ duracrete and durasteel hexagonal structure of the Imperial Garrison.
 D1
 ~
 ~
-0 -1 18027
+0 -1 18027 0
 D2
 ~
 ~
-0 -1 18031
+0 -1 18031 0
 D3
 ~
 ~
-0 -1 18029
+0 -1 18029 0
 S
 #18029
 Taslorian West Road~
@@ -1072,11 +1097,12 @@ capital city.
 D1
 ~
 ~
-0 -1 18028
+0 -1 18028 0
 D3
 ~
 ~
-0 -1 18030
+0 -1 18030 0
+R M 0 18007 1 18029
 S
 #18030
 Archway Entrance to Salis D'aar~
@@ -1088,11 +1114,11 @@ the words. "Imperial Colony Bakura, in the memory of our Emperor Palpatine"
 D1
 ~
 ~
-0 -1 18029
+0 -1 18029 0
 D3
 ~
 ~
-0 -1 18032
+0 -1 18032 0
 S
 #18031
 Imperial Garrison Road~
@@ -1101,7 +1127,7 @@ Imperial Garrison Road~
 D0
 ~
 ~
-0 -1 18028
+0 -1 18028 0
 S
 #18032
 Promenade Main Street~
@@ -1116,11 +1142,11 @@ They must really love their city.
 D1
 ~
 ~
-0 -1 18030
+0 -1 18030 0
 D3
 ~
 ~
-0 -1 18033
+0 -1 18033 0
 S
 #18033
 Promenade Main Street~
@@ -1133,19 +1159,20 @@ erupts from under the hood, and a loud curse comes from it.
 D0
 ~
 ~
-0 -1 18039
+0 -1 18039 0
 D1
 ~
 ~
-0 -1 18032
+0 -1 18032 0
 D2
 ~
 ~
-0 -1 18038
+0 -1 18038 0
 D3
 ~
 ~
-0 -1 18034
+0 -1 18034 0
+R M 0 18008 7 18033
 S
 #18034
 Promenade Main Street~
@@ -1157,19 +1184,19 @@ street, one proclaiming a weapon store, the other, a armorer.
 D0
 ~
 ~
-0 -1 18047
+0 -1 18047 0
 D1
 ~
 ~
-0 -1 18033
+0 -1 18033 0
 D2
 ~
 ~
-0 -1 18046
+0 -1 18046 0
 D3
 ~
 ~
-0 -1 18035
+0 -1 18035 0
 S
 #18035
 Promenade Main Street~
@@ -1181,19 +1208,19 @@ street, one proclaiming a general services store, the other, a fine eatery.
 D0
 ~
 ~
-0 -1 18048
+0 -1 18048 0
 D1
 ~
 ~
-0 -1 18034
+0 -1 18034 0
 D2
 ~
 ~
-0 -1 18049
+0 -1 18049 0
 D3
 ~
 ~
-0 -1 18036
+0 -1 18036 0
 S
 #18036
 Promenade City Square~
@@ -1205,31 +1232,31 @@ of the Bakura Imperial Senate Complex.
 D0
 ~
 ~
-0 -1 18041
+0 -1 18041 0
 D1
 ~
 ~
-0 -1 18035
+0 -1 18035 0
 D2
 ~
 ~
-0 -1 18040
+0 -1 18040 0
 D3
 ~
 ~
-0 -1 18037
+0 -1 18037 0
 D7
 ~
 ~
-0 -1 18050
+0 -1 18050 0
 D8
 ~
 ~
-0 -1 18104
+0 -1 18104 0
 D9
 ~
 ~
-0 -1 18103
+0 -1 18103 0
 S
 #18037
 Promenade Main Street~
@@ -1242,19 +1269,20 @@ trees grow in ordered rows along the sidwalks.
 D0
 ~
 ~
-0 -1 18051
+0 -1 18051 0
 D1
 ~
 ~
-0 -1 18036
+0 -1 18036 0
 D2
 ~
 ~
-0 -1 18052
+0 -1 18052 0
 D3
 ~
 ~
-0 -1 18072
+0 -1 18072 0
+R M 0 18007 2 18037
 S
 #18038
 Second Street~
@@ -1265,11 +1293,18 @@ constructed of the smoky and rose quartzes. A small workshop sits to the west.
 D0
 ~
 ~
-0 -1 18033
+0 -1 18033 0
 D3
 ~
 ~
-0 -1 18042
+0 -1 18042 0
+R M 0 18008 7 18038
+R M 0 18008 7 18038
+R M 0 18008 7 18038
+R M 0 18008 7 18038
+R M 0 18008 7 18038
+R M 0 18008 7 18038
+R M 0 18008 7 18038
 S
 #18039
 Second Street~
@@ -1280,11 +1315,11 @@ constructed of the smoky and rose quartzes. A small alley runs to the east.
 D1
 ~
 ~
-0 -1 18043
+0 -1 18043 0
 D2
 ~
 ~
-0 -1 18033
+0 -1 18033 0
 S
 #18040
 First Street~
@@ -1296,11 +1331,11 @@ heading towards the Namana fruit processing plant and groves.
 D0
 ~
 ~
-0 -1 18036
+0 -1 18036 0
 D2
 ~
 ~
-0 -1 18083
+0 -1 18083 0
 S
 #18041
 First Street~
@@ -1312,11 +1347,11 @@ leading to the Capriston Residence.
 D0
 ~
 ~
-0 -1 18106
+0 -1 18106 0
 D2
 ~
 ~
-0 -1 18036
+0 -1 18036 0
 S
 #18042
 Small, Hole in the Wall Workshop~
@@ -1327,7 +1362,7 @@ wrecked and stripped beyond use.
 D1
 ~
 ~
-0 -1 18038
+0 -1 18038 0
 S
 #18043
 Small Dark Alley~
@@ -1340,7 +1375,7 @@ A small slit is cut into the door, for people to look out.
 D3
 ~
 ~
-0 -1 18039
+0 -1 18039 0
 > speech_prog :Emperor's Bones~
 mpecho the door opens suddenly, and a hand lashes out and grabs you, dragging
 mpecho inside the door. It slams shut behind you.
@@ -1358,7 +1393,8 @@ weapons clenched.
 D2
 ~
 ~
-0 -1 18045
+0 -1 18045 0
+R M 0 18009 1 18044
 S
 #18045
 Smugglers Antechamber~
@@ -1369,11 +1405,11 @@ The shadows are thick on each side of you.
 D0
 ~
 ~
-0 -1 18044
+0 -1 18044 0
 D2
 ~
 ~
-0 -1 18043
+0 -1 18043 0
 S
 #18046
 Kravens Imperial Armory~
@@ -1385,7 +1421,13 @@ bins. A table in the back is cluttered with the armor-makers paraphenalia.
 D0
 ~
 ~
-0 -1 18034
+0 -1 18034 0
+R M 0 18010 1 18046
+  R G 1 1865 1
+  R G 1 1862 1
+  R G 1 1861 1
+  R G 1 1860 1
+  R G 1 1859 1
 S
 #18047
 Efficency Blaster Builders~
@@ -1396,7 +1438,11 @@ of blasters and weapons line the walls, in racks. A gun-nuts paradise
 D2
 ~
 ~
-0 -1 18034
+0 -1 18034 0
+R M 0 18011 1 18047
+  R G 1 60 1
+  R G 1 54 1
+  R G 1 50 1
 S
 #18048
 Biggs' General Store~
@@ -1407,7 +1453,19 @@ It almost seems to be a subsidary of Marshall's General store!
 D2
 ~
 ~
-0 -1 18035
+0 -1 18035 0
+R M 0 18012 1 18048
+  R G 1 65 1
+  R G 1 291 1
+  R G 1 290 1
+  R G 1 288 1
+  R G 1 138 1
+  R G 1 297 1
+  R G 1 296 1
+  R G 1 289 1
+  R G 1 4505 1
+R O 0 133 1 18048
+R O 0 134 1 18048
 S
 #18049
 Jenson's Diner~
@@ -1425,7 +1483,12 @@ more intimate group of two or three.
 D0
 ~
 ~
-0 -1 18035
+0 -1 18035 0
+R M 0 18013 1 18049
+  R G 1 18005 1
+  R G 1 7508 1
+  R G 1 201 1
+  R G 1 9005 1
 > rand_prog 40~
 mpecho Someone jostles your elbow as you go past them, and a letter falls into
 mpecho your pocket. It reads "The password to the Smuggler is Emperors Bones"
@@ -1442,7 +1505,7 @@ people places to sit while they make their transactions.
 D8
 ~
 ~
-0 -1 18036
+0 -1 18036 0
 S
 #18051
 Bakuran Hilton Hotel~
@@ -1454,7 +1517,7 @@ get one of those fancy chocolates on your pillows!
 D2
 ~
 ~
-0 -1 18037
+0 -1 18037 0
 S
 #18052
 Bakura Skylight Apartments~
@@ -1469,11 +1532,11 @@ person as they enter the complex. They protect their people well.
 D0
 ~
 ~
-0 -1 18037
+0 -1 18037 0
 D2
 ~
 ~
-0 -1 18053
+0 -1 18053 0
 S
 #18053
 Bakura Skylights Turbolift~
@@ -1524,19 +1587,19 @@ carpets from your footprints.
 D0
 ~
 ~
-0 -1 18055
+0 -1 18055 0
 D1
 ~
 ~
-0 -1 18066
+0 -1 18066 0
 D2
 ~
 ~
-0 -1 18053
+0 -1 18053 0
 D3
 ~
 ~
-0 -1 18060
+0 -1 18060 0
 S
 #18055
 1st Floor, Hallway~
@@ -1549,15 +1612,15 @@ carpets from your footprints.
 D1
 ~
 ~
-0 -1 18067
+0 -1 18067 0
 D2
 ~
 ~
-0 -1 18054
+0 -1 18054 0
 D3
 ~
 ~
-0 -1 18061
+0 -1 18061 0
 S
 #18056
 2nd Floor, Hallway~
@@ -1570,19 +1633,19 @@ carpets from your footprints.
 D0
 ~
 ~
-0 -1 18057
+0 -1 18057 0
 D1
 ~
 ~
-0 -1 18068
+0 -1 18068 0
 D2
 ~
 ~
-0 -1 18053
+0 -1 18053 0
 D3
 ~
 ~
-0 -1 18062
+0 -1 18062 0
 S
 #18057
 2nd Floor, Hallway~
@@ -1595,15 +1658,15 @@ carpets from your footprints.
 D1
 ~
 ~
-0 -1 18069
+0 -1 18069 0
 D2
 ~
 ~
-0 -1 18056
+0 -1 18056 0
 D3
 ~
 ~
-0 -1 18063
+0 -1 18063 0
 S
 #18058
 3rd Floor, Hallway~
@@ -1616,19 +1679,19 @@ carpets from your footprints.
 D0
 ~
 ~
-0 -1 18059
+0 -1 18059 0
 D1
 ~
 ~
-0 -1 18070
+0 -1 18070 0
 D2
 ~
 ~
-0 -1 18053
+0 -1 18053 0
 D3
 ~
 ~
-0 -1 18064
+0 -1 18064 0
 S
 #18059
 3rd Floor, Hallway~
@@ -1641,15 +1704,15 @@ carpets from your footprints.
 D1
 ~
 ~
-0 -1 18071
+0 -1 18071 0
 D2
 ~
 ~
-0 -1 18058
+0 -1 18058 0
 D3
 ~
 ~
-0 -1 18065
+0 -1 18065 0
 S
 #18060
 Empty Bakuran Apartment~
@@ -1661,7 +1724,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18054
+0 -1 18054 0
+R O 0 18011 1 18060
+R O 0 18012 1 18060
+R O 0 18013 1 18060
 S
 #18061
 Empty Bakuran Apartment~
@@ -1673,7 +1739,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18055
+0 -1 18055 0
+R O 0 18011 1 18061
+R O 0 18012 1 18061
+R O 0 18013 1 18061
 S
 #18062
 Empty Bakuran Apartment~
@@ -1685,7 +1754,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18056
+0 -1 18056 0
+R O 0 18011 1 18062
+R O 0 18012 1 18062
+R O 0 18013 1 18062
 S
 #18063
 Empty Bakuran Apartment~
@@ -1697,7 +1769,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18057
+0 -1 18057 0
+R O 0 18011 1 18063
+R O 0 18012 1 18063
+R O 0 18013 1 18063
 S
 #18064
 Empty Bakuran Apartment~
@@ -1709,7 +1784,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18058
+0 -1 18058 0
+R O 0 18011 1 18064
+R O 0 18012 1 18064
+R O 0 18013 1 18064
 S
 #18065
 Empty Bakuran Apartment~
@@ -1721,7 +1799,10 @@ around the apartment, and from the balcony, you can see the Bakur Complex.
 D1
 ~
 ~
-0 -1 18059
+0 -1 18059 0
+R O 0 18011 1 18065
+R O 0 18012 1 18065
+R O 0 18013 1 18065
 S
 #18066
 Imperial Citizens Apt~
@@ -1734,7 +1815,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18054
+0 -1 18054 0
+R O 0 18011 1 18066
+R O 0 18012 1 18066
+R O 0 18013 1 18066
 S
 #18067
 Empty Bakuran Apartment~
@@ -1747,7 +1831,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18055
+0 -1 18055 0
+R O 0 18011 1 18067
+R O 0 18012 1 18067
+R O 0 18013 1 18067
 S
 #18068
 Empty Bakuran Apartment~
@@ -1760,7 +1847,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18056
+0 -1 18056 0
+R O 0 18011 1 18068
+R O 0 18012 1 18068
+R O 0 18013 1 18068
 S
 #18069
 Empty Bakuran Apartment~
@@ -1773,7 +1863,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18057
+0 -1 18057 0
+R O 0 18011 1 18069
+R O 0 18012 1 18069
+R O 0 18013 1 18069
 S
 #18070
 Empty Bakuran Apartment~
@@ -1786,7 +1879,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18058
+0 -1 18058 0
+R O 0 18011 1 18070
+R O 0 18012 1 18070
+R O 0 18013 1 18070
 S
 #18071
 Empty Bakuran Apartment~
@@ -1799,7 +1895,10 @@ and the Salis D'aar Spaceport.
 D3
 ~
 ~
-0 -1 18059
+0 -1 18059 0
+R O 0 18011 1 18071
+R O 0 18012 1 18071
+R O 0 18013 1 18071
 S
 #18072
 Bakura Imperial Senate Complex Guard Post~
@@ -1812,11 +1911,13 @@ Ahead, you see what looks like a guard post, their weapons at easy stand-by.
 D1
 ~
 ~
-0 -1 18037
+0 -1 18037 0
 D3
 ~
 ~
-0 -1 18073
+0 -1 18073 0
+R M 0 18014 2 18072
+R M 0 18014 2 18072
 S
 #18073
 Bakura Imperial Senate Complex Plaza~
@@ -1832,19 +1933,19 @@ above the plaza.
 D0
 ~
 ~
-0 -1 18074
+0 -1 18074 0
 D1
 ~
 ~
-0 -1 18072
+0 -1 18072 0
 D2
 ~
 ~
-0 -1 18075
+0 -1 18075 0
 D3
 ~
 ~
-0 -1 18077
+0 -1 18077 0
 S
 #18074
 Bakura Senate Antechamber~
@@ -1857,11 +1958,13 @@ storage, each cubby coded with a rapid-scan palmlock.
 D0
 ~
 ~
-0 -1 18082
+0 -1 18082 0
 D2
 ~
 ~
-0 -1 18073
+0 -1 18073 0
+R M 0 18014 6 18074
+R M 0 18014 6 18074
 S
 #18075
 Senate Hallway~
@@ -1874,19 +1977,19 @@ for the same space.
 D0
 ~
 ~
-0 -1 18073
+0 -1 18073 0
 D1
 ~
 ~
-0 -1 18079
+0 -1 18079 0
 D2
 ~
 ~
-0 -1 18076
+0 -1 18076 0
 D3
 ~
 ~
-0 -1 18080
+0 -1 18080 0
 S
 #18076
 Senate Hallway~
@@ -1899,11 +2002,11 @@ for the same space.
 D0
 ~
 ~
-0 -1 18075
+0 -1 18075 0
 D1
 ~
 ~
-0 -1 18081
+0 -1 18081 0
 S
 #18077
 Senate Museum Antechamber~
@@ -1916,11 +2019,13 @@ depicting Imperial leaders.
 D1
 ~
 ~
-0 -1 18073
+0 -1 18073 0
 D3
 ~
 ~
-0 -1 18078
+0 -1 18078 0
+R M 0 18014 4 18077
+R M 0 18014 4 18077
 S
 #18078
 Senate Museum~
@@ -1934,7 +2039,8 @@ myriad of walls and pedastles in the chamber. It is a awe inspiring sight.
 D1
 ~
 ~
-0 -1 18077
+0 -1 18077 0
+R O 0 18014 1 18078
 S
 #18079
 Public Office, Gaeriel Capriston~
@@ -1948,7 +2054,9 @@ downtown Salis D'aar.
 D3
 ~
 ~
-0 -1 18075
+0 -1 18075 0
+R M 0 18015 1 18079
+R O 0 18015 1 18079
 S
 #18080
 Public Office, Pter Thanas~
@@ -1961,7 +2069,9 @@ decoration except one example of the Imperial Symbol, on the north wall.
 D1
 ~
 ~
-0 -1 18075
+0 -1 18075 0
+R M 0 18016 1 18080
+R O 0 18016 1 18080
 S
 #18081
 Bakur Complex Private Landing Pad~
@@ -1973,7 +2083,7 @@ nearly spotless.
 D3
 ~
 ~
-0 -1 18076
+0 -1 18076 0
 S
 #18082
 Bakuran Senate Chamber~
@@ -1992,7 +2102,8 @@ the latest news from Imperial Center.
 D2
 ~
 ~
-0 -1 18074
+0 -1 18074 0
+R M 0 18017 1 18082
 S
 #18083
 First Street~
@@ -2003,11 +2114,11 @@ of the pale green marble and smoky crystal. The road continues to the south.
 D0
 ~
 ~
-0 -1 18040
+0 -1 18040 0
 D2
 ~
 ~
-0 -1 18084
+0 -1 18084 0
 S
 #18084
 First Street~
@@ -2018,11 +2129,11 @@ of the pale green marble and smoky crystal. The road continues to the south.
 D0
 ~
 ~
-0 -1 18083
+0 -1 18083 0
 D2
 ~
 ~
-0 -1 18085
+0 -1 18085 0
 S
 #18085
 Fork in the Road~
@@ -2035,15 +2146,15 @@ factory where the fruit is processed.
 D0
 ~
 ~
-0 -1 18084
+0 -1 18084 0
 D1
 ~
 ~
-0 -1 18086
+0 -1 18086 0
 D3
 ~
 ~
-0 -1 18100
+0 -1 18100 0
 S
 #18086
 Dyer's Orchard Road~
@@ -2056,11 +2167,11 @@ in full bloom year round.
 D1
 ~
 ~
-0 -1 18087
+0 -1 18087 0
 D3
 ~
 ~
-0 -1 18085
+0 -1 18085 0
 S
 #18087
 Dyer's Orchard Road~
@@ -2073,11 +2184,11 @@ in full bloom year round.
 D1
 ~
 ~
-0 -1 18088
+0 -1 18088 0
 D3
 ~
 ~
-0 -1 18086
+0 -1 18086 0
 S
 #18088
 Dyer's Namana Fruit Orchard~
@@ -2090,15 +2201,15 @@ orderly rows, and droids drift through them, tending to them.
 D1
 ~
 ~
-0 -1 18089
+0 -1 18089 0
 D2
 ~
 ~
-0 -1 18093
+0 -1 18093 0
 D3
 ~
 ~
-0 -1 18087
+0 -1 18087 0
 S
 #18089
 Dyer's Namana Fruit Orchard~
@@ -2110,15 +2221,15 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D1
 ~
 ~
-0 -1 18090
+0 -1 18090 0
 D2
 ~
 ~
-0 -1 18092
+0 -1 18092 0
 D3
 ~
 ~
-0 -1 18088
+0 -1 18088 0
 S
 #18090
 Dyer's Namana Fruit Orchard~
@@ -2130,11 +2241,11 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D2
 ~
 ~
-0 -1 18091
+0 -1 18091 0
 D3
 ~
 ~
-0 -1 18089
+0 -1 18089 0
 S
 #18091
 Dyer's Namana Fruit Orchard~
@@ -2146,15 +2257,15 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D0
 ~
 ~
-0 -1 18090
+0 -1 18090 0
 D2
 ~
 ~
-0 -1 18096
+0 -1 18096 0
 D3
 ~
 ~
-0 -1 18092
+0 -1 18092 0
 S
 #18092
 Dyer's Namana Fruit Orchard Center~
@@ -2169,23 +2280,23 @@ is easily ten foot in diameter and a hundred foot tall. Maybe you can climb it?
 D0
 ~
 ~
-0 -1 18089
+0 -1 18089 0
 D1
 ~
 ~
-0 -1 18091
+0 -1 18091 0
 D2
 ~
 ~
-0 -1 18095
+0 -1 18095 0
 D3
 ~
 ~
-0 -1 18093
+0 -1 18093 0
 D4
 ~
 ~
-65664 -1 18097
+65664 -1 18097 0
 S
 #18093
 Dyer's Namana Fruit Orchard~
@@ -2197,15 +2308,15 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D0
 ~
 ~
-0 -1 18088
+0 -1 18088 0
 D1
 ~
 ~
-0 -1 18092
+0 -1 18092 0
 D2
 ~
 ~
-0 -1 18094
+0 -1 18094 0
 S
 #18094
 Dyer's Namana Fruit Orchard~
@@ -2217,11 +2328,11 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D0
 ~
 ~
-0 -1 18093
+0 -1 18093 0
 D1
 ~
 ~
-0 -1 18095
+0 -1 18095 0
 S
 #18095
 Dyer's Namana Fruit Orchard~
@@ -2233,15 +2344,15 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D0
 ~
 ~
-0 -1 18092
+0 -1 18092 0
 D1
 ~
 ~
-0 -1 18096
+0 -1 18096 0
 D3
 ~
 ~
-0 -1 18094
+0 -1 18094 0
 S
 #18096
 Dyer's Namana Fruit Orchard~
@@ -2253,11 +2364,11 @@ stand in orderly rows, and droids drift through and among them, tending to them.
 D0
 ~
 ~
-0 -1 18091
+0 -1 18091 0
 D3
 ~
 ~
-0 -1 18095
+0 -1 18095 0
 S
 #18097
 Great Namana Tree Trunk~
@@ -2269,11 +2380,11 @@ smooth under your hands.
 D4
 ~
 ~
-65664 -1 18098
+65664 -1 18098 0
 D5
 ~
 ~
-65664 -1 18092
+65664 -1 18092 0
 S
 #18098
 Great Namana Tree Branches~
@@ -2285,11 +2396,11 @@ the silvery bark isnt quite so smooth.
 D4
 ~
 ~
-65664 -1 18099
+65664 -1 18099 0
 D5
 ~
 ~
-65664 -1 18097
+65664 -1 18097 0
 S
 #18099
 Great Namana Tree Top~
@@ -2303,7 +2414,8 @@ globes of Namana fruit hang around you, just in reach for picking.
 D5
 ~
 ~
-65664 -1 18098
+65664 -1 18098 0
+R O 0 18017 1 18099
 S
 #18100
 Dyer's Refinery Road~
@@ -2316,11 +2428,11 @@ plant ahead for processing into Namana fruit nectar and candy.
 D1
 ~
 ~
-0 -1 18085
+0 -1 18085 0
 D3
 ~
 ~
-0 -1 18101
+0 -1 18101 0
 S
 #18101
 Dyer's Namana Fruit Refinery Entrance~
@@ -2333,11 +2445,11 @@ run all the way up to the doors of the building, atteneded by gardening droids.
 D1
 ~
 ~
-0 -1 18100
+0 -1 18100 0
 D3
 ~
 ~
-0 -1 18102
+0 -1 18102 0
 S
 #18102
 Dyer's Refinery~
@@ -2351,7 +2463,16 @@ Spice are all made here.
 D1
 ~
 ~
-0 -1 18101
+0 -1 18101 0
+R M 0 18018 1 18102
+  R G 1 18005 1
+  R G 1 18017 1
+  R G 1 18018 1
+  R G 1 18019 1
+  R G 1 18021 1
+  R G 1 18020 1
+  R G 1 18022 1
+  R G 1 18023 1
 S
 #18103
 Bakura Central Post Office.~
@@ -2363,7 +2484,8 @@ spread across the room, with privacy dividers.
 D6
 ~
 ~
-0 -1 18036
+0 -1 18036 0
+R O 0 38 1 18103
 S
 #18104
 Imperial Bakuran Hospital~
@@ -2375,7 +2497,8 @@ and smile once, then turn back to their conversations.
 D7
 ~
 ~
-0 -1 18036
+0 -1 18036 0
+R M 0 18019 1 18104
 S
 #18105
 Bacta Tank~
@@ -2388,7 +2511,7 @@ wave for you to put it on.
 D0
 ~
 ~
-0 -1 18104
+0 -1 18104 0
 > rand_prog 100~
 if ispc($n)
 mpecho You look around, with the mask on your face, and the tank begins to fill
@@ -2409,11 +2532,11 @@ of the pale green marble and smoky crystal.
 D0
 ~
 ~
-0 -1 18107
+0 -1 18107 0
 D2
 ~
 ~
-0 -1 18041
+0 -1 18041 0
 S
 #18107
 Capriston Residence Main Gate~
@@ -2433,11 +2556,11 @@ light. Its quite breathtaking.
 D0
 ~
 ~
-1 -1 18108
+1 -1 18108 0
 D2
 ~
 ~
-0 -1 18106
+0 -1 18106 0
 S
 #18108
 In Front of Capriston Residence~
@@ -2459,11 +2582,11 @@ mannor is of a huge fortified castle of the early Rennisance.
 D0
 ~
 ~
-1 -1 18109
+1 -1 18109 0
 D2
 ~
 ~
-1 -1 18107
+1 -1 18107 0
 S
 #18109
 In the Main Hall of Capriston Mannor~
@@ -2478,19 +2601,19 @@ door is a fencing studio.
 D0
 ~
 ~
-0 -1 18112
+0 -1 18112 0
 D1
 ~
 ~
-0 -1 18110
+0 -1 18110 0
 D2
 ~
 ~
-1 -1 18108
+1 -1 18108 0
 D3
 ~
 ~
-0 -1 18111
+0 -1 18111 0
 S
 #18110
 Fencing Studio~
@@ -2506,7 +2629,7 @@ chip marks and gouges, as if someone used it to practice on.
 D3
 ~
 ~
-0 -1 18109
+0 -1 18109 0
 S
 #18111
 Grand Ballroom~
@@ -2522,7 +2645,7 @@ The Capristons defiantely payed top price for this.
 D1
 ~
 ~
-0 -1 18109
+0 -1 18109 0
 S
 #18112
 Capriston Mannor Hall~
@@ -2534,19 +2657,19 @@ carpet possible.  To the east is a kitchen, and to the west is the grand dining 
 D1
 ~
 ~
-0 -1 18113
+0 -1 18113 0
 D2
 ~
 ~
-0 -1 18109
+0 -1 18109 0
 D3
 ~
 ~
-0 -1 18114
+0 -1 18114 0
 D4
 ~
 ~
-0 -1 18115
+0 -1 18115 0
 S
 #18113
 Capriston Mannor Kitchen~
@@ -2560,7 +2683,7 @@ at all times.
 D3
 ~
 ~
-0 -1 18112
+0 -1 18112 0
 S
 #18114
 Grand Dining Hall~
@@ -2582,7 +2705,7 @@ some kind of primitive animal, or artificial.
 D1
 ~
 ~
-0 -1 18112
+0 -1 18112 0
 S
 #18115
 Upstairs Hall~
@@ -2594,11 +2717,11 @@ black hair and a quiet smile adorns the north wall.
 D3
 ~
 ~
-1 -1 18116
+1 -1 18116 0
 D5
 ~
 ~
-0 -1 18112
+0 -1 18112 0
 S
 #18116
 Arboretum~
@@ -2616,153 +2739,26 @@ square of marble, with a bronze plaque set into it is right infront of the bush.
 D1
 ~
 ~
-1 -1 18115
+1 -1 18115 0
 S
 #18201
 Floating in a void~
 ~
 0 4 1 0 0 0 15288
+R M 0 18201 1 18201
+R O 0 18201 1 18201
 S
 #0
 
 
-#RESETS
-M 1 18201 1 18201
-O 1 18201 1 18201
-M 1 18002 1 18005
-O 1 18002 1 18005
-O 1 1856 1 18011
-O 1 1856 1 18010
-O 1 1856 1 18013
-O 1 1856 1 18014
-M 1 18006 1 18016
-M 1 18004 1 18009
-G 1 9006 1
-G 1 7510 1
-G 1 1146 1
-G 1 18005 1
-O 1 18003 1 18009
-O 1 18004 1 18009
-M 1 18005 1 18012
-G 1 18008 1
-G 1 18008 1
-O 1 18006 1 18012
-O 1 18007 1 18012
-O 1 18009 1 18025
-O 1 18010 1 18025
-M 1 18007 1 18029
-M 1 18007 2 18037
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18038
-M 1 18008 7 18033
-M 1 18010 1 18046
-G 1 1865 1
-G 1 1862 1
-G 1 1861 1
-G 1 1860 1
-G 1 1859 1
-M 1 18011 1 18047
-G 1 60 1
-G 1 54 1
-G 1 50 1
-M 1 18013 1 18049
-G 1 18005 1
-G 1 7508 1
-G 1 201 1
-G 1 9005 1
-M 1 18003 4 18006
-M 1 18003 4 18006
-M 1 18003 4 18006
-M 1 18003 4 18006
-O 1 18011 1 18067
-O 1 18012 1 18067
-O 1 18013 1 18067
-O 1 18011 1 18061
-O 1 18012 1 18061
-O 1 18013 1 18061
-O 1 18011 1 18060
-O 1 18012 1 18060
-O 1 18013 1 18060
-O 1 18011 1 18066
-O 1 18012 1 18066
-O 1 18013 1 18066
-O 1 18011 1 18062
-O 1 18012 1 18062
-O 1 18013 1 18062
-O 1 18011 1 18068
-O 1 18012 1 18068
-O 1 18013 1 18068
-O 1 18011 1 18063
-O 1 18012 1 18063
-O 1 18013 1 18063
-O 1 18011 1 18069
-O 1 18012 1 18069
-O 1 18013 1 18069
-O 1 18011 1 18064
-O 1 18012 1 18064
-O 1 18013 1 18064
-O 1 18011 1 18070
-O 1 18012 1 18070
-O 1 18013 1 18070
-O 1 18011 1 18065
-O 1 18012 1 18065
-O 1 18013 1 18065
-O 1 18011 1 18071
-O 1 18012 1 18071
-O 1 18013 1 18071
-M 1 18009 1 18044
-M 1 18012 1 18048
-G 1 65 1
-G 1 291 1
-G 1 290 1
-G 1 288 1
-G 1 138 1
-G 1 297 1
-G 1 296 1
-G 1 289 1
-G 1 4505 1
-O 1 133 1 18048
-O 1 134 1 18048
-M 1 18015 1 18079
-O 1 18015 1 18079
-M 1 18016 1 18080
-O 1 18016 1 18080
-M 1 18017 1 18082
-M 1 18014 2 18072
-M 1 18014 2 18072
-M 1 18014 4 18077
-M 1 18014 4 18077
-M 1 18014 6 18074
-M 1 18014 6 18074
-O 1 18017 1 18099
-M 1 18018 1 18102
-G 1 18005 1
-G 1 18017 1
-G 1 18018 1
-G 1 18019 1
-G 1 18021 1
-G 1 18020 1
-G 1 18022 1
-G 1 18023 1
-O 1 18014 1 18078
-O 1 38 1 18103
-M 1 18019 1 18104
-S
-
-
 #SHOPS
- 18004    0  0  0  0  0   120  90         0 23 0  ; William, the Cantina Bartender
- 18005    0  0  0  0  0   120  90         0 23 0  ; Gibson, Bakuran Short Order Cook
- 18010    0  0  0  0  0   120  90         0 23 0  ; Kraven the Armorer
- 18011    0  0  0  0  0   120  90         0 23 0  ; Johnny the Weaponsmith
- 18012    0  0  0  0  0   120  90         0 23 0  ; Biggs the Clerk
- 18013    0  0  0  0  0   120  90         0 23 0  ; Glynna Jenson
- 18018   75 75 75 75 75   120  75         0 23 0  ; Aaron Dyer
+ 18004    0  0  0  0  0   120  90         0 23    ; William, the Cantina Bartender
+ 18005    0  0  0  0  0   120  90         0 23    ; Gibson, Bakuran Short Order Cook
+ 18010    0  0  0  0  0   120  90         0 23    ; Kraven the Armorer
+ 18011    0  0  0  0  0   120  90         0 23    ; Johnny the Weaponsmith
+ 18012    0  0  0  0  0   120  90         0 23    ; Biggs the Clerk
+ 18013    0  0  0  0  0   120  90         0 23    ; Glynna Jenson
+ 18018   75 75 75 75 75   120  75         0 23    ; Aaron Dyer
 0
 
 

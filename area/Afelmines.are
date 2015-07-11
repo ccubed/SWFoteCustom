@@ -249,6 +249,8 @@ A hiobj is here.~
 Floating in a void~
 ~
 0 4 1 0 0 0 31352
+R M 0 9501 1 9501
+R O 0 9501 1 9501
 S
 #9502
 Barren Landing Pad~
@@ -263,7 +265,7 @@ allowing passage through the many boulder's and cliffs of Af'el.
 D0
 ~
 ~
-0 -1 9503
+0 -1 9503 0
 S
 #9503
 Path to Mining Encampment~
@@ -278,11 +280,11 @@ path Northeast.
 D2
 ~
 ~
-0 -1 9502
+0 -1 9502 0
 D6
 ~
 ~
-0 -1 9504
+0 -1 9504 0
 S
 #9504
 Path to Mining Encampment~
@@ -297,11 +299,11 @@ path Northeast.
 D6
 ~
 ~
-0 -1 9505
+0 -1 9505 0
 D9
 ~
 ~
-0 -1 9503
+0 -1 9503 0
 S
 #9505
 Path to Mining Encampment~
@@ -315,11 +317,11 @@ now, probably cleared out when this camp was constructed.
 D1
 ~
 ~
-0 -1 9506
+0 -1 9506 0
 D9
 ~
 ~
-0 -1 9504
+0 -1 9504 0
 S
 #9506
 Before the Mining Encampment~
@@ -332,11 +334,11 @@ people crowded in, their minds all set on a specific task.
 D1
 ~
 ~
-0 -1 9507
+0 -1 9507 0
 D3
 ~
 ~
-0 -1 9505
+0 -1 9505 0
 S
 #9507
 Af'el Mining Camp~
@@ -351,11 +353,12 @@ and confused state.
 D1
 ~
 ~
-0 -1 9508
+0 -1 9508 0
 D3
 ~
 ~
-0 -1 9506
+0 -1 9506 0
+R M 0 9504 1 9507
 S
 #9508
 Center of Mining Camp~
@@ -370,19 +373,19 @@ pride in the miners and their work.
 D0
 ~
 ~
-0 -1 9509
+0 -1 9509 0
 D1
 ~
 ~
-0 -1 9520
+0 -1 9520 0
 D2
 ~
 ~
-0 -1 9516
+0 -1 9516 0
 D3
 ~
 ~
-0 -1 9506
+0 -1 9506 0
 S
 #9509
 Miner's Tents~
@@ -391,19 +394,19 @@ Miner's Tents~
 D0
 ~
 ~
-0 -1 9510
+0 -1 9510 0
 D1
 ~
 ~
-0 -1 9512
+0 -1 9512 0
 D2
 ~
 ~
-0 -1 9508
+0 -1 9508 0
 D3
 ~
 ~
-0 -1 9511
+0 -1 9511 0
 S
 #9510
 Miner's Tents~
@@ -412,19 +415,19 @@ Miner's Tents~
 D0
 ~
 ~
-0 -1 9514
+0 -1 9514 0
 D1
 ~
 ~
-0 -1 9515
+0 -1 9515 0
 D2
 ~
 ~
-0 -1 9509
+0 -1 9509 0
 D3
 ~
 ~
-0 -1 9513
+0 -1 9513 0
 S
 #9511
 A Small Tent~
@@ -433,7 +436,7 @@ A Small Tent~
 D1
 ~
 ~
-0 -1 9509
+0 -1 9509 0
 S
 #9512
 A Small Tent~
@@ -442,7 +445,7 @@ A Small Tent~
 D3
 ~
 ~
-0 -1 9509
+0 -1 9509 0
 S
 #9513
 A Small Tent~
@@ -451,7 +454,7 @@ A Small Tent~
 D1
 ~
 ~
-0 -1 9510
+0 -1 9510 0
 S
 #9514
 A Small Tent~
@@ -460,7 +463,7 @@ A Small Tent~
 D2
 ~
 ~
-0 -1 9510
+0 -1 9510 0
 S
 #9515
 A Small Tent~
@@ -469,7 +472,7 @@ A Small Tent~
 D3
 ~
 ~
-0 -1 9510
+0 -1 9510 0
 S
 #9516
 Miner's Service Area~
@@ -478,27 +481,27 @@ Miner's Service Area~
 D0
 ~
 ~
-0 -1 9508
+0 -1 9508 0
 D1
 ~
 ~
-0 -1 9518
+0 -1 9518 0
 D2
 ~
 ~
-0 -1 9517
+0 -1 9517 0
 D3
 ~
 ~
-0 -1 9519
+0 -1 9519 0
 D8
 ~
 ~
-0 -1 9527
+0 -1 9527 0
 D9
 ~
 ~
-0 -1 9534
+0 -1 9534 0
 S
 #9517
 Trandor's Mining Equipment~
@@ -507,7 +510,9 @@ Trandor's Mining Equipment~
 D0
 ~
 ~
-0 -1 9516
+0 -1 9516 0
+R M 0 9507 1 9517
+  R G 1 9505 1
 S
 #9518
 Coalminer's Lounge~
@@ -516,7 +521,7 @@ Coalminer's Lounge~
 D3
 ~
 ~
-0 -1 9516
+0 -1 9516 0
 S
 #9519
 General Store~
@@ -525,7 +530,11 @@ General Store~
 D1
 ~
 ~
-0 -1 9516
+0 -1 9516 0
+R M 0 9503 1 9519
+  R G 1 134 1
+  R G 1 9503 1
+  R G 1 9504 1
 S
 #9520
 Pathway to Mines~
@@ -534,11 +543,11 @@ Pathway to Mines~
 D1
 ~
 ~
-0 -1 9521
+0 -1 9521 0
 D3
 ~
 ~
-0 -1 9508
+0 -1 9508 0
 S
 #9521
 Pathway to Mines~
@@ -547,16 +556,17 @@ Pathway to Mines~
 D3
 ~
 ~
-0 -1 9520
+0 -1 9520 0
 D8
 ~
 ~
-0 -1 9522
+0 -1 9522 0
 S
 #9522
 Mine Elevator~
 ~
 0 1073741836 1 0 0 0 31352
+R O 0 9502 1 9522
 E
 elevator list~
 &rLevels:
@@ -591,11 +601,11 @@ Entrance to Mines~
 D0
 ~
 ~
-0 -1 9522
+0 -1 9522 0
 D2
 ~
 ~
-0 -1 9524
+0 -1 9524 0
 S
 #9524
 A Quick Drop~
@@ -604,11 +614,11 @@ A Quick Drop~
 D0
 ~
 ~
-0 -1 9523
+0 -1 9523 0
 D5
 ~
 ~
-0 -1 9525
+0 -1 9525 0
 S
 #9525
 Af'el Mines~
@@ -617,11 +627,12 @@ Af'el Mines~
 D1
 ~
 ~
-0 -1 9526
+0 -1 9526 0
 D4
 ~
 ~
-0 -1 9524
+0 -1 9524 0
+R M 0 9505 1 9525
 S
 #9526
 Af'el Mines~
@@ -630,19 +641,19 @@ Af'el Mines~
 D0
 ~
 ~
-0 -1 9531
+0 -1 9531 0
 D1
 ~
 ~
-0 -1 9532
+0 -1 9532 0
 D2
 ~
 ~
-0 -1 9533
+0 -1 9533 0
 D3
 ~
 ~
-0 -1 9525
+0 -1 9525 0
 S
 #9527
 Hospital Tent~
@@ -651,11 +662,12 @@ Hospital Tent~
 D1
 ~
 ~
-0 -1 9528
+0 -1 9528 0
 D7
 ~
 ~
-0 -1 9516
+0 -1 9516 0
+R M 0 9506 1 9527
 S
 #9528
 Resting Room~
@@ -664,15 +676,15 @@ Resting Room~
 D0
 ~
 ~
-0 -1 9530
+0 -1 9530 0
 D2
 ~
 ~
-0 -1 9529
+0 -1 9529 0
 D3
 ~
 ~
-0 -1 9527
+0 -1 9527 0
 S
 #9529
 Bacta Tank~
@@ -681,7 +693,7 @@ Bacta Tank~
 D0
 ~
 ~
-0 -1 9528
+0 -1 9528 0
 S
 #9530
 Bacta Tank~
@@ -690,7 +702,7 @@ Bacta Tank~
 D2
 ~
 ~
-0 -1 9528
+0 -1 9528 0
 S
 #9531
 Af'el Mines~
@@ -699,7 +711,7 @@ Af'el Mines~
 D2
 ~
 ~
-0 -1 9526
+0 -1 9526 0
 S
 #9532
 Af'el Mines~
@@ -708,7 +720,7 @@ Af'el Mines~
 D3
 ~
 ~
-0 -1 9526
+0 -1 9526 0
 S
 #9533
 Af'el Mines~
@@ -717,7 +729,7 @@ Af'el Mines~
 D0
 ~
 ~
-0 -1 9526
+0 -1 9526 0
 S
 #9534
 Foreman's Office~
@@ -726,11 +738,11 @@ Foreman's Office~
 D3
 ~
 ~
-0 -1 9535
+0 -1 9535 0
 D6
 ~
 ~
-0 -1 9516
+0 -1 9516 0
 S
 #9535
 Back Room~
@@ -739,7 +751,7 @@ Back Room~
 D1
 ~
 ~
-0 -1 9534
+0 -1 9534 0
 S
 #9536
 Floating in a void~
@@ -1565,31 +1577,15 @@ S
 Floating in a void~
 ~
 0 4 1 0 0 0 31352
+R M 0 9700 1 9700
+R O 0 9700 1 9700
 S
 #0
 
 
-#RESETS
-M 1 9501 1 9501
-O 1 9501 1 9501
-M 1 9504 1 9507
-M 1 9507 1 9517
-G 1 9505 1
-M 1 9503 1 9519
-G 1 134 1
-G 1 9503 1
-G 1 9504 1
-O 1 9502 1 9522
-M 1 9505 1 9525
-M 1 9506 1 9527
-M 1 9700 1 9700
-O 1 9700 1 9700
-S
-
-
 #SHOPS
- 9503    0  0  0  0  0   120  90         0 23 0  ; A shopkeeper droid
- 9507    0  0  0  0  0   120  90         0 23 0  ; Trandor
+ 9503    0  0  0  0  0   120  90         0 23    ; A shopkeeper droid
+ 9507    0  0  0  0  0   120  90         0 23    ; Trandor
 0
 
 

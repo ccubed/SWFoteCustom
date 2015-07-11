@@ -314,11 +314,13 @@ Guard Post~
 D0
 ~
 ~
-0 -1 229
+0 -1 229 0
 D8
 ~
 ~
-0 -1 9034
+0 -1 9034 0
+R M 0 228 1 227
+  R E 1 50 1 16
 S
 #228
 Guild Landing Pad~
@@ -332,7 +334,7 @@ elves because of their lack of trust of anyone.
 D3
 ~
 ~
-0 -1 230
+0 -1 230 0
 > entry_prog 100~
 if clan($n) == The Hunters Guild
 mpat 248 mpecho &GAttention: &W$n is at the landing pad.
@@ -356,11 +358,11 @@ steers clear of this building.
 D2
 ~
 ~
-0 -1 227
+0 -1 227 0
 D6
 ~
 ~
-2048 -1 231
+2048 -1 231 0
 > speech_prog p Live for the Hunt~
 if clan($n) == The Hunters Guild
 mpecho &W A hidden door swings open. As you step through the door it slams shut with a loud BANG!.
@@ -381,11 +383,11 @@ is normally kept locked and can only be opened by members.
 D1
 ~
 ~
-0 -1 228
+0 -1 228 0
 D3
 ~
 ~
-8388609 232 235
+8388609 232 235 0
 S
 #231
 Main Corridor~
@@ -400,23 +402,24 @@ base.
 D0
 ~
 ~
-0 -1 235
+0 -1 235 0
 D1
 ~
 ~
-0 -1 236
+0 -1 236 0
 D2
 ~
 ~
-0 -1 229
+0 -1 229 0
 D3
 ~
 ~
-0 -1 237
+0 -1 237 0
 D6
 ~
 ~
-0 -1 242
+0 -1 242 0
+R M 0 236 1 231
 S
 #232
 Sleeping Quarters~
@@ -426,7 +429,7 @@ The sleeping quarters located within the base are large enough for many people t
 D2
 ~
 ~
-0 -1 246
+0 -1 246 0
 S
 #233
 Sleeping Quarters~
@@ -439,7 +442,7 @@ can give themselves a glance over before leaving.
 D3
 ~
 ~
-0 -1 246
+0 -1 246 0
 S
 #234
 Sleeping Quarters~
@@ -452,7 +455,7 @@ can give themselves a glance over before leaving.
 D9
 ~
 ~
-0 -1 246
+0 -1 246 0
 S
 #235
 Main Corridor~
@@ -466,23 +469,23 @@ at one time.
 D0
 ~
 ~
-0 -1 245
+0 -1 245 0
 D1
 ~
 ~
-8388609 232 230
+8388609 232 230 0
 D2
 ~
 ~
-0 -1 231
+0 -1 231 0
 D3
 ~
 ~
-0 -1 244
+0 -1 244 0
 D7
 ~
 ~
-2048 -1 239
+2048 -1 239 0
 S
 #236
 A Bacta Tank~
@@ -496,7 +499,7 @@ r ed gelatinous to decrease the healing time.
 D3
 ~
 ~
-0 -1 231
+0 -1 231 0
 > rand_prog 95~
 mprestore $n 200
 mpechoat $n &rThe healing power of the bacta soothes your wounds.
@@ -510,11 +513,17 @@ Supplies Unlimited~
 D0
 ~
 ~
-0 -1 243
+0 -1 243 0
 D1
 ~
 ~
-0 -1 231
+0 -1 231 0
+R M 0 230 1 237
+  R G 1 768 1
+  R G 1 151 1
+  R G 1 52 1
+  R G 1 1068 1
+  R G 1 50 1
 S
 #238
 Floating in a void~
@@ -528,7 +537,7 @@ Meditation Room~
 D8
 ~
 ~
-0 -1 235
+0 -1 235 0
 S
 #240
 Holding Cell~
@@ -537,7 +546,7 @@ Holding Cell~
 D2
 ~
 ~
-39 232 242
+39 232 242 0
 > entry_prog 100~
 mpecho The cell door quickly slides shut with a loud bang!!
 mpclosepassage 242 0
@@ -552,7 +561,7 @@ Holding Cell~
 D0
 ~
 ~
-39 232 242
+39 232 242 0
 > entry_prog 100~
 mpecho The cell door slides shut with a loud bang!!
 mpclosepassage 242 2
@@ -570,7 +579,10 @@ area has been known to hold more than 20 prisoners at a time.
 D9
 ~
 ~
-0 -1 231
+0 -1 231 0
+R M 0 229 1 242
+  R E 1 50 1 16
+R O 0 230 1 242
 > speech_prog p Open North~
 mpechoat $n The console makes some noises as it processes your voice.
 mpechoaround $n The console whirrs as it processes $n 's voice.
@@ -604,7 +616,15 @@ An Engineer's Workshop~
 D2
 ~
 ~
-0 -1 237
+0 -1 237 0
+R M 0 232 1 243
+  R G 1 140 1
+  R G 1 143 1
+  R G 1 764 1
+  R G 1 133 1
+  R G 1 134 1
+  R G 1 139 1
+  R G 1 148 1
 S
 #244
 School of Hunters~
@@ -613,7 +633,8 @@ School of Hunters~
 D1
 ~
 ~
-0 -1 235
+0 -1 235 0
+R M 0 231 1 244
 S
 #245
 Main Corridor~
@@ -627,15 +648,15 @@ at one time.
 D0
 ~
 ~
-0 -1 246
+0 -1 246 0
 D2
 ~
 ~
-0 -1 235
+0 -1 235 0
 D3
 ~
 ~
-0 -1 247
+0 -1 247 0
 S
 #246
 Main Corridor~
@@ -649,23 +670,23 @@ at one time.
 D0
 ~
 ~
-0 -1 232
+0 -1 232 0
 D1
 ~
 ~
-0 -1 233
+0 -1 233 0
 D2
 ~
 ~
-0 -1 245
+0 -1 245 0
 D3
 ~
 ~
-8388609 232 248
+8388609 232 248 0
 D6
 ~
 ~
-0 -1 234
+0 -1 234 0
 S
 #247
 Communciation Station~
@@ -675,7 +696,8 @@ This room is used primarily for cimmunication between guild members. The message
 D1
 ~
 ~
-0 -1 245
+0 -1 245 0
+R O 0 228 1 247
 S
 #248
 Private Hallway~
@@ -689,15 +711,16 @@ the o ther side of the door.
 D1
 ~
 ~
-7 232 246
+7 232 246 0
 D3
 ~
 ~
-0 -1 249
+0 -1 249 0
 D6
 ~
 ~
-33554432 -1 246
+33554432 -1 246 0
+R D 0 248 1 2
 S
 #249
 Leader of the Hunter's Guild~
@@ -710,42 +733,15 @@ is a plaque engraved with the Hunter's Creed.
 D1
 ~
 ~
-0 -1 248
+0 -1 248 0
+R O 0 231 1 249
 S
 #0
 
 
-#RESETS
-M 1 231 1 244
-O 1 228 1 247
-O 1 231 1 249
-D 0 248 1 2
-M 1 230 1 237
-G 1 768 1
-G 1 151 1
-G 1 52 1
-G 1 1068 1
-G 1 50 1
-M 1 232 1 243
-G 1 140 1
-G 1 143 1
-G 1 764 1
-G 1 133 1
-G 1 134 1
-G 1 139 1
-G 1 148 1
-M 1 229 1 242
-E 1 50 1 16
-O 1 230 1 242
-M 1 228 1 227
-E 1 50 1 16
-M 1 236 1 231
-S
-
-
 #SHOPS
- 230    0  0  0  0  0   120  90         0 23 0  ; An Ammunition Dispenser
- 232    0  0  0  0  0   120  90         0 23 0  ; An Engineering Supplier
+ 230    0  0  0  0  0   120  90         0 23    ; An Ammunition Dispenser
+ 232    0  0  0  0  0   120  90         0 23    ; An Engineering Supplier
 0
 
 

@@ -479,6 +479,8 @@ A hi_obj is here.~
 Floating in a void~
 ~
 0 4 1 0 0 0 8232
+R M 0 4901 1 4901
+R O 0 4901 1 4901
 S
 #4902
 Coronet Spaceport~
@@ -494,7 +496,8 @@ He is checking baggage of those who pass him.
 D3
 ~
 ~
-0 -1 4903
+0 -1 4903 0
+R M 0 4902 1 4902
 S
 #4903
 Pathway To The Spaceport~
@@ -509,15 +512,15 @@ is kept clean due to janitorial droids who roam the streets.
 D0
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 D1
 ~
 ~
-0 -1 4902
+0 -1 4902 0
 D2
 ~
 ~
-0 -1 4923
+0 -1 4923 0
 S
 #4904
 Coronet City Square~
@@ -533,27 +536,28 @@ the east of here.
 D0
 ~
 ~
-0 -1 4925
+0 -1 4925 0
 D1
 ~
 ~
-16777216 -1 4905
+16777216 -1 4905 0
 D2
 ~
 ~
-0 -1 4903
+0 -1 4903 0
 D3
 ~
 ~
-0 -1 4906
+0 -1 4906 0
 D6
 ~
 ~
-0 -1 4928
+0 -1 4928 0
 D9
 ~
 ~
-0 -1 4949
+0 -1 4949 0
+R O 0 4902 1 4904
 S
 #4905
 A Small Motel~
@@ -567,7 +571,7 @@ to fulfill your needs for a night's rest.
 D3
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 S
 #4906
 Coronet Street~
@@ -576,11 +580,11 @@ Coronet Street~
 D1
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 D3
 ~
 ~
-0 -1 4907
+0 -1 4907 0
 S
 #4907
 Coronet Street~
@@ -589,15 +593,15 @@ Coronet Street~
 D0
 ~
 ~
-0 -1 4908
+0 -1 4908 0
 D1
 ~
 ~
-0 -1 4906
+0 -1 4906 0
 D3
 ~
 ~
-0 -1 4916
+0 -1 4916 0
 S
 #4908
 A Small Road~
@@ -611,11 +615,11 @@ walking around as well.
 D0
 ~
 ~
-0 -1 4909
+0 -1 4909 0
 D2
 ~
 ~
-0 -1 4907
+0 -1 4907 0
 S
 #4909
 Before The Commercial District~
@@ -629,11 +633,11 @@ to the constant use, they are not taken very good care of.
 D2
 ~
 ~
-0 -1 4908
+0 -1 4908 0
 D3
 ~
 ~
-0 -1 4910
+0 -1 4910 0
 S
 #4910
 A Busy Street~
@@ -647,15 +651,15 @@ continues east of here.
 D0
 ~
 ~
-16777216 -1 4913
+16777216 -1 4913 0
 D1
 ~
 ~
-0 -1 4909
+0 -1 4909 0
 D3
 ~
 ~
-0 -1 4911
+0 -1 4911 0
 S
 #4911
 A Busy Street~
@@ -669,15 +673,15 @@ down the streets, the roads seem to be more worn and broken.
 D1
 ~
 ~
-0 -1 4910
+0 -1 4910 0
 D2
 ~
 ~
-16777216 -1 4914
+16777216 -1 4914 0
 D3
 ~
 ~
-0 -1 4912
+0 -1 4912 0
 S
 #4912
 A Busy Street~
@@ -692,11 +696,11 @@ gems and various precious metals.
 D0
 ~
 ~
-16777216 -1 4915
+16777216 -1 4915 0
 D1
 ~
 ~
-0 -1 4911
+0 -1 4911 0
 S
 #4913
 A Small Hardware Shop~
@@ -705,7 +709,8 @@ A Small Hardware Shop~
 D2
 ~
 ~
-0 -1 4910
+0 -1 4910 0
+R M 0 4903 1 4913
 S
 #4914
 A Small Fabric Shop~
@@ -719,7 +724,8 @@ door, it is most likely a storage room.
 D0
 ~
 ~
-0 -1 4911
+0 -1 4911 0
+R M 0 4903 2 4914
 S
 #4915
 A Small Jewel Shop~
@@ -734,7 +740,8 @@ a locked room to the north, probably a storage room.
 D2
 ~
 ~
-0 -1 4912
+0 -1 4912 0
+R M 0 4903 3 4915
 S
 #4916
 Coronet Street~
@@ -743,11 +750,11 @@ Coronet Street~
 D1
 ~
 ~
-0 -1 4907
+0 -1 4907 0
 D2
 ~
 ~
-16777216 -1 4917
+16777216 -1 4917 0
 S
 #4917
 Entrance To The Coronet VR Arcade~
@@ -761,11 +768,11 @@ device provided by the simulators themselves.
 D0
 ~
 ~
-0 -1 4916
+0 -1 4916 0
 D2
 ~
 ~
-0 -1 4918
+0 -1 4918 0
 S
 #4918
 An Intersection~
@@ -780,23 +787,23 @@ rooms, you can enter in order to start flying.
 D0
 ~
 ~
-0 -1 4917
+0 -1 4917 0
 D1
 ~
 ~
-0 -1 4919
+0 -1 4919 0
 D3
 ~
 ~
-0 -1 4921
+0 -1 4921 0
 D4
 ~
 ~
-0 -1 4947
+0 -1 4947 0
 D5
 ~
 ~
-0 -1 4948
+0 -1 4948 0
 S
 #4919
 A Durasteel Hallway~
@@ -810,19 +817,19 @@ of battles grow louder as you walk through here.
 D0
 ~
 ~
-0 -1 4941
+0 -1 4941 0
 D1
 ~
 ~
-0 -1 4920
+0 -1 4920 0
 D2
 ~
 ~
-0 -1 4942
+0 -1 4942 0
 D3
 ~
 ~
-0 -1 4918
+0 -1 4918 0
 S
 #4920
 A Durasteel Hallway~
@@ -837,15 +844,15 @@ Coronet District."
 D0
 ~
 ~
-0 -1 4939
+0 -1 4939 0
 D2
 ~
 ~
-0 -1 4940
+0 -1 4940 0
 D3
 ~
 ~
-0 -1 4919
+0 -1 4919 0
 S
 #4921
 A Durasteel Hallway~
@@ -860,19 +867,19 @@ explorting.
 D0
 ~
 ~
-0 -1 4943
+0 -1 4943 0
 D1
 ~
 ~
-0 -1 4918
+0 -1 4918 0
 D2
 ~
 ~
-0 -1 4944
+0 -1 4944 0
 D3
 ~
 ~
-0 -1 4922
+0 -1 4922 0
 S
 #4922
 A Durasteel Hallway~
@@ -887,15 +894,15 @@ to the north and south.
 D0
 ~
 ~
-0 -1 4945
+0 -1 4945 0
 D1
 ~
 ~
-0 -1 4921
+0 -1 4921 0
 D2
 ~
 ~
-0 -1 4946
+0 -1 4946 0
 S
 #4923
 A Paved Road~
@@ -909,11 +916,11 @@ another area of Coronet.
 D0
 ~
 ~
-0 -1 4903
+0 -1 4903 0
 D2
 ~
 ~
-0 -1 4924
+0 -1 4924 0
 S
 #4924
 A Paved Road~
@@ -922,7 +929,7 @@ A Paved Road~
 D0
 ~
 ~
-0 -1 4923
+0 -1 4923 0
 S
 #4925
 Meteor Way~
@@ -931,11 +938,11 @@ Meteor Way~
 D0
 ~
 ~
-0 -1 4926
+0 -1 4926 0
 D2
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 S
 #4926
 Meteor Way~
@@ -944,11 +951,11 @@ Meteor Way~
 D0
 ~
 ~
-0 -1 4927
+0 -1 4927 0
 D2
 ~
 ~
-0 -1 4925
+0 -1 4925 0
 S
 #4927
 Meteor Way~
@@ -957,11 +964,11 @@ Meteor Way~
 D0
 ~
 ~
-0 -1 4932
+0 -1 4932 0
 D2
 ~
 ~
-0 -1 4926
+0 -1 4926 0
 S
 #4928
 Starline Avenue~
@@ -970,11 +977,11 @@ Starline Avenue~
 D0
 ~
 ~
-0 -1 4929
+0 -1 4929 0
 D9
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 S
 #4929
 Starline Avenue~
@@ -983,11 +990,11 @@ Starline Avenue~
 D0
 ~
 ~
-0 -1 4930
+0 -1 4930 0
 D2
 ~
 ~
-0 -1 4928
+0 -1 4928 0
 S
 #4930
 Starline Avenue~
@@ -996,11 +1003,11 @@ Starline Avenue~
 D2
 ~
 ~
-0 -1 4929
+0 -1 4929 0
 D7
 ~
 ~
-0 -1 4931
+0 -1 4931 0
 S
 #4931
 The Beginnings of Treasure Ship Row~
@@ -1015,19 +1022,19 @@ and you may exit by travelling down Starline Avenue to the southeast.
 D0
 ~
 ~
-0 -1 4933
+0 -1 4933 0
 D2
 ~
 ~
-0 -1 4938
+0 -1 4938 0
 D3
 ~
 ~
-0 -1 4932
+0 -1 4932 0
 D8
 ~
 ~
-0 -1 4930
+0 -1 4930 0
 S
 #4932
 Intersection Between Meteor Way and Treasure Ship Row~
@@ -1040,19 +1047,19 @@ to continue east or west in order to find them.
 D0
 ~
 ~
-0 -1 4959
+0 -1 4959 0
 D1
 ~
 ~
-0 -1 4931
+0 -1 4931 0
 D2
 ~
 ~
-0 -1 4927
+0 -1 4927 0
 D3
 ~
 ~
-0 -1 4934
+0 -1 4934 0
 S
 #4933
 A Small Dessert Stand~
@@ -1066,7 +1073,11 @@ to turn a profit.
 D2
 ~
 ~
-0 -1 4931
+0 -1 4931 0
+R M 0 4904 1 4933
+  R G 1 4905 1
+  R G 1 4903 1
+  R G 1 4904 1
 S
 #4934
 Treasure Ship Row~
@@ -1080,15 +1091,15 @@ There are many more shops to explore by this part of Coronet.
 D1
 ~
 ~
-0 -1 4932
+0 -1 4932 0
 D2
 ~
 ~
-0 -1 4935
+0 -1 4935 0
 D3
 ~
 ~
-0 -1 4936
+0 -1 4936 0
 S
 #4935
 Corellian Meats~
@@ -1101,7 +1112,10 @@ at you. He is probably waiting for you to ask for assistance.
 D0
 ~
 ~
-0 -1 4934
+0 -1 4934 0
+R M 0 4906 1 4935
+  R G 1 4906 1
+  R G 1 4907 1
 S
 #4936
 Treasure Ship Row~
@@ -1114,11 +1128,11 @@ many technologically advanced equipment for you to purchase.
 D0
 ~
 ~
-0 -1 4937
+0 -1 4937 0
 D1
 ~
 ~
-0 -1 4934
+0 -1 4934 0
 S
 #4937
 Miv's Gadget Shop~
@@ -1132,7 +1146,10 @@ the shop in display cases.
 D2
 ~
 ~
-0 -1 4936
+0 -1 4936 0
+R M 0 4905 1 4937
+  R G 1 4909 1
+  R G 1 4908 1
 S
 #4938
 A Crafts Stand~
@@ -1146,7 +1163,10 @@ who wears them.
 D0
 ~
 ~
-0 -1 4931
+0 -1 4931 0
+R M 0 4907 1 4938
+  R G 1 4911 1
+  R G 1 4910 1
 S
 #4939
 T-Wing Simulation Room One~
@@ -1155,7 +1175,7 @@ T-Wing Simulation Room One~
 D2
 ~
 ~
-0 -1 4920
+0 -1 4920 0
 S
 #4940
 T-Wing Simulation Room Two~
@@ -1164,7 +1184,7 @@ T-Wing Simulation Room Two~
 D0
 ~
 ~
-0 -1 4920
+0 -1 4920 0
 S
 #4941
 R-41 Simulation Room One~
@@ -1173,7 +1193,7 @@ R-41 Simulation Room One~
 D2
 ~
 ~
-0 -1 4919
+0 -1 4919 0
 S
 #4942
 R-41 Simulation Room Two~
@@ -1182,7 +1202,7 @@ R-41 Simulation Room Two~
 D0
 ~
 ~
-0 -1 4919
+0 -1 4919 0
 S
 #4943
 Z-95 Simulation Room One~
@@ -1191,7 +1211,7 @@ Z-95 Simulation Room One~
 D2
 ~
 ~
-0 -1 4921
+0 -1 4921 0
 S
 #4944
 Z-95 Simulation Room Two~
@@ -1200,7 +1220,7 @@ Z-95 Simulation Room Two~
 D0
 ~
 ~
-0 -1 4921
+0 -1 4921 0
 S
 #4945
 X-Wing Simulation Room One~
@@ -1209,7 +1229,7 @@ X-Wing Simulation Room One~
 D2
 ~
 ~
-0 -1 4922
+0 -1 4922 0
 S
 #4946
 X-Wing Simulation Room Two~
@@ -1218,7 +1238,7 @@ X-Wing Simulation Room Two~
 D0
 ~
 ~
-0 -1 4922
+0 -1 4922 0
 S
 #4947
 HLAF-500 Simulation Room One~
@@ -1227,7 +1247,7 @@ HLAF-500 Simulation Room One~
 D5
 ~
 ~
-0 -1 4918
+0 -1 4918 0
 S
 #4948
 HLAF-500 Simulation Room Two~
@@ -1236,7 +1256,7 @@ HLAF-500 Simulation Room Two~
 D4
 ~
 ~
-0 -1 4918
+0 -1 4918 0
 S
 #4949
 Entrance to Drek's Cantina~
@@ -1250,11 +1270,11 @@ to the west of here, and the exit is to the northeast.
 D3
 ~
 ~
-0 -1 4950
+0 -1 4950 0
 D6
 ~
 ~
-0 -1 4904
+0 -1 4904 0
 S
 #4950
 A Dimly Lit Hallway~
@@ -1269,11 +1289,11 @@ like to leave.
 D1
 ~
 ~
-0 -1 4949
+0 -1 4949 0
 D3
 ~
 ~
-0 -1 4951
+0 -1 4951 0
 S
 #4951
 Standing at the Bar~
@@ -1288,15 +1308,23 @@ is the exit of the cantina, and to the south are booths.
 D1
 ~
 ~
-0 -1 4950
+0 -1 4950 0
 D2
 ~
 ~
-0 -1 4956
+0 -1 4956 0
 D3
 ~
 ~
-0 -1 4958
+0 -1 4958 0
+R M 0 4908 1 4951
+  R G 1 4916 1
+  R G 1 4915 1
+  R G 1 4914 1
+  R G 1 4913 1
+  R G 1 4912 1
+R O 0 4918 1 4951
+R O 0 4919 1 4951
 S
 #4952
 A Small Booth~
@@ -1305,7 +1333,7 @@ A Small Booth~
 D3
 ~
 ~
-33 -1 4956
+33 -1 4956 0
 S
 #4953
 A Small Booth~
@@ -1314,7 +1342,7 @@ A Small Booth~
 D1
 ~
 ~
-0 -1 4956
+0 -1 4956 0
 S
 #4954
 A Small Booth~
@@ -1323,7 +1351,7 @@ A Small Booth~
 D3
 ~
 ~
-0 -1 4957
+0 -1 4957 0
 S
 #4955
 A Small Booth~
@@ -1332,7 +1360,7 @@ A Small Booth~
 D1
 ~
 ~
-0 -1 4957
+0 -1 4957 0
 S
 #4956
 A Dimly Lit Hallway~
@@ -1346,19 +1374,20 @@ are more booths.
 D0
 ~
 ~
-0 -1 4951
+0 -1 4951 0
 D1
 ~
 curtain~
-3 -1 4952
+3 -1 4952 0
 D2
 ~
 ~
-0 -1 4957
+0 -1 4957 0
 D3
 ~
 curtain~
-3 -1 4953
+3 -1 4953 0
+R D 0 4956 1 1
 S
 #4957
 A Dimly Lit Hallway~
@@ -1373,15 +1402,18 @@ broken and repeatedly plays the music of Figrin D'an.
 D0
 ~
 ~
-0 -1 4956
+0 -1 4956 0
 D1
 ~
 curtain~
-3 -1 4954
+3 -1 4954 0
 D3
 ~
 curtain~
-3 -1 4955
+3 -1 4955 0
+R O 0 4917 1 4957
+R D 0 4957 1 1
+R D 0 4957 3 1
 S
 #4958
 Entertainment Floor~
@@ -1396,7 +1428,7 @@ more.
 D1
 ~
 ~
-0 -1 4951
+0 -1 4951 0
 S
 #4959
 Meteor Way~
@@ -1405,15 +1437,15 @@ Meteor Way~
 D0
 ~
 ~
-0 -1 4961
+0 -1 4961 0
 D1
 ~
 ~
-0 -1 4960
+0 -1 4960 0
 D2
 ~
 ~
-0 -1 4932
+0 -1 4932 0
 S
 #4960
 A CorSec Office~
@@ -1422,7 +1454,7 @@ A CorSec Office~
 D3
 ~
 ~
-0 -1 4959
+0 -1 4959 0
 S
 #4961
 Meteor Way~
@@ -1431,11 +1463,11 @@ Meteor Way~
 D0
 ~
 ~
-0 -1 4962
+0 -1 4962 0
 D2
 ~
 ~
-0 -1 4959
+0 -1 4959 0
 S
 #4962
 Entrance to the Coronet Medical Facility~
@@ -1449,11 +1481,11 @@ you can travel north to the reception area.
 D0
 ~
 ~
-0 -1 4963
+0 -1 4963 0
 D2
 ~
 ~
-0 -1 4961
+0 -1 4961 0
 S
 #4963
 A Reception Area~
@@ -1467,11 +1499,11 @@ you to the different levels of this facility.
 D0
 ~
 ~
-0 -1 4964
+0 -1 4964 0
 D2
 ~
 ~
-0 -1 4962
+0 -1 4962 0
 S
 #4964
 A Small Turbolift~
@@ -1482,6 +1514,8 @@ the medical facility. From the speakers, soothing music is played
 while you wait.
 ~
 0 1073741836 1 0 0 0 8232
+R O 0 4923 1 4964
+  R P 0 4922 1 4923
 > speech_prog 1 one~
 mpecho The Turbolift begins to move...
 mpsleep 10
@@ -1533,11 +1567,11 @@ an injured patient's wounds becoming infected.
 D0
 ~
 ~
-0 -1 4964
+0 -1 4964 0
 D2
 ~
 ~
-0 -1 4966
+0 -1 4966 0
 S
 #4966
 A Narrow Hallway~
@@ -1546,19 +1580,19 @@ A Narrow Hallway~
 D0
 ~
 ~
-0 -1 4965
+0 -1 4965 0
 D1
 ~
 ~
-16777216 -1 4968
+16777216 -1 4968 0
 D2
 ~
 ~
-0 -1 4969
+0 -1 4969 0
 D3
 ~
 ~
-16777216 -1 4967
+16777216 -1 4967 0
 S
 #4967
 A Bacta Tank~
@@ -1567,7 +1601,7 @@ A Bacta Tank~
 D1
 ~
 ~
-0 -1 4966
+0 -1 4966 0
 > rand_prog 100~
 mpecho You feel a little better as the bacta starts healing your wounds
 mprestore $n 50
@@ -1581,7 +1615,7 @@ A Bacta Tank~
 D3
 ~
 ~
-0 -1 4966
+0 -1 4966 0
 > rand_prog 100~
 mpecho You feel a little better as the bacta starts healing your wounds
 mprestore $n 50
@@ -1595,15 +1629,15 @@ A Narrow Hallway~
 D0
 ~
 ~
-0 -1 4966
+0 -1 4966 0
 D1
 ~
 ~
-16777216 -1 4971
+16777216 -1 4971 0
 D3
 ~
 ~
-16777216 -1 4970
+16777216 -1 4970 0
 S
 #4970
 A Bacta Tank~
@@ -1612,7 +1646,7 @@ A Bacta Tank~
 D1
 ~
 ~
-0 -1 4969
+0 -1 4969 0
 > rand_prog 100~
 mpecho You feel a little better as the bacta starts healing your wounds
 mprestore $n 50
@@ -1626,7 +1660,7 @@ A Bacta Tank~
 D3
 ~
 ~
-0 -1 4969
+0 -1 4969 0
 > rand_prog 100~
 mpecho You feel a little better as the bacta starts healing your wounds
 mprestore $n 50
@@ -1640,11 +1674,12 @@ A Small Waiting Area~
 D0
 ~
 ~
-0 -1 4964
+0 -1 4964 0
 D2
 ~
 ~
-39 -1 4973
+39 -1 4973 0
+R D 0 4972 2 2
 > custom_prog drlinewait~
 mpechoat $n There seems to be a wait to see the Doctor, you will have to be patient.
 mpechoaround $n $q arrives off the turbolift and joins the line to see the doctor.
@@ -1662,7 +1697,9 @@ An Operation Room~
 D0
 ~
 ~
-0 -1 4972
+0 -1 4972 0
+R M 0 4909 1 4973
+  R G 1 4920 1
 S
 #4974
 The Supply Room~
@@ -1671,67 +1708,26 @@ The Supply Room~
 D0
 ~
 ~
-0 -1 4964
+0 -1 4964 0
+R O 0 4921 1 4974
+  R P 0 4922 1 4921
 S
 #5200
 Floating in a void~
 ~
 0 4 1 0 0 0 8232
+R M 0 5200 1 5200
+R O 0 5200 1 5200
 S
 #0
 
 
-#RESETS
-M 1 4901 1 4901
-O 1 4901 1 4901
-M 1 5200 1 5200
-O 1 5200 1 5200
-O 1 4902 1 4904
-M 1 4902 1 4902
-M 1 4903 1 4913
-M 1 4903 2 4914
-M 1 4903 3 4915
-M 1 4904 1 4933
-G 1 4905 1
-G 1 4903 1
-G 1 4904 1
-M 1 4906 1 4935
-G 1 4906 1
-G 1 4907 1
-M 1 4905 1 4937
-G 1 4909 1
-G 1 4908 1
-M 1 4907 1 4938
-G 1 4911 1
-G 1 4910 1
-D 0 4956 1 1
-O 1 4917 1 4957
-D 0 4957 1 1
-D 0 4957 3 1
-M 1 4908 1 4951
-G 1 4916 1
-G 1 4915 1
-G 1 4914 1
-G 1 4913 1
-G 1 4912 1
-O 1 4918 1 4951
-O 1 4919 1 4951
-D 0 4972 2 2
-M 1 4909 1 4973
-G 1 4920 1
-O 1 4923 1 4964
-P 0 4922 1 0
-O 1 4921 1 4974
-P 0 4922 1 0
-S
-
-
 #SHOPS
- 4904    0  0  0  0  0   120  90         0 23 0  ; A Selonian Shopkeeper
- 4905    0  0  0  0  0   120  90         0 23 0  ; Jerek Miv
- 4906    0  0  0  0  0   120  90         0 23 0  ; The Shopkeeper
- 4907    0  0  0  0  0   120  90         0 23 0  ; A Ryn Shopkeeper
- 4908    0  0  0  0  0   120  90         0 23 0  ; Drek
+ 4904    0  0  0  0  0   120  90         0 23    ; A Selonian Shopkeeper
+ 4905    0  0  0  0  0   120  90         0 23    ; Jerek Miv
+ 4906    0  0  0  0  0   120  90         0 23    ; The Shopkeeper
+ 4907    0  0  0  0  0   120  90         0 23    ; A Ryn Shopkeeper
+ 4908    0  0  0  0  0   120  90         0 23    ; Drek
 0
 
 

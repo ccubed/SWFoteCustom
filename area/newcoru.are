@@ -777,7 +777,7 @@ Glip the shop owner is standing by the register, keeping track of credits.
 8 8 1
 10 10 10 10 10 10 10
 0 0 0 0 0
-0 0 0 0 0 0 0
+0 0 0 0 1 1 0
 2 2 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
 #19999
@@ -1908,6 +1908,8 @@ A hiobj is here.~
 Floating in a void~
 ~
 0 4 1 0 0 0 14624
+R M 0 19000 1 19000
+R O 0 19000 1 19000
 S
 #19001
 Menari Platform~
@@ -1921,11 +1923,20 @@ main part of Imperial City.
 D2
 ~
 ~
-0 -1 19285
+0 -1 19285 0
 D6
 ~
 ~
-0 -1 19002
+0 -1 19002 0
+R M 0 19005 4 19001
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+  R E 1 19022 1 16
+R M 0 19005 4 19001
+  R E 1 19021 1 6
+  R E 1 19020 1 5
+  R E 1 19022 1 16
+R M 0 19031 1 19001
 S
 #19002
 Inside Menari Spaceport~
@@ -1938,19 +1949,19 @@ itself lies southwest of here, and the Serin pad is northwest.
 D0
 ~
 ~
-0 -1 19423
+0 -1 19423 0
 D1
 ~
 ~
-0 -1 19004
+0 -1 19004 0
 D7
 ~
 ~
-0 -1 19003
+0 -1 19003 0
 D9
 ~
 ~
-0 -1 19001
+0 -1 19001 0
 S
 #19003
 Serin Shuttle Bus Station~
@@ -1964,7 +1975,9 @@ When the Serin arrives, type 'BOARD <shipname>' to enter.
 D8
 ~
 ~
-0 -1 19002
+0 -1 19002 0
+R M 0 19012 1 19003
+R O 0 19077 1 19003
 S
 #19004
 Intersection of Vera Street and Tedium Way~
@@ -1977,15 +1990,15 @@ technological and architectural genius.
 D0
 ~
 ~
-0 -1 19043
+0 -1 19043 0
 D1
 ~
 ~
-0 -1 19005
+0 -1 19005 0
 D3
 ~
 ~
-0 -1 19002
+0 -1 19002 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -2002,11 +2015,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19006
+0 -1 19006 0
 D3
 ~
 ~
-0 -1 19004
+0 -1 19004 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2023,11 +2036,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19007
+0 -1 19007 0
 D3
 ~
 ~
-0 -1 19005
+0 -1 19005 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2044,15 +2057,15 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19008
+0 -1 19008 0
 D2
 ~
 ~
-0 -1 19404
+0 -1 19404 0
 D3
 ~
 ~
-0 -1 19006
+0 -1 19006 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2069,11 +2082,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19009
+0 -1 19009 0
 D3
 ~
 ~
-0 -1 19007
+0 -1 19007 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2090,15 +2103,15 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19010
+0 -1 19010 0
 D3
 ~
 ~
-0 -1 19008
+0 -1 19008 0
 D7
 ~
 ~
-0 -1 19422
+0 -1 19422 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2114,15 +2127,15 @@ Gardens. Ceres Way runs northward, through most of Imperial City.
 D0
 ~
 ~
-0 -1 19035
+0 -1 19035 0
 D1
 ~
 ~
-0 -1 19011
+0 -1 19011 0
 D3
 ~
 ~
-0 -1 19009
+0 -1 19009 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2139,11 +2152,11 @@ along the concourse.
 D3
 ~
 ~
-0 -1 19010
+0 -1 19010 0
 D8
 ~
 ~
-0 -1 19012
+0 -1 19012 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2160,11 +2173,11 @@ along the concourse.
 D7
 ~
 ~
-0 -1 19011
+0 -1 19011 0
 D8
 ~
 ~
-0 -1 19013
+0 -1 19013 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2181,11 +2194,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19014
+0 -1 19014 0
 D7
 ~
 ~
-0 -1 19012
+0 -1 19012 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2202,11 +2215,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19015
+0 -1 19015 0
 D3
 ~
 ~
-0 -1 19013
+0 -1 19013 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2223,11 +2236,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19016
+0 -1 19016 0
 D3
 ~
 ~
-0 -1 19014
+0 -1 19014 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2244,11 +2257,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19017
+0 -1 19017 0
 D3
 ~
 ~
-0 -1 19015
+0 -1 19015 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2265,11 +2278,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19018
+0 -1 19018 0
 D3
 ~
 ~
-0 -1 19016
+0 -1 19016 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2286,11 +2299,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19019
+0 -1 19019 0
 D3
 ~
 ~
-0 -1 19017
+0 -1 19017 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2306,15 +2319,15 @@ east. Rakka Avenue leads north, around a large commercial district.
 D0
 ~
 ~
-0 -1 19023
+0 -1 19023 0
 D1
 ~
 ~
-0 -1 19020
+0 -1 19020 0
 D3
 ~
 ~
-0 -1 19018
+0 -1 19018 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -2331,11 +2344,11 @@ along the concourse.
 D1
 ~
 ~
-0 -1 19021
+0 -1 19021 0
 D3
 ~
 ~
-0 -1 19019
+0 -1 19019 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2352,15 +2365,15 @@ turbocar station.
 D0
 ~
 ~
-0 -1 19022
+0 -1 19022 0
 D3
 ~
 ~
-0 -1 19020
+0 -1 19020 0
 D8
 ~
 ~
-0 -1 19371
+0 -1 19371 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2378,7 +2391,8 @@ escort you to the station.
 D2
 ~
 ~
-0 -1 19021
+0 -1 19021 0
+R M 0 19024 1 19022
 S
 #19023
 Rakka Avenue~
@@ -2391,11 +2405,11 @@ and transports whiz by.
 D2
 ~
 ~
-0 -1 19019
+0 -1 19019 0
 D7
 ~
 ~
-0 -1 19024
+0 -1 19024 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2412,11 +2426,11 @@ and transports whiz by.
 D7
 ~
 ~
-0 -1 19025
+0 -1 19025 0
 D8
 ~
 ~
-0 -1 19023
+0 -1 19023 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2433,11 +2447,11 @@ and transports whiz by.
 D7
 ~
 ~
-0 -1 19026
+0 -1 19026 0
 D8
 ~
 ~
-0 -1 19024
+0 -1 19024 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2454,11 +2468,11 @@ and transports whiz by.
 D7
 ~
 ~
-0 -1 19027
+0 -1 19027 0
 D8
 ~
 ~
-0 -1 19025
+0 -1 19025 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2475,11 +2489,11 @@ and transports whiz by.
 D7
 ~
 ~
-0 -1 19028
+0 -1 19028 0
 D8
 ~
 ~
-0 -1 19026
+0 -1 19026 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2496,11 +2510,11 @@ and transports whiz by.
 D7
 ~
 ~
-0 -1 19029
+0 -1 19029 0
 D8
 ~
 ~
-0 -1 19027
+0 -1 19027 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2517,15 +2531,15 @@ Skydome Botanical Gardens.
 D3
 ~
 ~
-0 -1 19030
+0 -1 19030 0
 D6
 ~
 ~
-0 -1 19074
+0 -1 19074 0
 D8
 ~
 ~
-0 -1 19028
+0 -1 19028 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2542,11 +2556,11 @@ and transports whiz by.
 D1
 ~
 ~
-0 -1 19029
+0 -1 19029 0
 D3
 ~
 ~
-0 -1 19031
+0 -1 19031 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2563,11 +2577,11 @@ and transports whiz by.
 D1
 ~
 ~
-0 -1 19030
+0 -1 19030 0
 D3
 ~
 ~
-0 -1 19032
+0 -1 19032 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2583,19 +2597,19 @@ Skydome Botanical Gardens.
 D0
 ~
 ~
-0 -1 19058
+0 -1 19058 0
 D1
 ~
 ~
-0 -1 19031
+0 -1 19031 0
 D2
 ~
 ~
-0 -1 19033
+0 -1 19033 0
 D3
 ~
 ~
-0 -1 19036
+0 -1 19036 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -2615,11 +2629,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19032
+0 -1 19032 0
 D2
 ~
 ~
-0 -1 19034
+0 -1 19034 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2636,15 +2650,15 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19033
+0 -1 19033 0
 D1
 ~
 ~
-0 -1 19424
+0 -1 19424 0
 D2
 ~
 ~
-0 -1 19035
+0 -1 19035 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2661,11 +2675,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19034
+0 -1 19034 0
 D2
 ~
 ~
-0 -1 19010
+0 -1 19010 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2682,11 +2696,11 @@ and transports whiz by.
 D1
 ~
 ~
-0 -1 19032
+0 -1 19032 0
 D3
 ~
 ~
-0 -1 19037
+0 -1 19037 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2703,11 +2717,11 @@ and transports whiz by.
 D1
 ~
 ~
-0 -1 19036
+0 -1 19036 0
 D3
 ~
 ~
-0 -1 19038
+0 -1 19038 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2724,11 +2738,11 @@ and transports whiz by.
 D1
 ~
 ~
-0 -1 19037
+0 -1 19037 0
 D3
 ~
 ~
-0 -1 19039
+0 -1 19039 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2745,15 +2759,15 @@ missing each other in the process.
 D1
 ~
 ~
-0 -1 19038
+0 -1 19038 0
 D7
 ~
 ~
-0 -1 19044
+0 -1 19044 0
 D9
 ~
 ~
-0 -1 19040
+0 -1 19040 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -2770,11 +2784,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19039
+0 -1 19039 0
 D9
 ~
 ~
-0 -1 19041
+0 -1 19041 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -2791,11 +2805,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19040
+0 -1 19040 0
 D9
 ~
 ~
-0 -1 19042
+0 -1 19042 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2812,11 +2826,11 @@ Occasionally, a speeder or transport will pass by.
 D2
 ~
 ~
-0 -1 19043
+0 -1 19043 0
 D6
 ~
 ~
-0 -1 19041
+0 -1 19041 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -2833,11 +2847,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19042
+0 -1 19042 0
 D2
 ~
 ~
-0 -1 19004
+0 -1 19004 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -2854,11 +2868,11 @@ Occasionally, a speeder or transport will pass by.
 D7
 ~
 ~
-0 -1 19045
+0 -1 19045 0
 D8
 ~
 ~
-0 -1 19039
+0 -1 19039 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -2875,15 +2889,15 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19047
+0 -1 19047 0
 D3
 ~
 ~
-0 -1 19046
+0 -1 19046 0
 D8
 ~
 ~
-0 -1 19044
+0 -1 19044 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2896,11 +2910,11 @@ The Jara Lodge~
 D1
 ~
 ~
-0 -1 19045
+0 -1 19045 0
 D3
 ~
 ~
-0 -1 19362
+0 -1 19362 0
 S
 #19047
 Tedium Way~
@@ -2913,11 +2927,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19048
+0 -1 19048 0
 D2
 ~
 ~
-0 -1 19045
+0 -1 19045 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2934,11 +2948,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19049
+0 -1 19049 0
 D2
 ~
 ~
-0 -1 19047
+0 -1 19047 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -2955,11 +2969,11 @@ Occasionally, a speeder or transport will pass by.
 D2
 ~
 ~
-0 -1 19048
+0 -1 19048 0
 D6
 ~
 ~
-0 -1 19050
+0 -1 19050 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -2976,15 +2990,15 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19169
+0 -1 19169 0
 D1
 ~
 ~
-0 -1 19051
+0 -1 19051 0
 D9
 ~
 ~
-0 -1 19049
+0 -1 19049 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -2997,11 +3011,11 @@ A Dark Alleyway~
 D1
 ~
 ~
-0 -1 19052
+0 -1 19052 0
 D3
 ~
 ~
-0 -1 19050
+0 -1 19050 0
 S
 #19052
 A Dark Alleyway~
@@ -3010,11 +3024,11 @@ A Dark Alleyway~
 D1
 ~
 ~
-0 -1 19053
+0 -1 19053 0
 D3
 ~
 ~
-0 -1 19051
+0 -1 19051 0
 S
 #19053
 A Dark Alleyway~
@@ -3023,11 +3037,11 @@ A Dark Alleyway~
 D1
 ~
 ~
-0 -1 19054
+0 -1 19054 0
 D3
 ~
 ~
-0 -1 19052
+0 -1 19052 0
 S
 #19054
 Ceres Way~
@@ -3040,15 +3054,15 @@ concourse very fast.
 D2
 ~
 ~
-0 -1 19055
+0 -1 19055 0
 D3
 ~
 ~
-0 -1 19053
+0 -1 19053 0
 D6
 ~
 ~
-0 -1 19059
+0 -1 19059 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -3065,11 +3079,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19054
+0 -1 19054 0
 D2
 ~
 ~
-0 -1 19056
+0 -1 19056 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -3086,11 +3100,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19055
+0 -1 19055 0
 D2
 ~
 ~
-0 -1 19057
+0 -1 19057 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3107,11 +3121,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19056
+0 -1 19056 0
 D2
 ~
 ~
-0 -1 19058
+0 -1 19058 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3128,11 +3142,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19057
+0 -1 19057 0
 D2
 ~
 ~
-0 -1 19032
+0 -1 19032 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -3149,11 +3163,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19060
+0 -1 19060 0
 D9
 ~
 ~
-0 -1 19054
+0 -1 19054 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3166,15 +3180,15 @@ Intersection of Ceres Way and Museum Avenue~
 D6
 ~
 ~
-0 -1 19065
+0 -1 19065 0
 D7
 ~
 ~
-0 -1 19061
+0 -1 19061 0
 D9
 ~
 ~
-0 -1 19059
+0 -1 19059 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3187,11 +3201,11 @@ Museum Avenue~
 D0
 ~
 ~
-0 -1 19062
+0 -1 19062 0
 D8
 ~
 ~
-0 -1 19060
+0 -1 19060 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -3204,15 +3218,15 @@ Museum Avenue - Approaching the Holographic Museum of History~
 D0
 ~
 ~
-0 -1 19064
+0 -1 19064 0
 D2
 ~
 ~
-0 -1 19061
+0 -1 19061 0
 D3
 ~
 ~
-0 -1 19063
+0 -1 19063 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -3225,7 +3239,7 @@ Turbocar Station~
 D1
 ~
 ~
-0 -1 19062
+0 -1 19062 0
 S
 #19064
 Scenic Attraction 2~
@@ -3234,7 +3248,7 @@ Scenic Attraction 2~
 D2
 ~
 ~
-0 -1 19062
+0 -1 19062 0
 S
 #19065
 Ceres Way~
@@ -3247,11 +3261,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19066
+0 -1 19066 0
 D9
 ~
 ~
-0 -1 19060
+0 -1 19060 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3264,15 +3278,15 @@ Intersection of Ceres Way and Niemand Boulevard~
 D6
 ~
 ~
-0 -1 19098
+0 -1 19098 0
 D8
 ~
 ~
-0 -1 19067
+0 -1 19067 0
 D9
 ~
 ~
-0 -1 19065
+0 -1 19065 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -3285,11 +3299,11 @@ Niemand Boulevard~
 D7
 ~
 ~
-0 -1 19066
+0 -1 19066 0
 D8
 ~
 ~
-0 -1 19068
+0 -1 19068 0
 S
 #19068
 Niemand Boulevard~
@@ -3298,11 +3312,11 @@ Niemand Boulevard~
 D2
 ~
 ~
-0 -1 19069
+0 -1 19069 0
 D7
 ~
 ~
-0 -1 19067
+0 -1 19067 0
 S
 #19069
 Niemand Boulevard~
@@ -3311,11 +3325,11 @@ Niemand Boulevard~
 D0
 ~
 ~
-0 -1 19068
+0 -1 19068 0
 D2
 ~
 ~
-0 -1 19070
+0 -1 19070 0
 S
 #19070
 Niemand Boulevard~
@@ -3324,11 +3338,11 @@ Niemand Boulevard~
 D0
 ~
 ~
-0 -1 19069
+0 -1 19069 0
 D2
 ~
 ~
-0 -1 19071
+0 -1 19071 0
 S
 #19071
 Niemand Boulevard~
@@ -3337,11 +3351,11 @@ Niemand Boulevard~
 D0
 ~
 ~
-0 -1 19070
+0 -1 19070 0
 D2
 ~
 ~
-0 -1 19072
+0 -1 19072 0
 S
 #19072
 Intersection of Niemand Boulevard and Martyr Road~
@@ -3350,15 +3364,15 @@ Intersection of Niemand Boulevard and Martyr Road~
 D0
 ~
 ~
-0 -1 19071
+0 -1 19071 0
 D1
 ~
 ~
-0 -1 19075
+0 -1 19075 0
 D9
 ~
 ~
-0 -1 19073
+0 -1 19073 0
 S
 #19073
 Niemand Boulevard~
@@ -3367,11 +3381,11 @@ Niemand Boulevard~
 D6
 ~
 ~
-0 -1 19072
+0 -1 19072 0
 D9
 ~
 ~
-0 -1 19074
+0 -1 19074 0
 S
 #19074
 Niemand Boulevard~
@@ -3380,11 +3394,11 @@ Niemand Boulevard~
 D6
 ~
 ~
-0 -1 19073
+0 -1 19073 0
 D9
 ~
 ~
-0 -1 19029
+0 -1 19029 0
 S
 #19075
 Martyr Road~
@@ -3397,11 +3411,11 @@ speeding turbocars.
 D1
 ~
 ~
-0 -1 19076
+0 -1 19076 0
 D3
 ~
 ~
-0 -1 19072
+0 -1 19072 0
 S
 #19076
 Martyr Road~
@@ -3414,11 +3428,11 @@ speeding turbocars.
 D1
 ~
 ~
-0 -1 19077
+0 -1 19077 0
 D3
 ~
 ~
-0 -1 19075
+0 -1 19075 0
 S
 #19077
 Martyr Road~
@@ -3431,11 +3445,11 @@ speeding turbocars.
 D0
 ~
 ~
-0 -1 19078
+0 -1 19078 0
 D3
 ~
 ~
-0 -1 19076
+0 -1 19076 0
 S
 #19078
 Martyr Road~
@@ -3448,15 +3462,15 @@ speeding turbocars.
 D0
 ~
 ~
-0 -1 19080
+0 -1 19080 0
 D1
 ~
 ~
-0 -1 19079
+0 -1 19079 0
 D2
 ~
 ~
-0 -1 19077
+0 -1 19077 0
 S
 #19079
 A hotel~
@@ -3465,7 +3479,7 @@ A hotel~
 D3
 ~
 ~
-0 -1 19078
+0 -1 19078 0
 S
 #19080
 Martyr Road~
@@ -3478,11 +3492,11 @@ speeding turbocars.
 D0
 ~
 ~
-0 -1 19081
+0 -1 19081 0
 D2
 ~
 ~
-0 -1 19078
+0 -1 19078 0
 S
 #19081
 Martyr Road~
@@ -3495,11 +3509,11 @@ speeding turbocars.
 D2
 ~
 ~
-0 -1 19080
+0 -1 19080 0
 D6
 ~
 ~
-0 -1 19082
+0 -1 19082 0
 S
 #19082
 Martyr Road~
@@ -3512,11 +3526,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19083
+0 -1 19083 0
 D9
 ~
 ~
-0 -1 19081
+0 -1 19081 0
 S
 #19083
 Martyr Road - Approaching Bulova Spaceport~
@@ -3525,15 +3539,15 @@ Martyr Road - Approaching Bulova Spaceport~
 D0
 ~
 ~
-0 -1 19086
+0 -1 19086 0
 D1
 ~
 ~
-0 -1 19084
+0 -1 19084 0
 D9
 ~
 ~
-0 -1 19082
+0 -1 19082 0
 S
 #19084
 Bulova Spaceport~
@@ -3546,11 +3560,20 @@ of all shapes and sizes launch and land here every hour.
 D3
 ~
 ~
-0 -1 19083
+0 -1 19083 0
 D8
 ~
 ~
-0 -1 19085
+0 -1 19085 0
+R M 0 19005 6 19084
+  R E 1 19022 1 16
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+R M 0 19005 6 19084
+  R E 1 19022 1 16
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+R M 0 19031 3 19084
 S
 #19085
 Concourse to the turbocar station~
@@ -3559,7 +3582,9 @@ Concourse to the turbocar station~
 D7
 ~
 ~
-0 -1 19084
+0 -1 19084 0
+R M 0 19010 1 19085
+  R G 1 3 1
 S
 #19086
 Martyr Road~
@@ -3572,11 +3597,11 @@ speeding turbocars.
 D0
 ~
 ~
-0 -1 19087
+0 -1 19087 0
 D2
 ~
 ~
-0 -1 19083
+0 -1 19083 0
 S
 #19087
 Martyr Road~
@@ -3589,11 +3614,11 @@ speeding turbocars.
 D2
 ~
 ~
-0 -1 19086
+0 -1 19086 0
 D6
 ~
 ~
-0 -1 19088
+0 -1 19088 0
 S
 #19088
 Martyr Road~
@@ -3606,11 +3631,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19089
+0 -1 19089 0
 D9
 ~
 ~
-0 -1 19087
+0 -1 19087 0
 S
 #19089
 Martyr Road~
@@ -3623,15 +3648,15 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19111
+0 -1 19111 0
 D7
 ~
 ~
-0 -1 19090
+0 -1 19090 0
 D9
 ~
 ~
-0 -1 19088
+0 -1 19088 0
 S
 #19090
 A Dark Alleyway~
@@ -3640,11 +3665,11 @@ A Dark Alleyway~
 D7
 ~
 ~
-0 -1 19091
+0 -1 19091 0
 D8
 ~
 ~
-0 -1 19089
+0 -1 19089 0
 S
 #19091
 A Dark Alleyway~
@@ -3653,11 +3678,11 @@ A Dark Alleyway~
 D7
 ~
 ~
-0 -1 19092
+0 -1 19092 0
 D8
 ~
 ~
-0 -1 19090
+0 -1 19090 0
 S
 #19092
 A Dark Alleyway~
@@ -3666,11 +3691,11 @@ A Dark Alleyway~
 D7
 ~
 ~
-0 -1 19093
+0 -1 19093 0
 D8
 ~
 ~
-0 -1 19091
+0 -1 19091 0
 S
 #19093
 Intersection of Ceres Way and Palace Avenue~
@@ -3679,19 +3704,19 @@ Intersection of Ceres Way and Palace Avenue~
 D6
 ~
 ~
-0 -1 19099
+0 -1 19099 0
 D7
 ~
 ~
-0 -1 19112
+0 -1 19112 0
 D8
 ~
 ~
-0 -1 19092
+0 -1 19092 0
 D9
 ~
 ~
-0 -1 19094
+0 -1 19094 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -3708,11 +3733,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19093
+0 -1 19093 0
 D9
 ~
 ~
-0 -1 19095
+0 -1 19095 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3729,11 +3754,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19094
+0 -1 19094 0
 D9
 ~
 ~
-0 -1 19096
+0 -1 19096 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -3750,11 +3775,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19095
+0 -1 19095 0
 D9
 ~
 ~
-0 -1 19097
+0 -1 19097 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3771,11 +3796,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19096
+0 -1 19096 0
 D9
 ~
 ~
-0 -1 19098
+0 -1 19098 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -3792,11 +3817,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19097
+0 -1 19097 0
 D9
 ~
 ~
-0 -1 19066
+0 -1 19066 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -3813,11 +3838,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19100
+0 -1 19100 0
 D9
 ~
 ~
-0 -1 19093
+0 -1 19093 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -3834,11 +3859,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19101
+0 -1 19101 0
 D9
 ~
 ~
-0 -1 19099
+0 -1 19099 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3855,11 +3880,11 @@ concourse very fast.
 D6
 ~
 ~
-0 -1 19102
+0 -1 19102 0
 D9
 ~
 ~
-0 -1 19100
+0 -1 19100 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -3872,15 +3897,15 @@ Intersection of Ceres Way and Martyr Road~
 D0
 ~
 ~
-0 -1 19133
+0 -1 19133 0
 D1
 ~
 ~
-0 -1 19103
+0 -1 19103 0
 D9
 ~
 ~
-0 -1 19101
+0 -1 19101 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -3897,11 +3922,11 @@ speeding turbocars.
 D1
 ~
 ~
-0 -1 19104
+0 -1 19104 0
 D3
 ~
 ~
-0 -1 19102
+0 -1 19102 0
 S
 #19104
 Martyr Road~
@@ -3914,11 +3939,11 @@ speeding turbocars.
 D3
 ~
 ~
-0 -1 19103
+0 -1 19103 0
 D8
 ~
 ~
-0 -1 19105
+0 -1 19105 0
 S
 #19105
 Martyr Road~
@@ -3931,11 +3956,11 @@ speeding turbocars.
 D7
 ~
 ~
-0 -1 19104
+0 -1 19104 0
 D8
 ~
 ~
-0 -1 19106
+0 -1 19106 0
 S
 #19106
 Martyr Road~
@@ -3948,15 +3973,15 @@ speeding turbocars.
 D1
 ~
 ~
-0 -1 19439
+0 -1 19439 0
 D7
 ~
 ~
-0 -1 19105
+0 -1 19105 0
 D9
 ~
 ~
-0 -1 19107
+0 -1 19107 0
 S
 #19107
 Martyr Road~
@@ -3969,11 +3994,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19106
+0 -1 19106 0
 D9
 ~
 ~
-0 -1 19108
+0 -1 19108 0
 S
 #19108
 Martyr Road~
@@ -3986,11 +4011,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19107
+0 -1 19107 0
 D9
 ~
 ~
-0 -1 19109
+0 -1 19109 0
 S
 #19109
 Martyr Road~
@@ -4003,11 +4028,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19108
+0 -1 19108 0
 D9
 ~
 ~
-0 -1 19110
+0 -1 19110 0
 S
 #19110
 Martyr Road~
@@ -4020,11 +4045,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19109
+0 -1 19109 0
 D9
 ~
 ~
-0 -1 19111
+0 -1 19111 0
 S
 #19111
 Martyr Road~
@@ -4037,11 +4062,11 @@ speeding turbocars.
 D6
 ~
 ~
-0 -1 19110
+0 -1 19110 0
 D9
 ~
 ~
-0 -1 19089
+0 -1 19089 0
 S
 #19112
 Palace Avenue~
@@ -4050,11 +4075,11 @@ Palace Avenue~
 D3
 ~
 ~
-0 -1 19113
+0 -1 19113 0
 D8
 ~
 ~
-0 -1 19093
+0 -1 19093 0
 S
 #19113
 Palace Avenue~
@@ -4063,11 +4088,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19112
+0 -1 19112 0
 D3
 ~
 ~
-0 -1 19114
+0 -1 19114 0
 S
 #19114
 Palace Avenue~
@@ -4076,11 +4101,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19113
+0 -1 19113 0
 D3
 ~
 ~
-0 -1 19115
+0 -1 19115 0
 S
 #19115
 Intersection of Palace Avenue and Savior Road~
@@ -4089,15 +4114,15 @@ Intersection of Palace Avenue and Savior Road~
 D1
 ~
 ~
-0 -1 19114
+0 -1 19114 0
 D3
 ~
 ~
-0 -1 19264
+0 -1 19264 0
 D7
 ~
 ~
-0 -1 19116
+0 -1 19116 0
 S
 #19116
 Savior Road~
@@ -4110,11 +4135,11 @@ speed.
 D0
 ~
 ~
-0 -1 19117
+0 -1 19117 0
 D8
 ~
 ~
-0 -1 19115
+0 -1 19115 0
 S
 #19117
 Savior Road~
@@ -4127,11 +4152,11 @@ speed.
 D0
 ~
 ~
-0 -1 19118
+0 -1 19118 0
 D2
 ~
 ~
-0 -1 19116
+0 -1 19116 0
 S
 #19118
 Intersection of Savior Road and Zull Boulevard~
@@ -4144,15 +4169,15 @@ speed.
 D0
 ~
 ~
-0 -1 19119
+0 -1 19119 0
 D1
 ~
 ~
-0 -1 19139
+0 -1 19139 0
 D2
 ~
 ~
-0 -1 19117
+0 -1 19117 0
 S
 #19119
 Savior Road~
@@ -4165,11 +4190,11 @@ speed.
 D0
 ~
 ~
-0 -1 19120
+0 -1 19120 0
 D2
 ~
 ~
-0 -1 19118
+0 -1 19118 0
 S
 #19120
 Savior Road~
@@ -4182,11 +4207,11 @@ speed.
 D0
 ~
 ~
-0 -1 19121
+0 -1 19121 0
 D2
 ~
 ~
-0 -1 19119
+0 -1 19119 0
 S
 #19121
 Intersection of Ceres Way and Savior Road~
@@ -4195,15 +4220,15 @@ Intersection of Ceres Way and Savior Road~
 D1
 ~
 ~
-0 -1 19122
+0 -1 19122 0
 D2
 ~
 ~
-0 -1 19120
+0 -1 19120 0
 D3
 ~
 ~
-0 -1 19140
+0 -1 19140 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -4220,11 +4245,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19123
+0 -1 19123 0
 D3
 ~
 ~
-0 -1 19121
+0 -1 19121 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -4241,11 +4266,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19124
+0 -1 19124 0
 D3
 ~
 ~
-0 -1 19122
+0 -1 19122 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4262,11 +4287,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19125
+0 -1 19125 0
 D3
 ~
 ~
-0 -1 19123
+0 -1 19123 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -4283,11 +4308,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19126
+0 -1 19126 0
 D3
 ~
 ~
-0 -1 19124
+0 -1 19124 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4304,11 +4329,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19127
+0 -1 19127 0
 D3
 ~
 ~
-0 -1 19125
+0 -1 19125 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4325,11 +4350,11 @@ concourse very fast.
 D3
 ~
 ~
-0 -1 19126
+0 -1 19126 0
 D8
 ~
 ~
-0 -1 19128
+0 -1 19128 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4346,11 +4371,11 @@ concourse very fast.
 D7
 ~
 ~
-0 -1 19127
+0 -1 19127 0
 D8
 ~
 ~
-0 -1 19129
+0 -1 19129 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4367,11 +4392,11 @@ concourse very fast.
 D7
 ~
 ~
-0 -1 19128
+0 -1 19128 0
 D8
 ~
 ~
-0 -1 19130
+0 -1 19130 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -4388,11 +4413,11 @@ concourse very fast.
 D2
 ~
 ~
-0 -1 19131
+0 -1 19131 0
 D7
 ~
 ~
-0 -1 19129
+0 -1 19129 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -4409,11 +4434,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19130
+0 -1 19130 0
 D2
 ~
 ~
-0 -1 19132
+0 -1 19132 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4426,15 +4451,15 @@ Intersection of Ceres Way and Zull Boulevard~
 D0
 ~
 ~
-0 -1 19131
+0 -1 19131 0
 D2
 ~
 ~
-0 -1 19133
+0 -1 19133 0
 D3
 ~
 ~
-0 -1 19134
+0 -1 19134 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -4451,11 +4476,11 @@ concourse very fast.
 D0
 ~
 ~
-0 -1 19132
+0 -1 19132 0
 D2
 ~
 ~
-0 -1 19102
+0 -1 19102 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4468,11 +4493,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19132
+0 -1 19132 0
 D3
 ~
 ~
-0 -1 19135
+0 -1 19135 0
 S
 #19135
 Zull Boulevard~
@@ -4481,11 +4506,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19134
+0 -1 19134 0
 D3
 ~
 ~
-0 -1 19136
+0 -1 19136 0
 S
 #19136
 Zull Boulevard~
@@ -4494,11 +4519,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19135
+0 -1 19135 0
 D3
 ~
 ~
-0 -1 19137
+0 -1 19137 0
 S
 #19137
 Zull Boulevard~
@@ -4507,11 +4532,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19136
+0 -1 19136 0
 D3
 ~
 ~
-0 -1 19138
+0 -1 19138 0
 S
 #19138
 Zull Boulevard~
@@ -4520,11 +4545,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19137
+0 -1 19137 0
 D3
 ~
 ~
-0 -1 19139
+0 -1 19139 0
 S
 #19139
 Zull Boulevard~
@@ -4533,11 +4558,11 @@ Zull Boulevard~
 D1
 ~
 ~
-0 -1 19138
+0 -1 19138 0
 D3
 ~
 ~
-0 -1 19118
+0 -1 19118 0
 S
 #19140
 Ceres Way~
@@ -4550,11 +4575,11 @@ concourse very fast.
 D1
 ~
 ~
-0 -1 19121
+0 -1 19121 0
 D3
 ~
 ~
-0 -1 19141
+0 -1 19141 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4567,15 +4592,15 @@ Intersection of Tedium and Ceres Way~
 D0
 ~
 ~
-0 -1 19142
+0 -1 19142 0
 D1
 ~
 ~
-0 -1 19140
+0 -1 19140 0
 D2
 ~
 ~
-0 -1 19145
+0 -1 19145 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -4588,11 +4613,11 @@ Tedium Way - Approaching Yolar Spaceport~
 D0
 ~
 ~
-0 -1 19143
+0 -1 19143 0
 D2
 ~
 ~
-0 -1 19141
+0 -1 19141 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4605,15 +4630,15 @@ Yolar Spaceport~
 D2
 ~
 ~
-0 -1 19142
+0 -1 19142 0
 D3
 ~
 ~
-0 -1 19144
+0 -1 19144 0
 D6
 ~
 ~
-0 -1 19438
+0 -1 19438 0
 S
 #19144
 Concourse to the turbocar station~
@@ -4622,7 +4647,8 @@ Concourse to the turbocar station~
 D1
 ~
 ~
-0 -1 19143
+0 -1 19143 0
+R M 0 19009 1 19144
 S
 #19145
 Tedium Way~
@@ -4635,11 +4661,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19141
+0 -1 19141 0
 D9
 ~
 ~
-0 -1 19146
+0 -1 19146 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4656,15 +4682,15 @@ Occasionally, a speeder or transport will pass by.
 D1
 ~
 ~
-0 -1 19409
+0 -1 19409 0
 D6
 ~
 ~
-0 -1 19145
+0 -1 19145 0
 D9
 ~
 ~
-0 -1 19147
+0 -1 19147 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -4681,15 +4707,15 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19146
+0 -1 19146 0
 D7
 ~
 ~
-0 -1 19148
+0 -1 19148 0
 D9
 ~
 ~
-0 -1 19149
+0 -1 19149 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -4702,7 +4728,7 @@ A hotel~
 D8
 ~
 ~
-0 -1 19147
+0 -1 19147 0
 S
 #19149
 Tedium Way~
@@ -4715,11 +4741,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19147
+0 -1 19147 0
 D9
 ~
 ~
-0 -1 19150
+0 -1 19150 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -4736,11 +4762,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19149
+0 -1 19149 0
 D9
 ~
 ~
-0 -1 19151
+0 -1 19151 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -4757,11 +4783,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19150
+0 -1 19150 0
 D9
 ~
 ~
-0 -1 19152
+0 -1 19152 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4774,15 +4800,15 @@ Intersection of Tedium Way and Marketplace Loop~
 D2
 ~
 ~
-0 -1 19153
+0 -1 19153 0
 D6
 ~
 ~
-0 -1 19151
+0 -1 19151 0
 D7
 ~
 ~
-0 -1 19200
+0 -1 19200 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -4799,11 +4825,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19152
+0 -1 19152 0
 D2
 ~
 ~
-0 -1 19154
+0 -1 19154 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4820,15 +4846,15 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19153
+0 -1 19153 0
 D1
 ~
 ~
-0 -1 19155
+0 -1 19155 0
 D2
 ~
 ~
-0 -1 19156
+0 -1 19156 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4841,7 +4867,7 @@ Turbocar Station~
 D3
 ~
 ~
-0 -1 19154
+0 -1 19154 0
 S
 #19156
 Tedium Way~
@@ -4854,11 +4880,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19154
+0 -1 19154 0
 D2
 ~
 ~
-0 -1 19157
+0 -1 19157 0
 > rand_prog 100~
 mpechoat $n &YA turbocar narrowly misses you as it speeds along.
 ~
@@ -4875,11 +4901,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19156
+0 -1 19156 0
 D9
 ~
 ~
-0 -1 19158
+0 -1 19158 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4896,11 +4922,11 @@ Occasionally, a speeder or transport will pass by.
 D6
 ~
 ~
-0 -1 19157
+0 -1 19157 0
 D9
 ~
 ~
-0 -1 19159
+0 -1 19159 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -4913,15 +4939,15 @@ Intersection of Tedium Way and Marketplace Loop~
 D2
 ~
 ~
-0 -1 19160
+0 -1 19160 0
 D3
 ~
 ~
-0 -1 19170
+0 -1 19170 0
 D6
 ~
 ~
-0 -1 19158
+0 -1 19158 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -4938,11 +4964,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19159
+0 -1 19159 0
 D2
 ~
 ~
-0 -1 19161
+0 -1 19161 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4959,11 +4985,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19160
+0 -1 19160 0
 D2
 ~
 ~
-0 -1 19162
+0 -1 19162 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -4980,11 +5006,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19161
+0 -1 19161 0
 D2
 ~
 ~
-0 -1 19163
+0 -1 19163 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -5001,11 +5027,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19162
+0 -1 19162 0
 D2
 ~
 ~
-0 -1 19164
+0 -1 19164 0
 > rand_prog 100~
 mpechoat $n &YA turbocar recklessly drives through.
 ~
@@ -5018,15 +5044,15 @@ Intersection of Tedium Way and Palace Avenue~
 D0
 ~
 ~
-0 -1 19163
+0 -1 19163 0
 D1
 ~
 ~
-0 -1 19274
+0 -1 19274 0
 D2
 ~
 ~
-0 -1 19165
+0 -1 19165 0
 > rand_prog 100~
 mpechoat $n &YMany turbocars pass through the intersection.
 ~
@@ -5043,11 +5069,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19164
+0 -1 19164 0
 D2
 ~
 ~
-0 -1 19166
+0 -1 19166 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -5064,11 +5090,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19165
+0 -1 19165 0
 D2
 ~
 ~
-0 -1 19167
+0 -1 19167 0
 > rand_prog 100~
 mpechoat $n &YA turbocar speeds along.
 ~
@@ -5085,11 +5111,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19166
+0 -1 19166 0
 D2
 ~
 ~
-0 -1 19168
+0 -1 19168 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -5106,11 +5132,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19167
+0 -1 19167 0
 D2
 ~
 ~
-0 -1 19169
+0 -1 19169 0
 > rand_prog 100~
 mpechoat $n &YAn imperial patrol car speeds by.
 ~
@@ -5127,11 +5153,11 @@ Occasionally, a speeder or transport will pass by.
 D0
 ~
 ~
-0 -1 19168
+0 -1 19168 0
 D2
 ~
 ~
-0 -1 19050
+0 -1 19050 0
 > rand_prog 100~
 mpechoat $n &YSeveral turbocars quickly speed by.
 ~
@@ -5144,11 +5170,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19159
+0 -1 19159 0
 D3
 ~
 ~
-0 -1 19171
+0 -1 19171 0
 S
 #19171
 Marketplace Loop~
@@ -5157,11 +5183,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19170
+0 -1 19170 0
 D7
 ~
 ~
-0 -1 19172
+0 -1 19172 0
 S
 #19172
 Marketplace Loop~
@@ -5170,11 +5196,11 @@ Marketplace Loop~
 D7
 ~
 ~
-0 -1 19173
+0 -1 19173 0
 D8
 ~
 ~
-0 -1 19171
+0 -1 19171 0
 S
 #19173
 Marketplace Loop~
@@ -5183,11 +5209,11 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19174
+0 -1 19174 0
 D8
 ~
 ~
-0 -1 19172
+0 -1 19172 0
 S
 #19174
 Marketplace Loop~
@@ -5196,11 +5222,11 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19175
+0 -1 19175 0
 D2
 ~
 ~
-0 -1 19173
+0 -1 19173 0
 S
 #19175
 Marketplace Loop~
@@ -5209,11 +5235,11 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19176
+0 -1 19176 0
 D2
 ~
 ~
-0 -1 19174
+0 -1 19174 0
 S
 #19176
 Marketplace Loop~
@@ -5222,11 +5248,11 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19177
+0 -1 19177 0
 D2
 ~
 ~
-0 -1 19175
+0 -1 19175 0
 S
 #19177
 Marketplace Loop~
@@ -5235,11 +5261,11 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19178
+0 -1 19178 0
 D2
 ~
 ~
-0 -1 19176
+0 -1 19176 0
 S
 #19178
 Marketplace Loop~
@@ -5248,11 +5274,11 @@ Marketplace Loop~
 D2
 ~
 ~
-0 -1 19177
+0 -1 19177 0
 D6
 ~
 ~
-0 -1 19179
+0 -1 19179 0
 S
 #19179
 Marketplace Loop~
@@ -5261,11 +5287,11 @@ Marketplace Loop~
 D6
 ~
 ~
-0 -1 19180
+0 -1 19180 0
 D9
 ~
 ~
-0 -1 19178
+0 -1 19178 0
 S
 #19180
 Marketplace Loop~
@@ -5274,19 +5300,19 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19182
+0 -1 19182 0
 D6
 ~
 ~
-0 -1 19201
+0 -1 19201 0
 D8
 ~
 ~
-0 -1 19181
+0 -1 19181 0
 D9
 ~
 ~
-0 -1 19179
+0 -1 19179 0
 S
 #19181
 Turbocar Station~
@@ -5295,7 +5321,7 @@ Turbocar Station~
 D7
 ~
 ~
-0 -1 19180
+0 -1 19180 0
 S
 #19182
 South Entrance to the Coruscant Mall~
@@ -5304,11 +5330,11 @@ South Entrance to the Coruscant Mall~
 D0
 ~
 ~
-0 -1 19183
+0 -1 19183 0
 D2
 ~
 ~
-0 -1 19180
+0 -1 19180 0
 S
 #19183
 The Coruscant Mall~
@@ -5317,19 +5343,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19184
+0 -1 19184 0
 D1
 ~
 ~
-0 -1 19212
+0 -1 19212 0
 D2
 ~
 ~
-0 -1 19182
+0 -1 19182 0
 D3
 ~
 ~
-0 -1 19213
+0 -1 19213 0
 S
 #19184
 The Coruscant Mall~
@@ -5338,19 +5364,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19185
+0 -1 19185 0
 D1
 ~
 ~
-0 -1 19214
+0 -1 19214 0
 D2
 ~
 ~
-0 -1 19183
+0 -1 19183 0
 D3
 ~
 ~
-0 -1 19215
+0 -1 19215 0
 S
 #19185
 Center of the Mall~
@@ -5359,23 +5385,24 @@ Center of the Mall~
 D0
 ~
 ~
-0 -1 19186
+0 -1 19186 0
 D1
 ~
 ~
-0 -1 19189
+0 -1 19189 0
 D2
 ~
 ~
-0 -1 19184
+0 -1 19184 0
 D3
 ~
 ~
-0 -1 19205
+0 -1 19205 0
 D7
 ~
 ~
-0 -1 19209
+0 -1 19209 0
+R O 0 19002 1 19185
 S
 #19186
 The Coruscant Mall~
@@ -5384,19 +5411,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19187
+0 -1 19187 0
 D1
 ~
 ~
-0 -1 19218
+0 -1 19218 0
 D2
 ~
 ~
-0 -1 19185
+0 -1 19185 0
 D3
 ~
 ~
-0 -1 19219
+0 -1 19219 0
 S
 #19187
 The Coruscant Mall~
@@ -5405,19 +5432,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19188
+0 -1 19188 0
 D1
 ~
 ~
-0 -1 19217
+0 -1 19217 0
 D2
 ~
 ~
-0 -1 19186
+0 -1 19186 0
 D3
 ~
 ~
-0 -1 19216
+0 -1 19216 0
 S
 #19188
 The Coruscant Mall~
@@ -5426,15 +5453,15 @@ The Coruscant Mall~
 D1
 ~
 ~
-0 -1 19220
+0 -1 19220 0
 D2
 ~
 ~
-0 -1 19187
+0 -1 19187 0
 D3
 ~
 ~
-0 -1 19221
+0 -1 19221 0
 S
 #19189
 The Coruscant Mall~
@@ -5443,19 +5470,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19222
+0 -1 19222 0
 D1
 ~
 ~
-0 -1 19190
+0 -1 19190 0
 D2
 ~
 ~
-0 -1 19223
+0 -1 19223 0
 D3
 ~
 ~
-0 -1 19185
+0 -1 19185 0
 S
 #19190
 The Coruscant Mall~
@@ -5464,19 +5491,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19225
+0 -1 19225 0
 D1
 ~
 ~
-0 -1 19191
+0 -1 19191 0
 D2
 ~
 ~
-0 -1 19224
+0 -1 19224 0
 D3
 ~
 ~
-0 -1 19189
+0 -1 19189 0
 S
 #19191
 The Coruscant Mall~
@@ -5485,11 +5512,11 @@ The Coruscant Mall~
 D1
 ~
 ~
-0 -1 19192
+0 -1 19192 0
 D3
 ~
 ~
-0 -1 19190
+0 -1 19190 0
 S
 #19192
 East Entrance to the Coruscant Mall~
@@ -5498,15 +5525,15 @@ East Entrance to the Coruscant Mall~
 D3
 ~
 ~
-0 -1 19191
+0 -1 19191 0
 D8
 ~
 ~
-0 -1 19193
+0 -1 19193 0
 D9
 ~
 ~
-0 -1 19204
+0 -1 19204 0
 S
 #19193
 Marketplace Loop~
@@ -5515,11 +5542,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19194
+0 -1 19194 0
 D7
 ~
 ~
-0 -1 19192
+0 -1 19192 0
 S
 #19194
 Marketplace Loop~
@@ -5528,11 +5555,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19195
+0 -1 19195 0
 D3
 ~
 ~
-0 -1 19193
+0 -1 19193 0
 S
 #19195
 Marketplace Loop~
@@ -5541,11 +5568,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19196
+0 -1 19196 0
 D3
 ~
 ~
-0 -1 19194
+0 -1 19194 0
 S
 #19196
 Marketplace Loop~
@@ -5554,11 +5581,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19197
+0 -1 19197 0
 D3
 ~
 ~
-0 -1 19195
+0 -1 19195 0
 S
 #19197
 Marketplace Loop~
@@ -5567,11 +5594,11 @@ Marketplace Loop~
 D3
 ~
 ~
-0 -1 19196
+0 -1 19196 0
 D8
 ~
 ~
-0 -1 19198
+0 -1 19198 0
 S
 #19198
 Marketplace Loop~
@@ -5580,15 +5607,15 @@ Marketplace Loop~
 D2
 ~
 ~
-0 -1 19502
+0 -1 19502 0
 D7
 ~
 ~
-0 -1 19197
+0 -1 19197 0
 D8
 ~
 ~
-0 -1 19199
+0 -1 19199 0
 S
 #19199
 Marketplace Loop~
@@ -5597,15 +5624,15 @@ Marketplace Loop~
 D0
 ~
 ~
-0 -1 19501
+0 -1 19501 0
 D7
 ~
 ~
-0 -1 19198
+0 -1 19198 0
 D8
 ~
 ~
-0 -1 19200
+0 -1 19200 0
 S
 #19200
 Marketplace Loop~
@@ -5614,11 +5641,11 @@ Marketplace Loop~
 D7
 ~
 ~
-0 -1 19199
+0 -1 19199 0
 D8
 ~
 ~
-0 -1 19152
+0 -1 19152 0
 S
 #19201
 Marketplace Loop~
@@ -5627,11 +5654,11 @@ Marketplace Loop~
 D6
 ~
 ~
-0 -1 19202
+0 -1 19202 0
 D9
 ~
 ~
-0 -1 19180
+0 -1 19180 0
 S
 #19202
 Marketplace Loop~
@@ -5640,11 +5667,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19203
+0 -1 19203 0
 D9
 ~
 ~
-0 -1 19201
+0 -1 19201 0
 S
 #19203
 Marketplace Loop~
@@ -5653,11 +5680,11 @@ Marketplace Loop~
 D1
 ~
 ~
-0 -1 19204
+0 -1 19204 0
 D3
 ~
 ~
-0 -1 19202
+0 -1 19202 0
 S
 #19204
 Marketplace Loop~
@@ -5666,11 +5693,11 @@ Marketplace Loop~
 D3
 ~
 ~
-0 -1 19203
+0 -1 19203 0
 D6
 ~
 ~
-0 -1 19192
+0 -1 19192 0
 S
 #19205
 The Coruscant Mall~
@@ -5679,19 +5706,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19226
+0 -1 19226 0
 D1
 ~
 ~
-0 -1 19185
+0 -1 19185 0
 D2
 ~
 ~
-0 -1 19227
+0 -1 19227 0
 D3
 ~
 ~
-0 -1 19206
+0 -1 19206 0
 S
 #19206
 The Coruscant Mall~
@@ -5700,15 +5727,18 @@ The Coruscant Mall~
 D1
 ~
 ~
-0 -1 19205
+0 -1 19205 0
 D7
 ~
 ~
-3 -1 19207
+3 -1 19207 0
 D9
 ~
 ~
-3 -1 19208
+3 -1 19208 0
+R O 0 19001 1 19206
+R D 0 19206 7 1
+R D 0 19206 9 1
 S
 #19207
 The Men's Room~
@@ -5717,7 +5747,7 @@ The Men's Room~
 D8
 ~
 ~
-3 -1 19206
+3 -1 19206 0
 S
 #19208
 The Ladies' Room~
@@ -5726,7 +5756,7 @@ The Ladies' Room~
 D6
 ~
 ~
-3 -1 19206
+3 -1 19206 0
 S
 #19209
 Mall Turbolift~
@@ -5736,6 +5766,9 @@ has 3 levels, with various shops on each. A panel is attached next to
 the door, complete with numbered buttons.
 ~
 0 1073741836 1 0 0 0 14624
+R O 0 19005 1 19209
+R O 0 19004 1 19209
+R O 0 19003 1 19209
 S
 #19210
 The Coruscant Mall - Second Level~
@@ -5744,23 +5777,23 @@ The Coruscant Mall - Second Level~
 D0
 ~
 ~
-0 -1 19230
+0 -1 19230 0
 D1
 ~
 ~
-0 -1 19232
+0 -1 19232 0
 D2
 ~
 ~
-0 -1 19228
+0 -1 19228 0
 D3
 ~
 ~
-0 -1 19234
+0 -1 19234 0
 D7
 ~
 ~
-0 -1 19209
+0 -1 19209 0
 S
 #19211
 The Coruscant Mall - Third Level~
@@ -5769,19 +5802,19 @@ The Coruscant Mall - Third Level~
 D0
 ~
 ~
-0 -1 19252
+0 -1 19252 0
 D7
 ~
 ~
-0 -1 19209
+0 -1 19209 0
 D8
 ~
 ~
-0 -1 19255
+0 -1 19255 0
 D9
 ~
 ~
-0 -1 19257
+0 -1 19257 0
 S
 #19212
 The Flaming Bantha~
@@ -5790,7 +5823,11 @@ The Flaming Bantha~
 D3
 ~
 ~
-0 -1 19183
+0 -1 19183 0
+R M 0 19001 1 19212
+  R G 1 19006 1
+  R G 1 19007 1
+  R G 1 19008 1
 S
 #19213
 Gillian's Discount Clothing~
@@ -5799,7 +5836,13 @@ Gillian's Discount Clothing~
 D1
 ~
 ~
-0 -1 19183
+0 -1 19183 0
+R M 0 19002 1 19213
+  R G 1 19009 1
+  R G 1 19010 1
+  R G 1 19011 1
+  R G 1 19012 1
+  R G 1 19013 1
 S
 #19214
 A vacant store~
@@ -5808,7 +5851,7 @@ A vacant store~
 D3
 ~
 ~
-0 -1 19184
+0 -1 19184 0
 S
 #19215
 The Sarlacc Pit~
@@ -5817,7 +5860,12 @@ The Sarlacc Pit~
 D1
 ~
 ~
-0 -1 19184
+0 -1 19184 0
+R M 0 19003 1 19215
+  R G 1 19014 1
+  R G 1 19015 1
+  R G 1 19016 1
+  R G 1 19017 1
 S
 #19216
 A vacant store~
@@ -5826,7 +5874,7 @@ A vacant store~
 D1
 ~
 ~
-0 -1 19187
+0 -1 19187 0
 S
 #19217
 A vacant store~
@@ -5835,7 +5883,7 @@ A vacant store~
 D3
 ~
 ~
-0 -1 19187
+0 -1 19187 0
 S
 #19218
 Martial Weaponry by Gordon~
@@ -5844,7 +5892,10 @@ Martial Weaponry by Gordon~
 D3
 ~
 ~
-0 -1 19186
+0 -1 19186 0
+R M 0 19004 1 19218
+  R G 1 19018 1
+  R G 1 19019 1
 S
 #19219
 A vacant store~
@@ -5853,7 +5904,7 @@ A vacant store~
 D1
 ~
 ~
-0 -1 19186
+0 -1 19186 0
 S
 #19220
 Floating in a void~
@@ -5862,7 +5913,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19188
+0 -1 19188 0
 S
 #19221
 Floating in a void~
@@ -5871,7 +5922,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19188
+0 -1 19188 0
 S
 #19222
 Floating in a void~
@@ -5880,7 +5931,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19189
+0 -1 19189 0
 S
 #19223
 Floating in a void~
@@ -5889,7 +5940,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19189
+0 -1 19189 0
 S
 #19224
 Floating in a void~
@@ -5898,7 +5949,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19190
+0 -1 19190 0
 S
 #19225
 Floating in a void~
@@ -5907,7 +5958,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19190
+0 -1 19190 0
 S
 #19226
 Floating in a void~
@@ -5916,7 +5967,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19205
+0 -1 19205 0
 S
 #19227
 Floating in a void~
@@ -5925,7 +5976,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19205
+0 -1 19205 0
 S
 #19228
 The Coruscant Mall~
@@ -5934,19 +5985,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19210
+0 -1 19210 0
 D1
 ~
 ~
-0 -1 19248
+0 -1 19248 0
 D2
 ~
 ~
-0 -1 19229
+0 -1 19229 0
 D3
 ~
 ~
-0 -1 19249
+0 -1 19249 0
 S
 #19229
 The Coruscant Mall~
@@ -5955,15 +6006,15 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19228
+0 -1 19228 0
 D1
 ~
 ~
-0 -1 19251
+0 -1 19251 0
 D3
 ~
 ~
-0 -1 19250
+0 -1 19250 0
 S
 #19230
 The Coruscant Mall~
@@ -5972,19 +6023,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19231
+0 -1 19231 0
 D1
 ~
 ~
-0 -1 19239
+0 -1 19239 0
 D2
 ~
 ~
-0 -1 19210
+0 -1 19210 0
 D3
 ~
 ~
-0 -1 19238
+0 -1 19238 0
 S
 #19231
 The Coruscant Mall~
@@ -5993,15 +6044,15 @@ The Coruscant Mall~
 D1
 ~
 ~
-0 -1 19236
+0 -1 19236 0
 D2
 ~
 ~
-0 -1 19230
+0 -1 19230 0
 D3
 ~
 ~
-0 -1 19237
+0 -1 19237 0
 S
 #19232
 The Coruscant Mall~
@@ -6010,19 +6061,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19240
+0 -1 19240 0
 D1
 ~
 ~
-0 -1 19233
+0 -1 19233 0
 D2
 ~
 ~
-0 -1 19241
+0 -1 19241 0
 D3
 ~
 ~
-0 -1 19210
+0 -1 19210 0
 S
 #19233
 The Coruscant Mall~
@@ -6031,15 +6082,15 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19243
+0 -1 19243 0
 D2
 ~
 ~
-0 -1 19242
+0 -1 19242 0
 D3
 ~
 ~
-0 -1 19232
+0 -1 19232 0
 S
 #19234
 The Coruscant Mall~
@@ -6048,19 +6099,19 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19244
+0 -1 19244 0
 D1
 ~
 ~
-0 -1 19210
+0 -1 19210 0
 D2
 ~
 ~
-0 -1 19245
+0 -1 19245 0
 D3
 ~
 ~
-0 -1 19235
+0 -1 19235 0
 S
 #19235
 The Coruscant Mall~
@@ -6069,15 +6120,15 @@ The Coruscant Mall~
 D0
 ~
 ~
-0 -1 19246
+0 -1 19246 0
 D1
 ~
 ~
-0 -1 19234
+0 -1 19234 0
 D2
 ~
 ~
-0 -1 19247
+0 -1 19247 0
 S
 #19236
 Floating in a void~
@@ -6086,7 +6137,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19231
+0 -1 19231 0
 S
 #19237
 Floating in a void~
@@ -6095,7 +6146,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19231
+0 -1 19231 0
 S
 #19238
 Floating in a void~
@@ -6104,7 +6155,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19230
+0 -1 19230 0
 S
 #19239
 Floating in a void~
@@ -6113,7 +6164,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19230
+0 -1 19230 0
 S
 #19240
 Floating in a void~
@@ -6122,7 +6173,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19232
+0 -1 19232 0
 S
 #19241
 Floating in a void~
@@ -6131,7 +6182,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19232
+0 -1 19232 0
 S
 #19242
 Floating in a void~
@@ -6140,7 +6191,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19233
+0 -1 19233 0
 S
 #19243
 Floating in a void~
@@ -6149,7 +6200,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19233
+0 -1 19233 0
 S
 #19244
 Floating in a void~
@@ -6158,7 +6209,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19234
+0 -1 19234 0
 S
 #19245
 Floating in a void~
@@ -6167,7 +6218,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19234
+0 -1 19234 0
 S
 #19246
 Floating in a void~
@@ -6176,7 +6227,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19235
+0 -1 19235 0
 S
 #19247
 Floating in a void~
@@ -6185,7 +6236,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19235
+0 -1 19235 0
 S
 #19248
 Floating in a void~
@@ -6194,7 +6245,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19228
+0 -1 19228 0
 S
 #19249
 Floating in a void~
@@ -6203,7 +6254,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19228
+0 -1 19228 0
 S
 #19250
 Floating in a void~
@@ -6212,7 +6263,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19229
+0 -1 19229 0
 S
 #19251
 Floating in a void~
@@ -6221,7 +6272,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19229
+0 -1 19229 0
 S
 #19252
 Floating in a void~
@@ -6230,11 +6281,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19253
+0 -1 19253 0
 D2
 ~
 ~
-0 -1 19211
+0 -1 19211 0
 S
 #19253
 Floating in a void~
@@ -6243,11 +6294,11 @@ Floating in a void~
 D0
 ~
 ~
-3 -1 19254
+3 -1 19254 0
 D2
 ~
 ~
-0 -1 19252
+0 -1 19252 0
 S
 #19254
 Floating in a void~
@@ -6256,7 +6307,7 @@ Floating in a void~
 D2
 ~
 ~
-3 -1 19253
+3 -1 19253 0
 S
 #19255
 Floating in a void~
@@ -6265,15 +6316,15 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19261
+0 -1 19261 0
 D7
 ~
 ~
-0 -1 19211
+0 -1 19211 0
 D8
 ~
 ~
-0 -1 19256
+0 -1 19256 0
 S
 #19256
 Floating in a void~
@@ -6282,11 +6333,11 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19262
+0 -1 19262 0
 D7
 ~
 ~
-0 -1 19255
+0 -1 19255 0
 S
 #19257
 Floating in a void~
@@ -6295,15 +6346,15 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19260
+0 -1 19260 0
 D6
 ~
 ~
-0 -1 19211
+0 -1 19211 0
 D9
 ~
 ~
-0 -1 19258
+0 -1 19258 0
 S
 #19258
 Floating in a void~
@@ -6312,11 +6363,11 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19259
+0 -1 19259 0
 D6
 ~
 ~
-0 -1 19257
+0 -1 19257 0
 S
 #19259
 Floating in a void~
@@ -6325,7 +6376,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19258
+0 -1 19258 0
 S
 #19260
 Floating in a void~
@@ -6334,7 +6385,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19257
+0 -1 19257 0
 S
 #19261
 Floating in a void~
@@ -6343,7 +6394,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19255
+0 -1 19255 0
 S
 #19262
 Floating in a void~
@@ -6352,7 +6403,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19256
+0 -1 19256 0
 S
 #19263
 Floating in a void~
@@ -6366,11 +6417,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19115
+0 -1 19115 0
 D3
 ~
 ~
-0 -1 19265
+0 -1 19265 0
 S
 #19265
 Palace Avenue~
@@ -6379,11 +6430,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19264
+0 -1 19264 0
 D9
 ~
 ~
-0 -1 19266
+0 -1 19266 0
 S
 #19266
 Palace Avenue~
@@ -6392,11 +6443,11 @@ Palace Avenue~
 D6
 ~
 ~
-0 -1 19265
+0 -1 19265 0
 D9
 ~
 ~
-0 -1 19267
+0 -1 19267 0
 S
 #19267
 Palace Avenue~
@@ -6405,11 +6456,11 @@ Palace Avenue~
 D3
 ~
 ~
-0 -1 19268
+0 -1 19268 0
 D6
 ~
 ~
-0 -1 19266
+0 -1 19266 0
 S
 #19268
 Palace Avenue - Approaching the Imperial Palace~
@@ -6418,15 +6469,15 @@ Palace Avenue - Approaching the Imperial Palace~
 D0
 ~
 ~
-0 -1 19287
+0 -1 19287 0
 D1
 ~
 ~
-0 -1 19267
+0 -1 19267 0
 D3
 ~
 ~
-0 -1 19269
+0 -1 19269 0
 S
 #19269
 Palace Avenue~
@@ -6435,11 +6486,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19268
+0 -1 19268 0
 D9
 ~
 ~
-0 -1 19270
+0 -1 19270 0
 S
 #19270
 Palace Avenue~
@@ -6448,15 +6499,15 @@ Palace Avenue~
 D6
 ~
 ~
-0 -1 19269
+0 -1 19269 0
 D8
 ~
 ~
-3 -1 19275
+3 -1 19275 0
 D9
 ~
 ~
-0 -1 19271
+0 -1 19271 0
 S
 #19271
 Palace Avenue~
@@ -6465,11 +6516,11 @@ Palace Avenue~
 D6
 ~
 ~
-0 -1 19270
+0 -1 19270 0
 D9
 ~
 ~
-0 -1 19272
+0 -1 19272 0
 S
 #19272
 Palace Avenue~
@@ -6478,11 +6529,11 @@ Palace Avenue~
 D3
 ~
 ~
-0 -1 19273
+0 -1 19273 0
 D6
 ~
 ~
-0 -1 19271
+0 -1 19271 0
 S
 #19273
 Palace Avenue~
@@ -6491,11 +6542,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19272
+0 -1 19272 0
 D3
 ~
 ~
-0 -1 19274
+0 -1 19274 0
 S
 #19274
 Palace Avenue~
@@ -6504,11 +6555,11 @@ Palace Avenue~
 D1
 ~
 ~
-0 -1 19273
+0 -1 19273 0
 D3
 ~
 ~
-0 -1 19164
+0 -1 19164 0
 S
 #19275
 Security Checkpoint~
@@ -6517,11 +6568,25 @@ Security Checkpoint~
 D1
 ~
 ~
-8388647 19072 19276
+8388647 19072 19276 0
 D7
 ~
 ~
-3 -1 19270
+3 -1 19270 0
+R M 0 19006 1 19275
+  R E 1 19071 1 5
+  R E 1 19022 1 16
+  R G 1 19072 1
+R M 0 19007 2 19275
+  R E 1 19022 1 16
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+R M 0 19007 2 19275
+  R E 1 19021 1 6
+  R E 1 19022 1 16
+  R E 1 19020 1 5
+R D 0 19275 1 2
+R D 0 19275 7 1
 S
 #19276
 Inside the Coruscant Planetary Defense System~
@@ -6530,11 +6595,13 @@ Inside the Coruscant Planetary Defense System~
 D1
 ~
 ~
-0 -1 19277
+0 -1 19277 0
 D3
 ~
 ~
-8388647 -1 19275
+8388647 -1 19275 0
+R O 0 19073 1 19276
+R D 0 19276 3 2
 S
 #19277
 A Bright Corridor~
@@ -6543,11 +6610,13 @@ A Bright Corridor~
 D3
 ~
 ~
-0 -1 19276
+0 -1 19276 0
 D4
 ~
 ~
-0 -1 19278
+0 -1 19278 0
+R M 0 19008 1 19277
+R O 0 19074 1 19277
 S
 #19278
 Coruscant Planetary Defense Infrastructure~
@@ -6556,15 +6625,15 @@ Coruscant Planetary Defense Infrastructure~
 D0
 ~
 ~
-0 -1 19279
+0 -1 19279 0
 D2
 ~
 ~
-0 -1 19281
+0 -1 19281 0
 D5
 ~
 ~
-0 -1 19277
+0 -1 19277 0
 S
 #19279
 A Bright Corridor~
@@ -6573,11 +6642,11 @@ A Bright Corridor~
 D0
 ~
 ~
-0 -1 19280
+0 -1 19280 0
 D2
 ~
 ~
-0 -1 19278
+0 -1 19278 0
 S
 #19280
 Turbolaser Cannon Controls~
@@ -6586,7 +6655,7 @@ Turbolaser Cannon Controls~
 D2
 ~
 ~
-0 -1 19279
+0 -1 19279 0
 S
 #19281
 A Bright Corridor~
@@ -6595,11 +6664,11 @@ A Bright Corridor~
 D0
 ~
 ~
-0 -1 19278
+0 -1 19278 0
 D2
 ~
 ~
-0 -1 19282
+0 -1 19282 0
 S
 #19282
 Ion Cannon Controls~
@@ -6608,7 +6677,7 @@ Ion Cannon Controls~
 D0
 ~
 ~
-0 -1 19281
+0 -1 19281 0
 S
 #19283
 Turbocar Station - Yolar Spaceport~
@@ -6617,7 +6686,9 @@ Turbocar Station - Yolar Spaceport~
 D1
 ~
 ~
-0 -1 19144
+0 -1 19144 0
+R O 0 19075 1 19283
+R O 0 19052 1 19283
 S
 #19284
 Turbocar Station - Bulova Spaceport~
@@ -6626,7 +6697,9 @@ Turbocar Station - Bulova Spaceport~
 D0
 ~
 ~
-0 -1 19085
+0 -1 19085 0
+R O 0 19075 1 19284
+R O 0 19052 1 19284
 S
 #19285
 Concourse to the turbocar station~
@@ -6640,7 +6713,9 @@ you to the station.
 D0
 ~
 ~
-0 -1 19001
+0 -1 19001 0
+R M 0 19011 1 19285
+  R G 1 3 1
 S
 #19286
 Turbocar Station - Menari Spaceport~
@@ -6652,7 +6727,9 @@ and surprisingly sanitary here. You can exit the station northeast.
 D6
 ~
 ~
-0 -1 19285
+0 -1 19285 0
+R O 0 19075 1 19286
+R O 0 19052 1 19286
 S
 #19287
 Entrevous~
@@ -6661,11 +6738,11 @@ Entrevous~
 D0
 ~
 ~
-0 -1 19288
+0 -1 19288 0
 D2
 ~
 ~
-0 -1 19268
+0 -1 19268 0
 S
 #19288
 imppal~
@@ -6674,11 +6751,11 @@ imppal~
 D0
 ~
 ~
-0 -1 19289
+0 -1 19289 0
 D2
 ~
 ~
-0 -1 19287
+0 -1 19287 0
 S
 #19289
 Lobby of the Imperial Palace~
@@ -6687,15 +6764,15 @@ Lobby of the Imperial Palace~
 D2
 ~
 ~
-0 -1 19288
+0 -1 19288 0
 D6
 ~
 ~
-0 -1 19290
+0 -1 19290 0
 D7
 ~
 ~
-0 -1 19292
+0 -1 19292 0
 S
 #19290
 imppal~
@@ -6704,15 +6781,15 @@ imppal~
 D1
 ~
 ~
-0 -1 19294
+0 -1 19294 0
 D6
 ~
 ~
-0 -1 19291
+0 -1 19291 0
 D9
 ~
 ~
-0 -1 19289
+0 -1 19289 0
 S
 #19291
 The Imperial Palace - Ground level~
@@ -6721,11 +6798,11 @@ The Imperial Palace - Ground level~
 D0
 ~
 ~
-0 -1 19297
+0 -1 19297 0
 D9
 ~
 ~
-0 -1 19290
+0 -1 19290 0
 S
 #19292
 imppal~
@@ -6734,11 +6811,11 @@ imppal~
 D7
 ~
 ~
-0 -1 19293
+0 -1 19293 0
 D8
 ~
 ~
-0 -1 19289
+0 -1 19289 0
 S
 #19293
 The Imperial Palace - Ground level~
@@ -6747,11 +6824,11 @@ The Imperial Palace - Ground level~
 D0
 ~
 ~
-0 -1 19306
+0 -1 19306 0
 D8
 ~
 ~
-0 -1 19292
+0 -1 19292 0
 S
 #19294
 imppal~
@@ -6760,15 +6837,15 @@ imppal~
 D0
 ~
 ~
-3 -1 19296
+3 -1 19296 0
 D1
 ~
 ~
-3 -1 19295
+3 -1 19295 0
 D3
 ~
 ~
-0 -1 19290
+0 -1 19290 0
 S
 #19295
 imppalroom~
@@ -6777,7 +6854,7 @@ imppalroom~
 D3
 ~
 ~
-3 -1 19294
+3 -1 19294 0
 S
 #19296
 imppalroom~
@@ -6786,7 +6863,7 @@ imppalroom~
 D2
 ~
 ~
-3 -1 19294
+3 -1 19294 0
 S
 #19297
 Turbolift - East Wing~
@@ -6795,7 +6872,7 @@ Turbolift - East Wing~
 D2
 ~
 ~
-0 -1 19291
+0 -1 19291 0
 S
 #19298
 The Imperial Palace - Personnel level~
@@ -6804,11 +6881,11 @@ The Imperial Palace - Personnel level~
 D0
 ~
 ~
-0 -1 19297
+0 -1 19297 0
 D2
 ~
 ~
-0 -1 19299
+0 -1 19299 0
 S
 #19299
 A Corridor~
@@ -6817,11 +6894,11 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19298
+0 -1 19298 0
 D9
 ~
 ~
-0 -1 19300
+0 -1 19300 0
 S
 #19300
 A Corridor~
@@ -6830,15 +6907,15 @@ A Corridor~
 D3
 ~
 ~
-0 -1 19301
+0 -1 19301 0
 D6
 ~
 ~
-0 -1 19299
+0 -1 19299 0
 D7
 ~
 ~
-0 -1 19317
+0 -1 19317 0
 S
 #19301
 A Corridor~
@@ -6847,15 +6924,15 @@ A Corridor~
 D1
 ~
 ~
-0 -1 19300
+0 -1 19300 0
 D2
 ~
 ~
-0 -1 19307
+0 -1 19307 0
 D3
 ~
 ~
-0 -1 19302
+0 -1 19302 0
 S
 #19302
 A Corridor~
@@ -6864,19 +6941,19 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19311
+0 -1 19311 0
 D1
 ~
 ~
-0 -1 19301
+0 -1 19301 0
 D3
 ~
 ~
-0 -1 19303
+0 -1 19303 0
 D9
 ~
 ~
-0 -1 19324
+0 -1 19324 0
 S
 #19303
 A Corridor~
@@ -6885,11 +6962,11 @@ A Corridor~
 D1
 ~
 ~
-0 -1 19302
+0 -1 19302 0
 D7
 ~
 ~
-0 -1 19304
+0 -1 19304 0
 S
 #19304
 A Corridor~
@@ -6898,11 +6975,11 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19305
+0 -1 19305 0
 D8
 ~
 ~
-0 -1 19303
+0 -1 19303 0
 S
 #19305
 The Imperial Palace - Personnel level~
@@ -6911,11 +6988,11 @@ The Imperial Palace - Personnel level~
 D0
 ~
 ~
-0 -1 19306
+0 -1 19306 0
 D2
 ~
 ~
-0 -1 19304
+0 -1 19304 0
 S
 #19306
 Turbolift - West Wing~
@@ -6924,7 +7001,7 @@ Turbolift - West Wing~
 D2
 ~
 ~
-0 -1 19293
+0 -1 19293 0
 S
 #19307
 A Corridor~
@@ -6933,19 +7010,19 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19301
+0 -1 19301 0
 D1
 ~
 ~
-0 -1 19322
+0 -1 19322 0
 D2
 ~
 ~
-0 -1 19308
+0 -1 19308 0
 D3
 ~
 ~
-0 -1 19323
+0 -1 19323 0
 S
 #19308
 A Corridor~
@@ -6954,15 +7031,15 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19307
+0 -1 19307 0
 D1
 ~
 ~
-0 -1 19309
+0 -1 19309 0
 D3
 ~
 ~
-0 -1 19310
+0 -1 19310 0
 S
 #19309
 Officer Quarters~
@@ -6971,7 +7048,7 @@ Officer Quarters~
 D3
 ~
 ~
-0 -1 19308
+0 -1 19308 0
 S
 #19310
 Officer Quarters~
@@ -6980,7 +7057,7 @@ Officer Quarters~
 D1
 ~
 ~
-0 -1 19308
+0 -1 19308 0
 S
 #19311
 A Corridor~
@@ -6989,11 +7066,11 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19312
+0 -1 19312 0
 D2
 ~
 ~
-0 -1 19302
+0 -1 19302 0
 S
 #19312
 A Corridor~
@@ -7002,11 +7079,11 @@ A Corridor~
 D2
 ~
 ~
-0 -1 19311
+0 -1 19311 0
 D6
 ~
 ~
-0 -1 19313
+0 -1 19313 0
 S
 #19313
 A Corridor~
@@ -7015,15 +7092,15 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19321
+0 -1 19321 0
 D1
 ~
 ~
-0 -1 19314
+0 -1 19314 0
 D9
 ~
 ~
-0 -1 19312
+0 -1 19312 0
 S
 #19314
 A Corridor~
@@ -7032,15 +7109,15 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19315
+0 -1 19315 0
 D3
 ~
 ~
-0 -1 19313
+0 -1 19313 0
 D8
 ~
 ~
-0 -1 19316
+0 -1 19316 0
 S
 #19315
 The Mess Hall~
@@ -7049,7 +7126,7 @@ The Mess Hall~
 D2
 ~
 ~
-0 -1 19314
+0 -1 19314 0
 S
 #19316
 A Corridor~
@@ -7058,15 +7135,15 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19318
+0 -1 19318 0
 D7
 ~
 ~
-0 -1 19314
+0 -1 19314 0
 D8
 ~
 ~
-0 -1 19317
+0 -1 19317 0
 S
 #19317
 A Corridor~
@@ -7075,11 +7152,11 @@ A Corridor~
 D7
 ~
 ~
-0 -1 19316
+0 -1 19316 0
 D8
 ~
 ~
-0 -1 19300
+0 -1 19300 0
 S
 #19318
 A Corridor~
@@ -7088,11 +7165,11 @@ A Corridor~
 D0
 ~
 ~
-0 -1 19319
+0 -1 19319 0
 D2
 ~
 ~
-0 -1 19316
+0 -1 19316 0
 S
 #19319
 Security Checkpoint~
@@ -7101,11 +7178,11 @@ Security Checkpoint~
 D2
 ~
 ~
-0 -1 19318
+0 -1 19318 0
 D6
 ~
 ~
-0 -1 19320
+0 -1 19320 0
 S
 #19320
 The Imperial Armory~
@@ -7114,7 +7191,7 @@ The Imperial Armory~
 D9
 ~
 ~
-0 -1 19319
+0 -1 19319 0
 S
 #19321
 Briefing and Intelligence~
@@ -7123,7 +7200,8 @@ Briefing and Intelligence~
 D2
 ~
 ~
-0 -1 19313
+0 -1 19313 0
+R O 0 19076 1 19321
 S
 #19322
 Officer Quarters~
@@ -7132,7 +7210,7 @@ Officer Quarters~
 D3
 ~
 ~
-0 -1 19307
+0 -1 19307 0
 S
 #19323
 Officer Quarters~
@@ -7141,7 +7219,7 @@ Officer Quarters~
 D1
 ~
 ~
-0 -1 19307
+0 -1 19307 0
 S
 #19324
 A Corridor~
@@ -7150,15 +7228,15 @@ A Corridor~
 D3
 ~
 ~
-0 -1 19327
+0 -1 19327 0
 D6
 ~
 ~
-0 -1 19302
+0 -1 19302 0
 D9
 ~
 ~
-0 -1 19325
+0 -1 19325 0
 S
 #19325
 A Corridor~
@@ -7167,11 +7245,11 @@ A Corridor~
 D2
 ~
 ~
-0 -1 19326
+0 -1 19326 0
 D6
 ~
 ~
-0 -1 19324
+0 -1 19324 0
 S
 #19326
 Recreation Area~
@@ -7180,7 +7258,7 @@ Recreation Area~
 D0
 ~
 ~
-0 -1 19325
+0 -1 19325 0
 S
 #19327
 A Corridor~
@@ -7189,11 +7267,11 @@ A Corridor~
 D1
 ~
 ~
-0 -1 19324
+0 -1 19324 0
 D3
 ~
 ~
-0 -1 19328
+0 -1 19328 0
 S
 #19328
 Floating in a void~
@@ -7202,15 +7280,15 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19327
+0 -1 19327 0
 D7
 ~
 ~
-0 -1 19329
+0 -1 19329 0
 D9
 ~
 ~
-0 -1 19330
+0 -1 19330 0
 S
 #19329
 Floating in a void~
@@ -7219,7 +7297,7 @@ Floating in a void~
 D8
 ~
 ~
-0 -1 19328
+0 -1 19328 0
 S
 #19330
 Floating in a void~
@@ -7228,7 +7306,7 @@ Floating in a void~
 D6
 ~
 ~
-0 -1 19328
+0 -1 19328 0
 S
 #19331
 The Imperial Palace - Detention level~
@@ -7237,11 +7315,11 @@ The Imperial Palace - Detention level~
 D1
 ~
 ~
-0 -1 19332
+0 -1 19332 0
 D3
 ~
 ~
-0 -1 19306
+0 -1 19306 0
 S
 #19332
 A Narrow Corridor~
@@ -7250,11 +7328,11 @@ A Narrow Corridor~
 D3
 ~
 ~
-0 -1 19331
+0 -1 19331 0
 D6
 ~
 ~
-0 -1 19333
+0 -1 19333 0
 S
 #19333
 Security Checkpoint~
@@ -7263,11 +7341,20 @@ Security Checkpoint~
 D0
 ~
 ~
-3 -1 19334
+3 -1 19334 0
 D9
 ~
 ~
-0 -1 19332
+0 -1 19332 0
+R M 0 19023 2 19333
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+  R E 1 19022 1 16
+R M 0 19023 2 19333
+  R E 1 19020 1 5
+  R E 1 19022 1 16
+  R E 1 19021 1 6
+R D 0 19333 0 1
 S
 #19334
 Detention Area~
@@ -7276,27 +7363,27 @@ Detention Area~
 D2
 ~
 ~
-3 -1 19333
+3 -1 19333 0
 D4
 ~
 ~
-0 -1 19335
+0 -1 19335 0
 D6
 ~
 ~
-8388615 19078 19336
+8388615 19078 19336 0
 D7
 ~
 ~
-8388615 19078 19337
+8388615 19078 19337 0
 D8
 ~
 ~
-8388615 19078 19339
+8388615 19078 19339 0
 D9
 ~
 ~
-8388615 19078 19338
+8388615 19078 19338 0
 S
 #19335
 Observation platform~
@@ -7305,23 +7392,27 @@ Observation platform~
 D5
 ~
 ~
-0 -1 19334
+0 -1 19334 0
 D6
 ~
 ~
-33554432 -1 19336
+33554432 -1 19336 0
 D7
 ~
 ~
-33554432 -1 19337
+33554432 -1 19337 0
 D8
 ~
 ~
-33554432 -1 19339
+33554432 -1 19339 0
 D9
 ~
 ~
-33554432 -1 19338
+33554432 -1 19338 0
+R M 0 19022 1 19335
+  R E 1 19071 1 5
+  R E 1 19022 1 16
+  R G 1 19078 1
 S
 #19336
 Holding Cell (A)~
@@ -7330,7 +7421,7 @@ Holding Cell (A)~
 D9
 ~
 ~
-8388615 19078 19334
+8388615 19078 19334 0
 S
 #19337
 Holding Cell (B)~
@@ -7339,7 +7430,7 @@ Holding Cell (B)~
 D8
 ~
 ~
-8388615 19078 19334
+8388615 19078 19334 0
 S
 #19338
 Holding Cell (D)~
@@ -7348,7 +7439,7 @@ Holding Cell (D)~
 D6
 ~
 ~
-8388615 19078 19334
+8388615 19078 19334 0
 S
 #19339
 Holding Cell (C)~
@@ -7357,7 +7448,7 @@ Holding Cell (C)~
 D7
 ~
 ~
-8388615 19078 19334
+8388615 19078 19334 0
 S
 #19340
 The Imperial Palace - Landing platforms~
@@ -7366,11 +7457,11 @@ The Imperial Palace - Landing platforms~
 D3
 ~
 ~
-0 -1 19297
+0 -1 19297 0
 D6
 ~
 ~
-0 -1 19341
+0 -1 19341 0
 S
 #19341
 An open walkway~
@@ -7379,15 +7470,15 @@ An open walkway~
 D0
 ~
 ~
-0 -1 19342
+0 -1 19342 0
 D1
 ~
 ~
-0 -1 19343
+0 -1 19343 0
 D9
 ~
 ~
-0 -1 19340
+0 -1 19340 0
 S
 #19342
 Imperial Landing Pad A90-C5~
@@ -7396,7 +7487,7 @@ Imperial Landing Pad A90-C5~
 D2
 ~
 ~
-0 -1 19341
+0 -1 19341 0
 S
 #19343
 An open walkway~
@@ -7405,11 +7496,11 @@ An open walkway~
 D2
 ~
 ~
-0 -1 19344
+0 -1 19344 0
 D3
 ~
 ~
-0 -1 19341
+0 -1 19341 0
 S
 #19344
 Imperial Landing Pad C11-A7~
@@ -7418,7 +7509,7 @@ Imperial Landing Pad C11-A7~
 D0
 ~
 ~
-0 -1 19343
+0 -1 19343 0
 S
 #19345
 The Imperial Palace - Throne level~
@@ -7427,11 +7518,11 @@ The Imperial Palace - Throne level~
 D0
 ~
 ~
-0 -1 19346
+0 -1 19346 0
 D2
 ~
 ~
-0 -1 19306
+0 -1 19306 0
 S
 #19346
 Floating in a void~
@@ -7440,11 +7531,11 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19345
+0 -1 19345 0
 D7
 ~
 ~
-0 -1 19347
+0 -1 19347 0
 S
 #19347
 Floating in a void~
@@ -7453,11 +7544,11 @@ Floating in a void~
 D7
 ~
 ~
-0 -1 19348
+0 -1 19348 0
 D8
 ~
 ~
-0 -1 19346
+0 -1 19346 0
 S
 #19348
 Floating in a void~
@@ -7466,11 +7557,11 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19349
+0 -1 19349 0
 D8
 ~
 ~
-0 -1 19347
+0 -1 19347 0
 S
 #19349
 Floating in a void~
@@ -7479,11 +7570,11 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19348
+0 -1 19348 0
 D3
 ~
 ~
-0 -1 19350
+0 -1 19350 0
 S
 #19350
 An intersection of corridors~
@@ -7492,15 +7583,15 @@ An intersection of corridors~
 D0
 ~
 ~
-0 -1 19351
+0 -1 19351 0
 D1
 ~
 ~
-0 -1 19349
+0 -1 19349 0
 D3
 ~
 ~
-0 -1 19352
+0 -1 19352 0
 S
 #19351
 Floating in a void~
@@ -7509,11 +7600,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19357
+0 -1 19357 0
 D2
 ~
 ~
-0 -1 19350
+0 -1 19350 0
 S
 #19352
 Floating in a void~
@@ -7522,11 +7613,11 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19350
+0 -1 19350 0
 D3
 ~
 ~
-0 -1 19353
+0 -1 19353 0
 S
 #19353
 Floating in a void~
@@ -7535,11 +7626,11 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19352
+0 -1 19352 0
 D9
 ~
 ~
-0 -1 19354
+0 -1 19354 0
 S
 #19354
 Floating in a void~
@@ -7548,11 +7639,11 @@ Floating in a void~
 D6
 ~
 ~
-0 -1 19353
+0 -1 19353 0
 D9
 ~
 ~
-0 -1 19355
+0 -1 19355 0
 S
 #19355
 Floating in a void~
@@ -7561,11 +7652,11 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19356
+0 -1 19356 0
 D6
 ~
 ~
-0 -1 19354
+0 -1 19354 0
 S
 #19356
 The Imperial Palace - Throne level~
@@ -7574,11 +7665,11 @@ The Imperial Palace - Throne level~
 D0
 ~
 ~
-0 -1 19355
+0 -1 19355 0
 D2
 ~
 ~
-0 -1 19306
+0 -1 19306 0
 S
 #19357
 Floating in a void~
@@ -7587,11 +7678,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19358
+0 -1 19358 0
 D2
 ~
 ~
-0 -1 19351
+0 -1 19351 0
 S
 #19358
 Floating in a void~
@@ -7600,11 +7691,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19359
+0 -1 19359 0
 D2
 ~
 ~
-0 -1 19357
+0 -1 19357 0
 S
 #19359
 The Throne Room~
@@ -7613,11 +7704,11 @@ The Throne Room~
 D2
 ~
 ~
-0 -1 19358
+0 -1 19358 0
 D6
 ~
 ~
-0 -1 19360
+0 -1 19360 0
 S
 #19360
 A Luxurious Bedchamber~
@@ -7626,7 +7717,9 @@ A Luxurious Bedchamber~
 D9
 ~
 ~
-0 -1 19359
+0 -1 19359 0
+R O 0 19080 1 19360
+R O 0 19079 1 19360
 S
 #19361
 A Quiet Study~
@@ -7635,7 +7728,7 @@ A Quiet Study~
 D4
 ~
 ~
-0 -1 19360
+0 -1 19360 0
 S
 #19362
 A dim hallway~
@@ -7644,15 +7737,15 @@ A dim hallway~
 D1
 ~
 ~
-0 -1 19046
+0 -1 19046 0
 D2
 ~
 ~
-0 -1 19369
+0 -1 19369 0
 D7
 ~
 ~
-0 -1 19363
+0 -1 19363 0
 S
 #19363
 A dim hallway~
@@ -7661,15 +7754,15 @@ A dim hallway~
 D3
 ~
 ~
-3 -1 19368
+3 -1 19368 0
 D7
 ~
 ~
-0 -1 19364
+0 -1 19364 0
 D8
 ~
 ~
-0 -1 19362
+0 -1 19362 0
 S
 #19364
 A dim hallway~
@@ -7678,15 +7771,15 @@ A dim hallway~
 D3
 ~
 ~
-3 -1 19367
+3 -1 19367 0
 D7
 ~
 ~
-0 -1 19365
+0 -1 19365 0
 D8
 ~
 ~
-0 -1 19363
+0 -1 19363 0
 S
 #19365
 A dim hallway~
@@ -7695,11 +7788,11 @@ A dim hallway~
 D3
 ~
 ~
-3 -1 19366
+3 -1 19366 0
 D8
 ~
 ~
-0 -1 19364
+0 -1 19364 0
 S
 #19366
 A small room~
@@ -7708,7 +7801,10 @@ A small room~
 D1
 ~
 ~
-1 -1 19365
+1 -1 19365 0
+R O 0 19081 1 19366
+R O 0 19082 1 19366
+R D 0 19366 1 0
 S
 #19367
 A small room~
@@ -7717,7 +7813,10 @@ A small room~
 D1
 ~
 ~
-1 -1 19364
+1 -1 19364 0
+R O 0 19081 1 19367
+R O 0 19082 1 19367
+R D 0 19367 1 0
 S
 #19368
 A small room~
@@ -7726,7 +7825,10 @@ A small room~
 D1
 ~
 ~
-1 -1 19363
+1 -1 19363 0
+R O 0 19081 1 19368
+R O 0 19082 1 19368
+R D 0 19368 1 0
 S
 #19369
 A Small, Cramped Cantina~
@@ -7735,7 +7837,7 @@ A Small, Cramped Cantina~
 D0
 ~
 ~
-0 -1 19362
+0 -1 19362 0
 S
 #19370
 Turbocar Station - Skydome Botanical Gardens~
@@ -7748,7 +7850,9 @@ You can exit the station south.
 D2
 ~
 ~
-0 -1 19022
+0 -1 19022 0
+R O 0 19075 1 19370
+R O 0 19052 1 19370
 S
 #19371
 The Skydome Botanical Gardens~
@@ -7757,11 +7861,15 @@ The Skydome Botanical Gardens~
 D1
 ~
 ~
-0 -1 19372
+0 -1 19372 0
 D7
 ~
 ~
-0 -1 19021
+0 -1 19021 0
+R M 0 19025 1 19371
+  R E 1 19083 1 5
+  R E 1 19084 1 7
+  R E 1 19085 1 8
 S
 #19372
 Floating in a void~
@@ -7770,11 +7878,11 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19373
+0 -1 19373 0
 D3
 ~
 ~
-0 -1 19371
+0 -1 19371 0
 S
 #19373
 Floating in a void~
@@ -7783,15 +7891,15 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19375
+0 -1 19375 0
 D3
 ~
 ~
-0 -1 19372
+0 -1 19372 0
 D6
 ~
 ~
-0 -1 19374
+0 -1 19374 0
 S
 #19374
 Turbolift - Level 1~
@@ -7800,7 +7908,7 @@ Turbolift - Level 1~
 D9
 ~
 ~
-0 -1 19373
+0 -1 19373 0
 S
 #19375
 Floating in a void~
@@ -7809,15 +7917,15 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19373
+0 -1 19373 0
 D8
 ~
 ~
-0 -1 19376
+0 -1 19376 0
 D9
 ~
 ~
-0 -1 19377
+0 -1 19377 0
 S
 #19376
 Floating in a void~
@@ -7826,7 +7934,7 @@ Floating in a void~
 D7
 ~
 ~
-0 -1 19375
+0 -1 19375 0
 S
 #19377
 Floating in a void~
@@ -7835,7 +7943,7 @@ Floating in a void~
 D6
 ~
 ~
-0 -1 19375
+0 -1 19375 0
 S
 #19378
 Turbolift - Level 2~
@@ -7844,7 +7952,7 @@ Turbolift - Level 2~
 D0
 ~
 ~
-0 -1 19379
+0 -1 19379 0
 S
 #19379
 Floating in a void~
@@ -7853,15 +7961,15 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19378
+0 -1 19378 0
 D6
 ~
 ~
-0 -1 19380
+0 -1 19380 0
 D7
 ~
 ~
-0 -1 19399
+0 -1 19399 0
 S
 #19380
 Floating in a void~
@@ -7870,15 +7978,15 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19382
+0 -1 19382 0
 D6
 ~
 ~
-0 -1 19381
+0 -1 19381 0
 D9
 ~
 ~
-0 -1 19379
+0 -1 19379 0
 S
 #19381
 Floating in a void~
@@ -7887,15 +7995,15 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19384
+0 -1 19384 0
 D6
 ~
 ~
-0 -1 19383
+0 -1 19383 0
 D9
 ~
 ~
-0 -1 19380
+0 -1 19380 0
 S
 #19382
 Floating in a void~
@@ -7904,7 +8012,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19380
+0 -1 19380 0
 S
 #19383
 Floating in a void~
@@ -7913,11 +8021,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19385
+0 -1 19385 0
 D9
 ~
 ~
-0 -1 19381
+0 -1 19381 0
 S
 #19384
 Floating in a void~
@@ -7926,7 +8034,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19381
+0 -1 19381 0
 S
 #19385
 Floating in a void~
@@ -7935,11 +8043,11 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19383
+0 -1 19383 0
 D7
 ~
 ~
-0 -1 19386
+0 -1 19386 0
 S
 #19386
 Floating in a void~
@@ -7948,15 +8056,15 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19387
+0 -1 19387 0
 D7
 ~
 ~
-0 -1 19388
+0 -1 19388 0
 D8
 ~
 ~
-0 -1 19385
+0 -1 19385 0
 S
 #19387
 Floating in a void~
@@ -7965,7 +8073,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19386
+0 -1 19386 0
 S
 #19388
 Floating in a void~
@@ -7974,11 +8082,11 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19389
+0 -1 19389 0
 D8
 ~
 ~
-0 -1 19386
+0 -1 19386 0
 S
 #19389
 Floating in a void~
@@ -7987,19 +8095,19 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19391
+0 -1 19391 0
 D1
 ~
 ~
-0 -1 19388
+0 -1 19388 0
 D3
 ~
 ~
-0 -1 19390
+0 -1 19390 0
 D9
 ~
 ~
-0 -1 19392
+0 -1 19392 0
 S
 #19390
 Floating in a void~
@@ -8008,7 +8116,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19389
+0 -1 19389 0
 S
 #19391
 Floating in a void~
@@ -8017,7 +8125,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19389
+0 -1 19389 0
 S
 #19392
 Floating in a void~
@@ -8026,11 +8134,11 @@ Floating in a void~
 D6
 ~
 ~
-0 -1 19389
+0 -1 19389 0
 D9
 ~
 ~
-0 -1 19393
+0 -1 19393 0
 S
 #19393
 Floating in a void~
@@ -8039,15 +8147,15 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19394
+0 -1 19394 0
 D3
 ~
 ~
-0 -1 19395
+0 -1 19395 0
 D6
 ~
 ~
-0 -1 19392
+0 -1 19392 0
 S
 #19394
 Floating in a void~
@@ -8056,15 +8164,15 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19393
+0 -1 19393 0
 D1
 ~
 ~
-0 -1 19403
+0 -1 19403 0
 D2
 ~
 ~
-0 -1 19396
+0 -1 19396 0
 S
 #19395
 Floating in a void~
@@ -8073,7 +8181,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19393
+0 -1 19393 0
 S
 #19396
 Floating in a void~
@@ -8082,11 +8190,11 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19394
+0 -1 19394 0
 D8
 ~
 ~
-0 -1 19397
+0 -1 19397 0
 S
 #19397
 Floating in a void~
@@ -8095,15 +8203,15 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19402
+0 -1 19402 0
 D7
 ~
 ~
-0 -1 19396
+0 -1 19396 0
 D8
 ~
 ~
-0 -1 19398
+0 -1 19398 0
 S
 #19398
 Floating in a void~
@@ -8112,15 +8220,15 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19401
+0 -1 19401 0
 D7
 ~
 ~
-0 -1 19397
+0 -1 19397 0
 D8
 ~
 ~
-0 -1 19399
+0 -1 19399 0
 S
 #19399
 Floating in a void~
@@ -8129,15 +8237,15 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19400
+0 -1 19400 0
 D7
 ~
 ~
-0 -1 19398
+0 -1 19398 0
 D8
 ~
 ~
-0 -1 19379
+0 -1 19379 0
 S
 #19400
 Floating in a void~
@@ -8146,7 +8254,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 19399
+0 -1 19399 0
 S
 #19401
 Floating in a void~
@@ -8155,7 +8263,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 19398
+0 -1 19398 0
 S
 #19402
 Floating in a void~
@@ -8164,7 +8272,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 19397
+0 -1 19397 0
 S
 #19403
 Floating in a void~
@@ -8173,7 +8281,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 19394
+0 -1 19394 0
 S
 #19404
 Merr-Sonn Blasters - Coruscant branch~
@@ -8182,11 +8290,12 @@ Merr-Sonn Blasters - Coruscant branch~
 D0
 ~
 ~
-0 -1 19007
+0 -1 19007 0
 D2
 ~
 ~
-0 -1 19405
+0 -1 19405 0
+R O 0 19098 1 19404
 S
 #19405
 Inside the large building~
@@ -8195,15 +8304,17 @@ Inside the large building~
 D0
 ~
 ~
-0 -1 19404
+0 -1 19404 0
 D3
 ~
 ~
-35 -1 19406
+35 -1 19406 0
 D8
 ~
 ~
-0 -1 19407
+0 -1 19407 0
+R M 0 19027 1 19405
+R O 0 19087 1 19405
 S
 #19406
 The Manager's Office~
@@ -8212,7 +8323,10 @@ The Manager's Office~
 D1
 ~
 ~
-1 -1 19405
+1 -1 19405 0
+R M 0 19030 1 19406
+R O 0 19074 1 19406
+R D 0 19406 1 0
 S
 #19407
 The Checkout Counter~
@@ -8221,11 +8335,20 @@ The Checkout Counter~
 D1
 ~
 ~
-0 -1 19408
+0 -1 19408 0
 D7
 ~
 ~
-0 -1 19405
+0 -1 19405 0
+R M 0 19026 1 19407
+  R G 1 19027 1
+  R G 1 19028 1
+  R G 1 19043 1
+  R G 1 19025 1
+  R G 1 19024 1
+  R G 1 19029 1
+  R G 1 19057 1
+  R G 1 19025 1
 S
 #19408
 Ammunition Stores~
@@ -8234,7 +8357,15 @@ Ammunition Stores~
 D3
 ~
 ~
-0 -1 19407
+0 -1 19407 0
+R M 0 19026 2 19408
+  R G 1 19070 1
+  R G 1 19067 1
+  R G 1 19066 1
+  R G 1 19065 1
+  R G 1 19062 1
+  R G 1 19061 1
+  R G 1 19060 1
 S
 #19409
 SimFlight, Inc. - Coruscant branch~
@@ -8243,11 +8374,11 @@ SimFlight, Inc. - Coruscant branch~
 D3
 ~
 ~
-0 -1 19146
+0 -1 19146 0
 D8
 ~
 ~
-0 -1 19410
+0 -1 19410 0
 S
 #19410
 Entrance to the Simulation Area~
@@ -8256,7 +8387,8 @@ Entrance to the Simulation Area~
 D7
 ~
 ~
-0 -1 19409
+0 -1 19409 0
+R M 0 19028 1 19410
 S
 #19411
 A Bright Hallway~
@@ -8265,19 +8397,19 @@ A Bright Hallway~
 D0
 ~
 hatch~
-1 -1 19419
+1 -1 19419 0
 D1
 ~
 ~
-0 -1 19412
+0 -1 19412 0
 D2
 ~
 hatch~
-3 -1 19420
+3 -1 19420 0
 D3
 ~
 ~
-0 -1 19410
+0 -1 19410 0
 S
 #19412
 A Bright Hallway~
@@ -8286,19 +8418,19 @@ A Bright Hallway~
 D0
 ~
 hatch~
-3 -1 19418
+3 -1 19418 0
 D1
 ~
 ~
-0 -1 19413
+0 -1 19413 0
 D2
 ~
 hatch~
-3 -1 19417
+3 -1 19417 0
 D3
 ~
 ~
-0 -1 19411
+0 -1 19411 0
 S
 #19413
 A Bright Hallway~
@@ -8307,19 +8439,19 @@ A Bright Hallway~
 D0
 ~
 hatch~
-3 -1 19415
+3 -1 19415 0
 D1
 ~
 ~
-0 -1 19414
+0 -1 19414 0
 D2
 ~
 hatch~
-3 -1 19416
+3 -1 19416 0
 D3
 ~
 ~
-0 -1 19412
+0 -1 19412 0
 S
 #19414
 Spaceflight Training~
@@ -8328,7 +8460,8 @@ Spaceflight Training~
 D3
 ~
 ~
-0 -1 19413
+0 -1 19413 0
+R O 0 19089 1 19414
 S
 #19415
 Simulator Cockpit~
@@ -8337,7 +8470,7 @@ Simulator Cockpit~
 D2
 ~
 hatch~
-3 -1 19413
+3 -1 19413 0
 S
 #19416
 Simulator Cockpit~
@@ -8346,7 +8479,7 @@ Simulator Cockpit~
 D0
 ~
 hatch~
-3 -1 19413
+3 -1 19413 0
 S
 #19417
 Simulator Cockpit~
@@ -8355,7 +8488,7 @@ Simulator Cockpit~
 D0
 ~
 hatch~
-3 -1 19412
+3 -1 19412 0
 S
 #19418
 Simulator Cockpit~
@@ -8364,7 +8497,7 @@ Simulator Cockpit~
 D2
 ~
 hatch~
-3 -1 19412
+3 -1 19412 0
 S
 #19419
 Simulator Cockpit~
@@ -8373,7 +8506,7 @@ Simulator Cockpit~
 D2
 ~
 hatch~
-1 -1 19411
+1 -1 19411 0
 S
 #19420
 Simulator Cockpit~
@@ -8382,7 +8515,7 @@ Simulator Cockpit~
 D0
 ~
 hatch~
-3 -1 19411
+3 -1 19411 0
 S
 #19421
 A Docking Bay Simulation~
@@ -8396,7 +8529,16 @@ NuRadio Communications~
 D8
 ~
 ~
-0 -1 19009
+0 -1 19009 0
+R M 0 19029 1 19422
+  R G 1 19095 1
+  R G 1 19090 1
+  R G 1 19093 1
+  R G 1 19092 1
+  R G 1 19094 1
+  R G 1 19091 1
+  R G 1 19096 1
+  R G 1 19097 1
 S
 #19423
 None.~
@@ -8405,7 +8547,7 @@ None.~
 D2
 ~
 ~
-0 -1 19002
+0 -1 19002 0
 S
 #19424
 Haat'Sun School of Combat~
@@ -8414,11 +8556,11 @@ Haat'Sun School of Combat~
 D3
 ~
 ~
-0 -1 19034
+0 -1 19034 0
 D8
 ~
 ~
-0 -1 19425
+0 -1 19425 0
 S
 #19425
 A clean, well-kept hallway~
@@ -8427,11 +8569,11 @@ A clean, well-kept hallway~
 D2
 ~
 ~
-0 -1 19426
+0 -1 19426 0
 D7
 ~
 ~
-0 -1 19424
+0 -1 19424 0
 S
 #19426
 A clean, well-kept hallway~
@@ -8440,15 +8582,15 @@ A clean, well-kept hallway~
 D0
 ~
 ~
-0 -1 19425
+0 -1 19425 0
 D1
 ~
 ~
-0 -1 19427
+0 -1 19427 0
 D2
 ~
 ~
-0 -1 19434
+0 -1 19434 0
 S
 #19427
 A clean, well-kept hallway~
@@ -8457,19 +8599,19 @@ A clean, well-kept hallway~
 D0
 ~
 ~
-0 -1 19432
+0 -1 19432 0
 D1
 ~
 ~
-0 -1 19428
+0 -1 19428 0
 D2
 ~
 ~
-0 -1 19433
+0 -1 19433 0
 D3
 ~
 ~
-0 -1 19426
+0 -1 19426 0
 S
 #19428
 A clean, well-kept hallway~
@@ -8478,11 +8620,11 @@ A clean, well-kept hallway~
 D3
 ~
 ~
-0 -1 19427
+0 -1 19427 0
 D6
 ~
 ~
-0 -1 19429
+0 -1 19429 0
 S
 #19429
 The Target Range~
@@ -8491,11 +8633,11 @@ The Target Range~
 D0
 ~
 ~
-33554432 -1 19430
+33554432 -1 19430 0
 D9
 ~
 ~
-0 -1 19428
+0 -1 19428 0
 S
 #19430
 Further down the firing range~
@@ -8504,7 +8646,9 @@ Further down the firing range~
 D0
 ~
 ~
-0 -1 19431
+0 -1 19431 0
+R M 0 19504 2 19430
+R M 0 19504 2 19430
 S
 #19431
 Further down the firing range~
@@ -8513,7 +8657,10 @@ Further down the firing range~
 D2
 ~
 ~
-0 -1 19430
+0 -1 19430 0
+R M 0 19504 3 19431
+R M 0 19503 2 19431
+R M 0 19503 2 19431
 S
 #19432
 A Classroom~
@@ -8522,7 +8669,8 @@ A Classroom~
 D2
 ~
 ~
-0 -1 19427
+0 -1 19427 0
+R O 0 19089 1 19432
 S
 #19433
 A Classroom~
@@ -8531,7 +8679,8 @@ A Classroom~
 D0
 ~
 ~
-0 -1 19427
+0 -1 19427 0
+R O 0 19089 1 19433
 S
 #19434
 A clean, well-kept hallway~
@@ -8540,11 +8689,11 @@ A clean, well-kept hallway~
 D0
 ~
 ~
-0 -1 19426
+0 -1 19426 0
 D8
 ~
 ~
-0 -1 19435
+0 -1 19435 0
 S
 #19435
 A clean, well-kept hallway~
@@ -8553,15 +8702,15 @@ A clean, well-kept hallway~
 D1
 ~
 ~
-0 -1 19437
+0 -1 19437 0
 D2
 ~
 ~
-0 -1 19436
+0 -1 19436 0
 D7
 ~
 ~
-0 -1 19434
+0 -1 19434 0
 S
 #19436
 A Sparring Room~
@@ -8570,7 +8719,7 @@ A Sparring Room~
 D0
 ~
 ~
-0 -1 19435
+0 -1 19435 0
 S
 #19437
 A Sparring Room~
@@ -8579,7 +8728,7 @@ A Sparring Room~
 D3
 ~
 ~
-0 -1 19435
+0 -1 19435 0
 S
 #19438
 Yolar Platform~
@@ -8588,7 +8737,16 @@ Yolar Platform~
 D9
 ~
 ~
-0 -1 19143
+0 -1 19143 0
+R M 0 19005 6 19438
+  R E 1 19021 1 6
+  R E 1 19020 1 5
+  R E 1 19022 1 16
+R M 0 19005 6 19438
+  R E 1 19020 1 5
+  R E 1 19021 1 6
+  R E 1 19022 1 16
+R M 0 19031 2 19438
 S
 #19439
 Entrance to the Coruscant Heights Apartments~
@@ -8597,11 +8755,11 @@ Entrance to the Coruscant Heights Apartments~
 D1
 ~
 ~
-0 -1 19440
+0 -1 19440 0
 D3
 ~
 ~
-0 -1 19106
+0 -1 19106 0
 S
 #19440
 The Lobby~
@@ -8610,11 +8768,11 @@ The Lobby~
 D3
 ~
 ~
-0 -1 19439
+0 -1 19439 0
 D6
 ~
 ~
-0 -1 19441
+0 -1 19441 0
 S
 #19441
 A small turbolift~
@@ -8647,11 +8805,11 @@ Coruscant Heights: Floor 2~
 D3
 ~
 ~
-0 -1 19443
+0 -1 19443 0
 D6
 ~
 ~
-0 -1 19441
+0 -1 19441 0
 S
 #19443
 A hallway~
@@ -8660,19 +8818,19 @@ A hallway~
 D0
 ~
 ~
-3 -1 19450
+3 -1 19450 0
 D1
 ~
 ~
-0 -1 19442
+0 -1 19442 0
 D2
 ~
 ~
-3 -1 19451
+3 -1 19451 0
 D3
 ~
 ~
-0 -1 19444
+0 -1 19444 0
 S
 #19444
 A hallway~
@@ -8681,19 +8839,19 @@ A hallway~
 D0
 ~
 ~
-3 -1 19446
+3 -1 19446 0
 D1
 ~
 ~
-0 -1 19443
+0 -1 19443 0
 D2
 ~
 ~
-3 -1 19447
+3 -1 19447 0
 D3
 ~
 ~
-0 -1 19445
+0 -1 19445 0
 S
 #19445
 A hallway~
@@ -8702,15 +8860,15 @@ A hallway~
 D0
 ~
 ~
-3 -1 19448
+3 -1 19448 0
 D1
 ~
 ~
-0 -1 19444
+0 -1 19444 0
 D2
 ~
 ~
-3 -1 19449
+3 -1 19449 0
 S
 #19446
 An unoccupied apartment~
@@ -8719,7 +8877,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19444
+3 -1 19444 0
 S
 #19447
 An unoccupied apartment~
@@ -8728,7 +8886,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19444
+3 -1 19444 0
 S
 #19448
 An unoccupied apartment~
@@ -8737,7 +8895,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19445
+3 -1 19445 0
 S
 #19449
 An unoccupied apartment~
@@ -8746,7 +8904,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19445
+3 -1 19445 0
 S
 #19450
 An unoccupied apartment~
@@ -8755,7 +8913,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19443
+3 -1 19443 0
 S
 #19451
 An unoccupied apartment~
@@ -8764,7 +8922,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19443
+3 -1 19443 0
 S
 #19452
 Coruscant Heights: Floor 3~
@@ -8773,11 +8931,11 @@ Coruscant Heights: Floor 3~
 D3
 ~
 ~
-0 -1 19453
+0 -1 19453 0
 D6
 ~
 ~
-0 -1 19441
+0 -1 19441 0
 S
 #19453
 A hallway~
@@ -8786,19 +8944,19 @@ A hallway~
 D0
 ~
 ~
-3 -1 19460
+3 -1 19460 0
 D1
 ~
 ~
-0 -1 19452
+0 -1 19452 0
 D2
 ~
 ~
-3 -1 19461
+3 -1 19461 0
 D3
 ~
 ~
-0 -1 19454
+0 -1 19454 0
 S
 #19454
 A hallway~
@@ -8807,19 +8965,19 @@ A hallway~
 D0
 ~
 ~
-3 -1 19458
+3 -1 19458 0
 D1
 ~
 ~
-0 -1 19453
+0 -1 19453 0
 D2
 ~
 ~
-3 -1 19459
+3 -1 19459 0
 D3
 ~
 ~
-0 -1 19455
+0 -1 19455 0
 S
 #19455
 A hallway~
@@ -8828,15 +8986,15 @@ A hallway~
 D0
 ~
 ~
-3 -1 19457
+3 -1 19457 0
 D1
 ~
 ~
-0 -1 19454
+0 -1 19454 0
 D2
 ~
 ~
-3 -1 19456
+3 -1 19456 0
 S
 #19456
 An unoccupied apartment~
@@ -8845,7 +9003,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19455
+3 -1 19455 0
 S
 #19457
 An unoccupied apartment~
@@ -8854,7 +9012,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19455
+3 -1 19455 0
 S
 #19458
 An unoccupied apartment~
@@ -8863,7 +9021,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19454
+3 -1 19454 0
 S
 #19459
 An unoccupied apartment~
@@ -8872,7 +9030,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19454
+3 -1 19454 0
 S
 #19460
 An unoccupied apartment~
@@ -8881,7 +9039,7 @@ An unoccupied apartment~
 D2
 ~
 ~
-3 -1 19453
+3 -1 19453 0
 S
 #19461
 An unoccupied apartment~
@@ -8890,7 +9048,7 @@ An unoccupied apartment~
 D0
 ~
 ~
-3 -1 19453
+3 -1 19453 0
 S
 #19462
 Floating in a void~
@@ -9099,7 +9257,12 @@ store, many cases of jewelry line the walls.
 D2
 ~
 ~
-0 -1 19199
+0 -1 19199 0
+R M 0 19501 1 19501
+  R G 1 19502 1
+  R G 1 19503 1
+  R G 1 19504 1
+  R G 1 19501 1
 S
 #19502
 First Providence Medical Supply~
@@ -9111,7 +9274,10 @@ a credit register sits near the center.
 D0
 ~
 ~
-0 -1 19198
+0 -1 19198 0
+R M 0 19502 1 19502
+  R G 1 19506 1
+  R G 1 19505 1
 S
 #19503
 Floating in a void~
@@ -10107,191 +10273,21 @@ S
 High Room~
 ~
 0 1073741828 1 0 0 0 14624
+R M 0 19999 1 19999
+R O 0 19999 1 19999
 S
 #0
 
 
-#RESETS
-M 1 19000 1 19000
-O 1 19000 1 19000
-O 1 19002 1 19185
-O 1 19001 1 19206
-D 0 19206 7 1
-D 0 19206 9 1
-M 1 19001 1 19212
-G 1 19006 1
-G 1 19007 1
-G 1 19008 1
-M 1 19002 1 19213
-G 1 19009 1
-G 1 19010 1
-G 1 19011 1
-G 1 19012 1
-G 1 19013 1
-M 1 19003 1 19215
-G 1 19014 1
-G 1 19015 1
-G 1 19016 1
-G 1 19017 1
-M 1 19004 1 19218
-G 1 19018 1
-G 1 19019 1
-O 1 19005 1 19209
-O 1 19004 1 19209
-O 1 19003 1 19209
-M 1 19006 1 19275
-E 1 19071 1 5
-E 1 19022 1 16
-G 1 19072 1
-M 1 19007 2 19275
-E 1 19022 1 16
-E 1 19020 1 5
-E 1 19021 1 6
-M 1 19007 2 19275
-E 1 19021 1 6
-E 1 19022 1 16
-E 1 19020 1 5
-D 0 19275 1 2
-D 0 19275 7 1
-O 1 19073 1 19276
-D 0 19276 3 2
-M 1 19008 1 19277
-O 1 19074 1 19277
-M 1 19009 1 19144
-M 1 19010 1 19085
-G 1 3 1
-M 1 19011 1 19285
-G 1 3 1
-O 1 19075 1 19286
-O 1 19052 1 19286
-O 1 19075 1 19284
-O 1 19052 1 19284
-O 1 19075 1 19283
-O 1 19052 1 19283
-O 1 19076 1 19321
-M 1 19012 1 19003
-O 1 19077 1 19003
-M 1 19022 1 19335
-E 1 19071 1 5
-E 1 19022 1 16
-G 1 19078 1
-M 1 19023 2 19333
-E 1 19020 1 5
-E 1 19021 1 6
-E 1 19022 1 16
-M 1 19023 2 19333
-E 1 19020 1 5
-E 1 19022 1 16
-E 1 19021 1 6
-D 0 19333 0 1
-M 1 19999 1 19999
-O 1 19999 1 19999
-O 1 19080 1 19360
-O 1 19079 1 19360
-M 1 19024 1 19022
-O 1 19075 1 19370
-O 1 19052 1 19370
-O 1 19081 1 19368
-O 1 19082 1 19368
-D 0 19368 1 0
-O 1 19081 1 19367
-O 1 19082 1 19367
-D 0 19367 1 0
-O 1 19081 1 19366
-O 1 19082 1 19366
-D 0 19366 1 0
-M 1 19025 1 19371
-E 1 19083 1 5
-E 1 19084 1 7
-E 1 19085 1 8
-M 1 19026 1 19407
-G 1 19027 1
-G 1 19028 1
-G 1 19043 1
-G 1 19025 1
-G 1 19024 1
-G 1 19029 1
-G 1 19057 1
-G 1 19025 1
-M 1 19026 2 19408
-G 1 19070 1
-G 1 19067 1
-G 1 19066 1
-G 1 19065 1
-G 1 19062 1
-G 1 19061 1
-G 1 19060 1
-M 1 19027 1 19405
-O 1 19087 1 19405
-M 1 19028 1 19410
-O 1 19089 1 19414
-M 1 19029 1 19422
-G 1 19095 1
-G 1 19090 1
-G 1 19093 1
-G 1 19092 1
-G 1 19094 1
-G 1 19091 1
-G 1 19096 1
-G 1 19097 1
-M 1 19501 1 19501
-G 1 19502 1
-G 1 19503 1
-G 1 19504 1
-G 1 19501 1
-O 1 19098 1 19404
-M 1 19502 1 19502
-G 1 19506 1
-G 1 19505 1
-M 1 19030 1 19406
-O 1 19074 1 19406
-D 0 19406 1 0
-M 1 19504 2 19430
-M 1 19504 2 19430
-M 1 19504 3 19431
-M 1 19503 2 19431
-M 1 19503 2 19431
-O 1 19089 1 19433
-O 1 19089 1 19432
-M 1 19005 4 19001
-E 1 19020 1 5
-E 1 19021 1 6
-E 1 19022 1 16
-M 1 19005 4 19001
-E 1 19021 1 6
-E 1 19020 1 5
-E 1 19022 1 16
-M 1 19031 1 19001
-M 1 19005 6 19438
-E 1 19021 1 6
-E 1 19020 1 5
-E 1 19022 1 16
-M 1 19005 6 19438
-E 1 19020 1 5
-E 1 19021 1 6
-E 1 19022 1 16
-M 1 19031 2 19438
-M 1 19005 6 19084
-E 1 19022 1 16
-E 1 19020 1 5
-E 1 19021 1 6
-M 1 19005 6 19084
-E 1 19022 1 16
-E 1 19020 1 5
-E 1 19021 1 6
-M 1 19031 3 19084
-S
-
-
 #SHOPS
- 19001    0  0  0  0  0   120   0         0 23 0  ; Farrell the Bantha Cook
- 19002    0  0  0  0  0   120   0         0 23 0  ; Gillian
- 19003    0  0  0  0  0   120   0         0 23 0  ; A teenage clerk
- 19004    0  0  0  0  0   120   0         0 23 0  ; Gordon
- 19026    0  0  0  0  0   150   0         0 23 0  ; shopping droid
- 19029    0  0  0  0  0   120  90         0 23 0  ; a Duros store manager
- 19501    0  0  0  0  0   140  90         0 23 0  ; A verpine jewelry attendant
- 19502    0  0  0  0  0   120  90         0 23 0  ; TI-2033
+ 19001    0  0  0  0  0   120   0         0 23    ; Farrell the Bantha Cook
+ 19002    0  0  0  0  0   120   0         0 23    ; Gillian
+ 19003    0  0  0  0  0   120   0         0 23    ; A teenage clerk
+ 19004    0  0  0  0  0   120   0         0 23    ; Gordon
+ 19026    0  0  0  0  0   150   0         0 23    ; shopping droid
+ 19029    0  0  0  0  0   120  90         0 23    ; a Duros store manager
+ 19501    0  0  0  0  0   140  90         0 23    ; A verpine jewelry attendant
+ 19502    0  0  0  0  0   120  90         0 23    ; TI-2033
 0
 
 

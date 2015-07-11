@@ -1,0 +1,55 @@
+# Sagas new Piloting Documentation
+1: Navigation, Ship Systems, Small Spacecraft
+2: Weapon Systems
+25: Space combat 1, Barrel Roll
+30: Tractor Beams
+40: Medium Spacecraft
+45: Space Combat 2, Juke
+50: Bomb
+75: Large spacecraft
+80: Bombard
+95: Dropships
+100: Space Combat 3
+150: Ship Dodge
+
+Prestige Classes
+Dogfighter
+Line Captain
+Vehicle Operator - Not in Yet
+
+Elite Classes
+Ace
+Commander
+Vehicle Expert - Not in Yet
+
+Dogfighter - purpose: fights in medium to small ships
+Move it - You're an expert at utilizing the speed advantage you have over larger ships. Your chance to dodge any ship larger than you increases by 10% per size increase. So a small ship is 20% more likely to dodge fire from a large spacecraft and 10% more likely to dodge fire from a medium craft.
+Full Stop - Sometimes it's effective to stop short and force enemies past you. Using this skill instantly sets your speed to 0 for a tick, this can be used to avoid missiles and rockets and also propel enemy pilots past you.
+Accuracy - Laser/ion accuracy is increased by 15%
+
+Line Captain - purpose: Capital ship Expert
+Power Gird Expert - You can manipulate the power grid of your ship in subtle ways to compensate for situations. Used by typing powergrid <syste> it provides variable bonuses based on system. These bonuses last until they are changed. Note that usage of this command will immediately take 250 fuel from your current fuel. 
+	engines - +15% max speed 
+	hyper - +15% max hyperspeed
+	weapons - +15% damage on lasers/ions
+	computers - +15% accuracy on lasers/ions
+	radar - radar range increased by 15%
+	none - cancel all adjustments
+Turbolaser Maserty - when firing turbolasers, you are 15% more accurate and do 5% more damage on hit. (why not 10 or 15!? Because they already do a crap ton of damage)
+Energy Conservation - When you fire weapons, they take 50% less energy to fire.
+
+Vehicle Operator - Purpose: BEtter with vehicles
+No use defining this until I put in vehicles
+
+Ace - Purpose: Expert dogfighter
+recharge - this command will redirect some of your fuel to instantly restore 50% of shields. It costs 10% of remaining fuel. not to be used lightly.
+quad blasters - You get access to special tech. All small to medium ships you pilot are assumed to have quad rotating lasers/ions which translates to 15% more damage from lasers/ions.
+Never get Hit - Move it is now a flat bonus of 30% to dodge attempts against any size ship
+
+Commander - Purpose: Capital Ship Expert
+Tactical Mastery - You can bolster clanmates ships in the same system, regardless of size, and increase their accuracy and damage by 5%. This will not stack. Don't bother having multiple commanders use this.
+Focus Fire - You designate a target. All allies who attack this target are fed up to the date targeting data and gain 25% accuracy against it.
+Hyperretreat - You are overly skilled in retreating into a hyper lane. Once per 24 hours you may instantly hyper away regardless of being too close to other objects in space.
+
+Vehicle Expert - Purpose: Vehicle Expert
+No use defining this until I put in vehicles

@@ -1,0 +1,49 @@
+Combat          Level: 1      Max: 50     Exp: 0              Next: 140733193388532
+Piloting        Level: 1      Max: 51     Exp: 0              Next: 140733193388532
+Engineering     Level: 1      Max: 162    Exp: 0              Next: 140733193388532
+Bounty Hunting  Level: 1      Max: 50     Exp: 0              Next: 140733193388532
+Smuggling       Level: 1      Max: 53     Exp: 0              Next: 140733193388532
+Politician      Level: 1      Max: 53     Exp: 0              Next: 140733193388532
+Slicer          Level: 1      Max: 53     Exp: 0              Next: 140733193388532
+Assassin        Level: 1      Max: 51     Exp: 0              Next: 140733193388532
+Technician      Level: 1      Max: 143    Exp: 0              Next: 140733193388532
+
+Bounty Hunting
+( 3) focus strength      ( 7) doorbash            (10) track               
+(13) acute_awarness      (17) heightened accurac  (20) bind                
+(23) plantbug            (23) showbugs            (25) gag                 
+(27) limber              (30) inner strength      
+
+Smuggling
+( 1) beg                 ( 2) dig                 ( 3) search              
+( 7) climb               (10) pick lock           (13) bargain             
+(15) sneak               (17) hide                (19) cover_trail         
+(20) peek                (21) disguise            (23) pick ship lock      
+(25) steal               (30) hijack              
+
+Politician
+( 1) aid                 ( 1) jail                ( 5) smalltalk           
+(12) seduce              (15) bribe               (15) post guard          
+(18) gather_intelligenc  (20) add_patrol          (20) propeganda          
+(21) first aid           (23) reinforcements      (25) dominate            
+(25) elite_guard         (27) battle_command      (28) special_forces      
+(30) mass_propeganda     (30) torture             
+
+Slicer
+( 1) makecommsystem      ( 5) makedatapad         ( 8) inquire             
+( 9) commsystem          (15) spy                 (19) checkprints         
+(21) codecrack           (23) assignpilot         (30) disableship         
+(30) slicebank           
+
+Assassin
+( 5) silent              (10) backstab            (13) retreat             
+(15) concealment         (20) deception           (20) see masking         
+(22) circle              (25) poison weapon       (27) dualstab            
+(30) ambush              
+
+Technician
+( 1) shipmaintenance     ( 5) showmodules         (10) makemodule          
+(15) installmodule       (18) removemodule        (21) makebeacon          
+(24) shiprepair          (26) sabotage            (27) checkbeacons        
+(27) checkbugs           (29) nullifybeacons      (29) removebug           
+(30) plantbeacon         (30) showbeacons         

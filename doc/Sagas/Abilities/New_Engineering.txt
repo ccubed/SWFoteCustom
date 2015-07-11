@@ -1,0 +1,52 @@
+( 1) makecontainer       ( 3) makecomlink         ( 5) makeflashlight      
+( 8) makeblade           (13) repair              (15) gemcutting          
+(17) makebinders         (18) makegrenade         (18) makejewelry         
+(20) makemissile         (20) spice refining      (21) makegoggles         
+(23) makelandmine        (24) makepike            (25) makeshield          
+(26) makebug             (28) makeblaster         (30) makearmor           
+(30) makeshipbomb       
+
+# Sagas new Engineering Documentation
+Engineering should be about the combination of multiple parts into one larger part. For this reason each make skill has been reduced to base components. All this components receive a corresponding make skill somewhere before the skills that need them. You can still buy these made items, but they are meant to be cheaper if made by hand through gathered materials.
+
+# Engineering Layout
+Engineering is a bit more complicated than other classes. I can't simply lay it out and put the skills in order. Based on what I want to do with engineering and hopefully with other classes, I need to take this step by step.
+
+1) Review of base components per skill
+1a) Table of base components
+2) Discuss make skills for base components
+2a) table of base component make skills
+3) Final objects
+3a) table of final object make skills
+4) Ships
+4a) table of ship making skills
+5) Upgrades
+5a) upgrades for armor
+5b) upgrades for weapons
+5c) upgrades for ships
+5d) table of all these things
+
+# 1) Review of base components per skill
+Makecontainer - Fabric
+Makecomlink - Battery, Circuit
+Makeflashlight - Battery, Circuit, Lens
+makeblade - Durasteel, Battery, Circuit
+makebinders - duraplast/durasteel
+makegrenade - drink container, battery, circuit, chemicals or damage type component
+	grenade effects: Probably have multiple effects. Inciendiary, Explosive, Stun, Sleep, Poison
+	Chems:	Combustible Chemicals(inciendiary), Durasteel(explosive), Superconductor (stun), Sedatives (sleep), Poison (poison grenade)
+makecanteen - Not in, necessary. Really want to find a better use for this than just makegrenade without introducing thirst. I'm thinking energy drinks to increase skill learning for a bit
+makejewelry - rare metal
+makemissile - 
+makegoggles - lens, battery, circuit, duraplast
+makelandmine - drink container, battery, circuit, chems/damage type component (see grenade)
+makepike - durasteel, battery, circuit
+makeshield - crystal, battery, circuit, durasteel
+makebug - duraplast, circuit, battery
+makeblaster - Durasteel, Circuit, Superconductor, Battery, Ammo. (represents simple blaster pistol)[add below for different models]
+	Rifle - Scope
+	Repeater - Cooling unit
+	Heavy Pistol - Energy Focuser
+makearmor - Fabric/Duraplast/Durasteel
+makepowerarmor - Durasteel/Duraplast, Circuit, Superconductor, Battery
+makeshipbomb - this is most likely getting removed.

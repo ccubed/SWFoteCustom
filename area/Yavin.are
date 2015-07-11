@@ -715,11 +715,12 @@ you.)
 D1
 ~
 ~
-0 -1 1851
+0 -1 1851 0
 D3
 ~
 ~
-0 -1 2001
+0 -1 2001 0
+R M 0 1859 1 1850
 S
 #1851
 Durasteel Stairs~
@@ -734,11 +735,11 @@ the pad.
 D3
 ~
 ~
-0 -1 1850
+0 -1 1850 0
 D5
 ~
 ~
-0 -1 1852
+0 -1 1852 0
 S
 #1852
 Durasteel Stairs~
@@ -752,11 +753,11 @@ the galaxy.
 D4
 ~
 ~
-0 -1 1851
+0 -1 1851 0
 D5
 ~
 ~
-0 -1 1853
+0 -1 1853 0
 S
 #1853
 Forest Floor~
@@ -771,23 +772,24 @@ also. The lush growth of plants provides a desent cover  for you.
 D0
 ~
 ~
-0 -1 1918
+0 -1 1918 0
 D1
 ~
 ~
-0 -1 1854
+0 -1 1854 0
 D2
 ~
 ~
-0 -1 1919
+0 -1 1919 0
 D3
 ~
 ~
-0 -1 1920
+0 -1 1920 0
 D4
 ~
 ~
-0 -1 1852
+0 -1 1852 0
+R M 0 1854 2 1853
 S
 #1854
 Jungle Path~
@@ -802,15 +804,16 @@ very refreshing, even to the most royalist of people.
 D1
 ~
 ~
-0 -1 1855
+0 -1 1855 0
 D3
 ~
 ~
-0 -1 1853
+0 -1 1853 0
 D6
 ~
 ~
-0 -1 4500
+0 -1 4500 0
+R M 0 1854 2 1854
 S
 #1855
 Jungle Path~
@@ -825,11 +828,12 @@ very refreshing, even to the most royalist of people.
 D3
 ~
 ~
-0 -1 1854
+0 -1 1854 0
 D8
 ~
 ~
-0 -1 1856
+0 -1 1856 0
+R M 0 1854 2 1855
 S
 #1856
 Jungle Path~
@@ -844,15 +848,15 @@ very refreshing, even to the most royalist of people.
 D2
 ~
 'an old path'~
-2056 -1 1907
+2056 -1 1907 0
 D6
 ~
 ~
-0 -1 1857
+0 -1 1857 0
 D7
 ~
 ~
-0 -1 1855
+0 -1 1855 0
 S
 #1857
 Jungle Path~
@@ -867,15 +871,15 @@ very refreshing, even to the most royalist of people.
 D0
 ~
 ~
-0 -1 1905
+0 -1 1905 0
 D1
 ~
 ~
-0 -1 1858
+0 -1 1858 0
 D9
 ~
 ~
-0 -1 1856
+0 -1 1856 0
 S
 #1858
 Jungle Path~
@@ -890,11 +894,11 @@ very refreshing, even to the most royalist of people.
 D1
 ~
 ~
-33 -1 1859
+33 -1 1859 0
 D3
 ~
 ~
-0 -1 1857
+0 -1 1857 0
 S
 #1859
 Security Checkpoint~
@@ -903,15 +907,17 @@ Security Checkpoint~
 D1
 ~
 ~
-7 -1 1860
+7 -1 1860 0
 D2
 ~
 ~
-3 -1 1902
+3 -1 1902 0
 D3
 ~
 ~
-1 -1 1858
+1 -1 1858 0
+R D 0 1859 1 2
+R D 0 1859 2 1
 S
 #1860
 Main Rebel Complex~
@@ -924,15 +930,16 @@ wide corridor that leads to the minor complex to the north.
 D0
 ~
 ~
-0 -1 1864
+0 -1 1864 0
 D1
 ~
 ~
-0 -1 1861
+0 -1 1861 0
 D3
 ~
 ~
-1 -1 1859
+1 -1 1859 0
+R D 0 1860 3 0
 S
 #1861
 Main Corridor~
@@ -944,15 +951,15 @@ is bare excpet for the lights mounted every 30 feet along the ceiling.
 D1
 ~
 ~
-0 -1 1862
+0 -1 1862 0
 D2
 ~
 ~
-0 -1 1900
+0 -1 1900 0
 D3
 ~
 ~
-0 -1 1860
+0 -1 1860 0
 S
 #1862
 Main Corridor~
@@ -965,15 +972,16 @@ There is a workshop located south of here for Rebel engineers.
 D1
 ~
 ~
-0 -1 1863
+0 -1 1863 0
 D2
 ~
 ~
-0 -1 1938
+0 -1 1938 0
 D3
 ~
 ~
-0 -1 1861
+0 -1 1861 0
+R M 0 1957 9 1862
 S
 #1863
 Main Corridor~
@@ -985,19 +993,19 @@ conference room. You feel a slight breeze from the north.
 D0
 ~
 ~
-0 -1 1870
+0 -1 1870 0
 D1
 ~
 ~
-0 -1 1895
+0 -1 1895 0
 D2
 ~
 ~
-0 -1 1897
+0 -1 1897 0
 D3
 ~
 ~
-0 -1 1862
+0 -1 1862 0
 S
 #1864
 Wide Corridor~
@@ -1006,11 +1014,11 @@ Wide Corridor~
 D0
 ~
 ~
-0 -1 1865
+0 -1 1865 0
 D2
 ~
 ~
-0 -1 1860
+0 -1 1860 0
 S
 #1865
 Wide Corridor~
@@ -1019,11 +1027,13 @@ Wide Corridor~
 D2
 ~
 ~
-0 -1 1864
+0 -1 1864 0
 D6
 ~
 ~
-0 -1 1866
+0 -1 1866 0
+R M 0 1957 9 1865
+R M 0 1957 9 1865
 S
 #1866
 Wide Corridor~
@@ -1032,11 +1042,11 @@ Wide Corridor~
 D6
 ~
 ~
-0 -1 1867
+0 -1 1867 0
 D9
 ~
 ~
-0 -1 1865
+0 -1 1865 0
 S
 #1867
 Wide Corridor~
@@ -1045,19 +1055,20 @@ Wide Corridor~
 D0
 ~
 ~
-0 -1 1868
+0 -1 1868 0
 D2
 ~
 ~
-8389671 1928 1982
+8389671 1928 1982 0
 D8
 ~
 ~
-0 -1 1872
+0 -1 1872 0
 D9
 ~
 ~
-0 -1 1866
+0 -1 1866 0
+R D 0 1867 2 2
 S
 #1868
 Short Breezeway~
@@ -1066,11 +1077,11 @@ Short Breezeway~
 D0
 ~
 ~
-0 -1 1869
+0 -1 1869 0
 D2
 ~
 ~
-0 -1 1867
+0 -1 1867 0
 S
 #1869
 Minor Rebel Complex~
@@ -1085,15 +1096,15 @@ enlisted members.
 D1
 ~
 ~
-0 -1 1873
+0 -1 1873 0
 D2
 ~
 ~
-0 -1 1868
+0 -1 1868 0
 D3
 ~
 ~
-0 -1 1875
+0 -1 1875 0
 S
 #1870
 Wide Corridor~
@@ -1106,11 +1117,11 @@ the left wall.
 D0
 ~
 ~
-0 -1 1871
+0 -1 1871 0
 D2
 ~
 ~
-0 -1 1863
+0 -1 1863 0
 S
 #1871
 Wide Corridor~
@@ -1122,15 +1133,15 @@ adjacent to this one.
 D1
 ~
 ~
-0 -1 1893
+0 -1 1893 0
 D2
 ~
 ~
-0 -1 1870
+0 -1 1870 0
 D7
 ~
 ~
-0 -1 1872
+0 -1 1872 0
 S
 #1872
 Wide Corridor~
@@ -1139,11 +1150,11 @@ Wide Corridor~
 D7
 ~
 ~
-0 -1 1867
+0 -1 1867 0
 D8
 ~
 ~
-0 -1 1871
+0 -1 1871 0
 S
 #1873
 Brightly Lit Corridor~
@@ -1152,11 +1163,11 @@ Brightly Lit Corridor~
 D1
 ~
 ~
-0 -1 1874
+0 -1 1874 0
 D3
 ~
 ~
-0 -1 1869
+0 -1 1869 0
 S
 #1874
 Brighty Lit Corridor~
@@ -1165,15 +1176,15 @@ Brighty Lit Corridor~
 D0
 ~
 ~
-0 -1 1877
+0 -1 1877 0
 D3
 ~
 ~
-0 -1 1873
+0 -1 1873 0
 D8
 ~
 ~
-0 -1 1983
+0 -1 1983 0
 S
 #1875
 Brightly Lit Corridor~
@@ -1182,11 +1193,11 @@ Brightly Lit Corridor~
 D1
 ~
 ~
-0 -1 1869
+0 -1 1869 0
 D3
 ~
 ~
-0 -1 1876
+0 -1 1876 0
 S
 #1876
 Brightly Lit Corridor~
@@ -1195,11 +1206,11 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1880
+0 -1 1880 0
 D1
 ~
 ~
-0 -1 1875
+0 -1 1875 0
 S
 #1877
 Barracks~
@@ -1217,11 +1228,11 @@ shining white tiles and the walls are made from grey durasteel.
 D0
 ~
 ~
-0 -1 1878
+0 -1 1878 0
 D2
 ~
 ~
-0 -1 1874
+0 -1 1874 0
 S
 #1878
 Barracks~
@@ -1239,15 +1250,15 @@ shining white tiles and the walls are made from grey durasteel.
 D0
 ~
 ~
-0 -1 1879
+0 -1 1879 0
 D1
 ~
 ~
-0 -1 1981
+0 -1 1981 0
 D2
 ~
 ~
-0 -1 1877
+0 -1 1877 0
 S
 #1879
 Barracks~
@@ -1265,7 +1276,8 @@ shining white tiles and the walls are made from grey durasteel.
 D2
 ~
 ~
-0 -1 1878
+0 -1 1878 0
+R M 0 1853 1 1879
 S
 #1880
 Brightly Lit Corridor~
@@ -1274,11 +1286,13 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1881
+0 -1 1881 0
 D2
 ~
 ~
-0 -1 1876
+0 -1 1876 0
+R M 0 1957 9 1880
+R M 0 1957 9 1880
 S
 #1881
 Brightly Lit Corridor~
@@ -1287,15 +1301,15 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1884
+0 -1 1884 0
 D1
 ~
 ~
-0 -1 1882
+0 -1 1882 0
 D2
 ~
 ~
-0 -1 1880
+0 -1 1880 0
 S
 #1882
 Chow Hall~
@@ -1309,11 +1323,11 @@ periods and are here precisely when it begins.
 D1
 ~
 ~
-0 -1 1883
+0 -1 1883 0
 D3
 ~
 ~
-0 -1 1881
+0 -1 1881 0
 S
 #1883
 Kitchen~
@@ -1327,7 +1341,11 @@ with variety.
 D3
 ~
 ~
-0 -1 1882
+0 -1 1882 0
+R M 0 126 3 1883
+  R G 1 133 1
+R M 0 126 3 1883
+  R G 1 133 1
 S
 #1884
 Brightly Lit Corridor~
@@ -1336,11 +1354,11 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1885
+0 -1 1885 0
 D2
 ~
 ~
-0 -1 1881
+0 -1 1881 0
 S
 #1885
 Brightly Lit Corridor~
@@ -1349,15 +1367,17 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1890
+0 -1 1890 0
 D1
 ~
 ~
-0 -1 1886
+0 -1 1886 0
 D2
 ~
 ~
-0 -1 1884
+0 -1 1884 0
+R M 0 1957 9 1885
+  R E 1 53 1 16
 S
 #1886
 Infirmary~
@@ -1366,19 +1386,19 @@ Infirmary~
 D1
 ~
 ~
-0 -1 1889
+0 -1 1889 0
 D3
 ~
 ~
-0 -1 1885
+0 -1 1885 0
 D6
 ~
 ~
-0 -1 1887
+0 -1 1887 0
 D8
 ~
 ~
-0 -1 1888
+0 -1 1888 0
 S
 #1887
 Bacta Tank~
@@ -1387,7 +1407,7 @@ Bacta Tank~
 D9
 ~
 ~
-0 -1 1886
+0 -1 1886 0
 > rand_prog 100~
 mpecho The bacta flows around you and heals your wounds.
 mprestore $n 500
@@ -1406,7 +1426,8 @@ Operation Room~
 D7
 ~
 ~
-0 -1 1886
+0 -1 1886 0
+R M 0 1957 9 1888
 S
 #1889
 Recovery Room~
@@ -1421,7 +1442,8 @@ patient is functioning normally.
 D3
 ~
 ~
-0 -1 1886
+0 -1 1886 0
+R M 0 1957 9 1889
 S
 #1890
 Brightly Lit Corridor~
@@ -1430,11 +1452,11 @@ Brightly Lit Corridor~
 D0
 ~
 ~
-0 -1 1891
+0 -1 1891 0
 D2
 ~
 ~
-0 -1 1885
+0 -1 1885 0
 S
 #1891
 Brightly Lit Corridor~
@@ -1443,11 +1465,12 @@ Brightly Lit Corridor~
 D1
 ~
 Vault~
-8388609 1927 1892
+8388609 1927 1892 0
 D2
 ~
 ~
-0 -1 1890
+0 -1 1890 0
+R D 0 1891 1 0
 S
 #1892
 Armory~
@@ -1456,7 +1479,9 @@ Armory~
 D3
 ~
 ~
-1 1851 1891
+1 1851 1891 0
+R O 0 9746 1 1892
+R D 0 1892 3 0
 S
 #1893
 Small Antechamber~
@@ -1469,11 +1494,12 @@ before the meeting starts.
 D1
 ~
 ~
-1 -1 1894
+1 -1 1894 0
 D3
 ~
 ~
-0 -1 1871
+0 -1 1871 0
+R D 0 1893 1 0
 S
 #1894
 Large Conference Room~
@@ -1486,7 +1512,9 @@ are dark red and bear the logo of the New Republic.
 D3
 ~
 ~
-1 -1 1893
+1 -1 1893 0
+R M 0 1955 2 1894
+R D 0 1894 3 0
 S
 #1895
 Communications Department~
@@ -1495,15 +1523,16 @@ Communications Department~
 D1
 ~
 ~
-0 -1 1901
+0 -1 1901 0
 D2
 ~
 ~
-0 -1 1896
+0 -1 1896 0
 D3
 ~
 ~
-0 -1 1863
+0 -1 1863 0
+R M 0 1852 1 1895
 S
 #1896
 Slicer Terminal~
@@ -1512,7 +1541,8 @@ Slicer Terminal~
 D0
 ~
 ~
-0 -1 1895
+0 -1 1895 0
+R M 0 1954 1 1896
 S
 #1897
 Wide Corridor~
@@ -1524,11 +1554,12 @@ side of the wall every 30 feet.
 D0
 ~
 ~
-0 -1 1863
+0 -1 1863 0
 D2
 ~
 ~
-3 -1 1898
+3 -1 1898 0
+R D 0 1897 2 1
 S
 #1898
 Security Checkpoint~
@@ -1541,11 +1572,41 @@ facility.
 D0
 ~
 ~
-3 -1 1897
+3 -1 1897 0
 D2
 ~
 ~
-1 -1 1899
+1 -1 1899 0
+R M 0 29 4 1898
+  R E 1 1859 1 5
+  R E 1 1860 1 5
+  R E 1 1861 1 9
+  R E 1 1862 1 7
+  R E 1 1865 1 13
+  R E 1 53 1 16
+R M 0 29 4 1898
+  R E 1 1859 1 5
+  R E 1 1860 1 5
+  R E 1 1861 1 9
+  R E 1 1862 1 7
+  R E 1 1865 1 13
+  R E 1 53 1 16
+R M 0 29 4 1898
+  R E 1 1859 1 5
+  R E 1 1860 1 5
+  R E 1 1861 1 9
+  R E 1 1862 1 7
+  R E 1 1865 1 13
+  R E 1 53 1 16
+R M 0 29 4 1898
+  R E 1 1859 1 5
+  R E 1 1860 1 5
+  R E 1 1861 1 9
+  R E 1 1862 1 7
+  R E 1 1865 1 13
+  R E 1 53 1 16
+R D 0 1898 0 1
+R D 0 1898 2 0
 S
 #1899
 Hanger Bay~
@@ -1558,7 +1619,8 @@ to the north.
 D0
 ~
 ~
-3 -1 1898
+3 -1 1898 0
+R D 0 1899 0 1
 S
 #1900
 Droid Maintenance~
@@ -1567,7 +1629,7 @@ Droid Maintenance~
 D0
 ~
 ~
-0 -1 1861
+0 -1 1861 0
 S
 #1901
 Radar Room~
@@ -1576,7 +1638,8 @@ Radar Room~
 D3
 ~
 ~
-0 -1 1895
+0 -1 1895 0
+R M 0 1953 1 1901
 S
 #1902
 Security Office~
@@ -1585,7 +1648,8 @@ Security Office~
 D0
 ~
 ~
-35 -1 1859
+35 -1 1859 0
+R D 0 1902 0 1
 S
 #1903
 Hallway~
@@ -1611,11 +1675,11 @@ can be seen in the dirt around the roots of the plants.
 D0
 ~
 ~
-0 -1 1906
+0 -1 1906 0
 D2
 ~
 ~
-0 -1 1857
+0 -1 1857 0
 S
 #1906
 Dense Undergrowth~
@@ -1630,7 +1694,8 @@ sort seem to tower higher than normal, and are a stunning shade of green.
 D2
 ~
 ~
-0 -1 1905
+0 -1 1905 0
+R M 0 1957 9 1906
 S
 #1907
 An Old Path~
@@ -1639,11 +1704,11 @@ An Old Path~
 D0
 ~
 ~
-0 -1 1856
+0 -1 1856 0
 D2
 ~
 ~
-0 -1 1908
+0 -1 1908 0
 S
 #1908
 An Old Path~
@@ -1652,11 +1717,11 @@ An Old Path~
 D0
 ~
 ~
-0 -1 1907
+0 -1 1907 0
 D2
 ~
 ~
-0 -1 1909
+0 -1 1909 0
 S
 #1909
 An Old Path~
@@ -1665,15 +1730,15 @@ An Old Path~
 D0
 ~
 ~
-0 -1 1908
+0 -1 1908 0
 D2
 ~
 ~
-0 -1 1911
+0 -1 1911 0
 D9
 ~
 ~
-0 -1 1910
+0 -1 1910 0
 S
 #1910
 Under a Log~
@@ -1682,11 +1747,11 @@ Under a Log~
 D6
 ~
 ~
-0 -1 1909
+0 -1 1909 0
 D9
 ~
 ~
-0 -1 1913
+0 -1 1913 0
 S
 #1911
 An Old Path~
@@ -1695,11 +1760,11 @@ An Old Path~
 D0
 ~
 ~
-0 -1 1909
+0 -1 1909 0
 D8
 ~
 ~
-0 -1 1912
+0 -1 1912 0
 S
 #1912
 Before a Wading Pool~
@@ -1708,11 +1773,11 @@ Before a Wading Pool~
 D7
 ~
 ~
-0 -1 1911
+0 -1 1911 0
 D8
 ~
 ~
-0 -1 1914
+0 -1 1914 0
 S
 #1913
 Dense Undergrowth~
@@ -1721,11 +1786,11 @@ Dense Undergrowth~
 D6
 ~
 ~
-0 -1 1910
+0 -1 1910 0
 D9
 ~
 ~
-0 -1 1915
+0 -1 1915 0
 S
 #1914
 Wading Pool~
@@ -1734,11 +1799,11 @@ Wading Pool~
 D5
 ~
 ~
-0 -1 1917
+0 -1 1917 0
 D7
 ~
 ~
-0 -1 1912
+0 -1 1912 0
 S
 #1915
 Dense Undergrowth~
@@ -1753,7 +1818,8 @@ anywhere in the undergrwoth is to go back the way you came.
 D6
 ~
 ~
-0 -1 1913
+0 -1 1913 0
+R O 0 1852 1 1915
 S
 #1916
 Steps of The Great Temple~
@@ -1762,11 +1828,11 @@ Steps of The Great Temple~
 D0
 ~
 ~
-0 -1 1913
+0 -1 1913 0
 D2
 ~
 ~
-0 -1 1939
+0 -1 1939 0
 S
 #1917
 Bottom of the Pool~
@@ -1781,7 +1847,8 @@ have no way of knowing.
 D4
 ~
 ~
-0 -1 1914
+0 -1 1914 0
+R O 0 1853 1 1917
 S
 #1918
 Jungle Path~
@@ -1796,11 +1863,11 @@ very refreshing, even to the most royalist of people.
 D0
 ~
 ~
-0 -1 1921
+0 -1 1921 0
 D2
 ~
 ~
-0 -1 1853
+0 -1 1853 0
 S
 #1919
 Briar Patch~
@@ -1815,11 +1882,11 @@ skattared about the underside of the taller bushes.
 D0
 ~
 ~
-0 -1 1853
+0 -1 1853 0
 D2
 ~
 ~
-2048 -1 1990
+2048 -1 1990 0
 > rand_prog 200~
 mpechoat $n The briars puncture your clothing and skin.
 mpdamage $n 20
@@ -1839,11 +1906,11 @@ very refreshing, even to the most royalist of people.
 D1
 ~
 ~
-0 -1 1853
+0 -1 1853 0
 D3
 ~
 ~
-0 -1 1928
+0 -1 1928 0
 S
 #1921
 Jungle Path~
@@ -1858,11 +1925,11 @@ very refreshing, even to the most royalist of people.
 D2
 ~
 ~
-0 -1 1918
+0 -1 1918 0
 D7
 ~
 ~
-0 -1 1922
+0 -1 1922 0
 S
 #1922
 Over a Log~
@@ -1878,11 +1945,11 @@ edge to it all.
 D7
 ~
 ~
-0 -1 1923
+0 -1 1923 0
 D8
 ~
 ~
-0 -1 1921
+0 -1 1921 0
 S
 #1923
 Through a Stream~
@@ -1891,11 +1958,11 @@ Through a Stream~
 D0
 ~
 ~
-0 -1 1924
+0 -1 1924 0
 D8
 ~
 ~
-0 -1 1922
+0 -1 1922 0
 > rand_prog 100~
 mpecho &BThe cold water of the stream rushes past.
 ~
@@ -1908,15 +1975,15 @@ Jungle Path~
 D1
 ~
 ~
-0 -1 1925
+0 -1 1925 0
 D2
 ~
 ~
-0 -1 1923
+0 -1 1923 0
 D3
 ~
 ~
-0 -1 1927
+0 -1 1927 0
 S
 #1925
 Jungle Path~
@@ -1925,11 +1992,11 @@ Jungle Path~
 D1
 ~
 ~
-0 -1 1926
+0 -1 1926 0
 D3
 ~
 ~
-0 -1 1924
+0 -1 1924 0
 S
 #1926
 Jungle Path~
@@ -1938,11 +2005,12 @@ Jungle Path~
 D1
 ~
 ~
-0 -1 1927
+0 -1 1927 0
 D3
 ~
 ~
-0 -1 1925
+0 -1 1925 0
+R M 0 1926 1 1926
 S
 #1927
 Jungle Path~
@@ -1951,11 +2019,11 @@ Jungle Path~
 D1
 ~
 ~
-0 -1 1924
+0 -1 1924 0
 D3
 ~
 ~
-0 -1 1926
+0 -1 1926 0
 S
 #1928
 Humid Jungle~
@@ -1970,11 +2038,13 @@ very refreshing, even to the most royalist of people.
 D1
 ~
 ~
-0 -1 1920
+0 -1 1920 0
 D3
 ~
 ~
-0 -1 1929
+0 -1 1929 0
+R M 0 1855 6 1928
+R M 0 1855 6 1928
 S
 #1929
 Humid Jungle~
@@ -1983,11 +2053,12 @@ Humid Jungle~
 D1
 ~
 ~
-0 -1 1928
+0 -1 1928 0
 D7
 ~
 ~
-0 -1 1930
+0 -1 1930 0
+R M 0 1855 6 1929
 S
 #1930
 A Path through the Jungle~
@@ -1996,11 +2067,12 @@ A Path through the Jungle~
 D7
 ~
 ~
-0 -1 1931
+0 -1 1931 0
 D8
 ~
 ~
-0 -1 1929
+0 -1 1929 0
+R M 0 1855 6 1930
 S
 #1931
 Swampy area~
@@ -2009,11 +2081,11 @@ Swampy area~
 D3
 ~
 ~
-0 -1 1932
+0 -1 1932 0
 D8
 ~
 ~
-0 -1 1930
+0 -1 1930 0
 S
 #1932
 Swampy Area~
@@ -2022,11 +2094,13 @@ Swampy Area~
 D1
 ~
 ~
-0 -1 1931
+0 -1 1931 0
 D3
 ~
 ~
-0 -1 1933
+0 -1 1933 0
+R M 0 1855 6 1932
+R M 0 1855 6 1932
 S
 #1933
 Deep in the Jungle~
@@ -2035,11 +2109,11 @@ Deep in the Jungle~
 D1
 ~
 ~
-0 -1 1932
+0 -1 1932 0
 D3
 ~
 ~
-0 -1 1934
+0 -1 1934 0
 S
 #1934
 Deep in the Jungle~
@@ -2048,11 +2122,11 @@ Deep in the Jungle~
 D1
 ~
 ~
-0 -1 1933
+0 -1 1933 0
 D3
 ~
 ~
-0 -1 1935
+0 -1 1935 0
 S
 #1935
 Deep in the Jungle~
@@ -2061,11 +2135,11 @@ Deep in the Jungle~
 D1
 ~
 ~
-0 -1 1934
+0 -1 1934 0
 D2
 ~
 ~
-0 -1 1936
+0 -1 1936 0
 S
 #1936
 Deep in the Jungle~
@@ -2074,19 +2148,20 @@ Deep in the Jungle~
 D0
 ~
 ~
-0 -1 1935
+0 -1 1935 0
 D2
 ~
 ~
-0 -1 1936
+0 -1 1936 0
 D7
 ~
 ~
-0 -1 1937
+0 -1 1937 0
 D8
 ~
 ~
-0 -1 1937
+0 -1 1937 0
+R M 0 1858 1 1936
 S
 #1937
 Deep in the Jungle~
@@ -2095,11 +2170,11 @@ Deep in the Jungle~
 D7
 ~
 ~
-0 -1 1936
+0 -1 1936 0
 D8
 ~
 ~
-0 -1 1936
+0 -1 1936 0
 S
 #1938
 Industrial Sized Workshop~
@@ -2108,7 +2183,7 @@ Industrial Sized Workshop~
 D0
 ~
 ~
-0 -1 1862
+0 -1 1862 0
 S
 #1939
 Large Chamber~
@@ -2117,11 +2192,11 @@ Large Chamber~
 D0
 ~
 ~
-0 -1 1916
+0 -1 1916 0
 D2
 ~
 ~
-0 -1 1940
+0 -1 1940 0
 S
 #1940
 Large Chamber~
@@ -2130,15 +2205,15 @@ Large Chamber~
 D0
 ~
 ~
-0 -1 1939
+0 -1 1939 0
 D1
 ~
 ~
-0 -1 1941
+0 -1 1941 0
 D3
 ~
 ~
-0 -1 1948
+0 -1 1948 0
 S
 #1941
 Dimly Lit Corridor~
@@ -2147,11 +2222,11 @@ Dimly Lit Corridor~
 D1
 ~
 ~
-0 -1 1942
+0 -1 1942 0
 D3
 ~
 ~
-0 -1 1940
+0 -1 1940 0
 S
 #1942
 Dimly Lit Corridor~
@@ -2160,11 +2235,11 @@ Dimly Lit Corridor~
 D1
 ~
 ~
-0 -1 1943
+0 -1 1943 0
 D3
 ~
 ~
-0 -1 1941
+0 -1 1941 0
 S
 #1943
 Turbolift~
@@ -2230,11 +2305,11 @@ Level 2 Corridor~
 D1
 ~
 ~
-0 -1 1943
+0 -1 1943 0
 D3
 ~
 ~
-0 -1 1957
+0 -1 1957 0
 S
 #1945
 Level 3 Corridor~
@@ -2243,11 +2318,11 @@ Level 3 Corridor~
 D1
 ~
 ~
-0 -1 1943
+0 -1 1943 0
 D3
 ~
 ~
-0 -1 1963
+0 -1 1963 0
 S
 #1946
 Level 4 Corridor~
@@ -2256,11 +2331,11 @@ Level 4 Corridor~
 D1
 ~
 ~
-0 -1 1943
+0 -1 1943 0
 D3
 ~
 ~
-0 -1 1947
+0 -1 1947 0
 S
 #1947
 Observation Deck~
@@ -2275,7 +2350,7 @@ philosophies.
 D1
 ~
 ~
-0 -1 1946
+0 -1 1946 0
 S
 #1948
 Dimly Lit Corridor~
@@ -2284,11 +2359,11 @@ Dimly Lit Corridor~
 D1
 ~
 ~
-0 -1 1940
+0 -1 1940 0
 D3
 ~
 ~
-0 -1 1949
+0 -1 1949 0
 S
 #1949
 Dimly Lit Corridor~
@@ -2297,11 +2372,11 @@ Dimly Lit Corridor~
 D1
 ~
 ~
-0 -1 1948
+0 -1 1948 0
 D3
 ~
 ~
-0 -1 1950
+0 -1 1950 0
 S
 #1950
 Dimly Lit Corridor~
@@ -2315,19 +2390,19 @@ the rest of the galaxy.
 D0
 ~
 ~
-0 -1 1951
+0 -1 1951 0
 D1
 ~
 ~
-0 -1 1949
+0 -1 1949 0
 D2
 ~
 ~
-0 -1 1953
+0 -1 1953 0
 D3
 ~
 ~
-0 -1 1969
+0 -1 1969 0
 S
 #1951
 Command Chamber~
@@ -2342,7 +2417,7 @@ but it is the easiest. This is also the Command Station for the infamous sith "S
 D2
 ~
 ~
-0 -1 1950
+0 -1 1950 0
 > speech_prog p Release on Coruscant~
 at 1050 mpmload 1917
 at 1050 mpecho A small sphere falls from the sky.
@@ -2368,7 +2443,7 @@ Small Dorm~
 D0
 ~
 ~
-0 -1 1974
+0 -1 1974 0
 S
 #1953
 Galactic Library~
@@ -2383,15 +2458,15 @@ works.
 D0
 ~
 ~
-0 -1 1950
+0 -1 1950 0
 D2
 ~
 ~
-0 -1 1956
+0 -1 1956 0
 D3
 ~
 ~
-0 -1 1954
+0 -1 1954 0
 S
 #1954
 Galactic Library~
@@ -2406,11 +2481,11 @@ works.
 D1
 ~
 ~
-0 -1 1953
+0 -1 1953 0
 D2
 ~
 ~
-0 -1 1955
+0 -1 1955 0
 S
 #1955
 Galactic Library~
@@ -2425,11 +2500,13 @@ works.
 D0
 ~
 ~
-0 -1 1954
+0 -1 1954 0
 D1
 ~
 ~
-0 -1 1956
+0 -1 1956 0
+R M 0 1955 2 1955
+R O 0 1867 1 1955
 S
 #1956
 Galactic Library~
@@ -2444,11 +2521,11 @@ works.
 D0
 ~
 ~
-0 -1 1953
+0 -1 1953 0
 D3
 ~
 ~
-0 -1 1955
+0 -1 1955 0
 S
 #1957
 Level 2 Corridor~
@@ -2457,15 +2534,15 @@ Level 2 Corridor~
 D1
 ~
 ~
-0 -1 1944
+0 -1 1944 0
 D2
 ~
 ~
-0 -1 1961
+0 -1 1961 0
 D3
 ~
 ~
-0 -1 1958
+0 -1 1958 0
 S
 #1958
 Level 2 Corridor~
@@ -2474,11 +2551,11 @@ Level 2 Corridor~
 D1
 ~
 ~
-0 -1 1957
+0 -1 1957 0
 D7
 ~
 ~
-0 -1 1959
+0 -1 1959 0
 S
 #1959
 Infirmary~
@@ -2487,15 +2564,15 @@ Infirmary~
 D0
 ~
 ~
-0 -1 1960
+0 -1 1960 0
 D7
 ~
 ~
-0 -1 1962
+0 -1 1962 0
 D8
 ~
 ~
-0 -1 1958
+0 -1 1958 0
 S
 #1960
 Bacta Tank~
@@ -2504,7 +2581,7 @@ Bacta Tank~
 D2
 ~
 ~
-0 -1 1959
+0 -1 1959 0
 > rand_prog 100~
 mprestore $n 500
 mpechoat $n The bacta flows around and heals your wounds.
@@ -2524,7 +2601,7 @@ meditation and to ponder the riddles of the galaxy.
 D0
 ~
 ~
-0 -1 1957
+0 -1 1957 0
 S
 #1962
 Recovery Room~
@@ -2539,7 +2616,7 @@ and are covered by the same ancient markings as the rest of the temple.
 D8
 ~
 ~
-0 -1 1959
+0 -1 1959 0
 S
 #1963
 Dimly Lit Corridor~
@@ -2548,15 +2625,15 @@ Dimly Lit Corridor~
 D1
 ~
 ~
-0 -1 1945
+0 -1 1945 0
 D2
 ~
 ~
-0 -1 1967
+0 -1 1967 0
 D3
 ~
 ~
-0 -1 1964
+0 -1 1964 0
 S
 #1964
 Dimly Lit Corridor~
@@ -2565,15 +2642,16 @@ Dimly Lit Corridor~
 D0
 ~
 ~
-0 -1 1965
+0 -1 1965 0
 D1
 ~
 ~
-0 -1 1963
+0 -1 1963 0
 D2
 ~
 ~
-7 1855 1968
+7 1855 1968 0
+R D 0 1964 2 2
 > speech_prog p I am ready to serve~
 mpoload 1855
 drop key
@@ -2587,11 +2665,11 @@ Force Training~
 D2
 ~
 ~
-0 -1 1964
+0 -1 1964 0
 D3
 ~
 ~
-0 -1 1966
+0 -1 1966 0
 S
 #1966
 Force Training~
@@ -2600,7 +2678,7 @@ Force Training~
 D1
 ~
 ~
-0 -1 1965
+0 -1 1965 0
 S
 #1967
 Work Room~
@@ -2617,7 +2695,7 @@ when in this room out of respect for everybody else.
 D0
 ~
 ~
-0 -1 1963
+0 -1 1963 0
 S
 #1968
 Supply Closet~
@@ -2626,7 +2704,8 @@ Supply Closet~
 D0
 ~
 ~
-8388647 1855 1964
+8388647 1855 1964 0
+R D 0 1968 0 2
 > speech_prog "I am ready to serve"~
 mpoload 1916
 mpoload 1915
@@ -2649,11 +2728,11 @@ is lit by small lamps mounted on the walls.
 D1
 ~
 ~
-0 -1 1950
+0 -1 1950 0
 D3
 ~
 ~
-0 -1 1970
+0 -1 1970 0
 S
 #1970
 Turbolift~
@@ -2736,11 +2815,11 @@ eating and a small kitchen.
 D1
 ~
 ~
-0 -1 1970
+0 -1 1970 0
 D3
 ~
 ~
-0 -1 1996
+0 -1 1996 0
 S
 #1972
 Combat Training Level~
@@ -2755,11 +2834,11 @@ east.
 D1
 ~
 ~
-0 -1 1970
+0 -1 1970 0
 D3
 ~
 ~
-0 -1 1975
+0 -1 1975 0
 S
 #1973
 Council Floor~
@@ -2775,11 +2854,11 @@ a very powerful being in the galaxy.
 D1
 ~
 ~
-0 -1 1970
+0 -1 1970 0
 D3
 ~
 ~
-0 -1 1997
+0 -1 1997 0
 S
 #1974
 Small Dorm~
@@ -2788,11 +2867,11 @@ Small Dorm~
 D1
 ~
 ~
-0 -1 1970
+0 -1 1970 0
 D2
 ~
 ~
-0 -1 1952
+0 -1 1952 0
 S
 #1975
 Dimly Lit Corridor~
@@ -2805,11 +2884,11 @@ creating shadows in the corners and between the lamps.
 D1
 ~
 ~
-0 -1 1972
+0 -1 1972 0
 D3
 ~
 ~
-0 -1 1976
+0 -1 1976 0
 S
 #1976
 Dimly Lit Corridor~
@@ -2823,15 +2902,15 @@ remotes and the silence of Jedi training.
 D0
 ~
 ~
-0 -1 1977
+0 -1 1977 0
 D1
 ~
 ~
-0 -1 1975
+0 -1 1975 0
 D2
 ~
 ~
-0 -1 1978
+0 -1 1978 0
 S
 #1977
 Lightsaber Training~
@@ -2845,11 +2924,11 @@ to the west there are a few remotes.
 D2
 ~
 ~
-0 -1 1976
+0 -1 1976 0
 D3
 ~
 ~
-0 -1 1979
+0 -1 1979 0
 S
 #1978
 Advanced Lightsaber Training~
@@ -2864,11 +2943,11 @@ good bit tougher here.
 D0
 ~
 ~
-0 -1 1976
+0 -1 1976 0
 D3
 ~
 ~
-0 -1 1980
+0 -1 1980 0
 S
 #1979
 Lightsaber Training~
@@ -2883,7 +2962,7 @@ mode.
 D1
 ~
 ~
-0 -1 1977
+0 -1 1977 0
 S
 #1980
 Advanced Lightsaber Training~
@@ -2898,7 +2977,7 @@ are already in use.
 D1
 ~
 ~
-0 -1 1978
+0 -1 1978 0
 S
 #1981
 Barracks Lounge~
@@ -2907,7 +2986,7 @@ Barracks Lounge~
 D3
 ~
 ~
-0 -1 1878
+0 -1 1878 0
 S
 #1982
 Floating in a void~
@@ -2955,11 +3034,11 @@ Quarters Level~
 D3
 ~
 ~
-0 -1 1985
+0 -1 1985 0
 D8
 ~
 ~
-0 -1 1983
+0 -1 1983 0
 S
 #1985
 Quarters Level~
@@ -2968,11 +3047,11 @@ Quarters Level~
 D1
 ~
 ~
-0 -1 1984
+0 -1 1984 0
 D3
 ~
 ~
-0 -1 1986
+0 -1 1986 0
 S
 #1986
 Quarters Level~
@@ -2981,11 +3060,11 @@ Quarters Level~
 D1
 ~
 ~
-0 -1 1985
+0 -1 1985 0
 D3
 ~
 ~
-0 -1 1987
+0 -1 1987 0
 S
 #1987
 Quarters Level~
@@ -2994,19 +3073,19 @@ Quarters Level~
 D0
 ~
 ~
-0 -1 1991
+0 -1 1991 0
 D1
 ~
 ~
-0 -1 1986
+0 -1 1986 0
 D2
 ~
 ~
-0 -1 1992
+0 -1 1992 0
 D3
 ~
 ~
-0 -1 1988
+0 -1 1988 0
 S
 #1988
 Quarters Level~
@@ -3015,11 +3094,11 @@ Quarters Level~
 D1
 ~
 ~
-0 -1 1987
+0 -1 1987 0
 D3
 ~
 ~
-0 -1 1993
+0 -1 1993 0
 S
 #1989
 Floating in a void~
@@ -3038,7 +3117,8 @@ the area.
 D0
 ~
 ~
-0 -1 1919
+0 -1 1919 0
+R O 0 1929 1 1990
 > rand_prog 100~
 mpechoat $n Briars dig deep into your flesh.
 mpdamage $n 50
@@ -3057,7 +3137,7 @@ quailty but not lavish.
 D2
 ~
 ~
-0 -1 1987
+0 -1 1987 0
 S
 #1992
 Officers Quarters~
@@ -3071,7 +3151,7 @@ quailty but not lavish.
 D0
 ~
 ~
-0 -1 1987
+0 -1 1987 0
 S
 #1993
 Quarters Level~
@@ -3080,15 +3160,15 @@ Quarters Level~
 D0
 ~
 ~
-0 -1 1994
+0 -1 1994 0
 D1
 ~
 ~
-0 -1 1988
+0 -1 1988 0
 D2
 ~
 ~
-0 -1 1995
+0 -1 1995 0
 S
 #1994
 Officer Quarters~
@@ -3102,7 +3182,7 @@ quality but not lavish.
 D2
 ~
 ~
-0 -1 1993
+0 -1 1993 0
 S
 #1995
 Officers Quarters~
@@ -3116,7 +3196,7 @@ quailty but not lavish.
 D0
 ~
 ~
-0 -1 1993
+0 -1 1993 0
 S
 #1996
 Kitchen~
@@ -3130,7 +3210,8 @@ appliances, tables, and other items in the kitchen.
 D1
 ~
 ~
-0 -1 1971
+0 -1 1971 0
+R M 0 1851 1 1996
 S
 #1997
 Short Hallway~
@@ -3144,11 +3225,11 @@ markings, this would probably be a treasure trove of knowledge.
 D1
 ~
 ~
-0 -1 1973
+0 -1 1973 0
 D3
 ~
 ~
-0 -1 1998
+0 -1 1998 0
 S
 #1998
 Short Hallway~
@@ -3162,11 +3243,11 @@ would probably be a treasure trove of knowledge.
 D1
 ~
 ~
-0 -1 1997
+0 -1 1997 0
 D3
 ~
 ~
-0 -1 1999
+0 -1 1999 0
 S
 #1999
 A Quiet, Peaceful sanctuary~
@@ -3175,11 +3256,13 @@ A Quiet, Peaceful sanctuary~
 D2
 ~
 ~
-2099201 -1 2000
+2099201 -1 2000 0
 D4
 ~
 ~
-0 -1 4500
+0 -1 4500 0
+R O 0 1856 1 1999
+R D 0 1999 2 0
 S
 #2000
 Monitoring Room~
@@ -3194,7 +3277,11 @@ name of the monitor, as he looks at it.
 D0
 ~
 ~
-3 -1 1999
+3 -1 1999 0
+R O 0 1868 1 2000
+R O 0 1869 1 2000
+R D 0 2000 0 1
+R O 0 1870 1 2000
 > custom_prog monitor1~
 mptransfer $n 1859
 mpat 1859 mpforce $n look
@@ -3219,101 +3306,10 @@ The Galactic Mail Center~
 D1
 ~
 ~
-0 -1 1850
+0 -1 1850 0
+R O 0 38 1 2001
 S
 #0
-
-
-#RESETS
-M 1 1854 2 1853
-M 1 1854 2 1854
-M 1 1957 9 1862
-M 1 1957 9 1865
-M 1 1957 9 1865
-D 0 1867 2 2
-M 1 1853 1 1879
-M 1 1957 9 1880
-M 1 1957 9 1880
-M 1 126 3 1883
-G 1 133 1
-M 1 126 3 1883
-G 1 133 1
-M 1 1957 9 1885
-E 1 53 1 16
-M 1 1957 9 1888
-M 1 1957 9 1889
-D 0 1891 1 0
-O 1 9746 1 1892
-D 0 1892 3 0
-D 0 1893 1 0
-M 1 1955 2 1894
-D 0 1894 3 0
-M 1 1852 1 1895
-M 1 1954 1 1896
-D 0 1897 2 1
-M 1 29 4 1898
-E 1 1859 1 5
-E 1 1860 1 5
-E 1 1861 1 9
-E 1 1862 1 7
-E 1 1865 1 13
-E 1 53 1 16
-M 1 29 4 1898
-E 1 1859 1 5
-E 1 1860 1 5
-E 1 1861 1 9
-E 1 1862 1 7
-E 1 1865 1 13
-E 1 53 1 16
-M 1 29 4 1898
-E 1 1859 1 5
-E 1 1860 1 5
-E 1 1861 1 9
-E 1 1862 1 7
-E 1 1865 1 13
-E 1 53 1 16
-M 1 29 4 1898
-E 1 1859 1 5
-E 1 1860 1 5
-E 1 1861 1 9
-E 1 1862 1 7
-E 1 1865 1 13
-E 1 53 1 16
-D 0 1898 0 1
-D 0 1898 2 0
-D 0 1899 0 1
-M 1 1953 1 1901
-D 0 1902 0 1
-M 1 1957 9 1906
-O 1 1853 1 1917
-M 1 1855 6 1928
-M 1 1855 6 1928
-M 1 1855 6 1929
-M 1 1855 6 1930
-M 1 1855 6 1932
-M 1 1855 6 1932
-M 1 1858 1 1936
-M 1 1955 2 1955
-O 1 1867 1 1955
-D 0 1964 2 2
-M 1 1851 1 1996
-O 1 1856 1 1999
-D 0 1999 2 0
-O 1 1868 1 2000
-O 1 1869 1 2000
-D 0 2000 0 1
-O 0 1870 1 2000
-D 0 1859 1 2
-D 0 1859 2 1
-D 0 1860 3 0
-M 1 1859 1 1850
-M 1 1926 1 1926
-D 0 1968 0 2
-O 1 1852 1 1915
-M 1 1854 2 1855
-O 1 1929 1 1990
-O 1 38 1 2001
-S
 
 
 #SHOPS

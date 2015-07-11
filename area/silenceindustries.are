@@ -219,7 +219,7 @@ to the sides, waiting for orders to begin work.
 D1
 ~
 ~
-0 -1 10502
+0 -1 10502 0
 S
 #10502
 Main Turbo Lift~
@@ -263,19 +263,19 @@ stars, shimmering with stardust.
 D0
 ~
 ~
-0 -1 10515
+0 -1 10515 0
 D1
 ~
 ~
-0 -1 10502
+0 -1 10502 0
 D2
 ~
 ~
-0 -1 10517
+0 -1 10517 0
 D3
 ~
 ~
-0 -1 10512
+0 -1 10512 0
 S
 #10504
 Promenade~
@@ -294,23 +294,23 @@ keeping the peace.
 D0
 ~
 ~
-0 -1 10507
+0 -1 10507 0
 D1
 ~
 ~
-0 -1 10502
+0 -1 10502 0
 D2
 ~
 ~
-0 -1 10506
+0 -1 10506 0
 D3
 ~
 ~
-0 -1 10505
+0 -1 10505 0
 D7
 ~
 ~
-0 -1 10523
+0 -1 10523 0
 S
 #10505
 Sunset Bar and Grill~
@@ -329,7 +329,13 @@ before the tax men get here!
 D1
 ~
 ~
-0 -1 10504
+0 -1 10504 0
+R M 0 10503 1 10505
+  R G 1 9006 1
+  R G 1 1857 1
+  R G 1 133 1
+  R G 1 1858 1
+  R G 1 201 1
 S
 #10506
 Trauma Team Infirmary~
@@ -346,7 +352,7 @@ to them.
 D0
 ~
 ~
-0 -1 10504
+0 -1 10504 0
 > rand_prog 100~
 if ispc($n)
 mpecho The bacta starts healing your wounds.
@@ -369,7 +375,14 @@ The shelves are cluttered with every item....
 D2
 ~
 ~
-0 -1 10504
+0 -1 10504 0
+R M 0 10502 1 10507
+  R G 1 150 1
+  R G 1 136 1
+  R G 1 4504 1
+  R G 1 142 1
+  R G 1 4501 1
+  R G 1 65 1
 S
 #10508
 Empty~
@@ -386,19 +399,20 @@ gets its power and money.
 D0
 ~
 ~
-0 -1 10510
+0 -1 10510 0
 D1
 ~
 ~
-0 -1 10502
+0 -1 10502 0
 D2
 ~
 ~
-0 -1 10511
+0 -1 10511 0
 D3
 ~
 ~
-0 -1 10516
+0 -1 10516 0
+R M 0 10504 1 10509
 S
 #10510
 Quiet Sewing Shop~
@@ -410,7 +424,15 @@ are spread around the room, and only a couple are occupied.
 D2
 ~
 ~
-0 -1 10509
+0 -1 10509 0
+R M 0 10505 1 10510
+  R G 1 766 1
+  R G 1 765 1
+  R G 1 764 1
+  R G 1 763 1
+  R G 1 762 1
+  R G 1 761 1
+R O 0 1097 1 10510
 S
 #10511
 Quiet Workshop~
@@ -422,7 +444,19 @@ is also immaculately kept.
 D0
 ~
 ~
-0 -1 10509
+0 -1 10509 0
+R M 0 10506 1 10511
+  R G 1 145 1
+  R G 1 144 1
+  R G 1 148 1
+  R G 1 146 1
+  R G 1 147 1
+  R G 1 1142 1
+  R G 1 143 1
+  R G 1 140 1
+  R G 1 138 1
+  R G 1 139 1
+R O 0 1097 1 10511
 S
 #10512
 CEO's Guardroom~
@@ -439,11 +473,14 @@ No Admitance without authorization.
 D1
 ~
 ~
-0 -1 10503
+0 -1 10503 0
 D3
 ~
 ~
-0 -1 10513
+0 -1 10513 0
+R M 0 10507 8 10512
+R M 0 10507 8 10512
+R M 0 10507 8 10512
 S
 #10513
 CEO's Office~
@@ -463,7 +500,8 @@ business, or die."
 D1
 ~
 ~
-0 -1 10512
+0 -1 10512 0
+R M 0 10507 8 10513
 > speech_prog Paltrow~
 mpecho A secret hatch opens up, and you vanish into it.
 mpecho As you pass through the hatch, it closes behind you.
@@ -485,11 +523,13 @@ overstuffed chairs are arranged arround the room.
 D0
 ~
 ~
-0 -1 10524
+0 -1 10524 0
 D2
 ~
 ~
-0 -1 10513
+0 -1 10513 0
+R O 0 1097 1 10514
+R O 0 1141 1 10514
 S
 #10515
 Board Room~
@@ -502,7 +542,7 @@ and a holoprojector fill out the room.
 D2
 ~
 ~
-0 -1 10503
+0 -1 10503 0
 S
 #10516
 Spice Refining Chamber~
@@ -514,7 +554,7 @@ own footsteps.
 D1
 ~
 ~
-0 -1 10509
+0 -1 10509 0
 S
 #10517
 Office Hallway~
@@ -525,19 +565,19 @@ decorate it is tasteful. Bits of art, and a few trinkets.
 D0
 ~
 ~
-0 -1 10503
+0 -1 10503 0
 D1
 ~
 ~
-0 -1 10520
+0 -1 10520 0
 D2
 ~
 ~
-0 -1 10518
+0 -1 10518 0
 D3
 ~
 ~
-0 -1 10519
+0 -1 10519 0
 S
 #10518
 Office Hallway~
@@ -548,15 +588,15 @@ decorate it is tasteful. Bits of art, and a few trinkets.
 D0
 ~
 ~
-0 -1 10517
+0 -1 10517 0
 D1
 ~
 ~
-0 -1 10521
+0 -1 10521 0
 D3
 ~
 ~
-0 -1 10522
+0 -1 10522 0
 S
 #10519
 Vice President's Office~
@@ -567,7 +607,8 @@ The far wall has a view of the Engineering Level.
 D1
 ~
 ~
-0 -1 10517
+0 -1 10517 0
+R M 0 10507 8 10519
 S
 #10520
 Executive Presidents Office~
@@ -578,7 +619,8 @@ The far wall has a view of the Promenade Level.
 D3
 ~
 ~
-0 -1 10517
+0 -1 10517 0
+R M 0 10507 8 10520
 S
 #10521
 Chief Security Officer's Office~
@@ -589,7 +631,8 @@ The far wall has a viewscreen with Security views all over it.
 D3
 ~
 ~
-0 -1 10518
+0 -1 10518 0
+R M 0 10507 8 10521
 S
 #10522
 Chief Recruiting Officer's Office~
@@ -600,7 +643,8 @@ The far wall has a viewscreen with personnel records on it.
 D1
 ~
 ~
-0 -1 10518
+0 -1 10518 0
+R M 0 10507 8 10522
 S
 #10523
 Banking Terminal~
@@ -611,7 +655,7 @@ autoblasters. Its kept clean, like everything else on this station.
 D8
 ~
 ~
-0 -1 10504
+0 -1 10504 0
 S
 #10524
 Private Landing Pad~
@@ -621,73 +665,25 @@ This is the CEO's private landing pad, for personal use.
 D2
 ~
 ~
-0 -1 10514
+0 -1 10514 0
 S
 #10575
 Floating in a void~
 ~
 0 4 1 0 0 0 29896
+R M 0 10501 1 10575
+R M 0 10575 1 10575
+R O 0 10575 1 10575
+R O 0 10501 1 10575
 S
 #0
 
 
-#RESETS
-M 1 10503 1 10505
-G 1 9006 1
-G 1 1857 1
-G 1 133 1
-G 1 1858 1
-G 1 201 1
-M 1 10502 1 10507
-G 1 150 1
-G 1 136 1
-G 1 4504 1
-G 1 142 1
-G 1 4501 1
-G 1 65 1
-M 1 10504 1 10509
-M 1 10506 1 10511
-G 1 145 1
-G 1 144 1
-G 1 148 1
-G 1 146 1
-G 1 147 1
-G 1 1142 1
-G 1 143 1
-G 1 140 1
-G 1 138 1
-G 1 139 1
-O 1 1097 1 10511
-M 1 10507 8 10512
-M 1 10507 8 10512
-M 1 10507 8 10512
-M 1 10507 8 10513
-M 1 10507 8 10519
-M 1 10507 8 10520
-M 1 10507 8 10521
-M 1 10507 8 10522
-M 1 10501 1 10575
-M 1 10575 1 10575
-O 1 10575 1 10575
-O 1 10501 1 10575
-M 1 10505 1 10510
-G 1 766 1
-G 1 765 1
-G 1 764 1
-G 1 763 1
-G 1 762 1
-G 1 761 1
-O 1 1097 1 10510
-O 1 1097 1 10514
-O 1 1141 1 10514
-S
-
-
 #SHOPS
- 10502    0  0  0  0  0   120  90         0 23 0  ; SI Droid Shopkeeper
- 10503    0  0  0  0  0   120  90         0 23 0  ; Moko, the Ewok Bartender
- 10505    0  0  0  0  0   120  90         0 23 0  ; Droid SI-1132A
- 10506    0  0  0  0  0   120  90         0 23 0  ; Droid SI-1132B
+ 10502    0  0  0  0  0   120  90         0 23    ; SI Droid Shopkeeper
+ 10503    0  0  0  0  0   120  90         0 23    ; Moko, the Ewok Bartender
+ 10505    0  0  0  0  0   120  90         0 23    ; Droid SI-1132A
+ 10506    0  0  0  0  0   120  90         0 23    ; Droid SI-1132B
 0
 
 

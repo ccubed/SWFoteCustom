@@ -388,7 +388,7 @@ of desolate land. To the west you can make out a valley of mountains.
 D3
 ~
 ~
-0 -1 10702
+0 -1 10702 0
 S
 #10702
 A Dirt Path~
@@ -397,11 +397,11 @@ A Dirt Path~
 D1
 ~
 ~
-0 -1 10701
+0 -1 10701 0
 D3
 ~
 ~
-0 -1 10703
+0 -1 10703 0
 S
 #10703
 A Dirt Path~
@@ -410,11 +410,11 @@ A Dirt Path~
 D1
 ~
 ~
-0 -1 10702
+0 -1 10702 0
 D3
 ~
 ~
-0 -1 10704
+0 -1 10704 0
 S
 #10704
 Before A Mountain~
@@ -423,11 +423,11 @@ Before A Mountain~
 D1
 ~
 ~
-0 -1 10703
+0 -1 10703 0
 D2
 ~
 ~
-0 -1 10705
+0 -1 10705 0
 S
 #10705
 Before A Mountain~
@@ -436,15 +436,15 @@ Before A Mountain~
 D0
 ~
 ~
-0 -1 10704
+0 -1 10704 0
 D2
 ~
 ~
-0 -1 10707
+0 -1 10707 0
 D9
 ~
 ~
-2056 -1 10706
+2056 -1 10706 0
 > entry_prog 25~
 mpecho A sound can be heard southwest of here
 ~
@@ -460,11 +460,11 @@ the patch seems to be blocked by...skeletons?
 D3
 ~
 ~
-0 -1 10708
+0 -1 10708 0
 D6
 ~
 ~
-0 -1 10705
+0 -1 10705 0
 S
 #10707
 Before A Mountain~
@@ -473,7 +473,7 @@ Before A Mountain~
 D0
 ~
 ~
-0 -1 10705
+0 -1 10705 0
 S
 #10708
 At The Entrance To A Stone Temple~
@@ -486,11 +486,17 @@ you must defeat them.
 D1
 ~
 ~
-0 -1 10706
+0 -1 10706 0
 D3
 ~
 Gate~
-3 -1 10709
+3 -1 10709 0
+R M 0 10702 2 10708
+  R E 1 10702 1 18
+  R E 1 10702 1 16
+R M 0 10702 2 10708
+  R E 1 10702 1 16
+  R E 1 10702 1 18
 S
 #10709
 Inside The Temple~
@@ -505,19 +511,19 @@ Only those who are one with the force stand a chance of freedom.
 D1
 ~
 ~
-33 -1 10708
+33 -1 10708 0
 D3
 ~
 ~
-0 -1 10721
+0 -1 10721 0
 D7
 ~
 ~
-0 -1 10710
+0 -1 10710 0
 D9
 ~
 ~
-0 -1 10722
+0 -1 10722 0
 S
 #10710
 A Path Within The Temple~
@@ -526,15 +532,15 @@ A Path Within The Temple~
 D3
 ~
 ~
-0 -1 10711
+0 -1 10711 0
 D7
 ~
 ~
-0 -1 10715
+0 -1 10715 0
 D8
 ~
 ~
-0 -1 10709
+0 -1 10709 0
 > entry_prog 100~
 if frc($n) > 0
 mpechoat $n A voice in your head warns you not to proceed to the northwest.
@@ -549,15 +555,15 @@ A Path Within The Temple~
 D1
 ~
 ~
-0 -1 10710
+0 -1 10710 0
 D3
 ~
 ~
-0 -1 10712
+0 -1 10712 0
 D9
 ~
 ~
-0 -1 10716
+0 -1 10716 0
 > entry_prog 100~
 if frc($n) > 0
 mpechoat $n A voice in your head warns you not to proceed to the southeast.
@@ -572,15 +578,15 @@ A Path Within The Temple~
 D1
 ~
 ~
-0 -1 10711
+0 -1 10711 0
 D3
 ~
 ~
-0 -1 10713
+0 -1 10713 0
 D7
 ~
 ~
-0 -1 10714
+0 -1 10714 0
 > entry_prog 100~
 if frc($n) > 0
 mpechoat $n A voice in your head warns you not to proceed to the northwest.
@@ -595,7 +601,7 @@ A Small Chamber~
 D1
 ~
 ~
-0 -1 10712
+0 -1 10712 0
 S
 #10714
 A Path Within The Temple~
@@ -604,15 +610,15 @@ A Path Within The Temple~
 D5
 ~
 ~
-0 -1 10737
+0 -1 10737 0
 D7
 ~
 ~
-0 -1 10719
+0 -1 10719 0
 D8
 ~
 ~
-0 -1 10712
+0 -1 10712 0
 S
 #10715
 A Path Within The Temple~
@@ -621,15 +627,15 @@ A Path Within The Temple~
 D5
 ~
 ~
-0 -1 10737
+0 -1 10737 0
 D7
 ~
 ~
-0 -1 10717
+0 -1 10717 0
 D8
 ~
 ~
-0 -1 10710
+0 -1 10710 0
 S
 #10716
 A Path Within The Temple~
@@ -638,19 +644,19 @@ A Path Within The Temple~
 D1
 ~
 ~
-0 -1 10720
+0 -1 10720 0
 D5
 ~
 ~
-0 -1 10737
+0 -1 10737 0
 D6
 ~
 ~
-0 -1 10711
+0 -1 10711 0
 D9
 ~
 ~
-0 -1 10718
+0 -1 10718 0
 S
 #10717
 A Path Within The Temple~
@@ -659,7 +665,7 @@ A Path Within The Temple~
 D8
 ~
 ~
-0 -1 10715
+0 -1 10715 0
 S
 #10718
 A Path Within The Temple~
@@ -668,7 +674,7 @@ A Path Within The Temple~
 D6
 ~
 ~
-0 -1 10716
+0 -1 10716 0
 S
 #10719
 A Path Within The Temple~
@@ -677,7 +683,7 @@ A Path Within The Temple~
 D8
 ~
 ~
-0 -1 10714
+0 -1 10714 0
 S
 #10720
 A Path Within The Temple~
@@ -686,15 +692,15 @@ A Path Within The Temple~
 D1
 ~
 ~
-0 -1 10721
+0 -1 10721 0
 D2
 ~
 ~
-0 -1 10725
+0 -1 10725 0
 D3
 ~
 ~
-0 -1 10716
+0 -1 10716 0
 S
 #10721
 A Path Within The Temple~
@@ -703,11 +709,11 @@ A Path Within The Temple~
 D1
 ~
 ~
-0 -1 10709
+0 -1 10709 0
 D3
 ~
 ~
-0 -1 10720
+0 -1 10720 0
 S
 #10722
 A Path Within The Temple~
@@ -716,15 +722,15 @@ A Path Within The Temple~
 D2
 ~
 ~
-0 -1 10723
+0 -1 10723 0
 D3
 ~
 ~
-0 -1 10725
+0 -1 10725 0
 D6
 ~
 ~
-0 -1 10709
+0 -1 10709 0
 > entry_prog 100~
 if frc($n) > 0
 mpechoat $n A voice in your head warns you not to travel south.
@@ -739,15 +745,15 @@ A Path Within The Temple~
 D0
 ~
 ~
-0 -1 10722
+0 -1 10722 0
 D2
 ~
 ~
-0 -1 10724
+0 -1 10724 0
 D5
 ~
 ~
-0 -1 10737
+0 -1 10737 0
 S
 #10724
 A Path Within The Temple~
@@ -756,7 +762,7 @@ A Path Within The Temple~
 D0
 ~
 ~
-0 -1 10723
+0 -1 10723 0
 S
 #10725
 A Path Within The Temple~
@@ -765,19 +771,19 @@ A Path Within The Temple~
 D0
 ~
 ~
-0 -1 10720
+0 -1 10720 0
 D1
 ~
 ~
-0 -1 10722
+0 -1 10722 0
 D3
 ~
 ~
-2056 -1 10728
+2056 -1 10728 0
 D9
 ~
 ~
-0 -1 10726
+0 -1 10726 0
 > entry_prog 100~
 if frc($n) > 0
 mpechoat $n A voice in your head tells you not to travel southwest.
@@ -795,15 +801,15 @@ A Path Within The Temple~
 D5
 ~
 ~
-0 -1 10737
+0 -1 10737 0
 D6
 ~
 ~
-0 -1 10725
+0 -1 10725 0
 D9
 ~
 ~
-0 -1 10727
+0 -1 10727 0
 S
 #10727
 A Path Within The Temple~
@@ -812,7 +818,7 @@ A Path Within The Temple~
 D6
 ~
 ~
-0 -1 10726
+0 -1 10726 0
 S
 #10728
 A Hidden Chamber~
@@ -821,7 +827,7 @@ A Hidden Chamber~
 D1
 ~
 ~
-0 -1 10725
+0 -1 10725 0
 S
 #10729
 Hall of the Ancient's Tombs~
@@ -830,7 +836,7 @@ Hall of the Ancient's Tombs~
 D3
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10730
 A Large Room Where Several Paths Meet~
@@ -839,35 +845,35 @@ A Large Room Where Several Paths Meet~
 D0
 ~
 ~
-0 -1 10733
+0 -1 10733 0
 D1
 ~
 ~
-0 -1 10729
+0 -1 10729 0
 D2
 ~
 ~
-0 -1 10740
+0 -1 10740 0
 D3
 ~
 ~
-0 -1 10744
+0 -1 10744 0
 D6
 ~
 ~
-0 -1 10731
+0 -1 10731 0
 D7
 ~
 ~
-0 -1 10735
+0 -1 10735 0
 D8
 ~
 ~
-0 -1 10738
+0 -1 10738 0
 D9
 ~
 ~
-0 -1 10742
+0 -1 10742 0
 S
 #10731
 Hall of the Ancient's Tombs~
@@ -876,11 +882,11 @@ Hall of the Ancient's Tombs~
 D0
 ~
 ~
-0 -1 10732
+0 -1 10732 0
 D9
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10732
 Standing Before A Tomb~
@@ -889,11 +895,11 @@ Standing Before A Tomb~
 D0
 ~
 tomb~
-8388647 -1 10701
+8388647 -1 10701 0
 D2
 ~
 ~
-0 -1 10731
+0 -1 10731 0
 S
 #10733
 Hall of the Ancient's Tombs~
@@ -902,11 +908,11 @@ Hall of the Ancient's Tombs~
 D0
 ~
 ~
-0 -1 10734
+0 -1 10734 0
 D2
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10734
 Standing Before A Tomb~
@@ -915,11 +921,11 @@ Standing Before A Tomb~
 D0
 ~
 tomb~
-8388647 -1 10701
+8388647 -1 10701 0
 D2
 ~
 ~
-0 -1 10733
+0 -1 10733 0
 S
 #10735
 Hall of the Ancient's Tombs~
@@ -928,11 +934,11 @@ Hall of the Ancient's Tombs~
 D0
 ~
 ~
-0 -1 10736
+0 -1 10736 0
 D8
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10736
 Standing Before A Tomb~
@@ -941,11 +947,11 @@ Standing Before A Tomb~
 D0
 ~
 tomb~
-3 -1 10737
+3 -1 10737 0
 D2
 ~
 ~
-0 -1 10735
+0 -1 10735 0
 S
 #10737
 A Rusted Cell~
@@ -972,11 +978,11 @@ A Path Within The Temple~
 D2
 ~
 ~
-0 -1 10739
+0 -1 10739 0
 D7
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10739
 Standing Before A Tomb~
@@ -985,11 +991,11 @@ Standing Before A Tomb~
 D0
 ~
 ~
-0 -1 10738
+0 -1 10738 0
 D2
 ~
 ~
-8388647 -1 10701
+8388647 -1 10701 0
 S
 #10740
 Hall of the Ancient's Tombs~
@@ -998,11 +1004,11 @@ Hall of the Ancient's Tombs~
 D0
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 D2
 ~
 ~
-0 -1 10741
+0 -1 10741 0
 S
 #10741
 Standing Before A Tomb~
@@ -1011,11 +1017,11 @@ Standing Before A Tomb~
 D0
 ~
 ~
-0 -1 10740
+0 -1 10740 0
 D2
 ~
 ~
-8388647 -1 10701
+8388647 -1 10701 0
 S
 #10742
 Hall of the Ancient's Tombs~
@@ -1024,11 +1030,11 @@ Hall of the Ancient's Tombs~
 D2
 ~
 ~
-0 -1 10743
+0 -1 10743 0
 D6
 ~
 ~
-0 -1 10730
+0 -1 10730 0
 S
 #10743
 Standing Before A Tomb~
@@ -1037,11 +1043,11 @@ Standing Before A Tomb~
 D0
 ~
 ~
-0 -1 10742
+0 -1 10742 0
 D2
 ~
 ~
-8388647 -1 10701
+8388647 -1 10701 0
 S
 #10744
 Standing In Front of An Alter~
@@ -1050,7 +1056,8 @@ Standing In Front of An Alter~
 D1
 ~
 ~
-0 -1 10730
+0 -1 10730 0
+R O 0 10703 1 10744
 S
 #10745
 Corridor Within The Temple~
@@ -1059,7 +1066,7 @@ Corridor Within The Temple~
 D1
 ~
 ~
-0 -1 10744
+0 -1 10744 0
 S
 #10746
 A Corridor Intersection ~
@@ -1068,19 +1075,20 @@ A Corridor Intersection ~
 D0
 ~
 ~
-0 -1 10750
+0 -1 10750 0
 D1
 ~
 ~
-0 -1 10745
+0 -1 10745 0
 D2
 ~
 ~
-0 -1 10748
+0 -1 10748 0
 D3
 ~
 ~
-3 -1 10747
+3 -1 10747 0
+R D 0 10746 3 1
 S
 #10747
 The Tomb of Naga Sadow~
@@ -1089,7 +1097,8 @@ The Tomb of Naga Sadow~
 D1
 ~
 ~
-0 -1 10746
+0 -1 10746 0
+R M 0 10704 1 10747
 S
 #10748
 Corridor Within the Temple~
@@ -1098,11 +1107,11 @@ Corridor Within the Temple~
 D0
 ~
 ~
-0 -1 10746
+0 -1 10746 0
 D3
 ~
 ~
-0 -1 10749
+0 -1 10749 0
 S
 #10749
 A Meditation Chamber~
@@ -1111,7 +1120,7 @@ A Meditation Chamber~
 D1
 ~
 ~
-0 -1 10748
+0 -1 10748 0
 S
 #10750
 A Torch Filled Chamber~
@@ -1120,7 +1129,8 @@ A Torch Filled Chamber~
 D2
 ~
 ~
-0 -1 10746
+0 -1 10746 0
+R M 0 10705 1 10750
 S
 #10751
 An Astral Plane~
@@ -1131,6 +1141,7 @@ use the force to their advantage. In order to be a Dark Lord
 of the Sith you must be able to perform these tasks.
 ~
 0 1073741828 1 0 0 0 3720
+R O 0 10705 1 10751
 > custom_prog exit~
 mptransfer $n 10750
 ~
@@ -1184,6 +1195,7 @@ blaster bolts, or parrying other attacks. It takes great concentration
 to craft a lightsaber 
 ~
 0 1073741828 1 0 0 0 3720
+R O 0 10704 1 10754
 > custom_prog exit~
 mptransfer $n 10750
 ~
@@ -1226,30 +1238,14 @@ S
 Floating in a void~
 ~
 0 4 1 0 0 0 3720
+R M 0 10701 1 10900
+R M 0 10900 1 10900
+  R G 1 10702 1
+  R G 1 10702 1
+R O 0 10900 1 10900
+R O 0 10701 1 10900
 S
 #0
-
-
-#RESETS
-M 1 10701 1 10900
-M 1 10900 1 10900
-O 1 10900 1 10900
-O 1 10701 1 10900
-G 1 10702 1
-G 1 10702 1
-O 1 10703 1 10744
-D 0 10746 3 1
-M 1 10705 1 10750
-O 1 10704 1 10754
-O 1 10705 1 10751
-M 1 10704 1 10747
-M 1 10702 2 10708
-E 1 10702 1 18
-E 1 10702 1 16
-M 1 10702 2 10708
-E 1 10702 1 16
-E 1 10702 1 18
-S
 
 
 #SHOPS

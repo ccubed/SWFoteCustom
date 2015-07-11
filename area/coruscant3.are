@@ -582,15 +582,15 @@ as fast as possible.
 D0
 ~
 ~
-0 -1 7502
+0 -1 7502 0
 D1
 ~
 ~
-0 -1 1062
+0 -1 1062 0
 D3
 ~
 ~
-0 -1 7501
+0 -1 7501 0
 S
 #7501
 Palpatine Street~
@@ -605,15 +605,15 @@ accomidates all the people here.
 D1
 ~
 ~
-0 -1 7500
+0 -1 7500 0
 D2
 ~
 ~
-1 -1 7512
+1 -1 7512 0
 D3
 ~
 ~
-0 -1 7505
+0 -1 7505 0
 S
 #7502
 JooJoo's Medical Center~
@@ -622,7 +622,9 @@ JooJoo's Medical Center~
 D2
 ~
 ~
-0 -1 7500
+0 -1 7500 0
+R M 0 7502 1 7502
+  R G 1 3 1
 S
 #7503
 Bacta Tank~
@@ -662,7 +664,7 @@ here, perhaps you could learn something yourself.
 D9
 ~
 ~
-0 -1 1239
+0 -1 1239 0
 S
 #7505
 Palpatine Street~
@@ -677,11 +679,11 @@ accomidates all the people here.
 D0
 ~
 ~
-0 -1 7506
+0 -1 7506 0
 D1
 ~
 ~
-0 -1 7501
+0 -1 7501 0
 S
 #7506
 A Darkened Alleyway~
@@ -694,11 +696,11 @@ the coruscant government.
 D0
 ~
 ~
-0 -1 7507
+0 -1 7507 0
 D2
 ~
 ~
-0 -1 7505
+0 -1 7505 0
 S
 #7507
 A Darkened Alleyway~
@@ -711,15 +713,16 @@ government.
 D0
 ~
 ~
-0 -1 7508
+0 -1 7508 0
 D2
 ~
 ~
-0 -1 7506
+0 -1 7506 0
 D3
 ~
 ~
-0 -1 7509
+0 -1 7509 0
+R M 0 7509 1 7507
 S
 #7508
 A Darkened Alleyway~
@@ -732,11 +735,11 @@ government.
 D1
 ~
 ~
-0 -1 1233
+0 -1 1233 0
 D2
 ~
 ~
-0 -1 7507
+0 -1 7507 0
 S
 #7509
 A Dirty Hovel~
@@ -749,7 +752,8 @@ place.
 D1
 ~
 ~
-0 -1 7507
+0 -1 7507 0
+R M 0 1075 1 7509
 S
 #7510
 A Round White Room~
@@ -758,7 +762,7 @@ A Round White Room~
 D4
 ~
 ~
-0 -1 1204
+0 -1 1204 0
 S
 #7511
 Galactic Mail Center~
@@ -772,7 +776,8 @@ assist you.
 D3
 ~
 ~
-0 -1 1056
+0 -1 1056 0
+R O 0 38 1 7511
 S
 #7512
 Entrance to The Cherry Blossom~
@@ -782,11 +787,14 @@ The elegant wall coverings and distinctive artificial waterfall would mean this 
 D0
 ~
 ~
-1 7513 7501
+1 7513 7501 0
 D2
 ~
 ~
-0 -1 7513
+0 -1 7513 0
+R M 0 7503 1 7512
+  R E 1 1068 1 16
+R O 0 7502 1 7512
 S
 #7513
 The Cherry Blossom Cantina~
@@ -799,15 +807,25 @@ main part of the cantina.
 D0
 ~
 ~
-0 -1 7512
+0 -1 7512 0
 D3
 ~
 ~
-0 -1 7514
+0 -1 7514 0
 D8
 ~
 ~
-0 -1 7516
+0 -1 7516 0
+R M 0 7505 1 7513
+  R G 1 1146 1
+  R G 1 7508 1
+  R G 1 7509 1
+  R G 1 7510 1
+  R G 1 7507 1
+  R G 1 7506 1
+R M 0 1058 21 7513
+R O 0 7503 1 7513
+R O 0 7504 1 7513
 S
 #7514
 A dimly lit hallway~
@@ -817,19 +835,19 @@ Further into the cantina a few booths are installed to allow parties to talk wit
 D0
 ~
 ~
-0 -1 7519
+0 -1 7519 0
 D1
 ~
 ~
-0 -1 7513
+0 -1 7513 0
 D2
 ~
 ~
-0 -1 7520
+0 -1 7520 0
 D3
 ~
 ~
-0 -1 7515
+0 -1 7515 0
 S
 #7515
 A dimly lit hallway~
@@ -839,19 +857,19 @@ More of the cantina opens up into booth areas here. Although a little brighter, 
 D0
 ~
 ~
-0 -1 7529
+0 -1 7529 0
 D1
 ~
 ~
-0 -1 7514
+0 -1 7514 0
 D2
 ~
 ~
-0 -1 7530
+0 -1 7530 0
 D3
 ~
 ~
-0 -1 7521
+0 -1 7521 0
 S
 #7516
 A dimly lit hallway~
@@ -860,15 +878,15 @@ A dimly lit hallway~
 D1
 ~
 curtain~
-1 -1 7517
+1 -1 7517 0
 D2
 ~
 curtain~
-1 -1 7518
+1 -1 7518 0
 D7
 ~
 ~
-0 -1 7513
+0 -1 7513 0
 S
 #7517
 An enclosed booth~
@@ -877,7 +895,7 @@ An enclosed booth~
 D3
 ~
 curtain~
-1 -1 7516
+1 -1 7516 0
 S
 #7518
 An enclosed booth~
@@ -886,7 +904,7 @@ An enclosed booth~
 D0
 ~
 curtain~
-1 -1 7516
+1 -1 7516 0
 S
 #7519
 A large booth~
@@ -896,7 +914,8 @@ Here is a large public booth, capable of seating several. The table in the cente
 D2
 ~
 ~
-0 -1 7514
+0 -1 7514 0
+R O 0 1856 1 7519
 S
 #7520
 A large booth~
@@ -906,7 +925,8 @@ Here is a large public booth, capable of seating several. The table in the cente
 D0
 ~
 ~
-0 -1 7514
+0 -1 7514 0
+R O 0 1856 1 7520
 S
 #7521
 A dimly lit hallway~
@@ -916,15 +936,16 @@ Here, the poorly lit hallway branches off in two directions. A sign between the 
 D1
 ~
 ~
-0 -1 7515
+0 -1 7515 0
 D7
 ~
 ~
-0 -1 7522
+0 -1 7522 0
 D9
 ~
 ~
-0 -1 7523
+0 -1 7523 0
+R O 0 7505 1 7521
 S
 #7522
 The men's room~
@@ -934,7 +955,8 @@ A fairly sanitary restroom, complete with sink, mirror, and urinal. Nothing fanc
 D8
 ~
 ~
-0 -1 7521
+0 -1 7521 0
+R O 0 7515 1 7522
 S
 #7523
 The ladies room~
@@ -944,7 +966,8 @@ Another nondescript restroom, equipped with a stall, sink, and mirror. Strangely
 D6
 ~
 ~
-0 -1 7521
+0 -1 7521 0
+R O 0 7517 1 7523
 E
 mirror~
 &RWHO WATCHES THE WATCHMEN?
@@ -963,11 +986,11 @@ Behind the wall, the passage is much cleaner. And brighter. The sounds of the ca
 D1
 ~
 ~
-0 -1 7521
+0 -1 7521 0
 D2
 ~
 ~
-0 -1 7526
+0 -1 7526 0
 S
 #7526
 A bright corridor~
@@ -977,11 +1000,11 @@ Further down the corridor, the passage narrows as it comes to a sliding keycard-
 D0
 ~
 ~
-0 -1 7525
+0 -1 7525 0
 D2
 ~
 ~
-1 7514 7527
+1 7514 7527 0
 S
 #7527
 The Back Office~
@@ -990,11 +1013,12 @@ The Back Office~
 D0
 ~
 ~
-1 7514 7526
+1 7514 7526 0
 D3
 ~
 ~
-0 -1 7528
+0 -1 7528 0
+R O 0 116 1 7527
 S
 #7528
 The Storeroom~
@@ -1003,7 +1027,10 @@ The Storeroom~
 D1
 ~
 ~
-0 -1 7527
+0 -1 7527 0
+R M 0 7506 1 7528
+R O 0 7511 1 7528
+R O 0 7512 1 7528
 S
 #7529
 A large booth~
@@ -1013,7 +1040,8 @@ Here is a large public booth, capable of seating several. The table in the cente
 D2
 ~
 ~
-0 -1 7515
+0 -1 7515 0
+R O 0 1856 1 7529
 S
 #7530
 A large booth~
@@ -1023,7 +1051,11 @@ Here is a large public booth, capable of seating several. The table in the cente
 D0
 ~
 ~
-0 -1 7515
+0 -1 7515 0
+R M 0 7507 1 7530
+  R G 1 3 1
+R M 0 7508 1 7530
+R O 0 1856 1 7530
 S
 #7560
 Floating in a void~
@@ -1042,7 +1074,7 @@ The New Republic Gallery~
 D8
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 S
 #7571
 Museum Lobby~
@@ -1057,31 +1089,31 @@ on their interests.
 D0
 ~
 ~
-0 -1 7572
+0 -1 7572 0
 D1
 ~
 ~
-0 -1 7578
+0 -1 7578 0
 D2
 ~
 ~
-0 -1 7575
+0 -1 7575 0
 D3
 ~
 ~
-0 -1 7581
+0 -1 7581 0
 D6
 ~
 ~
-0 -1 7577
+0 -1 7577 0
 D7
 ~
 ~
-0 -1 7570
+0 -1 7570 0
 D9
 ~
 ~
-0 -1 7579
+0 -1 7579 0
 S
 #7572
 Old Republic Gallery~
@@ -1095,11 +1127,11 @@ of the greatest moments in galactic history.
 D0
 ~
 ~
-0 -1 7573
+0 -1 7573 0
 D2
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 S
 #7573
 Old Republic Gallery~
@@ -1113,11 +1145,11 @@ those old days.
 D1
 ~
 ~
-0 -1 7574
+0 -1 7574 0
 D2
 ~
 ~
-0 -1 7572
+0 -1 7572 0
 S
 #7574
 Halls of the Jedi~
@@ -1132,7 +1164,7 @@ free to view the exhibits, just dont touch.
 D3
 ~
 ~
-0 -1 7573
+0 -1 7573 0
 S
 #7575
 The Rebellion Gallery~
@@ -1141,11 +1173,11 @@ The Rebellion Gallery~
 D0
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 D2
 ~
 ~
-0 -1 7576
+0 -1 7576 0
 S
 #7576
 The Rebellion Gallery~
@@ -1154,7 +1186,7 @@ The Rebellion Gallery~
 D0
 ~
 ~
-0 -1 7575
+0 -1 7575 0
 S
 #7577
 Hall of Weapons~
@@ -1163,7 +1195,7 @@ Hall of Weapons~
 D9
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 S
 #7578
 Entrance to the Galactic Museum~
@@ -1177,7 +1209,11 @@ There is a ticketseller by the door.  Maybe you should go in.
 D3
 ~
 ~
-3 7578 7571
+3 7578 7571 0
+R M 0 7578 1 7578
+  R G 1 3 1
+  R G 1 7578 1
+R D 0 7578 3 1
 S
 #7579
 Spaceship Gallery~
@@ -1186,7 +1222,7 @@ Spaceship Gallery~
 D6
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 S
 #7580
 Exiting the Museum~
@@ -1200,15 +1236,15 @@ Museum Rest Area~
 D0
 ~
 ~
-0 -1 7582
+0 -1 7582 0
 D1
 ~
 ~
-0 -1 7571
+0 -1 7571 0
 D3
 ~
 ~
-0 -1 7583
+0 -1 7583 0
 S
 #7582
 Vending Area~
@@ -1217,7 +1253,7 @@ Vending Area~
 D2
 ~
 ~
-0 -1 7581
+0 -1 7581 0
 S
 #7583
 Exiting the museum~
@@ -1226,7 +1262,7 @@ Exiting the museum~
 D1
 ~
 ~
-0 -1 7581
+0 -1 7581 0
 S
 #7584
 Imperial Recruitment Center~
@@ -1235,7 +1271,9 @@ Imperial Recruitment Center~
 D8
 ~
 ~
-0 -1 1129
+0 -1 1129 0
+R M 0 7579 1 7584
+R O 0 18016 1 7584
 S
 #7585
 Floating in a void~
@@ -1246,62 +1284,16 @@ S
 Floating in a void~
 ~
 0 4 1 0 0 0 7984
+R M 0 7500 1 7650
+R M 0 7650 1 7650
+R O 0 7650 1 7650
+R O 0 7500 1 7650
 S
 #0
 
 
-#RESETS
-M 1 1103 1 1055
-M 1 1073 1 1073
-M 1 1060 23 1073
-M 1 1060 23 1073
-M 1 7502 1 7502
-G 1 3 1
-M 1 1075 1 7509
-M 1 7500 1 7650
-M 1 7650 1 7650
-O 1 7650 1 7650
-O 1 7500 1 7650
-O 1 38 1 7511
-O 1 116 1 7527
-O 1 7505 1 7521
-M 1 7503 1 7512
-E 1 1068 1 16
-O 1 7502 1 7512
-M 1 7506 1 7528
-O 1 7511 1 7528
-O 1 7512 1 7528
-M 1 7507 1 7530
-G 1 3 1
-M 1 7508 1 7530
-O 1 1856 1 7530
-O 1 1856 1 7529
-O 1 1856 1 7519
-O 1 1856 1 7520
-O 1 7515 1 7522
-O 1 7517 1 7523
-M 1 7505 1 7513
-G 1 1146 1
-G 1 7508 1
-G 1 7509 1
-G 1 7510 1
-G 1 7507 1
-G 1 7506 1
-M 1 1058 21 7513
-O 1 7503 1 7513
-O 1 7504 1 7513
-M 1 7578 1 7578
-G 1 3 1
-G 1 7578 1
-D 0 7578 3 1
-M 1 7579 1 7584
-O 1 18016 1 7584
-M 1 7509 1 7507
-S
-
-
 #SHOPS
- 7505    0  0  0  0  0   120   0         0 23 0  ; Bonnie the bartender
+ 7505    0  0  0  0  0   120   0         0 23    ; Bonnie the bartender
 0
 
 

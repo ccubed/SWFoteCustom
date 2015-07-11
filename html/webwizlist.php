@@ -4,10 +4,7 @@
 <b>
 <PRE>
 <?
- if(!isSet($file))
-  {
     $file = "WEBWIZLIST";
-  }
   $fcontents = file($file);
   for ($i=0;$i<=sizeof($fcontents);$i++)
   {

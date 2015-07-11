@@ -198,7 +198,7 @@ Hutt Sector End~
 D0
 ~
 ~
-0 -1 11249
+0 -1 11249 0
 S
 #11118
 C Sector Landing Pad~
@@ -207,7 +207,7 @@ C Sector Landing Pad~
 D2
 ~
 ~
-0 -1 11119
+0 -1 11119 0
 S
 #11119
 C Sector Customs Authority~
@@ -216,11 +216,15 @@ C Sector Customs Authority~
 D0
 ~
 ~
-0 -1 11118
+0 -1 11118 0
 D9
 ~
 ~
-0 -1 11120
+0 -1 11120 0
+R M 0 11052 2 11119
+  R E 1 50 1 16
+R M 0 11052 2 11119
+  R E 1 50 1 16
 S
 #11120
 Diktat Ave.~
@@ -229,11 +233,11 @@ Diktat Ave.~
 D2
 ~
 ~
-0 -1 11121
+0 -1 11121 0
 D6
 ~
 ~
-0 -1 11119
+0 -1 11119 0
 S
 #11121
 Diktat Ave.~
@@ -242,15 +246,15 @@ Diktat Ave.~
 D0
 ~
 ~
-0 -1 11120
+0 -1 11120 0
 D1
 ~
 ~
-0 -1 11176
+0 -1 11176 0
 D2
 ~
 ~
-0 -1 11122
+0 -1 11122 0
 S
 #11122
 Diktat Ave.~
@@ -259,11 +263,11 @@ Diktat Ave.~
 D0
 ~
 ~
-0 -1 11121
+0 -1 11121 0
 D2
 ~
 ~
-0 -1 11123
+0 -1 11123 0
 S
 #11123
 Intersection of Diktat Ave. and Smuggler's Bend~
@@ -272,19 +276,19 @@ Intersection of Diktat Ave. and Smuggler's Bend~
 D0
 ~
 ~
-0 -1 11122
+0 -1 11122 0
 D1
 ~
 ~
-0 -1 11127
+0 -1 11127 0
 D2
 ~
 ~
-0 -1 11124
+0 -1 11124 0
 D3
 ~
 ~
-0 -1 11130
+0 -1 11130 0
 S
 #11124
 Diktat Ave.~
@@ -293,15 +297,15 @@ Diktat Ave.~
 D0
 ~
 ~
-0 -1 11123
+0 -1 11123 0
 D1
 ~
 ~
-0 -1 11177
+0 -1 11177 0
 D2
 ~
 ~
-0 -1 11125
+0 -1 11125 0
 S
 #11125
 Diktat Ave.~
@@ -310,11 +314,11 @@ Diktat Ave.~
 D0
 ~
 ~
-0 -1 11124
+0 -1 11124 0
 D2
 ~
 ~
-0 -1 11126
+0 -1 11126 0
 S
 #11126
 Diktat Ave.~
@@ -323,11 +327,11 @@ Diktat Ave.~
 D0
 ~
 ~
-0 -1 11125
+0 -1 11125 0
 D3
 ~
 ~
-0 -1 11171
+0 -1 11171 0
 S
 #11127
 Smuggler's Bend~
@@ -336,15 +340,15 @@ Smuggler's Bend~
 D1
 ~
 ~
-0 -1 11128
+0 -1 11128 0
 D2
 ~
 ~
-0 -1 11175
+0 -1 11175 0
 D3
 ~
 ~
-0 -1 11123
+0 -1 11123 0
 S
 #11128
 Smuggler's Bend~
@@ -353,15 +357,15 @@ Smuggler's Bend~
 D0
 ~
 ~
-0 -1 11185
+0 -1 11185 0
 D1
 ~
 ~
-0 -1 11129
+0 -1 11129 0
 D3
 ~
 ~
-0 -1 11127
+0 -1 11127 0
 S
 #11129
 Smuggler's Bend~
@@ -370,11 +374,11 @@ Smuggler's Bend~
 D1
 ~
 ~
-0 -1 11133
+0 -1 11133 0
 D3
 ~
 ~
-0 -1 11128
+0 -1 11128 0
 S
 #11130
 Smuggler's Bend~
@@ -383,11 +387,11 @@ Smuggler's Bend~
 D1
 ~
 ~
-0 -1 11123
+0 -1 11123 0
 D3
 ~
 ~
-0 -1 11131
+0 -1 11131 0
 S
 #11131
 Smuggler's Bend~
@@ -396,15 +400,15 @@ Smuggler's Bend~
 D1
 ~
 ~
-0 -1 11130
+0 -1 11130 0
 D2
 ~
 ~
-0 -1 11174
+0 -1 11174 0
 D3
 ~
 ~
-0 -1 11132
+0 -1 11132 0
 S
 #11132
 Smuggler's Bend~
@@ -413,11 +417,11 @@ Smuggler's Bend~
 D1
 ~
 ~
-0 -1 11131
+0 -1 11131 0
 D3
 ~
 ~
-0 -1 11142
+0 -1 11142 0
 S
 #11133
 Intersection of the Residential Circle and Smuggler's Bend~
@@ -426,15 +430,15 @@ Intersection of the Residential Circle and Smuggler's Bend~
 D3
 ~
 ~
-0 -1 11129
+0 -1 11129 0
 D6
 ~
 ~
-0 -1 11134
+0 -1 11134 0
 D8
 ~
 ~
-0 -1 11140
+0 -1 11140 0
 S
 #11134
 Residential Circle~
@@ -443,19 +447,19 @@ Residential Circle~
 D0
 ~
 ~
-0 -1 11149
+0 -1 11149 0
 D2
 ~
 ~
-0 -1 11150
+0 -1 11150 0
 D6
 ~
 ~
-0 -1 11135
+0 -1 11135 0
 D9
 ~
 ~
-0 -1 11133
+0 -1 11133 0
 S
 #11135
 Residential Circle~
@@ -464,19 +468,19 @@ Residential Circle~
 D0
 ~
 ~
-0 -1 11151
+0 -1 11151 0
 D2
 ~
 ~
-0 -1 11152
+0 -1 11152 0
 D8
 ~
 ~
-0 -1 11136
+0 -1 11136 0
 D9
 ~
 ~
-0 -1 11134
+0 -1 11134 0
 S
 #11136
 Residential Circle~
@@ -485,19 +489,19 @@ Residential Circle~
 D0
 ~
 ~
-0 -1 11153
+0 -1 11153 0
 D2
 ~
 ~
-0 -1 11154
+0 -1 11154 0
 D7
 ~
 ~
-0 -1 11135
+0 -1 11135 0
 D8
 ~
 ~
-0 -1 11137
+0 -1 11137 0
 S
 #11137
 Residential Circle~
@@ -506,15 +510,15 @@ Residential Circle~
 D1
 ~
 ~
-0 -1 11141
+0 -1 11141 0
 D7
 ~
 ~
-0 -1 11136
+0 -1 11136 0
 D9
 ~
 ~
-0 -1 11138
+0 -1 11138 0
 S
 #11138
 Residential Circle~
@@ -523,15 +527,15 @@ Residential Circle~
 D0
 ~
 ~
-0 -1 11155
+0 -1 11155 0
 D6
 ~
 ~
-0 -1 11137
+0 -1 11137 0
 D9
 ~
 ~
-0 -1 11139
+0 -1 11139 0
 S
 #11139
 Residential Circle~
@@ -540,15 +544,15 @@ Residential Circle~
 D2
 ~
 ~
-0 -1 11156
+0 -1 11156 0
 D6
 ~
 ~
-0 -1 11138
+0 -1 11138 0
 D7
 ~
 ~
-0 -1 11140
+0 -1 11140 0
 S
 #11140
 Residential Circle~
@@ -557,15 +561,15 @@ Residential Circle~
 D2
 ~
 ~
-0 -1 11157
+0 -1 11157 0
 D7
 ~
 ~
-0 -1 11133
+0 -1 11133 0
 D8
 ~
 ~
-0 -1 11139
+0 -1 11139 0
 S
 #11141
 C Sector Apartment Building~
@@ -574,11 +578,11 @@ C Sector Apartment Building~
 D1
 ~
 ~
-0 -1 11158
+0 -1 11158 0
 D3
 ~
 ~
-0 -1 11137
+0 -1 11137 0
 S
 #11142
 Intersection of Far End Lane and Smuggler's Bend~
@@ -587,15 +591,15 @@ Intersection of Far End Lane and Smuggler's Bend~
 D0
 ~
 ~
-0 -1 11143
+0 -1 11143 0
 D1
 ~
 ~
-0 -1 11132
+0 -1 11132 0
 D2
 ~
 ~
-0 -1 11146
+0 -1 11146 0
 S
 #11143
 Far End Lane~
@@ -604,11 +608,11 @@ Far End Lane~
 D0
 ~
 ~
-0 -1 11144
+0 -1 11144 0
 D2
 ~
 ~
-0 -1 11142
+0 -1 11142 0
 S
 #11144
 Far End Lane~
@@ -617,15 +621,15 @@ Far End Lane~
 D0
 ~
 ~
-0 -1 11145
+0 -1 11145 0
 D1
 ~
 ~
-0 -1 11173
+0 -1 11173 0
 D2
 ~
 ~
-0 -1 11143
+0 -1 11143 0
 S
 #11145
 Far End Lane~
@@ -634,11 +638,11 @@ Far End Lane~
 D2
 ~
 ~
-0 -1 11144
+0 -1 11144 0
 D3
 ~
 ~
-0 -1 11188
+0 -1 11188 0
 S
 #11146
 Far End Lane~
@@ -647,11 +651,11 @@ Far End Lane~
 D0
 ~
 ~
-0 -1 11142
+0 -1 11142 0
 D2
 ~
 ~
-0 -1 11147
+0 -1 11147 0
 S
 #11147
 Far End Lane~
@@ -660,15 +664,15 @@ Far End Lane~
 D0
 ~
 ~
-0 -1 11146
+0 -1 11146 0
 D2
 ~
 ~
-0 -1 11148
+0 -1 11148 0
 D3
 ~
 ~
-0 -1 11172
+0 -1 11172 0
 S
 #11148
 Far End Lane~
@@ -677,7 +681,7 @@ Far End Lane~
 D0
 ~
 ~
-0 -1 11147
+0 -1 11147 0
 S
 #11149
 An Empty Apartment~
@@ -686,7 +690,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11134
+0 -1 11134 0
 S
 #11150
 An Empty Apartment~
@@ -695,7 +699,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11134
+0 -1 11134 0
 S
 #11151
 An Empty Apartment~
@@ -704,7 +708,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11135
+0 -1 11135 0
 S
 #11152
 An Empty Apartment~
@@ -713,7 +717,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11135
+0 -1 11135 0
 S
 #11153
 An Empty Apartment~
@@ -722,7 +726,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11136
+0 -1 11136 0
 S
 #11154
 An Empty Apartment~
@@ -731,7 +735,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11136
+0 -1 11136 0
 S
 #11155
 An Empty Apartment~
@@ -740,7 +744,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11138
+0 -1 11138 0
 S
 #11156
 An Empty Apartment~
@@ -749,7 +753,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11139
+0 -1 11139 0
 S
 #11157
 An Empty Apartment~
@@ -758,7 +762,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11140
+0 -1 11140 0
 S
 #11158
 First Floor Hallway~
@@ -767,19 +771,19 @@ First Floor Hallway~
 D0
 ~
 ~
-0 -1 11163
+0 -1 11163 0
 D1
 ~
 ~
-0 -1 11159
+0 -1 11159 0
 D2
 ~
 ~
-0 -1 11164
+0 -1 11164 0
 D3
 ~
 ~
-0 -1 11141
+0 -1 11141 0
 S
 #11159
 First Floor Hallway~
@@ -788,19 +792,19 @@ First Floor Hallway~
 D0
 ~
 ~
-0 -1 11165
+0 -1 11165 0
 D1
 ~
 ~
-0 -1 11160
+0 -1 11160 0
 D2
 ~
 ~
-0 -1 11166
+0 -1 11166 0
 D3
 ~
 ~
-0 -1 11158
+0 -1 11158 0
 S
 #11160
 C Sector Apartment Building Turbolift~
@@ -835,19 +839,19 @@ Second Floor Hallway~
 D0
 ~
 ~
-0 -1 11167
+0 -1 11167 0
 D1
 ~
 ~
-0 -1 11160
+0 -1 11160 0
 D2
 ~
 ~
-0 -1 11168
+0 -1 11168 0
 D3
 ~
 ~
-0 -1 11162
+0 -1 11162 0
 S
 #11162
 Second Floor Hallway~
@@ -856,15 +860,15 @@ Second Floor Hallway~
 D0
 ~
 ~
-0 -1 11169
+0 -1 11169 0
 D1
 ~
 ~
-0 -1 11161
+0 -1 11161 0
 D2
 ~
 ~
-0 -1 11170
+0 -1 11170 0
 S
 #11163
 An Empty Apartment~
@@ -873,7 +877,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11158
+0 -1 11158 0
 S
 #11164
 An Empty Apartment~
@@ -882,7 +886,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11158
+0 -1 11158 0
 S
 #11165
 An Empty Apartment~
@@ -891,7 +895,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11159
+0 -1 11159 0
 S
 #11166
 An Empty Apartment~
@@ -900,7 +904,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11159
+0 -1 11159 0
 S
 #11167
 An Empty Apartment~
@@ -909,7 +913,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11161
+0 -1 11161 0
 S
 #11168
 An Empty Apartment~
@@ -918,7 +922,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11161
+0 -1 11161 0
 S
 #11169
 An Empty Apartment~
@@ -927,7 +931,7 @@ An Empty Apartment~
 D2
 ~
 ~
-0 -1 11162
+0 -1 11162 0
 S
 #11170
 An Empty Apartment~
@@ -936,7 +940,7 @@ An Empty Apartment~
 D0
 ~
 ~
-0 -1 11162
+0 -1 11162 0
 S
 #11171
 &zHollo's Hardware&w&W~
@@ -945,7 +949,14 @@ S
 D1
 ~
 ~
-0 -1 11126
+0 -1 11126 0
+R M 0 11055 1 11171
+  R G 1 296 1
+  R G 1 297 1
+  R G 1 146 1
+  R G 1 143 1
+  R G 1 147 1
+  R G 1 148 1
 S
 #11172
 &rThe Slag Pit&w&W~
@@ -954,7 +965,7 @@ S
 D1
 ~
 ~
-0 -1 11147
+0 -1 11147 0
 S
 #11173
 &BKleebo's Junk Heap&w&W~
@@ -963,7 +974,7 @@ S
 D3
 ~
 ~
-0 -1 11144
+0 -1 11144 0
 S
 #11174
 &YThe Rental Shack&w&W~
@@ -972,7 +983,7 @@ S
 D0
 ~
 ~
-0 -1 11131
+0 -1 11131 0
 S
 #11175
 &GThe Smuggler's Friend&w&W~
@@ -981,7 +992,7 @@ S
 D0
 ~
 ~
-0 -1 11127
+0 -1 11127 0
 S
 #11176
 &GGordo's Tools and Repair&w&W~
@@ -990,7 +1001,8 @@ S
 D3
 ~
 ~
-0 -1 11121
+0 -1 11121 0
+R M 0 11053 1 11176
 S
 #11177
 &RCorellian Hotel&w&W~
@@ -999,11 +1011,11 @@ S
 D1
 ~
 ~
-0 -1 11178
+0 -1 11178 0
 D3
 ~
 ~
-0 -1 11124
+0 -1 11124 0
 S
 #11178
 Registration Desk~
@@ -1012,7 +1024,7 @@ Registration Desk~
 D3
 ~
 ~
-0 -1 11177
+0 -1 11177 0
 S
 #11179
 A Sleeping Room~
@@ -1021,7 +1033,7 @@ A Sleeping Room~
 D3
 ~
 ~
-0 -1 11178
+0 -1 11178 0
 S
 #11180
 Potion World~
@@ -1035,7 +1047,7 @@ The Back Room~
 D1
 ~
 ~
-0 -1 11180
+0 -1 11180 0
 S
 #11182
 Secret Storage Area~
@@ -1044,7 +1056,7 @@ Secret Storage Area~
 D2
 ~
 ~
-0 -1 11186
+0 -1 11186 0
 > entry_prog 100~
 mpecho The doorway closes softly...
 mpclosepassage 11186 0
@@ -1058,7 +1070,7 @@ A Booth~
 D1
 ~
 ~
-0 -1 11184
+0 -1 11184 0
 S
 #11184
 The Bar~
@@ -1067,15 +1079,21 @@ The Bar~
 D1
 ~
 ~
-0 -1 11186
+0 -1 11186 0
 D2
 ~
 ~
-0 -1 11185
+0 -1 11185 0
 D3
 ~
 ~
-0 -1 11183
+0 -1 11183 0
+R M 0 11056 1 11184
+  R E 1 50 1 16
+  R G 1 9006 1
+  R G 1 4916 1
+  R G 1 1146 1
+  R G 1 11052 1
 S
 #11185
 &OThe Burning Deck&w&W~
@@ -1084,11 +1102,11 @@ S
 D0
 ~
 ~
-0 -1 11184
+0 -1 11184 0
 D2
 ~
 ~
-0 -1 11128
+0 -1 11128 0
 S
 #11186
 A Booth~
@@ -1097,7 +1115,7 @@ A Booth~
 D3
 ~
 ~
-0 -1 11184
+0 -1 11184 0
 E
 statue han ~
 The statue of Han Solo was placed here as a commemorative to
@@ -1118,7 +1136,7 @@ A Dark Alleyway~
 D1
 ~
 ~
-0 -1 11188
+0 -1 11188 0
 S
 #11188
 A Dark Alleyway~
@@ -1127,11 +1145,11 @@ A Dark Alleyway~
 D1
 ~
 ~
-0 -1 11145
+0 -1 11145 0
 D3
 ~
 ~
-0 -1 11187
+0 -1 11187 0
 S
 #11189
 Customs Authority~
@@ -1140,7 +1158,7 @@ Customs Authority~
 D9
 ~
 ~
-0 -1 11190
+0 -1 11190 0
 S
 #11190
 Entrance to the Corellian Sector~
@@ -1149,11 +1167,11 @@ Entrance to the Corellian Sector~
 D6
 ~
 ~
-0 -1 11189
+0 -1 11189 0
 D9
 ~
 ~
-0 -1 11249
+0 -1 11249 0
 S
 #11191
 Duros Sector Landing Pad~
@@ -1167,7 +1185,7 @@ Duros Sector End~
 D8
 ~
 ~
-0 -1 11249
+0 -1 11249 0
 S
 #11249
 Central Drop-Tube~
@@ -1203,39 +1221,17 @@ S
 Floating in a void~
 ~
 0 4 1 0 0 0 26144
+R M 0 11051 1 11250
+R M 0 11250 1 11250
+R O 0 11250 1 11250
+R O 0 11051 1 11250
 S
 #0
 
 
-#RESETS
-M 1 11051 1 11250
-M 1 11250 1 11250
-O 1 11250 1 11250
-O 1 11051 1 11250
-M 1 11052 2 11119
-E 1 50 1 16
-M 1 11052 2 11119
-E 1 50 1 16
-M 1 11053 1 11176
-M 1 11055 1 11171
-G 1 296 1
-G 1 297 1
-G 1 146 1
-G 1 143 1
-G 1 147 1
-G 1 148 1
-M 1 11056 1 11184
-E 1 50 1 16
-G 1 9006 1
-G 1 4916 1
-G 1 1146 1
-G 1 11052 1
-S
-
-
 #SHOPS
- 11055    0  0  0  0  0   150  90         0 23 0  ; Hollo
- 11056    0  0  0  0  0   120  90         0 23 0  ; A bartender
+ 11055    0  0  0  0  0   150  90         0 23    ; Hollo
+ 11056    0  0  0  0  0   120  90         0 23    ; A bartender
 0
 
 

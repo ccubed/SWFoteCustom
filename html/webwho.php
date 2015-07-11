@@ -8,10 +8,7 @@
 <b>
 <PRE>
 <?
- if(!isSet($file))
-  {
     $file = "WEBWHO";
-  }
   $fcontents = file($file);
   for ($i=0;$i<=sizeof($fcontents);$i++)
   {

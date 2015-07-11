@@ -4,6 +4,7 @@ Code        do_say
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -12,6 +13,7 @@ Code        do_emote
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -20,6 +22,7 @@ Code        do_ooc
 Position    4
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -28,6 +31,7 @@ Code        do_emote
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -36,6 +40,7 @@ Code        do_gtell
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -44,6 +49,7 @@ Code        do_accelerate
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -52,6 +58,7 @@ Code        do_addpilot
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -60,6 +67,7 @@ Code        do_auction
 Position    5
 Level       11
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -68,6 +76,7 @@ Code        do_ammo
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -76,6 +85,7 @@ Code        do_allships
 Position    5
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -84,6 +94,7 @@ Code        do_appoint
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -92,6 +103,7 @@ Code        do_arm
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -100,6 +112,7 @@ Code        do_autorecharge
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -108,6 +121,7 @@ Code        do_autotrack
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -116,6 +130,7 @@ Code        do_at
 Position    0
 Level       33
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -124,6 +139,7 @@ Code        do_affected
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -132,6 +148,7 @@ Code        do_afk
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -140,6 +157,7 @@ Code        do_ansi
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -148,6 +166,7 @@ Code        do_aassign
 Position    0
 Level       32
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -156,6 +175,7 @@ Code        do_addbounty
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -164,22 +184,25 @@ Code        do_use
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        advance~
 Code        do_advance
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        allow~
 Code        do_allow
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -188,6 +211,7 @@ Code        do_appraise
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -196,22 +220,25 @@ Code        do_areas
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        aset~
 Code        do_aset
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        astat~
 Code        do_astat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -220,22 +247,25 @@ Code        do_apply
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        authorize~
 Code        do_authorize
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        allspeeders~
 Code        do_allspeeders
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -244,6 +274,7 @@ Code        do_autopilot
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -252,6 +283,7 @@ Code        do_accept
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -260,6 +292,7 @@ Code        do_aaccept
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -268,6 +301,7 @@ Code        do_adecline
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -276,6 +310,7 @@ Code        do_arena
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -284,6 +319,7 @@ Code        do_awho
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -292,6 +328,7 @@ Code        do_ahall
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -300,30 +337,43 @@ Code        do_ask
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        admin~
 Code        do_i105
 Position    0
-Level       36
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        addchange~
 Code        do_addchange
 Position    0
-Level       36
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
-Name        asve~
+Name        save~
 Code        do_save
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        ahelp~
+Code        do_ahelp
+Position    0
+Level       201
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -332,14 +382,16 @@ Code        do_ammo
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        beep~
 Code        do_beep
 Position    5
-Level       36
+Level       30
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -348,6 +400,7 @@ Code        do_bomb
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -356,6 +409,7 @@ Code        do_bounties
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -364,6 +418,7 @@ Code        do_addbounty
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -372,6 +427,7 @@ Code        do_buy
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -380,6 +436,7 @@ Code        do_ordership
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -388,6 +445,7 @@ Code        do_brandish
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -396,6 +454,7 @@ Code        do_backstab
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -404,38 +463,43 @@ Code        do_balzhur
 Position    6
 Level       35
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        bamfin~
 Code        do_bamfin
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        bamfout~
 Code        do_bamfout
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        ban~
 Code        do_ban
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        bestow~
 Code        do_bestow
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -444,6 +508,7 @@ Code        do_bio
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -452,6 +517,7 @@ Code        do_bodybag
 Position    0
 Level       32
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -460,38 +526,43 @@ Code        do_board
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        boards~
 Code        do_boards
 Position    0
-Level       33
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        bset~
 Code        do_bset
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        bstat~
 Code        do_bstat
 Position    0
-Level       33
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        bug~
-Code        do_idea
+Code        do_bug
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -500,14 +571,16 @@ Code        do_bury
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        bestowarea~
 Code        do_bestowarea
 Position    0
-Level       32
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -516,6 +589,16 @@ Code        do_buyhome
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name		buyvendor~
+Code		do_buyvendor
+Position	0
+Level		1
+Log			0
+Ooc			0
 End
 
 #COMMAND
@@ -524,6 +607,7 @@ Code        do_bank
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -532,30 +616,16 @@ Code        do_buytroops
 Position    0
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        buyvendor~
-Code        reserved
-Position    0
-Level       36
-Log         0
-End
-
-#COMMAND
-Name        buyshop~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        bet~
 Code        do_bet
 Position    0
-Level       36
+Level       30
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -564,6 +634,7 @@ Code        do_backup
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -572,14 +643,25 @@ Code        do_buytroops
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        buymobship~
 Code        do_buymobship
 Position    0
-Level       36
+Level       201
 Log         1
+Ooc         0
+End
+
+#COMMAND
+Name        buzz~
+Code        do_buzz
+Position    0
+Level       1
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -588,6 +670,7 @@ Code        do_calculate
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -596,6 +679,7 @@ Code        do_capture
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -604,6 +688,7 @@ Code        do_chaff
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -612,6 +697,7 @@ Code        do_ammo
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -620,6 +706,7 @@ Code        do_clantalk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -628,6 +715,7 @@ Code        do_close
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -636,6 +724,7 @@ Code        do_openbay
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -644,6 +733,7 @@ Code        do_closehatch
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -652,6 +742,7 @@ Code        do_consider
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -660,6 +751,7 @@ Code        do_channels
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -668,14 +760,16 @@ Code        do_chat
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        checkvnums~
 Code        do_check_vnums
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -684,6 +778,7 @@ Code        do_clans
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -692,22 +787,16 @@ Code        do_orderclanship
 Position    5
 Level       0
 Log         1
-End
-
-#COMMAND
-Name        clear~
-Code        reserved
-Position    0
-Level       0
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        cedit~
 Code        do_cedit
 Position    0
-Level       36
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -716,6 +805,7 @@ Code        do_compare
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -724,6 +814,7 @@ Code        do_commands
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -732,6 +823,7 @@ Code        do_comment
 Position    5
 Level       32
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -740,14 +832,7 @@ Code        do_config
 Position    0
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        councils~
-Code        reserved
-Position    0
-Level       0
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -756,6 +841,7 @@ Code        do_trajectory
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -764,22 +850,25 @@ Code        do_credits
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        cset~
 Code        do_cset
 Position    0
-Level       35
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        cmdtable~
 Code        do_cmdtable
 Position    0
-Level       32
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -788,22 +877,16 @@ Code        do_clone
 Position    0
 Level       1
 Log         1
-End
-
-#COMMAND
-Name        copyship~
-Code        reserved
-Position    0
-Level       32
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        copyover~
 Code        do_copyover
 Position    0
-Level       34
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -812,6 +895,7 @@ Code        do_hail
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -820,14 +904,7 @@ Code        do_cleanroom
 Position    0
 Level       33
 Log         1
-End
-
-#COMMAND
-Name        collectcredits~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -836,6 +913,7 @@ Code        do_chaos
 Position    0
 Level       33
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -844,6 +922,7 @@ Code        do_challenge
 Position    8
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -852,6 +931,7 @@ Code        do_checkwar
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -860,14 +940,7 @@ Code        do_clanstat
 Position    0
 Level       1
 Log         0
-End
-
-#COMMAND
-Name        clanbuytroops~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -876,6 +949,7 @@ Code        do_clansalvage
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -884,6 +958,7 @@ Code        do_clangiveship
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -892,6 +967,7 @@ Code        do_cut
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -900,6 +976,7 @@ Code        do_contract
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -908,14 +985,43 @@ Code        do_changes
 Position    0
 Level       1
 Log         1
+Ooc         0
+End
+
+#COMMAND
+Name        chedit~
+Code        do_chedit
+Position    0
+Level       204
+Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        color~
 Code        do_color
 Position    0
-Level       0
+Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        crash~
+Code        do_crash
+Position    0
+Level       36
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        compress~
+Code        do_compress
+Position    0
+Level       201
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -924,6 +1030,7 @@ Code        do_down
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -932,6 +1039,7 @@ Code        do_clan_donate
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -940,6 +1048,7 @@ Code        do_drink
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -948,6 +1057,7 @@ Code        do_drive
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -956,6 +1066,7 @@ Code        do_drop
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -964,14 +1075,16 @@ Code        do_demote
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        deny~
 Code        do_deny
 Position    0
-Level       35
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -980,22 +1093,25 @@ Code        do_description
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        destro~
 Code        do_destro
 Position    8
-Level       35
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        destroy~
 Code        do_destroy
 Position    8
-Level       36
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1004,22 +1120,25 @@ Code        do_dig
 Position    8
 Level       3
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        disconnect~
 Code        do_disconnect
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        dmesg~
 Code        do_dmesg
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1028,6 +1147,7 @@ Code        do_drag
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1036,6 +1156,7 @@ Code        do_dismount
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1044,6 +1165,7 @@ Code        do_decline
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1052,6 +1174,7 @@ Code        do_divorce
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1060,14 +1183,7 @@ Code        do_droptroops
 Position    0
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        designship~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1076,6 +1192,34 @@ Code        do_describe
 Position    0
 Level       1
 Log         1
+Ooc         0
+End
+
+#COMMAND
+Name        disarmgrenade~
+Code        do_disarmgrenade
+Position    0
+Level       1
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        debitorder~
+Code        do_debitorder
+Position    0
+Level       1
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        doas~
+Code        do_doas
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1084,6 +1228,7 @@ Code        do_east
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1092,6 +1237,7 @@ Code        do_eat
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1100,6 +1246,7 @@ Code        do_emote
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1108,6 +1255,7 @@ Code        do_empower
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1116,6 +1264,7 @@ Code        do_enlist
 Position    5
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1124,6 +1273,7 @@ Code        do_exits
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1132,6 +1282,7 @@ Code        do_examine
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1140,6 +1291,7 @@ Code        do_equipment
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1148,6 +1300,7 @@ Code        do_empty
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1156,14 +1309,7 @@ Code        do_enter
 Position    8
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        entryvector~
-Code        reserved
-Position    5
-Level       0
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1172,22 +1318,16 @@ Code        do_endsimulator
 Position    0
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        exempt~
-Code        do_exempt
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        echo~
 Code        do_echo
 Position    0
-Level       36
+Level       32
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1196,6 +1336,16 @@ Code        do_email
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        exempt~
+Code        do_exempt
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1204,6 +1354,7 @@ Code        do_fire
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1212,6 +1363,7 @@ Code        do_cast
 Position    4
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1220,6 +1372,7 @@ Code        do_fill
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1228,14 +1381,16 @@ Code        do_follow
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        fixchar~
 Code        do_fixchar
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1244,6 +1399,7 @@ Code        do_flee
 Position    7
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1252,62 +1408,61 @@ Code        do_fly
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        foldarea~
 Code        do_foldarea
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        for~
 Code        do_for
 Position    0
-Level       33
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        force~
 Code        do_force
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        forceclose~
 Code        do_forceclose
 Position    0
-Level       31
+Level       204
 Log         1
-End
-
-#COMMAND
-Name        formpass~
-Code        do_form_password
-Position    0
-Level       35
-Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        freeze~
 Code        do_freeze
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        fquit~
 Code        do_fquit
 Position    0
-Level       31
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1316,14 +1471,16 @@ Code        do_freeship
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        fakeslay~
 Code        do_fslay
 Position    0
-Level       34
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1332,6 +1489,7 @@ Code        do_pluogus
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1340,14 +1498,16 @@ Code        do_whois
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        fslay~
 Code        do_fslay
 Position    0
-Level       36
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1356,6 +1516,7 @@ Code        do_get
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1364,6 +1525,7 @@ Code        do_give
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1372,6 +1534,7 @@ Code        do_gtell
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1380,6 +1543,7 @@ Code        do_group
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1388,6 +1552,7 @@ Code        do_guildtalk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1396,14 +1561,16 @@ Code        do_glance
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        goto~
 Code        do_goto
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1412,14 +1579,7 @@ Code        do_guilds
 Position    0
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        governments~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1428,6 +1588,7 @@ Code        do_giveship
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1436,38 +1597,25 @@ Code        do_giveslug
 Position    0
 Level       31
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        gag~
 Code        do_gag
 Position    0
-Level       36
+Level       30
 Log         0
-End
-
-#COMMAND
-Name        gotoship~
-Code        reserved
-Position    0
-Level       33
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        genmarket~
 Code        do_generate_market
 Position    0
-Level       36
+Level       204
 Log         1
-End
-
-#COMMAND
-Name        giveclanship~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1476,6 +1624,7 @@ Code        do_gold
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1484,6 +1633,7 @@ Code        do_help
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1492,6 +1642,7 @@ Code        do_hale
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1500,6 +1651,7 @@ Code        do_hyperspace
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1508,22 +1660,25 @@ Code        do_wear
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        hedit~
 Code        do_hedit
 Position    0
-Level       34
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        hell~
 Code        do_hell
 Position    0
-Level       33
+Level       201
 Log         4
+Ooc         0
 End
 
 #COMMAND
@@ -1532,6 +1687,7 @@ Code        do_hlist
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1540,6 +1696,7 @@ Code        do_holylight
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1548,14 +1705,16 @@ Code        do_homepage
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        hset~
 Code        do_hset
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1564,6 +1723,7 @@ Code        do_holonet
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1572,6 +1732,7 @@ Code        do_inventory
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1580,6 +1741,7 @@ Code        do_ide
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1588,6 +1750,7 @@ Code        do_idea
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1596,6 +1759,7 @@ Code        do_induct
 Position    8
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1604,54 +1768,61 @@ Code        do_info
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        installarea~
 Code        do_installarea
 Position    0
-Level       35
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        instazone~
 Code        do_instazone
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        invis~
 Code        do_invis
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        instaroom~
 Code        do_instaroom
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        immtalk~
 Code        do_immtalk
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        i5~
 Code        do_i105
 Position    0
-Level       36
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1660,6 +1831,7 @@ Code        do_idealog
 Position    0
 Level       33
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1668,14 +1840,25 @@ Code        do_introduce
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
-Name        jumpvector~
-Code        reserved
-Position    5
-Level       0
+Name        invite~
+Code        do_invite
+Position    0
+Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        imports~
+Code        do_imports
+Position    0
+Level       1
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1684,6 +1867,16 @@ Code        do_kill
 Position    7
 Level       0
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        keypad~
+Code        do_keypad
+Position    0
+Level       1
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1692,6 +1885,7 @@ Code        do_look
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1700,6 +1894,7 @@ Code        do_land
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1708,6 +1903,7 @@ Code        do_launch
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1716,6 +1912,7 @@ Code        do_lock
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1724,6 +1921,7 @@ Code        do_level
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1732,6 +1930,7 @@ Code        do_list
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1740,6 +1939,7 @@ Code        do_languages
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1748,6 +1948,7 @@ Code        do_last
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1756,6 +1957,7 @@ Code        do_leave
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1764,6 +1966,7 @@ Code        do_leaveship
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1772,6 +1975,7 @@ Code        do_light
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1780,6 +1984,7 @@ Code        do_hyperspace
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1788,6 +1993,7 @@ Code        do_litterbug
 Position    0
 Level       31
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1796,14 +2002,7 @@ Code        do_log
 Position    0
 Level       35
 Log         1
-End
-
-#COMMAND
-Name        lastname~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1812,14 +2011,16 @@ Code        do_load
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        loadup~
 Code        do_loadup
 Position    0
-Level       36
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1828,6 +2029,16 @@ Code        do_link
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        load_cargo~
+Code        do_load_cargo
+Position    0
+Level       1
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1836,6 +2047,7 @@ Code        do_make
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1844,6 +2056,7 @@ Code        do_makelightsaber
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1852,14 +2065,16 @@ Code        do_makespice
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makestarsystem~
 Code        do_makestarsystem
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -1868,6 +2083,7 @@ Code        do_mpecho
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1876,6 +2092,7 @@ Code        do_mpechoat
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1884,6 +2101,7 @@ Code        do_mpechoat
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1892,6 +2110,7 @@ Code        do_mpat
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1900,6 +2119,7 @@ Code        do_mpforce
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1908,6 +2128,7 @@ Code        do_mpechoaround
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1916,6 +2137,7 @@ Code        do_mpechoaround
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1924,6 +2146,7 @@ Code        do_mpasound
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1932,6 +2155,7 @@ Code        do_mpoload
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1940,6 +2164,7 @@ Code        do_mpjunk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1948,6 +2173,7 @@ Code        do_mpgoto
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1956,6 +2182,7 @@ Code        do_mp_damage
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1964,6 +2191,7 @@ Code        do_mp_deposit
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1972,6 +2200,7 @@ Code        do_mp_restore
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1980,6 +2209,7 @@ Code        do_mpkill
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1988,6 +2218,7 @@ Code        do_mptransfer
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -1996,6 +2227,7 @@ Code        do_mpmload
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2004,6 +2236,7 @@ Code        do_mpnothing
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2012,6 +2245,7 @@ Code        do_mppurge
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2020,6 +2254,7 @@ Code        do_mpinvis
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2028,6 +2263,7 @@ Code        do_mpadvance
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2036,6 +2272,7 @@ Code        do_mpapply
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2044,6 +2281,7 @@ Code        do_mpapplyb
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2052,6 +2290,7 @@ Code        do_mppkset
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2060,6 +2299,7 @@ Code        do_mp_close_passage
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2068,6 +2308,7 @@ Code        do_mp_open_passage
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2076,6 +2317,7 @@ Code        do_mpdream
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2084,6 +2326,7 @@ Code        do_mp_slay
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2092,6 +2335,7 @@ Code        do_mp_practice
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2100,6 +2344,7 @@ Code        do_mp_withdraw
 Position    0
 Level       0
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2108,70 +2353,79 @@ Code        do_mailroom
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makeboard~
 Code        do_makeboard
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        makeclan~
 Code        do_makeclan
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        makeship~
 Code        do_makeship
 Position    0
-Level       36
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        makerepair~
 Code        do_makerepair
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        makeshop~
 Code        do_makeshop
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        makewizlist~
 Code        do_makewizlist
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        mcreate~
 Code        do_mcreate
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        mdelete~
 Code        do_mdelete
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2180,6 +2434,7 @@ Code        do_memory
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2188,62 +2443,70 @@ Code        do_noteroom
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        mfind~
 Code        do_mfind
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        minvoke~
 Code        do_minvoke
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        mlist~
 Code        do_mlist
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        mpedit~
 Code        do_mpedit
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        mpstat~
 Code        do_mpstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        mset~
 Code        do_mset
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        mstat~
 Code        do_mstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2252,6 +2515,7 @@ Code        do_murde
 Position    7
 Level       5
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2260,6 +2524,7 @@ Code        do_murder
 Position    7
 Level       5
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2268,30 +2533,16 @@ Code        do_music
 Position    4
 Level       1
 Log         0
-End
-
-#COMMAND
-Name        muse~
-Code        reserved
-Position    0
-Level       32
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        mwhere~
 Code        do_mwhere
 Position    0
-Level       32
+Level       201
 Log         0
-End
-
-#COMMAND
-Name        mpfavor~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2300,22 +2551,25 @@ Code        do_mpgain
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makeplanet~
 Code        do_makeplanet
 Position    0
-Level       35
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makeimm~
 Code        do_immortalize
 Position    0
-Level       36
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2324,38 +2578,25 @@ Code        do_marry
 Position    0
 Level       31
 Log         0
-End
-
-#COMMAND
-Name        makeship2~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makesimulator~
 Code        do_makesimulator
 Position    0
-Level       33
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makemobship~
 Code        do_makemobship
 Position    0
-Level       35
+Level       204
 Log         0
-End
-
-#COMMAND
-Name        makeprototypeship~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2364,14 +2605,16 @@ Code        do_pluogus
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        makefree~
 Code        do_makefree
 Position    0
-Level       32
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2380,6 +2623,16 @@ Code        do_members
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        makeslay~
+Code        do_makeslay
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2388,6 +2641,7 @@ Code        do_north
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2396,6 +2650,7 @@ Code        do_northeast
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2404,6 +2659,7 @@ Code        do_northwest
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2412,6 +2668,7 @@ Code        do_noteroom
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2420,30 +2677,34 @@ Code        do_noteroom
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        newclan~
 Code        do_newclan
 Position    0
-Level       0
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        noemote~
 Code        do_noemote
 Position    0
-Level       33
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        noresolve~
 Code        do_noresolve
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2452,6 +2713,7 @@ Code        do_northeast
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2460,22 +2722,34 @@ Code        do_northwest
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        notell~
 Code        do_notell
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        notitle~
 Code        do_notitle
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
+End
+
+#COMMAND
+Name        newpassword~
+Code        do_newpassword
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2484,6 +2758,7 @@ Code        do_order
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2492,6 +2767,7 @@ Code        do_open
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2500,6 +2776,7 @@ Code        do_openbay
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2508,38 +2785,43 @@ Code        do_openhatch
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        ocreate~
 Code        do_ocreate
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        odelete~
 Code        do_odelete
 Position    0
-Level       33
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        ofind~
 Code        do_ofind
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        oinvoke~
 Code        do_oinvoke
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2548,30 +2830,34 @@ Code        do_oldscore
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        olist~
 Code        do_olist
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        opedit~
 Code        do_opedit
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        opstat~
 Code        do_opstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2580,6 +2866,7 @@ Code        do_orders
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2588,14 +2875,16 @@ Code        do_ordertalk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        ostat~
 Code        do_ostat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2604,6 +2893,7 @@ Code        do_ordertalk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2612,22 +2902,25 @@ Code        do_outcast
 Position    8
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        owhere~
 Code        do_owhere
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        oset~
 Code        do_oset
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
@@ -2636,6 +2929,7 @@ Code        do_outlaw
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -2644,14 +2938,16 @@ Code        do_ooc
 Position    0
 Level       1
 Log         0
+Ooc         1
 End
 
 #COMMAND
 Name        oldmstat~
 Code        do_oldmstat
 Position    0
-Level       31
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2660,6 +2956,7 @@ Code        do_put
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2668,6 +2965,7 @@ Code        do_password
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2676,14 +2974,7 @@ Code        do_practice
 Position    4
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        pagelength~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2692,22 +2983,25 @@ Code        do_pull
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        purge~
 Code        do_purge
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        purge~
 Code        do_low_purge
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2716,6 +3010,7 @@ Code        do_push
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2724,6 +3019,7 @@ Code        do_prompt
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2732,6 +3028,7 @@ Code        do_pager
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2740,6 +3037,7 @@ Code        do_planets
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2748,38 +3046,16 @@ Code        do_propose
 Position    0
 Level       1
 Log         0
-End
-
-#COMMAND
-Name        prototypes~
-Code        reserved
-Position    0
-Level       0
-Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        pfiles~
 Code        do_pfiles
 Position    0
-Level       36
+Level       204
 Log         0
-End
-
-#COMMAND
-Name        placevendor~
-Code        reserved
-Position    0
-Level       36
-Log         0
-End
-
-#COMMAND
-Name        pricevendor~
-Code        reserved
-Position    0
-Level       1
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2788,6 +3064,43 @@ Code        do_peace
 Position    0
 Level       31
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        plrbuglist~
+Code        do_plrbuglist
+Position    0
+Level       31
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        playslots~
+Code        do_playslots
+Position    0
+Level       1
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        pcrename~
+Code        do_pcrename
+Position    0
+Level       204
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        pfreload~
+Code        do_pfreload
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2796,6 +3109,7 @@ Code        do_quaff
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2804,6 +3118,7 @@ Code        do_qui
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2812,6 +3127,7 @@ Code        do_quit
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2820,6 +3136,7 @@ Code        do_quest
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2828,6 +3145,7 @@ Code        do_quit
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2836,6 +3154,7 @@ Code        do_radar
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2844,6 +3163,7 @@ Code        do_recall
 Position    5
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2852,22 +3172,7 @@ Code        do_recharge
 Position    5
 Level       0
 Log         0
-End
-
-#COMMAND
-Name        refuel~
-Code        reserved
-Position    5
-Level       0
-Log         0
-End
-
-#COMMAND
-Name        reload~
-Code        reserved
-Position    5
-Level       0
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2876,6 +3181,7 @@ Code        do_remove
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2884,6 +3190,7 @@ Code        do_rempilot
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2892,6 +3199,7 @@ Code        do_rest
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2900,6 +3208,7 @@ Code        do_resign
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2908,6 +3217,7 @@ Code        do_report
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2916,6 +3226,7 @@ Code        do_reply
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2924,46 +3235,52 @@ Code        do_rat
 Position    0
 Level       33
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        reboo~
 Code        do_reboo
 Position    0
-Level       33
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        reboot~
 Code        do_reboot
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        recho~
 Code        do_recho
 Position    0
-Level       31
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        redit~
 Code        do_redit
 Position    0
-Level       31
+Level       205
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        regoto~
 Code        do_regoto
 Position    0
-Level       31
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -2972,46 +3289,52 @@ Code        do_rent
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        reset~
 Code        do_reset
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        resetship~
 Code        do_resetship
 Position    0
-Level       33
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        restore~
 Code        do_restore
 Position    0
-Level       33
+Level      	204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        restoretime~
 Code        do_restoretime
 Position    0
-Level       33
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        restrict~
 Code        do_restrict
 Position    0
-Level       35
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3020,6 +3343,7 @@ Code        do_return
 Position    0
 Level       31
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3028,6 +3352,7 @@ Code        do_retran
 Position    0
 Level       33
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3036,6 +3361,7 @@ Code        do_retire
 Position    0
 Level       35
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3044,6 +3370,7 @@ Code        do_revert
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3052,70 +3379,70 @@ Code        do_rip
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        rlist~
 Code        do_rlist
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        rpedit~
 Code        do_rpedit
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        rpstat~
 Code        do_rpstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        rset~
 Code        do_rset
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        rstat~
 Code        do_rstat
 Position    0
-Level       31
+Level       201
 Log         0
-End
-
-#COMMAND
-Name        rreset~
-Code        do_rreset
-Position    0
-Level       32
-Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        remship~
 Code        do_removeship
 Position    0
-Level       33
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        restorefile~
 Code        do_restorefile
 Position    0
-Level       36
-Log         1
+Level       201
+Log         3
+Ooc         0
 End
 
 #COMMAND
@@ -3124,14 +3451,16 @@ Code        do_rembounty
 Position    0
 Level       32
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        remclan~
 Code        do_remclan
 Position    0
-Level       34
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3140,22 +3469,25 @@ Code        do_repairset
 Position    0
 Level       32
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        repairstat~
 Code        do_repairstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        repairshops~
 Code        do_repairshops
 Position    0
-Level       36
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3164,6 +3496,7 @@ Code        do_request
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3172,14 +3505,16 @@ Code        do_remcontract
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        reward~
 Code        do_reward
 Position    0
-Level       36
+Level       32
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3188,6 +3523,7 @@ Code        do_rpconvert
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3196,6 +3532,7 @@ Code        do_retune
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3204,6 +3541,7 @@ Code        do_retreat
 Position    0
 Level       36
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3212,6 +3550,25 @@ Code        do_remember
 Position    0
 Level       1
 Log         1
+Ooc         0
+End
+
+#COMMAND
+Name        renumber~
+Code        do_renumber
+Position    0
+Level       36
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        remslay~
+Code        do_remslay
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3220,6 +3577,7 @@ Code        do_south
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3228,6 +3586,7 @@ Code        do_southeast
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3236,6 +3595,7 @@ Code        do_southwest
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3244,6 +3604,7 @@ Code        do_say
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3252,6 +3613,7 @@ Code        do_save
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3260,6 +3622,7 @@ Code        do_score
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3268,6 +3631,7 @@ Code        do_autorecharge
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3276,6 +3640,7 @@ Code        do_sleep
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3284,14 +3649,16 @@ Code        do_stand
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        savearea~
 Code        do_savearea
 Position    0
-Level       36
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
@@ -3300,6 +3667,7 @@ Code        do_sell
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3308,6 +3676,7 @@ Code        do_salvage
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3316,6 +3685,7 @@ Code        do_sedit
 Position    0
 Level       33
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3324,46 +3694,43 @@ Code        do_setblaster
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        setboot~
 Code        do_set_boot_time
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        setship~
 Code        do_setship
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        setclan~
 Code        do_setclan
 Position    0
-Level       33
+Level       204
 Log         1
-End
-
-#COMMAND
-Name        setcouncil~
-Code        reserved
-Position    0
-Level       33
-Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        setstarsystem~
 Code        do_setstarsystem
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3372,6 +3739,7 @@ Code        do_ships
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3380,30 +3748,34 @@ Code        do_shout
 Position    5
 Level       3
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        shops~
 Code        do_shops
 Position    0
-Level       32
+Level       201
 Log         3
+Ooc         0
 End
 
 #COMMAND
 Name        shopset~
 Code        do_shopset
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        shopstat~
 Code        do_shopstat
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3412,14 +3784,16 @@ Code        do_showship
 Position    0
 Level       32
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        showstarsystem~
 Code        do_showstarsystem
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3428,22 +3802,25 @@ Code        do_showclan
 Position    0
 Level       32
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        shutdow~
 Code        do_shutdow
 Position    0
-Level       35
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        shutdown~
 Code        do_shutdown
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3452,6 +3829,7 @@ Code        do_sit
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3460,6 +3838,7 @@ Code        do_silence
 Position    0
 Level       31
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3468,6 +3847,7 @@ Code        do_sla
 Position    0
 Level       32
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3476,14 +3856,16 @@ Code        do_slist
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        slookup~
 Code        do_slookup
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3492,6 +3874,7 @@ Code        do_smoke
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3500,6 +3883,7 @@ Code        do_snoop
 Position    0
 Level       32
 Log         4
+Ooc         0
 End
 
 #COMMAND
@@ -3508,6 +3892,7 @@ Code        do_sober
 Position    0
 Level       32
 Log         4
+Ooc         0
 End
 
 #COMMAND
@@ -3516,6 +3901,7 @@ Code        do_socials
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3524,6 +3910,7 @@ Code        do_southeast
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3532,6 +3919,7 @@ Code        do_southwest
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3540,6 +3928,7 @@ Code        do_speak
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3548,6 +3937,7 @@ Code        do_accelerate
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3556,22 +3946,25 @@ Code        do_split
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        sset~
 Code        do_sset
 Position    0
-Level       34
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        switch~
 Code        do_switch
 Position    0
-Level       33
+Level       204
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3580,6 +3973,7 @@ Code        do_starsystems
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3588,14 +3982,16 @@ Code        do_status
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        spacetalk~
 Code        do_spacetalk
 Position    0
-Level       36
+Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3604,6 +4000,7 @@ Code        do_systemtalk
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3612,6 +4009,7 @@ Code        do_shiptalk
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3620,6 +4018,7 @@ Code        do_speeders
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3628,6 +4027,7 @@ Code        do_suicide
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3636,14 +4036,16 @@ Code        do_sound
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        setplanet~
 Code        do_setplanet
 Position    0
-Level       35
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3652,6 +4054,7 @@ Code        do_showplanet
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3660,6 +4063,7 @@ Code        do_save
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3668,38 +4072,16 @@ Code        do_showsocial
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        sshow~
 Code        do_slookup
 Position    0
-Level       36
+Level       201
 Log         0
-End
-
-#COMMAND
-Name        showprototypes~
-Code        reserved
-Position    0
-Level       0
-Log         0
-End
-
-#COMMAND
-Name        setprototype~
-Code        reserved
-Position    0
-Level       35
-Log         1
-End
-
-#COMMAND
-Name        srepair~
-Code        reserved
-Position    0
-Level       36
-Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3708,6 +4090,7 @@ Code        do_salvage
 Position    0
 Level       31
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3716,14 +4099,16 @@ Code        do_shiplock
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        slog~
 Code        do_slog
 Position    0
-Level       36
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3732,6 +4117,7 @@ Code        do_setwage
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3740,6 +4126,7 @@ Code        do_shipstat
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3748,6 +4135,7 @@ Code        do_pluogus
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3756,6 +4144,7 @@ Code        do_pluogus
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3764,6 +4153,7 @@ Code        do_showcontracts
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3772,6 +4162,7 @@ Code        do_sellhome
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3780,6 +4171,7 @@ Code        do_shove
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3788,6 +4180,7 @@ Code        do_spousetalk
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3796,14 +4189,16 @@ Code        do_setinfrared
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        std~
 Code        do_std
 Position    0
-Level       36
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3812,6 +4207,7 @@ Code        do_shiplist
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3820,14 +4216,16 @@ Code        do_screenname
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        slay~
 Code        do_slay
 Position    0
-Level       36
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3836,6 +4234,34 @@ Code        do_setrank
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        sysbuglist~
+Code        do_sysbuglist
+Position    0
+Level       205
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        setslay~
+Code        do_setslay
+Position    0
+Level       205
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        showslays~
+Code        do_showslay
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3844,6 +4270,7 @@ Code        do_tell
 Position    5
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3852,6 +4279,7 @@ Code        do_get
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3860,6 +4288,7 @@ Code        do_takedrug
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3868,6 +4297,7 @@ Code        do_target
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3876,6 +4306,7 @@ Code        do_tamp
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3884,6 +4315,7 @@ Code        do_time
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3892,6 +4324,7 @@ Code        do_title
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3900,22 +4333,25 @@ Code        do_trajectory
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        transfer~
 Code        do_transfer
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
 Name        trust~
 Code        do_trust
 Position    0
-Level       36
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3924,14 +4360,16 @@ Code        do_typo
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        timecmd~
 Code        do_timecmd
 Position    0
-Level       35
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3940,6 +4378,7 @@ Code        do_train
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3948,14 +4387,16 @@ Code        do_teach
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        transship~
 Code        do_transship
 Position    0
-Level       32
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -3964,14 +4405,16 @@ Code        do_tune
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        transshipss~
 Code        do_transshipss
 Position    0
-Level       36
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3980,6 +4423,52 @@ Code        do_pluogus
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        typoslist~
+Code        do_typoslist
+Position    0
+Level       31
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        transmit_status~
+Code        do_transmit_status
+Position    0
+Level       205
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        transmit_broadcast~
+Code        do_transmit_broadcast
+Position    0
+Level       205
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        transmit_call~
+Code        do_transmit_call
+Position    0
+Level       205
+Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        transmit_pass~
+Code        do_transmit_pass
+Position    0
+Level       205
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3988,6 +4477,7 @@ Code        do_up
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -3996,14 +4486,16 @@ Code        do_unlock
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        unhell~
 Code        do_unhell
 Position    0
-Level       31
+Level       201
 Log         4
+Ooc         0
 End
 
 #COMMAND
@@ -4012,22 +4504,25 @@ Code        do_use
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        users~
 Code        do_users
 Position    0
-Level       33
+Level       204
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        unsilence~
 Code        do_unsilence
 Position    0
-Level       31
+Level       201
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -4036,6 +4531,7 @@ Code        do_unbind
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4044,6 +4540,7 @@ Code        do_unoutlaw
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -4052,6 +4549,7 @@ Code        do_ungag
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4060,6 +4558,7 @@ Code        do_unload
 Position    0
 Level       1
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4068,6 +4567,16 @@ Code        do_unlink
 Position    0
 Level       1
 Log         0
+Ooc         0
+End
+
+#COMMAND
+Name        unload_cargo~
+Code        do_unload_cargo
+Position    0
+Level       1
+Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4076,6 +4585,7 @@ Code        do_trajectory
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4084,14 +4594,16 @@ Code        do_value
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        vassign~
 Code        do_vassign
 Position    0
-Level       34
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -4100,6 +4612,7 @@ Code        do_accelerate
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4108,22 +4621,25 @@ Code        do_visible
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        vsearch~
 Code        do_vsearch
 Position    0
-Level       32
+Level       205
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        viewskills~
 Code        do_viewskills
 Position    0
-Level       36
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4132,6 +4648,7 @@ Code        do_west
 Position    8
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4140,6 +4657,7 @@ Code        do_wake
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4148,6 +4666,7 @@ Code        do_who
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4156,6 +4675,7 @@ Code        do_clan_withdraw
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4164,6 +4684,7 @@ Code        do_wear
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4172,6 +4693,7 @@ Code        do_whois
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4180,6 +4702,7 @@ Code        do_wear
 Position    6
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4188,6 +4711,7 @@ Code        do_weather
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4196,22 +4720,25 @@ Code        do_wizlist
 Position    4
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        wizhelp~
 Code        do_wizhelp
 Position    0
-Level       31
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        wizlock~
 Code        do_wizlock
 Position    0
-Level       35
+Level       205
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -4220,6 +4747,7 @@ Code        do_whisper
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4228,6 +4756,7 @@ Code        do_war
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4236,6 +4765,7 @@ Code        do_wartalk
 Position    0
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4244,6 +4774,7 @@ Code        do_wwwimage
 Position    0
 Level       1
 Log         1
+Ooc         0
 End
 
 #COMMAND
@@ -4252,6 +4783,7 @@ Code        do_where
 Position    0
 Level       32
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4260,6 +4792,7 @@ Code        do_yell
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
@@ -4268,22 +4801,25 @@ Code        do_zap
 Position    5
 Level       0
 Log         0
+Ooc         0
 End
 
 #COMMAND
 Name        zones~
 Code        do_zones
 Position    0
-Level       32
+Level       201
 Log         0
+Ooc         0
 End
 
 #COMMAND
-Name        buyvendor~
-Code        do_buyvendor
+Name        zecho~
+Code        do_zecho
 Position    0
-Level       0
+Level       201
 Log         0
+Ooc         0
 End
 
 #END

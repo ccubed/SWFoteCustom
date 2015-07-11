@@ -268,19 +268,19 @@ Byss and land here to deliver cargo, etc.
 D0
 ~
 ~
-0 -1 2503
+0 -1 2503 0
 D1
 ~
 ~
-0 -1 2509
+0 -1 2509 0
 D2
 ~
 ~
-0 -1 2511
+0 -1 2511 0
 D3
 ~
 ~
-0 -1 2513
+0 -1 2513 0
 S
 #2503
 Imperial Freight Complex~
@@ -294,19 +294,19 @@ to sit down to rest.
 D0
 ~
 ~
-0 -1 2514
+0 -1 2514 0
 D1
 ~
 ~
-0 -1 2504
+0 -1 2504 0
 D2
 ~
 ~
-0 -1 2502
+0 -1 2502 0
 D3
 ~
 ~
-0 -1 2505
+0 -1 2505 0
 S
 #2504
 Imperial Security Station~
@@ -320,7 +320,11 @@ have to read about new cargo transactions for the whole day.
 D3
 ~
 ~
-0 -1 2503
+0 -1 2503 0
+R M 0 2504 3 2504
+R M 0 2504 3 2504
+R M 0 2504 3 2504
+R O 0 2503 1 2504
 S
 #2505
 Imperial Warehouse~
@@ -334,15 +338,16 @@ move the crates around to desired spots.
 D0
 ~
 ~
-0 -1 2508
+0 -1 2508 0
 D1
 ~
 ~
-0 -1 2503
+0 -1 2503 0
 D3
 ~
 ~
-0 -1 2506
+0 -1 2506 0
+R O 0 2502 1 2505
 S
 #2506
 Imperial Warehouse~
@@ -356,11 +361,12 @@ to desired spots.
 D0
 ~
 ~
-0 -1 2507
+0 -1 2507 0
 D1
 ~
 ~
-0 -1 2505
+0 -1 2505 0
+R O 0 2502 1 2506
 S
 #2507
 Imperial Warehouse~
@@ -374,11 +380,12 @@ to desired spots.
 D1
 ~
 ~
-0 -1 2508
+0 -1 2508 0
 D2
 ~
 ~
-0 -1 2506
+0 -1 2506 0
+R O 0 2502 1 2507
 S
 #2508
 Imperial Warehouse~
@@ -392,11 +399,12 @@ to desired spots.
 D2
 ~
 ~
-0 -1 2505
+0 -1 2505 0
 D3
 ~
 ~
-0 -1 2507
+0 -1 2507 0
+R O 0 2502 1 2508
 S
 #2509
 Imperial Freight Complex Landing Pad~
@@ -410,11 +418,11 @@ Byss and land here to deliver cargo, etc.
 D2
 ~
 ~
-0 -1 2510
+0 -1 2510 0
 D3
 ~
 ~
-0 -1 2502
+0 -1 2502 0
 S
 #2510
 Imperial Freight Complex Landing Pad~
@@ -428,11 +436,11 @@ Byss and land here to deliver cargo, etc.
 D0
 ~
 ~
-0 -1 2509
+0 -1 2509 0
 D3
 ~
 ~
-0 -1 2511
+0 -1 2511 0
 S
 #2511
 Imperial Freight Complex Landing Pad~
@@ -446,15 +454,15 @@ Byss and land here to deliver cargo, etc.
 D0
 ~
 ~
-0 -1 2502
+0 -1 2502 0
 D1
 ~
 ~
-0 -1 2510
+0 -1 2510 0
 D3
 ~
 ~
-0 -1 2512
+0 -1 2512 0
 S
 #2512
 Imperial Freight Complex Landing Pad~
@@ -468,11 +476,11 @@ Byss to deliver cargo, etc.
 D0
 ~
 ~
-0 -1 2513
+0 -1 2513 0
 D1
 ~
 ~
-0 -1 2511
+0 -1 2511 0
 S
 #2513
 Imperial Freight Complex Landing Pad~
@@ -486,11 +494,11 @@ Byss and land here to deliver cargo, etc.
 D1
 ~
 ~
-0 -1 2502
+0 -1 2502 0
 D2
 ~
 ~
-0 -1 2512
+0 -1 2512 0
 S
 #2514
 Imperial Freight Complex~
@@ -504,19 +512,19 @@ his office is to the west.
 D0
 ~
 ~
-0 -1 2517
+0 -1 2517 0
 D1
 ~
 ~
-0 -1 2515
+0 -1 2515 0
 D2
 ~
 ~
-0 -1 2503
+0 -1 2503 0
 D3
 ~
 ~
-0 -1 2516
+0 -1 2516 0
 S
 #2515
 Byss Bistro~
@@ -530,7 +538,11 @@ food dispensors are scattered about, giving food to the hungry.
 D3
 ~
 ~
-0 -1 2514
+0 -1 2514 0
+R M 0 2505 4 2515
+R M 0 2505 4 2515
+R M 0 2505 4 2515
+R M 0 2505 4 2515
 S
 #2516
 Imperial Freight Complex Office~
@@ -544,7 +556,8 @@ and on another corner are some file cabinets.
 D1
 ~
 ~
-0 -1 2514
+0 -1 2514 0
+R O 0 2503 1 2516
 S
 #2517
 Imperial Freight Complex Entrance~
@@ -557,19 +570,19 @@ for their travels. Many people pass through here every day.
 D0
 ~
 ~
-0 -1 2520
+0 -1 2520 0
 D1
 ~
 ~
-0 -1 2518
+0 -1 2518 0
 D2
 ~
 ~
-0 -1 2514
+0 -1 2514 0
 D3
 ~
 ~
-0 -1 2519
+0 -1 2519 0
 S
 #2518
 Imperial Freight Complex Shop~
@@ -584,7 +597,7 @@ actually acquire the supplies.
 D3
 ~
 ~
-0 -1 2517
+0 -1 2517 0
 S
 #2519
 Empty Space~
@@ -593,7 +606,7 @@ Empty Space~
 D1
 ~
 ~
-0 -1 2517
+0 -1 2517 0
 S
 #2520
 A Dusty Path~
@@ -602,11 +615,11 @@ A Dusty Path~
 D2
 ~
 ~
-0 -1 2517
+0 -1 2517 0
 D7
 ~
 ~
-0 -1 2521
+0 -1 2521 0
 S
 #2521
 A Dusty Path~
@@ -615,11 +628,11 @@ A Dusty Path~
 D7
 ~
 ~
-0 -1 2522
+0 -1 2522 0
 D8
 ~
 ~
-0 -1 2520
+0 -1 2520 0
 S
 #2522
 A Dusty Path~
@@ -628,15 +641,15 @@ A Dusty Path~
 D6
 ~
 ~
-0 -1 2525
+0 -1 2525 0
 D8
 ~
 ~
-0 -1 2521
+0 -1 2521 0
 D9
 ~
 ~
-0 -1 2523
+0 -1 2523 0
 S
 #2523
 A Dusty Path~
@@ -645,11 +658,11 @@ A Dusty Path~
 D6
 ~
 ~
-0 -1 2522
+0 -1 2522 0
 D7
 ~
 ~
-0 -1 2524
+0 -1 2524 0
 S
 #2524
 Entrance to Throne City~
@@ -664,19 +677,19 @@ especially for the Empire.
 D0
 ~
 ~
-0 -1 2682
+0 -1 2682 0
 D2
 ~
 ~
-0 -1 2752
+0 -1 2752 0
 D3
 ~
 ~
-0 -1 2552
+0 -1 2552 0
 D8
 ~
 ~
-0 -1 2523
+0 -1 2523 0
 S
 #2525
 A Dusty Path~
@@ -685,11 +698,11 @@ A Dusty Path~
 D6
 ~
 ~
-0 -1 2526
+0 -1 2526 0
 D9
 ~
 ~
-0 -1 2522
+0 -1 2522 0
 S
 #2526
 A Dusty Path~
@@ -698,11 +711,11 @@ A Dusty Path~
 D6
 ~
 ~
-0 -1 2527
+0 -1 2527 0
 D9
 ~
 ~
-0 -1 2525
+0 -1 2525 0
 S
 #2527
 A Dusty Path~
@@ -711,15 +724,15 @@ A Dusty Path~
 D0
 ~
 ~
-0 -1 2538
+0 -1 2538 0
 D1
 ~
 ~
-0 -1 2528
+0 -1 2528 0
 D9
 ~
 ~
-0 -1 2526
+0 -1 2526 0
 S
 #2528
 Entrance To An Imperial Training Facility~
@@ -734,11 +747,11 @@ top of it.
 D1
 ~
 ~
-0 -1 2529
+0 -1 2529 0
 D3
 ~
 ~
-0 -1 2527
+0 -1 2527 0
 S
 #2529
 Imperial Training Facility~
@@ -752,19 +765,19 @@ is the Weight Room and to the south is the Mess Hall.
 D0
 ~
 ~
-0 -1 2532
+0 -1 2532 0
 D1
 ~
 ~
-0 -1 2530
+0 -1 2530 0
 D2
 ~
 ~
-0 -1 2535
+0 -1 2535 0
 D3
 ~
 ~
-0 -1 2528
+0 -1 2528 0
 S
 #2530
 Imperial Training Facility~
@@ -778,19 +791,19 @@ where the commander can sit back and sleep in his comfy room.
 D0
 ~
 ~
-0 -1 2533
+0 -1 2533 0
 D1
 ~
 ~
-0 -1 2531
+0 -1 2531 0
 D2
 ~
 ~
-0 -1 2536
+0 -1 2536 0
 D3
 ~
 ~
-0 -1 2529
+0 -1 2529 0
 S
 #2531
 Imperial Training Facility~
@@ -804,15 +817,15 @@ for all to see.
 D0
 ~
 ~
-0 -1 2534
+0 -1 2534 0
 D2
 ~
 ~
-0 -1 2537
+0 -1 2537 0
 D3
 ~
 ~
-0 -1 2530
+0 -1 2530 0
 S
 #2532
 Weight Room~
@@ -826,7 +839,7 @@ discipine. They must be used to "encourage" the troops.
 D2
 ~
 ~
-0 -1 2529
+0 -1 2529 0
 S
 #2533
 Living Quarters~
@@ -841,7 +854,7 @@ due to the constant "drop in" from the drill sergeants.
 D2
 ~
 ~
-0 -1 2530
+0 -1 2530 0
 S
 #2534
 Training Area~
@@ -856,7 +869,7 @@ they don't lose it.
 D2
 ~
 ~
-0 -1 2531
+0 -1 2531 0
 S
 #2535
 Mess Hall~
@@ -870,7 +883,7 @@ to get special food that is not offered to the regulars.
 D0
 ~
 ~
-0 -1 2529
+0 -1 2529 0
 S
 #2536
 Commander's Office~
@@ -884,7 +897,8 @@ showing that its owner is a very skilled soldier.
 D0
 ~
 ~
-0 -1 2530
+0 -1 2530 0
+R O 0 2503 1 2536
 S
 #2537
 Infirmary~
@@ -899,7 +913,7 @@ privacy.
 D0
 ~
 ~
-0 -1 2531
+0 -1 2531 0
 S
 #2538
 The End Of A Dusty Path~
@@ -908,11 +922,11 @@ The End Of A Dusty Path~
 D2
 ~
 ~
-0 -1 2527
+0 -1 2527 0
 D7
 ~
 ~
-0 -1 2539
+0 -1 2539 0
 S
 #2539
 A Shooting Range~
@@ -921,15 +935,15 @@ A Shooting Range~
 D1
 ~
 ~
-0 -1 2540
+0 -1 2540 0
 D7
 ~
 ~
-0 -1 2548
+0 -1 2548 0
 D8
 ~
 ~
-0 -1 2538
+0 -1 2538 0
 S
 #2540
 A Shooting Range~
@@ -938,15 +952,15 @@ A Shooting Range~
 D1
 ~
 ~
-0 -1 2541
+0 -1 2541 0
 D2
 ~
 ~
-0 -1 2543
+0 -1 2543 0
 D3
 ~
 ~
-0 -1 2539
+0 -1 2539 0
 S
 #2541
 A Shooting Range~
@@ -955,11 +969,11 @@ A Shooting Range~
 D1
 ~
 ~
-0 -1 2542
+0 -1 2542 0
 D3
 ~
 ~
-0 -1 2540
+0 -1 2540 0
 S
 #2542
 A Shooting Range~
@@ -968,7 +982,7 @@ A Shooting Range~
 D3
 ~
 ~
-0 -1 2541
+0 -1 2541 0
 S
 #2543
 A Large Tent~
@@ -977,7 +991,7 @@ A Large Tent~
 D0
 ~
 ~
-0 -1 2540
+0 -1 2540 0
 S
 #2544
 A Flat Plain~
@@ -1006,15 +1020,15 @@ A Flat Plain~
 D0
 ~
 ~
-0 -1 2551
+0 -1 2551 0
 D3
 ~
 ~
-0 -1 2549
+0 -1 2549 0
 D8
 ~
 ~
-0 -1 2539
+0 -1 2539 0
 S
 #2549
 A Flat Plain~
@@ -1023,11 +1037,11 @@ A Flat Plain~
 D0
 ~
 ~
-0 -1 2550
+0 -1 2550 0
 D1
 ~
 ~
-0 -1 2548
+0 -1 2548 0
 S
 #2550
 A Flat Plain~
@@ -1036,11 +1050,11 @@ A Flat Plain~
 D1
 ~
 ~
-0 -1 2551
+0 -1 2551 0
 D2
 ~
 ~
-0 -1 2549
+0 -1 2549 0
 S
 #2551
 A Flat Plain~
@@ -1049,11 +1063,11 @@ A Flat Plain~
 D2
 ~
 ~
-0 -1 2548
+0 -1 2548 0
 D3
 ~
 ~
-0 -1 2550
+0 -1 2550 0
 S
 #2552
 Emperor Street~
@@ -1062,11 +1076,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2524
+0 -1 2524 0
 D3
 ~
 ~
-0 -1 2553
+0 -1 2553 0
 S
 #2553
 Emperor Street~
@@ -1075,11 +1089,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2552
+0 -1 2552 0
 D3
 ~
 ~
-0 -1 2554
+0 -1 2554 0
 S
 #2554
 Emperor Street~
@@ -1088,11 +1102,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2553
+0 -1 2553 0
 D3
 ~
 ~
-0 -1 2555
+0 -1 2555 0
 S
 #2555
 Emperor Street~
@@ -1101,11 +1115,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2554
+0 -1 2554 0
 D3
 ~
 ~
-0 -1 2556
+0 -1 2556 0
 S
 #2556
 Emperor Street~
@@ -1114,11 +1128,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2555
+0 -1 2555 0
 D3
 ~
 ~
-0 -1 2557
+0 -1 2557 0
 S
 #2557
 Intersection of Emperor and Admiralty~
@@ -1127,19 +1141,19 @@ Intersection of Emperor and Admiralty~
 D0
 ~
 ~
-0 -1 2569
+0 -1 2569 0
 D1
 ~
 ~
-0 -1 2556
+0 -1 2556 0
 D2
 ~
 ~
-0 -1 2580
+0 -1 2580 0
 D3
 ~
 ~
-0 -1 2558
+0 -1 2558 0
 S
 #2558
 Emperor Street~
@@ -1148,11 +1162,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2557
+0 -1 2557 0
 D3
 ~
 ~
-0 -1 2559
+0 -1 2559 0
 S
 #2559
 Emperor Street~
@@ -1161,11 +1175,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2558
+0 -1 2558 0
 D3
 ~
 ~
-0 -1 2560
+0 -1 2560 0
 S
 #2560
 Emperor Street~
@@ -1174,15 +1188,15 @@ Emperor Street~
 D0
 ~
 ~
-0 -1 2753
+0 -1 2753 0
 D1
 ~
 ~
-0 -1 2559
+0 -1 2559 0
 D3
 ~
 ~
-0 -1 2561
+0 -1 2561 0
 S
 #2561
 Emperor Street~
@@ -1191,11 +1205,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2560
+0 -1 2560 0
 D3
 ~
 ~
-0 -1 2562
+0 -1 2562 0
 S
 #2562
 Emperor Street~
@@ -1204,11 +1218,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2561
+0 -1 2561 0
 D3
 ~
 ~
-0 -1 2563
+0 -1 2563 0
 S
 #2563
 Intersection of Emperor and Royal~
@@ -1217,19 +1231,19 @@ Intersection of Emperor and Royal~
 D0
 ~
 ~
-0 -1 2597
+0 -1 2597 0
 D1
 ~
 ~
-0 -1 2562
+0 -1 2562 0
 D2
 ~
 ~
-0 -1 2608
+0 -1 2608 0
 D3
 ~
 ~
-0 -1 2564
+0 -1 2564 0
 S
 #2564
 Emperor Street~
@@ -1238,11 +1252,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2563
+0 -1 2563 0
 D3
 ~
 ~
-0 -1 2565
+0 -1 2565 0
 S
 #2565
 Emperor Street~
@@ -1251,11 +1265,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2564
+0 -1 2564 0
 D3
 ~
 ~
-0 -1 2566
+0 -1 2566 0
 S
 #2566
 Emperor Street~
@@ -1264,11 +1278,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2565
+0 -1 2565 0
 D3
 ~
 ~
-0 -1 2567
+0 -1 2567 0
 S
 #2567
 Emperor Street~
@@ -1277,11 +1291,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2566
+0 -1 2566 0
 D3
 ~
 ~
-0 -1 2568
+0 -1 2568 0
 S
 #2568
 Emperor Street~
@@ -1290,11 +1304,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2567
+0 -1 2567 0
 D3
 ~
 ~
-0 -1 2591
+0 -1 2591 0
 S
 #2569
 Admiralty Avenue~
@@ -1303,11 +1317,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2570
+0 -1 2570 0
 D2
 ~
 ~
-0 -1 2557
+0 -1 2557 0
 S
 #2570
 Admiralty Avenue~
@@ -1316,11 +1330,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2571
+0 -1 2571 0
 D2
 ~
 ~
-0 -1 2569
+0 -1 2569 0
 S
 #2571
 Admiralty Avenue~
@@ -1329,11 +1343,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2572
+0 -1 2572 0
 D2
 ~
 ~
-0 -1 2570
+0 -1 2570 0
 S
 #2572
 Admiralty Avenue~
@@ -1342,11 +1356,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2573
+0 -1 2573 0
 D2
 ~
 ~
-0 -1 2571
+0 -1 2571 0
 S
 #2573
 Admiralty Avenue~
@@ -1355,11 +1369,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2574
+0 -1 2574 0
 D2
 ~
 ~
-0 -1 2572
+0 -1 2572 0
 S
 #2574
 Intersection of Admiralty and Throne~
@@ -1368,19 +1382,19 @@ Intersection of Admiralty and Throne~
 D0
 ~
 ~
-0 -1 2575
+0 -1 2575 0
 D1
 ~
 ~
-0 -1 2646
+0 -1 2646 0
 D2
 ~
 ~
-0 -1 2573
+0 -1 2573 0
 D3
 ~
 ~
-0 -1 2647
+0 -1 2647 0
 S
 #2575
 Admiralty Avenue~
@@ -1389,11 +1403,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2576
+0 -1 2576 0
 D2
 ~
 ~
-0 -1 2574
+0 -1 2574 0
 S
 #2576
 Admiralty Avenue~
@@ -1402,11 +1416,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2577
+0 -1 2577 0
 D2
 ~
 ~
-0 -1 2575
+0 -1 2575 0
 S
 #2577
 Admiralty Avenue~
@@ -1415,11 +1429,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2578
+0 -1 2578 0
 D2
 ~
 ~
-0 -1 2576
+0 -1 2576 0
 S
 #2578
 Admiralty Avenue~
@@ -1428,11 +1442,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2579
+0 -1 2579 0
 D2
 ~
 ~
-0 -1 2577
+0 -1 2577 0
 S
 #2579
 Admiralty Avenue~
@@ -1441,7 +1455,7 @@ Admiralty Avenue~
 D2
 ~
 ~
-0 -1 2578
+0 -1 2578 0
 S
 #2580
 Admiralty Avenue~
@@ -1450,11 +1464,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2557
+0 -1 2557 0
 D2
 ~
 ~
-0 -1 2581
+0 -1 2581 0
 S
 #2581
 Admiralty Avenue~
@@ -1463,11 +1477,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2580
+0 -1 2580 0
 D2
 ~
 ~
-0 -1 2582
+0 -1 2582 0
 S
 #2582
 Admiralty Avenue~
@@ -1476,11 +1490,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2581
+0 -1 2581 0
 D2
 ~
 ~
-0 -1 2583
+0 -1 2583 0
 S
 #2583
 Admiralty Avenue~
@@ -1489,11 +1503,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2582
+0 -1 2582 0
 D2
 ~
 ~
-0 -1 2584
+0 -1 2584 0
 S
 #2584
 Admiralty Avenue~
@@ -1502,11 +1516,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2583
+0 -1 2583 0
 D2
 ~
 ~
-0 -1 2585
+0 -1 2585 0
 S
 #2585
 Intersection of Admiralty and Stormtrooper~
@@ -1515,19 +1529,19 @@ Intersection of Admiralty and Stormtrooper~
 D0
 ~
 ~
-0 -1 2584
+0 -1 2584 0
 D1
 ~
 ~
-0 -1 2666
+0 -1 2666 0
 D2
 ~
 ~
-0 -1 2586
+0 -1 2586 0
 D3
 ~
 ~
-0 -1 2667
+0 -1 2667 0
 S
 #2586
 Admiralty Avenue~
@@ -1536,11 +1550,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2585
+0 -1 2585 0
 D2
 ~
 ~
-0 -1 2587
+0 -1 2587 0
 S
 #2587
 Admiralty Avenue~
@@ -1549,11 +1563,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2586
+0 -1 2586 0
 D2
 ~
 ~
-0 -1 2588
+0 -1 2588 0
 S
 #2588
 Admiralty Avenue~
@@ -1562,11 +1576,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2587
+0 -1 2587 0
 D2
 ~
 ~
-0 -1 2589
+0 -1 2589 0
 S
 #2589
 Admiralty Avenue~
@@ -1575,11 +1589,11 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2588
+0 -1 2588 0
 D2
 ~
 ~
-0 -1 2590
+0 -1 2590 0
 S
 #2590
 Admiralty Avenue~
@@ -1588,7 +1602,7 @@ Admiralty Avenue~
 D0
 ~
 ~
-0 -1 2589
+0 -1 2589 0
 S
 #2591
 Intersection of Emperor and Power~
@@ -1597,19 +1611,19 @@ Intersection of Emperor and Power~
 D0
 ~
 ~
-0 -1 2619
+0 -1 2619 0
 D1
 ~
 ~
-0 -1 2568
+0 -1 2568 0
 D2
 ~
 ~
-0 -1 2631
+0 -1 2631 0
 D3
 ~
 ~
-0 -1 2592
+0 -1 2592 0
 S
 #2592
 Emperor Street~
@@ -1618,11 +1632,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2591
+0 -1 2591 0
 D3
 ~
 ~
-0 -1 2593
+0 -1 2593 0
 S
 #2593
 Emperor Street~
@@ -1631,11 +1645,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2592
+0 -1 2592 0
 D3
 ~
 ~
-0 -1 2594
+0 -1 2594 0
 S
 #2594
 Emperor Street~
@@ -1644,11 +1658,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2593
+0 -1 2593 0
 D3
 ~
 ~
-0 -1 2595
+0 -1 2595 0
 S
 #2595
 Emperor Street~
@@ -1657,11 +1671,11 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2594
+0 -1 2594 0
 D3
 ~
 ~
-0 -1 2596
+0 -1 2596 0
 S
 #2596
 Emperor Street~
@@ -1670,7 +1684,7 @@ Emperor Street~
 D1
 ~
 ~
-0 -1 2595
+0 -1 2595 0
 S
 #2597
 Royal Avenue~
@@ -1679,11 +1693,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2598
+0 -1 2598 0
 D2
 ~
 ~
-0 -1 2563
+0 -1 2563 0
 S
 #2598
 Royal Avenue~
@@ -1692,11 +1706,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2599
+0 -1 2599 0
 D2
 ~
 ~
-0 -1 2597
+0 -1 2597 0
 S
 #2599
 Royal Avenue~
@@ -1705,11 +1719,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2600
+0 -1 2600 0
 D2
 ~
 ~
-0 -1 2598
+0 -1 2598 0
 S
 #2600
 Royal Avenue~
@@ -1718,11 +1732,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2601
+0 -1 2601 0
 D2
 ~
 ~
-0 -1 2599
+0 -1 2599 0
 S
 #2601
 Royal Avenue~
@@ -1731,11 +1745,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2602
+0 -1 2602 0
 D2
 ~
 ~
-0 -1 2600
+0 -1 2600 0
 S
 #2602
 Intersection of Royal and Throne~
@@ -1744,19 +1758,19 @@ Intersection of Royal and Throne~
 D0
 ~
 ~
-0 -1 2603
+0 -1 2603 0
 D1
 ~
 ~
-0 -1 2651
+0 -1 2651 0
 D2
 ~
 ~
-0 -1 2601
+0 -1 2601 0
 D3
 ~
 ~
-0 -1 2652
+0 -1 2652 0
 S
 #2603
 Royal Avenue~
@@ -1765,11 +1779,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2604
+0 -1 2604 0
 D2
 ~
 ~
-0 -1 2602
+0 -1 2602 0
 S
 #2604
 Royal Avenue~
@@ -1778,11 +1792,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2605
+0 -1 2605 0
 D2
 ~
 ~
-0 -1 2603
+0 -1 2603 0
 S
 #2605
 Royal Avenue~
@@ -1791,11 +1805,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2606
+0 -1 2606 0
 D2
 ~
 ~
-0 -1 2604
+0 -1 2604 0
 S
 #2606
 Royal Avenue~
@@ -1804,11 +1818,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2607
+0 -1 2607 0
 D2
 ~
 ~
-0 -1 2605
+0 -1 2605 0
 S
 #2607
 Royal Avenue~
@@ -1817,7 +1831,7 @@ Royal Avenue~
 D2
 ~
 ~
-0 -1 2606
+0 -1 2606 0
 S
 #2608
 Royal Avenue~
@@ -1826,11 +1840,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2563
+0 -1 2563 0
 D2
 ~
 ~
-0 -1 2609
+0 -1 2609 0
 S
 #2609
 Royal Avenue~
@@ -1839,11 +1853,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2608
+0 -1 2608 0
 D2
 ~
 ~
-0 -1 2610
+0 -1 2610 0
 S
 #2610
 Royal Avenue~
@@ -1852,11 +1866,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2609
+0 -1 2609 0
 D2
 ~
 ~
-0 -1 2611
+0 -1 2611 0
 S
 #2611
 Royal Avenue~
@@ -1865,11 +1879,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2610
+0 -1 2610 0
 D2
 ~
 ~
-0 -1 2612
+0 -1 2612 0
 S
 #2612
 Royal Avenue~
@@ -1878,11 +1892,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2611
+0 -1 2611 0
 D2
 ~
 ~
-0 -1 2613
+0 -1 2613 0
 S
 #2613
 Intersection of Royal and Stormtrooper~
@@ -1891,19 +1905,19 @@ Intersection of Royal and Stormtrooper~
 D0
 ~
 ~
-0 -1 2612
+0 -1 2612 0
 D1
 ~
 ~
-0 -1 2671
+0 -1 2671 0
 D2
 ~
 ~
-0 -1 2614
+0 -1 2614 0
 D3
 ~
 ~
-0 -1 2672
+0 -1 2672 0
 S
 #2614
 Royal Avenue~
@@ -1912,11 +1926,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2613
+0 -1 2613 0
 D2
 ~
 ~
-0 -1 2615
+0 -1 2615 0
 S
 #2615
 Royal Avenue~
@@ -1925,11 +1939,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2614
+0 -1 2614 0
 D2
 ~
 ~
-0 -1 2616
+0 -1 2616 0
 S
 #2616
 Royal Avenue~
@@ -1938,11 +1952,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2615
+0 -1 2615 0
 D2
 ~
 ~
-0 -1 2617
+0 -1 2617 0
 S
 #2617
 Royal Avenue~
@@ -1951,11 +1965,11 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2616
+0 -1 2616 0
 D2
 ~
 ~
-0 -1 2618
+0 -1 2618 0
 S
 #2618
 Royal Avenue~
@@ -1964,7 +1978,7 @@ Royal Avenue~
 D0
 ~
 ~
-0 -1 2617
+0 -1 2617 0
 S
 #2619
 Power Lane~
@@ -1973,11 +1987,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2620
+0 -1 2620 0
 D2
 ~
 ~
-0 -1 2591
+0 -1 2591 0
 S
 #2620
 Power Lane~
@@ -1986,11 +2000,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2621
+0 -1 2621 0
 D2
 ~
 ~
-0 -1 2619
+0 -1 2619 0
 S
 #2621
 Power Lane~
@@ -1999,11 +2013,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2622
+0 -1 2622 0
 D2
 ~
 ~
-0 -1 2620
+0 -1 2620 0
 S
 #2622
 Power Lane~
@@ -2012,11 +2026,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2623
+0 -1 2623 0
 D2
 ~
 ~
-0 -1 2621
+0 -1 2621 0
 S
 #2623
 Power Lane~
@@ -2025,11 +2039,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2624
+0 -1 2624 0
 D2
 ~
 ~
-0 -1 2622
+0 -1 2622 0
 S
 #2624
 Intersection of Power and Throne~
@@ -2038,19 +2052,19 @@ Intersection of Power and Throne~
 D0
 ~
 ~
-0 -1 2625
+0 -1 2625 0
 D1
 ~
 ~
-0 -1 2656
+0 -1 2656 0
 D2
 ~
 ~
-0 -1 2623
+0 -1 2623 0
 D3
 ~
 ~
-0 -1 2657
+0 -1 2657 0
 S
 #2625
 Power Lane~
@@ -2059,11 +2073,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2626
+0 -1 2626 0
 D2
 ~
 ~
-0 -1 2624
+0 -1 2624 0
 S
 #2626
 Power Lane~
@@ -2072,11 +2086,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2627
+0 -1 2627 0
 D2
 ~
 ~
-0 -1 2625
+0 -1 2625 0
 S
 #2627
 Power Lane~
@@ -2085,11 +2099,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2629
+0 -1 2629 0
 D2
 ~
 ~
-0 -1 2626
+0 -1 2626 0
 S
 #2629
 Power Lane~
@@ -2098,11 +2112,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2630
+0 -1 2630 0
 D2
 ~
 ~
-0 -1 2627
+0 -1 2627 0
 S
 #2630
 Power Lane~
@@ -2111,7 +2125,7 @@ Power Lane~
 D2
 ~
 ~
-0 -1 2629
+0 -1 2629 0
 S
 #2631
 Power Lane~
@@ -2120,11 +2134,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2591
+0 -1 2591 0
 D2
 ~
 ~
-0 -1 2632
+0 -1 2632 0
 S
 #2632
 Power Lane~
@@ -2133,11 +2147,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2631
+0 -1 2631 0
 D2
 ~
 ~
-0 -1 2633
+0 -1 2633 0
 S
 #2633
 Power Lane~
@@ -2146,11 +2160,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2632
+0 -1 2632 0
 D2
 ~
 ~
-0 -1 2634
+0 -1 2634 0
 S
 #2634
 Power Lane~
@@ -2159,11 +2173,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2633
+0 -1 2633 0
 D2
 ~
 ~
-0 -1 2635
+0 -1 2635 0
 S
 #2635
 Power Lane~
@@ -2172,11 +2186,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2634
+0 -1 2634 0
 D2
 ~
 ~
-0 -1 2636
+0 -1 2636 0
 S
 #2636
 Intersection of Power and Stormtrooper~
@@ -2185,19 +2199,19 @@ Intersection of Power and Stormtrooper~
 D0
 ~
 ~
-0 -1 2635
+0 -1 2635 0
 D1
 ~
 ~
-0 -1 2676
+0 -1 2676 0
 D2
 ~
 ~
-0 -1 2637
+0 -1 2637 0
 D3
 ~
 ~
-0 -1 2677
+0 -1 2677 0
 S
 #2637
 Power Lane~
@@ -2206,11 +2220,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2636
+0 -1 2636 0
 D2
 ~
 ~
-0 -1 2638
+0 -1 2638 0
 S
 #2638
 Power Lane~
@@ -2219,11 +2233,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2637
+0 -1 2637 0
 D2
 ~
 ~
-0 -1 2639
+0 -1 2639 0
 S
 #2639
 Power Lane~
@@ -2232,11 +2246,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2638
+0 -1 2638 0
 D2
 ~
 ~
-0 -1 2640
+0 -1 2640 0
 S
 #2640
 Power Lane~
@@ -2245,11 +2259,11 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2639
+0 -1 2639 0
 D2
 ~
 ~
-0 -1 2641
+0 -1 2641 0
 S
 #2641
 Power Lane~
@@ -2258,7 +2272,7 @@ Power Lane~
 D0
 ~
 ~
-0 -1 2640
+0 -1 2640 0
 S
 #2642
 Throne Road~
@@ -2267,7 +2281,7 @@ Throne Road~
 D3
 ~
 ~
-0 -1 2643
+0 -1 2643 0
 S
 #2643
 Throne Road~
@@ -2276,11 +2290,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2642
+0 -1 2642 0
 D3
 ~
 ~
-0 -1 2644
+0 -1 2644 0
 S
 #2644
 Throne Road~
@@ -2289,11 +2303,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2643
+0 -1 2643 0
 D3
 ~
 ~
-0 -1 2645
+0 -1 2645 0
 S
 #2645
 Throne Road~
@@ -2302,11 +2316,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2644
+0 -1 2644 0
 D3
 ~
 ~
-0 -1 2646
+0 -1 2646 0
 S
 #2646
 Throne Road~
@@ -2315,11 +2329,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2645
+0 -1 2645 0
 D3
 ~
 ~
-0 -1 2574
+0 -1 2574 0
 S
 #2647
 Throne Road~
@@ -2328,11 +2342,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2574
+0 -1 2574 0
 D3
 ~
 ~
-0 -1 2648
+0 -1 2648 0
 S
 #2648
 Throne Road~
@@ -2341,11 +2355,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2647
+0 -1 2647 0
 D3
 ~
 ~
-0 -1 2649
+0 -1 2649 0
 S
 #2649
 Throne Road~
@@ -2354,11 +2368,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2648
+0 -1 2648 0
 D3
 ~
 ~
-0 -1 2650
+0 -1 2650 0
 S
 #2650
 Throne Road~
@@ -2367,11 +2381,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2649
+0 -1 2649 0
 D3
 ~
 ~
-0 -1 2651
+0 -1 2651 0
 S
 #2651
 Throne Road~
@@ -2380,11 +2394,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2650
+0 -1 2650 0
 D3
 ~
 ~
-0 -1 2602
+0 -1 2602 0
 S
 #2652
 Throne Road~
@@ -2393,11 +2407,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2602
+0 -1 2602 0
 D3
 ~
 ~
-0 -1 2653
+0 -1 2653 0
 S
 #2653
 Throne Road~
@@ -2406,11 +2420,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2652
+0 -1 2652 0
 D3
 ~
 ~
-0 -1 2654
+0 -1 2654 0
 S
 #2654
 Throne Road~
@@ -2419,11 +2433,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2653
+0 -1 2653 0
 D3
 ~
 ~
-0 -1 2655
+0 -1 2655 0
 S
 #2655
 Throne Road~
@@ -2432,11 +2446,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2654
+0 -1 2654 0
 D3
 ~
 ~
-0 -1 2656
+0 -1 2656 0
 S
 #2656
 Throne Road~
@@ -2445,11 +2459,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2655
+0 -1 2655 0
 D3
 ~
 ~
-0 -1 2624
+0 -1 2624 0
 S
 #2657
 Throne Road~
@@ -2458,11 +2472,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2624
+0 -1 2624 0
 D3
 ~
 ~
-0 -1 2658
+0 -1 2658 0
 S
 #2658
 Throne Road~
@@ -2471,11 +2485,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2657
+0 -1 2657 0
 D3
 ~
 ~
-0 -1 2659
+0 -1 2659 0
 S
 #2659
 Throne Road~
@@ -2484,11 +2498,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2658
+0 -1 2658 0
 D3
 ~
 ~
-0 -1 2660
+0 -1 2660 0
 S
 #2660
 Throne Road~
@@ -2497,11 +2511,11 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2659
+0 -1 2659 0
 D3
 ~
 ~
-0 -1 2661
+0 -1 2661 0
 S
 #2661
 Throne Road~
@@ -2510,7 +2524,7 @@ Throne Road~
 D1
 ~
 ~
-0 -1 2660
+0 -1 2660 0
 S
 #2662
 Stormtrooper Street~
@@ -2519,7 +2533,7 @@ Stormtrooper Street~
 D3
 ~
 ~
-0 -1 2663
+0 -1 2663 0
 S
 #2663
 Stormtrooper Street~
@@ -2528,11 +2542,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2662
+0 -1 2662 0
 D3
 ~
 ~
-0 -1 2664
+0 -1 2664 0
 S
 #2664
 Stormtrooper Street~
@@ -2541,11 +2555,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2663
+0 -1 2663 0
 D3
 ~
 ~
-0 -1 2665
+0 -1 2665 0
 S
 #2665
 Stormtrooper Street~
@@ -2554,11 +2568,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2664
+0 -1 2664 0
 D3
 ~
 ~
-0 -1 2666
+0 -1 2666 0
 S
 #2666
 Stormtrooper Street~
@@ -2567,11 +2581,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2665
+0 -1 2665 0
 D3
 ~
 ~
-0 -1 2585
+0 -1 2585 0
 S
 #2667
 Stormtrooper Street~
@@ -2580,11 +2594,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2585
+0 -1 2585 0
 D3
 ~
 ~
-0 -1 2668
+0 -1 2668 0
 S
 #2668
 Stormtrooper Street~
@@ -2593,11 +2607,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2667
+0 -1 2667 0
 D3
 ~
 ~
-0 -1 2669
+0 -1 2669 0
 S
 #2669
 Stormtrooper Street~
@@ -2606,11 +2620,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2668
+0 -1 2668 0
 D3
 ~
 ~
-0 -1 2670
+0 -1 2670 0
 S
 #2670
 Stormtrooper Street~
@@ -2619,11 +2633,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2669
+0 -1 2669 0
 D3
 ~
 ~
-0 -1 2671
+0 -1 2671 0
 S
 #2671
 Stormtrooper Street~
@@ -2632,11 +2646,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2670
+0 -1 2670 0
 D3
 ~
 ~
-0 -1 2613
+0 -1 2613 0
 S
 #2672
 Stormtrooper Street~
@@ -2645,11 +2659,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2613
+0 -1 2613 0
 D3
 ~
 ~
-0 -1 2673
+0 -1 2673 0
 S
 #2673
 Stormtrooper Street~
@@ -2658,11 +2672,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2672
+0 -1 2672 0
 D3
 ~
 ~
-0 -1 2674
+0 -1 2674 0
 S
 #2674
 Stormtrooper Street~
@@ -2671,11 +2685,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2673
+0 -1 2673 0
 D3
 ~
 ~
-0 -1 2675
+0 -1 2675 0
 S
 #2675
 Stormtrooper Street~
@@ -2684,11 +2698,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2674
+0 -1 2674 0
 D3
 ~
 ~
-0 -1 2676
+0 -1 2676 0
 S
 #2676
 Stormtrooper Street~
@@ -2697,11 +2711,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2675
+0 -1 2675 0
 D3
 ~
 ~
-0 -1 2636
+0 -1 2636 0
 S
 #2677
 Stormtrooper Street~
@@ -2710,11 +2724,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2636
+0 -1 2636 0
 D3
 ~
 ~
-0 -1 2678
+0 -1 2678 0
 S
 #2678
 Stormtrooper Street~
@@ -2723,11 +2737,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2677
+0 -1 2677 0
 D3
 ~
 ~
-0 -1 2679
+0 -1 2679 0
 S
 #2679
 Stormtrooper Street~
@@ -2736,11 +2750,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2678
+0 -1 2678 0
 D3
 ~
 ~
-0 -1 2680
+0 -1 2680 0
 S
 #2680
 Stormtrooper Street~
@@ -2749,11 +2763,11 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2679
+0 -1 2679 0
 D3
 ~
 ~
-0 -1 2681
+0 -1 2681 0
 S
 #2681
 Stormtrooper Street~
@@ -2762,7 +2776,7 @@ Stormtrooper Street~
 D1
 ~
 ~
-0 -1 2680
+0 -1 2680 0
 S
 #2682
 Fortified Area~
@@ -2771,11 +2785,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2683
+0 -1 2683 0
 D2
 ~
 ~
-0 -1 2524
+0 -1 2524 0
 S
 #2683
 Fortified Area~
@@ -2789,11 +2803,11 @@ fortifications to provide further security for the city.
 D0
 ~
 ~
-0 -1 2684
+0 -1 2684 0
 D2
 ~
 ~
-0 -1 2682
+0 -1 2682 0
 S
 #2684
 Fortified Area~
@@ -2802,11 +2816,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2685
+0 -1 2685 0
 D2
 ~
 ~
-0 -1 2683
+0 -1 2683 0
 S
 #2685
 Fortified Area~
@@ -2815,11 +2829,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2686
+0 -1 2686 0
 D2
 ~
 ~
-0 -1 2684
+0 -1 2684 0
 S
 #2686
 Fortified Area~
@@ -2828,11 +2842,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2687
+0 -1 2687 0
 D2
 ~
 ~
-0 -1 2685
+0 -1 2685 0
 S
 #2687
 1~
@@ -2841,11 +2855,11 @@ S
 D2
 ~
 ~
-0 -1 2686
+0 -1 2686 0
 D7
 ~
 ~
-0 -1 2688
+0 -1 2688 0
 S
 #2688
 Fortified Area~
@@ -2854,11 +2868,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2689
+0 -1 2689 0
 D8
 ~
 ~
-0 -1 2687
+0 -1 2687 0
 S
 #2689
 Fortified Area~
@@ -2867,11 +2881,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2690
+0 -1 2690 0
 D8
 ~
 ~
-0 -1 2688
+0 -1 2688 0
 S
 #2690
 Fortified Area~
@@ -2880,11 +2894,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2691
+0 -1 2691 0
 D8
 ~
 ~
-0 -1 2689
+0 -1 2689 0
 S
 #2691
 Fortified Area~
@@ -2893,11 +2907,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2692
+0 -1 2692 0
 D8
 ~
 ~
-0 -1 2690
+0 -1 2690 0
 S
 #2692
 Fortified Area~
@@ -2906,11 +2920,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2693
+0 -1 2693 0
 D8
 ~
 ~
-0 -1 2691
+0 -1 2691 0
 S
 #2693
 1~
@@ -2919,11 +2933,11 @@ S
 D3
 ~
 ~
-0 -1 2694
+0 -1 2694 0
 D8
 ~
 ~
-0 -1 2692
+0 -1 2692 0
 S
 #2694
 Fortified Area~
@@ -2932,11 +2946,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2693
+0 -1 2693 0
 D3
 ~
 ~
-0 -1 2695
+0 -1 2695 0
 S
 #2695
 Fortified Area~
@@ -2945,11 +2959,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2694
+0 -1 2694 0
 D3
 ~
 ~
-0 -1 2696
+0 -1 2696 0
 S
 #2696
 Fortified Area~
@@ -2958,11 +2972,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2695
+0 -1 2695 0
 D3
 ~
 ~
-0 -1 2697
+0 -1 2697 0
 S
 #2697
 Fortified Area~
@@ -2971,11 +2985,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2696
+0 -1 2696 0
 D3
 ~
 ~
-0 -1 2698
+0 -1 2698 0
 S
 #2698
 Fortified Area~
@@ -2984,11 +2998,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2697
+0 -1 2697 0
 D3
 ~
 ~
-0 -1 2699
+0 -1 2699 0
 S
 #2699
 1~
@@ -2997,11 +3011,11 @@ S
 D1
 ~
 ~
-0 -1 2698
+0 -1 2698 0
 D3
 ~
 ~
-0 -1 2700
+0 -1 2700 0
 S
 #2700
 Fortified Area~
@@ -3010,11 +3024,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2699
+0 -1 2699 0
 D3
 ~
 ~
-0 -1 2701
+0 -1 2701 0
 S
 #2701
 Fortified Area~
@@ -3023,11 +3037,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2700
+0 -1 2700 0
 D3
 ~
 ~
-0 -1 2702
+0 -1 2702 0
 S
 #2702
 Fortified Area~
@@ -3036,11 +3050,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2701
+0 -1 2701 0
 D3
 ~
 ~
-0 -1 2703
+0 -1 2703 0
 S
 #2703
 Fortified Area~
@@ -3049,11 +3063,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2702
+0 -1 2702 0
 D3
 ~
 ~
-0 -1 2704
+0 -1 2704 0
 S
 #2704
 Fortified Area~
@@ -3062,11 +3076,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2703
+0 -1 2703 0
 D3
 ~
 ~
-0 -1 2705
+0 -1 2705 0
 S
 #2705
 1~
@@ -3075,11 +3089,11 @@ S
 D1
 ~
 ~
-0 -1 2704
+0 -1 2704 0
 D9
 ~
 ~
-0 -1 2706
+0 -1 2706 0
 S
 #2706
 Fortified Area~
@@ -3088,11 +3102,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2705
+0 -1 2705 0
 D9
 ~
 ~
-0 -1 2707
+0 -1 2707 0
 S
 #2707
 Fortified Area~
@@ -3101,11 +3115,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2706
+0 -1 2706 0
 D9
 ~
 ~
-0 -1 2708
+0 -1 2708 0
 S
 #2708
 Fortified Area~
@@ -3114,11 +3128,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2707
+0 -1 2707 0
 D9
 ~
 ~
-0 -1 2709
+0 -1 2709 0
 S
 #2709
 Fortified Area~
@@ -3127,11 +3141,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2708
+0 -1 2708 0
 D9
 ~
 ~
-0 -1 2710
+0 -1 2710 0
 S
 #2710
 Fortified Area~
@@ -3140,11 +3154,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2709
+0 -1 2709 0
 D9
 ~
 ~
-0 -1 2711
+0 -1 2711 0
 S
 #2711
 1~
@@ -3153,11 +3167,11 @@ S
 D2
 ~
 ~
-0 -1 2712
+0 -1 2712 0
 D6
 ~
 ~
-0 -1 2710
+0 -1 2710 0
 S
 #2712
 Fortified Area~
@@ -3166,11 +3180,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2711
+0 -1 2711 0
 D2
 ~
 ~
-0 -1 2713
+0 -1 2713 0
 S
 #2713
 Fortified Area~
@@ -3179,11 +3193,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2712
+0 -1 2712 0
 D2
 ~
 ~
-0 -1 2714
+0 -1 2714 0
 S
 #2714
 Fortified Area~
@@ -3192,11 +3206,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2713
+0 -1 2713 0
 D2
 ~
 ~
-0 -1 2715
+0 -1 2715 0
 S
 #2715
 Fortified Area~
@@ -3205,11 +3219,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2714
+0 -1 2714 0
 D2
 ~
 ~
-0 -1 2716
+0 -1 2716 0
 S
 #2716
 Fortified Area~
@@ -3218,11 +3232,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2715
+0 -1 2715 0
 D2
 ~
 ~
-0 -1 2717
+0 -1 2717 0
 S
 #2717
 1~
@@ -3231,11 +3245,11 @@ S
 D0
 ~
 ~
-0 -1 2716
+0 -1 2716 0
 D2
 ~
 ~
-0 -1 2718
+0 -1 2718 0
 S
 #2718
 Fortified Area~
@@ -3244,11 +3258,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2717
+0 -1 2717 0
 D2
 ~
 ~
-0 -1 2719
+0 -1 2719 0
 S
 #2719
 Fortified Area~
@@ -3257,11 +3271,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2718
+0 -1 2718 0
 D2
 ~
 ~
-0 -1 2720
+0 -1 2720 0
 S
 #2720
 Fortified Area~
@@ -3270,11 +3284,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2719
+0 -1 2719 0
 D2
 ~
 ~
-0 -1 2721
+0 -1 2721 0
 S
 #2721
 Fortified Area~
@@ -3283,11 +3297,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2720
+0 -1 2720 0
 D2
 ~
 ~
-0 -1 2722
+0 -1 2722 0
 S
 #2722
 Fortified Area~
@@ -3296,11 +3310,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2721
+0 -1 2721 0
 D2
 ~
 ~
-0 -1 2723
+0 -1 2723 0
 S
 #2723
 1~
@@ -3309,11 +3323,11 @@ S
 D0
 ~
 ~
-0 -1 2722
+0 -1 2722 0
 D8
 ~
 ~
-0 -1 2724
+0 -1 2724 0
 S
 #2724
 Fortified Area~
@@ -3322,11 +3336,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2723
+0 -1 2723 0
 D8
 ~
 ~
-0 -1 2725
+0 -1 2725 0
 S
 #2725
 Fortified Area~
@@ -3335,11 +3349,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2724
+0 -1 2724 0
 D8
 ~
 ~
-0 -1 2726
+0 -1 2726 0
 S
 #2726
 Fortified Area~
@@ -3348,11 +3362,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2725
+0 -1 2725 0
 D8
 ~
 ~
-0 -1 2727
+0 -1 2727 0
 S
 #2727
 Fortified Area~
@@ -3361,11 +3375,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2726
+0 -1 2726 0
 D8
 ~
 ~
-0 -1 2728
+0 -1 2728 0
 S
 #2728
 Fortified Area~
@@ -3374,11 +3388,11 @@ Fortified Area~
 D7
 ~
 ~
-0 -1 2727
+0 -1 2727 0
 D8
 ~
 ~
-0 -1 2729
+0 -1 2729 0
 S
 #2729
 1~
@@ -3387,11 +3401,11 @@ S
 D1
 ~
 ~
-0 -1 2730
+0 -1 2730 0
 D7
 ~
 ~
-0 -1 2728
+0 -1 2728 0
 S
 #2730
 Fortified Area~
@@ -3400,11 +3414,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2731
+0 -1 2731 0
 D3
 ~
 ~
-0 -1 2729
+0 -1 2729 0
 S
 #2731
 Fortified Area~
@@ -3413,11 +3427,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2732
+0 -1 2732 0
 D3
 ~
 ~
-0 -1 2730
+0 -1 2730 0
 S
 #2732
 Fortified Area~
@@ -3426,11 +3440,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2733
+0 -1 2733 0
 D3
 ~
 ~
-0 -1 2731
+0 -1 2731 0
 S
 #2733
 Fortified Area~
@@ -3439,11 +3453,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2734
+0 -1 2734 0
 D3
 ~
 ~
-0 -1 2732
+0 -1 2732 0
 S
 #2734
 Fortified Area~
@@ -3452,11 +3466,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2735
+0 -1 2735 0
 D3
 ~
 ~
-0 -1 2733
+0 -1 2733 0
 S
 #2735
 1~
@@ -3465,11 +3479,11 @@ S
 D1
 ~
 ~
-0 -1 2736
+0 -1 2736 0
 D3
 ~
 ~
-0 -1 2734
+0 -1 2734 0
 S
 #2736
 Fortified Area~
@@ -3478,11 +3492,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2737
+0 -1 2737 0
 D3
 ~
 ~
-0 -1 2735
+0 -1 2735 0
 S
 #2737
 Fortified Area~
@@ -3491,11 +3505,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2738
+0 -1 2738 0
 D3
 ~
 ~
-0 -1 2736
+0 -1 2736 0
 S
 #2738
 Fortified Area~
@@ -3504,11 +3518,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2739
+0 -1 2739 0
 D3
 ~
 ~
-0 -1 2737
+0 -1 2737 0
 S
 #2739
 Fortified Area~
@@ -3517,11 +3531,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2740
+0 -1 2740 0
 D3
 ~
 ~
-0 -1 2738
+0 -1 2738 0
 S
 #2740
 Fortified Area~
@@ -3530,11 +3544,11 @@ Fortified Area~
 D1
 ~
 ~
-0 -1 2741
+0 -1 2741 0
 D3
 ~
 ~
-0 -1 2739
+0 -1 2739 0
 S
 #2741
 1~
@@ -3543,11 +3557,11 @@ S
 D3
 ~
 ~
-0 -1 2740
+0 -1 2740 0
 D6
 ~
 ~
-0 -1 2742
+0 -1 2742 0
 S
 #2742
 Fortified Area~
@@ -3556,11 +3570,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2743
+0 -1 2743 0
 D9
 ~
 ~
-0 -1 2741
+0 -1 2741 0
 S
 #2743
 Fortified Area~
@@ -3569,11 +3583,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2744
+0 -1 2744 0
 D9
 ~
 ~
-0 -1 2742
+0 -1 2742 0
 S
 #2744
 Fortified Area~
@@ -3582,11 +3596,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2745
+0 -1 2745 0
 D9
 ~
 ~
-0 -1 2743
+0 -1 2743 0
 S
 #2745
 Fortified Area~
@@ -3595,11 +3609,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2746
+0 -1 2746 0
 D9
 ~
 ~
-0 -1 2744
+0 -1 2744 0
 S
 #2746
 Fortified Area~
@@ -3608,11 +3622,11 @@ Fortified Area~
 D6
 ~
 ~
-0 -1 2747
+0 -1 2747 0
 D9
 ~
 ~
-0 -1 2745
+0 -1 2745 0
 S
 #2747
 1~
@@ -3621,11 +3635,11 @@ S
 D0
 ~
 ~
-0 -1 2748
+0 -1 2748 0
 D9
 ~
 ~
-0 -1 2746
+0 -1 2746 0
 S
 #2748
 Fortified Area~
@@ -3634,11 +3648,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2749
+0 -1 2749 0
 D2
 ~
 ~
-0 -1 2747
+0 -1 2747 0
 S
 #2749
 Fortified Area~
@@ -3647,11 +3661,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2750
+0 -1 2750 0
 D2
 ~
 ~
-0 -1 2748
+0 -1 2748 0
 S
 #2750
 Fortified Area~
@@ -3660,11 +3674,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2751
+0 -1 2751 0
 D2
 ~
 ~
-0 -1 2749
+0 -1 2749 0
 S
 #2751
 Fortified Area~
@@ -3673,11 +3687,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2752
+0 -1 2752 0
 D2
 ~
 ~
-0 -1 2750
+0 -1 2750 0
 S
 #2752
 Fortified Area~
@@ -3686,11 +3700,11 @@ Fortified Area~
 D0
 ~
 ~
-0 -1 2524
+0 -1 2524 0
 D2
 ~
 ~
-0 -1 2751
+0 -1 2751 0
 S
 #2753
 Entrance to the Imperial Citadel~
@@ -3705,15 +3719,15 @@ are specially made to deflect blaster bolts and are very thick.
 D2
 ~
 ~
-0 -1 2560
+0 -1 2560 0
 D6
 ~
 ~
-0 -1 2754
+0 -1 2754 0
 D7
 ~
 ~
-0 -1 2766
+0 -1 2766 0
 S
 #2754
 Guard Post~
@@ -3729,11 +3743,11 @@ can pass.
 D6
 ~
 ~
-0 -1 2755
+0 -1 2755 0
 D9
 ~
 ~
-0 -1 2753
+0 -1 2753 0
 S
 #2755
 Guard Post~
@@ -3748,11 +3762,11 @@ northeast that is deactivated when a person is allowed through.
 D6
 ~
 ~
-0 -1 2756
+0 -1 2756 0
 D9
 ~
 ~
-0 -1 2754
+0 -1 2754 0
 S
 #2756
 Hallway to Foyer of Imperial Citadel~
@@ -3766,11 +3780,11 @@ shines brightly here, eliminating the need for lighting.
 D6
 ~
 ~
-0 -1 2757
+0 -1 2757 0
 D9
 ~
 ~
-0 -1 2755
+0 -1 2755 0
 S
 #2757
 Foyer of Imperial Citadel~
@@ -3785,11 +3799,11 @@ place seem like a fairy tale castle.
 D3
 ~
 ~
-0 -1 2758
+0 -1 2758 0
 D9
 ~
 ~
-0 -1 2756
+0 -1 2756 0
 S
 #2758
 Foyer of Imperial Citadel~
@@ -3804,11 +3818,11 @@ place seem like a fairy tail castle.
 D1
 ~
 ~
-0 -1 2757
+0 -1 2757 0
 D3
 ~
 ~
-0 -1 2759
+0 -1 2759 0
 S
 #2759
 Foyer of Imperial Citadel~
@@ -3817,15 +3831,15 @@ Foyer of Imperial Citadel~
 D1
 ~
 ~
-0 -1 2758
+0 -1 2758 0
 D2
 ~
 ~
-0 -1 2769
+0 -1 2769 0
 D3
 ~
 ~
-0 -1 2760
+0 -1 2760 0
 S
 #2760
 Foyer of Imperial Citadel~
@@ -3834,15 +3848,15 @@ Foyer of Imperial Citadel~
 D1
 ~
 ~
-0 -1 2759
+0 -1 2759 0
 D2
 ~
 ~
-0 -1 2768
+0 -1 2768 0
 D3
 ~
 ~
-0 -1 2761
+0 -1 2761 0
 S
 #2761
 Foyer of Imperial Citadel~
@@ -3851,15 +3865,15 @@ Foyer of Imperial Citadel~
 D1
 ~
 ~
-0 -1 2760
+0 -1 2760 0
 D2
 ~
 ~
-0 -1 2767
+0 -1 2767 0
 D3
 ~
 ~
-0 -1 2762
+0 -1 2762 0
 S
 #2762
 Foyer of Imperial Citadel~
@@ -3868,11 +3882,11 @@ Foyer of Imperial Citadel~
 D1
 ~
 ~
-0 -1 2761
+0 -1 2761 0
 D3
 ~
 ~
-0 -1 2763
+0 -1 2763 0
 S
 #2763
 Foyer of Imperial Citadel~
@@ -3881,11 +3895,11 @@ Foyer of Imperial Citadel~
 D1
 ~
 ~
-0 -1 2762
+0 -1 2762 0
 D8
 ~
 ~
-0 -1 2764
+0 -1 2764 0
 S
 #2764
 Entrance to Foyer of Imperial Citadel~
@@ -3899,11 +3913,11 @@ shines brightly here, eliminating the need for lighting.
 D7
 ~
 ~
-0 -1 2763
+0 -1 2763 0
 D8
 ~
 ~
-0 -1 2765
+0 -1 2765 0
 S
 #2765
 Guard Post~
@@ -3918,11 +3932,11 @@ northeast that is deactivated when a person is allowed through.
 D7
 ~
 ~
-0 -1 2764
+0 -1 2764 0
 D8
 ~
 ~
-0 -1 2766
+0 -1 2766 0
 S
 #2766
 Guard Post~
@@ -3938,11 +3952,11 @@ can pass.
 D7
 ~
 ~
-0 -1 2765
+0 -1 2765 0
 D8
 ~
 ~
-0 -1 2753
+0 -1 2753 0
 S
 #2767
 Security Station~
@@ -3957,7 +3971,7 @@ holomap of the ground floor.
 D0
 ~
 ~
-0 -1 2761
+0 -1 2761 0
 S
 #2768
 Hallway to Turbolift~
@@ -3971,11 +3985,11 @@ floor here.
 D0
 ~
 ~
-0 -1 2760
+0 -1 2760 0
 D2
 ~
 ~
-0 -1 2770
+0 -1 2770 0
 S
 #2769
 Security Station~
@@ -3990,7 +4004,7 @@ holomap of the ground floor.
 D0
 ~
 ~
-0 -1 2759
+0 -1 2759 0
 S
 #2770
 Turbolift~
@@ -4006,7 +4020,7 @@ it.
 D0
 ~
 ~
-0 -1 2768
+0 -1 2768 0
 S
 #2771
 Imperial Citadel First Floor~
@@ -4015,7 +4029,7 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2772
+0 -1 2772 0
 S
 #2772
 Imperial Citadel First Floor~
@@ -4030,19 +4044,19 @@ darkness that hides behind the beauty.
 D0
 ~
 ~
-0 -1 2786
+0 -1 2786 0
 D1
 ~
 ~
-0 -1 2773
+0 -1 2773 0
 D2
 ~
 ~
-0 -1 2771
+0 -1 2771 0
 D3
 ~
 ~
-0 -1 2783
+0 -1 2783 0
 S
 #2773
 Imperial Citadel First Floor~
@@ -4051,19 +4065,19 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2787
+0 -1 2787 0
 D1
 ~
 ~
-0 -1 2774
+0 -1 2774 0
 D2
 ~
 ~
-0 -1 2785
+0 -1 2785 0
 D3
 ~
 ~
-0 -1 2772
+0 -1 2772 0
 S
 #2774
 Imperial Citadel First Floor~
@@ -4072,15 +4086,15 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2788
+0 -1 2788 0
 D1
 ~
 ~
-0 -1 2775
+0 -1 2775 0
 D3
 ~
 ~
-0 -1 2773
+0 -1 2773 0
 S
 #2775
 Imperial Citadel First Floor~
@@ -4089,19 +4103,19 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2789
+0 -1 2789 0
 D1
 ~
 ~
-0 -1 2790
+0 -1 2790 0
 D3
 ~
 ~
-0 -1 2774
+0 -1 2774 0
 D9
 ~
 ~
-0 -1 2776
+0 -1 2776 0
 S
 #2776
 Imperial Citadel First Floor~
@@ -4110,15 +4124,15 @@ Imperial Citadel First Floor~
 D1
 ~
 ~
-0 -1 2791
+0 -1 2791 0
 D6
 ~
 ~
-0 -1 2775
+0 -1 2775 0
 D9
 ~
 ~
-0 -1 2777
+0 -1 2777 0
 S
 #2777
 Imperial Citadel First Floor~
@@ -4127,15 +4141,15 @@ Imperial Citadel First Floor~
 D1
 ~
 ~
-0 -1 2792
+0 -1 2792 0
 D6
 ~
 ~
-0 -1 2776
+0 -1 2776 0
 D9
 ~
 ~
-0 -1 2778
+0 -1 2778 0
 S
 #2778
 Imperial Citadel First Floor~
@@ -4144,19 +4158,19 @@ Imperial Citadel First Floor~
 D1
 ~
 ~
-0 -1 2793
+0 -1 2793 0
 D2
 ~
 ~
-0 -1 2794
+0 -1 2794 0
 D6
 ~
 ~
-0 -1 2777
+0 -1 2777 0
 D7
 ~
 ~
-0 -1 2779
+0 -1 2779 0
 S
 #2779
 Imperial Citadel First Floor~
@@ -4165,15 +4179,15 @@ Imperial Citadel First Floor~
 D3
 ~
 ~
-0 -1 2795
+0 -1 2795 0
 D7
 ~
 ~
-0 -1 2780
+0 -1 2780 0
 D8
 ~
 ~
-0 -1 2778
+0 -1 2778 0
 S
 #2780
 Imperial Citadel First Floor~
@@ -4182,15 +4196,15 @@ Imperial Citadel First Floor~
 D3
 ~
 ~
-0 -1 2796
+0 -1 2796 0
 D7
 ~
 ~
-0 -1 2781
+0 -1 2781 0
 D8
 ~
 ~
-0 -1 2779
+0 -1 2779 0
 S
 #2781
 Imperial Citadel First Floor~
@@ -4199,19 +4213,19 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2798
+0 -1 2798 0
 D1
 ~
 ~
-0 -1 2782
+0 -1 2782 0
 D3
 ~
 ~
-0 -1 2797
+0 -1 2797 0
 D8
 ~
 ~
-0 -1 2780
+0 -1 2780 0
 S
 #2782
 Imperial Citadel First Floor~
@@ -4220,15 +4234,15 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2799
+0 -1 2799 0
 D1
 ~
 ~
-0 -1 2783
+0 -1 2783 0
 D3
 ~
 ~
-0 -1 2781
+0 -1 2781 0
 S
 #2783
 Imperial Citadel First Floor~
@@ -4237,19 +4251,19 @@ Imperial Citadel First Floor~
 D0
 ~
 ~
-0 -1 2800
+0 -1 2800 0
 D1
 ~
 ~
-0 -1 2772
+0 -1 2772 0
 D2
 ~
 ~
-0 -1 2784
+0 -1 2784 0
 D3
 ~
 ~
-0 -1 2782
+0 -1 2782 0
 S
 #2784
 1~
@@ -4258,7 +4272,7 @@ S
 D0
 ~
 ~
-0 -1 2783
+0 -1 2783 0
 S
 #2785
 1~
@@ -4267,7 +4281,7 @@ S
 D0
 ~
 ~
-0 -1 2773
+0 -1 2773 0
 S
 #2786
 1~
@@ -4276,7 +4290,7 @@ S
 D2
 ~
 ~
-0 -1 2772
+0 -1 2772 0
 S
 #2787
 1~
@@ -4285,7 +4299,7 @@ S
 D2
 ~
 ~
-0 -1 2773
+0 -1 2773 0
 S
 #2788
 1~
@@ -4294,7 +4308,7 @@ S
 D2
 ~
 ~
-0 -1 2774
+0 -1 2774 0
 S
 #2789
 1~
@@ -4303,7 +4317,7 @@ S
 D2
 ~
 ~
-0 -1 2775
+0 -1 2775 0
 S
 #2790
 1~
@@ -4312,7 +4326,7 @@ S
 D3
 ~
 ~
-0 -1 2775
+0 -1 2775 0
 S
 #2791
 Floating in a void~
@@ -4321,7 +4335,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 2776
+0 -1 2776 0
 S
 #2792
 Floating in a void~
@@ -4330,7 +4344,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 2777
+0 -1 2777 0
 S
 #2793
 Floating in a void~
@@ -4339,7 +4353,7 @@ Floating in a void~
 D3
 ~
 ~
-0 -1 2778
+0 -1 2778 0
 S
 #2794
 Floating in a void~
@@ -4348,7 +4362,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 2778
+0 -1 2778 0
 S
 #2795
 Floating in a void~
@@ -4357,7 +4371,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 2779
+0 -1 2779 0
 S
 #2796
 Floating in a void~
@@ -4366,7 +4380,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 2780
+0 -1 2780 0
 S
 #2797
 Floating in a void~
@@ -4375,7 +4389,7 @@ Floating in a void~
 D1
 ~
 ~
-0 -1 2781
+0 -1 2781 0
 S
 #2798
 Floating in a void~
@@ -4384,7 +4398,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 2781
+0 -1 2781 0
 S
 #2799
 Floating in a void~
@@ -4393,7 +4407,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 2782
+0 -1 2782 0
 S
 #2800
 Floating in a void~
@@ -4402,7 +4416,7 @@ Floating in a void~
 D2
 ~
 ~
-0 -1 2783
+0 -1 2783 0
 S
 #2801
 Imperial Citadel Second Floor~
@@ -4411,7 +4425,7 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2802
+0 -1 2802 0
 S
 #2802
 Imperial Citadel Second Floor~
@@ -4420,19 +4434,19 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2814
+0 -1 2814 0
 D1
 ~
 ~
-0 -1 2803
+0 -1 2803 0
 D2
 ~
 ~
-0 -1 2801
+0 -1 2801 0
 D3
 ~
 ~
-0 -1 2813
+0 -1 2813 0
 S
 #2803
 Imperial Citadel Second Floor~
@@ -4441,19 +4455,19 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2815
+0 -1 2815 0
 D1
 ~
 ~
-0 -1 2804
+0 -1 2804 0
 D2
 ~
 ~
-0 -1 2830
+0 -1 2830 0
 D3
 ~
 ~
-0 -1 2802
+0 -1 2802 0
 S
 #2804
 Imperial Citadel Second Floor~
@@ -4462,15 +4476,15 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2816
+0 -1 2816 0
 D1
 ~
 ~
-0 -1 2805
+0 -1 2805 0
 D3
 ~
 ~
-0 -1 2803
+0 -1 2803 0
 S
 #2805
 Imperial Citadel Second Floor~
@@ -4479,19 +4493,19 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2817
+0 -1 2817 0
 D1
 ~
 ~
-0 -1 2818
+0 -1 2818 0
 D3
 ~
 ~
-0 -1 2804
+0 -1 2804 0
 D9
 ~
 ~
-0 -1 2806
+0 -1 2806 0
 S
 #2806
 Imperial Citadel Second Floor~
@@ -4500,15 +4514,15 @@ Imperial Citadel Second Floor~
 D1
 ~
 ~
-0 -1 2819
+0 -1 2819 0
 D6
 ~
 ~
-0 -1 2805
+0 -1 2805 0
 D9
 ~
 ~
-0 -1 2807
+0 -1 2807 0
 S
 #2807
 Imperial Citadel Second Floor~
@@ -4517,15 +4531,15 @@ Imperial Citadel Second Floor~
 D1
 ~
 ~
-0 -1 2820
+0 -1 2820 0
 D6
 ~
 ~
-0 -1 2806
+0 -1 2806 0
 D9
 ~
 ~
-0 -1 2808
+0 -1 2808 0
 S
 #2808
 Imperial Citadel Second Floor~
@@ -4534,23 +4548,23 @@ Imperial Citadel Second Floor~
 D1
 ~
 ~
-0 -1 2821
+0 -1 2821 0
 D2
 ~
 ~
-0 -1 2822
+0 -1 2822 0
 D3
 ~
 ~
-0 -1 2823
+0 -1 2823 0
 D6
 ~
 ~
-0 -1 2807
+0 -1 2807 0
 D7
 ~
 ~
-0 -1 2809
+0 -1 2809 0
 S
 #2809
 Imperial Citadel Second Floor~
@@ -4559,15 +4573,15 @@ Imperial Citadel Second Floor~
 D3
 ~
 ~
-0 -1 2824
+0 -1 2824 0
 D7
 ~
 ~
-0 -1 2810
+0 -1 2810 0
 D8
 ~
 ~
-0 -1 2808
+0 -1 2808 0
 S
 #2810
 Imperial Citadel Second Floor~
@@ -4576,15 +4590,15 @@ Imperial Citadel Second Floor~
 D3
 ~
 ~
-0 -1 2825
+0 -1 2825 0
 D7
 ~
 ~
-0 -1 2811
+0 -1 2811 0
 D8
 ~
 ~
-0 -1 2809
+0 -1 2809 0
 S
 #2811
 Imperial Citadel Second Floor~
@@ -4593,19 +4607,19 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2827
+0 -1 2827 0
 D1
 ~
 ~
-0 -1 2812
+0 -1 2812 0
 D3
 ~
 ~
-0 -1 2826
+0 -1 2826 0
 D8
 ~
 ~
-0 -1 2810
+0 -1 2810 0
 S
 #2812
 Imperial Citadel Second Floor~
@@ -4614,15 +4628,15 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2828
+0 -1 2828 0
 D1
 ~
 ~
-0 -1 2813
+0 -1 2813 0
 D3
 ~
 ~
-0 -1 2811
+0 -1 2811 0
 S
 #2813
 Imperial Citadel Second Floor~
@@ -4631,19 +4645,19 @@ Imperial Citadel Second Floor~
 D0
 ~
 ~
-0 -1 2829
+0 -1 2829 0
 D1
 ~
 ~
-0 -1 2802
+0 -1 2802 0
 D2
 ~
 ~
-0 -1 2831
+0 -1 2831 0
 D3
 ~
 ~
-0 -1 2812
+0 -1 2812 0
 S
 #2814
 2~
@@ -4652,7 +4666,7 @@ S
 D2
 ~
 ~
-0 -1 2802
+0 -1 2802 0
 S
 #2815
 2~
@@ -4661,7 +4675,7 @@ S
 D2
 ~
 ~
-0 -1 2803
+0 -1 2803 0
 S
 #2816
 2~
@@ -4670,7 +4684,7 @@ S
 D2
 ~
 ~
-0 -1 2804
+0 -1 2804 0
 S
 #2817
 2~
@@ -4679,7 +4693,7 @@ S
 D2
 ~
 ~
-0 -1 2805
+0 -1 2805 0
 S
 #2818
 2~
@@ -4688,7 +4702,7 @@ S
 D3
 ~
 ~
-0 -1 2805
+0 -1 2805 0
 S
 #2819
 2~
@@ -4697,7 +4711,7 @@ S
 D3
 ~
 ~
-0 -1 2806
+0 -1 2806 0
 S
 #2820
 2~
@@ -4706,7 +4720,7 @@ S
 D3
 ~
 ~
-0 -1 2807
+0 -1 2807 0
 S
 #2821
 2~
@@ -4715,7 +4729,7 @@ S
 D3
 ~
 ~
-0 -1 2808
+0 -1 2808 0
 S
 #2822
 2~
@@ -4724,7 +4738,7 @@ S
 D0
 ~
 ~
-0 -1 2808
+0 -1 2808 0
 S
 #2823
 2~
@@ -4733,7 +4747,7 @@ S
 D1
 ~
 ~
-0 -1 2808
+0 -1 2808 0
 S
 #2824
 2~
@@ -4742,7 +4756,7 @@ S
 D1
 ~
 ~
-0 -1 2809
+0 -1 2809 0
 S
 #2825
 2~
@@ -4751,7 +4765,7 @@ S
 D1
 ~
 ~
-0 -1 2810
+0 -1 2810 0
 S
 #2826
 2~
@@ -4760,7 +4774,7 @@ S
 D1
 ~
 ~
-0 -1 2811
+0 -1 2811 0
 S
 #2827
 2~
@@ -4769,7 +4783,7 @@ S
 D2
 ~
 ~
-0 -1 2811
+0 -1 2811 0
 S
 #2828
 2~
@@ -4778,7 +4792,7 @@ S
 D2
 ~
 ~
-0 -1 2812
+0 -1 2812 0
 S
 #2829
 2~
@@ -4787,7 +4801,7 @@ S
 D2
 ~
 ~
-0 -1 2813
+0 -1 2813 0
 S
 #2830
 2~
@@ -4796,7 +4810,7 @@ S
 D0
 ~
 ~
-0 -1 2803
+0 -1 2803 0
 S
 #2831
 2~
@@ -4805,7 +4819,7 @@ S
 D0
 ~
 ~
-0 -1 2813
+0 -1 2813 0
 S
 #2832
 Imperial Citadel Third Floor~
@@ -4814,7 +4828,7 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2833
+0 -1 2833 0
 S
 #2833
 Imperial Citadel Third Floor~
@@ -4823,19 +4837,19 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2845
+0 -1 2845 0
 D1
 ~
 ~
-0 -1 2834
+0 -1 2834 0
 D2
 ~
 ~
-0 -1 2832
+0 -1 2832 0
 D3
 ~
 ~
-0 -1 2844
+0 -1 2844 0
 S
 #2834
 Imperial Citadel Third Floor~
@@ -4844,19 +4858,19 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2846
+0 -1 2846 0
 D1
 ~
 ~
-0 -1 2835
+0 -1 2835 0
 D2
 ~
 ~
-0 -1 2861
+0 -1 2861 0
 D3
 ~
 ~
-0 -1 2833
+0 -1 2833 0
 S
 #2835
 Imperial Citadel Third Floor~
@@ -4865,15 +4879,15 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2847
+0 -1 2847 0
 D1
 ~
 ~
-0 -1 2836
+0 -1 2836 0
 D3
 ~
 ~
-0 -1 2834
+0 -1 2834 0
 S
 #2836
 Imperial Citadel Third Floor~
@@ -4882,19 +4896,19 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2848
+0 -1 2848 0
 D1
 ~
 ~
-0 -1 2849
+0 -1 2849 0
 D3
 ~
 ~
-0 -1 2835
+0 -1 2835 0
 D9
 ~
 ~
-0 -1 2837
+0 -1 2837 0
 S
 #2837
 Imperial Citadel Third Floor~
@@ -4903,15 +4917,15 @@ Imperial Citadel Third Floor~
 D1
 ~
 ~
-0 -1 2850
+0 -1 2850 0
 D6
 ~
 ~
-0 -1 2836
+0 -1 2836 0
 D9
 ~
 ~
-0 -1 2838
+0 -1 2838 0
 S
 #2838
 Imperial Citadel Third Floor~
@@ -4920,15 +4934,15 @@ Imperial Citadel Third Floor~
 D1
 ~
 ~
-0 -1 2851
+0 -1 2851 0
 D6
 ~
 ~
-0 -1 2837
+0 -1 2837 0
 D9
 ~
 ~
-0 -1 2839
+0 -1 2839 0
 S
 #2839
 Imperial Citadel Third Floor~
@@ -4937,23 +4951,23 @@ Imperial Citadel Third Floor~
 D1
 ~
 ~
-0 -1 2852
+0 -1 2852 0
 D2
 ~
 ~
-0 -1 2853
+0 -1 2853 0
 D3
 ~
 ~
-0 -1 2854
+0 -1 2854 0
 D6
 ~
 ~
-0 -1 2838
+0 -1 2838 0
 D7
 ~
 ~
-0 -1 2840
+0 -1 2840 0
 S
 #2840
 Imperial Citadel Third Floor~
@@ -4962,15 +4976,15 @@ Imperial Citadel Third Floor~
 D3
 ~
 ~
-0 -1 2855
+0 -1 2855 0
 D7
 ~
 ~
-0 -1 2841
+0 -1 2841 0
 D8
 ~
 ~
-0 -1 2839
+0 -1 2839 0
 S
 #2841
 Imperial Citadel Third Floor~
@@ -4979,15 +4993,15 @@ Imperial Citadel Third Floor~
 D3
 ~
 ~
-0 -1 2856
+0 -1 2856 0
 D7
 ~
 ~
-0 -1 2842
+0 -1 2842 0
 D8
 ~
 ~
-0 -1 2840
+0 -1 2840 0
 S
 #2842
 Imperial Citadel Third Floor~
@@ -4996,19 +5010,19 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2858
+0 -1 2858 0
 D1
 ~
 ~
-0 -1 2843
+0 -1 2843 0
 D3
 ~
 ~
-0 -1 2857
+0 -1 2857 0
 D8
 ~
 ~
-0 -1 2841
+0 -1 2841 0
 S
 #2843
 Imperial Citadel Third Floor~
@@ -5017,15 +5031,15 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2859
+0 -1 2859 0
 D1
 ~
 ~
-0 -1 2844
+0 -1 2844 0
 D3
 ~
 ~
-0 -1 2842
+0 -1 2842 0
 S
 #2844
 Imperial Citadel Third Floor~
@@ -5034,19 +5048,19 @@ Imperial Citadel Third Floor~
 D0
 ~
 ~
-0 -1 2860
+0 -1 2860 0
 D1
 ~
 ~
-0 -1 2833
+0 -1 2833 0
 D2
 ~
 ~
-0 -1 2862
+0 -1 2862 0
 D3
 ~
 ~
-0 -1 2843
+0 -1 2843 0
 S
 #2845
 3~
@@ -5055,7 +5069,7 @@ S
 D2
 ~
 ~
-0 -1 2843
+0 -1 2843 0
 S
 #2846
 3~
@@ -5064,7 +5078,7 @@ S
 D2
 ~
 ~
-0 -1 2834
+0 -1 2834 0
 S
 #2847
 3~
@@ -5073,7 +5087,7 @@ S
 D2
 ~
 ~
-0 -1 2835
+0 -1 2835 0
 S
 #2848
 3~
@@ -5082,7 +5096,7 @@ S
 D2
 ~
 ~
-0 -1 2836
+0 -1 2836 0
 S
 #2849
 3~
@@ -5091,7 +5105,7 @@ S
 D3
 ~
 ~
-0 -1 2836
+0 -1 2836 0
 S
 #2850
 3~
@@ -5100,7 +5114,7 @@ S
 D3
 ~
 ~
-0 -1 2837
+0 -1 2837 0
 S
 #2851
 3~
@@ -5109,7 +5123,7 @@ S
 D3
 ~
 ~
-0 -1 2838
+0 -1 2838 0
 S
 #2852
 3~
@@ -5118,7 +5132,7 @@ S
 D3
 ~
 ~
-0 -1 2839
+0 -1 2839 0
 S
 #2853
 3~
@@ -5127,7 +5141,7 @@ S
 D0
 ~
 ~
-0 -1 2839
+0 -1 2839 0
 S
 #2854
 3~
@@ -5136,7 +5150,7 @@ S
 D1
 ~
 ~
-0 -1 2839
+0 -1 2839 0
 S
 #2855
 3~
@@ -5145,7 +5159,7 @@ S
 D1
 ~
 ~
-0 -1 2840
+0 -1 2840 0
 S
 #2856
 3~
@@ -5154,7 +5168,7 @@ S
 D1
 ~
 ~
-0 -1 2841
+0 -1 2841 0
 S
 #2857
 3~
@@ -5163,7 +5177,7 @@ S
 D1
 ~
 ~
-0 -1 2842
+0 -1 2842 0
 S
 #2858
 3~
@@ -5172,7 +5186,7 @@ S
 D2
 ~
 ~
-0 -1 2842
+0 -1 2842 0
 S
 #2859
 3~
@@ -5181,7 +5195,7 @@ S
 D2
 ~
 ~
-0 -1 2843
+0 -1 2843 0
 S
 #2860
 3~
@@ -5190,7 +5204,7 @@ S
 D2
 ~
 ~
-0 -1 2844
+0 -1 2844 0
 S
 #2861
 3~
@@ -5199,7 +5213,7 @@ S
 D0
 ~
 ~
-0 -1 2834
+0 -1 2834 0
 S
 #2862
 3~
@@ -5208,7 +5222,7 @@ S
 D0
 ~
 ~
-0 -1 2844
+0 -1 2844 0
 S
 #2863
 Imperial Citadel Fourth Floor~
@@ -5217,7 +5231,7 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2864
+0 -1 2864 0
 S
 #2864
 Imperial Citadel Fourth Floor~
@@ -5226,19 +5240,19 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2876
+0 -1 2876 0
 D1
 ~
 ~
-0 -1 2865
+0 -1 2865 0
 D2
 ~
 ~
-0 -1 2863
+0 -1 2863 0
 D3
 ~
 ~
-0 -1 2875
+0 -1 2875 0
 S
 #2865
 Imperial Citadel Fourth Floor~
@@ -5247,19 +5261,19 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2877
+0 -1 2877 0
 D1
 ~
 ~
-0 -1 2866
+0 -1 2866 0
 D2
 ~
 ~
-0 -1 2892
+0 -1 2892 0
 D3
 ~
 ~
-0 -1 2864
+0 -1 2864 0
 S
 #2866
 Imperial Citadel Fourth Floor~
@@ -5268,15 +5282,15 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2878
+0 -1 2878 0
 D1
 ~
 ~
-0 -1 2867
+0 -1 2867 0
 D3
 ~
 ~
-0 -1 2865
+0 -1 2865 0
 S
 #2867
 Imperial Citadel Fourth Floor~
@@ -5285,19 +5299,19 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2879
+0 -1 2879 0
 D1
 ~
 ~
-0 -1 2880
+0 -1 2880 0
 D3
 ~
 ~
-0 -1 2866
+0 -1 2866 0
 D9
 ~
 ~
-0 -1 2868
+0 -1 2868 0
 S
 #2868
 Imperial Citadel Fourth Floor~
@@ -5306,15 +5320,15 @@ Imperial Citadel Fourth Floor~
 D1
 ~
 ~
-0 -1 2881
+0 -1 2881 0
 D6
 ~
 ~
-0 -1 2867
+0 -1 2867 0
 D9
 ~
 ~
-0 -1 2869
+0 -1 2869 0
 S
 #2869
 Imperial Citadel Fourth Floor~
@@ -5323,15 +5337,15 @@ Imperial Citadel Fourth Floor~
 D1
 ~
 ~
-0 -1 2882
+0 -1 2882 0
 D6
 ~
 ~
-0 -1 2868
+0 -1 2868 0
 D9
 ~
 ~
-0 -1 2870
+0 -1 2870 0
 S
 #2870
 Imperial Citadel Fourth Floor~
@@ -5340,23 +5354,23 @@ Imperial Citadel Fourth Floor~
 D1
 ~
 ~
-0 -1 2883
+0 -1 2883 0
 D2
 ~
 ~
-0 -1 2884
+0 -1 2884 0
 D3
 ~
 ~
-0 -1 2885
+0 -1 2885 0
 D6
 ~
 ~
-0 -1 2869
+0 -1 2869 0
 D7
 ~
 ~
-0 -1 2871
+0 -1 2871 0
 S
 #2871
 Imperial Citadel Fourth Floor~
@@ -5365,15 +5379,15 @@ Imperial Citadel Fourth Floor~
 D3
 ~
 ~
-0 -1 2886
+0 -1 2886 0
 D7
 ~
 ~
-0 -1 2872
+0 -1 2872 0
 D8
 ~
 ~
-0 -1 2870
+0 -1 2870 0
 S
 #2872
 Imperial Citadel Fourth Floor~
@@ -5382,15 +5396,15 @@ Imperial Citadel Fourth Floor~
 D3
 ~
 ~
-0 -1 2887
+0 -1 2887 0
 D7
 ~
 ~
-0 -1 2873
+0 -1 2873 0
 D8
 ~
 ~
-0 -1 2871
+0 -1 2871 0
 S
 #2873
 Imperial Citadel Fourth Floor~
@@ -5399,19 +5413,19 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2889
+0 -1 2889 0
 D1
 ~
 ~
-0 -1 2874
+0 -1 2874 0
 D3
 ~
 ~
-0 -1 2888
+0 -1 2888 0
 D8
 ~
 ~
-0 -1 2872
+0 -1 2872 0
 S
 #2874
 Imperial Citadel Fourth Floor~
@@ -5420,15 +5434,15 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2890
+0 -1 2890 0
 D1
 ~
 ~
-0 -1 2875
+0 -1 2875 0
 D3
 ~
 ~
-0 -1 2873
+0 -1 2873 0
 S
 #2875
 Imperial Citadel Fourth Floor~
@@ -5437,19 +5451,19 @@ Imperial Citadel Fourth Floor~
 D0
 ~
 ~
-0 -1 2891
+0 -1 2891 0
 D1
 ~
 ~
-0 -1 2864
+0 -1 2864 0
 D2
 ~
 ~
-0 -1 2893
+0 -1 2893 0
 D3
 ~
 ~
-0 -1 2874
+0 -1 2874 0
 S
 #2876
 4~
@@ -5458,7 +5472,7 @@ S
 D2
 ~
 ~
-0 -1 2864
+0 -1 2864 0
 S
 #2877
 4~
@@ -5467,7 +5481,7 @@ S
 D2
 ~
 ~
-0 -1 2865
+0 -1 2865 0
 S
 #2878
 4~
@@ -5476,7 +5490,7 @@ S
 D2
 ~
 ~
-0 -1 2866
+0 -1 2866 0
 S
 #2879
 4~
@@ -5485,7 +5499,7 @@ S
 D2
 ~
 ~
-0 -1 2867
+0 -1 2867 0
 S
 #2880
 4~
@@ -5494,7 +5508,7 @@ S
 D3
 ~
 ~
-0 -1 2867
+0 -1 2867 0
 S
 #2881
 4~
@@ -5503,7 +5517,7 @@ S
 D3
 ~
 ~
-0 -1 2868
+0 -1 2868 0
 S
 #2882
 4~
@@ -5512,7 +5526,7 @@ S
 D3
 ~
 ~
-0 -1 2869
+0 -1 2869 0
 S
 #2883
 4~
@@ -5521,7 +5535,7 @@ S
 D3
 ~
 ~
-0 -1 2870
+0 -1 2870 0
 S
 #2884
 4~
@@ -5530,7 +5544,7 @@ S
 D0
 ~
 ~
-0 -1 2870
+0 -1 2870 0
 S
 #2885
 4~
@@ -5539,7 +5553,7 @@ S
 D1
 ~
 ~
-0 -1 2870
+0 -1 2870 0
 S
 #2886
 4~
@@ -5548,7 +5562,7 @@ S
 D1
 ~
 ~
-0 -1 2871
+0 -1 2871 0
 S
 #2887
 4~
@@ -5557,7 +5571,7 @@ S
 D1
 ~
 ~
-0 -1 2872
+0 -1 2872 0
 S
 #2888
 4~
@@ -5566,7 +5580,7 @@ S
 D1
 ~
 ~
-0 -1 2873
+0 -1 2873 0
 S
 #2889
 4~
@@ -5575,7 +5589,7 @@ S
 D2
 ~
 ~
-0 -1 2873
+0 -1 2873 0
 S
 #2890
 4~
@@ -5584,7 +5598,7 @@ S
 D2
 ~
 ~
-0 -1 2874
+0 -1 2874 0
 S
 #2891
 4~
@@ -5593,7 +5607,7 @@ S
 D2
 ~
 ~
-0 -1 2875
+0 -1 2875 0
 S
 #2892
 4~
@@ -5602,7 +5616,7 @@ S
 D0
 ~
 ~
-0 -1 2865
+0 -1 2865 0
 S
 #2893
 4~
@@ -5611,7 +5625,7 @@ S
 D0
 ~
 ~
-0 -1 2875
+0 -1 2875 0
 S
 #2894
 Imperial Citadel Fifth Floor~
@@ -5620,7 +5634,7 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2895
+0 -1 2895 0
 S
 #2895
 Imperial Citadel Fifth Floor~
@@ -5629,19 +5643,19 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2907
+0 -1 2907 0
 D1
 ~
 ~
-0 -1 2896
+0 -1 2896 0
 D2
 ~
 ~
-0 -1 2894
+0 -1 2894 0
 D3
 ~
 ~
-0 -1 2906
+0 -1 2906 0
 S
 #2896
 Imperial Citadel Fifth Floor~
@@ -5650,19 +5664,19 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2908
+0 -1 2908 0
 D1
 ~
 ~
-0 -1 2897
+0 -1 2897 0
 D2
 ~
 ~
-0 -1 2923
+0 -1 2923 0
 D3
 ~
 ~
-0 -1 2895
+0 -1 2895 0
 S
 #2897
 Imperial Citadel Fifth Floor~
@@ -5671,15 +5685,15 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2909
+0 -1 2909 0
 D1
 ~
 ~
-0 -1 2898
+0 -1 2898 0
 D3
 ~
 ~
-0 -1 2896
+0 -1 2896 0
 S
 #2898
 Imperial Citadel Fifth Floor~
@@ -5688,19 +5702,19 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2910
+0 -1 2910 0
 D1
 ~
 ~
-0 -1 2911
+0 -1 2911 0
 D3
 ~
 ~
-0 -1 2897
+0 -1 2897 0
 D9
 ~
 ~
-0 -1 2899
+0 -1 2899 0
 S
 #2899
 Imperial Citadel Fifth Floor~
@@ -5709,15 +5723,15 @@ Imperial Citadel Fifth Floor~
 D1
 ~
 ~
-0 -1 2912
+0 -1 2912 0
 D6
 ~
 ~
-0 -1 2898
+0 -1 2898 0
 D9
 ~
 ~
-0 -1 2900
+0 -1 2900 0
 S
 #2900
 Imperial Citadel Fifth Floor~
@@ -5726,15 +5740,15 @@ Imperial Citadel Fifth Floor~
 D1
 ~
 ~
-0 -1 2913
+0 -1 2913 0
 D6
 ~
 ~
-0 -1 2899
+0 -1 2899 0
 D9
 ~
 ~
-0 -1 2901
+0 -1 2901 0
 S
 #2901
 Imperial Citadel Fifth Floor~
@@ -5743,23 +5757,23 @@ Imperial Citadel Fifth Floor~
 D1
 ~
 ~
-0 -1 2914
+0 -1 2914 0
 D2
 ~
 ~
-0 -1 2915
+0 -1 2915 0
 D3
 ~
 ~
-0 -1 2916
+0 -1 2916 0
 D6
 ~
 ~
-0 -1 2900
+0 -1 2900 0
 D7
 ~
 ~
-0 -1 2902
+0 -1 2902 0
 S
 #2902
 Imperial Citadel Fifth Floor~
@@ -5768,15 +5782,15 @@ Imperial Citadel Fifth Floor~
 D3
 ~
 ~
-0 -1 2917
+0 -1 2917 0
 D7
 ~
 ~
-0 -1 2903
+0 -1 2903 0
 D8
 ~
 ~
-0 -1 2901
+0 -1 2901 0
 S
 #2903
 Imperial Citadel Fifth Floor~
@@ -5785,15 +5799,15 @@ Imperial Citadel Fifth Floor~
 D3
 ~
 ~
-0 -1 2918
+0 -1 2918 0
 D7
 ~
 ~
-0 -1 2904
+0 -1 2904 0
 D8
 ~
 ~
-0 -1 2902
+0 -1 2902 0
 S
 #2904
 Imperial Citadel Fifth Floor~
@@ -5802,19 +5816,19 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2920
+0 -1 2920 0
 D1
 ~
 ~
-0 -1 2905
+0 -1 2905 0
 D3
 ~
 ~
-0 -1 2919
+0 -1 2919 0
 D8
 ~
 ~
-0 -1 2903
+0 -1 2903 0
 S
 #2905
 Imperial Citadel Fifth Floor~
@@ -5823,15 +5837,15 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2921
+0 -1 2921 0
 D1
 ~
 ~
-0 -1 2906
+0 -1 2906 0
 D3
 ~
 ~
-0 -1 2904
+0 -1 2904 0
 S
 #2906
 Imperial Citadel Fifth Floor~
@@ -5840,19 +5854,19 @@ Imperial Citadel Fifth Floor~
 D0
 ~
 ~
-0 -1 2922
+0 -1 2922 0
 D1
 ~
 ~
-0 -1 2895
+0 -1 2895 0
 D2
 ~
 ~
-0 -1 2924
+0 -1 2924 0
 D3
 ~
 ~
-0 -1 2905
+0 -1 2905 0
 S
 #2907
 5~
@@ -5861,7 +5875,7 @@ S
 D2
 ~
 ~
-0 -1 2895
+0 -1 2895 0
 S
 #2908
 5~
@@ -5870,7 +5884,7 @@ S
 D2
 ~
 ~
-0 -1 2896
+0 -1 2896 0
 S
 #2909
 5~
@@ -5879,7 +5893,7 @@ S
 D2
 ~
 ~
-0 -1 2897
+0 -1 2897 0
 S
 #2910
 5~
@@ -5888,7 +5902,7 @@ S
 D2
 ~
 ~
-0 -1 2898
+0 -1 2898 0
 S
 #2911
 5~
@@ -5897,7 +5911,7 @@ S
 D3
 ~
 ~
-0 -1 2898
+0 -1 2898 0
 S
 #2912
 5~
@@ -5906,7 +5920,7 @@ S
 D3
 ~
 ~
-0 -1 2899
+0 -1 2899 0
 S
 #2913
 5~
@@ -5915,7 +5929,7 @@ S
 D3
 ~
 ~
-0 -1 2900
+0 -1 2900 0
 S
 #2914
 5~
@@ -5924,7 +5938,7 @@ S
 D3
 ~
 ~
-0 -1 2901
+0 -1 2901 0
 S
 #2915
 5~
@@ -5933,7 +5947,7 @@ S
 D0
 ~
 ~
-0 -1 2901
+0 -1 2901 0
 S
 #2916
 5~
@@ -5942,7 +5956,7 @@ S
 D1
 ~
 ~
-0 -1 2901
+0 -1 2901 0
 S
 #2917
 5~
@@ -5951,7 +5965,7 @@ S
 D1
 ~
 ~
-0 -1 2902
+0 -1 2902 0
 S
 #2918
 5~
@@ -5960,7 +5974,7 @@ S
 D1
 ~
 ~
-0 -1 2903
+0 -1 2903 0
 S
 #2919
 5~
@@ -5969,7 +5983,7 @@ S
 D1
 ~
 ~
-0 -1 2904
+0 -1 2904 0
 S
 #2920
 5~
@@ -5978,7 +5992,7 @@ S
 D2
 ~
 ~
-0 -1 2904
+0 -1 2904 0
 S
 #2921
 5~
@@ -5987,7 +6001,7 @@ S
 D2
 ~
 ~
-0 -1 2905
+0 -1 2905 0
 S
 #2922
 5~
@@ -5996,7 +6010,7 @@ S
 D2
 ~
 ~
-0 -1 2906
+0 -1 2906 0
 S
 #2923
 5~
@@ -6005,7 +6019,7 @@ S
 D0
 ~
 ~
-0 -1 2896
+0 -1 2896 0
 S
 #2924
 5~
@@ -6014,7 +6028,7 @@ S
 D0
 ~
 ~
-0 -1 2906
+0 -1 2906 0
 S
 #2925
 Roof Of the Imperial Citadel~
@@ -6023,7 +6037,7 @@ Roof Of the Imperial Citadel~
 D0
 ~
 ~
-0 -1 2926
+0 -1 2926 0
 S
 #2926
 Roof Of the Imperial Citadel~
@@ -6032,15 +6046,15 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2927
+0 -1 2927 0
 D2
 ~
 ~
-0 -1 2925
+0 -1 2925 0
 D3
 ~
 ~
-0 -1 2937
+0 -1 2937 0
 S
 #2927
 Roof Of the Imperial Citadel~
@@ -6049,15 +6063,15 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2928
+0 -1 2928 0
 D2
 ~
 ~
-0 -1 2938
+0 -1 2938 0
 D3
 ~
 ~
-0 -1 2926
+0 -1 2926 0
 S
 #2928
 Roof Of the Imperial Citadel~
@@ -6066,15 +6080,15 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2929
+0 -1 2929 0
 D2
 ~
 ~
-0 -1 2930
+0 -1 2930 0
 D3
 ~
 ~
-0 -1 2927
+0 -1 2927 0
 S
 #2929
 Roof Of the Imperial Citadel~
@@ -6083,11 +6097,11 @@ Roof Of the Imperial Citadel~
 D3
 ~
 ~
-0 -1 2928
+0 -1 2928 0
 D9
 ~
 ~
-0 -1 2930
+0 -1 2930 0
 S
 #2930
 Roof Of the Imperial Citadel~
@@ -6096,19 +6110,19 @@ Roof Of the Imperial Citadel~
 D0
 ~
 ~
-0 -1 2928
+0 -1 2928 0
 D3
 ~
 ~
-0 -1 2938
+0 -1 2938 0
 D6
 ~
 ~
-0 -1 2929
+0 -1 2929 0
 D9
 ~
 ~
-0 -1 2931
+0 -1 2931 0
 S
 #2931
 Roof Of the Imperial Citadel~
@@ -6117,11 +6131,11 @@ Roof Of the Imperial Citadel~
 D6
 ~
 ~
-0 -1 2930
+0 -1 2930 0
 D9
 ~
 ~
-0 -1 2932
+0 -1 2932 0
 S
 #2932
 Roof Of the Imperial Citadel~
@@ -6130,11 +6144,11 @@ Roof Of the Imperial Citadel~
 D6
 ~
 ~
-0 -1 2931
+0 -1 2931 0
 D7
 ~
 ~
-0 -1 2933
+0 -1 2933 0
 S
 #2933
 Roof Of the Imperial Citadel~
@@ -6143,11 +6157,11 @@ Roof Of the Imperial Citadel~
 D7
 ~
 ~
-0 -1 2934
+0 -1 2934 0
 D8
 ~
 ~
-0 -1 2932
+0 -1 2932 0
 S
 #2934
 Roof Of the Imperial Citadel~
@@ -6156,19 +6170,19 @@ Roof Of the Imperial Citadel~
 D0
 ~
 ~
-0 -1 2936
+0 -1 2936 0
 D1
 ~
 ~
-0 -1 2939
+0 -1 2939 0
 D7
 ~
 ~
-0 -1 2935
+0 -1 2935 0
 D8
 ~
 ~
-0 -1 2933
+0 -1 2933 0
 S
 #2935
 Roof Of the Imperial Citadel~
@@ -6177,11 +6191,11 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2936
+0 -1 2936 0
 D8
 ~
 ~
-0 -1 2934
+0 -1 2934 0
 S
 #2936
 Roof Of the Imperial Citadel~
@@ -6190,15 +6204,15 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2937
+0 -1 2937 0
 D2
 ~
 ~
-0 -1 2934
+0 -1 2934 0
 D3
 ~
 ~
-0 -1 2935
+0 -1 2935 0
 S
 #2937
 Roof Of the Imperial Citadel~
@@ -6207,15 +6221,15 @@ Roof Of the Imperial Citadel~
 D1
 ~
 ~
-0 -1 2926
+0 -1 2926 0
 D2
 ~
 ~
-0 -1 2939
+0 -1 2939 0
 D3
 ~
 ~
-0 -1 2936
+0 -1 2936 0
 S
 #2938
 Roof Of the Imperial Citadel~
@@ -6224,11 +6238,11 @@ Roof Of the Imperial Citadel~
 D0
 ~
 ~
-0 -1 2927
+0 -1 2927 0
 D1
 ~
 ~
-0 -1 2930
+0 -1 2930 0
 S
 #2939
 Roof Of the Imperial Citadel~
@@ -6237,11 +6251,11 @@ Roof Of the Imperial Citadel~
 D0
 ~
 ~
-0 -1 2937
+0 -1 2937 0
 D3
 ~
 ~
-0 -1 2934
+0 -1 2934 0
 S
 #2940
 Front of Secret Imperial Military Installation~
@@ -6250,7 +6264,7 @@ Front of Secret Imperial Military Installation~
 D2
 ~
 ~
-0 -1 2941
+0 -1 2941 0
 S
 #2941
 Entrance of Secret Imperial Military Installation~
@@ -6259,19 +6273,19 @@ Entrance of Secret Imperial Military Installation~
 D0
 ~
 ~
-0 -1 2940
+0 -1 2940 0
 D1
 ~
 ~
-0 -1 2942
+0 -1 2942 0
 D2
 ~
 ~
-0 -1 2944
+0 -1 2944 0
 D3
 ~
 ~
-0 -1 2943
+0 -1 2943 0
 S
 #2942
 Guard Post~
@@ -6280,7 +6294,7 @@ Guard Post~
 D3
 ~
 ~
-0 -1 2941
+0 -1 2941 0
 S
 #2943
 Guard Post~
@@ -6289,7 +6303,7 @@ Guard Post~
 D1
 ~
 ~
-0 -1 2941
+0 -1 2941 0
 S
 #2944
 Outer Corridor~
@@ -6298,19 +6312,19 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2941
+0 -1 2941 0
 D1
 ~
 ~
-0 -1 2951
+0 -1 2951 0
 D2
 ~
 ~
-0 -1 2945
+0 -1 2945 0
 D3
 ~
 ~
-0 -1 2972
+0 -1 2972 0
 S
 #2945
 Alpha Base Hallway~
@@ -6319,11 +6333,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 2944
+0 -1 2944 0
 D2
 ~
 ~
-0 -1 2946
+0 -1 2946 0
 S
 #2946
 Alpha Base Hallway~
@@ -6332,11 +6346,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 2945
+0 -1 2945 0
 D2
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 S
 #2947
 Alpha Base Hallway~
@@ -6345,27 +6359,27 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 2946
+0 -1 2946 0
 D1
 ~
 ~
-0 -1 3054
+0 -1 3054 0
 D2
 ~
 ~
-0 -1 2948
+0 -1 2948 0
 D3
 ~
 ~
-0 -1 3052
+0 -1 3052 0
 D4
 ~
 ~
-0 -1 3023
+0 -1 3023 0
 D5
 ~
 ~
-0 -1 2973
+0 -1 2973 0
 S
 #2948
 Alpha Base Hallway~
@@ -6374,11 +6388,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 D2
 ~
 ~
-0 -1 2949
+0 -1 2949 0
 S
 #2949
 Alpha Base Hallway~
@@ -6387,11 +6401,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 2948
+0 -1 2948 0
 D2
 ~
 ~
-0 -1 2950
+0 -1 2950 0
 S
 #2950
 Outer Corridor~
@@ -6400,15 +6414,15 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2949
+0 -1 2949 0
 D1
 ~
 ~
-0 -1 2961
+0 -1 2961 0
 D3
 ~
 ~
-0 -1 2962
+0 -1 2962 0
 S
 #2951
 Outer Corridor~
@@ -6417,11 +6431,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2952
+0 -1 2952 0
 D3
 ~
 ~
-0 -1 2944
+0 -1 2944 0
 S
 #2952
 Outer Corridor~
@@ -6430,11 +6444,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2953
+0 -1 2953 0
 D3
 ~
 ~
-0 -1 2951
+0 -1 2951 0
 S
 #2953
 Outer Corridor~
@@ -6443,11 +6457,11 @@ Outer Corridor~
 D2
 ~
 ~
-0 -1 2954
+0 -1 2954 0
 D3
 ~
 ~
-0 -1 2952
+0 -1 2952 0
 S
 #2954
 Outer Corridor~
@@ -6456,11 +6470,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2953
+0 -1 2953 0
 D2
 ~
 ~
-0 -1 2955
+0 -1 2955 0
 S
 #2955
 Outer Corridor~
@@ -6469,11 +6483,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2954
+0 -1 2954 0
 D2
 ~
 ~
-0 -1 2956
+0 -1 2956 0
 S
 #2956
 Outer Corridor~
@@ -6482,11 +6496,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2955
+0 -1 2955 0
 D2
 ~
 ~
-0 -1 2957
+0 -1 2957 0
 S
 #2957
 Outer Corridor~
@@ -6495,11 +6509,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2956
+0 -1 2956 0
 D2
 ~
 ~
-0 -1 2958
+0 -1 2958 0
 S
 #2958
 Outer Corridor~
@@ -6508,11 +6522,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2957
+0 -1 2957 0
 D2
 ~
 ~
-0 -1 2959
+0 -1 2959 0
 S
 #2959
 Outer Corridor~
@@ -6521,11 +6535,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2958
+0 -1 2958 0
 D3
 ~
 ~
-0 -1 2960
+0 -1 2960 0
 S
 #2960
 Outer Corridor~
@@ -6534,11 +6548,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2959
+0 -1 2959 0
 D3
 ~
 ~
-0 -1 2961
+0 -1 2961 0
 S
 #2961
 Outer Corridor~
@@ -6547,11 +6561,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2960
+0 -1 2960 0
 D3
 ~
 ~
-0 -1 2950
+0 -1 2950 0
 S
 #2962
 Outer Corridor~
@@ -6560,11 +6574,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2950
+0 -1 2950 0
 D3
 ~
 ~
-0 -1 2963
+0 -1 2963 0
 S
 #2963
 Outer Corridor~
@@ -6573,11 +6587,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2962
+0 -1 2962 0
 D3
 ~
 ~
-0 -1 2964
+0 -1 2964 0
 S
 #2964
 Outer Corridor~
@@ -6586,11 +6600,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2965
+0 -1 2965 0
 D1
 ~
 ~
-0 -1 2963
+0 -1 2963 0
 S
 #2965
 Outer Corridor~
@@ -6599,11 +6613,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2966
+0 -1 2966 0
 D2
 ~
 ~
-0 -1 2964
+0 -1 2964 0
 S
 #2966
 Outer Corridor~
@@ -6612,11 +6626,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2967
+0 -1 2967 0
 D2
 ~
 ~
-0 -1 2965
+0 -1 2965 0
 S
 #2967
 Outer Corridor~
@@ -6625,11 +6639,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2968
+0 -1 2968 0
 D2
 ~
 ~
-0 -1 2966
+0 -1 2966 0
 S
 #2968
 Outer Corridor~
@@ -6638,11 +6652,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2969
+0 -1 2969 0
 D2
 ~
 ~
-0 -1 2967
+0 -1 2967 0
 S
 #2969
 Outer Corridor~
@@ -6651,11 +6665,11 @@ Outer Corridor~
 D0
 ~
 ~
-0 -1 2970
+0 -1 2970 0
 D2
 ~
 ~
-0 -1 2968
+0 -1 2968 0
 S
 #2970
 Outer Corridor~
@@ -6664,11 +6678,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2971
+0 -1 2971 0
 D2
 ~
 ~
-0 -1 2969
+0 -1 2969 0
 S
 #2971
 Outer Corridor~
@@ -6677,11 +6691,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2972
+0 -1 2972 0
 D3
 ~
 ~
-0 -1 2970
+0 -1 2970 0
 S
 #2972
 Outer Corridor~
@@ -6690,11 +6704,11 @@ Outer Corridor~
 D1
 ~
 ~
-0 -1 2944
+0 -1 2944 0
 D3
 ~
 ~
-0 -1 2971
+0 -1 2971 0
 S
 #2973
 Primary Imperial Headquarters~
@@ -6703,23 +6717,23 @@ Primary Imperial Headquarters~
 D0
 ~
 ~
-0 -1 2974
+0 -1 2974 0
 D1
 ~
 ~
-0 -1 2976
+0 -1 2976 0
 D2
 ~
 ~
-0 -1 2978
+0 -1 2978 0
 D3
 ~
 ~
-0 -1 2980
+0 -1 2980 0
 D4
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 S
 #2974
 Control Room~
@@ -6728,19 +6742,19 @@ Control Room~
 D0
 ~
 ~
-0 -1 2982
+0 -1 2982 0
 D1
 ~
 ~
-0 -1 2975
+0 -1 2975 0
 D2
 ~
 ~
-0 -1 2973
+0 -1 2973 0
 D3
 ~
 ~
-0 -1 2981
+0 -1 2981 0
 S
 #2975
 Control Room~
@@ -6749,11 +6763,11 @@ Control Room~
 D2
 ~
 ~
-0 -1 2976
+0 -1 2976 0
 D3
 ~
 ~
-0 -1 2974
+0 -1 2974 0
 S
 #2976
 Control Room~
@@ -6762,15 +6776,15 @@ Control Room~
 D0
 ~
 ~
-0 -1 2975
+0 -1 2975 0
 D2
 ~
 ~
-0 -1 2977
+0 -1 2977 0
 D3
 ~
 ~
-0 -1 2973
+0 -1 2973 0
 S
 #2977
 Control Room~
@@ -6779,11 +6793,11 @@ Control Room~
 D0
 ~
 ~
-0 -1 2976
+0 -1 2976 0
 D3
 ~
 ~
-0 -1 2978
+0 -1 2978 0
 S
 #2978
 Control Room~
@@ -6792,15 +6806,15 @@ Control Room~
 D0
 ~
 ~
-0 -1 2973
+0 -1 2973 0
 D1
 ~
 ~
-0 -1 2977
+0 -1 2977 0
 D3
 ~
 ~
-0 -1 2979
+0 -1 2979 0
 S
 #2979
 Control Room~
@@ -6809,11 +6823,11 @@ Control Room~
 D0
 ~
 ~
-0 -1 2980
+0 -1 2980 0
 D1
 ~
 ~
-0 -1 2978
+0 -1 2978 0
 S
 #2980
 Control Room~
@@ -6822,15 +6836,15 @@ Control Room~
 D0
 ~
 ~
-0 -1 2981
+0 -1 2981 0
 D1
 ~
 ~
-0 -1 2973
+0 -1 2973 0
 D2
 ~
 ~
-0 -1 2979
+0 -1 2979 0
 S
 #2981
 Control Room~
@@ -6839,11 +6853,11 @@ Control Room~
 D1
 ~
 ~
-0 -1 2974
+0 -1 2974 0
 D2
 ~
 ~
-0 -1 2980
+0 -1 2980 0
 S
 #2982
 Habitat Ring~
@@ -6852,19 +6866,19 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2998
+0 -1 2998 0
 D1
 ~
 ~
-0 -1 2983
+0 -1 2983 0
 D2
 ~
 ~
-0 -1 2974
+0 -1 2974 0
 D3
 ~
 ~
-0 -1 2997
+0 -1 2997 0
 S
 #2983
 Habitat Ring~
@@ -6873,15 +6887,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2999
+0 -1 2999 0
 D1
 ~
 ~
-0 -1 2984
+0 -1 2984 0
 D3
 ~
 ~
-0 -1 2982
+0 -1 2982 0
 S
 #2984
 Habitat Ring~
@@ -6890,23 +6904,23 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 3000
+0 -1 3000 0
 D1
 ~
 ~
-0 -1 3002
+0 -1 3002 0
 D2
 ~
 ~
-0 -1 2985
+0 -1 2985 0
 D3
 ~
 ~
-0 -1 2983
+0 -1 2983 0
 D6
 ~
 ~
-0 -1 3001
+0 -1 3001 0
 S
 #2985
 Habitat Ring~
@@ -6915,15 +6929,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2984
+0 -1 2984 0
 D1
 ~
 ~
-0 -1 3003
+0 -1 3003 0
 D2
 ~
 ~
-0 -1 2986
+0 -1 2986 0
 S
 #2986
 Habitat Ring~
@@ -6932,15 +6946,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2985
+0 -1 2985 0
 D1
 ~
 ~
-0 -1 3004
+0 -1 3004 0
 D2
 ~
 ~
-0 -1 2987
+0 -1 2987 0
 S
 #2987
 Habitat Ring~
@@ -6949,15 +6963,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2986
+0 -1 2986 0
 D1
 ~
 ~
-0 -1 3005
+0 -1 3005 0
 D2
 ~
 ~
-0 -1 2988
+0 -1 2988 0
 S
 #2988
 Habitat Ring~
@@ -6966,23 +6980,23 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2987
+0 -1 2987 0
 D1
 ~
 ~
-0 -1 3006
+0 -1 3006 0
 D2
 ~
 ~
-0 -1 3008
+0 -1 3008 0
 D3
 ~
 ~
-0 -1 2989
+0 -1 2989 0
 D8
 ~
 ~
-0 -1 3007
+0 -1 3007 0
 S
 #2989
 Habitat Ring~
@@ -6991,15 +7005,15 @@ Habitat Ring~
 D1
 ~
 ~
-0 -1 2988
+0 -1 2988 0
 D2
 ~
 ~
-0 -1 3009
+0 -1 3009 0
 D3
 ~
 ~
-0 -1 2990
+0 -1 2990 0
 S
 #2990
 Habitat Ring~
@@ -7008,15 +7022,15 @@ Habitat Ring~
 D1
 ~
 ~
-0 -1 2989
+0 -1 2989 0
 D2
 ~
 ~
-0 -1 3010
+0 -1 3010 0
 D3
 ~
 ~
-0 -1 2991
+0 -1 2991 0
 S
 #2991
 Habitat Ring~
@@ -7025,15 +7039,15 @@ Habitat Ring~
 D1
 ~
 ~
-0 -1 2990
+0 -1 2990 0
 D2
 ~
 ~
-0 -1 3011
+0 -1 3011 0
 D3
 ~
 ~
-0 -1 2992
+0 -1 2992 0
 S
 #2992
 Habitat Ring~
@@ -7042,23 +7056,23 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2993
+0 -1 2993 0
 D1
 ~
 ~
-0 -1 2991
+0 -1 2991 0
 D2
 ~
 ~
-0 -1 3012
+0 -1 3012 0
 D3
 ~
 ~
-0 -1 3014
+0 -1 3014 0
 D9
 ~
 ~
-0 -1 3013
+0 -1 3013 0
 S
 #2993
 Habitat Ring~
@@ -7067,15 +7081,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2994
+0 -1 2994 0
 D2
 ~
 ~
-0 -1 2992
+0 -1 2992 0
 D3
 ~
 ~
-0 -1 3015
+0 -1 3015 0
 S
 #2994
 Habitat Ring~
@@ -7084,15 +7098,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2995
+0 -1 2995 0
 D2
 ~
 ~
-0 -1 2993
+0 -1 2993 0
 D3
 ~
 ~
-0 -1 3016
+0 -1 3016 0
 S
 #2995
 Habitat Ring~
@@ -7101,15 +7115,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 2996
+0 -1 2996 0
 D2
 ~
 ~
-0 -1 2994
+0 -1 2994 0
 D3
 ~
 ~
-0 -1 3017
+0 -1 3017 0
 S
 #2996
 Habitat Ring~
@@ -7118,23 +7132,23 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 3020
+0 -1 3020 0
 D1
 ~
 ~
-0 -1 2997
+0 -1 2997 0
 D2
 ~
 ~
-0 -1 2995
+0 -1 2995 0
 D3
 ~
 ~
-0 -1 3018
+0 -1 3018 0
 D7
 ~
 ~
-0 -1 3019
+0 -1 3019 0
 S
 #2997
 Habitat Ring~
@@ -7143,15 +7157,15 @@ Habitat Ring~
 D0
 ~
 ~
-0 -1 3021
+0 -1 3021 0
 D1
 ~
 ~
-0 -1 2982
+0 -1 2982 0
 D3
 ~
 ~
-0 -1 2996
+0 -1 2996 0
 S
 #2998
 Officer's Quarters~
@@ -7160,7 +7174,7 @@ Officer's Quarters~
 D2
 ~
 ~
-0 -1 2982
+0 -1 2982 0
 S
 #2999
 Officer's Quarters~
@@ -7169,7 +7183,7 @@ Officer's Quarters~
 D2
 ~
 ~
-0 -1 2983
+0 -1 2983 0
 S
 #3000
 Officer's Quarters~
@@ -7178,7 +7192,7 @@ Officer's Quarters~
 D2
 ~
 ~
-0 -1 2984
+0 -1 2984 0
 S
 #3001
 Kitchen~
@@ -7187,7 +7201,7 @@ Kitchen~
 D9
 ~
 ~
-0 -1 2984
+0 -1 2984 0
 S
 #3002
 Officer's Quarters~
@@ -7196,7 +7210,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 2984
+0 -1 2984 0
 S
 #3003
 Officer's Quarters~
@@ -7205,7 +7219,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 2985
+0 -1 2985 0
 S
 #3004
 Officer's Quarters~
@@ -7214,7 +7228,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 2986
+0 -1 2986 0
 S
 #3005
 Officer's Quarters~
@@ -7223,7 +7237,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 2987
+0 -1 2987 0
 S
 #3006
 Officer's Quarters~
@@ -7232,7 +7246,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 2988
+0 -1 2988 0
 S
 #3007
 Laundry Room~
@@ -7241,7 +7255,7 @@ Laundry Room~
 D7
 ~
 ~
-0 -1 2988
+0 -1 2988 0
 S
 #3008
 Officer's Quarters~
@@ -7250,7 +7264,7 @@ Officer's Quarters~
 D0
 ~
 ~
-0 -1 2988
+0 -1 2988 0
 S
 #3009
 Officer's Quarters~
@@ -7259,7 +7273,7 @@ Officer's Quarters~
 D0
 ~
 ~
-0 -1 2989
+0 -1 2989 0
 S
 #3010
 Officer's Quarters~
@@ -7268,7 +7282,7 @@ Officer's Quarters~
 D0
 ~
 ~
-0 -1 2990
+0 -1 2990 0
 S
 #3011
 Officer's Quarters~
@@ -7277,7 +7291,7 @@ Officer's Quarters~
 D0
 ~
 ~
-0 -1 2991
+0 -1 2991 0
 S
 #3012
 Officer's Quarters~
@@ -7286,7 +7300,7 @@ Officer's Quarters~
 D0
 ~
 ~
-0 -1 2992
+0 -1 2992 0
 S
 #3013
 Recreational Room~
@@ -7295,7 +7309,7 @@ Recreational Room~
 D6
 ~
 ~
-0 -1 2992
+0 -1 2992 0
 S
 #3014
 Officer's Quarters~
@@ -7304,7 +7318,7 @@ Officer's Quarters~
 D1
 ~
 ~
-0 -1 2992
+0 -1 2992 0
 S
 #3015
 Officer's Quarters~
@@ -7313,7 +7327,7 @@ Officer's Quarters~
 D1
 ~
 ~
-0 -1 2993
+0 -1 2993 0
 S
 #3016
 Officer's Quarters~
@@ -7322,7 +7336,7 @@ Officer's Quarters~
 D1
 ~
 ~
-0 -1 2994
+0 -1 2994 0
 S
 #3017
 Officer's Quarters~
@@ -7331,7 +7345,7 @@ Officer's Quarters~
 D1
 ~
 ~
-0 -1 2995
+0 -1 2995 0
 S
 #3018
 Officer's Quarters~
@@ -7340,7 +7354,7 @@ Officer's Quarters~
 D1
 ~
 ~
-0 -1 2996
+0 -1 2996 0
 S
 #3019
 Den~
@@ -7349,7 +7363,7 @@ Den~
 D8
 ~
 ~
-0 -1 2996
+0 -1 2996 0
 S
 #3020
 Officer's Quarters~
@@ -7358,7 +7372,7 @@ Officer's Quarters~
 D2
 ~
 ~
-0 -1 2996
+0 -1 2996 0
 S
 #3021
 Officer's Quarters~
@@ -7367,7 +7381,7 @@ Officer's Quarters~
 D2
 ~
 ~
-0 -1 2997
+0 -1 2997 0
 S
 #3022
 Secret Room~
@@ -7381,15 +7395,15 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3024
+0 -1 3024 0
 D2
 ~
 ~
-0 -1 3026
+0 -1 3026 0
 D5
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 S
 #3024
 Alpha Base Hallway~
@@ -7398,11 +7412,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3025
+0 -1 3025 0
 D2
 ~
 ~
-0 -1 3023
+0 -1 3023 0
 S
 #3025
 Alpha Base Hallway~
@@ -7411,19 +7425,19 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3029
+0 -1 3029 0
 D1
 ~
 ~
-0 -1 3030
+0 -1 3030 0
 D2
 ~
 ~
-0 -1 3024
+0 -1 3024 0
 D3
 ~
 ~
-0 -1 3033
+0 -1 3033 0
 S
 #3026
 Alpha Base Hallway~
@@ -7432,11 +7446,11 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3023
+0 -1 3023 0
 D2
 ~
 ~
-0 -1 3027
+0 -1 3027 0
 S
 #3027
 Alpha Base Hallway~
@@ -7445,19 +7459,19 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3026
+0 -1 3026 0
 D1
 ~
 ~
-0 -1 3048
+0 -1 3048 0
 D2
 ~
 ~
-0 -1 3028
+0 -1 3028 0
 D3
 ~
 ~
-0 -1 3049
+0 -1 3049 0
 S
 #3028
 Alpha Base Hallway~
@@ -7466,15 +7480,15 @@ Alpha Base Hallway~
 D0
 ~
 ~
-0 -1 3027
+0 -1 3027 0
 D1
 ~
 ~
-0 -1 3050
+0 -1 3050 0
 D3
 ~
 ~
-0 -1 3051
+0 -1 3051 0
 S
 #3029
 Alpha Base Hallway~
@@ -7483,7 +7497,7 @@ Alpha Base Hallway~
 D2
 ~
 ~
-0 -1 3025
+0 -1 3025 0
 S
 #3030
 Habitat Hallway~
@@ -7492,19 +7506,19 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3036
+0 -1 3036 0
 D1
 ~
 ~
-0 -1 3031
+0 -1 3031 0
 D2
 ~
 ~
-0 -1 3037
+0 -1 3037 0
 D3
 ~
 ~
-0 -1 3025
+0 -1 3025 0
 S
 #3031
 Habitat Hallway~
@@ -7513,19 +7527,19 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3038
+0 -1 3038 0
 D1
 ~
 ~
-0 -1 3032
+0 -1 3032 0
 D2
 ~
 ~
-0 -1 3039
+0 -1 3039 0
 D3
 ~
 ~
-0 -1 3030
+0 -1 3030 0
 S
 #3032
 Habitat Hallway~
@@ -7534,15 +7548,15 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3040
+0 -1 3040 0
 D2
 ~
 ~
-0 -1 3041
+0 -1 3041 0
 D3
 ~
 ~
-0 -1 3031
+0 -1 3031 0
 S
 #3033
 Habitat Hallway~
@@ -7551,19 +7565,19 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3042
+0 -1 3042 0
 D1
 ~
 ~
-0 -1 3025
+0 -1 3025 0
 D2
 ~
 ~
-0 -1 3043
+0 -1 3043 0
 D3
 ~
 ~
-0 -1 3034
+0 -1 3034 0
 S
 #3034
 Habitat Hallway~
@@ -7572,19 +7586,19 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3044
+0 -1 3044 0
 D1
 ~
 ~
-0 -1 3033
+0 -1 3033 0
 D2
 ~
 ~
-0 -1 3045
+0 -1 3045 0
 D3
 ~
 ~
-0 -1 3035
+0 -1 3035 0
 S
 #3035
 Habitat Hallway~
@@ -7593,15 +7607,15 @@ Habitat Hallway~
 D0
 ~
 ~
-0 -1 3046
+0 -1 3046 0
 D1
 ~
 ~
-0 -1 3034
+0 -1 3034 0
 D2
 ~
 ~
-0 -1 3047
+0 -1 3047 0
 S
 #3036
 Barracks~
@@ -7610,7 +7624,7 @@ Barracks~
 D2
 ~
 ~
-0 -1 3030
+0 -1 3030 0
 S
 #3037
 Barracks~
@@ -7619,7 +7633,7 @@ Barracks~
 D0
 ~
 ~
-0 -1 3030
+0 -1 3030 0
 S
 #3038
 Barracks~
@@ -7628,7 +7642,7 @@ Barracks~
 D2
 ~
 ~
-0 -1 3031
+0 -1 3031 0
 S
 #3039
 Barracks~
@@ -7637,7 +7651,7 @@ Barracks~
 D0
 ~
 ~
-0 -1 3031
+0 -1 3031 0
 S
 #3040
 Armory~
@@ -7646,7 +7660,7 @@ Armory~
 D2
 ~
 ~
-0 -1 3032
+0 -1 3032 0
 S
 #3041
 Mess Hall~
@@ -7655,7 +7669,7 @@ Mess Hall~
 D0
 ~
 ~
-0 -1 3032
+0 -1 3032 0
 S
 #3042
 Barracks~
@@ -7664,7 +7678,7 @@ Barracks~
 D2
 ~
 ~
-0 -1 3033
+0 -1 3033 0
 S
 #3043
 Barracks~
@@ -7673,7 +7687,7 @@ Barracks~
 D0
 ~
 ~
-0 -1 3033
+0 -1 3033 0
 S
 #3044
 Barracks~
@@ -7682,7 +7696,7 @@ Barracks~
 D2
 ~
 ~
-0 -1 3034
+0 -1 3034 0
 S
 #3045
 Barracks~
@@ -7691,7 +7705,7 @@ Barracks~
 D0
 ~
 ~
-0 -1 3034
+0 -1 3034 0
 S
 #3046
 Infirmary~
@@ -7700,7 +7714,7 @@ Infirmary~
 D2
 ~
 ~
-0 -1 3035
+0 -1 3035 0
 S
 #3047
 Recreational Area~
@@ -7709,7 +7723,7 @@ Recreational Area~
 D0
 ~
 ~
-0 -1 3035
+0 -1 3035 0
 S
 #3048
 Hangar Bay 2~
@@ -7718,7 +7732,7 @@ Hangar Bay 2~
 D3
 ~
 ~
-0 -1 3027
+0 -1 3027 0
 S
 #3049
 Hangar Bay 1~
@@ -7727,7 +7741,7 @@ Hangar Bay 1~
 D1
 ~
 ~
-0 -1 3027
+0 -1 3027 0
 S
 #3050
 Hangar Bay 4~
@@ -7736,7 +7750,7 @@ Hangar Bay 4~
 D3
 ~
 ~
-0 -1 3028
+0 -1 3028 0
 S
 #3051
 Hangar Bay 3~
@@ -7745,7 +7759,7 @@ Hangar Bay 3~
 D1
 ~
 ~
-0 -1 3028
+0 -1 3028 0
 S
 #3052
 Engineering~
@@ -7754,19 +7768,19 @@ Engineering~
 D0
 ~
 ~
-0 -1 3060
+0 -1 3060 0
 D1
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 D2
 ~
 ~
-0 -1 3061
+0 -1 3061 0
 D3
 ~
 ~
-0 -1 3053
+0 -1 3053 0
 S
 #3053
 Engineering~
@@ -7775,15 +7789,15 @@ Engineering~
 D0
 ~
 ~
-0 -1 3062
+0 -1 3062 0
 D1
 ~
 ~
-0 -1 3052
+0 -1 3052 0
 D2
 ~
 ~
-0 -1 3063
+0 -1 3063 0
 S
 #3054
 Engineering~
@@ -7792,19 +7806,19 @@ Engineering~
 D0
 ~
 ~
-0 -1 3058
+0 -1 3058 0
 D1
 ~
 ~
-0 -1 3055
+0 -1 3055 0
 D2
 ~
 ~
-0 -1 3059
+0 -1 3059 0
 D3
 ~
 ~
-0 -1 2947
+0 -1 2947 0
 S
 #3055
 Engineering~
@@ -7813,15 +7827,15 @@ Engineering~
 D0
 ~
 ~
-0 -1 3056
+0 -1 3056 0
 D2
 ~
 ~
-0 -1 3057
+0 -1 3057 0
 D3
 ~
 ~
-0 -1 3054
+0 -1 3054 0
 S
 #3056
 Power Generator Room~
@@ -7830,7 +7844,7 @@ Power Generator Room~
 D2
 ~
 ~
-0 -1 3055
+0 -1 3055 0
 S
 #3057
 Power Generator Room~
@@ -7839,7 +7853,7 @@ Power Generator Room~
 D0
 ~
 ~
-0 -1 3055
+0 -1 3055 0
 S
 #3058
 Main Security Station~
@@ -7848,7 +7862,7 @@ Main Security Station~
 D2
 ~
 ~
-0 -1 3054
+0 -1 3054 0
 S
 #3059
 Main Power Station~
@@ -7857,7 +7871,7 @@ Main Power Station~
 D0
 ~
 ~
-0 -1 3054
+0 -1 3054 0
 S
 #3060
 Main Computer Station~
@@ -7866,7 +7880,7 @@ Main Computer Station~
 D2
 ~
 ~
-0 -1 3052
+0 -1 3052 0
 S
 #3061
 Main Engineering~
@@ -7875,7 +7889,7 @@ Main Engineering~
 D0
 ~
 ~
-0 -1 3052
+0 -1 3052 0
 S
 #3062
 Power Generator Room~
@@ -7884,7 +7898,7 @@ Power Generator Room~
 D2
 ~
 ~
-0 -1 3053
+0 -1 3053 0
 S
 #3063
 Power Generator Room~
@@ -7893,7 +7907,7 @@ Power Generator Room~
 D0
 ~
 ~
-0 -1 3053
+0 -1 3053 0
 S
 #3064
 Imperial Shield Generator Room~
@@ -7902,11 +7916,11 @@ Imperial Shield Generator Room~
 D2
 ~
 ~
-0 -1 3066
+0 -1 3066 0
 D3
 ~
 ~
-0 -1 3065
+0 -1 3065 0
 S
 #3065
 Power Generator Room~
@@ -7915,7 +7929,7 @@ Power Generator Room~
 D1
 ~
 ~
-0 -1 3064
+0 -1 3064 0
 S
 #3066
 Control Room~
@@ -7924,11 +7938,11 @@ Control Room~
 D0
 ~
 ~
-0 -1 3064
+0 -1 3064 0
 D3
 ~
 ~
-0 -1 3067
+0 -1 3067 0
 S
 #3067
 Security Station~
@@ -7937,11 +7951,11 @@ Security Station~
 D1
 ~
 ~
-0 -1 3066
+0 -1 3066 0
 D5
 ~
 ~
-0 -1 3068
+0 -1 3068 0
 S
 #3068
 Security Station~
@@ -7950,15 +7964,15 @@ Security Station~
 D1
 ~
 ~
-0 -1 3069
+0 -1 3069 0
 D2
 ~
 ~
-0 -1 3225
+0 -1 3225 0
 D4
 ~
 ~
-0 -1 3067
+0 -1 3067 0
 S
 #3069
 Restricted Area~
@@ -7967,11 +7981,11 @@ Restricted Area~
 D0
 ~
 ~
-0 -1 3070
+0 -1 3070 0
 D3
 ~
 ~
-0 -1 3068
+0 -1 3068 0
 S
 #3070
 Restricted Area~
@@ -7980,11 +7994,11 @@ Restricted Area~
 D2
 ~
 ~
-0 -1 3069
+0 -1 3069 0
 D3
 ~
 ~
-0 -1 3071
+0 -1 3071 0
 S
 #3071
 Security Station~
@@ -7993,7 +8007,7 @@ Security Station~
 D1
 ~
 ~
-0 -1 3070
+0 -1 3070 0
 S
 #3072
 Barracks Entrance~
@@ -8002,7 +8016,7 @@ Barracks Entrance~
 D2
 ~
 ~
-0 -1 3073
+0 -1 3073 0
 S
 #3073
 Security Station~
@@ -8011,19 +8025,19 @@ Security Station~
 D0
 ~
 ~
-0 -1 3072
+0 -1 3072 0
 D1
 ~
 ~
-0 -1 3077
+0 -1 3077 0
 D2
 ~
 ~
-0 -1 3074
+0 -1 3074 0
 D3
 ~
 ~
-0 -1 3078
+0 -1 3078 0
 S
 #3074
 Imperial Barracks~
@@ -8032,19 +8046,19 @@ Imperial Barracks~
 D0
 ~
 ~
-0 -1 3073
+0 -1 3073 0
 D1
 ~
 ~
-0 -1 3079
+0 -1 3079 0
 D2
 ~
 ~
-0 -1 3075
+0 -1 3075 0
 D3
 ~
 ~
-0 -1 3080
+0 -1 3080 0
 S
 #3075
 Imperial Barracks~
@@ -8053,19 +8067,19 @@ Imperial Barracks~
 D0
 ~
 ~
-0 -1 3074
+0 -1 3074 0
 D1
 ~
 ~
-0 -1 3081
+0 -1 3081 0
 D2
 ~
 ~
-0 -1 3076
+0 -1 3076 0
 D3
 ~
 ~
-0 -1 3082
+0 -1 3082 0
 S
 #3076
 Imperial Barracks~
@@ -8074,19 +8088,19 @@ Imperial Barracks~
 D0
 ~
 ~
-0 -1 3075
+0 -1 3075 0
 D1
 ~
 ~
-0 -1 3083
+0 -1 3083 0
 D2
 ~
 ~
-0 -1 3086
+0 -1 3086 0
 D3
 ~
 ~
-0 -1 3084
+0 -1 3084 0
 S
 #3077
 Officer's Quarters~
@@ -8095,7 +8109,7 @@ Officer's Quarters~
 D3
 ~
 ~
-0 -1 3073
+0 -1 3073 0
 S
 #3078
 Cleaning Facility~
@@ -8104,7 +8118,7 @@ Cleaning Facility~
 D1
 ~
 ~
-0 -1 3073
+0 -1 3073 0
 S
 #3079
 Soldier's Quarters~
@@ -8113,7 +8127,7 @@ Soldier's Quarters~
 D3
 ~
 ~
-0 -1 3074
+0 -1 3074 0
 S
 #3080
 Soldier's Quarters~
@@ -8122,7 +8136,7 @@ Soldier's Quarters~
 D1
 ~
 ~
-0 -1 3074
+0 -1 3074 0
 S
 #3081
 Soldier's Quarters~
@@ -8131,7 +8145,7 @@ Soldier's Quarters~
 D3
 ~
 ~
-0 -1 3075
+0 -1 3075 0
 S
 #3082
 Soldier's Quarters~
@@ -8140,7 +8154,7 @@ Soldier's Quarters~
 D1
 ~
 ~
-0 -1 3075
+0 -1 3075 0
 S
 #3083
 Armory~
@@ -8149,11 +8163,11 @@ Armory~
 D2
 ~
 ~
-0 -1 3087
+0 -1 3087 0
 D3
 ~
 ~
-0 -1 3076
+0 -1 3076 0
 S
 #3084
 Mess Hall~
@@ -8162,11 +8176,11 @@ Mess Hall~
 D1
 ~
 ~
-0 -1 3076
+0 -1 3076 0
 D2
 ~
 ~
-0 -1 3085
+0 -1 3085 0
 S
 #3085
 Infirmary~
@@ -8175,7 +8189,7 @@ Infirmary~
 D0
 ~
 ~
-0 -1 3084
+0 -1 3084 0
 S
 #3086
 Soldier's Quarters~
@@ -8184,7 +8198,7 @@ Soldier's Quarters~
 D0
 ~
 ~
-0 -1 3076
+0 -1 3076 0
 S
 #3087
 Supply Room~
@@ -8193,7 +8207,7 @@ Supply Room~
 D0
 ~
 ~
-0 -1 3083
+0 -1 3083 0
 S
 #3088
 Garage Entrance~
@@ -8202,7 +8216,7 @@ Garage Entrance~
 D2
 ~
 ~
-0 -1 3089
+0 -1 3089 0
 S
 #3089
 Imperial Garage~
@@ -8211,19 +8225,19 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3088
+0 -1 3088 0
 D1
 ~
 ~
-0 -1 3093
+0 -1 3093 0
 D2
 ~
 ~
-0 -1 3090
+0 -1 3090 0
 D3
 ~
 ~
-0 -1 3094
+0 -1 3094 0
 S
 #3090
 Imperial Garage~
@@ -8232,19 +8246,19 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3089
+0 -1 3089 0
 D1
 ~
 ~
-0 -1 3095
+0 -1 3095 0
 D2
 ~
 ~
-0 -1 3091
+0 -1 3091 0
 D3
 ~
 ~
-0 -1 3096
+0 -1 3096 0
 S
 #3091
 Imperial Garage~
@@ -8253,19 +8267,19 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3090
+0 -1 3090 0
 D1
 ~
 ~
-0 -1 3097
+0 -1 3097 0
 D2
 ~
 ~
-0 -1 3092
+0 -1 3092 0
 D3
 ~
 ~
-0 -1 3098
+0 -1 3098 0
 S
 #3092
 Imperial Garage~
@@ -8274,15 +8288,15 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3091
+0 -1 3091 0
 D1
 ~
 ~
-0 -1 3099
+0 -1 3099 0
 D3
 ~
 ~
-0 -1 3100
+0 -1 3100 0
 S
 #3093
 Security Station~
@@ -8291,7 +8305,7 @@ Security Station~
 D3
 ~
 ~
-0 -1 3089
+0 -1 3089 0
 S
 #3094
 Lounge~
@@ -8300,7 +8314,7 @@ Lounge~
 D1
 ~
 ~
-0 -1 3089
+0 -1 3089 0
 S
 #3095
 Office~
@@ -8309,7 +8323,7 @@ Office~
 D3
 ~
 ~
-0 -1 3090
+0 -1 3090 0
 S
 #3096
 Tool Shed~
@@ -8318,7 +8332,7 @@ Tool Shed~
 D1
 ~
 ~
-0 -1 3090
+0 -1 3090 0
 S
 #3097
 Imperial Garage~
@@ -8327,11 +8341,11 @@ Imperial Garage~
 D2
 ~
 ~
-0 -1 3099
+0 -1 3099 0
 D3
 ~
 ~
-0 -1 3091
+0 -1 3091 0
 S
 #3098
 Imperial Garage~
@@ -8340,11 +8354,11 @@ Imperial Garage~
 D1
 ~
 ~
-0 -1 3091
+0 -1 3091 0
 D2
 ~
 ~
-0 -1 3100
+0 -1 3100 0
 S
 #3099
 Imperial Garage~
@@ -8353,11 +8367,11 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3097
+0 -1 3097 0
 D3
 ~
 ~
-0 -1 3092
+0 -1 3092 0
 S
 #3100
 Imperial Garage~
@@ -8366,11 +8380,11 @@ Imperial Garage~
 D0
 ~
 ~
-0 -1 3098
+0 -1 3098 0
 D1
 ~
 ~
-0 -1 3092
+0 -1 3092 0
 S
 #3101
 Ace's Hardware Store~
@@ -8379,7 +8393,7 @@ Ace's Hardware Store~
 D0
 ~
 ~
-0 -1 3102
+0 -1 3102 0
 S
 #3102
 Ace's Hardware Store~
@@ -8388,11 +8402,11 @@ Ace's Hardware Store~
 D1
 ~
 ~
-0 -1 3103
+0 -1 3103 0
 D2
 ~
 ~
-0 -1 3101
+0 -1 3101 0
 S
 #3103
 Workshop~
@@ -8401,7 +8415,7 @@ Workshop~
 D3
 ~
 ~
-0 -1 3102
+0 -1 3102 0
 S
 #3104
 Byss Mall~
@@ -8410,7 +8424,7 @@ Byss Mall~
 D0
 ~
 ~
-0 -1 3105
+0 -1 3105 0
 S
 #3105
 Byss Mall First Floor~
@@ -8419,19 +8433,19 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3121
+0 -1 3121 0
 D1
 ~
 ~
-0 -1 3120
+0 -1 3120 0
 D2
 ~
 ~
-0 -1 3104
+0 -1 3104 0
 D3
 ~
 ~
-0 -1 3106
+0 -1 3106 0
 S
 #3106
 Byss Mall First Floor~
@@ -8440,15 +8454,15 @@ Byss Mall First Floor~
 D1
 ~
 ~
-0 -1 3105
+0 -1 3105 0
 D2
 ~
 ~
-0 -1 3170
+0 -1 3170 0
 D3
 ~
 ~
-0 -1 3107
+0 -1 3107 0
 S
 #3107
 Byss Mall First Floor~
@@ -8457,15 +8471,15 @@ Byss Mall First Floor~
 D1
 ~
 ~
-0 -1 3106
+0 -1 3106 0
 D2
 ~
 ~
-0 -1 3169
+0 -1 3169 0
 D3
 ~
 ~
-0 -1 3108
+0 -1 3108 0
 S
 #3108
 Byss Mall First Floor~
@@ -8474,19 +8488,19 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3109
+0 -1 3109 0
 D1
 ~
 ~
-0 -1 3107
+0 -1 3107 0
 D2
 ~
 ~
-0 -1 3168
+0 -1 3168 0
 D3
 ~
 ~
-0 -1 3167
+0 -1 3167 0
 S
 #3109
 Byss Mall First Floor~
@@ -8495,15 +8509,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3110
+0 -1 3110 0
 D2
 ~
 ~
-0 -1 3108
+0 -1 3108 0
 D3
 ~
 ~
-0 -1 3166
+0 -1 3166 0
 S
 #3110
 Byss Mall First Floor~
@@ -8512,19 +8526,19 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3164
+0 -1 3164 0
 D1
 ~
 ~
-0 -1 3111
+0 -1 3111 0
 D2
 ~
 ~
-0 -1 3109
+0 -1 3109 0
 D3
 ~
 ~
-0 -1 3165
+0 -1 3165 0
 S
 #3111
 Byss Mall First Floor~
@@ -8533,15 +8547,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3163
+0 -1 3163 0
 D1
 ~
 ~
-0 -1 3112
+0 -1 3112 0
 D3
 ~
 ~
-0 -1 3110
+0 -1 3110 0
 S
 #3112
 Byss Mall First Floor~
@@ -8550,15 +8564,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3162
+0 -1 3162 0
 D1
 ~
 ~
-0 -1 3113
+0 -1 3113 0
 D3
 ~
 ~
-0 -1 3111
+0 -1 3111 0
 S
 #3113
 Byss Mall First Floor~
@@ -8567,15 +8581,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3161
+0 -1 3161 0
 D1
 ~
 ~
-0 -1 3114
+0 -1 3114 0
 D3
 ~
 ~
-0 -1 3112
+0 -1 3112 0
 S
 #3114
 Byss Mall First Floor~
@@ -8584,15 +8598,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3160
+0 -1 3160 0
 D1
 ~
 ~
-0 -1 3115
+0 -1 3115 0
 D3
 ~
 ~
-0 -1 3113
+0 -1 3113 0
 S
 #3115
 Byss Mall First Floor~
@@ -8601,15 +8615,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3159
+0 -1 3159 0
 D1
 ~
 ~
-0 -1 3116
+0 -1 3116 0
 D3
 ~
 ~
-0 -1 3114
+0 -1 3114 0
 S
 #3116
 Byss Mall First Floor~
@@ -8618,19 +8632,19 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3158
+0 -1 3158 0
 D1
 ~
 ~
-0 -1 3157
+0 -1 3157 0
 D2
 ~
 ~
-0 -1 3117
+0 -1 3117 0
 D3
 ~
 ~
-0 -1 3115
+0 -1 3115 0
 S
 #3117
 Byss Mall First Floor~
@@ -8639,15 +8653,15 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3116
+0 -1 3116 0
 D1
 ~
 ~
-0 -1 3156
+0 -1 3156 0
 D2
 ~
 ~
-0 -1 3118
+0 -1 3118 0
 S
 #3118
 Byss Mall First Floor~
@@ -8656,19 +8670,19 @@ Byss Mall First Floor~
 D0
 ~
 ~
-0 -1 3117
+0 -1 3117 0
 D1
 ~
 ~
-0 -1 3155
+0 -1 3155 0
 D2
 ~
 ~
-0 -1 3173
+0 -1 3173 0
 D3
 ~
 ~
-0 -1 3119
+0 -1 3119 0
 S
 #3119
 Byss Mall First Floor~
@@ -8677,15 +8691,15 @@ Byss Mall First Floor~
 D1
 ~
 ~
-0 -1 3118
+0 -1 3118 0
 D2
 ~
 ~
-0 -1 3172
+0 -1 3172 0
 D3
 ~
 ~
-0 -1 3120
+0 -1 3120 0
 S
 #3120
 Byss Mall First Floor~
@@ -8694,15 +8708,15 @@ Byss Mall First Floor~
 D1
 ~
 ~
-0 -1 3119
+0 -1 3119 0
 D2
 ~
 ~
-0 -1 3171
+0 -1 3171 0
 D3
 ~
 ~
-0 -1 3105
+0 -1 3105 0
 S
 #3121
 Stairs~
@@ -8711,11 +8725,11 @@ Stairs~
 D0
 ~
 ~
-0 -1 3123
+0 -1 3123 0
 D2
 ~
 ~
-0 -1 3105
+0 -1 3105 0
 S
 #3122
 Stairs~
@@ -8724,11 +8738,11 @@ Stairs~
 D0
 ~
 ~
-0 -1 3139
+0 -1 3139 0
 D2
 ~
 ~
-0 -1 3131
+0 -1 3131 0
 S
 #3123
 Byss Mall Second Floor~
@@ -8737,19 +8751,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3174
+0 -1 3174 0
 D1
 ~
 ~
-0 -1 3124
+0 -1 3124 0
 D2
 ~
 ~
-0 -1 3121
+0 -1 3121 0
 D3
 ~
 ~
-0 -1 3138
+0 -1 3138 0
 S
 #3124
 Byss Mall Second Floor~
@@ -8758,15 +8772,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3175
+0 -1 3175 0
 D1
 ~
 ~
-0 -1 3125
+0 -1 3125 0
 D3
 ~
 ~
-0 -1 3123
+0 -1 3123 0
 S
 #3125
 Byss Mall Second Floor~
@@ -8775,15 +8789,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3176
+0 -1 3176 0
 D1
 ~
 ~
-0 -1 3126
+0 -1 3126 0
 D3
 ~
 ~
-0 -1 3124
+0 -1 3124 0
 S
 #3126
 Byss Mall Second Floor~
@@ -8792,19 +8806,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3177
+0 -1 3177 0
 D1
 ~
 ~
-0 -1 3178
+0 -1 3178 0
 D2
 ~
 ~
-0 -1 3127
+0 -1 3127 0
 D3
 ~
 ~
-0 -1 3125
+0 -1 3125 0
 S
 #3127
 Byss Mall Second Floor~
@@ -8813,15 +8827,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3126
+0 -1 3126 0
 D1
 ~
 ~
-0 -1 3179
+0 -1 3179 0
 D2
 ~
 ~
-0 -1 3128
+0 -1 3128 0
 S
 #3128
 Byss Mall Second Floor~
@@ -8830,19 +8844,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3127
+0 -1 3127 0
 D1
 ~
 ~
-0 -1 3180
+0 -1 3180 0
 D2
 ~
 ~
-0 -1 3181
+0 -1 3181 0
 D3
 ~
 ~
-0 -1 3129
+0 -1 3129 0
 S
 #3129
 Byss Mall Second Floor~
@@ -8851,15 +8865,15 @@ Byss Mall Second Floor~
 D1
 ~
 ~
-0 -1 3128
+0 -1 3128 0
 D2
 ~
 ~
-0 -1 3182
+0 -1 3182 0
 D3
 ~
 ~
-0 -1 3130
+0 -1 3130 0
 S
 #3130
 Byss Mall Second Floor~
@@ -8868,15 +8882,15 @@ Byss Mall Second Floor~
 D1
 ~
 ~
-0 -1 3129
+0 -1 3129 0
 D2
 ~
 ~
-0 -1 3183
+0 -1 3183 0
 D3
 ~
 ~
-0 -1 3131
+0 -1 3131 0
 S
 #3131
 Byss Mall Second Floor~
@@ -8885,19 +8899,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3122
+0 -1 3122 0
 D1
 ~
 ~
-0 -1 3130
+0 -1 3130 0
 D2
 ~
 ~
-0 -1 3184
+0 -1 3184 0
 D3
 ~
 ~
-0 -1 3132
+0 -1 3132 0
 S
 #3132
 Byss Mall Second Floor~
@@ -8906,15 +8920,15 @@ Byss Mall Second Floor~
 D1
 ~
 ~
-0 -1 3131
+0 -1 3131 0
 D2
 ~
 ~
-0 -1 3185
+0 -1 3185 0
 D3
 ~
 ~
-0 -1 3133
+0 -1 3133 0
 S
 #3133
 Byss Mall Second Floor~
@@ -8923,15 +8937,15 @@ Byss Mall Second Floor~
 D1
 ~
 ~
-0 -1 3132
+0 -1 3132 0
 D2
 ~
 ~
-0 -1 3186
+0 -1 3186 0
 D3
 ~
 ~
-0 -1 3134
+0 -1 3134 0
 S
 #3134
 Byss Mall Second Floor~
@@ -8940,19 +8954,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3135
+0 -1 3135 0
 D1
 ~
 ~
-0 -1 3133
+0 -1 3133 0
 D2
 ~
 ~
-0 -1 3187
+0 -1 3187 0
 D3
 ~
 ~
-0 -1 3188
+0 -1 3188 0
 S
 #3135
 Byss Mall Second Floor~
@@ -8961,15 +8975,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3136
+0 -1 3136 0
 D2
 ~
 ~
-0 -1 3134
+0 -1 3134 0
 D3
 ~
 ~
-0 -1 3189
+0 -1 3189 0
 S
 #3136
 Byss Mall Second Floor~
@@ -8978,19 +8992,19 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3191
+0 -1 3191 0
 D1
 ~
 ~
-0 -1 3137
+0 -1 3137 0
 D2
 ~
 ~
-0 -1 3135
+0 -1 3135 0
 D3
 ~
 ~
-0 -1 3190
+0 -1 3190 0
 S
 #3137
 Byss Mall Second Floor~
@@ -8999,15 +9013,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3192
+0 -1 3192 0
 D1
 ~
 ~
-0 -1 3138
+0 -1 3138 0
 D3
 ~
 ~
-0 -1 3136
+0 -1 3136 0
 S
 #3138
 Byss Mall Second Floor~
@@ -9016,15 +9030,15 @@ Byss Mall Second Floor~
 D0
 ~
 ~
-0 -1 3193
+0 -1 3193 0
 D1
 ~
 ~
-0 -1 3123
+0 -1 3123 0
 D3
 ~
 ~
-0 -1 3137
+0 -1 3137 0
 S
 #3139
 Byss Mall Third Floor~
@@ -9033,19 +9047,19 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3194
+0 -1 3194 0
 D1
 ~
 ~
-0 -1 3140
+0 -1 3140 0
 D2
 ~
 ~
-0 -1 3122
+0 -1 3122 0
 D3
 ~
 ~
-0 -1 3154
+0 -1 3154 0
 S
 #3140
 Byss Mall Third Floor~
@@ -9054,15 +9068,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3195
+0 -1 3195 0
 D1
 ~
 ~
-0 -1 3141
+0 -1 3141 0
 D3
 ~
 ~
-0 -1 3139
+0 -1 3139 0
 S
 #3141
 Byss Mall Third Floor~
@@ -9071,15 +9085,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3196
+0 -1 3196 0
 D1
 ~
 ~
-0 -1 3142
+0 -1 3142 0
 D3
 ~
 ~
-0 -1 3140
+0 -1 3140 0
 S
 #3142
 Byss Mall Third Floor~
@@ -9088,19 +9102,19 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3197
+0 -1 3197 0
 D1
 ~
 ~
-0 -1 3198
+0 -1 3198 0
 D2
 ~
 ~
-0 -1 3143
+0 -1 3143 0
 D3
 ~
 ~
-0 -1 3141
+0 -1 3141 0
 S
 #3143
 Byss Mall Third Floor~
@@ -9109,15 +9123,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3142
+0 -1 3142 0
 D1
 ~
 ~
-0 -1 3199
+0 -1 3199 0
 D2
 ~
 ~
-0 -1 3144
+0 -1 3144 0
 S
 #3144
 Byss Mall Third Floor~
@@ -9126,19 +9140,19 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3143
+0 -1 3143 0
 D1
 ~
 ~
-0 -1 3200
+0 -1 3200 0
 D2
 ~
 ~
-0 -1 3201
+0 -1 3201 0
 D3
 ~
 ~
-0 -1 3145
+0 -1 3145 0
 S
 #3145
 Byss Mall Third Floor~
@@ -9147,15 +9161,15 @@ Byss Mall Third Floor~
 D1
 ~
 ~
-0 -1 3144
+0 -1 3144 0
 D2
 ~
 ~
-0 -1 3202
+0 -1 3202 0
 D3
 ~
 ~
-0 -1 3146
+0 -1 3146 0
 S
 #3146
 Byss Mall Third Floor~
@@ -9164,15 +9178,15 @@ Byss Mall Third Floor~
 D1
 ~
 ~
-0 -1 3145
+0 -1 3145 0
 D2
 ~
 ~
-0 -1 3203
+0 -1 3203 0
 D3
 ~
 ~
-0 -1 3147
+0 -1 3147 0
 S
 #3147
 Byss Mall Third Floor~
@@ -9181,15 +9195,15 @@ Byss Mall Third Floor~
 D1
 ~
 ~
-0 -1 3146
+0 -1 3146 0
 D2
 ~
 ~
-0 -1 3204
+0 -1 3204 0
 D3
 ~
 ~
-0 -1 3148
+0 -1 3148 0
 S
 #3148
 Byss Mall Third Floor~
@@ -9198,15 +9212,15 @@ Byss Mall Third Floor~
 D1
 ~
 ~
-0 -1 3147
+0 -1 3147 0
 D2
 ~
 ~
-0 -1 3205
+0 -1 3205 0
 D3
 ~
 ~
-0 -1 3149
+0 -1 3149 0
 S
 #3149
 Byss Mall Third Floor~
@@ -9215,15 +9229,15 @@ Byss Mall Third Floor~
 D1
 ~
 ~
-0 -1 3148
+0 -1 3148 0
 D2
 ~
 ~
-0 -1 3206
+0 -1 3206 0
 D3
 ~
 ~
-0 -1 3150
+0 -1 3150 0
 S
 #3150
 Byss Mall Third Floor~
@@ -9232,19 +9246,19 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3151
+0 -1 3151 0
 D1
 ~
 ~
-0 -1 3149
+0 -1 3149 0
 D2
 ~
 ~
-0 -1 3207
+0 -1 3207 0
 D3
 ~
 ~
-0 -1 3208
+0 -1 3208 0
 S
 #3151
 Byss Mall Third Floor~
@@ -9253,15 +9267,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3152
+0 -1 3152 0
 D2
 ~
 ~
-0 -1 3150
+0 -1 3150 0
 D3
 ~
 ~
-0 -1 3209
+0 -1 3209 0
 S
 #3152
 Byss Mall Third Floor~
@@ -9270,19 +9284,19 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3211
+0 -1 3211 0
 D1
 ~
 ~
-0 -1 3153
+0 -1 3153 0
 D2
 ~
 ~
-0 -1 3151
+0 -1 3151 0
 D3
 ~
 ~
-0 -1 3210
+0 -1 3210 0
 S
 #3153
 Byss Mall Third Floor~
@@ -9291,15 +9305,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3212
+0 -1 3212 0
 D1
 ~
 ~
-0 -1 3154
+0 -1 3154 0
 D3
 ~
 ~
-0 -1 3152
+0 -1 3152 0
 S
 #3154
 Byss Mall Third Floor~
@@ -9308,15 +9322,15 @@ Byss Mall Third Floor~
 D0
 ~
 ~
-0 -1 3213
+0 -1 3213 0
 D1
 ~
 ~
-0 -1 3139
+0 -1 3139 0
 D3
 ~
 ~
-0 -1 3153
+0 -1 3153 0
 S
 #3155
 UPS Station~
@@ -9325,7 +9339,7 @@ UPS Station~
 D3
 ~
 ~
-0 -1 3118
+0 -1 3118 0
 S
 #3156
 Empty Store~
@@ -9334,7 +9348,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3117
+0 -1 3117 0
 S
 #3157
 Empty Store~
@@ -9343,7 +9357,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3116
+0 -1 3116 0
 S
 #3158
 Empty Store~
@@ -9352,7 +9366,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3116
+0 -1 3116 0
 S
 #3159
 Empty Store~
@@ -9361,7 +9375,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3115
+0 -1 3115 0
 S
 #3160
 Empty Store~
@@ -9370,7 +9384,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3114
+0 -1 3114 0
 S
 #3161
 Empty Store~
@@ -9379,7 +9393,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3113
+0 -1 3113 0
 S
 #3162
 Empty Store~
@@ -9388,7 +9402,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3112
+0 -1 3112 0
 S
 #3163
 Empty Store~
@@ -9397,7 +9411,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3111
+0 -1 3111 0
 S
 #3164
 Empty Store~
@@ -9406,7 +9420,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3110
+0 -1 3110 0
 S
 #3165
 Empty Store~
@@ -9415,7 +9429,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3110
+0 -1 3110 0
 S
 #3166
 Empty Store~
@@ -9424,7 +9438,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3109
+0 -1 3109 0
 S
 #3167
 Empty Store~
@@ -9433,7 +9447,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3108
+0 -1 3108 0
 S
 #3168
 Empty Store~
@@ -9442,7 +9456,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3108
+0 -1 3108 0
 S
 #3169
 Empty Store~
@@ -9451,7 +9465,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3107
+0 -1 3107 0
 S
 #3170
 Empty Store~
@@ -9460,7 +9474,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3106
+0 -1 3106 0
 S
 #3171
 Empty Store~
@@ -9469,7 +9483,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3120
+0 -1 3120 0
 S
 #3172
 Empty Store~
@@ -9478,7 +9492,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3119
+0 -1 3119 0
 S
 #3173
 Empty Store~
@@ -9487,7 +9501,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3118
+0 -1 3118 0
 S
 #3174
 Empty Store~
@@ -9496,7 +9510,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3123
+0 -1 3123 0
 S
 #3175
 Empty Store~
@@ -9505,7 +9519,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3124
+0 -1 3124 0
 S
 #3176
 Empty Store~
@@ -9514,7 +9528,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3125
+0 -1 3125 0
 S
 #3177
 Empty Store~
@@ -9523,7 +9537,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3126
+0 -1 3126 0
 S
 #3178
 Empty Store~
@@ -9532,7 +9546,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3126
+0 -1 3126 0
 S
 #3179
 Empty Store~
@@ -9541,7 +9555,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3127
+0 -1 3127 0
 S
 #3180
 Comlink Shack~
@@ -9550,7 +9564,7 @@ Comlink Shack~
 D3
 ~
 ~
-0 -1 3128
+0 -1 3128 0
 S
 #3181
 Empty Store~
@@ -9559,7 +9573,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3128
+0 -1 3128 0
 S
 #3182
 Empty Store~
@@ -9568,7 +9582,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3129
+0 -1 3129 0
 S
 #3183
 Empty Store~
@@ -9577,7 +9591,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3130
+0 -1 3130 0
 S
 #3184
 Empty Store~
@@ -9586,7 +9600,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3131
+0 -1 3131 0
 S
 #3185
 Empty Store~
@@ -9595,7 +9609,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3132
+0 -1 3132 0
 S
 #3186
 Empty Store~
@@ -9604,7 +9618,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3133
+0 -1 3133 0
 S
 #3187
 Empty Store~
@@ -9613,7 +9627,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3134
+0 -1 3134 0
 S
 #3188
 Empty Store~
@@ -9622,7 +9636,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3134
+0 -1 3134 0
 S
 #3189
 Empty Store~
@@ -9631,7 +9645,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3135
+0 -1 3135 0
 S
 #3190
 Empty Store~
@@ -9640,7 +9654,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3136
+0 -1 3136 0
 S
 #3191
 Empty Store~
@@ -9649,7 +9663,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3136
+0 -1 3136 0
 S
 #3192
 Empty Store~
@@ -9658,7 +9672,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3137
+0 -1 3137 0
 S
 #3193
 Empty Store~
@@ -9667,7 +9681,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3138
+0 -1 3138 0
 S
 #3194
 Loco Toco~
@@ -9676,7 +9690,7 @@ Loco Toco~
 D2
 ~
 ~
-0 -1 3139
+0 -1 3139 0
 S
 #3195
 Sala Bin's Chop Shop~
@@ -9685,7 +9699,7 @@ Sala Bin's Chop Shop~
 D2
 ~
 ~
-0 -1 3140
+0 -1 3140 0
 S
 #3196
 Empty Store~
@@ -9694,7 +9708,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3141
+0 -1 3141 0
 S
 #3197
 Empty Store~
@@ -9703,7 +9717,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3142
+0 -1 3142 0
 S
 #3198
 Empty Store~
@@ -9712,7 +9726,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3142
+0 -1 3142 0
 S
 #3199
 Empty Store~
@@ -9721,7 +9735,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3143
+0 -1 3143 0
 S
 #3200
 Empty Store~
@@ -9730,7 +9744,7 @@ Empty Store~
 D3
 ~
 ~
-0 -1 3144
+0 -1 3144 0
 S
 #3201
 Empty Store~
@@ -9739,7 +9753,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3144
+0 -1 3144 0
 S
 #3202
 Empty Store~
@@ -9748,7 +9762,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3145
+0 -1 3145 0
 S
 #3203
 Empty Store~
@@ -9757,7 +9771,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3146
+0 -1 3146 0
 S
 #3204
 Empty Store~
@@ -9766,7 +9780,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3147
+0 -1 3147 0
 S
 #3205
 Empty Store~
@@ -9775,7 +9789,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3148
+0 -1 3148 0
 S
 #3206
 Empty Store~
@@ -9784,7 +9798,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3149
+0 -1 3149 0
 S
 #3207
 Empty Store~
@@ -9793,7 +9807,7 @@ Empty Store~
 D0
 ~
 ~
-0 -1 3150
+0 -1 3150 0
 S
 #3208
 Empty Store~
@@ -9802,7 +9816,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3150
+0 -1 3150 0
 S
 #3209
 Empty Store~
@@ -9811,7 +9825,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3151
+0 -1 3151 0
 S
 #3210
 Empty Store~
@@ -9820,7 +9834,7 @@ Empty Store~
 D1
 ~
 ~
-0 -1 3152
+0 -1 3152 0
 S
 #3211
 Empty Store~
@@ -9829,7 +9843,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3152
+0 -1 3152 0
 S
 #3212
 Empty Store~
@@ -9838,7 +9852,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3153
+0 -1 3153 0
 S
 #3213
 Empty Store~
@@ -9847,7 +9861,7 @@ Empty Store~
 D2
 ~
 ~
-0 -1 3154
+0 -1 3154 0
 S
 #3214
 Turbolaser 2~
@@ -9856,11 +9870,11 @@ Turbolaser 2~
 D2
 ~
 ~
-0 -1 3216
+0 -1 3216 0
 D3
 ~
 ~
-0 -1 3215
+0 -1 3215 0
 S
 #3215
 Turbolaser 1~
@@ -9869,7 +9883,7 @@ Turbolaser 1~
 D1
 ~
 ~
-0 -1 3214
+0 -1 3214 0
 S
 #3216
 Control Room~
@@ -9878,11 +9892,11 @@ Control Room~
 D0
 ~
 ~
-0 -1 3214
+0 -1 3214 0
 D3
 ~
 ~
-0 -1 3217
+0 -1 3217 0
 S
 #3217
 Security Station~
@@ -9891,11 +9905,11 @@ Security Station~
 D1
 ~
 ~
-0 -1 3216
+0 -1 3216 0
 D5
 ~
 ~
-0 -1 3218
+0 -1 3218 0
 S
 #3218
 Floor 2~
@@ -9904,15 +9918,15 @@ Floor 2~
 D1
 ~
 ~
-0 -1 3219
+0 -1 3219 0
 D4
 ~
 ~
-0 -1 3217
+0 -1 3217 0
 D5
 ~
 ~
-0 -1 3222
+0 -1 3222 0
 S
 #3219
 Security Station~
@@ -9921,11 +9935,11 @@ Security Station~
 D0
 ~
 ~
-0 -1 3220
+0 -1 3220 0
 D3
 ~
 ~
-0 -1 3218
+0 -1 3218 0
 S
 #3220
 Control Room~
@@ -9934,11 +9948,11 @@ Control Room~
 D2
 ~
 ~
-0 -1 3219
+0 -1 3219 0
 D3
 ~
 ~
-0 -1 3221
+0 -1 3221 0
 S
 #3221
 Power Generator~
@@ -9947,7 +9961,7 @@ Power Generator~
 D1
 ~
 ~
-0 -1 3220
+0 -1 3220 0
 S
 #3222
 Floor 1~
@@ -9956,11 +9970,11 @@ Floor 1~
 D1
 ~
 ~
-0 -1 3223
+0 -1 3223 0
 D4
 ~
 ~
-0 -1 3218
+0 -1 3218 0
 S
 #3223
 Security Station~
@@ -9969,11 +9983,11 @@ Security Station~
 D0
 ~
 ~
-0 -1 3224
+0 -1 3224 0
 D3
 ~
 ~
-0 -1 3222
+0 -1 3222 0
 S
 #3224
 Restricted Area~
@@ -9982,11 +9996,11 @@ Restricted Area~
 D2
 ~
 ~
-0 -1 3223
+0 -1 3223 0
 D3
 ~
 ~
-0 -1 3225
+0 -1 3225 0
 S
 #3225
 Restricted Area~
@@ -9995,11 +10009,11 @@ Restricted Area~
 D0
 ~
 ~
-0 -1 3068
+0 -1 3068 0
 D1
 ~
 ~
-0 -1 3224
+0 -1 3224 0
 S
 #3226
 Byss Inn~
@@ -10008,11 +10022,11 @@ Byss Inn~
 D2
 ~
 ~
-0 -1 3227
+0 -1 3227 0
 D3
 ~
 ~
-0 -1 3228
+0 -1 3228 0
 S
 #3227
 Byss Inn Bar~
@@ -10021,7 +10035,7 @@ Byss Inn Bar~
 D0
 ~
 ~
-0 -1 3226
+0 -1 3226 0
 S
 #3228
 Swimming Pool Area~
@@ -10030,7 +10044,7 @@ Swimming Pool Area~
 D1
 ~
 ~
-0 -1 3226
+0 -1 3226 0
 S
 #3229
 Byssland Apartments~
@@ -10039,7 +10053,7 @@ Byssland Apartments~
 D3
 ~
 ~
-0 -1 3230
+0 -1 3230 0
 S
 #3230
 Hallway~
@@ -10048,19 +10062,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3246
+0 -1 3246 0
 D1
 ~
 ~
-0 -1 3229
+0 -1 3229 0
 D2
 ~
 ~
-0 -1 3248
+0 -1 3248 0
 D3
 ~
 ~
-0 -1 3231
+0 -1 3231 0
 S
 #3231
 Hallway~
@@ -10069,19 +10083,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3249
+0 -1 3249 0
 D1
 ~
 ~
-0 -1 3230
+0 -1 3230 0
 D2
 ~
 ~
-0 -1 3250
+0 -1 3250 0
 D3
 ~
 ~
-0 -1 3232
+0 -1 3232 0
 S
 #3232
 Hallway~
@@ -10090,19 +10104,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3251
+0 -1 3251 0
 D1
 ~
 ~
-0 -1 3231
+0 -1 3231 0
 D2
 ~
 ~
-0 -1 3252
+0 -1 3252 0
 D3
 ~
 ~
-0 -1 3233
+0 -1 3233 0
 S
 #3233
 Hallway~
@@ -10111,19 +10125,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3253
+0 -1 3253 0
 D1
 ~
 ~
-0 -1 3232
+0 -1 3232 0
 D2
 ~
 ~
-0 -1 3254
+0 -1 3254 0
 D3
 ~
 ~
-0 -1 3234
+0 -1 3234 0
 S
 #3234
 Hallway~
@@ -10132,19 +10146,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3255
+0 -1 3255 0
 D1
 ~
 ~
-0 -1 3233
+0 -1 3233 0
 D2
 ~
 ~
-0 -1 3256
+0 -1 3256 0
 D3
 ~
 ~
-0 -1 3235
+0 -1 3235 0
 S
 #3235
 Turbolift~
@@ -10153,7 +10167,7 @@ Turbolift~
 D1
 ~
 ~
-0 -1 3234
+0 -1 3234 0
 S
 #3236
 Hallway~
@@ -10162,15 +10176,15 @@ Hallway~
 D0
 ~
 ~
-0 -1 3257
+0 -1 3257 0
 D1
 ~
 ~
-0 -1 3237
+0 -1 3237 0
 D2
 ~
 ~
-0 -1 3258
+0 -1 3258 0
 S
 #3237
 Hallway~
@@ -10179,19 +10193,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3259
+0 -1 3259 0
 D1
 ~
 ~
-0 -1 3238
+0 -1 3238 0
 D2
 ~
 ~
-0 -1 3260
+0 -1 3260 0
 D3
 ~
 ~
-0 -1 3236
+0 -1 3236 0
 S
 #3238
 Hallway~
@@ -10200,19 +10214,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3261
+0 -1 3261 0
 D1
 ~
 ~
-0 -1 3239
+0 -1 3239 0
 D2
 ~
 ~
-0 -1 3262
+0 -1 3262 0
 D3
 ~
 ~
-0 -1 3237
+0 -1 3237 0
 S
 #3239
 Hallway~
@@ -10221,19 +10235,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3263
+0 -1 3263 0
 D1
 ~
 ~
-0 -1 3240
+0 -1 3240 0
 D2
 ~
 ~
-0 -1 3264
+0 -1 3264 0
 D3
 ~
 ~
-0 -1 3238
+0 -1 3238 0
 S
 #3240
 Hallway~
@@ -10242,15 +10256,15 @@ Hallway~
 D0
 ~
 ~
-0 -1 3265
+0 -1 3265 0
 D2
 ~
 ~
-0 -1 3266
+0 -1 3266 0
 D3
 ~
 ~
-0 -1 3239
+0 -1 3239 0
 S
 #3241
 Hallway~
@@ -10259,15 +10273,15 @@ Hallway~
 D0
 ~
 ~
-0 -1 3247
+0 -1 3247 0
 D1
 ~
 ~
-0 -1 3242
+0 -1 3242 0
 D2
 ~
 ~
-0 -1 3267
+0 -1 3267 0
 S
 #3242
 Hallway~
@@ -10276,19 +10290,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3268
+0 -1 3268 0
 D1
 ~
 ~
-0 -1 3243
+0 -1 3243 0
 D2
 ~
 ~
-0 -1 3269
+0 -1 3269 0
 D3
 ~
 ~
-0 -1 3241
+0 -1 3241 0
 S
 #3243
 Hallway~
@@ -10297,19 +10311,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3270
+0 -1 3270 0
 D1
 ~
 ~
-0 -1 3244
+0 -1 3244 0
 D2
 ~
 ~
-0 -1 3271
+0 -1 3271 0
 D3
 ~
 ~
-0 -1 3242
+0 -1 3242 0
 S
 #3244
 Hallway~
@@ -10318,19 +10332,19 @@ Hallway~
 D0
 ~
 ~
-0 -1 3272
+0 -1 3272 0
 D1
 ~
 ~
-0 -1 3245
+0 -1 3245 0
 D2
 ~
 ~
-0 -1 3273
+0 -1 3273 0
 D3
 ~
 ~
-0 -1 3243
+0 -1 3243 0
 S
 #3245
 Hallway~
@@ -10339,15 +10353,15 @@ Hallway~
 D0
 ~
 ~
-0 -1 3274
+0 -1 3274 0
 D2
 ~
 ~
-0 -1 3275
+0 -1 3275 0
 D3
 ~
 ~
-0 -1 3244
+0 -1 3244 0
 S
 #3246
 Empty Apartment~
@@ -10356,7 +10370,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3230
+0 -1 3230 0
 S
 #3247
 Empty Apartment~
@@ -10365,7 +10379,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3241
+0 -1 3241 0
 S
 #3248
 Empty Apartment~
@@ -10374,7 +10388,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3230
+0 -1 3230 0
 S
 #3249
 Empty Apartment~
@@ -10383,7 +10397,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3231
+0 -1 3231 0
 S
 #3250
 Empty Apartment~
@@ -10392,7 +10406,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3231
+0 -1 3231 0
 S
 #3251
 Empty Apartment~
@@ -10401,7 +10415,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3232
+0 -1 3232 0
 S
 #3252
 Empty Apartment~
@@ -10410,7 +10424,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3232
+0 -1 3232 0
 S
 #3253
 Empty Apartment~
@@ -10419,7 +10433,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3233
+0 -1 3233 0
 S
 #3254
 Empty Apartment~
@@ -10428,7 +10442,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3233
+0 -1 3233 0
 S
 #3255
 Empty Apartment~
@@ -10437,7 +10451,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3234
+0 -1 3234 0
 S
 #3256
 Empty Apartment~
@@ -10446,7 +10460,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3234
+0 -1 3234 0
 S
 #3257
 Empty Apartment~
@@ -10455,7 +10469,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3236
+0 -1 3236 0
 S
 #3258
 Empty Apartment~
@@ -10464,7 +10478,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3236
+0 -1 3236 0
 S
 #3259
 Empty Apartment~
@@ -10473,7 +10487,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3237
+0 -1 3237 0
 S
 #3260
 Empty Apartment~
@@ -10482,7 +10496,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3237
+0 -1 3237 0
 S
 #3261
 Empty Apartment~
@@ -10491,7 +10505,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3238
+0 -1 3238 0
 S
 #3262
 Empty Apartment~
@@ -10500,7 +10514,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3238
+0 -1 3238 0
 S
 #3263
 Empty Apartment~
@@ -10509,7 +10523,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3239
+0 -1 3239 0
 S
 #3264
 Empty Apartment~
@@ -10518,7 +10532,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3239
+0 -1 3239 0
 S
 #3265
 Empty Apartment~
@@ -10527,7 +10541,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3240
+0 -1 3240 0
 S
 #3266
 Empty Apartment~
@@ -10536,7 +10550,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3240
+0 -1 3240 0
 S
 #3267
 Empty Apartment~
@@ -10545,7 +10559,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3241
+0 -1 3241 0
 S
 #3268
 Empty Apartment~
@@ -10554,7 +10568,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3242
+0 -1 3242 0
 S
 #3269
 Empty Apartment~
@@ -10563,7 +10577,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3242
+0 -1 3242 0
 S
 #3270
 Empty Apartment~
@@ -10572,7 +10586,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3243
+0 -1 3243 0
 S
 #3271
 Empty Apartment~
@@ -10581,7 +10595,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3243
+0 -1 3243 0
 S
 #3272
 Empty Apartment~
@@ -10590,7 +10604,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3244
+0 -1 3244 0
 S
 #3273
 Empty Apartment~
@@ -10599,7 +10613,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3244
+0 -1 3244 0
 S
 #3274
 Empty Apartment~
@@ -10608,7 +10622,7 @@ Empty Apartment~
 D2
 ~
 ~
-0 -1 3245
+0 -1 3245 0
 S
 #3275
 Empty Apartment~
@@ -10617,7 +10631,7 @@ Empty Apartment~
 D0
 ~
 ~
-0 -1 3245
+0 -1 3245 0
 S
 #3276
 Byss Burgers~
@@ -10631,7 +10645,7 @@ Fabrics R Us~
 D2
 ~
 ~
-0 -1 3278
+0 -1 3278 0
 S
 #3278
 Fabrics R Us~
@@ -10640,7 +10654,7 @@ Fabrics R Us~
 D0
 ~
 ~
-0 -1 3277
+0 -1 3277 0
 S
 #3279
 Byss Employment Center~
@@ -10649,7 +10663,7 @@ Byss Employment Center~
 D3
 ~
 ~
-0 -1 3280
+0 -1 3280 0
 S
 #3280
 A Busy Hallway~
@@ -10658,19 +10672,19 @@ A Busy Hallway~
 D0
 ~
 ~
-0 -1 3285
+0 -1 3285 0
 D1
 ~
 ~
-0 -1 3279
+0 -1 3279 0
 D2
 ~
 ~
-0 -1 3286
+0 -1 3286 0
 D3
 ~
 ~
-0 -1 3281
+0 -1 3281 0
 S
 #3281
 A Busy Hallway~
@@ -10679,19 +10693,19 @@ A Busy Hallway~
 D0
 ~
 ~
-0 -1 3287
+0 -1 3287 0
 D1
 ~
 ~
-0 -1 3280
+0 -1 3280 0
 D2
 ~
 ~
-0 -1 3288
+0 -1 3288 0
 D3
 ~
 ~
-0 -1 3282
+0 -1 3282 0
 S
 #3282
 A Busy Hallway~
@@ -10700,19 +10714,19 @@ A Busy Hallway~
 D0
 ~
 ~
-0 -1 3289
+0 -1 3289 0
 D1
 ~
 ~
-0 -1 3281
+0 -1 3281 0
 D2
 ~
 ~
-0 -1 3290
+0 -1 3290 0
 D3
 ~
 ~
-0 -1 3283
+0 -1 3283 0
 S
 #3283
 A Busy Hallway~
@@ -10721,19 +10735,19 @@ A Busy Hallway~
 D0
 ~
 ~
-0 -1 3293
+0 -1 3293 0
 D1
 ~
 ~
-0 -1 3282
+0 -1 3282 0
 D2
 ~
 ~
-0 -1 3292
+0 -1 3292 0
 D3
 ~
 ~
-0 -1 3284
+0 -1 3284 0
 S
 #3284
 Opportunity Office~
@@ -10742,7 +10756,7 @@ Opportunity Office~
 D1
 ~
 ~
-0 -1 3283
+0 -1 3283 0
 S
 #3285
 Bounty Office~
@@ -10751,7 +10765,7 @@ Bounty Office~
 D2
 ~
 ~
-0 -1 3280
+0 -1 3280 0
 S
 #3286
 UPS Station~
@@ -10760,7 +10774,7 @@ UPS Station~
 D0
 ~
 ~
-0 -1 3280
+0 -1 3280 0
 S
 #3287
 Jardak's Solutions~
@@ -10769,7 +10783,7 @@ Jardak's Solutions~
 D2
 ~
 ~
-0 -1 3281
+0 -1 3281 0
 S
 #3288
 Martok's Works~
@@ -10778,7 +10792,7 @@ Martok's Works~
 D0
 ~
 ~
-0 -1 3281
+0 -1 3281 0
 S
 #3289
 Namrod Systems~
@@ -10787,7 +10801,7 @@ Namrod Systems~
 D2
 ~
 ~
-0 -1 3282
+0 -1 3282 0
 S
 #3290
 Canigetawawa Corporation~
@@ -10796,7 +10810,7 @@ Canigetawawa Corporation~
 D0
 ~
 ~
-0 -1 3282
+0 -1 3282 0
 S
 #3291
 Floating in a void~
@@ -10805,7 +10819,7 @@ Floating in a void~
 D0
 ~
 ~
-0 -1 3283
+0 -1 3283 0
 S
 #3292
 Empire Recruitment Station~
@@ -10814,7 +10828,7 @@ Empire Recruitment Station~
 D0
 ~
 ~
-0 -1 3283
+0 -1 3283 0
 S
 #3293
 Ashrule Incorporated~
@@ -10823,7 +10837,7 @@ Ashrule Incorporated~
 D2
 ~
 ~
-0 -1 3283
+0 -1 3283 0
 S
 #3294
 Byss Inn~
@@ -10832,15 +10846,15 @@ Byss Inn~
 D1
 ~
 ~
-0 -1 3296
+0 -1 3296 0
 D2
 ~
 ~
-0 -1 3295
+0 -1 3295 0
 D3
 ~
 ~
-0 -1 3297
+0 -1 3297 0
 S
 #3295
 Near A Swimming Pool~
@@ -10849,7 +10863,7 @@ Near A Swimming Pool~
 D0
 ~
 ~
-0 -1 3294
+0 -1 3294 0
 S
 #3296
 Byss Inn Cafe~
@@ -10858,7 +10872,7 @@ Byss Inn Cafe~
 D3
 ~
 ~
-0 -1 3294
+0 -1 3294 0
 S
 #3297
 A Hallway~
@@ -10867,19 +10881,19 @@ A Hallway~
 D0
 ~
 ~
-0 -1 3300
+0 -1 3300 0
 D1
 ~
 ~
-0 -1 3294
+0 -1 3294 0
 D2
 ~
 ~
-0 -1 3298
+0 -1 3298 0
 D3
 ~
 ~
-0 -1 3299
+0 -1 3299 0
 S
 #3298
 Byss Inn Cleaning Facilities~
@@ -10888,7 +10902,7 @@ Byss Inn Cleaning Facilities~
 D0
 ~
 ~
-0 -1 3297
+0 -1 3297 0
 S
 #3299
 Storage Room~
@@ -10897,7 +10911,7 @@ Storage Room~
 D1
 ~
 ~
-0 -1 3297
+0 -1 3297 0
 S
 #3300
 Office~
@@ -10906,7 +10920,7 @@ Office~
 D2
 ~
 ~
-0 -1 3297
+0 -1 3297 0
 S
 #3503
 Floating in a void~
@@ -10925,7 +10939,8 @@ A Small Room~
 D1
 ~
 ~
-1 -1 4011
+1 -1 4011 0
+R D 0 4010 1 0
 > act_prog p arrives from the west.~
 mpforce guard say Stop where you are.
 mpforce guard say General Javis is not seeing anyone right now.
@@ -10943,7 +10958,9 @@ General Javis' Office~
 D3
 ~
 ~
-1 -1 4010
+1 -1 4010 0
+R M 0 2503 1 4011
+R D 0 4011 3 0
 S
 #4449
 Void~
@@ -10951,27 +10968,6 @@ Void~
 0 4 1 0 0 0 1040
 S
 #0
-
-
-#RESETS
-M 1 2504 3 2504
-M 1 2504 3 2504
-M 1 2504 3 2504
-O 1 2503 1 2504
-O 1 2502 1 2505
-O 1 2502 1 2506
-O 1 2502 1 2507
-O 1 2502 1 2508
-M 1 2505 4 2515
-M 1 2505 4 2515
-M 1 2505 4 2515
-M 1 2505 4 2515
-O 1 2503 1 2516
-O 1 2503 1 2536
-D 0 4010 1 0
-M 1 2503 1 4011
-D 0 4011 3 0
-S
 
 
 #SHOPS

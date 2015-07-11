@@ -604,6 +604,17 @@ Minlevel     13
 End
 
 #SKILL
+Name         barrel roll~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         do_barrel_roll
+Dammsg       ~
+Minlevel     13
+End
+
+#SKILL
 Name         bash~
 Type         Skill
 Flags        0
@@ -1204,6 +1215,17 @@ Minlevel     1
 End
 
 #SKILL
+Name         juke~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         do_juke
+Dammsg       ~
+Minlevel     19
+End
+
+#SKILL
 Name         kick~
 Type         Skill
 Flags        0
@@ -1427,6 +1449,18 @@ Dammsg       ~
 Wearoff      !done!~
 Teachers     294~
 Minlevel     18
+End
+
+#SKILL
+Name         makejetpack~
+Type         Skill
+Flags        0
+Guild        9
+Code         do_makejetpack
+Dammsg       ~
+Wearoff      !done!~
+Teachers     1097~
+Minlevel     30
 End
 
 #SKILL
@@ -2175,6 +2209,17 @@ Minlevel     20
 End
 
 #SKILL
+Name         split-s~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         do_split_s
+Dammsg       ~
+Minlevel     27
+End
+
+#SKILL
 Name         spy~
 Type         Skill
 Flags        0
@@ -2756,25 +2801,13 @@ Minlevel     1
 End
 
 #SKILL
-Name         barrel roll~
+Name         chandelle~
 Type         Skill
 Flags        0
-Minpos       5
 Guild        1
-Code         do_barrel_roll
+Code         do_chandelle
 Dammsg       ~
-Minlevel     13
-End
-
-#SKILL
-Name         juke~
-Type         Skill
-Flags        0
-Minpos       5
-Guild        1
-Code         do_juke
-Dammsg       ~
-Minlevel     19
+Minlevel     10
 End
 
 #END

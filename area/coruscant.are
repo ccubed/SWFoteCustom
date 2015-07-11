@@ -1416,7 +1416,8 @@ and sizes launch and land here every hour.
 D0
 ~
 ~
-0 -1 1051
+0 -1 1051 0
+R M 0 1052 3 1050
 S
 #1051
 Bulova Spaceport~
@@ -1431,27 +1432,30 @@ pad is located to the east, where there is long term parking.
 D0
 ~
 ~
-0 -1 1056
+0 -1 1056 0
 D1
 ~
 ~
-0 -1 1052
+0 -1 1052 0
 D2
 ~
 ~
-0 -1 1050
+0 -1 1050 0
 D3
 ~
 ~
-0 -1 1053
+0 -1 1053 0
 D5
 ~
 ~
-0 -1 1054
+0 -1 1054 0
 D9
 ~
 ~
-0 -1 1070
+0 -1 1070 0
+R M 0 1098 1 1051
+R M 0 1060 14 1051
+R O 0 1080 1 1051
 S
 #1052
 Secondary Hangar~
@@ -1465,7 +1469,8 @@ patrols to ensure that there are no hijackings.
 D3
 ~
 ~
-0 -1 1051
+0 -1 1051 0
+R M 0 1052 2 1052
 S
 #1053
 Bus Stop~
@@ -1482,7 +1487,7 @@ To enter the busses, type BOARD <shipname>
 D1
 ~
 ~
-0 -1 1051
+0 -1 1051 0
 S
 #1054
 Simulator Room~
@@ -1497,7 +1502,7 @@ don't you try one?
 D4
 ~
 ~
-0 -1 1051
+0 -1 1051 0
 S
 #1055
 Rest Area~
@@ -1511,7 +1516,44 @@ to rest after shopping or a trip through space.
 D3
 ~
 ~
-0 -1 1054
+0 -1 1054 0
+R M 0 1103 1 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 20 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 20 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 20 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 20 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 20 1055
+R M 0 1058 20 1055
+R M 0 1058 20 1055
+R M 0 1058 20 1055
+R M 0 1058 20 1055
+R M 0 1103 1 1055
+R M 0 1058 20 1055
+R M 0 1067 5 1055
+  R E 1 60 1 16
+R M 0 1058 20 1055
+R M 0 1060 22 1055
+R M 0 1103 1 1055
 S
 #1056
 Entrance to Bulova Spaceport~
@@ -1527,19 +1569,24 @@ pretzels.
 D0
 ~
 ~
-0 -1 1059
+0 -1 1059 0
 D1
 ~
 ~
-0 -1 7511
+0 -1 7511 0
 D2
 ~
 ~
-0 -1 1051
+0 -1 1051 0
 D3
 ~
 ~
-0 -1 1144
+0 -1 1144 0
+R M 0 1054 5 1056
+R M 0 1054 5 1056
+R M 0 1054 5 1056
+R M 0 1054 5 1056
+R M 0 1054 5 1056
 S
 #1057
 Econo Lodge~
@@ -1553,7 +1600,8 @@ check in/out counter to the right, and an ATM machine to the left.
 D1
 ~
 ~
-0 -1 1059
+0 -1 1059 0
+R O 0 1141 1 1057
 S
 #1058
 Coruscant General Store~
@@ -1567,7 +1615,15 @@ an adventure or journey?
 D3
 ~
 ~
-0 -1 1059
+0 -1 1059 0
+R M 0 1051 1 1058
+  R G 1 134 1
+  R G 1 59 1
+  R G 1 1068 1
+  R G 1 1057 1
+  R G 1 64 1
+  R G 1 133 1
+  R G 1 1139 1
 S
 #1059
 Imperial Avenue~
@@ -1582,19 +1638,19 @@ from nearby turbocars and hovercars.
 D0
 ~
 ~
-0 -1 1060
+0 -1 1060 0
 D1
 ~
 ~
-0 -1 1058
+0 -1 1058 0
 D2
 ~
 ~
-0 -1 1056
+0 -1 1056 0
 D3
 ~
 ~
-0 -1 1057
+0 -1 1057 0
 S
 #1060
 Imperial Avenue~
@@ -1609,19 +1665,20 @@ avenue.
 D0
 ~
 ~
-0 -1 1062
+0 -1 1062 0
 D1
 ~
 ~
-0 -1 1141
+0 -1 1141 0
 D2
 ~
 ~
-0 -1 1059
+0 -1 1059 0
 D3
 ~
 ~
-0 -1 1142
+0 -1 1142 0
+R M 0 1060 20 1060
 S
 #1061
 An Empty Apartment~
@@ -1630,7 +1687,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1082
+0 -1 1082 0
 S
 #1062
 Intersection of Palpatine and Imperial~
@@ -1643,23 +1700,24 @@ facility and the streets go along on all four directions.
 D0
 ~
 ~
-0 -1 1063
+0 -1 1063 0
 D1
 ~
 ~
-0 -1 1069
+0 -1 1069 0
 D2
 ~
 ~
-0 -1 1060
+0 -1 1060 0
 D3
 ~
 ~
-0 -1 7500
+0 -1 7500 0
 D7
 ~
 ~
-0 -1 1239
+0 -1 1239 0
+R M 0 1060 20 1062
 S
 #1063
 Imperial Avenue~
@@ -1672,11 +1730,12 @@ street is like all the rest in Coruscant.
 D0
 ~
 ~
-0 -1 1064
+0 -1 1064 0
 D2
 ~
 ~
-0 -1 1062
+0 -1 1062 0
+R M 0 1060 20 1063
 S
 #1064
 Intersection of Senate and Imperial~
@@ -1690,15 +1749,15 @@ path is about to end.
 D0
 ~
 ~
-0 -1 1093
+0 -1 1093 0
 D2
 ~
 ~
-0 -1 1063
+0 -1 1063 0
 D3
 ~
 ~
-0 -1 1066
+0 -1 1066 0
 S
 #1065
 4-Way Intersection Outside the Palace~
@@ -1720,19 +1779,20 @@ would be wise to watch his or her step through this area.
 D0
 ~
 gate~
-1 -1 1100
+3 -1 1100 0
 D1
 ~
 ~
-0 -1 1101
+0 -1 1101 0
 D2
 ~
 ~
-0 -1 1095
+0 -1 1095 0
 D3
 ~
 ~
-0 -1 1129
+0 -1 1129 0
+R D 0 1065 0 1
 > speech_prog test~
 mpwait 5
 mpecho test
@@ -1750,11 +1810,11 @@ for its luxurious hotels and housing.
 D1
 ~
 ~
-0 -1 1064
+0 -1 1064 0
 D3
 ~
 ~
-0 -1 1067
+0 -1 1067 0
 S
 #1067
 Senate Street~
@@ -1768,15 +1828,15 @@ nice to get away for them, for they are mostly all thugs and thiefs.
 D0
 ~
 ~
-0 -1 1246
+0 -1 1246 0
 D1
 ~
 ~
-0 -1 1066
+0 -1 1066 0
 D2
 ~
 ~
-0 -1 1068
+0 -1 1068 0
 S
 #1068
 Coruscant Highlands Apartments~
@@ -1791,11 +1851,12 @@ people to lay back and relax. The atmosphere is very comfortable.
 D0
 ~
 ~
-0 -1 1067
+0 -1 1067 0
 D2
 ~
 ~
-0 -1 1075
+0 -1 1075 0
+R M 0 1059 1 1068
 S
 #1069
 Palpatine Road~
@@ -1809,19 +1870,19 @@ out!
 D0
 ~
 ~
-0 -1 1247
+0 -1 1247 0
 D1
 ~
 ~
-0 -1 1071
+0 -1 1071 0
 D2
 ~
 ~
-0 -1 1074
+0 -1 1074 0
 D3
 ~
 ~
-0 -1 1062
+0 -1 1062 0
 S
 #1070
 Qurik's Bar and Grill~
@@ -1835,7 +1896,15 @@ their credits.
 D6
 ~
 ~
-0 -1 1051
+0 -1 1051 0
+R M 0 1070 1 1070
+  R G 1 1074 1
+  R G 1 1073 1
+  R G 1 1072 1
+  R G 1 1056 1
+  R G 1 133 1
+R M 0 1055 1 1070
+R M 0 1099 1 1070
 S
 #1071
 Palpatine Road~
@@ -1849,15 +1918,18 @@ reading newspapers. The street ends here.
 D0
 ~
 ~
-0 -1 1073
+0 -1 1073 0
 D2
 ~
 ~
-0 -1 1072
+0 -1 1072 0
 D3
 ~
 ~
-0 -1 1069
+0 -1 1069 0
+R M 0 1060 20 1071
+R M 0 1060 20 1071
+R M 0 1060 20 1071
 S
 #1072
 Huznik's Caff Shoppe~
@@ -1870,7 +1942,16 @@ selections, but everyone likes the original caff cup.
 D0
 ~
 ~
-0 -1 1071
+0 -1 1071 0
+R M 0 1072 1 1072
+  R G 1 1072 1
+  R G 1 1069 1
+  R G 1 1058 1
+  R G 1 1059 1
+R M 0 1060 20 1072
+R M 0 1060 20 1072
+R M 0 1060 20 1072
+R M 0 1060 20 1072
 S
 #1073
 A Dark Alley~
@@ -1884,7 +1965,14 @@ against the wall and motions you to come near him. What does he want?
 D2
 ~
 ~
-0 -1 1071
+0 -1 1071 0
+R M 0 1073 1 1073
+R M 0 1060 23 1073
+R M 0 1073 1 1073
+R M 0 1060 23 1073
+R M 0 1073 1 1073
+R M 0 1060 23 1073
+R M 0 1060 23 1073
 S
 #1074
 Wellington's Blaster Store~
@@ -1898,7 +1986,16 @@ People who need to protect themselves should buy a weapon.
 D0
 ~
 ~
-0 -1 1069
+0 -1 1069 0
+R M 0 1074 1 1074
+  R G 1 51 1
+  R G 1 57 1
+  R G 1 58 1
+  R G 1 60 1
+  R G 1 50 1
+  R G 1 768 1
+  R G 1 151 1
+  R G 1 33 1
 S
 #1075
 Turbolift~
@@ -1962,19 +2059,19 @@ gray and mats are at every entrance to the apartments.
 D0
 ~
 ~
-0 -1 1081
+0 -1 1081 0
 D1
 ~
 ~
-0 -1 1083
+0 -1 1083 0
 D2
 ~
 ~
-0 -1 1075
+0 -1 1075 0
 D3
 ~
 ~
-0 -1 1084
+0 -1 1084 0
 S
 #1077
 Third Floor Landing~
@@ -1991,19 +2088,19 @@ beautiful wallpaper. Nice place to live.
 D0
 ~
 ~
-0 -1 1087
+0 -1 1087 0
 D1
 ~
 ~
-0 -1 1090
+0 -1 1090 0
 D2
 ~
 ~
-0 -1 1075
+0 -1 1075 0
 D3
 ~
 ~
-0 -1 1079
+0 -1 1079 0
 S
 #1078
 An Empty Apartment~
@@ -2012,7 +2109,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1087
+0 -1 1087 0
 S
 #1079
 An Empty Apartment~
@@ -2021,7 +2118,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 1077
+0 -1 1077 0
 S
 #1080
 An Old Man's Apartment~
@@ -2030,7 +2127,8 @@ An Old Man's Apartment~
 D1
 ~
 ~
-0 -1 1088
+0 -1 1088 0
+R M 0 1080 1 1080
 S
 #1081
 A Long Hallway~
@@ -2043,19 +2141,19 @@ point. Its nice and quiet here.
 D0
 ~
 ~
-0 -1 1082
+0 -1 1082 0
 D1
 ~
 ~
-0 -1 1085
+0 -1 1085 0
 D2
 ~
 ~
-0 -1 1076
+0 -1 1076 0
 D3
 ~
 ~
-0 -1 1136
+0 -1 1136 0
 S
 #1082
 End of the Hallway~
@@ -2070,15 +2168,15 @@ display of brilliant light flying around.
 D1
 ~
 ~
-0 -1 1061
+0 -1 1061 0
 D2
 ~
 ~
-0 -1 1081
+0 -1 1081 0
 D3
 ~
 ~
-0 -1 1086
+0 -1 1086 0
 S
 #1083
 An Empty Apartment~
@@ -2087,7 +2185,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1076
+0 -1 1076 0
 S
 #1084
 An Empty Apartment~
@@ -2096,7 +2194,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 1076
+0 -1 1076 0
 S
 #1085
 An Empty Apartment~
@@ -2105,7 +2203,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1081
+0 -1 1081 0
 S
 #1086
 An Empty Apartment~
@@ -2114,7 +2212,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 1082
+0 -1 1082 0
 S
 #1087
 A Long Hallway~
@@ -2127,19 +2225,19 @@ point. Its nice and quiet here.
 D0
 ~
 ~
-0 -1 1088
+0 -1 1088 0
 D1
 ~
 ~
-0 -1 1078
+0 -1 1078 0
 D2
 ~
 ~
-0 -1 1077
+0 -1 1077 0
 D3
 ~
 ~
-0 -1 1092
+0 -1 1092 0
 S
 #1088
 End of the Hallway~
@@ -2154,15 +2252,15 @@ display of brilliant light flying around.
 D1
 ~
 Cozy Nook~
-0 -1 1089
+0 -1 1089 0
 D2
 ~
 ~
-0 -1 1087
+0 -1 1087 0
 D3
 ~
 ~
-0 -1 1080
+0 -1 1080 0
 S
 #1089
 An Empty Apartment~
@@ -2171,7 +2269,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1088
+0 -1 1088 0
 S
 #1090
 An Empty Apartment~
@@ -2180,7 +2278,7 @@ An Empty Apartment~
 D3
 ~
 ~
-0 -1 1077
+0 -1 1077 0
 S
 #1091
 An Empty Apartment~
@@ -2194,7 +2292,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 1087
+0 -1 1087 0
 S
 #1093
 Imperial Avenue~
@@ -2203,11 +2301,12 @@ Imperial Avenue~
 D0
 ~
 ~
-0 -1 1094
+0 -1 1094 0
 D2
 ~
 ~
-0 -1 1064
+0 -1 1064 0
+R M 0 1060 20 1093
 S
 #1094
 Imperial Avenue~
@@ -2216,11 +2315,13 @@ Imperial Avenue~
 D0
 ~
 ~
-0 -1 1095
+0 -1 1095 0
 D2
 ~
 ~
-0 -1 1093
+0 -1 1093 0
+R M 0 1060 20 1094
+R M 0 1060 20 1094
 S
 #1095
 Imperial Avenue~
@@ -2229,11 +2330,12 @@ Imperial Avenue~
 D0
 ~
 ~
-0 -1 1065
+0 -1 1065 0
 D2
 ~
 ~
-0 -1 1094
+0 -1 1094 0
+R M 0 1060 20 1095
 S
 #1096
 Engineering Trainer~
@@ -2247,11 +2349,12 @@ engineers come to learn about engineering.
 D0
 ~
 ~
-0 -1 1097
+0 -1 1097 0
 D3
 ~
 ~
-0 -1 1247
+0 -1 1247 0
+R M 0 1097 1 1096
 S
 #1097
 Workshop~
@@ -2265,7 +2368,22 @@ of the dust fluttered from the tools and materials.
 D2
 ~
 ~
-0 -1 1096
+0 -1 1096 0
+R M 0 1152 1 1097
+  R G 1 766 1
+  R G 1 765 1
+  R G 1 764 1
+  R G 1 763 1
+  R G 1 762 1
+  R G 1 761 1
+R O 0 1097 1 1097
+R M 0 1152 1 1097
+  R G 1 766 1
+  R G 1 765 1
+  R G 1 764 1
+  R G 1 763 1
+  R G 1 762 1
+  R G 1 761 1
 > custom_prog "put all trash" "put all can" "put all garbage"~
 mea $n You can't put everything in the trash can!
 ~
@@ -2283,7 +2401,7 @@ long as your here, why dont you sign up?
 D3
 ~
 ~
-0 -1 1056
+0 -1 1056 0
 S
 #1099
 Floating in a void~
@@ -2303,19 +2421,58 @@ northeast and electronic cameras are pointing right at you.
 D0
 ~
 ~
-0 -1 1137
+0 -1 1137 0
 D1
 ~
 ~
-0 -1 1102
+0 -1 1102 0
 D2
 ~
 ~
-33 1140 1065
+33 1140 1065 0
 D3
 ~
 ~
-0 -1 1167
+0 -1 1167 0
+R M 0 1053 8 1100
+  R G 1 50 1
+  R G 1 134 1
+R M 0 1053 8 1100
+R M 0 1053 8 1100
+  R G 1 64 1
+  R G 1 25 1
+    R P 0 133 1 25
+  R G 1 137 1
+    R P 0 133 1 137
+    R P 1 134 1 133
+    R P 2 53 1 134
+    R P 3 53 1 53
+  R G 1 134 1
+R M 0 1053 8 1100
+  R G 1 50 1
+  R G 1 25 1
+    R P 0 768 1 25
+R M 0 1053 8 1100
+  R G 1 65 1
+  R G 1 766 1
+    R P 0 136 1 766
+    R P 1 130 1 136
+    R P 2 150 1 130
+    R P 3 74 1 150
+    R P 4 50 1 74
+R D 0 1100 2 0
+R D 0 1100 2 0
+R M 0 1154 22 1100
+  R E 1 50 1 16
+R M 0 1154 22 1100
+  R E 1 50 1 16
+R M 0 1154 22 1100
+  R E 1 50 1 16
+R M 0 1154 22 1100
+  R E 1 50 1 16
+R M 0 1154 22 1100
+  R E 1 50 1 16
+R D 0 1100 2 0
 > greet_prog 100~
 Mpat 1204  Say $n has entered the palace.
 ~
@@ -2335,7 +2492,12 @@ the area.
 D3
 ~
 ~
-0 -1 1065
+0 -1 1065 0
+R M 0 1137 1 1101
+  R G 1 1138 1
+  R G 1 1138 1
+R M 0 1137 1 1101
+  R G 1 1138 1
 S
 #1102
 A Brightly Lit Hallway~
@@ -2347,11 +2509,11 @@ screaming. Several automated turrets are built into the wall here.
 D1
 ~
 ~
-0 -1 1103
+0 -1 1103 0
 D3
 ~
 ~
-0 -1 1100
+0 -1 1100 0
 S
 #1103
 A Brightly Lit Hallway~
@@ -2363,11 +2525,13 @@ corridor comes to an end, with the option to either go north or south.
 D1
 ~
 ~
-0 -1 1104
+0 -1 1104 0
 D3
 ~
 ~
-0 -1 1102
+0 -1 1102 0
+R M 0 1113 8 1103
+  R E 1 50 1 16
 S
 #1104
 A Brightly Lit Hallway~
@@ -2379,11 +2543,11 @@ to the east the corridor branches off into two directions.
 D1
 ~
 ~
-0 -1 1105
+0 -1 1105 0
 D3
 ~
 ~
-0 -1 1103
+0 -1 1103 0
 S
 #1105
 Fork in the Halls~
@@ -2398,15 +2562,17 @@ examination, they are!
 D0
 ~
 ~
-0 -1 1106
+0 -1 1106 0
 D2
 ~
 ~
-0 -1 1127
+0 -1 1127 0
 D3
 ~
 ~
-0 -1 1104
+0 -1 1104 0
+R M 0 1154 88 1105
+R M 0 1154 88 1105
 S
 #1106
 A Brightly Lit Hallway~
@@ -2419,11 +2585,26 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1107
+0 -1 1107 0
 D2
 ~
 ~
-0 -1 1105
+0 -1 1105 0
+R M 0 1154 88 1106
+R M 0 1154 88 1106
+R M 0 1154 30 1106
+R M 0 1154 30 1106
+  R E 1 50 1 16
+  R E 1 50 1 16
+  R G 1 62 1
+  R E 1 50 1 16
+  R E 1 50 1 16
+  R E 1 50 1 16
+  R G 1 62 1
+  R E 1 50 1 16
+  R E 1 50 1 16
+  R G 1 134 1
+  R E 1 50 1 16
 S
 #1107
 In Front of the Combat Instructor~
@@ -2435,15 +2616,17 @@ perhaps you should head south if you need to get your edge back in combat.
 D1
 ~
 ~
-0 -1 1108
+0 -1 1108 0
 D2
 ~
 ~
-0 -1 1128
+0 -1 1128 0
 D3
 ~
 ~
-0 -1 1106
+0 -1 1106 0
+R M 0 1154 88 1107
+R M 0 1154 88 1107
 S
 #1108
 A Brightly Lit Hallway~
@@ -2456,11 +2639,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1109
+0 -1 1109 0
 D3
 ~
 ~
-0 -1 1107
+0 -1 1107 0
 S
 #1109
 North of the Imperial Gym~
@@ -2474,15 +2657,17 @@ south, oh my!
 D1
 ~
 ~
-0 -1 1111
+0 -1 1111 0
 D2
 ~
 ~
-0 -1 1110
+0 -1 1110 0
 D3
 ~
 ~
-0 -1 1108
+0 -1 1108 0
+R M 0 1154 88 1109
+R M 0 1154 88 1109
 S
 #1110
 An Imperial Gymnasium~
@@ -2496,11 +2681,16 @@ of wimpy-looking recruits.
 D0
 ~
 ~
-0 -1 1109
+0 -1 1109 0
 D3
 ~
 ~
-0 -1 1117
+0 -1 1117 0
+R M 0 1110 1 1110
+  R E 1 1053 1 5
+  R E 1 1054 1 7
+  R E 1 1055 1 13
+R O 0 1111 1 1110
 S
 #1111
 A Brightly Lit Hallway~
@@ -2513,11 +2703,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1112
+0 -1 1112 0
 D3
 ~
 ~
-0 -1 1109
+0 -1 1109 0
 S
 #1112
 A Brightly Lit Hallway~
@@ -2530,11 +2720,13 @@ you are being watched.
 D2
 ~
 ~
-0 -1 1113
+0 -1 1113 0
 D3
 ~
 ~
-0 -1 1111
+0 -1 1111 0
+R M 0 1154 88 1112
+R M 0 1154 88 1112
 S
 #1113
 Outside of the Armory~
@@ -2543,15 +2735,17 @@ Outside of the Armory~
 D0
 ~
 ~
-0 -1 1112
+0 -1 1112 0
 D1
 ~
 ~
-0 -1 1114
+0 -1 1114 0
 D2
 ~
 ~
-0 -1 1115
+0 -1 1115 0
+R M 0 1154 88 1113
+R M 0 1154 88 1113
 S
 #1114
 "The Morgue"~
@@ -2569,7 +2763,8 @@ it.
 D3
 ~
 ~
-0 -1 1113
+0 -1 1113 0
+R O 0 7581 1 1114
 S
 #1115
 Outside of the Living Quarters~
@@ -2578,15 +2773,17 @@ Outside of the Living Quarters~
 D0
 ~
 ~
-0 -1 1113
+0 -1 1113 0
 D2
 ~
 ~
-0 -1 1116
+0 -1 1116 0
 D3
 ~
 ~
-0 -1 1130
+0 -1 1130 0
+R M 0 1113 8 1115
+  R E 1 50 1 16
 S
 #1116
 A Brightly Lit Hallway~
@@ -2599,11 +2796,13 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1115
+0 -1 1115 0
 D3
 ~
 ~
-0 -1 1118
+0 -1 1118 0
+R M 0 1154 88 1116
+R M 0 1154 88 1116
 S
 #1117
 An Imperial Gymnasium~
@@ -2617,11 +2816,11 @@ man yelling at them to keep their form and such.
 D1
 ~
 ~
-0 -1 1110
+0 -1 1110 0
 D3
 ~
 ~
-0 -1 1128
+0 -1 1128 0
 S
 #1118
 A Brightly Lit Hallway~
@@ -2634,11 +2833,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1116
+0 -1 1116 0
 D3
 ~
 ~
-0 -1 1119
+0 -1 1119 0
 S
 #1119
 Outside of the Stormtrooper Briefing Room~
@@ -2651,15 +2850,15 @@ it turns north.
 D0
 ~
 ~
-0 -1 1120
+0 -1 1120 0
 D1
 ~
 ~
-0 -1 1118
+0 -1 1118 0
 D3
 ~
 ~
-0 -1 1122
+0 -1 1122 0
 S
 #1120
 Stormtrooper Mission Briefing Room~
@@ -2673,11 +2872,12 @@ as you pass. There are no armed guard in this area, for a change.
 D0
 ~
 ~
-0 -1 1121
+0 -1 1121 0
 D2
 ~
 ~
-0 -1 1119
+0 -1 1119 0
+R M 0 1113 8 1120
 S
 #1121
 Front of Briefing Room~
@@ -2689,7 +2889,7 @@ seems almost lonely without someone giving orders.
 D2
 ~
 ~
-0 -1 1120
+0 -1 1120 0
 S
 #1122
 A Brightly Lit Hallway~
@@ -2702,11 +2902,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1119
+0 -1 1119 0
 D3
 ~
 ~
-0 -1 1123
+0 -1 1123 0
 S
 #1123
 A Brightly Lit Hallway~
@@ -2719,11 +2919,11 @@ you are being watched.
 D1
 ~
 ~
-0 -1 1122
+0 -1 1122 0
 D3
 ~
 ~
-0 -1 1124
+0 -1 1124 0
 S
 #1124
 South of the Garrison Commander's Office~
@@ -2738,19 +2938,21 @@ decide who will be commander of the Imperial Home Guard.
 D0
 ~
 ~
-0 -1 1125
+0 -1 1125 0
 D1
 ~
 ~
-0 -1 1123
+0 -1 1123 0
 D2
 ~
 ~
-33554432 -1 1206
+33554432 -1 1206 0
 D3
 ~
 ~
-0 -1 1126
+0 -1 1126 0
+R M 0 1154 88 1124
+R M 0 1154 88 1124
 S
 #1125
 Stormtrooper Commander's Office~
@@ -2765,7 +2967,8 @@ room, you see cameras and small automated laser turrets pointing at you.
 D2
 ~
 ~
-0 -1 1124
+0 -1 1124 0
+R M 0 1063 1 1125
 S
 #1126
 Corner of the East Wing~
@@ -2778,15 +2981,20 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1127
+0 -1 1127 0
 D1
 ~
 ~
-0 -1 1124
+0 -1 1124 0
 D2
 ~
 ~
-67108903 1140 1206
+67108903 1140 1206 0
+R M 0 1154 88 1126
+R M 0 1154 88 1126
+R M 0 1154 88 1126
+R M 0 1154 88 1126
+R D 0 1126 2 2
 S
 #1127
 A Brightly Lit Hallway~
@@ -2799,11 +3007,11 @@ you are being watched.
 D0
 ~
 ~
-0 -1 1105
+0 -1 1105 0
 D2
 ~
 ~
-0 -1 1126
+0 -1 1126 0
 S
 #1128
 The Imperial Combat Instructor~
@@ -2816,11 +3024,15 @@ own??!!  He notices you glancing at him and starts shouting at you
 D0
 ~
 ~
-0 -1 1107
+0 -1 1107 0
 D1
 ~
 ~
-0 -1 1117
+0 -1 1117 0
+R M 0 1111 1 1128
+  R E 1 1055 1 13
+  R E 1 1054 1 7
+  R E 1 1053 1 5
 > speech_prog trainme~
 mppurge
 mpmload 1111
@@ -2841,11 +3053,11 @@ the area.
 D1
 ~
 ~
-0 -1 1065
+0 -1 1065 0
 D7
 ~
 ~
-0 -1 7584
+0 -1 7584 0
 S
 #1130
 Imperial Troop Barracks~
@@ -2858,19 +3070,19 @@ You hear snoring and the occas occasional fart.
 D0
 ~
 ~
-0 -1 1131
+0 -1 1131 0
 D1
 ~
 ~
-0 -1 1115
+0 -1 1115 0
 D2
 ~
 ~
-0 -1 1132
+0 -1 1132 0
 D3
 ~
 ~
-0 -1 1133
+0 -1 1133 0
 S
 #1131
 Sleeping Chamber~
@@ -2884,7 +3096,8 @@ is a cadet sleeping on the bottom bunk, but the top one is all yours.
 D2
 ~
 ~
-0 -1 1130
+0 -1 1130 0
+R O 0 1136 1 1131
 S
 #1132
 Sleeping Chamber~
@@ -2898,7 +3111,9 @@ is a cadet sleeping on the bottom bunk, but the top one is all yours.
 D0
 ~
 ~
-0 -1 1130
+0 -1 1130 0
+R M 0 1113 8 1132
+R O 0 1136 1 1132
 S
 #1133
 Imperial Troop Barracks~
@@ -2911,15 +3126,15 @@ brig! You hear snoring and the occasional fart.
 D0
 ~
 ~
-0 -1 1134
+0 -1 1134 0
 D1
 ~
 ~
-0 -1 1130
+0 -1 1130 0
 D2
 ~
 ~
-0 -1 1135
+0 -1 1135 0
 S
 #1134
 Sleeping Chamber~
@@ -2933,7 +3148,8 @@ is a cadet sleeping on the bottom bunk, but the top one is all yours.
 D2
 ~
 ~
-0 -1 1133
+0 -1 1133 0
+R O 0 1136 1 1134
 S
 #1135
 Sleeping Chamber~
@@ -2947,7 +3163,9 @@ is a cadet sleeping on the bottom bunk, but the top one is all yours.
 D0
 ~
 ~
-0 -1 1133
+0 -1 1133 0
+R M 0 1113 8 1135
+R O 0 1136 1 1135
 S
 #1136
 An Empty Apartment~
@@ -2956,7 +3174,7 @@ An Empty Apartment~
 D1
 ~
 ~
-0 -1 1081
+0 -1 1081 0
 S
 #1137
 Before the Guard Station~
@@ -2968,15 +3186,19 @@ set. The guard has a window with which to view incoming traffic.
 D0
 ~
 ~
-0 -1 1189
+0 -1 1189 0
 D1
 ~
 ~
-0 -1 1138
+0 -1 1138 0
 D2
 ~
 ~
-0 -1 1100
+0 -1 1100 0
+R M 0 1154 88 1137
+R M 0 1154 88 1137
+R M 0 1154 88 1137
+R M 0 1154 88 1137
 S
 #1138
 The Guard Station~
@@ -2991,15 +3213,30 @@ leaving the palace at any given time.
 D0
 ~
 ~
-0 -1 1139
+0 -1 1139 0
 D3
 ~
 ~
-0 -1 1137
+0 -1 1137 0
 D9
 ~
 Platsi-Glass Window~
-33554433 -1 1100
+33554433 -1 1100 0
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R M 0 1154 88 1138
+R D 0 1138 9 0
 S
 #1139
 Security Surveillance Room~
@@ -3015,35 +3252,39 @@ SouthEast: Stormtrooper Living Quarters 2
 D0
 ~
 ~
-0 -1 1140
+0 -1 1140 0
 D1
 ~
 ~
-33554432 -1 1130
+33554432 -1 1130 0
 D2
 ~
 ~
-0 -1 1138
+0 -1 1138 0
 D3
 ~
 ~
-33554432 -1 1114
+33554432 -1 1114 0
 D6
 ~
 ~
-33554432 -1 1110
+33554432 -1 1110 0
 D7
 ~
 ~
-33554432 -1 1128
+33554432 -1 1128 0
 D8
 ~
 ~
-33554432 -1 1133
+33554432 -1 1133 0
 D9
 ~
 ~
-33554432 -1 1125
+33554432 -1 1125 0
+R M 0 1154 88 1139
+R M 0 1154 88 1139
+R M 0 1154 88 1139
+R M 0 1154 88 1139
 S
 #1140
 Security Surveillance Room~
@@ -3061,7 +3302,11 @@ SouthEast: Droid Repair Station
 D2
 ~
 ~
-0 -1 1139
+0 -1 1139 0
+R M 0 1154 88 1140
+R M 0 1154 88 1140
+R M 0 1154 88 1140
+R M 0 1154 88 1140
 S
 #1141
 Thallid's Goofy Gifts~
@@ -3075,7 +3320,8 @@ feel happy when they get out.
 D3
 ~
 ~
-0 -1 1060
+0 -1 1060 0
+R M 0 1069 1 1141
 S
 #1142
 Imperial Royal Armoury~
@@ -3089,7 +3335,8 @@ thiefs, and the last two thiefs were caught and severely punished.
 D1
 ~
 ~
-0 -1 1060
+0 -1 1060 0
+R M 0 1068 1 1142
 S
 #1143
 Imperial Landing Pad~
@@ -3104,7 +3351,7 @@ east of the landing bay.
 D2
 ~
 ~
-0 -1 1170
+0 -1 1170 0
 S
 #1144
 Corsucant Savings And Loan~
@@ -3120,7 +3367,8 @@ customers.
 D1
 ~
 ~
-0 -1 1056
+0 -1 1056 0
+R O 0 1144 1 1144
 S
 #1145
 Coruscant Simulator CSim05~
@@ -3134,7 +3382,7 @@ Coruscant Simulator CSim06~
 D2
 ~
 ~
-0 -1 1143
+0 -1 1143 0
 S
 #1147
 Coruscant Simulator CSim07~
@@ -3160,7 +3408,10 @@ LEAVE.
 D10
 ~
 ~
-264192 -1 1055
+264192 -1 1055 0
+R M 0 1050 1 1149
+R M 0 1149 1 1149
+R O 0 1149 1 1149
 > rand_prog 100~
 if ispc($n)
 mpecho The bacta starts healing your wounds.
@@ -3172,220 +3423,12 @@ S
 #0
 
 
-#RESETS
-M 1 1103 1 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 20 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 20 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 20 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 20 1055
-M 1 1058 20 1055
-M 1 1067 5 1055
-E 1 60 1 16
-M 1 1058 20 1055
-M 1 1060 20 1055
-M 1 1058 20 1055
-M 1 1058 20 1055
-M 1 1058 20 1055
-M 1 1058 20 1055
-M 1 1054 5 1056
-M 1 1054 5 1056
-M 1 1054 5 1056
-M 1 1054 5 1056
-M 1 1054 5 1056
-O 1 1141 1 1057
-M 1 1051 1 1058
-G 1 134 1
-G 1 59 1
-G 1 1068 1
-G 1 1057 1
-G 1 64 1
-G 1 133 1
-G 1 1139 1
-M 1 1060 20 1060
-M 1 1060 20 1062
-M 1 1060 20 1063
-D 0 1065 0 1
-M 1 1059 1 1068
-M 1 1070 1 1070
-G 1 1074 1
-G 1 1073 1
-G 1 1072 1
-G 1 1056 1
-G 1 133 1
-M 1 1055 1 1070
-M 1 1099 1 1070
-M 1 1060 20 1071
-M 1 1060 20 1071
-M 1 1060 20 1071
-M 1 1072 1 1072
-G 1 1072 1
-G 1 1069 1
-G 1 1058 1
-G 1 1059 1
-M 1 1060 20 1072
-M 1 1060 20 1072
-M 1 1060 20 1072
-M 1 1060 20 1072
-M 1 1073 1 1073
-M 1 1074 1 1074
-G 1 51 1
-G 1 57 1
-G 1 58 1
-G 1 60 1
-G 1 50 1
-G 1 768 1
-G 1 151 1
-G 1 33 1
-M 1 1080 1 1080
-M 1 1060 20 1093
-M 1 1060 20 1094
-M 1 1060 20 1094
-M 1 1060 20 1095
-M 1 1097 1 1096
-M 1 1152 1 1097
-G 1 766 1
-G 1 765 1
-G 1 764 1
-G 1 763 1
-G 1 762 1
-G 1 761 1
-O 1 1097 1 1097
-M 1 1053 8 1100
-G 1 50 1
-G 1 134 1
-M 1 1053 8 1100
-M 1 1053 8 1100
-G 1 64 1
-G 1 25 1
-P 0 133 1 0
-G 1 137 1
-P 0 133 1 0
-P 1 134 1 0
-P 2 53 1 0
-P 3 53 1 0
-G 1 134 1
-M 1 1053 8 1100
-G 1 50 1
-G 1 25 1
-P 0 768 1 0
-M 1 1053 8 1100
-G 1 65 1
-G 1 766 1
-P 0 136 1 0
-P 1 130 1 0
-P 2 150 1 0
-P 3 74 1 0
-P 4 50 1 0
-D 0 1100 2 0
-M 1 1113 8 1103
-E 1 50 1 16
-M 1 1154 88 1105
-M 1 1154 88 1105
-M 1 1154 88 1106
-M 1 1154 88 1106
-M 1 1154 88 1107
-M 1 1154 88 1107
-M 1 1154 88 1109
-M 1 1154 88 1109
-M 1 1110 1 1110
-E 1 1053 1 5
-E 1 1054 1 7
-E 1 1055 1 13
-O 1 1111 1 1110
-M 1 1154 88 1112
-M 1 1154 88 1112
-M 1 1154 88 1113
-M 1 1154 88 1113
-M 1 1113 8 1115
-E 1 50 1 16
-M 1 1154 88 1116
-M 1 1154 88 1116
-M 1 1113 8 1120
-M 1 1154 88 1124
-M 1 1154 88 1124
-M 1 1063 1 1125
-M 1 1154 88 1126
-M 1 1154 88 1126
-M 1 1154 88 1126
-M 1 1154 88 1126
-D 0 1126 2 2
-M 1 1111 1 1128
-E 1 1055 1 13
-E 1 1054 1 7
-E 1 1053 1 5
-O 1 1136 1 1131
-M 1 1113 8 1132
-O 1 1136 1 1132
-O 1 1136 1 1134
-M 1 1113 8 1135
-O 1 1136 1 1135
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-M 1 1154 88 1138
-D 0 1138 9 0
-M 1 1154 88 1139
-M 1 1154 88 1139
-M 1 1154 88 1139
-M 1 1154 88 1139
-M 1 1154 88 1140
-M 1 1154 88 1140
-M 1 1154 88 1140
-M 1 1154 88 1140
-M 1 1069 1 1141
-M 1 1068 1 1142
-O 1 1144 1 1144
-M 1 1050 1 1149
-M 1 1149 1 1149
-O 1 1149 1 1149
-M 1 1098 1 1051
-M 1 1060 14 1051
-O 1 1080 1 1051
-M 1 1137 1 1101
-G 1 1138 1
-G 1 1138 1
-M 1 1052 2 1052
-M 0 1052 3 1050
-O 1 7581 1 1114
-M 1 1154 88 1137
-M 1 1154 88 1137
-M 1 1154 88 1137
-M 1 1154 88 1137
-S
-
-
 #SHOPS
- 1051    0  0  0  0  0   120  90         0 23 0  ; Kwen Twi
- 1070    0  0  0  0  0   120  90         0 23 0  ; Qurik the bartender
- 1072    0  0  0  0  0   120  90         0 23 0  ; Huznik
- 1074    9  0  0  0  0   120  33         0 23 0  ; a weapon salesman
- 1095    0  0  0  0  0   120  90         0 23 0  ; a hardware droid
+ 1051    0  0  0  0  0   120  90         0 23    ; Kwen Twi
+ 1070    0  0  0  0  0   120  90         0 23    ; Qurik the bartender
+ 1072    0  0  0  0  0   120  90         0 23    ; Huznik
+ 1074    9  0  0  0  0   120  33         0 23    ; a weapon salesman
+ 1095    0  0  0  0  0   120  90         0 23    ; a hardware droid
 0
 
 

@@ -138,6 +138,14 @@ A Pure White Throne~
 12 0 0
 0 0 0 0
 1 0 0
+#108
+&zA Lazy Boy Recliner&w&W~
+a A Lazy Boy Recliner~
+A A Lazy Boy Recliner is here.~
+~
+12 1073741824 0
+0 0 0 0
+1 0 0
 #113
 Magic faerie juice~
 Faerie Juice~
@@ -171,15 +179,16 @@ where all the offices are located.
 D0
 ~
 ~
-0 -1 102
+0 -1 102 0
 D2
 ~
 ~
-0 -1 106
+0 -1 106 0
 D4
 ~
 ~
-1 -1 105
+1 -1 105 0
+R D 0 100 4 0
 S
 #101
 MPPURGE ROOM!~
@@ -199,7 +208,7 @@ padded chairs around it with each immortals name on them.
 D2
 ~
 ~
-0 -1 100
+0 -1 100 0
 S
 #103
 An Empty Apartment~
@@ -208,7 +217,7 @@ An Empty Apartment~
 D6
 ~
 ~
-0 -1 106
+0 -1 106 0
 E
 ssi-ruuk~
 battlecruiser Shree-class Battle Cruiser
@@ -255,7 +264,8 @@ There is a godly atmosphere here.
 D7
 ~
 ~
-0 -1 106
+0 -1 106 0
+R O 0 107 1 104
 S
 #105
 Immortals Complex Prison Cell~
@@ -269,7 +279,7 @@ against the cell wall. God help his pathetic soul.
 D5
 ~
 ~
-0 -1 100
+0 -1 100 0
 S
 #106
 The Immortals Office Complex~
@@ -282,31 +292,36 @@ reading lamp. The floor is a beautiful black and white marble tile.
 D0
 ~
 ~
-0 -1 100
+0 -1 100 0
 D1
 ~
 ~
-0 -1 112
+0 -1 112 0
+D2
+~
+~
+0 -1 109 0
 D3
 ~
 ~
-0 -1 111
+0 -1 111 0
 D4
 ~
 ~
-1 -1 110
+1 -1 110 0
 D6
 ~
 ~
-0 -1 107
+0 -1 107 0
 D8
 ~
 ~
-0 -1 104
+0 -1 104 0
 D9
 ~
 ~
-0 -1 103
+0 -1 103 0
+R D 0 106 4 0
 > speech_prog To Aristria's Cloud~
 rpechoat $n &zYou begin to grow wings, You begin to float in mid-air!
 rpechoat $n &zYou begin to fly high in the sky!
@@ -331,11 +346,13 @@ houses intercede upon this haunt and the lackadaisical immortal's complex.
 D0
 ~
 ~
-0 -1 666
+0 -1 666 0
 D9
 ~
 ~
-0 -1 106
+0 -1 106 0
+R O 0 104 1 107
+R O 0 105 1 107
 S
 #108
 Lanceton's Dorm Room~
@@ -344,25 +361,32 @@ Lanceton's Dorm Room~
 D5
 ~
 ~
-2048 -1 108
+2048 -1 108 0
 D8
 ~
 ~
-0 -1 106
+0 -1 106 0
 D10
 ~
 ~
-264192 -1 100
+264192 -1 100 0
 S
 #109
-Goku's Office~
-Write your own damn desc Goku!!! 
+&CKeberus' &BSlice of &RHeLL~
+Flames all around. There is nowhere to turn, it seems all that
+enter must burn. Weeping is the only sound heard. 
 ~
-0 2097160 1 0 0 0 2128
+0 1048588 1 2052 0 0 2128
 D0
 ~
 door~
-1 -1 106
+1 -1 106 0
+R O 0 4561 1 109
+  R P 0 132 1 4561
+  R P 1 25 1 132
+  R P 2 4561 1 25
+  R P 3 132 1 4561
+R D 0 109 0 0
 S
 #110
 The Mail Room~
@@ -377,7 +401,8 @@ Sykar
 D5
 ~
 ~
-0 -1 106
+0 -1 106 0
+R O 0 38 1 110
 S
 #111
 Bardock's Office~
@@ -393,7 +418,7 @@ hanging from the wall, protected by a strong duraglass alloy.
 D1
 ~
 ~
-0 -1 106
+0 -1 106 0
 S
 #112
 Seraphim's Pearly Gates~
@@ -436,17 +461,6 @@ Assguild.are
 0 1028 1 4 0 0 2128
 S
 #0
-
-
-#RESETS
-D 0 106 4 0
-O 1 104 1 107
-O 1 105 1 107
-D 0 109 0 0
-O 1 38 1 110
-O 1 100 1 100
-O 1 107 1 104
-S
 
 
 #SHOPS

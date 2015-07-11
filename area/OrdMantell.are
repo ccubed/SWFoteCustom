@@ -772,11 +772,12 @@ equ ipment ready.
 D1
 ~
 ~
-0 -1 9405
+0 -1 9405 0
 D6
 ~
 ~
-0 -1 9001
+0 -1 9001 0
+R M 0 9014 1 9000
 S
 #9001
 &BOrd Mantell Port Authority&w&W~
@@ -788,15 +789,23 @@ illegal contraband into and out of this planet.
 D0
 ~
 ~
-0 -1 9002
+0 -1 9002 0
 D8
 ~
 ~
-0 -1 9405
+0 -1 9405 0
 D9
 ~
 ~
-0 -1 9000
+0 -1 9000 0
+R M 0 9005 4 9001
+  R E 1 50 1 16
+R M 0 9005 4 9001
+  R E 1 50 1 16
+R M 0 9005 4 9001
+  R E 1 50 1 16
+R M 0 9005 4 9001
+  R E 1 50 1 16
 S
 #9002
 Spaceport Road~
@@ -809,11 +818,11 @@ controlling the flow of illegal contraband on Ord Mantell.
 D0
 ~
 ~
-0 -1 9061
+0 -1 9061 0
 D2
 ~
 ~
-0 -1 9001
+0 -1 9001 0
 S
 #9003
 Spaceport Road~
@@ -827,11 +836,11 @@ street in Ord Mantell.
 D0
 ~
 ~
-0 -1 9004
+0 -1 9004 0
 D2
 ~
 ~
-0 -1 9062
+0 -1 9062 0
 S
 #9004
 Intersection of Spaceport Road and Stellar Ave~
@@ -844,19 +853,19 @@ north is a run-down shop that is owned by one of the local citizens.
 D0
 ~
 ~
-0 -1 9005
+0 -1 9005 0
 D1
 ~
 ~
-0 -1 9008
+0 -1 9008 0
 D2
 ~
 ~
-0 -1 9003
+0 -1 9003 0
 D3
 ~
 ~
-0 -1 9006
+0 -1 9006 0
 S
 #9005
 &z A Run-Down Shop &W~
@@ -868,7 +877,11 @@ not hold up much longer.
 D2
 ~
 ~
-0 -1 9004
+0 -1 9004 0
+R M 0 9001 1 9005
+  R G 1 133 1
+  R G 1 134 1
+  R G 1 56 1
 S
 #9006
 Stellar Ave.~
@@ -881,11 +894,11 @@ would be wise to hurry and find your way before you get lost.
 D1
 ~
 ~
-0 -1 9004
+0 -1 9004 0
 D3
 ~
 ~
-0 -1 9007
+0 -1 9007 0
 S
 #9007
 Stellar Ave.~
@@ -899,15 +912,18 @@ get lost.
 D1
 ~
 ~
-0 -1 9006
+0 -1 9006 0
 D2
 ~
 ~
-0 -1 9075
+0 -1 9075 0
 D3
 ~
 ~
-0 -1 9010
+0 -1 9010 0
+R M 0 9014 1 9007
+R M 0 9014 3 9007
+R M 0 9014 3 9007
 S
 #9008
 Stellar Ave.~
@@ -920,15 +936,17 @@ would be wise to hurry and find your way before you get lost.
 D0
 ~
 ~
-0 -1 9074
+0 -1 9074 0
 D1
 ~
 ~
-0 -1 9009
+0 -1 9009 0
 D3
 ~
 ~
-0 -1 9004
+0 -1 9004 0
+R M 0 9014 2 9008
+R M 0 9014 3 9008
 S
 #9009
 Stellar Ave.~
@@ -941,11 +959,11 @@ would be wise to hurry and find your way before you get lost.
 D1
 ~
 ~
-0 -1 9011
+0 -1 9011 0
 D3
 ~
 ~
-0 -1 9008
+0 -1 9008 0
 S
 #9010
 Stellar Ave.~
@@ -958,15 +976,15 @@ would be wise to hurry and find your way before you get lost.
 D0
 ~
 ~
-0 -1 9023
+0 -1 9023 0
 D1
 ~
 ~
-0 -1 9007
+0 -1 9007 0
 D3
 ~
 ~
-0 -1 9060
+0 -1 9060 0
 S
 #9011
 Stellar Ave.~
@@ -976,15 +994,16 @@ You are standing on one of the busiest streets on the planet. People here are bu
 D0
 ~
 ~
-0 -1 9012
+0 -1 9012 0
 D1
 ~
 ~
-0 -1 9035
+0 -1 9035 0
 D3
 ~
 ~
-0 -1 9009
+0 -1 9009 0
+R M 0 9014 3 9011
 S
 #9012
 The Beginnings of A Junkyard~
@@ -997,11 +1016,11 @@ West of you apparently to block the oder from the main road.
 D0
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 D2
 ~
 ~
-0 -1 9011
+0 -1 9011 0
 S
 #9013
 The Middle of A Junkyard~
@@ -1014,35 +1033,35 @@ lost in the junkyard is not hard so be careful!
 D0
 ~
 ~
-0 -1 9014
+0 -1 9014 0
 D1
 ~
 ~
-0 -1 9017
+0 -1 9017 0
 D2
 ~
 ~
-0 -1 9012
+0 -1 9012 0
 D3
 ~
 ~
-0 -1 9018
+0 -1 9018 0
 D6
 ~
 ~
-0 -1 9022
+0 -1 9022 0
 D7
 ~
 ~
-0 -1 9015
+0 -1 9015 0
 D8
 ~
 ~
-0 -1 9022
+0 -1 9022 0
 D9
 ~
 ~
-0 -1 9015
+0 -1 9015 0
 S
 #9014
 The Middle of A Junkyard~
@@ -1054,23 +1073,23 @@ is all over the ground. You don't see anything of any use here.
 D0
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 D1
 ~
 ~
-0 -1 9017
+0 -1 9017 0
 D2
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 D3
 ~
 ~
-0 -1 9018
+0 -1 9018 0
 D6
 ~
 ~
-0 -1 9016
+0 -1 9016 0
 S
 #9015
 The Middle of A Junkyard~
@@ -1083,7 +1102,7 @@ corpse on the ground under some metal shards.
 D8
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 S
 #9016
 The Middle of A Junkyard~
@@ -1095,11 +1114,11 @@ ship must have been here for at least 50 years!
 D6
 ~
 ~
-0 -1 9021
+0 -1 9021 0
 D9
 ~
 ~
-0 -1 9014
+0 -1 9014 0
 S
 #9017
 The Middle of A Junkyard~
@@ -1112,7 +1131,7 @@ metal surrounding you.
 D3
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 S
 #9018
 The Middle of A Junkyard~
@@ -1125,7 +1144,7 @@ good but not easy.
 D1
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 S
 #9019
 &OA Small Path&w&W~
@@ -1137,11 +1156,11 @@ turn sideways to walk between some of these trees.
 D7
 ~
 ~
-0 -1 9020
+0 -1 9020 0
 D9
 ~
 ~
-0 -1 9033
+0 -1 9033 0
 S
 #9020
 &OA Small Path&w&W~
@@ -1154,11 +1173,11 @@ markings on the tree to the left.
 D6
 ~
 ~
-0 -1 9028
+0 -1 9028 0
 D8
 ~
 ~
-0 -1 9019
+0 -1 9019 0
 E
 tree~
 This planet was created by Keberus and Trelar. You should be
@@ -1176,15 +1195,15 @@ stench of the junk yard still overwhelmes you.
 D0
 ~
 ~
-0 -1 9033
+0 -1 9033 0
 D8
 ~
 ~
-0 -1 9026
+0 -1 9026 0
 D9
 ~
 ~
-0 -1 9016
+0 -1 9016 0
 S
 #9022
 The Middle of A Junkyard~
@@ -1197,7 +1216,7 @@ is disguisting!
 D9
 ~
 ~
-0 -1 9013
+0 -1 9013 0
 S
 #9023
 The Beginnings of A Junkyard~
@@ -1210,11 +1229,11 @@ West of you apparently to block the oder from the main road.
 D0
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 D2
 ~
 ~
-0 -1 9010
+0 -1 9010 0
 S
 #9024
 The Middle of A Junkyard~
@@ -1227,35 +1246,35 @@ Getting lost in the junkyard is not hard so be careful!
 D0
 ~
 ~
-0 -1 9025
+0 -1 9025 0
 D1
 ~
 ~
-0 -1 9032
+0 -1 9032 0
 D2
 ~
 ~
-0 -1 9023
+0 -1 9023 0
 D3
 ~
 ~
-0 -1 9031
+0 -1 9031 0
 D6
 ~
 ~
-0 -1 9029
+0 -1 9029 0
 D7
 ~
 ~
-0 -1 9027
+0 -1 9027 0
 D8
 ~
 ~
-0 -1 9029
+0 -1 9029 0
 D9
 ~
 ~
-0 -1 9027
+0 -1 9027 0
 S
 #9025
 The Middle of A Junkyard~
@@ -1267,23 +1286,23 @@ is all over the ground. You don't see anything of any use here.
 D0
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 D1
 ~
 ~
-0 -1 9032
+0 -1 9032 0
 D2
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 D3
 ~
 ~
-0 -1 9031
+0 -1 9031 0
 D7
 ~
 ~
-0 -1 9026
+0 -1 9026 0
 S
 #9026
 The Middle of A Junkyard~
@@ -1295,11 +1314,11 @@ ship must have been here for at least 50 years!
 D7
 ~
 ~
-0 -1 9021
+0 -1 9021 0
 D8
 ~
 ~
-0 -1 9025
+0 -1 9025 0
 S
 #9027
 The Middle of A Junkyard~
@@ -1312,7 +1331,7 @@ a fresh corpse on the ground under some metal shards.
 D8
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 S
 #9028
 &OA Small Path&w&W~
@@ -1325,11 +1344,11 @@ is to the East of here.
 D1
 ~
 ~
-0 -1 9030
+0 -1 9030 0
 D9
 ~
 ~
-0 -1 9020
+0 -1 9020 0
 S
 #9029
 The Middle of A Junkyard~
@@ -1342,7 +1361,7 @@ place is disguisting!
 D9
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 S
 #9030
 &OPath to the Hunter's Guild&w&W~
@@ -1356,11 +1375,11 @@ should have a closer look!
 D0
 ~
 ~
-0 -1 9034
+0 -1 9034 0
 D3
 ~
 ~
-0 -1 9028
+0 -1 9028 0
 E
 sign~
 You look closely at the sign and it says, "All trespassers will
@@ -1378,19 +1397,19 @@ good but not easy.
 D0
 ~
 ~
-0 -1 9031
+0 -1 9031 0
 D1
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 D3
 ~
 ~
-0 -1 9031
+0 -1 9031 0
 D8
 ~
 ~
-0 -1 9025
+0 -1 9025 0
 S
 #9032
 The Middle of A Junkyard~
@@ -1403,19 +1422,21 @@ metal surrounding you.
 D0
 ~
 ~
-0 -1 9032
+0 -1 9032 0
 D1
 ~
 ~
-0 -1 9032
+0 -1 9032 0
 D3
 ~
 ~
-0 -1 9024
+0 -1 9024 0
 D9
 ~
 ~
-0 -1 9025
+0 -1 9025 0
+R M 0 9013 1 9032
+  R G 1 9020 1
 > act_prog zutton~
 mppurge
 mpecho Zutton runs off into the junkyard.
@@ -1432,11 +1453,11 @@ stench of the junk yard still overwhelmes you.
 D2
 ~
 ~
-0 -1 9021
+0 -1 9021 0
 D6
 ~
 ~
-0 -1 9019
+0 -1 9019 0
 S
 #9034
 &OPath to the Hunter's Guild&w&W~
@@ -1451,11 +1472,11 @@ You see a sign above the door.
 D2
 ~
 ~
-0 -1 9030
+0 -1 9030 0
 D7
 ~
 ~
-0 -1 227
+0 -1 227 0
 E
 sign~
 You look at the sign and it reads, "All Visitors Not Welcome,"
@@ -1475,11 +1496,11 @@ here get rented out rather quickly.
 D1
 ~
 ~
-0 -1 9036
+0 -1 9036 0
 D3
 ~
 ~
-0 -1 9011
+0 -1 9011 0
 S
 #9036
 A Hallway~
@@ -1492,19 +1513,19 @@ amount of lights mounted on the ceiling.
 D0
 ~
 ~
-0 -1 9045
+0 -1 9045 0
 D1
 ~
 ~
-0 -1 9037
+0 -1 9037 0
 D2
 ~
 ~
-0 -1 9046
+0 -1 9046 0
 D3
 ~
 ~
-0 -1 9035
+0 -1 9035 0
 S
 #9037
 A Hallway~
@@ -1519,23 +1540,23 @@ avai lable.
 D0
 ~
 ~
-0 -1 9047
+0 -1 9047 0
 D1
 ~
 ~
-0 -1 9049
+0 -1 9049 0
 D2
 ~
 ~
-0 -1 9048
+0 -1 9048 0
 D3
 ~
 ~
-0 -1 9036
+0 -1 9036 0
 D6
 ~
 ~
-0 -1 9038
+0 -1 9038 0
 S
 #9038
 First Floor Landing~
@@ -1550,11 +1571,11 @@ floor or just back to the first floor.
 D4
 ~
 Stairs~
-0 -1 9040
+0 -1 9040 0
 D9
 ~
 ~
-0 -1 9037
+0 -1 9037 0
 S
 #9039
 Third Floor Landing~
@@ -1570,11 +1591,11 @@ of the Third floor.
 D5
 ~
 ~
-0 -1 9040
+0 -1 9040 0
 D9
 ~
 ~
-0 -1 9042
+0 -1 9042 0
 S
 #9040
 Second Floor Landing~
@@ -1590,15 +1611,15 @@ area of the Second floor.
 D4
 ~
 ~
-0 -1 9039
+0 -1 9039 0
 D5
 ~
 ~
-0 -1 9038
+0 -1 9038 0
 D9
 ~
 ~
-0 -1 9041
+0 -1 9041 0
 S
 #9041
 A Hallway~
@@ -1612,23 +1633,23 @@ avai lable.
 D0
 ~
 ~
-0 -1 9052
+0 -1 9052 0
 D1
 ~
 ~
-0 -1 9054
+0 -1 9054 0
 D2
 ~
 ~
-0 -1 9053
+0 -1 9053 0
 D3
 ~
 ~
-0 -1 9043
+0 -1 9043 0
 D6
 ~
 ~
-0 -1 9040
+0 -1 9040 0
 S
 #9042
 A Hallway~
@@ -1642,23 +1663,23 @@ avai lable.
 D0
 ~
 ~
-0 -1 9057
+0 -1 9057 0
 D1
 ~
 ~
-0 -1 9059
+0 -1 9059 0
 D2
 ~
 ~
-0 -1 9058
+0 -1 9058 0
 D3
 ~
 ~
-0 -1 9044
+0 -1 9044 0
 D6
 ~
 ~
-0 -1 9039
+0 -1 9039 0
 S
 #9043
 A Hallway~
@@ -1672,15 +1693,15 @@ avai lable.
 D0
 ~
 ~
-0 -1 9050
+0 -1 9050 0
 D1
 ~
 ~
-0 -1 9041
+0 -1 9041 0
 D2
 ~
 ~
-0 -1 9051
+0 -1 9051 0
 S
 #9044
 A Hallway~
@@ -1694,15 +1715,15 @@ avai lable.
 D0
 ~
 ~
-0 -1 9055
+0 -1 9055 0
 D1
 ~
 ~
-0 -1 9042
+0 -1 9042 0
 D2
 ~
 ~
-0 -1 9056
+0 -1 9056 0
 S
 #9045
 An Empty Apartment~
@@ -1716,7 +1737,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9036
+0 -1 9036 0
 S
 #9046
 An Empty Apartment~
@@ -1730,7 +1751,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9036
+0 -1 9036 0
 S
 #9047
 An Empty Apartment~
@@ -1744,7 +1765,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9037
+0 -1 9037 0
 S
 #9048
 An Empty Apartment~
@@ -1758,7 +1779,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9037
+0 -1 9037 0
 S
 #9049
 An Empty Apartment~
@@ -1772,7 +1793,7 @@ to sleep.
 D3
 ~
 ~
-0 -1 9037
+0 -1 9037 0
 S
 #9050
 An Empty Apartment~
@@ -1786,7 +1807,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9043
+0 -1 9043 0
 S
 #9051
 An Empty Apartment~
@@ -1800,7 +1821,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9043
+0 -1 9043 0
 S
 #9052
 An Empty Apartment~
@@ -1814,7 +1835,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9041
+0 -1 9041 0
 S
 #9053
 An Empty Apartment~
@@ -1828,7 +1849,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9041
+0 -1 9041 0
 S
 #9054
 An Empty Apartment~
@@ -1842,7 +1863,7 @@ to sleep.
 D3
 ~
 ~
-0 -1 9041
+0 -1 9041 0
 S
 #9055
 An Empty Apartment~
@@ -1856,7 +1877,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9044
+0 -1 9044 0
 S
 #9056
 An Empty Apartment~
@@ -1870,7 +1891,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9044
+0 -1 9044 0
 S
 #9057
 An Empty Apartment~
@@ -1884,7 +1905,7 @@ to sleep.
 D2
 ~
 ~
-0 -1 9042
+0 -1 9042 0
 S
 #9058
 An Empty Apartment~
@@ -1898,7 +1919,7 @@ to sleep.
 D0
 ~
 ~
-0 -1 9042
+0 -1 9042 0
 S
 #9059
 An Empty Apartment~
@@ -1912,7 +1933,7 @@ to sleep.
 D3
 ~
 ~
-0 -1 9042
+0 -1 9042 0
 S
 #9060
 Abandoned Stellar Energy Plant~
@@ -1925,11 +1946,11 @@ is a museuem please keep the noise to a minimum.
 D0
 ~
 ~
-0 -1 9076
+0 -1 9076 0
 D1
 ~
 ~
-0 -1 9010
+0 -1 9010 0
 E
 Statue Leia Organa Solo~
 You gaze upon the statue of Princess Leia Organa Solo. She was
@@ -1951,11 +1972,11 @@ controlling the flow of illegal contraband on Ord  Mantell.
 D0
 ~
 ~
-0 -1 9062
+0 -1 9062 0
 D2
 ~
 ~
-0 -1 9002
+0 -1 9002 0
 S
 #9062
 Intersection of Spaceport Road and Plateau Blvd.~
@@ -1969,19 +1990,22 @@ and crummy it is compared to Stellar Avenue.
 D0
 ~
 ~
-0 -1 9003
+0 -1 9003 0
 D1
 ~
 ~
-0 -1 9066
+0 -1 9066 0
 D2
 ~
 ~
-0 -1 9061
+0 -1 9061 0
 D3
 ~
 ~
-0 -1 9063
+0 -1 9063 0
+R M 0 9004 1 9062
+R M 0 9014 4 9062
+R M 0 9014 3 9062
 S
 #9063
 Plateau Blvd.~
@@ -1995,11 +2019,11 @@ is the worst street on the planet.
 D1
 ~
 ~
-0 -1 9062
+0 -1 9062 0
 D3
 ~
 ~
-0 -1 9064
+0 -1 9064 0
 S
 #9064
 Plateau Blvd.~
@@ -2013,15 +2037,16 @@ is the worst street on the planet.
 D0
 ~
 ~
-0 -1 9407
+0 -1 9407 0
 D1
 ~
 ~
-0 -1 9063
+0 -1 9063 0
 D3
 ~
 ~
-0 -1 9065
+0 -1 9065 0
+R M 0 9014 1 9064
 S
 #9065
 Plateau Blvd.~
@@ -2035,11 +2060,11 @@ is the worst street on the planet.
 D1
 ~
 ~
-0 -1 9064
+0 -1 9064 0
 D2
 ~
 ~
-0 -1 9072
+0 -1 9072 0
 S
 #9066
 Plateau Blvd.~
@@ -2053,11 +2078,11 @@ is the worst street on the planet.
 D1
 ~
 ~
-0 -1 9067
+0 -1 9067 0
 D3
 ~
 ~
-0 -1 9062
+0 -1 9062 0
 S
 #9067
 Plateau Blvd.~
@@ -2071,15 +2096,15 @@ is the worst street on the planet.
 D0
 ~
 ~
-0 -1 9069
+0 -1 9069 0
 D1
 ~
 ~
-0 -1 9068
+0 -1 9068 0
 D3
 ~
 ~
-0 -1 9066
+0 -1 9066 0
 S
 #9068
 Plateau Blvd.~
@@ -2093,7 +2118,8 @@ is the worst street on the planet.
 D3
 ~
 ~
-0 -1 9067
+0 -1 9067 0
+R M 0 9014 1 9068
 S
 #9069
 &G Food Court &w&W~
@@ -2107,15 +2133,15 @@ coming from the Northwest.
 D2
 ~
 ~
-0 -1 9067
+0 -1 9067 0
 D6
 ~
 ~
-0 -1 9070
+0 -1 9070 0
 D7
 ~
 ~
-0 -1 9071
+0 -1 9071 0
 S
 #9070
 &cThe Hunter's Cafe&w&W~
@@ -2128,7 +2154,13 @@ here.
 D9
 ~
 ~
-0 -1 9069
+0 -1 9069 0
+R M 0 9003 1 9070
+  R G 1 9004 1
+  R G 1 9003 1
+  R G 1 9005 1
+  R G 1 133 1
+  R G 1 134 1
 S
 #9071
 &gThe Wet Hunter&w&W~
@@ -2142,7 +2174,13 @@ buy beer.
 D8
 ~
 ~
-0 -1 9069
+0 -1 9069 0
+R M 0 9002 1 9071
+  R G 1 9007 100
+  R G 1 9009 100
+  R G 1 9010 100
+  R G 1 9008 100
+  R G 1 9006 100
 S
 #9072
 &R Bounty Claims Office &w&W~
@@ -2157,7 +2195,9 @@ the clerk about that person.
 D0
 ~
 ~
-0 -1 9065
+0 -1 9065 0
+R M 0 9009 1 9072
+R O 0 9014 1 9072
 E
 list~
 Name - Wanted Where? - Bounty
@@ -2176,7 +2216,9 @@ You stand in the public medical facility of Ord Mantell. The facility is kept sp
 D2
 ~
 ~
-0 -1 9064
+0 -1 9064 0
+R M 0 9010 1 9073
+  R G 1 3 1
 S
 #9074
 &B Kashieem's Pawn Shop &W~
@@ -2189,7 +2231,10 @@ quite some time, but it still is in a "better than most" condition.
 D2
 ~
 ~
-0 -1 9008
+0 -1 9008 0
+R M 0 9011 1 9074
+  R E 1 50 1 16
+R O 0 9015 1 9074
 S
 #9075
 &OThe Junkyard Hotel&w&W~
@@ -2205,11 +2250,13 @@ You can safely save and quit the game here.
 D0
 ~
 ~
-0 -1 9007
+0 -1 9007 0
 D3
 ~
 ~
-0 -1 9082
+0 -1 9082 0
+R M 0 9012 1 9075
+R O 0 116 1 9075
 S
 #9076
 Princess Leia Organa Solo~
@@ -2235,11 +2282,12 @@ areas.
 D0
 ~
 ~
-0 -1 9077
+0 -1 9077 0
 D2
 ~
 ~
-0 -1 9060
+0 -1 9060 0
+R O 0 9001 1 9076
 E
 leia~
 ~
@@ -2274,15 +2322,16 @@ though, was different and Luke considered him a true friend.
 D0
 ~
 ~
-0 -1 9080
+0 -1 9080 0
 D1
 ~
 ~
-0 -1 9078
+0 -1 9078 0
 D2
 ~
 ~
-0 -1 9076
+0 -1 9076 0
+R O 0 9002 1 9077
 S
 #9078
 Obi-Wan Kenobi, Jedi Knight~
@@ -2316,11 +2365,12 @@ of the Force advises.
 D1
 ~
 ~
-0 -1 9079
+0 -1 9079 0
 D3
 ~
 ~
-0 -1 9077
+0 -1 9077 0
+R O 0 9018 1 9078
 S
 #9079
 Han Solo, General~
@@ -2341,7 +2391,8 @@ game.
 D3
 ~
 ~
-0 -1 9078
+0 -1 9078 0
+R O 0 9019 1 9079
 S
 #9080
 Chewbacca the Wookiee, General~
@@ -2365,11 +2416,12 @@ the freighter Millennium Falcon, their exploits became legendary.
 D0
 ~
 ~
-0 -1 9081
+0 -1 9081 0
 D2
 ~
 ~
-0 -1 9077
+0 -1 9077 0
+R O 0 9016 1 9080
 S
 #9081
 Qui-Gon Jinn, Jedi Knight~
@@ -2402,7 +2454,8 @@ Obi-Wan to train Anakin, a request Kenobi accepted.
 D2
 ~
 ~
-0 -1 9080
+0 -1 9080 0
+R O 0 9017 1 9081
 S
 #9082
 The Galactic Mail Center~
@@ -2411,7 +2464,8 @@ The Galactic Mail Center~
 D1
 ~
 ~
-0 -1 9075
+0 -1 9075 0
+R O 0 38 1 9082
 S
 #9404
 Floating in a void~
@@ -2429,11 +2483,11 @@ and the Main has been here for a long, long time.
 D3
 ~
 ~
-0 -1 9000
+0 -1 9000 0
 D7
 ~
 ~
-0 -1 9001
+0 -1 9001 0
 S
 #9406
 &G A Bacta Tank &W&w~
@@ -2446,7 +2500,7 @@ for is curing of major as well as minor wounds to the body.
 D2
 ~
 ~
-0 -1 9073
+0 -1 9073 0
 > rand_prog 50~
 if ispc($n)
 mprestore $n 100
@@ -2465,81 +2519,23 @@ couches, displaying the latest stock trends.
 D2
 ~
 ~
-0 -1 9064
+0 -1 9064 0
 S
 #9500
 Floating in a void~
 ~
 0 4 1 0 0 0 30520
+R M 0 9500 1 9500
 S
 #0
 
 
-#RESETS
-M 1 9500 1 9500
-M 1 9002 1 9071
-G 1 9007 100
-G 1 9009 100
-G 1 9010 100
-G 1 9008 100
-G 1 9006 100
-M 1 9003 1 9070
-G 1 9004 1
-G 1 9003 1
-G 1 9005 1
-G 1 133 1
-G 1 134 1
-M 1 9010 1 9073
-G 1 3 1
-M 1 9001 1 9005
-G 1 133 1
-G 1 134 1
-G 1 56 1
-M 1 9009 1 9072
-O 1 9014 1 9072
-O 1 9017 1 9081
-O 1 9016 1 9080
-O 1 9002 1 9077
-O 1 9001 1 9076
-O 1 9018 1 9078
-O 1 9019 1 9079
-M 1 9013 1 9032
-G 1 9020 1
-M 1 9005 4 9001
-E 1 50 1 16
-M 1 9005 4 9001
-E 1 50 1 16
-M 1 9005 4 9001
-E 1 50 1 16
-M 1 9005 4 9001
-E 1 50 1 16
-M 1 9014 1 9007
-M 1 9012 1 9075
-O 1 116 1 9075
-M 1 9014 2 9008
-M 1 9014 3 9011
-M 1 9004 1 9062
-M 1 9014 4 9062
-M 1 9011 1 9074
-E 1 50 1 16
-O 1 9015 1 9074
-M 0 9014 3 9062
-M 0 9014 3 9007
-M 0 9014 3 9007
-M 0 9014 3 9008
-M 0 9014 1 9064
-M 0 9014 1 9068
-M 0 9014 1 9000
-O 1 38 1 9082
-S
-
-
 #SHOPS
- 9001    0  0  0  0  0   100  90         3 22 0  ; An older model droid
- 9002    0  0  0  0  0   140   0         1 23 0  ; A Bartender Droid
- 9003    0  0  0  0  0   120  90         0 23 0  ; A Small Food Droid
- 9011   18  8  9  5  0   120  15         1 23 0  ; Kashieem
- 9499    9  5  0  0  0   120  90         0 23 0  ; a newly created testmob
+ 9001    0  0  0  0  0   100  90         3 22    ; An older model droid
+ 9002    0  0  0  0  0   140   0         1 23    ; A Bartender Droid
+ 9003    0  0  0  0  0   120  90         0 23    ; A Small Food Droid
+ 9011   18  8  9  5  0   120  15         1 23    ; Kashieem
+ 9499    9  5  0  0  0   120  90         0 23    ; a newly created testmob
 0
 
 
